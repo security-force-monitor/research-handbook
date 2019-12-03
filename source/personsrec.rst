@@ -5,7 +5,7 @@ This page contains an overview of the data that visitors to WhoWasInCommand will
 
 This includes the different sections of the person record, the data fields that are used to create it and links to more information about each field.
 
-Person record: title area
+Person record: Title area
 ------------------------
 
 .. figure:: _static/person_record_anatomy_title_area.png
@@ -21,7 +21,7 @@ This section contains key information about the identity of the person. It also 
 -  :ref:`Person: Other Names`
 -  :ref:`Person: Country`
 
-Person record: content sidebar
+Person record: Content sidebar
 -----------------------------
 
 .. figure:: _static/person_record_anatomy_content_sidebar.png
@@ -31,7 +31,7 @@ Person record: content sidebar
 
 The content sidebar is a navigation aid. It provides quick links to different sections of the person record. The items inside the content sidebar indicate what sort of data is available about this person. If a particular section is not listed in the content sidebar - for example, "Subordinates" - then there is no data available about the subordinates of this person.
 
-Person "Last Seen As"
+Person record: Person "Last Seen As"
 ---------------------
 
 .. figure:: _static/person_record_anatomy_last_seen_as.png
@@ -52,7 +52,7 @@ The following fields are used in the Last Seen As section:
 -  :ref:`Person: Posting Last Cited Date`
 -  :ref:`Person: Posting Last Cited Date is End Date`
 
-Person memberships
+Person record: Person memberships
 ------------------
 
 .. figure:: _static/person_record_anatomy_memberships.png
