@@ -19,8 +19,8 @@ Sample data entry sheets
 
 Security Force Monitor uses databases, spreadsheets and other tools to capture and analyse the data described in this Research Handbook. Though the spreadsheet can get quite large and unwieldy, it remains an extremely powerful and effective way to capture and store data. To assist you with your research, here are the formats we use as a Google Sheet, and in Excel and OpenDocument formats:
 
-- Sample data entry sheets `in Excel format<_static/sfm_data_entry_20191203.xlsx>`_.
-- Sample data entry sheets `in Open Document format<_static/sfm_data_entry_20191203.ods>`_.
-- Sample data entry sheets `as a Google Sheet<https://docs.google.com/spreadsheets/d/1-ae43_6JfXHZyC0-rYkOvnbB2RZgzyEy2VgJqAD_-KA/>`_.
+- Sample data entry sheets `in Excel format <_static/sfm_data_entry_20191203.xlsx>`_.
+- Sample data entry sheets `in Open Document format <_static/sfm_data_entry_20191203.ods>`_.
+- Sample data entry sheets `as a Google Sheet <https://docs.google.com/spreadsheets/d/1-ae43_6JfXHZyC0-rYkOvnbB2RZgzyEy2VgJqAD_-KA/>`_.
 
 
