@@ -48,7 +48,7 @@ No
 This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs can be created easily using either installable or online tools, for example:
 
 - Linux and OSX users: `uuidgen` command line tool.
-- On the web: `UUID Generator<https://www.uuidgenerator.net/version>`_.
+- On the web: `UUID Generator <https://www.uuidgenerator.net/version>`_.
 
 The field is administrative, providing a reliable way to differentiate between different persons. In earlier versions, Security Force Monitor used ``person:name`` to do this role but this provided inefficient as the dataset grew.
 
