@@ -1,0 +1,613 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research
+# Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-26 12:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/persons.rst:2
+msgid "Persons"
+msgstr ""
+
+#: ../../source/persons.rst:4
+msgid ""
+"Persons are natural persons who are affiliated with, or hold positions of"
+" command over a specific organization at a particular point in time."
+msgstr ""
+
+#: ../../source/persons.rst:7
+msgid "Person: ID"
+msgstr ""
+
+#: ../../source/persons.rst:9 ../../source/persons.rst:28
+#: ../../source/persons.rst:47 ../../source/persons.rst:66
+#: ../../source/persons.rst:87 ../../source/persons.rst:108
+#: ../../source/persons.rst:129 ../../source/persons.rst:150
+#: ../../source/persons.rst:171 ../../source/persons.rst:192
+#: ../../source/persons.rst:211 ../../source/persons.rst:230
+#: ../../source/persons.rst:255 ../../source/persons.rst:274
+#: ../../source/persons.rst:295 ../../source/persons.rst:329
+#: ../../source/persons.rst:350 ../../source/persons.rst:361
+#: ../../source/persons.rst:393 ../../source/persons.rst:415
+#: ../../source/persons.rst:426
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/persons.rst:11
+msgid "A unique number for each person in the dataset."
+msgstr ""
+
+#: ../../source/persons.rst:13 ../../source/persons.rst:32
+#: ../../source/persons.rst:51 ../../source/persons.rst:70
+#: ../../source/persons.rst:91 ../../source/persons.rst:112
+#: ../../source/persons.rst:133 ../../source/persons.rst:154
+#: ../../source/persons.rst:175 ../../source/persons.rst:196
+#: ../../source/persons.rst:215 ../../source/persons.rst:234
+#: ../../source/persons.rst:259 ../../source/persons.rst:278
+#: ../../source/persons.rst:299 ../../source/persons.rst:333
+#: ../../source/persons.rst:352 ../../source/persons.rst:365
+#: ../../source/persons.rst:397 ../../source/persons.rst:417
+#: ../../source/persons.rst:430
+msgid "**Type of field**"
+msgstr ""
+
+#: ../../source/persons.rst:15 ../../source/persons.rst:34
+#: ../../source/persons.rst:432
+msgid "Text and numbers"
+msgstr ""
+
+#: ../../source/persons.rst:17 ../../source/persons.rst:36
+#: ../../source/persons.rst:55 ../../source/persons.rst:74
+#: ../../source/persons.rst:95 ../../source/persons.rst:116
+#: ../../source/persons.rst:137 ../../source/persons.rst:158
+#: ../../source/persons.rst:179 ../../source/persons.rst:200
+#: ../../source/persons.rst:219 ../../source/persons.rst:238
+#: ../../source/persons.rst:263 ../../source/persons.rst:282
+#: ../../source/persons.rst:303 ../../source/persons.rst:337
+#: ../../source/persons.rst:354 ../../source/persons.rst:369
+#: ../../source/persons.rst:401 ../../source/persons.rst:419
+#: ../../source/persons.rst:434
+msgid "**Example of use**"
+msgstr ""
+
+#: ../../source/persons.rst:19
+msgid "``a848de4e-ebeb-49d6-9099-7e68ca3b57fc``"
+msgstr ""
+
+#: ../../source/persons.rst:21 ../../source/persons.rst:40
+#: ../../source/persons.rst:59 ../../source/persons.rst:78
+#: ../../source/persons.rst:99 ../../source/persons.rst:120
+#: ../../source/persons.rst:141 ../../source/persons.rst:162
+#: ../../source/persons.rst:183 ../../source/persons.rst:204
+#: ../../source/persons.rst:223 ../../source/persons.rst:242
+#: ../../source/persons.rst:267 ../../source/persons.rst:286
+#: ../../source/persons.rst:307 ../../source/persons.rst:341
+#: ../../source/persons.rst:356 ../../source/persons.rst:373
+#: ../../source/persons.rst:405 ../../source/persons.rst:421
+#: ../../source/persons.rst:438
+msgid "**Guidance on use**"
+msgstr ""
+
+#: ../../source/persons.rst:23
+msgid ""
+"This field contains an automatically-generated unique identifier for each"
+" person in the Monitor’s database."
+msgstr ""
+
+#: ../../source/persons.rst:26
+msgid "Person: Name"
+msgstr ""
+
+#: ../../source/persons.rst:30
+msgid "Full name of the person, including given, patronym and surnames."
+msgstr ""
+
+#: ../../source/persons.rst:38
+msgid "``Magaji Musa Majia'a``"
+msgstr ""
+
+#: ../../source/persons.rst:42
+msgid ""
+"Different sources will spell the name of a person in different ways, so "
+"we choose a name to be a canonical entry for that person. Whenever "
+"possible, the canonical entry will contain the most complicated or "
+"complete version of a person's name, even if it has the smallest number "
+"of citations. For example ``Magaji Musa Majia'a`` will be used instead of"
+" ``Magaji Majiaa``. Other names will be placed in the ``Person: Aliases``"
+" field (documented below)."
+msgstr ""
+
+#: ../../source/persons.rst:45
+msgid "Person: Aliases"
+msgstr ""
+
+#: ../../source/persons.rst:49
+msgid "Other names used to identify a person."
+msgstr ""
+
+#: ../../source/persons.rst:53 ../../source/persons.rst:261
+#: ../../source/persons.rst:280
+msgid "Text and numbers, free entry"
+msgstr ""
+
+#: ../../source/persons.rst:57
+msgid "``Virgilio Daniel Méndez Bazan``, ``Virgilio Daniel Mendez Bazán``"
+msgstr ""
+
+#: ../../source/persons.rst:61
+msgid ""
+"Different sources will spell a person's name in different ways. We choose"
+" and record a canonical version of a person's name in the ``Person: "
+"Name`` field. All other spellings that we have found are treated as "
+"aliases and stored in this field. This field may contain multiple values,"
+" which will be separated by a semi-colon."
+msgstr ""
+
+#: ../../source/persons.rst:64
+msgid "Person: Country"
+msgstr ""
+
+#: ../../source/persons.rst:68
+msgid "Country where an organization that a person is a member of is located."
+msgstr ""
+
+#: ../../source/persons.rst:72
+msgid "Text, controlled vocabulary"
+msgstr ""
+
+#: ../../source/persons.rst:76
+msgid "``mx``"
+msgstr ""
+
+#: ../../source/persons.rst:80
+msgid ""
+"Values for this field are chosen from the list of ISO 3166-1 alpha-2 "
+"codes, which can be found (`on the ISO website "
+"<https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia "
+"<https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__."
+" This field does not denote the citizenship or country of origin of a "
+"person. Rather, it denotes where a unit they are a member of is located. "
+"For example, if ``1 Batallón de Infantería`` is located in Juarez, "
+"Mexico, the organization will be assigned a value of ``mx`` in the field "
+"``Organization: Country``. Any person who is a member of that "
+"organization will be assigned a value of ``mx`` in the field ``Person: "
+"Country`` as well. A person may have multiple entries for ``Person: "
+"Country`` where our research shows they or an organization they are a "
+"member of is deployed to different countries."
+msgstr ""
+
+#: ../../source/persons.rst:83
+msgid "Person: Gender"
+msgstr ""
+
+#: ../../source/persons.rst:85 ../../source/persons.rst:89
+#: ../../source/persons.rst:93 ../../source/persons.rst:97
+#: ../../source/persons.rst:101 ../../source/persons.rst:106
+#: ../../source/persons.rst:110 ../../source/persons.rst:114
+#: ../../source/persons.rst:118 ../../source/persons.rst:122
+#: ../../source/persons.rst:127 ../../source/persons.rst:131
+#: ../../source/persons.rst:135 ../../source/persons.rst:139
+#: ../../source/persons.rst:143 ../../source/persons.rst:148
+#: ../../source/persons.rst:152 ../../source/persons.rst:156
+#: ../../source/persons.rst:160 ../../source/persons.rst:164
+#: ../../source/persons.rst:169 ../../source/persons.rst:173
+#: ../../source/persons.rst:177 ../../source/persons.rst:181
+#: ../../source/persons.rst:185 ../../source/persons.rst:190
+#: ../../source/persons.rst:194 ../../source/persons.rst:198
+#: ../../source/persons.rst:202 ../../source/persons.rst:206
+msgid "To do"
+msgstr ""
+
+#: ../../source/persons.rst:104
+msgid "Person: Date of Birth"
+msgstr ""
+
+#: ../../source/persons.rst:125
+msgid "Person: Date of Death"
+msgstr ""
+
+#: ../../source/persons.rst:146
+msgid "Person: Deceased"
+msgstr ""
+
+#: ../../source/persons.rst:167
+msgid "Person: Biography"
+msgstr ""
+
+#: ../../source/persons.rst:188
+msgid "Person: External Link"
+msgstr ""
+
+#: ../../source/persons.rst:209
+msgid "Person: Organization"
+msgstr ""
+
+#: ../../source/persons.rst:213
+msgid "The organization that the person is a member of."
+msgstr ""
+
+#: ../../source/persons.rst:217 ../../source/persons.rst:236
+msgid "Text and numbers, controlled vocabulary"
+msgstr ""
+
+#: ../../source/persons.rst:221
+msgid "``35 Batallón de Infantería``"
+msgstr ""
+
+#: ../../source/persons.rst:225
+msgid ""
+"Values in this field correspond with names of organizations that already "
+"exist in the dataset (recording in the field ``Organization: Name``. A "
+"person can have multiple memberships of the same organization if there is"
+" a change to their entries for ``Person: Rank``, ``Person: Title`` or "
+"``Person: Role`` with respect to the organization. An example of this is "
+"where a person is promoted. Another case where a person can have multiple"
+" membership of the same organization is where research indicates there "
+"are clear start or end dates to a membership. An example of where this "
+"might occur is if a person does multiples \"tours\" in a particular "
+"organization."
+msgstr ""
+
+#: ../../source/persons.rst:228
+msgid "Person: Role"
+msgstr ""
+
+#: ../../source/persons.rst:232
+msgid ""
+"The role a person plays in the organization that is not evident from "
+"entries in ``Person: Title`` or ``Person: Rank``."
+msgstr ""
+
+#: ../../source/persons.rst:240
+msgid "``Commander``"
+msgstr ""
+
+#: ../../source/persons.rst:244
+msgid "The most common value we record in ``Person: Role`` is ``Commander``."
+msgstr ""
+
+#: ../../source/persons.rst:246
+msgid ""
+"There are a variety of other roles a person can have including ``Second "
+"in Command``, ``Chief of Staff`` along with other less common entries. "
+"They will vary between countries."
+msgstr ""
+
+#: ../../source/persons.rst:248
+msgid ""
+"As a special note, heads of academic or other security force institutions"
+" will sometimes be referred to as the ``Commandant``. In these cases, "
+"``Commandant`` should be recorded in the ``Title`` field, and their role "
+"should be recorded as ``Commander``."
+msgstr ""
+
+#: ../../source/persons.rst:250
+msgid ""
+"If a person is referred to as “the head”, “chief” or some other variation"
+" indicating that they are in charge of a unit, they should be regarded as"
+" the ``Commander``."
+msgstr ""
+
+#: ../../source/persons.rst:253
+msgid "Person: Title"
+msgstr ""
+
+#: ../../source/persons.rst:257
+msgid "A title held by a person that is separate from their rank or role."
+msgstr ""
+
+#: ../../source/persons.rst:265
+msgid "``General Officer Commanding``, ``Jefe Del Estado Mayor``"
+msgstr ""
+
+#: ../../source/persons.rst:269
+msgid ""
+"The range of titles will vary from country to country. For example, "
+"commanders of army divisions in Nigeria, who usually hold the rank of "
+"``Major General`` also hold the title of ``General Officer Commanding``."
+msgstr ""
+
+#: ../../source/persons.rst:272
+msgid "Person: Rank"
+msgstr ""
+
+#: ../../source/persons.rst:276
+msgid "The official position of a person in the hierarchy of a security force."
+msgstr ""
+
+#: ../../source/persons.rst:284
+msgid "``General de División``, ``Teniente Coronel``, ``Air Vice Marshal``"
+msgstr ""
+
+#: ../../source/persons.rst:288
+msgid "We remove any dashes that are contained in ``Person: Rank`` values."
+msgstr ""
+
+#: ../../source/persons.rst:290
+msgid ""
+"For example, we would enter ``Brigadier General`` rather than "
+"``Brigadier-General``."
+msgstr ""
+
+#: ../../source/persons.rst:293
+msgid "Person Membership: Date first cited"
+msgstr ""
+
+#: ../../source/persons.rst:297
+msgid ""
+"The earliest date a source evidences a relationship between a person and "
+"an organization, either through direct reference in the source or by the "
+"date of its publication."
+msgstr ""
+
+#: ../../source/persons.rst:301 ../../source/persons.rst:367
+msgid "Date (YYYY-MM-DD), fuzzy"
+msgstr ""
+
+#: ../../source/persons.rst:305
+msgid "``2012``, ``2012-11``, ``2012-11-23``"
+msgstr ""
+
+#: ../../source/persons.rst:309
+msgid ""
+"Along with the fields ``Person membership: Start date?``, ``Person "
+"Membership: Date last cited`` and ``Person Membership: Open-ended?`` the "
+"field ``Person Memberships: Date first cited`` provides data about the "
+"time period over which we can evidence a person's relationships to an "
+"organization"
+msgstr ""
+
+#: ../../source/persons.rst:311
+msgid ""
+"The ``Person Membership: Date first cited`` field contains a date that is"
+" either:"
+msgstr ""
+
+#: ../../source/persons.rst:313
+msgid ""
+"The earliest date found in the content of a source that specifically "
+"references the relationship between a person and an organization; or,"
+msgstr ""
+
+#: ../../source/persons.rst:314
+msgid ""
+"The earliest date of publication of sources that makes reference to the "
+"relationship between a person and an organization."
+msgstr ""
+
+#: ../../source/persons.rst:316
+msgid ""
+"For example, if three sources published on 1 January 2012, 1 February "
+"2012 and 1 March 2012 all refer to this person as a commander, we will "
+"use 1 January 2012 as the value in ``Person Membership: Date first "
+"cited``. If the source published on 1 March 2012 refers to this person as"
+" a commander on the date of 30 June 2011, we will use 30 June 2011 as the"
+" value in ``Person Membership: Date first cited``."
+msgstr ""
+
+#: ../../source/persons.rst:318
+msgid ""
+"The values for ``Person: Title``, ``Person: Role`` and ``Person: Rank`` "
+"held by a person are assumed to continue until a source indicates a "
+"change in any of those values. If the person's role, title or rank "
+"changes a new entry will need to be created to document that change. This"
+" new entry will have updated values for ``Person Membership: Date first "
+"cited`` and related date fields."
+msgstr ""
+
+#: ../../source/persons.rst:320
+msgid ""
+"For example, if a source indicates that Major General Jack Johnson is the"
+" commander of 1 Division as of 2007-08-20 all of the relevant fields "
+"would be entered based on that source. If another source states that Jack"
+" Johnson retired from the 1 Division on 2008-01-10 the last citation for "
+"Jack Johnson's affiliation would be 2008-01-10. However, this would also "
+"assume that Jack Johnson continued to have the Role of Commander and the "
+"Rank of Major General from 2007-08-20 until 2008-01-10."
+msgstr ""
+
+#: ../../source/persons.rst:322
+msgid ""
+"In keeping with all date fields we include in this dataset, where our "
+"research can only find a year or a year and a month, this can be included"
+" in ``Person Membership: Date first cited``."
+msgstr ""
+
+#: ../../source/persons.rst:324
+msgid ""
+"This field is clarified by the field ``Person Membership: Start date?`` "
+"which indicates whether the date included here is the actual date on "
+"which the relationship between a person and an organization started."
+msgstr ""
+
+#: ../../source/persons.rst:327
+msgid "Person Membership: Start date"
+msgstr ""
+
+#: ../../source/persons.rst:331
+msgid ""
+"Indicates whether the value in ``Person Membership: Date first cited`` is"
+" the actual date on which a person became a member of this organization, "
+"or the earliest date a source has referred to the relationship."
+msgstr ""
+
+#: ../../source/persons.rst:335
+msgid "Boolean, Y/N"
+msgstr ""
+
+#: ../../source/persons.rst:339
+msgid "``Y``, ``N``"
+msgstr ""
+
+#: ../../source/persons.rst:343
+msgid "This is a clarifying field for ``Person Membership: Date first cited``."
+msgstr ""
+
+#: ../../source/persons.rst:345
+msgid ""
+"Where the content of the source has indicated the exact date that a "
+"relationship between a person and an organization began we will enter "
+"``Y`` . In all other cases we will enter a value of ``N`` to indicate "
+"that the date is not a start date, but the date of first citation."
+msgstr ""
+
+#: ../../source/persons.rst:348
+msgid "Person Membership: Context Start Date"
+msgstr ""
+
+#: ../../source/persons.rst:359
+msgid "Person Membership: Date last cited"
+msgstr ""
+
+#: ../../source/persons.rst:363
+msgid ""
+"The latest date a source evidences a relationship between a person and an"
+" organization, either through direct reference in the source or by the "
+"date of its publication."
+msgstr ""
+
+#: ../../source/persons.rst:371
+msgid "``2012``,\\ ``2012-11``, ``2012-11-23``"
+msgstr ""
+
+#: ../../source/persons.rst:375
+msgid ""
+"Along with the fields ``Person Membership: Date first cited``, ``Person "
+"Membership: Start date?`` and ``Person Membership: Open-ended?`` the "
+"field ``Person Memberships: Date last cited`` provides data about the "
+"time period over which we can evidence a person's relationships to an "
+"organization"
+msgstr ""
+
+#: ../../source/persons.rst:377
+msgid ""
+"The ``Person Membership: Date last cited`` field contains a date that is "
+"either:"
+msgstr ""
+
+#: ../../source/persons.rst:379
+msgid ""
+"The latest date found in the content of a source that specifically "
+"references the relationship between a person and an organization; or,"
+msgstr ""
+
+#: ../../source/persons.rst:380
+msgid ""
+"The latest date of publication of sources that makes reference to the "
+"relationship between a person and an organization."
+msgstr ""
+
+#: ../../source/persons.rst:382
+msgid ""
+"For example, if three sources published on 1 January 2012, 1 February "
+"2012 and 1 March 2012 all refer to this person as a commander, we will "
+"use 1 March 2012 as the value in ``Person Membership: Date last cited``. "
+"If the source published on 1 March 2012 refers to this person as a "
+"commander on the date of 14 February 2011, we will use 14 February 2011 "
+"as the value in ``Person Membership: Date last cited``."
+msgstr ""
+
+#: ../../source/persons.rst:384
+msgid ""
+"The values for ``Person: Title``, ``Person: Role`` and ``Person: Rank`` "
+"held by a person are assumed to continue until a source indicates a "
+"change in any of those values. If the person's role, title or rank "
+"changes a new entry will need to be created to document that change. This"
+" new entry will have updated values for ``Person Membership: Date last "
+"cited`` and related date fields."
+msgstr ""
+
+#: ../../source/persons.rst:386
+msgid ""
+"In keeping with all date fields we include in this dataset, where our "
+"research can only find a year or a year and a month, this can be included"
+" ``Person Membership: Date last cited`` ."
+msgstr ""
+
+#: ../../source/persons.rst:388
+msgid ""
+"This field is clarified by the field ``Person Membership: Open-ended?`` "
+"which indicates whether the date included here is the actual date on "
+"which the relationship between a person and an organization ended."
+msgstr ""
+
+#: ../../source/persons.rst:391
+msgid "Person Membership: End date?"
+msgstr ""
+
+#: ../../source/persons.rst:395
+msgid ""
+"This field indicates whether the value in ``Person Membership: Date last "
+"cited`` is the actual end date on which the person ceased to be a member "
+"of this organization or if it is only the date last cited for that "
+"relationship."
+msgstr ""
+
+#: ../../source/persons.rst:399
+msgid "Single choice, (Y, N)"
+msgstr ""
+
+#: ../../source/persons.rst:403
+msgid "``Y``,\\ ``N``"
+msgstr ""
+
+#: ../../source/persons.rst:407
+msgid ""
+"This is a clarifying field for ``Person Membership: Date last cited``. "
+"One of the below values should be chosen:"
+msgstr ""
+
+#: ../../source/persons.rst:409
+msgid ""
+"``Y`` indicates that the content of the source is the exact date that a "
+"relationship between a person and an organization ended."
+msgstr ""
+
+#: ../../source/persons.rst:410
+msgid ""
+"``N`` indicates that the date is not an exact end date, but the date of "
+"last citation."
+msgstr ""
+
+#: ../../source/persons.rst:413
+msgid "Person Membership: Context End Date"
+msgstr ""
+
+#: ../../source/persons.rst:424
+msgid "Person: Notes"
+msgstr ""
+
+#: ../../source/persons.rst:428
+msgid ""
+"Analysis, commentary and notes about the person that do not fit into the "
+"data structure."
+msgstr ""
+
+#: ../../source/persons.rst:436
+msgid ""
+"``Trained in logisitics at Fort Lackland, Texas and the air force base of"
+" Wright Patterson, Ohio.``"
+msgstr ""
+
+#: ../../source/persons.rst:440
+msgid ""
+"We use this field to record information about the organization that is "
+"likely to provide useful context, additional information that does not "
+"fit into the data structure, and notes about how decisions were made "
+"about which data to include. Any sources used should be included inside "
+"the field."
+msgstr ""
+

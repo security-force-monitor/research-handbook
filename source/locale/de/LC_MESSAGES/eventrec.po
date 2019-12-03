@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research
+# Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-26 12:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/eventrec.rst:2
+msgid "Incident Records on WhoWasInCommand"
+msgstr ""
+
+#: ../../source/eventrec.rst:4
+msgid ""
+"This page contains an overview of the data that visitors to "
+"WhoWasInCommand will find in an incident record."
+msgstr ""
+
+#: ../../source/eventrec.rst:6
+msgid ""
+"This includes the different sections of the incident record, the data "
+"fields that are used to create it and links to more information about "
+"each field."
+msgstr ""
+
+#: ../../source/eventrec.rst:9
+msgid "Incident title area"
+msgstr ""
+
+#: ../../source/eventrec.rst:14
+msgid ""
+"This section contains key information about the incident. It also "
+"contains links to download and print actions for the displayed record. "
+"Hover over any value in the title area to display a little coloured "
+"circle; clicking on this will display the sources and confidence rating "
+"for we have assigned to each value."
+msgstr ""
+
+#: ../../source/eventrec.rst:16
+msgid "**Fields used in incident title area**"
+msgstr ""
+
+#: ../../source/eventrec.rst:18
+msgid "The following fields are used in the incident title area section:"
+msgstr ""
+
+#: ../../source/eventrec.rst:20
+msgid ":ref:`Event: Start date`"
+msgstr ""
+
+#: ../../source/eventrec.rst:21
+msgid ":ref:`Event: End date`"
+msgstr ""
+
+#: ../../source/eventrec.rst:22 ../../source/eventrec.rst:50
+msgid ":ref:`Event: Country`"
+msgstr ""
+
+#: ../../source/eventrec.rst:23
+msgid ":ref:`Event: Violation type`"
+msgstr ""
+
+#: ../../source/eventrec.rst:26
+msgid "Incident content sidebar"
+msgstr ""
+
+#: ../../source/eventrec.rst:31
+msgid ""
+"The content sidebar is a navigation aid. It provides quick links to "
+"different sections of the record. The items inside the content sidebar "
+"indicate what sort of data is available about this incident. For example "
+"if \"Perpetrator organizations\" is not listed in the content sidebar, "
+"then there is no data available about alleged perpetrators of the "
+"incident."
+msgstr ""
+
+#: ../../source/eventrec.rst:34
+msgid "Incident location"
+msgstr ""
+
+#: ../../source/eventrec.rst:39
+msgid ""
+"This section contains an interactive map and some text that describe the "
+"location where sources indicate that an incident occured. Click on the "
+"pins placed in the map to display the name of a location. Grab the map to"
+" drag/pan it around. Swipe or use the ``+`` and ``-`` controls on the map"
+" to zoom in or zoom out. Hover over the text description of the location "
+"and a little coloured circle will appear. Click on this to view the "
+"sources and confidence rating we have assigned to that value."
+msgstr ""
+
+#: ../../source/eventrec.rst:41
+msgid "**Fields used in incident location section**"
+msgstr ""
+
+#: ../../source/eventrec.rst:43
+msgid ":ref:`Event: Location`"
+msgstr ""
+
+#: ../../source/eventrec.rst:44
+msgid ":ref:`Event: Exact location (Longitude or OSM object Name)`"
+msgstr ""
+
+#: ../../source/eventrec.rst:45
+msgid ":ref:`Event: Exact location (Latitude or OSM object ID number)`"
+msgstr ""
+
+#: ../../source/eventrec.rst:46
+msgid ":ref:`Event: Settlement (OSM object Name)`"
+msgstr ""
+
+#: ../../source/eventrec.rst:47
+msgid ":ref:`Event: Settlement (OSM object ID Number)`"
+msgstr ""
+
+#: ../../source/eventrec.rst:48
+msgid ":ref:`Event: Top Administrative Area (OSM object name)`"
+msgstr ""
+
+#: ../../source/eventrec.rst:49
+msgid ":ref:`Event: Top Administrative Area (OSM object ID number)`"
+msgstr ""
+
+#: ../../source/eventrec.rst:53
+msgid "Incident description"
+msgstr ""
+
+#: ../../source/eventrec.rst:58
+msgid ""
+"This section contains a direct quotation from the civil society, "
+"governmental or other source that describes the incident. As with all "
+"tables in person, unit and incident records on WhoWasInCommand, hovering "
+"over or tapping any value in the table will cause a little coloured "
+"circle to appear. Clicking or tapping again on this will show the sources"
+" and confidence ratings we have assigned to that value."
+msgstr ""
+
+#: ../../source/eventrec.rst:60
+msgid "**Fields used in incident description section**"
+msgstr ""
+
+#: ../../source/eventrec.rst:62
+msgid "The following field is used in the incident description section:"
+msgstr ""
+
+#: ../../source/eventrec.rst:64
+msgid ":ref:`Event: Description`"
+msgstr ""
+
+#: ../../source/eventrec.rst:67
+msgid "Perpetrator organizations"
+msgstr ""
+
+#: ../../source/eventrec.rst:72
+msgid ""
+"This section contains a table listing the organization(s) that sources "
+"allege committed the human rights violation(s) described in the incident."
+" As with all tables in person, unit and incident records on "
+"WhoWasInCommand, hovering over or tapping any value in the table will "
+"cause a little coloured circle to appear. Clicking or tapping again on "
+"this will show the sources and confidence ratings we have assigned to "
+"that value."
+msgstr ""
+
+#: ../../source/eventrec.rst:74
+msgid "**Fields used in perpetrator organizations section**"
+msgstr ""
+
+#: ../../source/eventrec.rst:76
+msgid "The following fields are used in the perpetrator organizations section:"
+msgstr ""
+
+#: ../../source/eventrec.rst:78
+msgid ":ref:`Event: Perpetrator organization`"
+msgstr ""
+
+#: ../../source/eventrec.rst:79
+msgid ":ref:`Organization: Name`"
+msgstr ""
+
+#: ../../source/eventrec.rst:80
+msgid ":ref:`Organization: Aliases`"
+msgstr ""
+
+#: ../../source/eventrec.rst:81
+msgid ":ref:`Organization: Classification`"
+msgstr ""
+
+#: ../../source/eventrec.rst:84
+msgid "Incident Changelog"
+msgstr ""
+
+#: ../../source/eventrec.rst:89
+msgid ""
+"The data displayed in any record on WhoWasInCommand is always the most up"
+" to date version. The changelog section shows when the data included in "
+"this record were first added and subsequently updated. This data is "
+"generated by the software that powers WhoWasInCommand whenever a new data"
+" import is run. Clicking on the name of the field will open a box showing"
+" all the changes that were made to a datapoint, including the time the "
+"change was made and the source used to evidence the change."
+msgstr ""
+

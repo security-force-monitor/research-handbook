@@ -1,0 +1,556 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research
+# Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-26 12:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/unitrec.rst:2
+msgid "Unit Records on WhoWasInCommand"
+msgstr ""
+
+#: ../../source/unitrec.rst:4
+msgid ""
+"This page gives an overview of the data that visitors to WhoWasInCommand "
+"will find in a unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:6
+msgid ""
+"This includes descriptions of different sections of the unit page, the "
+"data fields that are used to create it and links to more information "
+"about each field."
+msgstr ""
+
+#: ../../source/unitrec.rst:9
+msgid "Unit record title area"
+msgstr ""
+
+#: ../../source/unitrec.rst:14
+msgid "Image showing the title area of an organization record on WhoWasInCommand"
+msgstr ""
+
+#: ../../source/unitrec.rst:16
+msgid ""
+"This section contains key information about the identity of the unit. It "
+"also contains links to download and print actions for the displayed "
+"record. Hover over any value in the unit title area to display a little "
+"coloured circle; clicking on this will display the sources and confidence"
+" rating for each value."
+msgstr ""
+
+#: ../../source/unitrec.rst:18
+msgid "**Fields used in the unit record title area**"
+msgstr ""
+
+#: ../../source/unitrec.rst:20
+msgid "The following fields are used in the title area:"
+msgstr ""
+
+#: ../../source/unitrec.rst:22 ../../source/unitrec.rst:123
+#: ../../source/unitrec.rst:146 ../../source/unitrec.rst:170
+msgid ":ref:`Organization: Name`"
+msgstr ""
+
+#: ../../source/unitrec.rst:23 ../../source/unitrec.rst:124
+#: ../../source/unitrec.rst:171
+msgid ":ref:`Organization: Aliases`"
+msgstr ""
+
+#: ../../source/unitrec.rst:24 ../../source/unitrec.rst:125
+#: ../../source/unitrec.rst:172
+msgid ":ref:`Organization: Classification`"
+msgstr ""
+
+#: ../../source/unitrec.rst:25
+msgid ":ref:`Organization: Country`"
+msgstr ""
+
+#: ../../source/unitrec.rst:27
+msgid "When a field is empty, it will not be displayed in the Title area."
+msgstr ""
+
+#: ../../source/unitrec.rst:30
+msgid "Unit record content sidebar"
+msgstr ""
+
+#: ../../source/unitrec.rst:35
+msgid ""
+"Image showing the content sidebar of an organization record on "
+"WhoWasInCommand"
+msgstr ""
+
+#: ../../source/unitrec.rst:37
+msgid ""
+"The content sidebar is a navigation aid. It provides quick links to "
+"different parts of the page. The items inside the content sidebar "
+"indicate what sort of data is available about this unit. For example if "
+"\"Incidents\" is not listed in the content sidebar, then there is no data"
+" available about incidents involving this unit."
+msgstr ""
+
+#: ../../source/unitrec.rst:40
+msgid "Unit record Areas of Operation"
+msgstr ""
+
+#: ../../source/unitrec.rst:45
+msgid ""
+"Image showing the Area of Operation map and table of a organization "
+"record on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:47
+msgid ""
+"The areas of operation section contains a map and table that describe "
+"where an organization has operated in some manner. Click on the "
+"highlighted areas of the map to display the name of an area of operation."
+" Grab the map to drag/pan it around. Swipe or use the ``+`` and ``-`` "
+"controls on the map to zoom in or zoom out. Hover over any value in the "
+"table and a little coloured circle will appear. Click on this to view the"
+" sources and confidence rating we have assigned to that value."
+msgstr ""
+
+#: ../../source/unitrec.rst:49
+msgid "**Fields used in the unit record areas of operations section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:51
+msgid "The following fields are used in the areas of operation section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:53
+msgid ":ref:`Area of Operations: OSM object name`"
+msgstr ""
+
+#: ../../source/unitrec.rst:54
+msgid ":ref:`Area of Operations: OSM object ID number`"
+msgstr ""
+
+#: ../../source/unitrec.rst:55
+msgid ":ref:`Area of Operations: Date first cited`"
+msgstr ""
+
+#: ../../source/unitrec.rst:56
+msgid ":ref:`Area of Operations: Start date?`"
+msgstr ""
+
+#: ../../source/unitrec.rst:57
+msgid ":ref:`Area of Operations: Date last cited`"
+msgstr ""
+
+#: ../../source/unitrec.rst:58
+msgid ":ref:`Area of Operations: Open-ended?`"
+msgstr ""
+
+#: ../../source/unitrec.rst:60
+msgid ""
+"The Areas of Operation section will display where there is a valid Area "
+"of Operations record that contains values for ``Area of Operations: OSM "
+"object name`` and ``Area of Operations: OSM object ID number``. "
+"Otherwise, the section will not display."
+msgstr ""
+
+#: ../../source/unitrec.rst:63
+msgid "Unit Sites"
+msgstr ""
+
+#: ../../source/unitrec.rst:68
+msgid ""
+"Image showing a map and table of sites - or bases - as part of an "
+"organization record on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:70
+msgid ""
+"This section contains a map and a table that describe sites associated "
+"with the organization. Clicking on the pins plotted on the map will "
+"display the name of the site. Grab the map to drag/pan it around. Swipe "
+"or use the ``+`` and ``-`` controls on the map to zoom in or zoom out. "
+"Hover over any value in the table and a little coloured circle will "
+"appear. Click on this to view the sources and confidence rating for that "
+"value."
+msgstr ""
+
+#: ../../source/unitrec.rst:72
+msgid "**Fields used in the unit Sites section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:74
+msgid "The following fields are used in the Site section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:76
+msgid ":ref:`Site: Exact Location (Longitude or OSM object Name)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:77
+msgid ":ref:`Site: Exact Location (Latitude or OSM object ID)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:78
+msgid ":ref:`Site: Settlement (OSM object Name)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:79
+msgid ":ref:`Site: Settlement (OSM object ID)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:80
+msgid ":ref:`Site: Top Administrative Area (OSM object Name)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:81
+msgid ":ref:`Site: Top Administrative Area (OSM object ID number)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:82
+msgid ":ref:`Site: Date of first citation`"
+msgstr ""
+
+#: ../../source/unitrec.rst:83
+msgid ":ref:`Site: Founding date?`"
+msgstr ""
+
+#: ../../source/unitrec.rst:84
+msgid ":ref:`Site: Date last cited`"
+msgstr ""
+
+#: ../../source/unitrec.rst:85
+msgid ":ref:`Site: open-ended?`"
+msgstr ""
+
+#: ../../source/unitrec.rst:87
+msgid ""
+"The Sites section will display where there is a valid Site record. "
+"Otherwise, the section will not display on the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:90
+msgid "Unit memberships"
+msgstr ""
+
+#: ../../source/unitrec.rst:95
+msgid ""
+"Image showing a membership table of a organization record on "
+"WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:97
+msgid ""
+"This section contains a table indicating whether the organization has "
+"been a member of internal/national joint operations, international "
+"peacekeeping missions, or other multi-unit deployments. Hover over any "
+"value in the table and a little coloured circle will appear. Click on "
+"this to view the sources and confidence rating for that value."
+msgstr ""
+
+#: ../../source/unitrec.rst:99
+msgid "**Fields used in the unit memberships section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:101
+msgid "The following fields are used in the memberships section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:103 ../../source/unitrec.rst:126
+msgid ":ref:`Organization Membership`"
+msgstr ""
+
+#: ../../source/unitrec.rst:104 ../../source/unitrec.rst:127
+msgid ":ref:`Membership: Date first cited`"
+msgstr ""
+
+#: ../../source/unitrec.rst:105 ../../source/unitrec.rst:128
+msgid ":ref:`Membership: Start date?`"
+msgstr ""
+
+#: ../../source/unitrec.rst:106 ../../source/unitrec.rst:129
+msgid ":ref:`Membership: Date of last citation`"
+msgstr ""
+
+#: ../../source/unitrec.rst:107
+msgid ":ref:`Membership: End date?`"
+msgstr ""
+
+#: ../../source/unitrec.rst:109
+msgid ""
+"Where a unit has no memberships attached to it, the memberships section "
+"will not display on the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:112
+msgid "Member units"
+msgstr ""
+
+#: ../../source/unitrec.rst:117
+msgid ""
+"This section contains a table listing the units that comprise the present"
+" unit. For example, it will list units that have taken part in a joint "
+"operation, international peacekeeping missing or other multi-unit "
+"organization. However over any value in the table, and a little coloured "
+"circle will appear. Click on this to view the sources and confidnce "
+"rating for that value."
+msgstr ""
+
+#: ../../source/unitrec.rst:119
+msgid "**Fields used in the Member Units section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:121
+msgid "The following fields are used in the member units section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:130
+msgid ":ref:`Membership: End Date?`"
+msgstr ""
+
+#: ../../source/unitrec.rst:133
+msgid "Parent Units"
+msgstr ""
+
+#: ../../source/unitrec.rst:138
+msgid ""
+"Image showing a table of parent units for an organization on "
+"WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:140
+msgid ""
+"The parent units section displays an interactive chart. This shows the "
+"links between all units known to be above the present one in the overall "
+"organizational hierarchy of that security force, right up to the "
+"Commander in Chief or equivalent. The chart is drawn using parent "
+"relationships that are classified as ``command`` (rather than "
+"``informal`` or ``administrative``). They are drawn at the last cited or "
+"end date of the parent relationship. This date is displayed at the bottom"
+" of the chart. Where a unit has different parents at different times, a "
+"chart is drawn for each relationship: swiping left or right, or using the"
+" arrows at each side, displays these."
+msgstr ""
+
+#: ../../source/unitrec.rst:142
+msgid "**Fields used in the Parent Units section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:144
+msgid "The following fields are used in the parent units sections:"
+msgstr ""
+
+#: ../../source/unitrec.rst:147 ../../source/unitrec.rst:173
+msgid ":ref:`Organization: Parent`"
+msgstr ""
+
+#: ../../source/unitrec.rst:148 ../../source/unitrec.rst:174
+msgid ":ref:`Parent relationship: Classification`"
+msgstr ""
+
+#: ../../source/unitrec.rst:149 ../../source/unitrec.rst:175
+msgid ":ref:`Parent relationship: Date first cited`"
+msgstr ""
+
+#: ../../source/unitrec.rst:150 ../../source/unitrec.rst:176
+msgid ":ref:`Parent relationship: start date?`"
+msgstr ""
+
+#: ../../source/unitrec.rst:151 ../../source/unitrec.rst:177
+msgid ":ref:`Parent organization: date last cited`"
+msgstr ""
+
+#: ../../source/unitrec.rst:152 ../../source/unitrec.rst:178
+msgid ":ref:`Parent relationship: Open-ended?`"
+msgstr ""
+
+#: ../../source/unitrec.rst:154
+msgid ""
+"Where a unit does not have a parent relationship, this section will not "
+"be displayed in the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:157
+msgid "Unit subsidiaries"
+msgstr ""
+
+#: ../../source/unitrec.rst:162
+msgid ""
+"Image showing a table of subsidiaries on an organization record on "
+"WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:164
+msgid ""
+"The subsidiaries section contains a table describing all units known to "
+"have been immediately below the current unit in the overall "
+"organizational hierarchy of that security force. Hover over any value in "
+"tables to display a little coloured circle; clicking on this will display"
+" the sources and confidence rating for each value."
+msgstr ""
+
+#: ../../source/unitrec.rst:166
+msgid "**Fields used in the Unit subsidiaries section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:168
+msgid "The following fields are used in the subsidiaries section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:180
+msgid ""
+"Where a unit has no subsidaires, this section will not be displayed in "
+"the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:183
+msgid "Unit personnel"
+msgstr ""
+
+#: ../../source/unitrec.rst:188
+msgid ""
+"Image of a table showing a list of personnel on an organzation record on "
+"WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:190
+msgid ""
+"The personnel section displays a table showing all persons affiliated to "
+"this unit at any time in command, administrative and other roles. Hover "
+"over any value in the table to display a little coloured circle; clicking"
+" on this will display the sources and confidence rating for each value."
+msgstr ""
+
+#: ../../source/unitrec.rst:192
+msgid "**Fields used in the unit personnel section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:194
+msgid "The following fields are used in the personnel section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:196
+msgid ":ref:`Person: Name`"
+msgstr ""
+
+#: ../../source/unitrec.rst:197
+msgid ":ref:`Person: Organization`"
+msgstr ""
+
+#: ../../source/unitrec.rst:198
+msgid ":ref:`Person: Role`"
+msgstr ""
+
+#: ../../source/unitrec.rst:199
+msgid ":ref:`Person: Title`"
+msgstr ""
+
+#: ../../source/unitrec.rst:200
+msgid ":ref:`Person: Rank`"
+msgstr ""
+
+#: ../../source/unitrec.rst:201
+msgid ":ref:`Person Membership: Date first cited`"
+msgstr ""
+
+#: ../../source/unitrec.rst:202
+msgid ":ref:`Person Membership: Start date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:203
+msgid ":ref:`Person Membership: Context Start Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:204
+msgid ":ref:`Person Membership: Date last cited`"
+msgstr ""
+
+#: ../../source/unitrec.rst:205
+msgid ":ref:`Person Membership: End date?`"
+msgstr ""
+
+#: ../../source/unitrec.rst:207
+msgid ""
+"Where no persons in the dataset are members of a unit, this section will "
+"not be displayed in the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:210
+msgid "Unit incidents"
+msgstr ""
+
+#: ../../source/unitrec.rst:215
+msgid ""
+"Image showing a list of incidents on an organization record on "
+"WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:217
+msgid ""
+"The incidents section displays a list of incidents of alleged human "
+"rights violations that sources allege the unit has committed. Hover over "
+"either the date or the incident description to display a little coloured "
+"circle that when clicked will show the sources and confidence rating we "
+"have assigned to this data."
+msgstr ""
+
+#: ../../source/unitrec.rst:219
+msgid "**Fields used in the unit incidents section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:221
+msgid "The following fields are used in the incidents section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:223
+msgid ":ref:`Event: Start date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:224
+msgid ":ref:`Event: End date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:225
+msgid ":ref:`Event: Description`"
+msgstr ""
+
+#: ../../source/unitrec.rst:226
+msgid ":ref:`Event: Perpetrator organization`"
+msgstr ""
+
+#: ../../source/unitrec.rst:228
+msgid ""
+"If a source has not made an allegation against a unit, this section will "
+"not be displayed in the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:231
+msgid "Unit record changelog"
+msgstr ""
+
+#: ../../source/unitrec.rst:236
+msgid ""
+"Image showing the changelog section that appears on organization records "
+"on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:238
+msgid ""
+"The data displayed in any record on WhoWasInCommand is always the most up"
+" to date version. The changelog section shows when the data included in "
+"this record were first added and subsequently updated. This data is "
+"generated by the software that powers WhoWasInCommand whenever a new data"
+" import is run. Clicking on the name of the field will open a box showing"
+" all the changes that were made to a datapoint, including the time the "
+"change was made and the source used to evidence the change."
+msgstr ""
+

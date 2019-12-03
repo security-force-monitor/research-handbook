@@ -1,0 +1,541 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research
+# Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-26 12:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/methodology.rst:2
+msgid "Research methodology"
+msgstr ""
+
+#: ../../source/methodology.rst:4
+msgid ""
+"Security Force Monitor follows a four phase process when researching the "
+"security forces of a country."
+msgstr ""
+
+#: ../../source/methodology.rst:7
+msgid "Phase 1: Scope out sources"
+msgstr ""
+
+#: ../../source/methodology.rst:9
+msgid "**General sources**"
+msgstr ""
+
+#: ../../source/methodology.rst:11
+msgid ""
+"Security Force Monitor collects data about the persons and organizations "
+"that comprise security forces, along with allegations of human rights "
+"abuses made against security forces. This data is carefully collected "
+"from a variety of sources, generally online. These include:"
+msgstr ""
+
+#: ../../source/methodology.rst:13
+msgid "Laws of the country;"
+msgstr ""
+
+#: ../../source/methodology.rst:14
+msgid "Official government media;"
+msgstr ""
+
+#: ../../source/methodology.rst:15
+msgid ""
+"Press releases from the relevant ministries of the country (Information, "
+"Defense, Interior, and others);"
+msgstr ""
+
+#: ../../source/methodology.rst:16
+msgid "Security force newsletters;"
+msgstr ""
+
+#: ../../source/methodology.rst:17
+msgid "Social media pages for security services or government agencies;"
+msgstr ""
+
+#: ../../source/methodology.rst:18
+msgid "Statistics and data agencies;"
+msgstr ""
+
+#: ../../source/methodology.rst:19
+msgid "Local government websites;"
+msgstr ""
+
+#: ../../source/methodology.rst:20
+msgid "Human rights commissions;"
+msgstr ""
+
+#: ../../source/methodology.rst:21
+msgid "Third country government publications and other documents;"
+msgstr ""
+
+#: ../../source/methodology.rst:22
+msgid "United Nations publications and other documents;"
+msgstr ""
+
+#: ../../source/methodology.rst:23
+msgid "Local news reportage;"
+msgstr ""
+
+#: ../../source/methodology.rst:24
+msgid "Civil society and human rights reporting;"
+msgstr ""
+
+#: ../../source/methodology.rst:25
+msgid "Academic research; and,"
+msgstr ""
+
+#: ../../source/methodology.rst:26
+msgid "Other country specific sources."
+msgstr ""
+
+#: ../../source/methodology.rst:28
+msgid ""
+"The Monitor also identifies non-digital resources such as monographs, "
+"scholarly literature, biographies and other materials about security "
+"services. The existence and availability of these type of sources vary "
+"widely from country to country."
+msgstr ""
+
+#: ../../source/methodology.rst:30
+msgid "**State administrative structures and geography**"
+msgstr ""
+
+#: ../../source/methodology.rst:32
+msgid ""
+"Security Force Monitor researchers familiarize themselves with the "
+"country’s governance and administrative structures, gaining understanding"
+" about the levels of government (for example: local, regional, state, "
+"national) and their connection to different security forces. In examining"
+" this we also flag where there might be major changes in the structure of"
+" government, such as those that may accompany a constitutional referendum"
+" or a peace process. These affect how the Monitor will represent data on "
+"security forces over time."
+msgstr ""
+
+#: ../../source/methodology.rst:34
+msgid ""
+"Examining the administrative geography of a country provides important "
+"context for the structure and operations of the security forces. This "
+"part of the scoping process also gives us insight into how much of a "
+"country’s administrative geography is represented in online gazetteers "
+"(like `OpenStreetMap <https://nominatim.openstreetmap.org/>`__ or "
+"`GeoNames <https://www.geonames.org>`__) that the Monitor uses in its "
+"analysis."
+msgstr ""
+
+#: ../../source/methodology.rst:36
+msgid "**Potential high value datasets**"
+msgstr ""
+
+#: ../../source/methodology.rst:38
+msgid ""
+"During this first phase, researchers also identify sources that could be "
+"turned into large, high value datasets for the Monitor. These are sources"
+" that contain a sufficiently large amount or complex type of data that "
+"technical help is necessary to extract it in a timely way; doing the work"
+" “by hand” is possible, but would be slow and error prone. These high "
+"value data extraction tasks use techniques such as web-scraping, scripted"
+" parsing and geospatial analysis. An example of these types of sources "
+"are the `Internet Archive snapshots the official webpage of the Mexican "
+"Army and Air Force "
+"<https://web.archive.org/web/20050908175401/http://www.sedena.gob.mx/ejercito/comandancias/index.html>`__"
+" (and child pages) going back more than a decade which outline the top "
+"level structures of the Mexican army and its commanding officers."
+msgstr ""
+
+#: ../../source/methodology.rst:41
+msgid "Phase 2: Write a Country Guide"
+msgstr ""
+
+#: ../../source/methodology.rst:43
+msgid ""
+"The sources gathered during our scoping phase are used to write a Country"
+" Guide to assist with further research."
+msgstr ""
+
+#: ../../source/methodology.rst:44
+msgid ""
+"The Guide begins as a general overview of the structures of security "
+"services of a country. It gives researchers a general framework to help "
+"organize and prioritize research, by giving an estimate of the scale of "
+"the work: number of installations, organizations, persons that need to be"
+" researchers in detail."
+msgstr ""
+
+#: ../../source/methodology.rst:46
+msgid ""
+"For example, the Monitor's scoping research on Nigeria revealed that by "
+"law every state and the federal territory has a Police Command. By "
+"extension this means since 1996 (when the last states of Nigeria were "
+"created) there have been 37 Police Commands. Statistics from the Nigeria "
+"Police Force show that between 2007 and 2012 most Police Commands were in"
+" charge of 2 to 3 Police Area Commands (though some heavily populated "
+"states have more, with Lagos having the most at 8). These statistics also"
+" show that on average each state and the federal capital territory had 30"
+" Police Divisions, which by law are generally under the command of a "
+"Police Area Command. Thus, from a few initial sources a Monitor "
+"researcher can have a general sense of the structure of the police and a "
+"useful metric to compare the Monitor’s dataset against."
+msgstr ""
+
+#: ../../source/methodology.rst:48
+msgid ""
+"Further, a list of keywords and sources is created for researchers as "
+"well - these serve as leads for researchers to follow."
+msgstr ""
+
+#: ../../source/methodology.rst:50
+msgid ""
+"This Country Guide is updated as new details on the security forces are "
+"discovered through the course of the Monitor's work."
+msgstr ""
+
+#: ../../source/methodology.rst:53
+msgid "Phase 3: Conduct detailed research"
+msgstr ""
+
+#: ../../source/methodology.rst:55
+msgid ""
+"Researchers use the initial keywords and sources to begin a “deep dive” "
+"into the security forces."
+msgstr ""
+
+#: ../../source/methodology.rst:57
+msgid ""
+"Anything relating to the types of information the Monitor collects is "
+"entered into the Monitor’s database. The Data Model section of this "
+"Research Handbook gives detailed guidance to Monitor researchers about "
+"the types of data to take from sources and how it should be entered."
+msgstr ""
+
+#: ../../source/methodology.rst:59
+msgid ""
+"Additionally, data from this research is used to update the Country Guide"
+" to provide greater granular detail on the security forces of a country "
+"or to update sections as needed. New sources and keywords discovered "
+"during research are added to the existing guide as well."
+msgstr ""
+
+#: ../../source/methodology.rst:61
+msgid ""
+"As the Monitor builds its database on the security forces of a country, "
+"new information is cross-referenced to further evidence data, discover "
+"gaps, or identify mistakes. There are three key questions Monitor "
+"researchers ask themselves whenever they review information in a source:"
+msgstr ""
+
+#: ../../source/methodology.rst:63
+msgid ""
+"\"Does this make sense given what is detailed about the security forces "
+"from other sources?\""
+msgstr ""
+
+#: ../../source/methodology.rst:64
+msgid ""
+"\"Is it possible this source is correct and our other sources are "
+"incorrect?\""
+msgstr ""
+
+#: ../../source/methodology.rst:65
+msgid ""
+"\"Do I have enough information to accept or reject what this source "
+"says?\""
+msgstr ""
+
+#: ../../source/methodology.rst:67
+msgid ""
+"The Country Guide acts as a framework for researchers to understand the "
+"security forces and to help a researcher answer these questions. Data "
+"entered into the Monitor’s databases are progressively updated as new "
+"information is found. Throughout, researchers take a number of quality "
+"assurance steps to validate the data against the standards set out in the"
+" Data Model section"
+msgstr ""
+
+#: ../../source/methodology.rst:70
+msgid "Phase 4: Publish data"
+msgstr ""
+
+#: ../../source/methodology.rst:72
+msgid ""
+"Researchers will publish data online when confident that the main "
+"branches and overall structure of a country’s security forces are "
+"adequately covered. Data is published online on the Monitor’s innovative "
+"platform: `WhoWasInCommand.com <https://whowasincommand.com/>`__."
+msgstr ""
+
+#: ../../source/methodology.rst:75
+msgid "Timebound Data"
+msgstr ""
+
+#: ../../source/methodology.rst:77
+msgid ""
+"Answering the question “who was where when?” is central for "
+"investigations into allegations of human rights abuse(s). Because of this"
+" perhaps one of the most defining, and complicaticating, features of the "
+"Security Force Monitor’s data is that almost everything we research is "
+"connected to time including:"
+msgstr ""
+
+#: ../../source/methodology.rst:79
+msgid "Existence of units"
+msgstr ""
+
+#: ../../source/methodology.rst:80
+msgid "Parent relationships between units"
+msgstr ""
+
+#: ../../source/methodology.rst:81
+msgid "Location of units"
+msgstr ""
+
+#: ../../source/methodology.rst:82
+msgid "Areas of operation for units"
+msgstr ""
+
+#: ../../source/methodology.rst:83
+msgid "Membership/participation of units of in multi-unit operations"
+msgstr ""
+
+#: ../../source/methodology.rst:84
+msgid "Positions held by people"
+msgstr ""
+
+#: ../../source/methodology.rst:86
+msgid ""
+"While attaching time to data points aids our mission to support human "
+"rights investigations and advocacy, it raises methodological challenges "
+"and questions such as:"
+msgstr ""
+
+#: ../../source/methodology.rst:88
+msgid "Why the Monitor would (or would not) connect two bits of data through time"
+msgstr ""
+
+#: ../../source/methodology.rst:89
+msgid "How the Monitor handles gaps in the public record"
+msgstr ""
+
+#: ../../source/methodology.rst:90
+msgid "Questions analysts run through while reviewing time based information"
+msgstr ""
+
+#: ../../source/methodology.rst:92
+msgid ""
+"In an ideal world the Monitor would have a source from every day of the "
+"year stating where a unit was located or conducting operations. Barring "
+"that, having multiple sources regularly making statements like “since X "
+"date this unit has been based in this city” would be tremendously "
+"helpful. Unfortunately, neither scenario currently occurs, or is likely "
+"to occur in the near future, making it necessary to develop a robust way "
+"of thinking through time."
+msgstr ""
+
+#: ../../source/methodology.rst:94
+msgid ""
+"Broadly speaking the Security Force Monitor uses agreement among sources "
+"to build up details on security force units and individuals. Most of the "
+"Monitor’s sources, like government press releases and newspaper articles,"
+" can be used to link a value, such as the location of a unit, to a "
+"specific date (usually the date of publication). As we collect more "
+"sources we need to determine what agreement among sources means for time "
+"based values, like the location of a unit."
+msgstr ""
+
+#: ../../source/methodology.rst:96
+msgid ""
+"Example: the Monitor comes across Source A published on 1 July 2012 "
+"stating that the 1 Battalion is based in Lagos. If Source B published on "
+"3 August 2012 also states that the 1 Battalion is based in Lagos we have "
+"a decision point about what claim we should make."
+msgstr ""
+
+#: ../../source/methodology.rst:98
+msgid ""
+"Utilizing sources A and B we have two options which can be expressed in "
+"text:"
+msgstr ""
+
+#: ../../source/methodology.rst:100
+msgid ""
+"Separate claims: “As of 1 July 2012 the 1 Battalion was based in Lagos "
+"and as of 3 August 2012 the 1 Battalion was based in Lagos, the Monitor "
+"does not know where the battalion was based between those two points in "
+"time.”"
+msgstr ""
+
+#: ../../source/methodology.rst:101
+msgid ""
+"Contiguity claim: “From at least 1 July 2012 to at least 3 August 2012 "
+"the 1 Battalion was based in Lagos.”"
+msgstr ""
+
+#: ../../source/methodology.rst:103
+msgid ""
+"Thus, whenever the Monitor gets a new source of information we have to "
+"decide whether to make a “separate” or “contiguity” claim. Based on the "
+"example of the 1 Battalion above the Monitor would run through a series "
+"of questions to determine which claim (if any) to make:"
+msgstr ""
+
+#: ../../source/methodology.rst:105
+msgid ""
+"In general, how do other battalions operate, are they sedentary, or "
+"highly mobile?"
+msgstr ""
+
+#: ../../source/methodology.rst:106
+msgid ""
+"How has the 1 Battalion acted in the past, has it been sedentary or "
+"highly mobile?"
+msgstr ""
+
+#: ../../source/methodology.rst:107
+msgid ""
+"Are there other sources disputing these claims (i.e. 1 Battalion being "
+"based solely in another city)?"
+msgstr ""
+
+#: ../../source/methodology.rst:108
+msgid ""
+"Are there any sources indicating the 1 Battalion was in Lagos in July "
+"and/or August as part of a “special”, “emergency” or otherwise temporary "
+"posting?"
+msgstr ""
+
+#: ../../source/methodology.rst:109
+msgid ""
+"Are there sources that indicate the 1 Battalion moved in between these "
+"two points of time and thus these should be treated as separate "
+"deployments to Lagos?"
+msgstr ""
+
+#: ../../source/methodology.rst:110
+msgid ""
+"Is there anything related to the 1 Battalion’s parent or child units that"
+" may impact where it was based?"
+msgstr ""
+
+#: ../../source/methodology.rst:111
+msgid ""
+"Are there any other mitigating sources (i.e. major restructuring of the "
+"military, constitutional changes, etc.) which may impact the basing of "
+"the unit?"
+msgstr ""
+
+#: ../../source/methodology.rst:112
+msgid "Is more research needed before the Monitor can make any claim?"
+msgstr ""
+
+#: ../../source/methodology.rst:114
+msgid ""
+"An argument could be the Monitor should always make “separate claims” as "
+"that would be more faithful to the sources. However, the result likely "
+"mean an almost incomprehensible amount of detail in the records of people"
+" and units, which would obscure when changes really did occur, for "
+"instance when a person changed positions or a unit ends operations in an "
+"area."
+msgstr ""
+
+#: ../../source/methodology.rst:116
+msgid ""
+"Perhaps the most important point is that it even though data points, like"
+" where a unit is based, can be continuous through time, it should never "
+"be assumed that those types of features remain consistent between two or "
+"more sources. Time is a constant challenge, but given that is a key "
+"element in identifying perpetrators of human rights abuses it is "
+"necessary to get it right."
+msgstr ""
+
+#: ../../source/methodology.rst:119
+msgid "Unknown vs. Unnamed Organizations"
+msgstr ""
+
+#: ../../source/methodology.rst:121
+msgid ""
+"The Security Force Monitor regularly encounters ambiguity in sourcing "
+"which it has sought to highlight and resolve through the creation of "
+"organizations with \"Unknown\" or \"Unnamed\" in the Organization:name. "
+"The methodology behind these decisions is laid out below:"
+msgstr ""
+
+#: ../../source/methodology.rst:123
+msgid ""
+"For \"Unknown\" organizations the Monitor will have sources for the "
+"overall hierarchical structure of a branch of the security forces, laying"
+" out how units should relate to one another up the chain of command. "
+"However, the Monitor often will have data on a unit which indicates where"
+" it should be in the chain of command, but does not have sourcing for a "
+"direct parent. In this case the Monitor creates an organization with "
+"\"Unknown\" in the Organization:name and \"Placeholder\" for the "
+"Organization:Classification."
+msgstr ""
+
+#: ../../source/methodology.rst:125
+msgid ""
+"Example: Multiple sources, including the laws of Nigeria, lay out that "
+"the chain of command for the Police goes from each state (and the Federal"
+" Capital Territory) having a single Police Command, under which are "
+"Police Area Commands and under Police Area Command are Police Divisions. "
+"For the Abayi Police Division the Monitor has sources placing it in Aba, "
+"Abia state, making it ultimately under the control of the Abia State "
+"Police Command, per the law. However, the Monitor does not have sources "
+"indicating which Police Area Command controls Abayi Police Division, thus"
+" the Monitor has created an organization Unknown Police Area Command in "
+"Abia State which is the parent of Abayi Police Division. In turn Abia "
+"State Police Command is the parent of Unknown Police Area Command in Abia"
+" State, which connects Abayi Police Division to the wider police command "
+"structure."
+msgstr ""
+
+#: ../../source/methodology.rst:127
+msgid ""
+"For \"Unnamed\" organizations the Monitor will have sources that indicate"
+" an organization exists, but it does not give a proper name for that "
+"organization. In this case the Monitor will create an \"Unnamed\" "
+"organization and continue to update relevant fields related to this "
+"organization until such a time that a source is discovered to give it a "
+"proper name."
+msgstr ""
+
+#: ../../source/methodology.rst:129
+msgid ""
+"Example: There are several Regional Operations Commands in the army of "
+"Myanmar. Many of these have proper names, such as the 2 Regional "
+"Operations Command. Multiple sources reference a Regional Operations "
+"Command based in the city of Sittwe, identifying subordinate units, areas"
+" of operation and other information related to organizations. None of "
+"these sources, however, give this organization a numerical identifier. In"
+" order to capture information about this organization the Monitor named "
+"this unit Unnamed Regional Operations Command at Sittwe and will maintain"
+" that name until a source with a numerical identifier can be identified."
+msgstr ""
+
+#: ../../source/methodology.rst:131
+msgid ""
+"\"Unknown\" organizations exist solely to connect subordinate units to "
+"the wider command hierarchy. Since they are a creation of the Monitor "
+"they will not have sites, area of operations, memberships or persons "
+"attached to them. In contrast, \"Unnamed\" organizations have all of the "
+"related attributes of an organization, and can have persons attached to "
+"them. The only thing they lack is a proper name. As a final note, "
+"additional sourcing would change an \"Unnamed\" organization into a unit "
+"with a proper name, whereas additional sourcing could result in the "
+"deletion of an \"Unknown\" organization as an actual parent unit would be"
+" identified, removing the need for the \"Unknown\" organization to exist."
+msgstr ""
+

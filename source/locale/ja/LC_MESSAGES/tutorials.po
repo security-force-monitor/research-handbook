@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research
+# Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-26 12:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/tutorials.rst:2
+msgid "Tutorials"
+msgstr ""
+
+#: ../../source/tutorials.rst:5
+msgid "Recording geographical information"
+msgstr ""
+
+#: ../../source/tutorials.rst:7
+msgid ""
+"Guidance on how to analyse, extract and record geographical information "
+"from sources used to create our data."
+msgstr ""
+
+#: ../../source/tutorials.rst:10
+msgid "Dates and time periods in Security Force Monitor"
+msgstr ""
+
+#: ../../source/tutorials.rst:12
+msgid "Guidance on how Security Force Monitor deals with time in the datasets"
+msgstr ""
+
+#: ../../source/tutorials.rst:15
+msgid "Archiving and retrieving sources from the Internet Archive"
+msgstr ""
+
+#: ../../source/tutorials.rst:17
+msgid ""
+"Guidance on how to create an archive snapshot of a source using teh "
+"Internet Archive, and how to retrieve that information."
+msgstr ""
+

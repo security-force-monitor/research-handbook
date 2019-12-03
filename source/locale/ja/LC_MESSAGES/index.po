@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research
+# Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-26 12:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/index.rst:4
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid "Methodology"
+msgstr ""
+
+#: ../../source/index.rst:17
+msgid "Data Model"
+msgstr ""
+
+#: ../../source/index.rst:27
+msgid "WhoWasInCommand"
+msgstr ""
+
+#: ../../source/index.rst:2
+msgid "Security Force Monitor: Research Handbook"
+msgstr ""
+
+#: ../../source/index.rst:37
+msgid "Indices and tables"
+msgstr ""
+
+#: ../../source/index.rst:39
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../source/index.rst:40
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../source/index.rst:41
+msgid ":ref:`search`"
+msgstr ""
+

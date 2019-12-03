@@ -1,0 +1,728 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-26 12:40+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/persons.rst:2
+# 880eecb2d96a4a0b88c5962e68e89af6
+msgid "Persons"
+msgstr ""
+
+#: ../../source/persons.rst:4
+# 2e6898a2e81841d6abac95e5b45c84f0
+msgid "Persons are natural persons who are affiliated with, or hold positions of command over a specific organization at a particular point in time."
+msgstr ""
+
+#: ../../source/persons.rst:7
+# ed2c6b04217f4dfe89ae5cb441bcd465
+msgid "Person: ID"
+msgstr ""
+
+#: ../../source/persons.rst:9
+#: ../../source/persons.rst:28
+#: ../../source/persons.rst:47
+#: ../../source/persons.rst:66
+#: ../../source/persons.rst:87
+#: ../../source/persons.rst:108
+#: ../../source/persons.rst:129
+#: ../../source/persons.rst:150
+#: ../../source/persons.rst:171
+#: ../../source/persons.rst:192
+#: ../../source/persons.rst:211
+#: ../../source/persons.rst:230
+#: ../../source/persons.rst:255
+#: ../../source/persons.rst:274
+#: ../../source/persons.rst:295
+#: ../../source/persons.rst:329
+#: ../../source/persons.rst:350
+#: ../../source/persons.rst:361
+#: ../../source/persons.rst:393
+#: ../../source/persons.rst:415
+#: ../../source/persons.rst:426
+# 95ff1dc55ec5408fbebf43a8e208196b
+# 1aa03bc9c1a64073b4f1c9ccf6135c12
+# 7578395d2004421ab8a1fb7aa9d2181a
+# 8dcd9010988c4001a19f5ecb8ade8b0b
+# 108cdbb6d6c24b8186c698e514ff274c
+# 99aa77c5e8094220bad84b30278920c9
+# f00706d0c5ce4158bb087cbf8d00e03a
+# 14107b35f94c4bd49591179cd775c6f2
+# ec371274ecc0449aa85c196772eede20
+# 4b5a45c570fb4347add308cd647d23b1
+# 33fe41a90c914adbb22647d2e970964a
+# e63f31f8909b4bdcb8f6f7cd15f3186a
+# 42f6a692b9574f2382a2d32a19d1f06e
+# 277e561f900b49b38da318a1fba1e4b5
+# a2d7b990c3a442de98d83c1e74935c72
+# 448e1dc82536473fbe204165377350c1
+# 712e56c7089e46a6bd0df39bda751606
+# 80c3dea268f644dc93ccf558d35c0af7
+# 2262a22c44c34796a57bce57a9dbf20d
+# 5602ff90fef6403aab52f1bd1a698ece
+# 375d2f1412864804888159bd0afd00e8
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/persons.rst:11
+# 04c1e1b2301c4debac39e7151c2acb0d
+msgid "A unique number for each person in the dataset."
+msgstr ""
+
+#: ../../source/persons.rst:13
+#: ../../source/persons.rst:32
+#: ../../source/persons.rst:51
+#: ../../source/persons.rst:70
+#: ../../source/persons.rst:91
+#: ../../source/persons.rst:112
+#: ../../source/persons.rst:133
+#: ../../source/persons.rst:154
+#: ../../source/persons.rst:175
+#: ../../source/persons.rst:196
+#: ../../source/persons.rst:215
+#: ../../source/persons.rst:234
+#: ../../source/persons.rst:259
+#: ../../source/persons.rst:278
+#: ../../source/persons.rst:299
+#: ../../source/persons.rst:333
+#: ../../source/persons.rst:352
+#: ../../source/persons.rst:365
+#: ../../source/persons.rst:397
+#: ../../source/persons.rst:417
+#: ../../source/persons.rst:430
+# 819698bcfa4c4fffae3cbbb03f8ba5c3
+# b24d486e5e994ccb82c9dee71922cc6d
+# f454bbf3aafa436eb463016264007f1b
+# d9addbce052a42d795e670c32380517a
+# 5541c0f7cfc5443d811a4949a51f05fe
+# f249bfa0b0fc40959602a3806b523d68
+# b65e5795abc74568b07062dc915923a6
+# f7660f5737d445a3a2632dce3aba440d
+# 82e48463924d4d96af4a762657ceeefe
+# ad36e7d3875e446080f9c5c41d446d6a
+# 57f194c918d542d2b4e8c6b7d9116314
+# d1645feb3d0a4c7ab25e7d5d6db1c561
+# 3147654647ab4cfba1de9391efecc45f
+# c4f1444b5c5c49b99a824eb200a4c4a2
+# 05352f86af864b9eb9188fa170fcaedf
+# a5565183562d4a07a9c21d8e9b2dba97
+# b31e09d7658b4633b901577d09aa5d90
+# e445e8fb1a0b4fb59b6cda9b5fdb341f
+# 8827f4f2d8cd40ddb8db8badf1f934ba
+# 02ebacd51085444f8d873c802a8d2021
+# 6e71639d51d6404ebdf97db5fb49527a
+msgid "**Type of field**"
+msgstr ""
+
+#: ../../source/persons.rst:15
+#: ../../source/persons.rst:34
+#: ../../source/persons.rst:432
+# 050fc9e9e89c4819b38c211717b5d9e6
+# 105c7bf1b24d4469a5f19e6be6fadbf4
+# 3882b2bb8acb41e28ee20bc1d062e08b
+msgid "Text and numbers"
+msgstr ""
+
+#: ../../source/persons.rst:17
+#: ../../source/persons.rst:36
+#: ../../source/persons.rst:55
+#: ../../source/persons.rst:74
+#: ../../source/persons.rst:95
+#: ../../source/persons.rst:116
+#: ../../source/persons.rst:137
+#: ../../source/persons.rst:158
+#: ../../source/persons.rst:179
+#: ../../source/persons.rst:200
+#: ../../source/persons.rst:219
+#: ../../source/persons.rst:238
+#: ../../source/persons.rst:263
+#: ../../source/persons.rst:282
+#: ../../source/persons.rst:303
+#: ../../source/persons.rst:337
+#: ../../source/persons.rst:354
+#: ../../source/persons.rst:369
+#: ../../source/persons.rst:401
+#: ../../source/persons.rst:419
+#: ../../source/persons.rst:434
+# cd716042f7dc450d8dff64e013812798
+# 15ffd13b4f314a05aedf9cc425485d84
+# ba505e5ba25d4dbbb98b9ee52bf71cd9
+# abda30f82ea24b3ab016e9ead3ebb35b
+# 29e86d8e9ea44f39973e1562b45af8fd
+# f80b7ec09b0541459de616639497a34d
+# bda54bb901934db383e700d1e3dd9e37
+# 53ddcdaa619b4f2eb4567167367299c1
+# 08120f3dc5ee48a99f3de5ad1d6626fe
+# 69fc2b7d00924a0c8cc84e319631092e
+# da6fe22732ab40848e9df7fa15febbd2
+# d498fcf84677439fbe5a384c2a5156b6
+# 172b0b73ce824dbeb01a5782190db5bb
+# 52e60715e3c44dd2a45bccad048d63c0
+# 180371fc8510406eb61d7116346e9390
+# 2bf5a0ea57e84feb97e36f8e8d5e1876
+# 00ea95361f7c40bb9e7e2b2bc55cb0a0
+# 4e29546af741455094786d5e58d266a9
+# a38ff1b5b07f4717af6e21323bf1db50
+# 460a3fbe766f42808c50be75aa9a8741
+# ed2a2dbbe30f425488599d8441e70557
+msgid "**Example of use**"
+msgstr ""
+
+#: ../../source/persons.rst:19
+# 5992d22c47254e33b4ea60bfd746a215
+msgid "``a848de4e-ebeb-49d6-9099-7e68ca3b57fc``"
+msgstr ""
+
+#: ../../source/persons.rst:21
+#: ../../source/persons.rst:40
+#: ../../source/persons.rst:59
+#: ../../source/persons.rst:78
+#: ../../source/persons.rst:99
+#: ../../source/persons.rst:120
+#: ../../source/persons.rst:141
+#: ../../source/persons.rst:162
+#: ../../source/persons.rst:183
+#: ../../source/persons.rst:204
+#: ../../source/persons.rst:223
+#: ../../source/persons.rst:242
+#: ../../source/persons.rst:267
+#: ../../source/persons.rst:286
+#: ../../source/persons.rst:307
+#: ../../source/persons.rst:341
+#: ../../source/persons.rst:356
+#: ../../source/persons.rst:373
+#: ../../source/persons.rst:405
+#: ../../source/persons.rst:421
+#: ../../source/persons.rst:438
+# a15e25ba35834911b4af90461f6e2aae
+# b99f69bf71db4c37a63f68d70d0b1ab7
+# 196f2c14edf04d688317d9d9b9e061ec
+# 1211e10f3bee4519af0938eacd6b8d59
+# eece1c9f75e94ce59f78ae8623f76636
+# d47778b44c244c659f20db8ec72ea0c8
+# 4049559c607143e6bf3317b0bdc5a52c
+# 3e9de10271e547b5b723c50e00621980
+# a5e8813805814d379b27d43817bf286c
+# 5f9e265abdc2444287139b9679b68fa5
+# 02ee82c685bb4073ac6d8e861ea5bf94
+# d138e72756a449edbe35a77c67561957
+# 4a65e90ce2a4401aa9347d37116d4015
+# e8830e3e37d24cdabb5ef08bb773ba00
+# 993ef298d8c64693917262817e093881
+# 9f0aa6fc1eac47f380cb78c7a669ddbd
+# 10d2b46faccc44c8be8fc614926e8a0b
+# ae8971ff363749ee8406aa11725c8c08
+# f2e8897bcb6c4b13931248a579e553e6
+# 0389933b1c9a41918e23d62756e2cfe9
+# 790ecdbdc912473e80c7baa32eb30210
+msgid "**Guidance on use**"
+msgstr ""
+
+#: ../../source/persons.rst:23
+# 0e4dea3a6944479a92ae8110ad54f590
+msgid "This field contains an automatically-generated unique identifier for each person in the Monitor’s database."
+msgstr ""
+
+#: ../../source/persons.rst:26
+# ff132d7133504ca483cab53798dcd62c
+msgid "Person: Name"
+msgstr ""
+
+#: ../../source/persons.rst:30
+# 271416c28d4b400dbf8e719347f07d87
+msgid "Full name of the person, including given, patronym and surnames."
+msgstr ""
+
+#: ../../source/persons.rst:38
+# e95a45c412f64c8da64875158fd8e2ae
+msgid "``Magaji Musa Majia'a``"
+msgstr ""
+
+#: ../../source/persons.rst:42
+# 813382111f1546378eed196ab8c8e9d8
+msgid "Different sources will spell the name of a person in different ways, so we choose a name to be a canonical entry for that person. Whenever possible, the canonical entry will contain the most complicated or complete version of a person's name, even if it has the smallest number of citations. For example ``Magaji Musa Majia'a`` will be used instead of ``Magaji Majiaa``. Other names will be placed in the ``Person: Aliases`` field (documented below)."
+msgstr ""
+
+#: ../../source/persons.rst:45
+# 5793777308e54d82bba85721dbce708a
+msgid "Person: Aliases"
+msgstr ""
+
+#: ../../source/persons.rst:49
+# ea47c33abfd945e28962172f6cfc81a2
+msgid "Other names used to identify a person."
+msgstr ""
+
+#: ../../source/persons.rst:53
+#: ../../source/persons.rst:261
+#: ../../source/persons.rst:280
+# f96878a0aae34bf7ba757e732af642e2
+# b67c748fa6d54ba0b4dd37739ab55783
+# 1e137a9fc37d4582a49ae33bc5f6ac70
+msgid "Text and numbers, free entry"
+msgstr ""
+
+#: ../../source/persons.rst:57
+# 7071b9b83ce24643990586ef82cfa588
+msgid "``Virgilio Daniel Méndez Bazan``, ``Virgilio Daniel Mendez Bazán``"
+msgstr ""
+
+#: ../../source/persons.rst:61
+# b25457b72b1b4af8833350316606f2de
+msgid "Different sources will spell a person's name in different ways. We choose and record a canonical version of a person's name in the ``Person: Name`` field. All other spellings that we have found are treated as aliases and stored in this field. This field may contain multiple values, which will be separated by a semi-colon."
+msgstr ""
+
+#: ../../source/persons.rst:64
+# 148982471038489da3a341605fd9d29b
+msgid "Person: Country"
+msgstr ""
+
+#: ../../source/persons.rst:68
+# 1e61f3e6536c422b93267aa6eee84030
+msgid "Country where an organization that a person is a member of is located."
+msgstr ""
+
+#: ../../source/persons.rst:72
+# ead1ad54d0484c029b38a9210fb43187
+msgid "Text, controlled vocabulary"
+msgstr ""
+
+#: ../../source/persons.rst:76
+# 8f44be2c6dd1414d804a56e355516e31
+msgid "``mx``"
+msgstr ""
+
+#: ../../source/persons.rst:80
+# 77a3b570b0e3454aa7b636a42ebe9519
+msgid "Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__. This field does not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if ``1 Batallón de Infantería`` is located in Juarez, Mexico, the organization will be assigned a value of ``mx`` in the field ``Organization: Country``. Any person who is a member of that organization will be assigned a value of ``mx`` in the field ``Person: Country`` as well. A person may have multiple entries for ``Person: Country`` where our research shows they or an organization they are a member of is deployed to different countries."
+msgstr ""
+
+#: ../../source/persons.rst:83
+# 6c68f35e356d43b4bbb7cf98b8e6e72f
+msgid "Person: Gender"
+msgstr ""
+
+#: ../../source/persons.rst:85
+#: ../../source/persons.rst:89
+#: ../../source/persons.rst:93
+#: ../../source/persons.rst:97
+#: ../../source/persons.rst:101
+#: ../../source/persons.rst:106
+#: ../../source/persons.rst:110
+#: ../../source/persons.rst:114
+#: ../../source/persons.rst:118
+#: ../../source/persons.rst:122
+#: ../../source/persons.rst:127
+#: ../../source/persons.rst:131
+#: ../../source/persons.rst:135
+#: ../../source/persons.rst:139
+#: ../../source/persons.rst:143
+#: ../../source/persons.rst:148
+#: ../../source/persons.rst:152
+#: ../../source/persons.rst:156
+#: ../../source/persons.rst:160
+#: ../../source/persons.rst:164
+#: ../../source/persons.rst:169
+#: ../../source/persons.rst:173
+#: ../../source/persons.rst:177
+#: ../../source/persons.rst:181
+#: ../../source/persons.rst:185
+#: ../../source/persons.rst:190
+#: ../../source/persons.rst:194
+#: ../../source/persons.rst:198
+#: ../../source/persons.rst:202
+#: ../../source/persons.rst:206
+# 6479829181f047118985995efb195005
+# 21b87f7a14c64d69bfc9fca159a610f9
+# 3aa4b5c0287f458298b3336d4bfd9f7d
+# 1211fb63c9864d89b8ad0120dcac6b42
+# c1dfbad5f4c64d4f826a9bdfe2912649
+# 9d9282b942b24b8da84169a7f4a7d903
+# 6afaf3ea9aac4c3a99e1956583ef2884
+# 08e5aabc772145738754d49a081c4d06
+# a8c27333a9c34609acbf3e345595b511
+# 083b8d5c90844c049394ec8572e5d7ab
+# 9e26a7050cf54d4789ce9178c4059f72
+# d01f6f1aff764df7b9ad7e7d16ba96aa
+# bf77db36841b4c658834cfbabd63f51b
+# a844c8c884c548d4b34faf842375468d
+# 3c9d89a365c1438580ac4837378a1785
+# 0cd2fd2802484c3b8130acaa0bf87a77
+# 497b350bca024baba6935d8d8d1312b0
+# a6cee8e01f024e5dabd5e3ab0706a58d
+# 4709c10e55af421f9b5d6e232b1a5a1a
+# 035d266c935d495d8d12cc7c1c7d3e4a
+# d8d3598c9b86425e90c50c9c359b93b2
+# e9eaff6e0ea84c1da0706c01358fa0cd
+# 1e1b5dd2bdc840aeaf4f352fd4107277
+# a26204c571014b09a7edcdadd290bd63
+# ad10212190b2438f801d3efd97e45d51
+# 446985b71e144b7aa1e13197f1af14b6
+# 00257b470b9b4adaa190fc5eeaac78ed
+# f4302909038042a3a364e2036da09446
+# d0c280625a9f4fc1a528d1eafafaa62c
+# 169b61f640a144989d961d6807d1697f
+msgid "To do"
+msgstr ""
+
+#: ../../source/persons.rst:104
+# 85832b4e20624e628106e8f6fac2f6c2
+msgid "Person: Date of Birth"
+msgstr ""
+
+#: ../../source/persons.rst:125
+# 7e23a908313c43cb960ae8f3a01fce82
+msgid "Person: Date of Death"
+msgstr ""
+
+#: ../../source/persons.rst:146
+# e7d8dc09421042f5a1c942244afb4c86
+msgid "Person: Deceased"
+msgstr ""
+
+#: ../../source/persons.rst:167
+# 9df35c0d283e495396dd55c361ea7d57
+msgid "Person: Biography"
+msgstr ""
+
+#: ../../source/persons.rst:188
+# 2ce1fe0b77f24759a48d1cab508f087d
+msgid "Person: External Link"
+msgstr ""
+
+#: ../../source/persons.rst:209
+# 8b5abb5412e448aba7f6e030cdab0985
+msgid "Person: Organization"
+msgstr ""
+
+#: ../../source/persons.rst:213
+# 407c335a3d38434c839dc6f9ca4658c7
+msgid "The organization that the person is a member of."
+msgstr ""
+
+#: ../../source/persons.rst:217
+#: ../../source/persons.rst:236
+# 2591669f4e254f5b888ece48c98e91a5
+# 4187a6f5f3dd48f68c4f6444d74ed1b9
+msgid "Text and numbers, controlled vocabulary"
+msgstr ""
+
+#: ../../source/persons.rst:221
+# 55087d7de6154ff0ae70af2096434624
+msgid "``35 Batallón de Infantería``"
+msgstr ""
+
+#: ../../source/persons.rst:225
+# bfe18b9f5d0a47c491e8503e58ea0c13
+msgid "Values in this field correspond with names of organizations that already exist in the dataset (recording in the field ``Organization: Name``. A person can have multiple memberships of the same organization if there is a change to their entries for ``Person: Rank``, ``Person: Title`` or ``Person: Role`` with respect to the organization. An example of this is where a person is promoted. Another case where a person can have multiple membership of the same organization is where research indicates there are clear start or end dates to a membership. An example of where this might occur is if a person does multiples \"tours\" in a particular organization."
+msgstr ""
+
+#: ../../source/persons.rst:228
+# 364363ac9df143deaddc0df12c1a7b6e
+msgid "Person: Role"
+msgstr ""
+
+#: ../../source/persons.rst:232
+# 731cc252361047629cc0118090a2b2b5
+msgid "The role a person plays in the organization that is not evident from entries in ``Person: Title`` or ``Person: Rank``."
+msgstr ""
+
+#: ../../source/persons.rst:240
+# 4877b621f1fb4827a299f46838163104
+msgid "``Commander``"
+msgstr ""
+
+#: ../../source/persons.rst:244
+# 9d81f795c3c04b52a780520bcb58045a
+msgid "The most common value we record in ``Person: Role`` is ``Commander``."
+msgstr ""
+
+#: ../../source/persons.rst:246
+# deabede077aa48c7998ab33ceb94a164
+msgid "There are a variety of other roles a person can have including ``Second in Command``, ``Chief of Staff`` along with other less common entries. They will vary between countries."
+msgstr ""
+
+#: ../../source/persons.rst:248
+# 4a7aab37d80845dd9b0ebf221675d993
+msgid "As a special note, heads of academic or other security force institutions will sometimes be referred to as the ``Commandant``. In these cases, ``Commandant`` should be recorded in the ``Title`` field, and their role should be recorded as ``Commander``."
+msgstr ""
+
+#: ../../source/persons.rst:250
+# a063e323eb7e456ea420711b57b94d4b
+msgid "If a person is referred to as “the head”, “chief” or some other variation indicating that they are in charge of a unit, they should be regarded as the ``Commander``."
+msgstr ""
+
+#: ../../source/persons.rst:253
+# d9cd860967e345b5a71c5eaf24a94213
+msgid "Person: Title"
+msgstr ""
+
+#: ../../source/persons.rst:257
+# 7f5394b1052d40e5baee25c3b9b736bd
+msgid "A title held by a person that is separate from their rank or role."
+msgstr ""
+
+#: ../../source/persons.rst:265
+# ed509b51bcc541acab2e9dc6c4656b53
+msgid "``General Officer Commanding``, ``Jefe Del Estado Mayor``"
+msgstr ""
+
+#: ../../source/persons.rst:269
+# ab367da32eee458e89470da5b25c26d6
+msgid "The range of titles will vary from country to country. For example, commanders of army divisions in Nigeria, who usually hold the rank of ``Major General`` also hold the title of ``General Officer Commanding``."
+msgstr ""
+
+#: ../../source/persons.rst:272
+# 601da577bc2f4ffbbce802905396278b
+msgid "Person: Rank"
+msgstr ""
+
+#: ../../source/persons.rst:276
+# c3315de2daac4501b02937eabf9db2c8
+msgid "The official position of a person in the hierarchy of a security force."
+msgstr ""
+
+#: ../../source/persons.rst:284
+# 9af0e44bf944486396677360323315c7
+msgid "``General de División``, ``Teniente Coronel``, ``Air Vice Marshal``"
+msgstr ""
+
+#: ../../source/persons.rst:288
+# 1a85d068ac6c466a9d6a3d8de8356f62
+msgid "We remove any dashes that are contained in ``Person: Rank`` values."
+msgstr ""
+
+#: ../../source/persons.rst:290
+# f6b5f7a3dc9146f1a55b372bec78e876
+msgid "For example, we would enter ``Brigadier General`` rather than ``Brigadier-General``."
+msgstr ""
+
+#: ../../source/persons.rst:293
+# 034a0af5544740898967bbb6cd325fd1
+msgid "Person Membership: Date first cited"
+msgstr ""
+
+#: ../../source/persons.rst:297
+# 86211df1a4ef4be5a3c1ed125517da35
+msgid "The earliest date a source evidences a relationship between a person and an organization, either through direct reference in the source or by the date of its publication."
+msgstr ""
+
+#: ../../source/persons.rst:301
+#: ../../source/persons.rst:367
+# ea31b7b3fc554f59b5b2a83f6ab196b9
+# 1500b527728d488190c7b4c65996c074
+msgid "Date (YYYY-MM-DD), fuzzy"
+msgstr ""
+
+#: ../../source/persons.rst:305
+# 783481bf53294197b1907f48bc99c634
+msgid "``2012``, ``2012-11``, ``2012-11-23``"
+msgstr ""
+
+#: ../../source/persons.rst:309
+# 4d0d6a36386546418246b4f12b907f85
+msgid "Along with the fields ``Person membership: Start date?``, ``Person Membership: Date last cited`` and ``Person Membership: Open-ended?`` the field ``Person Memberships: Date first cited`` provides data about the time period over which we can evidence a person's relationships to an organization"
+msgstr ""
+
+#: ../../source/persons.rst:311
+# 1bb44546e64b46aa9b4e1b6517750fc5
+msgid "The ``Person Membership: Date first cited`` field contains a date that is either:"
+msgstr ""
+
+#: ../../source/persons.rst:313
+# 8c0f1474c7184142a4ea0f385f49d996
+msgid "The earliest date found in the content of a source that specifically references the relationship between a person and an organization; or,"
+msgstr ""
+
+#: ../../source/persons.rst:314
+# fe371a315b354c468ebb9a992cda8cbe
+msgid "The earliest date of publication of sources that makes reference to the relationship between a person and an organization."
+msgstr ""
+
+#: ../../source/persons.rst:316
+# 0038518027a24e1c877d88276825e914
+msgid "For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to this person as a commander, we will use 1 January 2012 as the value in ``Person Membership: Date first cited``. If the source published on 1 March 2012 refers to this person as a commander on the date of 30 June 2011, we will use 30 June 2011 as the value in ``Person Membership: Date first cited``."
+msgstr ""
+
+#: ../../source/persons.rst:318
+# 5a2749d95b574285a553d5c4505ee012
+msgid "The values for ``Person: Title``, ``Person: Role`` and ``Person: Rank`` held by a person are assumed to continue until a source indicates a change in any of those values. If the person's role, title or rank changes a new entry will need to be created to document that change. This new entry will have updated values for ``Person Membership: Date first cited`` and related date fields."
+msgstr ""
+
+#: ../../source/persons.rst:320
+# ea4826c377db41eea2ac56f8dd16568b
+msgid "For example, if a source indicates that Major General Jack Johnson is the commander of 1 Division as of 2007-08-20 all of the relevant fields would be entered based on that source. If another source states that Jack Johnson retired from the 1 Division on 2008-01-10 the last citation for Jack Johnson's affiliation would be 2008-01-10. However, this would also assume that Jack Johnson continued to have the Role of Commander and the Rank of Major General from 2007-08-20 until 2008-01-10."
+msgstr ""
+
+#: ../../source/persons.rst:322
+# d32d1fe2234e47bb9e8e9e9852569f10
+msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Person Membership: Date first cited``."
+msgstr ""
+
+#: ../../source/persons.rst:324
+# fe584ae2857242939ae28be53b6f1cc0
+msgid "This field is clarified by the field ``Person Membership: Start date?`` which indicates whether the date included here is the actual date on which the relationship between a person and an organization started."
+msgstr ""
+
+#: ../../source/persons.rst:327
+# f2b7d1ca0bbe4a7bbf79918ca2f5e685
+msgid "Person Membership: Start date"
+msgstr ""
+
+#: ../../source/persons.rst:331
+# 3c3181b5026f4e82b891154b071aa201
+msgid "Indicates whether the value in ``Person Membership: Date first cited`` is the actual date on which a person became a member of this organization, or the earliest date a source has referred to the relationship."
+msgstr ""
+
+#: ../../source/persons.rst:335
+# 3cb7461bad6748a4ab248f5a02e76aac
+msgid "Boolean, Y/N"
+msgstr ""
+
+#: ../../source/persons.rst:339
+# 1d9ae909b8a24028b84221b8cee31558
+msgid "``Y``, ``N``"
+msgstr ""
+
+#: ../../source/persons.rst:343
+# 89984961df6746e9b370765c713c6c96
+msgid "This is a clarifying field for ``Person Membership: Date first cited``."
+msgstr ""
+
+#: ../../source/persons.rst:345
+# fc1880dd8ffb46b188fee100f6579196
+msgid "Where the content of the source has indicated the exact date that a relationship between a person and an organization began we will enter ``Y`` . In all other cases we will enter a value of ``N`` to indicate that the date is not a start date, but the date of first citation."
+msgstr ""
+
+#: ../../source/persons.rst:348
+# 2ee484353a464b1fbea11269922fccd2
+msgid "Person Membership: Context Start Date"
+msgstr ""
+
+#: ../../source/persons.rst:359
+# 90b32b9c6d35437b9964c94fa9bf9147
+msgid "Person Membership: Date last cited"
+msgstr ""
+
+#: ../../source/persons.rst:363
+# 088c687bac29480c96a6dd846c956d8a
+msgid "The latest date a source evidences a relationship between a person and an organization, either through direct reference in the source or by the date of its publication."
+msgstr ""
+
+#: ../../source/persons.rst:371
+# 8b7a59152b034a1f99a2bf3b696aa1a9
+msgid "``2012``,\\ ``2012-11``, ``2012-11-23``"
+msgstr ""
+
+#: ../../source/persons.rst:375
+# a5ac397f4fa6494ab2a8dab6e2238dde
+msgid "Along with the fields ``Person Membership: Date first cited``, ``Person Membership: Start date?`` and ``Person Membership: Open-ended?`` the field ``Person Memberships: Date last cited`` provides data about the time period over which we can evidence a person's relationships to an organization"
+msgstr ""
+
+#: ../../source/persons.rst:377
+# e638ca573f5f419e8792d4e072f39a04
+msgid "The ``Person Membership: Date last cited`` field contains a date that is either:"
+msgstr ""
+
+#: ../../source/persons.rst:379
+# 9bdf5de276c54705a4b118abdf3e97c1
+msgid "The latest date found in the content of a source that specifically references the relationship between a person and an organization; or,"
+msgstr ""
+
+#: ../../source/persons.rst:380
+# 8096fa59b64d411ab270a6f193ed7842
+msgid "The latest date of publication of sources that makes reference to the relationship between a person and an organization."
+msgstr ""
+
+#: ../../source/persons.rst:382
+# 6d38524bfe794180b4ac0962e8ea5560
+msgid "For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to this person as a commander, we will use 1 March 2012 as the value in ``Person Membership: Date last cited``. If the source published on 1 March 2012 refers to this person as a commander on the date of 14 February 2011, we will use 14 February 2011 as the value in ``Person Membership: Date last cited``."
+msgstr ""
+
+#: ../../source/persons.rst:384
+# 61c9ce81c8cb49bab9103d282bfc5d25
+msgid "The values for ``Person: Title``, ``Person: Role`` and ``Person: Rank`` held by a person are assumed to continue until a source indicates a change in any of those values. If the person's role, title or rank changes a new entry will need to be created to document that change. This new entry will have updated values for ``Person Membership: Date last cited`` and related date fields."
+msgstr ""
+
+#: ../../source/persons.rst:386
+# f8735c467b9f455cb73126cc97f53a18
+msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included ``Person Membership: Date last cited`` ."
+msgstr ""
+
+#: ../../source/persons.rst:388
+# 941097b9781d4936b680ffaa1b00a53a
+msgid "This field is clarified by the field ``Person Membership: Open-ended?`` which indicates whether the date included here is the actual date on which the relationship between a person and an organization ended."
+msgstr ""
+
+#: ../../source/persons.rst:391
+# 8dada514b0ea462a95643d34cd9d7500
+msgid "Person Membership: End date?"
+msgstr ""
+
+#: ../../source/persons.rst:395
+# 51d63b849398405bbe5125e61d8b1dae
+msgid "This field indicates whether the value in ``Person Membership: Date last cited`` is the actual end date on which the person ceased to be a member of this organization or if it is only the date last cited for that relationship."
+msgstr ""
+
+#: ../../source/persons.rst:399
+# a647e7ab6f394e888ef2ee63282d6d03
+msgid "Single choice, (Y, N)"
+msgstr ""
+
+#: ../../source/persons.rst:403
+# 59b995542db04014bc838a0421dd2909
+msgid "``Y``,\\ ``N``"
+msgstr ""
+
+#: ../../source/persons.rst:407
+# 666c025183a24e6cbb3bdb8c87c9bd14
+msgid "This is a clarifying field for ``Person Membership: Date last cited``. One of the below values should be chosen:"
+msgstr ""
+
+#: ../../source/persons.rst:409
+# 401b4eb330a24aeea03ac5790dd6310a
+msgid "``Y`` indicates that the content of the source is the exact date that a relationship between a person and an organization ended."
+msgstr ""
+
+#: ../../source/persons.rst:410
+# f3ec16b8751e408795f9a4b02fd705ae
+msgid "``N`` indicates that the date is not an exact end date, but the date of last citation."
+msgstr ""
+
+#: ../../source/persons.rst:413
+# b98abf728ec44b44838a641990ecf428
+msgid "Person Membership: Context End Date"
+msgstr ""
+
+#: ../../source/persons.rst:424
+# e97e892bd6e74a9691dfdd5f3f0d3635
+msgid "Person: Notes"
+msgstr ""
+
+#: ../../source/persons.rst:428
+# 24bb773a37e047df9f02d50b15ae299a
+msgid "Analysis, commentary and notes about the person that do not fit into the data structure."
+msgstr ""
+
+#: ../../source/persons.rst:436
+# 4eea80dbd941487b925396840e787082
+msgid "``Trained in logisitics at Fort Lackland, Texas and the air force base of Wright Patterson, Ohio.``"
+msgstr ""
+
+#: ../../source/persons.rst:440
+# f3887a24a131464d9773e324802c6119
+msgid "We use this field to record information about the organization that is likely to provide useful context, additional information that does not fit into the data structure, and notes about how decisions were made about which data to include. Any sources used should be included inside the field."
+msgstr ""
+

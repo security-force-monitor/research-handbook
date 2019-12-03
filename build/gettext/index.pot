@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-26 12:40+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/index.rst:4
+#: ../../source/index.rst:4
+# 
+# 41e72f45e8a44e86a9a725882d60d764
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/index.rst:10
+#: ../../source/index.rst:10
+# 
+# f16240bfb6254e64aabac07cc888d302
+msgid "Methodology"
+msgstr ""
+
+#: ../../source/index.rst:17
+#: ../../source/index.rst:17
+# 
+# 736090dfdc8b4ef886601744310ab696
+msgid "Data Model"
+msgstr ""
+
+#: ../../source/index.rst:27
+#: ../../source/index.rst:27
+# 
+# b210882c81cd42d19bb9690a2611598e
+msgid "WhoWasInCommand"
+msgstr ""
+
+#: ../../source/index.rst:2
+# d4950496e3d0443982a5def7be957fe6
+msgid "Security Force Monitor: Research Handbook"
+msgstr ""
+
+#: ../../source/index.rst:37
+# 4c631fce442749e0b1e999a5fefe930b
+msgid "Indices and tables"
+msgstr ""
+
+#: ../../source/index.rst:39
+# 6bc87b3575df49e8951341563a815088
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../source/index.rst:40
+# d704c4d98abd4ca4bbe0fb80168c6974
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../source/index.rst:41
+# 9dbb9b5434eb4c37bbfb05f000b819ed
+msgid ":ref:`search`"
+msgstr ""
+

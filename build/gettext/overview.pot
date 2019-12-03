@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-26 12:40+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/overview.rst:2
+# 5a9fa9424c4b4bd4a74a67b5e0d24094
+msgid "Research Handbook for Security Force Monitor"
+msgstr ""
+
+#: ../../source/overview.rst:5
+# 739eda9a1e8146359043d7fa057b4682
+msgid "About this Research Handbook"
+msgstr ""
+
+#: ../../source/overview.rst:7
+# 14e7a30925e5408083f7dbdc05854dc4
+msgid "This Research Handbook contains information about the data and tools used by Security Force Monitor, a project of the Columbia Law School Human Rights Initiative. Currently, it has three main sections:"
+msgstr ""
+
+#: ../../source/overview.rst:9
+# 0ae6f86a692a40cbb06c6359936f129b
+msgid "WhoWasInCommand.com User Guide: The data created by Security Force Monitor is published online on WhoWasInCommand.com, a platform with powerful search functions, clean and interactive views of data on persons, organizations and events."
+msgstr ""
+
+#: ../../source/overview.rst:10
+# 37de1f5c64fc4a9f837a13e152a5ec3c
+msgid "Methodology: Security Force Monitor has a four phase approach to researching a country's security forces. This section outlines our process."
+msgstr ""
+
+#: ../../source/overview.rst:11
+# b469f00694594fb6b0d09c8031e2fd4b
+msgid "Data Model: this section describes the way that Security Force Monitor structures the data it collects, outlines the main entities in use (``persons``,\\ ``organizations`` and ``events``) and details how each field is used."
+msgstr ""
+
+#: ../../source/overview.rst:13
+# 4303b83355d645348f0d0af53db11e4a
+msgid "The Research Handbook is a work-in-progress, and is updated during the course of the work of Security Force Monitor."
+msgstr ""
+
+#: ../../source/overview.rst:16
+# 4f226bffc3b749539daa27dcf4d68261
+msgid "Contributors"
+msgstr ""
+
+#: ../../source/overview.rst:18
+# 2959ca00ba274cf49def5cd7d5a16761
+msgid "Tony Wilson, Tom Longley and Michel Manzur from `Security Force Monitor <https://securityforcemonitor.org>`__ wrote the first version of this Research Handbook."
+msgstr ""
+
+#: ../../source/overview.rst:19
+# 577899ba15014bbea620184c0661fb35
+msgid "`James McKinney <https://twitter.com/mckinneyjames>`__ - at the time with `OpenNorth <http://opennorth.ca>`__ - was a major contributor to the development of Monitor's data model, adapting Popolo (an international open government data standard) and developing the specifications for the Monitor's research tool."
+msgstr ""
+
+#: ../../source/overview.rst:21
+# 61cb92c3f33c4223a936ce7aec3938ab
+msgid "Security Force Monitor has partnered with DataMade to create WhoWasInCommand.com. DataMade has operationalized and refined Security Force Monitor's data structure, created a powerful open source platform to put the data online, and made a significant contribution to the concept and design of WhoWasInCommand.com."
+msgstr ""
+
+#: ../../source/overview.rst:23
+# 454283a829a74b81a35d31b20474799f
+msgid "**How to contribute**"
+msgstr ""
+
+#: ../../source/overview.rst:25
+# 9a90b0b61e07450aa92491664d6f0fa2
+msgid "The `Research Handbook source is hosted on Github <https://github.com/security-force-monitor/sfm-research-handbook>`__, and published here as a Gitbook."
+msgstr ""
+
+#: ../../source/overview.rst:27
+# 03e3477140594eb2be94640c1adb583b
+msgid "When reading it, we are sure you will find things that can be improved - please let us know what needs to be done, either by `emailing us <mailto:info@securityforcemonitor.org>`__, `submitting a pull request or filing a issue on Github <https://github.com/security-force-monitor/sfm-research-handbook/issues>`__."
+msgstr ""
+
+#: ../../source/overview.rst:30
+# 3071f0c2b4a9491faa3c9b733926dce5
+msgid "About Security Force Monitor"
+msgstr ""
+
+#: ../../source/overview.rst:32
+# d9fb076e16fd44c58da817dc70077e0c
+msgid "The Security Force Monitor works to make police, military and other security forces around the world more transparent and accountable."
+msgstr ""
+
+#: ../../source/overview.rst:34
+# 263a2d056ff24585bd2e79f6a3edce46
+msgid "Human rights researchers, journalists, advocates, litigators and others engaged in making security forces accountable face a common problem – a lack of clear, detailed information on those forces. Often, answering even simple questions can be difficult:"
+msgstr ""
+
+#: ../../source/overview.rst:36
+# 48a96e3a99604e65a232b3f8e7d39f0a
+msgid "Who is in charge of the specialized anti-riot police unit?"
+msgstr ""
+
+#: ../../source/overview.rst:37
+# 8bd35aeadccb4058bf32d44c01ef270c
+msgid "What army unit has jurisdiction over what areas?"
+msgstr ""
+
+#: ../../source/overview.rst:38
+# be848e733ffa4fc4939f9bd668826790
+msgid "Where did this commander previously serve?"
+msgstr ""
+
+#: ../../source/overview.rst:39
+# 3175ac79d2c74bea90db99056997926d
+msgid "When was a particular police unit based in a specific city?"
+msgstr ""
+
+#: ../../source/overview.rst:41
+# 591b45d8486940d7870d4670e5f597e0
+msgid "There is a vast amount of public information on security forces around the world, but it is unstructured and scattered among a wide variety of sources, making it prohibitively costly for those engaged in public interest work to understand the security forces of a particular country."
+msgstr ""
+
+#: ../../source/overview.rst:43
+# c7714be475bb406cba410c2c7ae03a46
+msgid "The Security Force Monitor aims to solve this problem and aid those working to make police, military and other security forces accountable. The Monitor analyzes and compiles public information to provide data on: the command hierarchy, location, areas of operation, commanders and the other linkages between units – all tracked through time. The Monitor’s mission and technical offerings have been developed to serve, and in consultation with, a wide range of civil society efforts."
+msgstr ""
+
+#: ../../source/overview.rst:45
+# 290028c634f94e5c9d7dcfe383f8f0d8
+msgid "The Security Force Monitor is a project of the `Columbia Law School Human Rights Institute <http://www.law.columbia.edu/human-rights-institute>`__."
+msgstr ""
+
+#: ../../source/overview.rst:47
+# 541c51c43f9945baaf6b2295b273b662
+msgid "`More information about Security Force Monitor <https://securityforcemonitor.org>`__ can be found on our website."
+msgstr ""
+
+#: ../../source/overview.rst:50
+# 6815cb52281e4a56aa50ec923aedd730
+msgid "License"
+msgstr ""
+
+#: ../../source/overview.rst:52
+# 4734f7bb4060458bbb0a53faeeb250d4
+msgid "The Security Force Monitor Research Handbook is licensed under a `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`__."
+msgstr ""
+
+#: ../../source/overview.rst:57
+# 9c63fa31d0cf435fb353271480ceadc3
+msgid "License: CC BY 4.0"
+msgstr ""
+

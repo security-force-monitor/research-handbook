@@ -1,0 +1,679 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Events &mdash; SFM Research Handbook 1.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Frequently Asked Questions about WhoWasInCommand" href="generalfunctions.html" />
+    <link rel="prev" title="Persons" href="persons.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: black" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> SFM Research Handbook
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Research Handbook for Security Force Monitor</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="overview.html#about-this-research-handbook">About this Research Handbook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="overview.html#contributors">Contributors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="overview.html#about-security-force-monitor">About Security Force Monitor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="overview.html#license">License</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Methodology</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="methodology.html">Research methodology</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="methodology.html#phase-1-scope-out-sources">Phase 1: Scope out sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="methodology.html#phase-2-write-a-country-guide">Phase 2: Write a Country Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="methodology.html#phase-3-conduct-detailed-research">Phase 3: Conduct detailed research</a></li>
+<li class="toctree-l2"><a class="reference internal" href="methodology.html#phase-4-publish-data">Phase 4: Publish data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="methodology.html#timebound-data">Timebound Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="methodology.html#unknown-vs-unnamed-organizations">Unknown vs. Unnamed Organizations</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">Tutorials</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tutorials.html#recording-geographical-information">Recording geographical information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorials.html#dates-and-time-periods-in-security-force-monitor">Dates and time periods in Security Force Monitor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorials.html#archiving-and-retrieving-sources-from-the-internet-archive">Archiving and retrieving sources from the Internet Archive</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Data Model</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="datamodel.html">What data does the Monitor collect?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sources_confidence.html">Sources and Confidence</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="sources_confidence.html#sources">Sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources_confidence.html#confidence">Confidence</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="organizations.html">Organizations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-id">Organization: ID</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-name">Organization: Name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-aliases">Organization: Aliases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-country">Organization: Country</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-classification">Organization: Classification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-date-first-cited">Organization: Date first cited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-start-date">Organization: Start date?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-date-last-cited">Organization: Date last cited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-open-ended">Organization: Open-ended?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-parent">Organization: Parent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#parent-relationship-classification">Parent relationship: Classification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#parent-relationship-date-first-cited">Parent relationship: Date first cited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#parent-relationship-start-date">Parent relationship: start date?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#parent-organization-date-last-cited">Parent organization: date last cited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#parent-relationship-open-ended">Parent relationship: Open-ended?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-base">Site: Base</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-exact-location-longitude-or-osm-object-name">Site: Exact Location (Longitude or OSM object Name)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-exact-location-latitude-or-osm-object-id">Site: Exact Location (Latitude or OSM object ID)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-settlement-osm-object-name">Site: Settlement (OSM object Name)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-settlement-osm-object-id">Site: Settlement (OSM object ID)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-top-administrative-area-osm-object-name">Site: Top Administrative Area (OSM object Name)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-top-administrative-area-osm-object-id-number">Site: Top Administrative Area (OSM object ID number)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-country">Site: Country</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-date-of-first-citation">Site: Date of first citation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-founding-date">Site: Founding date?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-date-last-cited">Site: Date last cited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-open-ended">Site: Open-ended?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-osm-object-name">Area of Operations: OSM object name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-osm-object-id-number">Area of Operations: OSM object ID number</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-country">Area of Operations: Country</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-date-first-cited">Area of Operations: Date first cited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-start-date">Area of Operations: Start date?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-date-last-cited">Area of Operations: Date last cited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-open-ended">Area of Operations: Open-ended?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-membership">Organization Membership</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#membership-date-first-cited">Membership: Date first cited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#membership-start-date">Membership: Start date?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#membership-date-of-last-citation">Membership: Date of last citation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#membership-end-date">Membership: End Date?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-notes">Organization: Notes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="persons.html">Persons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-id">Person: ID</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-name">Person: Name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-aliases">Person: Aliases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-country">Person: Country</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-gender">Person: Gender</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-date-of-birth">Person: Date of Birth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-date-of-death">Person: Date of Death</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-deceased">Person: Deceased</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-biography">Person: Biography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-external-link">Person: External Link</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-organization">Person: Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-role">Person: Role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-title">Person: Title</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-rank">Person: Rank</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-membership-date-first-cited">Person Membership: Date first cited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-membership-start-date">Person Membership: Start date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-membership-context-start-date">Person Membership: Context Start Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-membership-date-last-cited">Person Membership: Date last cited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-membership-end-date">Person Membership: End date?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-membership-context-end-date">Person Membership: Context End Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-notes">Person: Notes</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Events</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#event-id">Event: ID</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-start-date">Event: Start date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-end-date">Event: End date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-date-of-publication">Event: Date of publication</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-date-of-last-update">Event: Date of last update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-status-as-of-last-update">Event: Status as of last update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-location">Event: Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-exact-location-longitude-or-osm-object-name">Event: Exact location (Longitude or OSM object Name)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-exact-location-latitude-or-osm-object-id-number">Event: Exact location (Latitude or OSM object ID number)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-settlement-osm-object-name">Event: Settlement (OSM object Name)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-settlement-osm-object-id-number">Event: Settlement (OSM object ID Number)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-top-administrative-area-osm-object-name">Event: Top Administrative Area (OSM object name)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-top-administrative-area-osm-object-id-number">Event: Top Administrative Area (OSM object ID number)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-country">Event: Country</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-violation-type">Event: Violation type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-description">Event: Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-perpetrator-name">Event: Perpetrator name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-perpetrator-organization">Event: Perpetrator organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-perpetrator-classification">Event: Perpetrator classification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-source">Event: Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-notes">Event: Notes</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">WhoWasInCommand</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="generalfunctions.html">Frequently Asked Questions about WhoWasInCommand</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#what-is-whowasincommand">What is WhoWasInCommand?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#how-do-i-find-what-i-m-looking-for">How do I find what I’m looking for?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#where-can-i-find-help-understanding-what-i-m-seeing-or-how-this-website-works">Where can I find help understanding what I’m seeing or how this website works?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#where-can-i-find-out-more-about-the-data-on-units-persons-and-incidents">Where can I find out more about the data on “units”, “persons” and “incidents”?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#how-can-i-see-all-the-units-for-a-particular-country">How can I see all the units for a particular country?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#why-does-whowasincommand-make-suggestions-to-me">Why does WhoWasInCommand make suggestions to me?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#how-do-i-get-all-the-sources-used-in-a-record">How do I get all the sources used in a record?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#how-do-i-see-the-sources-used-for-a-specific-datapoint">How do I see the sources used for a specific datapoint?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#what-are-those-little-numbered-circles-that-keep-appearing">What are those little numbered circles that keep appearing?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#why-do-some-dates-have-a-dotted-line-beneath-them-and-some-don-t">Why do some dates have a dotted line beneath them and some don’t?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#the-command-chart-is-taking-a-looooong-time-to-load-is-there-a-problem">The command chart is taking a looooong time to load. Is there a problem?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="unitrec.html">Unit Records on WhoWasInCommand</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-title-area">Unit record title area</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-content-sidebar">Unit record content sidebar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-areas-of-operation">Unit record Areas of Operation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-sites">Unit Sites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-memberships">Unit memberships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#member-units">Member units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#parent-units">Parent Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-subsidiaries">Unit subsidiaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-personnel">Unit personnel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-incidents">Unit incidents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-changelog">Unit record changelog</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="personsrec.html">Person records on WhoWasInCommand</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-title-area">Person record title area</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-content-sidebar">Person record content sidebar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-last-seen-as">Person “Last Seen As”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-memberships">Person memberships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-chain-of-command">Person chain of command</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-superiors">Person superiors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-subordinates">Person subordinates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-changelog">Person record changelog</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="eventrec.html">Incident Records on WhoWasInCommand</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="eventrec.html#incident-title-area">Incident title area</a></li>
+<li class="toctree-l2"><a class="reference internal" href="eventrec.html#incident-content-sidebar">Incident content sidebar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="eventrec.html#incident-location">Incident location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="eventrec.html#incident-description">Incident description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="eventrec.html#perpetrator-organizations">Perpetrator organizations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="eventrec.html#incident-changelog">Incident Changelog</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">SFM Research Handbook</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Events</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/events.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="generalfunctions.html" class="btn btn-neutral float-right" title="Frequently Asked Questions about WhoWasInCommand" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="persons.html" class="btn btn-neutral float-left" title="Persons" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="events">
+<h1>Events<a class="headerlink" href="#events" title="Permalink to this headline">¶</a></h1>
+<p>Events describe publicly-documented allegations of human rights violations committed by security forces. These include extrajudicial killings, rape, torture and other forms of violence. Security Force Monitor does not make allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors.</p>
+<p>The Security Force Monitor focuses its research on the structure, personnel and operations of security forces. As such we treat all reports of human rights abuses as “alleged” in our documentation. This simply means these are claims that other organizations have made and which we are repeating without further verification. The Security Force Monitor does not make allegations against security forces and the data that we publish does not attempt to demonstrate involvement of individuals or units human rights abuses outside of what other organizations have alleged.</p>
+<p>For each event, we includes data about what happened and when, the location(s) it occurred at, the alleged perpetrators and the type of human rights violation.</p>
+<p>Fields in events are not sourced and rated for confidence individually as in the data we create about organizations and persons. We provide a single source for the entire event, cited in our standard format.</p>
+<p>We use the term <code class="docutils literal notranslate"><span class="pre">incident</span></code> interchangeably with the term <code class="docutils literal notranslate"><span class="pre">event</span></code>.</p>
+<div class="section" id="event-id">
+<h2>Event: ID<a class="headerlink" href="#event-id" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>A unique code assigned to each event in the dataset.</p>
+<p><strong>Type of field</strong></p>
+<p>Text and numbers</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">a407be6a-28e6-4237-b4e9-307f27b1202e</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>This field is created automatically when data is uploaded into the Monitor’s online platform.</p>
+</div>
+<div class="section" id="event-start-date">
+<h2>Event: Start date<a class="headerlink" href="#event-start-date" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>The date on which an event started.</p>
+<p><strong>Type of field</strong></p>
+<p>Date (YYYY-MM-DD), fuzzy</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">2012</span></code>, <code class="docutils literal notranslate"><span class="pre">2012-11</span></code>, <code class="docutils literal notranslate"><span class="pre">2012-11-23</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>If an event occurred within a single day, <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Start</span> <span class="pre">date</span></code> and <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">End</span> <span class="pre">date</span></code> should be the same.</p>
+<p>Events may occur at some point during a range:</p>
+<blockquote>
+<div><p>For example: “On or about August 9, 2006, personnel of the NPF paraded 12 alleged armed robbers—including a 12-year-old—before the media at the Central Police Station in Umuahia, capital of Abia State. They claimed to have arrested the suspects after an exchange of gunfire with the police. Some of those in custody had gunshot wounds, and four others were killed during the incident at Olokobe-Ndume community in Umuahia North Local Government Area of Abia State. Following the parade, the police summarily executed the suspects and deposited their bodies at the premises of the Federal Medical Centre in Umuahia. They claimed that the executed victims signed confessional statements before they were killed. On August 17, 2006, the authorities of the Federal Medical Centre arranged a mass burial for the decomposing bodies of the victims. There were no autopsies or inquests. The police later organized a press conference at which they announced the executions.”</p>
+</div></blockquote>
+<p>We know from this source that the victims were alive as of 9 August 2006 and we know they were dead as of 17 August 2006. However the exact time of the killing occurred is not clear; it could have happened at any point during that time frame. To accommodate this, we would record <code class="docutils literal notranslate"><span class="pre">2006-08-09</span></code> in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Start</span> <span class="pre">date</span></code> and <code class="docutils literal notranslate"><span class="pre">2006-08-17</span></code> in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">End</span> <span class="pre">date</span></code>.</p>
+<p>In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Start</span> <span class="pre">date</span></code> .</p>
+</div>
+<div class="section" id="event-end-date">
+<h2>Event: End date<a class="headerlink" href="#event-end-date" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>The date on which an event ended.</p>
+<p><strong>Type of field</strong></p>
+<p>Date (YYYY-MM-DD), fuzzy</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">2012</span></code>, <code class="docutils literal notranslate"><span class="pre">2012-11</span></code>, <code class="docutils literal notranslate"><span class="pre">2012-11-23</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>If <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">End</span> <span class="pre">date</span></code> is unclear there are several ways to determine what should be used.</p>
+<p>One option is to record the date of interview with victim as <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">End</span> <span class="pre">date</span></code>. We can assume that the violation(s) ended at least the month/day of the interview - or that we at least know they occurred up to that date.</p>
+<blockquote>
+<div><p>For example: “Abu Bakr, a former detainee in Giwa Barracks told Amnesty International that he had been forced to share a confined area with up to 400 other people […] Abu Bakr who was held in Giwa barracks told Amnesty International in July 2014: “There was no toilet. To toilet you use a black plastic bag and when you go out you throw it… or if someone used his maybe he will give you.” He also explained: ‘We had rice for breakfast. A small amount, they put it in your hand. You give your hand, they will put the rice, you swallow it, you go back to the cell. Later in the day they give you water once. It is in a jug and you drink and pass it to another inside the cell. In the evening it is rice and stew, small. They give it in a nylon bag. There is no washing, no showers. No sleep. You just sit down only, the place is very tight, just sit on your bottom. You can only pray in the cell where you are sitting.’”</p>
+</div></blockquote>
+<p>In this example we could record <code class="docutils literal notranslate"><span class="pre">2014-07</span></code> in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">End</span> <span class="pre">date</span></code> because we know that at some time in July he talked to Amnesty International.</p>
+<p>Here’s another example:</p>
+<blockquote>
+<div><p>“Melvin, a 23-year-old sex worker in Port Harcourt, said she was raped twice by the police. She said: “I was arrested twice. Last month they took all of us to Mile 1 police station. We were six that day, we see different people. They put us in different places [in the police station]. We just have to allow them have sex with us. We were detained for three days. We were asked to pay N3,500 each. The one that will bail you will sleep with you. After that you can go.”</p>
+</div></blockquote>
+<p>In this case, we can look at the footnotes. They often will give the date of when the victim was interviewed. In this case, both footnotes read: “Amnesty International interview in Port Harcourt, October 2011.” - so “last month” would be <code class="docutils literal notranslate"><span class="pre">September</span> <span class="pre">2011</span></code> and we would record this as <code class="docutils literal notranslate"><span class="pre">2011-09</span></code> in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Start</span> <span class="pre">date</span></code>. While they were detained for three days it is unclear if the complete event occurred in September because Amnesty interviewed this person in October 2011. Accordingly, we could record <code class="docutils literal notranslate"><span class="pre">2011-10</span></code> in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">End</span> <span class="pre">date</span></code> as they could have been arrested on September 29 and then released on 1 October 2011.</p>
+<p>In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">End</span> <span class="pre">date</span></code>.</p>
+</div>
+<div class="section" id="event-date-of-publication">
+<h2>Event: Date of publication<a class="headerlink" href="#event-date-of-publication" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>The date of publication of the source used to evidence the event.</p>
+<p><strong>Type of field</strong></p>
+<p>Date (YYYY-MM-DD), fuzzy</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">2012</span></code>, <code class="docutils literal notranslate"><span class="pre">2012-11</span></code>, <code class="docutils literal notranslate"><span class="pre">2012-11-23</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Date</span> <span class="pre">of</span> <span class="pre">publication</span></code>.</p>
+</div>
+<div class="section" id="event-date-of-last-update">
+<h2>Event: Date of last update<a class="headerlink" href="#event-date-of-last-update" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>The date of most recent update about the event</p>
+<p><strong>Type of field</strong></p>
+<p>Date (YYYY-MM-DD), fuzzy</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">2012</span></code>, <code class="docutils literal notranslate"><span class="pre">2012-11</span></code>, <code class="docutils literal notranslate"><span class="pre">2012-11-23</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Date</span> <span class="pre">of</span> <span class="pre">last</span> <span class="pre">update</span></code>.</p>
+</div>
+<div class="section" id="event-status-as-of-last-update">
+<h2>Event: Status as of last update<a class="headerlink" href="#event-status-as-of-last-update" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>Most recently available status of the event</p>
+<p><strong>Type of field</strong></p>
+<p>Text, controlled vocabulary</p>
+<p><strong>Example of use</strong></p>
+<p>Field is not yet implemented.</p>
+<p><strong>Guidance for use</strong></p>
+<p>Field is not yet implemented.</p>
+</div>
+<div class="section" id="event-location">
+<h2>Event: Location<a class="headerlink" href="#event-location" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>A description of the where the event occurred.</p>
+<p><strong>Type of field</strong></p>
+<p>Text and numbers</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">Giwa</span> <span class="pre">Barracks</span></code>, <code class="docutils literal notranslate"><span class="pre">Rikkos</span> <span class="pre">neighborhood</span></code>, <code class="docutils literal notranslate"><span class="pre">Campo</span> <span class="pre">Militar</span> <span class="pre">Número</span> <span class="pre">6-B</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>We use this field to record the location of an event.</p>
+<p>Example:</p>
+<blockquote>
+<div><p>“Stanley Adiele Uwakwe and Faka Tamunotonye Kalio were arrested on 10 May and brought to Old GRA detention centre in Port Harcourt. After several days, they were transferred to another police station, but officers there told relatives that the men were not in detention. Unofficially, relatives were informed that the men had been killed by the police.”</p>
+</div></blockquote>
+<p>While they were detained at Old GRA detention centre - the location of their killing is unclear. It is also not clear where they were located before they were disappeared - was it at the Old GRA or at the unnamed police station? Since we don’t know we’d leave the Location field blank.</p>
+<p>Here’s another example of how to use this field:</p>
+<blockquote>
+<div><p>“And in yet a third case, Human Rights Watch interviewed three witnesses who saw soldiers shoot five men on the Customs Bridge in Maiduguri. One of the victims survived. He told Human Rights Watch that on the afternoon of July 28 soldiers entered a mosque where he was praying with four other men. The soldiers removed their robes, beat them, and marched them to their commander at the bridge. He described what happened next: The soldiers told us to lie down. Four of the soldiers opened fire on us. The commander was watching. I was lying on my side. They saw that some of us were moving and shot us again. I then lost consciousness. I regained consciousness in the night and dragged myself to an area in the dirt near Dandal Community Bank. I spent the night under a bus. In the morning an achaba [commercial motorcycle taxi] man who knew me took me to my house. My family called a doctor…. They removed four bullets from my body. A former Boko Haram member who witnessed the shootings at the Customs Bridge insisted to Human Rights Watch that the five men were not Boko Haram members. According to him, “The old man was holding prayer beads, and Boko Haram members don’t do that. The two youth wore T-shirts and the [other] two men wore long pants, not the short pants of Boko Haram.” The soldiers left the corpses on the bridge for three days.”</p>
+</div></blockquote>
+<p>The location would be <code class="docutils literal notranslate"><span class="pre">the</span> <span class="pre">Customs</span> <span class="pre">Bridge</span></code> - while <code class="docutils literal notranslate"><span class="pre">Maiduguri</span></code> would be the <code class="docutils literal notranslate"><span class="pre">City</span> <span class="pre">or</span> <span class="pre">other</span> <span class="pre">Node</span> <span class="pre">Name</span></code> (more on that below)</p>
+<p>A common issue is the separation of specific events contained within a single account of violations based on geography.</p>
+<p>Often a person is arrested and, for example, beaten at a specific site (and the account might include information about other victims being killed at the site of arrest). They are then transported to another site where they are detained and tortured. Moreover, the conditions during the transportation of detainees/prisoners may amount to violations of fundamental rights and often the narrator describes people dying while being transported.</p>
+<p>In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one <code class="docutils literal notranslate"><span class="pre">event</span></code> and abuses committed or otherwise tied to site of detention a separate <code class="docutils literal notranslate"><span class="pre">event</span></code>.</p>
+</div>
+<div class="section" id="event-exact-location-longitude-or-osm-object-name">
+<h2>Event: Exact location (Longitude or OSM object Name)<a class="headerlink" href="#event-exact-location-longitude-or-osm-object-name" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p><strong>Type of field</strong></p>
+<p><strong>Example of use</strong></p>
+<p><strong>Guidance for use</strong></p>
+</div>
+<div class="section" id="event-exact-location-latitude-or-osm-object-id-number">
+<h2>Event: Exact location (Latitude or OSM object ID number)<a class="headerlink" href="#event-exact-location-latitude-or-osm-object-id-number" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p><strong>Type of field</strong></p>
+<p><strong>Example of use</strong></p>
+<p><strong>Guidance for use</strong></p>
+</div>
+<div class="section" id="event-settlement-osm-object-name">
+<h2>Event: Settlement (OSM object Name)<a class="headerlink" href="#event-settlement-osm-object-name" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>The city, town or village in which an event occurred.</p>
+<p><strong>Type of field</strong></p>
+<p>Text, OSM object name, first in a pair of values</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">Monclova</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>Often, information about events does not list a settlement by name. If so, we will leave this field blank even if by the description it seems to indicate a particular place. This is because we do not add to reporting only to transcribe what other groups have reported.</p>
+</div>
+<div class="section" id="event-settlement-osm-object-id-number">
+<h2>Event: Settlement (OSM object ID Number)<a class="headerlink" href="#event-settlement-osm-object-id-number" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>The city, town or village in which an event occurred.</p>
+<p><strong>Type of field</strong></p>
+<p>Number, OSM object ID number, second in a pair of values</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">747101009</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>Often, information about events does not list a settlement by name. If so, we will leave this field blank even if by the description it seems to indicate a particular place. This is because we do not add to reporting only to transcribe what other groups have reported.</p>
+</div>
+<div class="section" id="event-top-administrative-area-osm-object-name">
+<h2>Event: Top Administrative Area (OSM object name)<a class="headerlink" href="#event-top-administrative-area-osm-object-name" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>The OSM object name of the highest sub-national administrative area in which an organization site is based.</p>
+<p><strong>Type of field</strong></p>
+<p>Text, OSM relation name, first in a pair of values</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">Michoacán</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>We identify <code class="docutils literal notranslate"><span class="pre">Events</span></code> with a number of different levels of geographical precision. In <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Top</span> <span class="pre">Administrative</span> <span class="pre">Area</span> <span class="pre">(OSM</span> <span class="pre">relation</span> <span class="pre">name)</span></code> we record the text name of highest level subnational boundary for the country in which the site is located, <a class="reference external" href="http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations">as found in in OpenStreetMap</a>.</p>
+<blockquote>
+<div><p>For example Mexico has both <em>municipios</em> (administrative level 6 in OSM) and states (administrative level 4). For a <code class="docutils literal notranslate"><span class="pre">site</span></code> based in Mexico, we would record in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Top</span> <span class="pre">Administrative</span> <span class="pre">Area</span> <span class="pre">(OSM</span> <span class="pre">relation</span> <span class="pre">name)</span></code> the name the “state” (admin level 4).</p>
+</div></blockquote>
+</div>
+<div class="section" id="event-top-administrative-area-osm-object-id-number">
+<h2>Event: Top Administrative Area (OSM object ID number)<a class="headerlink" href="#event-top-administrative-area-osm-object-id-number" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>The OSM relation ID number of the highest sub-national administrative area in which an organization site is based.</p>
+<p><strong>Type of field</strong></p>
+<p>Text, OSM relation ID number, second in a pair of values</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">2340636</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>We identify <code class="docutils literal notranslate"><span class="pre">Events</span></code> with a number of different levels of geographical precision. In <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Top</span> <span class="pre">Administrative</span> <span class="pre">Area</span> <span class="pre">(OSM</span> <span class="pre">relation</span> <span class="pre">ID</span> <span class="pre">number)</span></code> we record the text name of highest level subnational boundary for the country in which the event occurred, <a class="reference external" href="http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations">as found in in OpenStreetMap</a>.</p>
+<blockquote>
+<div><p>For example Mexico has both <em>municipios</em> (administrative level 6 in OSM) and states (administrative level 4). For an event that occurred in Mexico, we would record in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Top</span> <span class="pre">Administrative</span> <span class="pre">Area</span> <span class="pre">(OSM</span> <span class="pre">relation</span> <span class="pre">ID</span> <span class="pre">number)</span></code> the name the “state” (admin level 4).</p>
+</div></blockquote>
+</div>
+<div class="section" id="event-country">
+<h2>Event: Country<a class="headerlink" href="#event-country" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>The country in which an event occurred.</p>
+<p><strong>Type of field</strong></p>
+<p>Two letter country code</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">mx</span></code>, <code class="docutils literal notranslate"><span class="pre">ug</span></code>, <code class="docutils literal notranslate"><span class="pre">ng</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>We identify the location of events with a number of different levels of geographical precision. The <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Country</span></code> field identifies the country in which an event occurred. All entries in this field are two letter country codes taken from <a class="reference external" href="https://www.iso.org/obp/ui/#search">ISO 3166 which can be searched here</a>.</p>
+<blockquote>
+<div><p>For example, an event that occurred in Nigeria would have the code <code class="docutils literal notranslate"><span class="pre">ng</span></code> and an event that occurred in Brazil would have the code <code class="docutils literal notranslate"><span class="pre">br</span></code>.</p>
+</div></blockquote>
+</div>
+<div class="section" id="event-violation-type">
+<h2>Event: Violation type<a class="headerlink" href="#event-violation-type" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>Type of alleged violation of human rights committed during the event.</p>
+<p><strong>Type of field</strong></p>
+<p>Text, controlled vocabulary</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">Torture</span></code>, <code class="docutils literal notranslate"><span class="pre">Violations</span> <span class="pre">of</span> <span class="pre">the</span> <span class="pre">Right</span> <span class="pre">to</span> <span class="pre">Life</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>In <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Violation</span> <span class="pre">type</span></code>, values are taken “as is” from the source.</p>
+</div>
+<div class="section" id="event-description">
+<h2>Event: Description<a class="headerlink" href="#event-description" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>A description of the event.</p>
+<p><strong>Type of field</strong></p>
+<p>Text and numbers</p>
+<p><strong>Example of use</strong></p>
+<blockquote>
+<div><p>According to Amnesty International: “Usman Modu, a 26-year-old scrap metal dealer from Maiduguri, spent almost two and a half years in Giwa barracks. He was arrested in April 2012 in Gwange, Maiduguri, during a screening operation after a Boko Haram attack. All the people who left the mosque were gathered together: the elderly and children were allowed to go home. The men were brought before a “pointer”, who pointed at him and 17 other men. He was first taken to a JTF station called NEPA and then to Giwa Barracks. “One by one we were brought in front of an armoured tank. I never saw anything. People said there was someone inside. When I went up, soldiers said I should go left. They started beating me. One soldier beat me with his gun and I fell down. They tied my hands behind my back and beat me. Then told me to go inside the car. I don’t know why I was chosen. I was surprised, I don’t know what I have done.” The military released Usman with 41 others in November 2014. The 17 men arrested with Usman all died in military custody.”</p>
+</div></blockquote>
+<p><strong>Guidance for use</strong></p>
+<p>In this field we record a direct quotation from the civil society, governmental or other source about the event. When an event has more than one report tied to it, start the quotation as below:</p>
+<blockquote>
+<div><p>According to X organization, “Description of event”. According to Y organization, “Description of event”.</p>
+</div></blockquote>
+</div>
+<div class="section" id="event-perpetrator-name">
+<h2>Event: Perpetrator name<a class="headerlink" href="#event-perpetrator-name" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>The name of the person alleged to have committed the human rights violation(s) in the event.</p>
+<p><strong>Type of field</strong></p>
+<p>Text and numbers, taken from <code class="docutils literal notranslate"><span class="pre">Person:</span> <span class="pre">Name</span></code></p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">Friday</span> <span class="pre">Iyamabo</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>If a person or persons are named in the sources for the event, we will record it in the <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Perpetrator</span> <span class="pre">name</span></code> field. The value in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Perpetrator</span> <span class="pre">name</span></code> will correspond to a value in <code class="docutils literal notranslate"><span class="pre">Person:</span> <span class="pre">Name</span></code>.</p>
+<blockquote>
+<div><p>For example: “Nwanneka narrated to NOPRIN researchers her experience at the SCID in Enugu in May 2002. She was initially arrested with two other females by officers of the Ninth Mile Police Station on the outskirts of Enugu on charges of assisting an armed robbery suspect, before being transferred to the SCID on May 3, 2002. After taking the statements of the female detainees, NPF Inspector Friday Iyamabo ordered them detained in the cells of the SCID. He later reportedly returned to the cell with pepper spray and powdered chili pepper, ordered the female detainees to strip and one after the other applied the mixture of pepper spray and chili to their genitals after severely beating them with batons. The detainees were denied access to medical treatment. Five years after this experience, Nwanneka reported to NOPRIN researchers in April 2007 that, as a result of this experience, she continues to suffer from complications with both her reproductive system and urinary tract.”</p>
+</div></blockquote>
+<p>In this case, the alleged perpetrator is named in the source report. We would record the name <code class="docutils literal notranslate"><span class="pre">Friday</span> <span class="pre">Iyamabo</span></code> in the field <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Perpetrator</span> <span class="pre">name</span></code>.</p>
+</div>
+<div class="section" id="event-perpetrator-organization">
+<h2>Event: Perpetrator organization<a class="headerlink" href="#event-perpetrator-organization" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>The organization(s) alleged to have committed the human rights violation(s) in the event.</p>
+<p><strong>Type of field</strong></p>
+<p>Text and numbers, multiple entry, taken from <code class="docutils literal notranslate"><span class="pre">Organization:</span> <span class="pre">Name</span></code></p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">2</span> <span class="pre">Batallón</span> <span class="pre">de</span> <span class="pre">Fuerzas</span> <span class="pre">Especiales</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>If the sources that specific organizations committed the alleged human rights violations described in the event, we include these names in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Perpetrator</span> <span class="pre">name</span></code>. The value in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Perpetrator</span> <span class="pre">organization</span></code> will correspond to a value in <code class="docutils literal notranslate"><span class="pre">Organization:</span> <span class="pre">Name</span></code>.</p>
+<p>Here is an example of source material that contains information that would be included in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Perpetrator</span> <span class="pre">name</span></code>:</p>
+<blockquote>
+<div><p>According to the United States Department of State, Bureau of Democracy, Human Rights and Labor: “On March 24, the JTF reportedly killed four men near Isaka in the Okrika Local Government Area, Rivers State, when they confronted them and other armed men attempting to hijack a barge. There was no investigation conducted.”</p>
+</div></blockquote>
+</div>
+<div class="section" id="event-perpetrator-classification">
+<h2>Event: Perpetrator classification<a class="headerlink" href="#event-perpetrator-classification" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>General branch or tier of the security force alleged to have committed the human rights violation(s).</p>
+<p><strong>Type of field</strong></p>
+<p>Text and numbers, controlled vocabulary, taken from <code class="docutils literal notranslate"><span class="pre">Organization:</span> <span class="pre">Classification</span></code></p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">Army</span></code>, <code class="docutils literal notranslate"><span class="pre">Ejército</span></code>,<code class="docutils literal notranslate"><span class="pre">Police</span></code>, <code class="docutils literal notranslate"><span class="pre">Military</span></code>,<code class="docutils literal notranslate"><span class="pre">Military</span> <span class="pre">Police</span></code>,<code class="docutils literal notranslate"><span class="pre">Joint</span> <span class="pre">Operation</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>Sometimes a source will report that the alleged perpetrators of a human rights violation are from a generic security force such as “soldiers”, “police” or some other formulation. In this case, use this field to record a classification in the same way as for <code class="docutils literal notranslate"><span class="pre">Organization:</span> <span class="pre">Classification</span></code>. For example:</p>
+<blockquote>
+<div><p>According to Amnesty International: “On 1 May 2012, around midnight, Nigerian soldiers arrested 37-year-old Dungus Ladan (not his real name), at his home in Maiduguri. Fatima, Dungus’ wife, told Amnesty International that the soldiers promised to just take him for an interrogation that should not last more than a few hours. When her husband did not return, she said, his father went on 3 May to Giwa barracks to check what had happened. Soldiers told him that Dungus had already been released. When he still did not return, the father went back again to the barracks, where soldiers told him that he should come back the next day to bail out his son. The following day, several relatives went together and gave the soldiers “what they could,” and the soldiers again promised to release Dungus that day. His wife said that the soldiers kept asking for money, and the family kept paying, but Dungus was never released. In February 2014, his father saw Dungus in the detention facility; they spoke briefly. Dungus said he had been framed by some people who owed him money and they arranged for him to be arrested and detained. Since then, his family has not seen him again; soldiers at Giwa barracks have told them he is not there.”</p>
+</div></blockquote>
+<p>The only alleged perpetrators described in this alleged event are “soldiers”. The most appropriate term to enter in <code class="docutils literal notranslate"><span class="pre">Event:</span> <span class="pre">Perpetrator</span> <span class="pre">classification</span></code> to match this description which would be <code class="docutils literal notranslate"><span class="pre">Military</span></code> because “soldiers” could refer to personnel of the Army, Navy or other armed services of a country.</p>
+</div>
+<div class="section" id="event-source">
+<h2>Event: Source<a class="headerlink" href="#event-source" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>The source of information about the event.</p>
+<p><strong>Type of field</strong></p>
+<p>Text and numbers</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">&quot;Recomendación</span> <span class="pre">No.</span> <span class="pre">49/2011</span> <span class="pre">sobre</span> <span class="pre">el</span> <span class="pre">caso</span> <span class="pre">de</span> <span class="pre">retención</span> <span class="pre">ilegal</span> <span class="pre">y</span> <span class="pre">tortura</span> <span class="pre">en</span> <span class="pre">agravio</span> <span class="pre">de</span> <span class="pre">V1</span> <span class="pre">en</span> <span class="pre">Ciudad</span> <span class="pre">Juárez,</span> <span class="pre">Chihuahua&quot;.</span> <span class="pre">Comisión</span> <span class="pre">Nacional</span> <span class="pre">de</span> <span class="pre">los</span> <span class="pre">Derechos</span> <span class="pre">Humanos</span> <span class="pre">(Mexico).</span> <span class="pre">30</span> <span class="pre">August</span> <span class="pre">2011.</span> <span class="pre">http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf</span> <span class="pre">Internet</span> <span class="pre">Archive</span> <span class="pre">link:</span> <span class="pre">http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>The values we enter here should follow the general citation format used by Security Force monitor, as set out in this Research Handbook:</p>
+<blockquote>
+<div><p>Title of article or website page. Name of publishing organization (country of organization). Date. URL. Internet Archive link: URL</p>
+</div></blockquote>
+<p>Where there are multiple sources about the same event, they are listed in the order of the description.</p>
+</div>
+<div class="section" id="event-notes">
+<h2>Event: Notes<a class="headerlink" href="#event-notes" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description</strong></p>
+<p>To DO.</p>
+<p><strong>Type of field</strong></p>
+<p>Text and numbers</p>
+<p><strong>Example of use</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">&quot;Recomendación</span> <span class="pre">No.</span> <span class="pre">49/2011</span> <span class="pre">sobre</span> <span class="pre">el</span> <span class="pre">caso</span> <span class="pre">de</span> <span class="pre">retención</span> <span class="pre">ilegal</span> <span class="pre">y</span> <span class="pre">tortura</span> <span class="pre">en</span> <span class="pre">agravio</span> <span class="pre">de</span> <span class="pre">V1</span> <span class="pre">en</span> <span class="pre">Ciudad</span> <span class="pre">Juárez,</span> <span class="pre">Chihuahua&quot;.</span> <span class="pre">Comisión</span> <span class="pre">Nacional</span> <span class="pre">de</span> <span class="pre">los</span> <span class="pre">Derechos</span> <span class="pre">Humanos</span> <span class="pre">(Mexico).</span> <span class="pre">30</span> <span class="pre">August</span> <span class="pre">2011.</span> <span class="pre">http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf</span> <span class="pre">Internet</span> <span class="pre">Archive</span> <span class="pre">link:</span> <span class="pre">http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf</span></code></p>
+<p><strong>Guidance for use</strong></p>
+<p>The values we enter here should follow the general citation format used by Security Force monitor, as set out in this Research Handbook:</p>
+<blockquote>
+<div><p>Title of article or website page. Name of publishing organization (country of organization). Date. URL. Internet Archive link: URL</p>
+</div></blockquote>
+<p>Where there are multiple sources about the same event, they are listed in the order of the description.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="generalfunctions.html" class="btn btn-neutral float-right" title="Frequently Asked Questions about WhoWasInCommand" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="persons.html" class="btn btn-neutral float-left" title="Persons" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Security Force Monitor
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

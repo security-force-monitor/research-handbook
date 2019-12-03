@@ -1,0 +1,382 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research
+# Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-26 12:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/personsrec.rst:2
+msgid "Person records on WhoWasInCommand"
+msgstr ""
+
+#: ../../source/personsrec.rst:4
+msgid ""
+"This page contains an overview of the data that visitors to "
+"WhoWasInCommand will find in a person record."
+msgstr ""
+
+#: ../../source/personsrec.rst:6
+msgid ""
+"This includes the different sections of the person record, the data "
+"fields that are used to create it and links to more information about "
+"each field."
+msgstr ""
+
+#: ../../source/personsrec.rst:9
+msgid "Person record title area"
+msgstr ""
+
+#: ../../source/personsrec.rst:14
+msgid "Image showing the title area of a person record on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/personsrec.rst:16
+msgid ""
+"This section contains key information about the identity of the person. "
+"It also contains links to download and print actions for the displayed "
+"record. Hover your mouse or tap any value in the title area and a little "
+"coloured circle will appear: click this to display the sources and "
+"confidence rating that we have assigned to that datapoint."
+msgstr ""
+
+#: ../../source/personsrec.rst:18
+msgid "**Fields used in the person record title area**"
+msgstr ""
+
+#: ../../source/personsrec.rst:20 ../../source/personsrec.rst:105
+#: ../../source/personsrec.rst:128 ../../source/personsrec.rst:157
+msgid ":ref:`Person: Name`"
+msgstr ""
+
+#: ../../source/personsrec.rst:21
+msgid ":ref:`Person: Aliases`"
+msgstr ""
+
+#: ../../source/personsrec.rst:22
+msgid ":ref:`Person: Country`"
+msgstr ""
+
+#: ../../source/personsrec.rst:25
+msgid "Person record content sidebar"
+msgstr ""
+
+#: ../../source/personsrec.rst:30
+msgid ""
+"Image showing the content sidebar of a person record on "
+"WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/personsrec.rst:32
+msgid ""
+"The content sidebar is a navigation aid. It provides quick links to "
+"different sections of the person record. The items inside the content "
+"sidebar indicate what sort of data is available about this person. If a "
+"particular section is not listed in the content sidebar - for example, "
+"\"Subordinates\" - then there is no data available about the subordinates"
+" of this person."
+msgstr ""
+
+#: ../../source/personsrec.rst:35
+msgid "Person \"Last Seen As\""
+msgstr ""
+
+#: ../../source/personsrec.rst:40
+msgid ""
+"Image showing the Last Seen As section of a person record on "
+"WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/personsrec.rst:42
+msgid ""
+"This section summarises the most recently-available data about a person's"
+" rank, role and membership of a unit. Hover over any value in this "
+"section and a little coloured circle will appear. Click on this to view "
+"the sources and confidence rating for that value."
+msgstr ""
+
+#: ../../source/personsrec.rst:44
+msgid "**Fields used in the Person \"Last Seen As\" section**"
+msgstr ""
+
+#: ../../source/personsrec.rst:46
+msgid "The following fields are used in the Last Seen As section:"
+msgstr ""
+
+#: ../../source/personsrec.rst:48 ../../source/personsrec.rst:73
+msgid ":ref:`Person: Rank`"
+msgstr ""
+
+#: ../../source/personsrec.rst:49 ../../source/personsrec.rst:71
+msgid ":ref:`Person: Organization`"
+msgstr ""
+
+#: ../../source/personsrec.rst:50 ../../source/personsrec.rst:72
+msgid ":ref:`Person: Role`"
+msgstr ""
+
+#: ../../source/personsrec.rst:51
+msgid ":ref:`Organization: Classification`"
+msgstr ""
+
+#: ../../source/personsrec.rst:52 ../../source/personsrec.rst:77
+msgid ":ref:`Person Membership: Date last cited`"
+msgstr ""
+
+#: ../../source/personsrec.rst:53 ../../source/personsrec.rst:78
+msgid ":ref:`Person Membership: End date?`"
+msgstr ""
+
+#: ../../source/personsrec.rst:56
+msgid "Person memberships"
+msgstr ""
+
+#: ../../source/personsrec.rst:61
+msgid ""
+"Image showing the memberships table on a person record on "
+"WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/personsrec.rst:63
+msgid ""
+"This section contains a table that describes the positions a person has "
+"held in different units. In this table, WhoWasInCommand will display a "
+"new membership row is displayed for each time a person changes "
+"organization, rank, role or title. This means that in some records a "
+"person may have multiple memberships in the same organization, but in "
+"different roles or at a different rank."
+msgstr ""
+
+#: ../../source/personsrec.rst:65
+msgid ""
+"As with all tables in person, unit and incident records on "
+"WhoWasInCommand, hovering over or tapping any value in the table will "
+"cause a little coloured circle to appear. Clicking or tapping again on "
+"this will show the sources and confidence ratings we have assigned to "
+"that value."
+msgstr ""
+
+#: ../../source/personsrec.rst:67
+msgid "**Fields used in the person memberships section**"
+msgstr ""
+
+#: ../../source/personsrec.rst:69
+msgid "The following fields are used in the memberships section:"
+msgstr ""
+
+#: ../../source/personsrec.rst:74
+msgid ":ref:`Person: Title`"
+msgstr ""
+
+#: ../../source/personsrec.rst:75
+msgid ":ref:`Person Membership: Date first cited`"
+msgstr ""
+
+#: ../../source/personsrec.rst:76
+msgid ":ref:`Person Membership: Start date`"
+msgstr ""
+
+#: ../../source/personsrec.rst:81
+msgid "Person chain of command"
+msgstr ""
+
+#: ../../source/personsrec.rst:86
+msgid ""
+"Image showing the Chain of Command interactive chart that appear on "
+"person records on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/personsrec.rst:88
+msgid ""
+"The chain of command section displays interactive charts. These show the "
+"links between all the units commanded by a person and all those superior "
+"to them, along with their commanders. The chart will display up to the "
+"highest-level unit in the organizational structure, creating a \"line of "
+"sight\" from the current unit to the top."
+msgstr ""
+
+#: ../../source/personsrec.rst:90
+msgid ""
+"The charts are drawn using parent relationships between organizations "
+"that are classified as ``command`` (rather than ``informal`` or "
+"``administrative``). You can learn more about this in the documentation "
+"for `Parent relationship: Classification "
+"<datamodel/organizations.md#organization_parent_classification>`__"
+msgstr ""
+
+#: ../../source/personsrec.rst:92
+msgid ""
+"The charts are drawn at the last cited or end date of the parent "
+"relationship. This date is displayed at the bottom of the chart. Where a "
+"unit has different parents at different times, a chart is drawn for each "
+"relationship: swiping left or right, or using the arrows at each side, "
+"displays these."
+msgstr ""
+
+#: ../../source/personsrec.rst:94
+msgid "**Fields used in the person chain of command section**"
+msgstr ""
+
+#: ../../source/personsrec.rst:96
+msgid "The following fields are used in the chain of command section:"
+msgstr ""
+
+#: ../../source/personsrec.rst:98 ../../source/personsrec.rst:121
+#: ../../source/personsrec.rst:150
+msgid ":ref:`Organization: Name`"
+msgstr ""
+
+#: ../../source/personsrec.rst:99 ../../source/personsrec.rst:122
+#: ../../source/personsrec.rst:151
+msgid ":ref:`Organization: Parent`"
+msgstr ""
+
+#: ../../source/personsrec.rst:100 ../../source/personsrec.rst:123
+#: ../../source/personsrec.rst:152
+msgid ":ref:`Parent relationship: Classification`"
+msgstr ""
+
+#: ../../source/personsrec.rst:101 ../../source/personsrec.rst:124
+#: ../../source/personsrec.rst:153
+msgid ":ref:`Parent relationship: Date first cited`"
+msgstr ""
+
+#: ../../source/personsrec.rst:102 ../../source/personsrec.rst:125
+#: ../../source/personsrec.rst:154
+msgid ":ref:`Parent relationship: start date?`"
+msgstr ""
+
+#: ../../source/personsrec.rst:103 ../../source/personsrec.rst:126
+#: ../../source/personsrec.rst:155
+msgid ":ref:`Parent organization: date last cited`"
+msgstr ""
+
+#: ../../source/personsrec.rst:104 ../../source/personsrec.rst:127
+#: ../../source/personsrec.rst:156
+msgid ":ref:`Parent relationship: Open-ended?`"
+msgstr ""
+
+#: ../../source/personsrec.rst:108
+msgid "Person superiors"
+msgstr ""
+
+#: ../../source/personsrec.rst:113
+msgid ""
+"Image showing the table of commanders of superior units that appears on a"
+" person record on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/personsrec.rst:115
+msgid ""
+"This section displays a table of commanders of units that were superior "
+"to any units commanded by this person, along with the duration of overlap"
+" in service that sources are able to evidence. As with all tables in "
+"person, unit and incident records, hovering over or tapping any value in "
+"the table will cause a little coloured circle to appear. Click or tap "
+"again on this to view the sources and confidence ratings we have assigned"
+" to that value."
+msgstr ""
+
+#: ../../source/personsrec.rst:117
+msgid "**Fields used in the person superiors section**"
+msgstr ""
+
+#: ../../source/personsrec.rst:119 ../../source/personsrec.rst:148
+msgid "The following fields are used in the superiors section:"
+msgstr ""
+
+#: ../../source/personsrec.rst:130
+msgid "The below fields are calculated from the date values in the above fields:"
+msgstr ""
+
+#: ../../source/personsrec.rst:132
+msgid ""
+"Start of overlap: the earliest date that the present person and a "
+"commander of an immediately superior unit served at the same time."
+msgstr ""
+
+#: ../../source/personsrec.rst:133
+msgid ""
+"End of overlap: the last date that the present person and a command of an"
+" immediately superior unit served at the same time."
+msgstr ""
+
+#: ../../source/personsrec.rst:134 ../../source/personsrec.rst:163
+msgid ""
+"Duration of overlap: the number of days the present person and an "
+"immediate superior served at the same time."
+msgstr ""
+
+#: ../../source/personsrec.rst:137
+msgid "Person subordinates"
+msgstr ""
+
+#: ../../source/personsrec.rst:142
+msgid ""
+"Image showing the table of subordinate personnel that appears on person "
+"records on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/personsrec.rst:144
+msgid ""
+"This section displays a table of commanders of units that were "
+"subordinate to any units commanded by this person. As with all tables in "
+"person, unit and incident records on WhoWasInCommand, hovering over or "
+"tapping any value in the table will cause a little coloured circle to "
+"appear. Click or tap again on this to view the sources and confidence "
+"ratings we have assigned to that value."
+msgstr ""
+
+#: ../../source/personsrec.rst:146
+msgid "**Fields used in the person subordinates section**"
+msgstr ""
+
+#: ../../source/personsrec.rst:159
+msgid "The following fields are calculated from date values in the above fields:"
+msgstr ""
+
+#: ../../source/personsrec.rst:161
+msgid ""
+"Start of overlap: the earliest date that the present person and a "
+"commander of an immediately subordinate unit served at the same time."
+msgstr ""
+
+#: ../../source/personsrec.rst:162
+msgid ""
+"End of overlap: the last date that the present person and a command of an"
+" immediately subordinate unit served at the same time."
+msgstr ""
+
+#: ../../source/personsrec.rst:166
+msgid "Person record changelog"
+msgstr ""
+
+#: ../../source/personsrec.rst:171
+msgid ""
+"Image showing the changelog that appears at the bottom of organization "
+"records on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/personsrec.rst:173
+msgid ""
+"The data displayed in any record on WhoWasInCommand is always the most "
+"recent version. The changelog section shows when the data included in "
+"this record were first added and subsequently updated. This data is "
+"generated by the software that powers WhoWasInCommand whenever a new data"
+" import is run. Clicking on the name of the field will open a box showing"
+" all the changes that were made to a datapoint, including the time the "
+"change was made and the source used to evidence the change."
+msgstr ""
+

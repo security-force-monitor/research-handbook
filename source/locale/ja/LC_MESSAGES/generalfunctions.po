@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research
+# Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-26 12:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/generalfunctions.rst:2
+msgid "Frequently Asked Questions about WhoWasInCommand"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:5
+msgid "What is WhoWasInCommand?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:7
+msgid ""
+"In short: a search engine about security forces, their structures, "
+"personnel, areas of operation and connections to allegations of human "
+"rights abuses."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:9
+msgid "Longer version:"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:11
+msgid ""
+"WhoWasInCommand answers key questions about the structure, behaviour and "
+"people in charge of security forces like the police and army:"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:13
+msgid "Who is in charge of the specialized anti-riot police unit?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:14
+msgid "What army unit has jurisdiction over what areas and for how long?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:15
+msgid "Where did this commander previously serve, and where did they go next?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:16
+msgid "When was a particular police unit based in a specific city?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:17
+msgid ""
+"What allegations have civil society groups made against a unit or "
+"commander?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:19
+msgid ""
+"WhoWasinCommand presents data from thousands of public sources to help "
+"human rights researchers, investigative journalists and anyone who wants "
+"security forces to be more accountable."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:22
+msgid "How do I find what I'm looking for?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:24
+msgid "Got this page?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:29
+msgid ""
+"When you enter a search term into WhoWasInCommand, it will search across "
+"28 different fields that contain text to attempt to find a match for your"
+" term. Where it can't find a match, it will alert you. If find a term "
+"that is a bit like the term you area searching, WhoWasInCommand may make "
+"a suggestion to you."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:31
+msgid ""
+"Use a combination of search terms and different filters to see what sets "
+"of results appear, and gradually refine it until you find what you are "
+"looking for."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:33
+msgid ""
+"You can also use our \"Countries\" page as a jump-off point. It has "
+"direct links to all the units, person and incidents for a partiucular "
+"country, along with some \"collections\" we have added."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:36
+msgid ""
+"Where can I find help understanding what I'm seeing or how this website "
+"works?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:38
+msgid ""
+"On WhoWasInCommand you will see lots of little question marks. Click on "
+"them to be taken to a page describing what the data means, or how a "
+"particular feature of the website works."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:44
+msgid ""
+"Where can I find out more about the data on \"units\", \"persons\" and "
+"\"incidents\"?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:46
+msgid "Visit the help pages for that specific type of record:"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:48
+msgid "For \"units\" visit :ref:`Unit records on WhoWasInCommand`"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:49
+msgid "For \"persons\" visit :ref:`Person records on WhoWasInCommand`"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:50
+msgid "For \"incidents\" visit :ref:`Incident records on WhoWasInCommand`"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:52
+msgid ""
+"If these do not answer your question, please write to us at "
+"technical@securityforcemonitor.org and we'll help out."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:55
+msgid "How can I see all the units for a particular country?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:57
+msgid "The quickest way to do this is:"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:59
+msgid ""
+"Select \"Units\" from the navigation bar at the top of WhoWasInCommand, "
+"which will list every unit in the database"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:60
+msgid ""
+"Then, on this search results page open \"General Filters\", choose "
+"\"Country\" and select from that list"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:61
+msgid "The results will then be filtered for that country."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:67
+msgid "Why does WhoWasInCommand make suggestions to me?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:69
+msgid ""
+"It's trying to be helpful. When you enter a search term and "
+"WhoWasInCommand does not make an exact match, it may present words that "
+"have some degree of similarity, or sound similar. For example, searching "
+"with the term ``operat`` causes WhoWasInCommand to suggestion that you "
+"might be searching for an ``operation``:"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:75
+msgid "How do I get all the sources used in a record?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:77
+msgid ""
+"To get all the sources, hit \"Download as CSV\" on any record. This will "
+"start a download of an archive (``.zip`` file) that will contain a number"
+" of Comma Separated Values (``.csv``) files with all the data used in "
+"that record, along with all the sources. These can be opened in any "
+"spreadsheet package."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:83
+msgid "How do I see the sources used for a specific datapoint?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:85
+msgid ""
+"Let's say you are interested in the sources used to link a person to an "
+"organization:"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:90
+msgid ""
+"Hover your mouse (or tap on it, if on a tablet or mobile) over any of the"
+" values and little coloured circle will appear:"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:95
+msgid ""
+"Click it to see a little \"pop-over\" that lists all the sources for that"
+" datapoint:"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:100
+msgid ""
+"This pop-over shows you the number of sources for the datapoint. You can "
+"scroll up and down to see them, and click on the links to access the "
+"sources directly. It also shows you the confidence rating that we have "
+"given the specific datapoint."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:103
+msgid "What are those little numbered circles that keep appearing?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:105
+msgid "You mean these?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:110
+msgid ""
+"The little numbered circles indicate two things: \\* Click on it to show "
+"a list of the sources used to evidence that specific datapoint. \\* The "
+"colour indicates the level of confidence we have in the data: Red for "
+"\"Low\", yellow for \"Medium\" and green for \"High\". You can read an "
+"explanation of how we grade inforamation in this handbook's page on "
+":ref:`Sources and Confidence`."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:113
+msgid "Why do some dates have a dotted line beneath them and some don't?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:118
+msgid ""
+"If there is a dotted line under a date, this means that we think this is "
+"an exact start date or exact end date. This means that a source has been "
+"very specific about the date when, for example, a unit was created or "
+"started operating in an area."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:120
+msgid ""
+"If there is no dotted line under a date, this indicates that it is just "
+"the earlist reference we have for the creation of a unit, or the "
+"commencement of an operation."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:123
+msgid "The command chart is taking a looooong time to load. Is there a problem?"
+msgstr ""
+
+#: ../../source/generalfunctions.rst:125
+msgid ""
+"Probably not, but if it keeps happening to you report it to us at "
+"technical@securityforcemonitor.org."
+msgstr ""
+
+#: ../../source/generalfunctions.rst:127
+msgid ""
+"There can sometimes be a short delay between loading a page and the "
+"appearance of the Chain of Command or Parent Unit chart. When this is "
+"happening, we display a \"spinner\" to let you know. It looks like this:"
+msgstr ""
+
