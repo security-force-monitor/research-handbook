@@ -34,10 +34,3 @@ Security Force Monitor: Research Handbook
    unitrec
    personsrec
    incidentrec
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
