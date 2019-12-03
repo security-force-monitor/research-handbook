@@ -12,6 +12,8 @@ For each incident, we include data about what happened and when, the location(s)
 
 In a departure from how we compile data about :doc:`units` and :doc:`persons`, individual fields in incident records are not sourced and rated for confidence. Rather, we provide a single source for the entire incident. This is because each incident is a direct copy of material from a single source rather than a tapestry of material from a range of different sources.
 
+A spreadsheet containing all the fields used by Security Force Monitor can be found in the section called :ref:`Sample Data Entry Sheets`.
+
 Incident: Unique Identifying Number
 -----------------------------------
 

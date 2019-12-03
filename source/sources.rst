@@ -26,6 +26,8 @@ We also identify non-digital resources such as monographs, scholarly literature,
 
 Sources can also be published in a range of different media forms, not only text. Other media forms may include maps, images, audio recordings, video, social media posts, messages send through messaging services. We have designed the data capture format for sources to be flexible enough to accomodate a wide range of different media.
 
+A spreadsheet containing all the fields used by Security Force Monitor can be found in the section called :ref:`Sample Data Entry Sheets`.
+
 Sources and Access Points
 -------------------------
 

@@ -14,6 +14,8 @@ Documented in this section of the handbook are field describing the following di
 -  their areas of operations; and,
 -  memberships in joint operations or international peacekeeping missions.
 
+A spreadsheet containing all the fields used by Security Force Monitor can be found in the section called :ref:`Sample Data Entry Sheets`.
+
 Unit: Unique Identifier
 -----------------------
 

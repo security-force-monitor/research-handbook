@@ -5,6 +5,8 @@ The "Persons Extra" data capture format is used to extend the data in the :doc:`
 
 It also serves the purpose of grouping resources that are *ipso facto* - resources that are valuable in themselves, and not only as sources for other data points. This provides the Staff Analyst with a collection of audiovisual media resources that can be used to identify and further research the person.
 
+A spreadsheet containing all the fields used by Security Force Monitor can be found in the section called :ref:`Sample Data Entry Sheets`.
+
 Person Extra: Name
 ------------------
 

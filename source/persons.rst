@@ -10,6 +10,8 @@ The fields in the "Persons" data capture format are used to record basic details
 
 This data capture format is supplemented by the "Persons Extra" format, which enables the capture of other biographical details (like their date of birth, and then they may have died), their social media accounts, and media that provide information about how a person looks and sounds.
 
+A spreadsheet containing all the fields used by Security Force Monitor can be found in the section called :ref:`Sample Data Entry Sheets`.
+
 Person: Unique Identier
 -----------------------
 
