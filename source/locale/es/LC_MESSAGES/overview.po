@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research
+# Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-11 16:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/overview.rst:2 5a9fa9424c4b4bd4a74a67b5e0d24094
+msgid "Research Handbook for Security Force Monitor"
+msgstr ""
+
+#: ../../source/overview.rst:5 3071f0c2b4a9491faa3c9b733926dce5
+msgid "About Security Force Monitor"
+msgstr ""
+
+#: ../../source/overview.rst:7 d9fb076e16fd44c58da817dc70077e0c
+msgid ""
+"The Security Force Monitor works to make police, military and other "
+"security forces around the world more transparent and accountable."
+msgstr ""
+
+#: ../../source/overview.rst:9 263a2d056ff24585bd2e79f6a3edce46
+msgid ""
+"Human rights researchers, journalists, advocates, litigators and others "
+"engaged in making security forces accountable face a common problem – a "
+"lack of clear, detailed information on those forces. Often, answering "
+"even simple questions can be difficult:"
+msgstr ""
+
+#: ../../source/overview.rst:11 48a96e3a99604e65a232b3f8e7d39f0a
+msgid "Who is in charge of the specialized anti-riot police unit?"
+msgstr ""
+
+#: ../../source/overview.rst:12 8bd35aeadccb4058bf32d44c01ef270c
+msgid "What army unit has jurisdiction over what areas?"
+msgstr ""
+
+#: ../../source/overview.rst:13 be848e733ffa4fc4939f9bd668826790
+msgid "Where did this commander previously serve?"
+msgstr ""
+
+#: ../../source/overview.rst:14 3175ac79d2c74bea90db99056997926d
+msgid "When was a particular police unit based in a specific city?"
+msgstr ""
+
+#: ../../source/overview.rst:16 591b45d8486940d7870d4670e5f597e0
+msgid ""
+"There is a vast amount of public information on security forces around "
+"the world, but it is unstructured and scattered among a wide variety of "
+"sources, making it prohibitively costly for those engaged in public "
+"interest work to understand the security forces of a particular country."
+msgstr ""
+
+#: ../../source/overview.rst:18 c7714be475bb406cba410c2c7ae03a46
+msgid ""
+"The Security Force Monitor aims to solve this problem and aid those "
+"working to make police, military and other security forces accountable. "
+"The Monitor analyzes and compiles public information to provide data on: "
+"the command hierarchy, location, areas of operation, commanders and the "
+"other linkages between units – all tracked through time. The Monitor’s "
+"mission and technical offerings have been developed to serve, and in "
+"consultation with, a wide range of civil society efforts."
+msgstr ""
+
+#: ../../source/overview.rst:20 290028c634f94e5c9d7dcfe383f8f0d8
+msgid ""
+"The Security Force Monitor is a project of the `Columbia Law School Human"
+" Rights Institute <http://www.law.columbia.edu/human-rights-"
+"institute>`__."
+msgstr ""
+
+#: ../../source/overview.rst:22 541c51c43f9945baaf6b2295b273b662
+msgid ""
+"`More information about Security Force Monitor "
+"<https://securityforcemonitor.org>`__ can be found on our website."
+msgstr ""
+
+#: ../../source/overview.rst:25 739eda9a1e8146359043d7fa057b4682
+msgid "About this Research Handbook"
+msgstr ""
+
+#: ../../source/overview.rst:27 5b6f530c63304cd4831fce21e5b2ade1
+msgid ""
+"This Research Handbook is a guide to investigating the structure, "
+"personnel, infrastructure, operations and connections to human rights "
+"abuses of security forces around the world. It provides detailed "
+"information  about the methods, data and tools used by Security Force "
+"Monitor to do this."
+msgstr ""
+
+#: ../../source/overview.rst:29 92b5a88dd37844f68d0bd08afb382adc
+msgid "The Research Handbook has three sections:"
+msgstr ""
+
+#: ../../source/overview.rst:31 0ae6f86a692a40cbb06c6359936f129b
+msgid ""
+"**WhoWasInCommand.com User Guide**: The data created by Security Force "
+"Monitor is published online at https://WhoWasInCommand.com, a purpose-"
+"built platform with powerful search functions, clean and interactive "
+"views of the organizational structure, command of personnel and chains of"
+" command, and the geographical footprint of security forces in many "
+"countries."
+msgstr ""
+
+#: ../../source/overview.rst:32 37de1f5c64fc4a9f837a13e152a5ec3c
+msgid ""
+"**Methodology**: Security Force Monitor has a four phase approach to "
+"researching a country's security forces. This section outlines our "
+"process."
+msgstr ""
+
+#: ../../source/overview.rst:33 25546358423e4f29b4872f29e8b0bded
+msgid ""
+"**Data Model**: this section describes the way that Security Force "
+"Monitor structures the data it collects and the steps taken to ensure "
+"data integrity. In this section, we also provide detailed documentation "
+"about the standard data collection formats and fields that we use to "
+"organize our research and store data:"
+msgstr ""
+
+#: ../../source/overview.rst:35 02d49d8482e446248c962c766fa72feb
+msgid ""
+"the :doc:`persons` and :doc:`persons_extra` formats are used to capture "
+"data about persons, their ranks and roles within security forces, "
+"information about their online presence and how they look and sound."
+msgstr ""
+
+#: ../../source/overview.rst:37 506f209707f7414e8f4e6ab738235323
+msgid ""
+"the :doc:`units` format is used to stored data about the organizational "
+"structure of a security force, its physical infrastructure and its areas "
+"areas of operation."
+msgstr ""
+
+#: ../../source/overview.rst:39 46c1dc82b4834ebd8353a73875ef1614
+msgid ""
+"the :doc:`incidents` format is used to store data about human rights "
+"abuses specific units or persons from security forces are alleged to have"
+" committed."
+msgstr ""
+
+#: ../../source/overview.rst:41 4303b83355d645348f0d0af53db11e4a
+msgid ""
+"This Research Handbook is a work-in-progress and is regularly updated "
+"during the course of the work of Security Force Monitor."
+msgstr ""
+
+#: ../../source/overview.rst:44 4f226bffc3b749539daa27dcf4d68261
+msgid "Contributors"
+msgstr ""
+
+#: ../../source/overview.rst:46 2959ca00ba274cf49def5cd7d5a16761
+msgid ""
+"Tony Wilson, Tom Longley and Michel Manzur from `Security Force Monitor "
+"<https://securityforcemonitor.org/about>`__ are the authors of this "
+"Research Handbook."
+msgstr ""
+
+#: ../../source/overview.rst:48 61cb92c3f33c4223a936ce7aec3938ab
+msgid ""
+"Security Force Monitor has partnered with `DataMade "
+"<https://datamade.us>`__ to create WhoWasInCommand.com. DataMade has "
+"operationalized and refined Security Force Monitor's data structure, "
+"worked with us to create a powerful open source platform to put the data "
+"online, and made a significant contribution to the concept and design of "
+"WhoWasInCommand.com."
+msgstr ""
+
+#: ../../source/overview.rst:50 577899ba15014bbea620184c0661fb35
+msgid ""
+"`James McKinney <https://twitter.com/mckinneyjames>`__ - at the time with"
+" `OpenNorth <http://opennorth.ca>`__ - was a major contributor to the "
+"development of Monitor's data model, adapting Popolo (an international "
+"open government data standard) and developing the specifications for the "
+"Monitor's research tool."
+msgstr ""
+
+#: ../../source/overview.rst:53 53425b1a17c44de48db656ea6fb11123
+msgid "Copyright and license"
+msgstr ""
+
+#: ../../source/overview.rst:55 118c3339c62d4e7f903f488eaa07cf95
+msgid ""
+"The Security Force Monitor Research Handbook is licensed under a "
+"`Creative Commons Attribution 4.0 International License "
+"<https://creativecommons.org/licenses/by/4.0/>`__. You are free to copy, "
+"share and adapt all or any part of this handbook, but you must give "
+"appropriate credit to Security Force Monitor."
+msgstr ""
+
+#: ../../source/overview.rst:60 9c63fa31d0cf435fb353271480ceadc3
+msgid "License: CC BY 4.0"
+msgstr ""
+

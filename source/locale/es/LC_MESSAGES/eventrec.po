@@ -2,32 +2,35 @@
 # Copyright (C) 2019, Security Force Monitor
 # This file is distributed under the same license as the SFM Research
 # Handbook package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: SFM Research Handbook \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-26 12:33+0100\n"
+"POT-Creation-Date: 2019-09-26 12:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 
+# b60f37736e69443f8d463bd65bced7dc
 #: ../../source/eventrec.rst:2
 msgid "Incident Records on WhoWasInCommand"
 msgstr ""
 
+# f6a1671084834636ac650655d9cb648a
 #: ../../source/eventrec.rst:4
 msgid ""
 "This page contains an overview of the data that visitors to "
 "WhoWasInCommand will find in an incident record."
 msgstr ""
 
+# fc62e135a21047b1b6cce141b1476982
 #: ../../source/eventrec.rst:6
 msgid ""
 "This includes the different sections of the incident record, the data "
@@ -35,10 +38,12 @@ msgid ""
 "each field."
 msgstr ""
 
+# bbc44b0301a4478d91de95d680fc54d3
 #: ../../source/eventrec.rst:9
 msgid "Incident title area"
 msgstr ""
 
+# 609747fc3d2d4824b51e55dd76ed5afa
 #: ../../source/eventrec.rst:14
 msgid ""
 "This section contains key information about the incident. It also "
@@ -48,34 +53,43 @@ msgid ""
 "for we have assigned to each value."
 msgstr ""
 
+# 87451fc732974906bcb2c166e9a77d3d
 #: ../../source/eventrec.rst:16
 msgid "**Fields used in incident title area**"
 msgstr ""
 
+# 237f018af1ba4fd9a68006d45ef133f3
 #: ../../source/eventrec.rst:18
 msgid "The following fields are used in the incident title area section:"
 msgstr ""
 
+# d916c57fb7754cfb8b911f99026bdfa5
 #: ../../source/eventrec.rst:20
 msgid ":ref:`Event: Start date`"
 msgstr ""
 
+# d15838348fed43e8a27af8b7e102faee
 #: ../../source/eventrec.rst:21
 msgid ":ref:`Event: End date`"
 msgstr ""
 
+# 733b5eb4edbf450f880add6e0f251dd5
+# 46d0f74dcd3a4660b73882b0849df64d
 #: ../../source/eventrec.rst:22 ../../source/eventrec.rst:50
 msgid ":ref:`Event: Country`"
 msgstr ""
 
+# 91432d013d0b4684a8a22b754e5e92e5
 #: ../../source/eventrec.rst:23
 msgid ":ref:`Event: Violation type`"
 msgstr ""
 
+# c49092219f7e4f518005d0f8f9ba8466
 #: ../../source/eventrec.rst:26
 msgid "Incident content sidebar"
 msgstr ""
 
+# 092c1600985b4d2d9b2c7092f98cc41c
 #: ../../source/eventrec.rst:31
 msgid ""
 "The content sidebar is a navigation aid. It provides quick links to "
@@ -86,10 +100,12 @@ msgid ""
 "incident."
 msgstr ""
 
+# 47afc8764cc644979f6859df3a22db89
 #: ../../source/eventrec.rst:34
 msgid "Incident location"
 msgstr ""
 
+# d32e6dc46b384626952dfc4cfb31d481
 #: ../../source/eventrec.rst:39
 msgid ""
 "This section contains an interactive map and some text that describe the "
@@ -101,42 +117,52 @@ msgid ""
 "sources and confidence rating we have assigned to that value."
 msgstr ""
 
+# 1667115072c648d38cfd8c7966ed1ced
 #: ../../source/eventrec.rst:41
 msgid "**Fields used in incident location section**"
 msgstr ""
 
+# 5fbe9c17fd8e4f488c419ecb843bce33
 #: ../../source/eventrec.rst:43
 msgid ":ref:`Event: Location`"
 msgstr ""
 
+# 97e1d568d60f4ca291f0f93414e8f04b
 #: ../../source/eventrec.rst:44
 msgid ":ref:`Event: Exact location (Longitude or OSM object Name)`"
 msgstr ""
 
+# 3b0a98513f76437f8a7ce99b0a4f9726
 #: ../../source/eventrec.rst:45
 msgid ":ref:`Event: Exact location (Latitude or OSM object ID number)`"
 msgstr ""
 
+# b333af083c71487d9ab73220063a74d4
 #: ../../source/eventrec.rst:46
 msgid ":ref:`Event: Settlement (OSM object Name)`"
 msgstr ""
 
+# 587bd243ed7a4a32a1079110f14461b7
 #: ../../source/eventrec.rst:47
 msgid ":ref:`Event: Settlement (OSM object ID Number)`"
 msgstr ""
 
+# b44b1014026c413591650ccf8e7804f2
 #: ../../source/eventrec.rst:48
 msgid ":ref:`Event: Top Administrative Area (OSM object name)`"
 msgstr ""
 
+# 71048112395b4b9b9f66154b55ff75d9
 #: ../../source/eventrec.rst:49
 msgid ":ref:`Event: Top Administrative Area (OSM object ID number)`"
 msgstr ""
 
+# 22caaed1dcb14cbb974ab08af927abf8
 #: ../../source/eventrec.rst:53
 msgid "Incident description"
 msgstr ""
 
+# 5acb5ae190fa428d8c4920fba255ef87
 #: ../../source/eventrec.rst:58
 msgid ""
 "This section contains a direct quotation from the civil society, "
@@ -147,22 +173,27 @@ msgid ""
 " and confidence ratings we have assigned to that value."
 msgstr ""
 
+# b7612aa83bc04107977efbf241bfd3f1
 #: ../../source/eventrec.rst:60
 msgid "**Fields used in incident description section**"
 msgstr ""
 
+# ff020e273b9247639d2ed4146a56c08c
 #: ../../source/eventrec.rst:62
 msgid "The following field is used in the incident description section:"
 msgstr ""
 
+# fae90bd820ad415fb87decbfdb80576b
 #: ../../source/eventrec.rst:64
 msgid ":ref:`Event: Description`"
 msgstr ""
 
+# c2d1641e162349c19d7c8acac6ce603e
 #: ../../source/eventrec.rst:67
 msgid "Perpetrator organizations"
 msgstr ""
 
+# e50a9ebea4f24254845419be7e163472
 #: ../../source/eventrec.rst:72
 msgid ""
 "This section contains a table listing the organization(s) that sources "
@@ -174,34 +205,42 @@ msgid ""
 "that value."
 msgstr ""
 
+# 33eaffba0f3847388ffa660071a67068
 #: ../../source/eventrec.rst:74
 msgid "**Fields used in perpetrator organizations section**"
 msgstr ""
 
+# a1c3379d0a1043e098d9c7cf6ca0085a
 #: ../../source/eventrec.rst:76
 msgid "The following fields are used in the perpetrator organizations section:"
 msgstr ""
 
+# 63b09312eda7446cb8b28a4e8a99f44d
 #: ../../source/eventrec.rst:78
 msgid ":ref:`Event: Perpetrator organization`"
 msgstr ""
 
+# d2bfe4858d8644afb0ebeb93bbcf8958
 #: ../../source/eventrec.rst:79
 msgid ":ref:`Organization: Name`"
 msgstr ""
 
+# 5ec4504ee92f4a07b073884bab6fa331
 #: ../../source/eventrec.rst:80
 msgid ":ref:`Organization: Aliases`"
 msgstr ""
 
+# 245f8c1e57e14892a96bd0bb655fe1b3
 #: ../../source/eventrec.rst:81
 msgid ":ref:`Organization: Classification`"
 msgstr ""
 
+# 48406b318bd348f2a6d8a4c3f2082857
 #: ../../source/eventrec.rst:84
 msgid "Incident Changelog"
 msgstr ""
 
+# 7657799bd59d41efb9550e71ee1b7f02
 #: ../../source/eventrec.rst:89
 msgid ""
 "The data displayed in any record on WhoWasInCommand is always the most up"

@@ -2,26 +2,28 @@
 # Copyright (C) 2019, Security Force Monitor
 # This file is distributed under the same license as the SFM Research
 # Handbook package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: SFM Research Handbook \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-26 12:33+0100\n"
+"POT-Creation-Date: 2019-09-26 12:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 
+# 8f970b735af34da494aebd65977f670b
 #: ../../source/sources_confidence.rst:2
 msgid "Sources and Confidence"
 msgstr ""
 
+# 23c308614a6d4796b6a6c6a2760df550
 #: ../../source/sources_confidence.rst:4
 msgid ""
 "Every piece of data in Security Force Monitor has at least one source. "
@@ -32,30 +34,36 @@ msgid ""
 "allegations by the Monitor."
 msgstr ""
 
+# a7f04ded4c1845c9a9f00e639fceca53
 #: ../../source/sources_confidence.rst:7
 msgid "Sources"
 msgstr ""
 
+# 31ac4d77a36f44af84cd5827de356293
 #: ../../source/sources_confidence.rst:9
 msgid "**Citation format**"
 msgstr ""
 
+# 01a34d8d64ca4fbcb3930133b87a611a
 #: ../../source/sources_confidence.rst:11
 msgid ""
 "Every data point in Security Force Monitor must have one or more sources "
 "associated with it. A source should be recorded in this format:"
 msgstr ""
 
+# 3f45c10f9d18408eb1cd8a58e29e713a
 #: ../../source/sources_confidence.rst:13
 msgid ""
 "Title of article or website page. Name of publishing organization "
 "(country of organization). Date. url. Internet Archive link: url"
 msgstr ""
 
+# f363a717db274fe28fb40f47797dde88
 #: ../../source/sources_confidence.rst:15
 msgid "For example:"
 msgstr ""
 
+# e81c0233bbb64e068f132db2a9ab392d
 #: ../../source/sources_confidence.rst
 msgid ""
 "Army parades oil bunkers in Kaduna. Premium Times (Nigeria). 8 May 2013. "
@@ -63,6 +71,7 @@ msgid ""
 "bunkers-in-kaduna.html"
 msgstr ""
 
+# d1d0843fbf1d4d3b9df15b5a87897d0f
 #: ../../source/sources_confidence.rst
 msgid ""
 "Internet Archive link: "
@@ -70,10 +79,12 @@ msgid ""
 "-army-parades-oil-bunkers-in-kaduna.html#sthash.Fc0DTTxe.dpbs"
 msgstr ""
 
+# a74c714270af4f9fb63cf3c88f81e2c4
 #: ../../source/sources_confidence.rst:20
 msgid "**Country information**"
 msgstr ""
 
+# b3b14a62739546fea0315f687d2a0288
 #: ../../source/sources_confidence.rst:22
 msgid ""
 "We include the country information because there could be a publication "
@@ -83,32 +94,39 @@ msgid ""
 " <https://www.theguardian.com/uk>`__."
 msgstr ""
 
+# eae3e13fa3fe44ebbcb9dce8f5ab1bfa
 #: ../../source/sources_confidence.rst:24
 msgid "**Date**"
 msgstr ""
 
+# 1585b6a892c249e7b66f129dbf435f04
 #: ../../source/sources_confidence.rst:26
 msgid ""
 "When recording the date of a source for use in its citation, we always "
 "use the format ``DAY MONTH YEAR (DD MMMM YYYY)``"
 msgstr ""
 
+# d8fc45db56694e22b1b983a9f32e979c
 #: ../../source/sources_confidence.rst
 msgid "20 January 2012"
 msgstr ""
 
+# 8662df4b71e6447cb43811341d549eb2
 #: ../../source/sources_confidence.rst
 msgid "7 July 2016"
 msgstr ""
 
+# d17692d95b8040929cc8f03c07c1d387
 #: ../../source/sources_confidence.rst
 msgid "9 November 1999"
 msgstr ""
 
+# eab088ae996449edb8919495378b6d48
 #: ../../source/sources_confidence.rst:33
 msgid "Confidence"
 msgstr ""
 
+# cbda084d7ed34173ace9b8e859f81cee
 #: ../../source/sources_confidence.rst:35
 msgid ""
 "Each data point (except those tied to alleged ``incidents``) has a "
@@ -116,6 +134,7 @@ msgid ""
 " specific data point to which they are attached."
 msgstr ""
 
+# 38d9ecf3f1094000bcc73606c5fe5392
 #: ../../source/sources_confidence.rst:37
 msgid ""
 "For instance, if a wide variety of sources agree that the ``1 Division`` "
@@ -125,6 +144,7 @@ msgid ""
 "merited."
 msgstr ""
 
+# b2b1be4da2994d9c88617f8b3d302a2d
 #: ../../source/sources_confidence.rst:39
 msgid ""
 "Confidence scores are determined first by agreement amongst sources about"
@@ -145,6 +165,7 @@ msgid ""
 "sources. Additional research would help clarify the situation."
 msgstr ""
 
+# c4c4a8a656f64d5a9f8fcd1a574bc19b
 #: ../../source/sources_confidence.rst:41
 msgid ""
 "All data points begin with a confidence score of ``Low`` until a "

@@ -2,26 +2,28 @@
 # Copyright (C) 2019, Security Force Monitor
 # This file is distributed under the same license as the SFM Research
 # Handbook package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: SFM Research Handbook \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-26 12:33+0100\n"
+"POT-Creation-Date: 2019-09-26 12:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 
+# 521a7c2d2060425fa31e72c6137b1b11
 #: ../../source/events.rst:2
 msgid "Events"
 msgstr ""
 
+# f9b26d8a83794e6b8007411d0eca3912
 #: ../../source/events.rst:4
 msgid ""
 "Events describe publicly-documented allegations of human rights "
@@ -32,6 +34,7 @@ msgid ""
 "society actors."
 msgstr ""
 
+# cee1b07ca3f048e9948b726a4dab54c2
 #: ../../source/events.rst:6
 msgid ""
 "The Security Force Monitor focuses its research on the structure, "
@@ -45,6 +48,7 @@ msgid ""
 "alleged."
 msgstr ""
 
+# 1820a99174e842c89043e578ded7535e
 #: ../../source/events.rst:8
 msgid ""
 "For each event, we includes data about what happened and when, the "
@@ -52,6 +56,7 @@ msgid ""
 "human rights violation."
 msgstr ""
 
+# 152ea58e2ce14f719ba843f5477a4492
 #: ../../source/events.rst:10
 msgid ""
 "Fields in events are not sourced and rated for confidence individually as"
@@ -59,14 +64,37 @@ msgid ""
 "single source for the entire event, cited in our standard format."
 msgstr ""
 
+# 4e5fd3e90a464e8aa97b082d0e194383
 #: ../../source/events.rst:12
 msgid "We use the term ``incident`` interchangeably with the term ``event``."
 msgstr ""
 
+# 06d4196f8d75497989a3b68dd69388df
 #: ../../source/events.rst:15
 msgid "Event: ID"
 msgstr ""
 
+# 8844a3f82ea44fa58cba84df64d69fe7
+# 5fdca112f21a4dd18c9edc9495fe2967
+# afeaac38bdd94d61a2f5a496b30aac8e
+# 26d798d42a344ede87f0fb656de4efff
+# ca91177de26647b58c17f8efa9b97e5f
+# ca5d80429e5344fea7cb1faab071048d
+# b4498ab245454c17a6d072e46d6e9da4
+# 30e4f6539c944ab487d1010d93caa5c5
+# 8513ff5c794f4741bf3d23aecdcb435a
+# 3f136f1d01aa42f380f15c952b54b05a
+# d975f7c0d62b42aa864f5e4ab7978037
+# 50ba822f91a0447d94ffba26ed51c8b6
+# cfd11248da7a44ab98fc4eda5513ff19
+# d2ed71d059dd48e981c4fb7f158ca46c
+# 7141904a88e84de4b24485bacc97c96e
+# 66a436ae3327458e9be3205f233676ce
+# 2c6d8d5611b943cc9225a8a3b962803a
+# 25db5f1627b84f198f9306d7dd9a82cf
+# 985fcdd6ed4e472bb297f86420cfd870
+# 017fe7d4da7a4839a62b41aef5e416a1
+# 33d6399a40774f6fa9f984217c4b7e0f
 #: ../../source/events.rst:17 ../../source/events.rst:36
 #: ../../source/events.rst:63 ../../source/events.rst:96
 #: ../../source/events.rst:115 ../../source/events.rst:134
@@ -81,10 +109,32 @@ msgstr ""
 msgid "**Description**"
 msgstr ""
 
+# 8c82070082b24f968c96b5df0dbe7eb6
 #: ../../source/events.rst:19
 msgid "A unique code assigned to each event in the dataset."
 msgstr ""
 
+# cda90925578546c7b762979be83c641a
+# 40e4f2a05c2c43c1bb5d30c808125a07
+# 97f75a2a24f64702bdea30690523cea9
+# c74425d54d19482f994d03ab16ee01ab
+# b6d139e29a8b4e85be8742ccbe470bc7
+# a3b3c892077641ce9bf04ad82e4ee4d1
+# d78d572cf68a44ca9da027101cd9482f
+# 3c890788c08a466aad94ef08ec5cdcbb
+# 6e89dc27a4604a23a8ee12dece8eed52
+# e612272adda3420db6d0942f80bc6372
+# c4dfb4a03f994100a0650bab29729dee
+# f6e8dc85661745b9851dd413738b68e0
+# 5552f8a7765e48928608957a7462c41b
+# 30aedd7bf7dc462ba409f15646c29b8b
+# 0ce5efef3cbf413ca174300053a6c44b
+# 685b478ed7354f9489bfc23eee0273b3
+# 49c3efec09ed4ab68f5dcc81ccfaeff7
+# 1b319ff1696347b084375d52a87e9f3c
+# 5d7103662b3d4cb8be514cd2ccab1f65
+# c0eda61f1b3a4ead9d1c21ef0300d8e4
+# c72e17e600a94bf097efb4506babe34f
 #: ../../source/events.rst:21 ../../source/events.rst:40
 #: ../../source/events.rst:67 ../../source/events.rst:100
 #: ../../source/events.rst:119 ../../source/events.rst:138
@@ -99,12 +149,38 @@ msgstr ""
 msgid "**Type of field**"
 msgstr ""
 
+# 0a32c3f5f576414c88ad57850ccd1e64
+# 3027fe9af5ff4ecd9cf1e5253ae99114
+# 85ff8de94ce545fc84a9c3f9ce87777a
+# a5d54ea58d1f49ca99cd392e56d77abc
+# f676bf28fea842638a29f48ce9bac3b1
 #: ../../source/events.rst:23 ../../source/events.rst:159
 #: ../../source/events.rst:338 ../../source/events.rst:428
 #: ../../source/events.rst:451
 msgid "Text and numbers"
 msgstr ""
 
+# 97919a96e4b74f66a0cc04886e6b9c91
+# 073eaea2dbcf4d41aa3449e5bd8612ac
+# cd237856d2eb4cd59ba46a695acdda7a
+# ed97a670853c42a48ad690ce3b740131
+# 8a2e07f116724e929d9f2d06dd1d7f92
+# 401f95341ffe46f6bc8bedaa33ba32f3
+# 8fa56e26d78e426c8e5600263fd5a6ab
+# 860d46869c124aeaa37c643cbfd0182b
+# 12104a02173048c292b3e5d5b2c07382
+# c09bee7417224a698bb58b11ded254ea
+# 0719de1c73554ed68ddeb643521420e8
+# ac5fa51df3f74828ad35321a1664d7cb
+# bf022b66157c40349d2218b9a2279ac7
+# 20fda1845ee64ec59eeecd99aecd5989
+# 20acf2abca664ebc913c3e5761a8dde0
+# 305e5ff0887044ff93b32815fbf5b391
+# 1baa435a4862447aac050698a311ed9b
+# 7879174fc0434f12adcf9c5124cbea8e
+# 0f8163a48f1e46e5af514f3322cfaef6
+# b745615f6f0f4471a47b734a13a22ee3
+# 66b3cbf1a72f43a6b82a921558057f62
 #: ../../source/events.rst:25 ../../source/events.rst:44
 #: ../../source/events.rst:71 ../../source/events.rst:104
 #: ../../source/events.rst:123 ../../source/events.rst:142
@@ -119,10 +195,32 @@ msgstr ""
 msgid "**Example of use**"
 msgstr ""
 
+# cce4989baa464a0bb0e00c03545e16a9
 #: ../../source/events.rst:27
 msgid "``a407be6a-28e6-4237-b4e9-307f27b1202e``"
 msgstr ""
 
+# 1c00a63ee31d4b04b1a35c1469a24af3
+# 438e72940c0c4f9e98adde6124a99960
+# 91e397fa437b43ca86aca75c7176931d
+# ca483e9665b64e7abc1e6e9b4d831bbb
+# 964badc9ae344abd9a52ed16d7e7b47a
+# 0de61c41226446f0b03cda552868be9d
+# 1a278ae40d56490b98aa821bfe3e21fe
+# 344da988709f4699a3661026209277f5
+# d1fdfd507f8a4930a6e2007150aa9302
+# 4caeb86226804f39affcdcb51bc90527
+# 9963902dd95a44cea0fbc1061f498b95
+# db071934bbbe437c84630129a724a99f
+# 99d626a621f641079e0c307e11fdbf8f
+# b8f1b685e4a74e369be846d26e3a2915
+# e7267dd152f442ccb68a80a6265c3621
+# 899ab4ffa9fc41d6bd430045132d0fd4
+# d0f8f95e514643cca9bbafa38601c622
+# 53a1e49f0c664a938d95abefa329f512
+# 84891d7cf0964e1a9aac609ce85c425e
+# f82313464c91454da4effaf100f85f8a
+# f1fd33e131154474b76211f416c05954
 #: ../../source/events.rst:29 ../../source/events.rst:48
 #: ../../source/events.rst:75 ../../source/events.rst:108
 #: ../../source/events.rst:127 ../../source/events.rst:146
@@ -137,40 +235,54 @@ msgstr ""
 msgid "**Guidance for use**"
 msgstr ""
 
+# fc219e3d51b5473ebaeb585505e79ddf
 #: ../../source/events.rst:31
 msgid ""
 "This field is created automatically when data is uploaded into the "
 "Monitor's online platform."
 msgstr ""
 
+# 3279b6fc9a2c4704a0509a4661efe059
 #: ../../source/events.rst:34
 msgid "Event: Start date"
 msgstr ""
 
+# 5477d35eb8734a0da8e66f4866d4f9ae
 #: ../../source/events.rst:38
 msgid "The date on which an event started."
 msgstr ""
 
+# 9bdc01f9ecf74c44925bf6a9a736cd09
+# c04524933de84ff981150232c711d513
+# b4c2faae4f0e46a19555a8464e6904ec
+# 48bb46cb25d14e9f934eea4e8e3b2f67
 #: ../../source/events.rst:42 ../../source/events.rst:69
 #: ../../source/events.rst:102 ../../source/events.rst:121
 msgid "Date (YYYY-MM-DD), fuzzy"
 msgstr ""
 
+# 3006ab46b13a4178b8d23e8603ee8ff7
+# 96477f5ca3a74937bb3654bb670101a6
+# acd7b86de93047369b1533332e9048a5
+# 58a9eb70232742ecb35bc69345c556c6
 #: ../../source/events.rst:46 ../../source/events.rst:73
 #: ../../source/events.rst:106 ../../source/events.rst:125
 msgid "``2012``, ``2012-11``, ``2012-11-23``"
 msgstr ""
 
+# c54fa7e31d934819bd031fe95b78f4eb
 #: ../../source/events.rst:50
 msgid ""
 "If an event occurred within a single day, ``Event: Start date`` and "
 "``Event: End date`` should be the same."
 msgstr ""
 
+# 48b36215e5f04b91a15ed77f402697c3
 #: ../../source/events.rst:52
 msgid "Events may occur at some point during a range:"
 msgstr ""
 
+# 40fa95ef996845d4bb08e6d310f1cc7b
 #: ../../source/events.rst:54
 msgid ""
 "For example: “On or about August 9, 2006, personnel of the NPF paraded 12"
@@ -189,6 +301,7 @@ msgid ""
 " announced the executions.”"
 msgstr ""
 
+# c3720b89888745a69174bc8fcde9f1f1
 #: ../../source/events.rst:56
 msgid ""
 "We know from this source that the victims were alive as of 9 August 2006 "
@@ -199,6 +312,7 @@ msgid ""
 "End date``."
 msgstr ""
 
+# 975fbfe51b37450780c34ffd48b63fe8
 #: ../../source/events.rst:58
 msgid ""
 "In keeping with all date fields we include in this dataset, where our "
@@ -206,20 +320,24 @@ msgid ""
 " in ``Event: Start date`` ."
 msgstr ""
 
+# ca57a71157f2487f9d378b19a62d6ee1
 #: ../../source/events.rst:61
 msgid "Event: End date"
 msgstr ""
 
+# 2b7bbc6409f44a47b7bbe0e086de2922
 #: ../../source/events.rst:65
 msgid "The date on which an event ended."
 msgstr ""
 
+# 029332ccac0d4cd7878305863547989b
 #: ../../source/events.rst:77
 msgid ""
 "If ``Event: End date`` is unclear there are several ways to determine "
 "what should be used."
 msgstr ""
 
+# 702792befa3341908e720ed367479133
 #: ../../source/events.rst:79
 msgid ""
 "One option is to record the date of interview with victim as ``Event: End"
@@ -228,6 +346,7 @@ msgid ""
 "date."
 msgstr ""
 
+# d4cdd611d6a04d3d818bd90269334e03
 #: ../../source/events.rst:81
 msgid ""
 "For example: \"Abu Bakr, a former detainee in Giwa Barracks told Amnesty "
@@ -245,6 +364,7 @@ msgid ""
 " You can only pray in the cell where you are sitting.'\""
 msgstr ""
 
+# 638eb12225ee4bdeb767f2fa7ba743b8
 #: ../../source/events.rst:83
 msgid ""
 "In this example we could record ``2014-07`` in ``Event: End date`` "
@@ -252,10 +372,12 @@ msgid ""
 "International."
 msgstr ""
 
+# 0d75541b1ff74404922f560ea4f24802
 #: ../../source/events.rst:85
 msgid "Here's another example:"
 msgstr ""
 
+# c3bf4afca94744059d454eac5711d1bd
 #: ../../source/events.rst:87
 msgid ""
 "“Melvin, a 23-year-old sex worker in Port Harcourt, said she was raped "
@@ -267,6 +389,7 @@ msgid ""
 "you will sleep with you. After that you can go.”"
 msgstr ""
 
+# f31c7230934d49bf977bec8ec0aba4d2
 #: ../../source/events.rst:89
 msgid ""
 "In this case, we can look at the footnotes. They often will give the date"
@@ -280,6 +403,7 @@ msgid ""
 "arrested on September 29 and then released on 1 October 2011."
 msgstr ""
 
+# 81b9772c721747b6b880860f1eff5efd
 #: ../../source/events.rst:91
 msgid ""
 "In keeping with all date fields we include in this dataset, where our "
@@ -287,14 +411,17 @@ msgid ""
 " in ``Event: End date``."
 msgstr ""
 
+# 1cc80fc1ac3f48b3af7528b9728d3b52
 #: ../../source/events.rst:94
 msgid "Event: Date of publication"
 msgstr ""
 
+# 0295cb55757d49e0a4a98bc813401e0e
 #: ../../source/events.rst:98
 msgid "The date of publication of the source used to evidence the event."
 msgstr ""
 
+# ad44567f35094536ae2c5cad2b7a2a8f
 #: ../../source/events.rst:110
 msgid ""
 "In keeping with all date fields we include in this dataset, where our "
@@ -302,14 +429,17 @@ msgid ""
 " in ``Event: Date of publication``."
 msgstr ""
 
+# 92d2e6d239454402bdc3e0f4923b2ed7
 #: ../../source/events.rst:113
 msgid "Event: Date of last update"
 msgstr ""
 
+# 48421acf91354a6c9c6abf35f65ed72e
 #: ../../source/events.rst:117
 msgid "The date of most recent update about the event"
 msgstr ""
 
+# 672893c25ca54f99b29de3ec92b10f3d
 #: ../../source/events.rst:129
 msgid ""
 "In keeping with all date fields we include in this dataset, where our "
@@ -317,42 +447,54 @@ msgid ""
 " in ``Event: Date of last update``."
 msgstr ""
 
+# 6c14f5cbd4824b10ac5f12d35991bc01
 #: ../../source/events.rst:132
 msgid "Event: Status as of last update"
 msgstr ""
 
+# a347f7f29a9d4f30b36380a7459cdd07
 #: ../../source/events.rst:136
 msgid "Most recently available status of the event"
 msgstr ""
 
+# 11e1225e816441f3ae0b93eb7575a33e
+# 04bb0eabfa55427092344528779597e2
 #: ../../source/events.rst:140 ../../source/events.rst:319
 msgid "Text, controlled vocabulary"
 msgstr ""
 
+# f1322b6d618140e8ba1d0ca94f127b7f
+# f8d410d7abb5475e9df1673f0918e359
 #: ../../source/events.rst:144 ../../source/events.rst:148
 msgid "Field is not yet implemented."
 msgstr ""
 
+# 679bd36f0351486089d1e2a31bea2d3e
 #: ../../source/events.rst:151
 msgid "Event: Location"
 msgstr ""
 
+# bdb851c85ff344acad4e362e1d212877
 #: ../../source/events.rst:155
 msgid "A description of the where the event occurred."
 msgstr ""
 
+# 403dcceef5874bdd82bce56b00a3649a
 #: ../../source/events.rst:163
 msgid "``Giwa Barracks``, ``Rikkos neighborhood``, ``Campo Militar Número 6-B``"
 msgstr ""
 
+# 0b86fb825934480babd3c6346b010c9d
 #: ../../source/events.rst:167
 msgid "We use this field to record the location of an event."
 msgstr ""
 
+# 8ead94300bda479aa9009448647748f0
 #: ../../source/events.rst:169
 msgid "Example:"
 msgstr ""
 
+# 8f978658f5754892ae5682f2ba86f699
 #: ../../source/events.rst:171
 msgid ""
 "\"Stanley Adiele Uwakwe and Faka Tamunotonye Kalio were arrested on 10 "
@@ -363,6 +505,7 @@ msgid ""
 " police.\""
 msgstr ""
 
+# 49d2cad74efd48c38ede9e4d243d8ce1
 #: ../../source/events.rst:173
 msgid ""
 "While they were detained at Old GRA detention centre - the location of "
@@ -371,10 +514,12 @@ msgid ""
 "police station? Since we don’t know we’d leave the Location field blank."
 msgstr ""
 
+# b624daa4cc1e4f9783fa4abf8f113a10
 #: ../../source/events.rst:175
 msgid "Here's another example of how to use this field:"
 msgstr ""
 
+# 09cee244c11343e4add6a2eeb4074abd
 #: ../../source/events.rst:177
 msgid ""
 "\"And in yet a third case, Human Rights Watch interviewed three witnesses"
@@ -398,18 +543,21 @@ msgid ""
 " soldiers left the corpses on the bridge for three days.\""
 msgstr ""
 
+# cab010ff98564273b2bb5c9e8086d76f
 #: ../../source/events.rst:179
 msgid ""
 "The location would be ``the Customs Bridge`` - while ``Maiduguri`` would "
 "be the ``City or other Node Name`` (more on that below)"
 msgstr ""
 
+# d9038be0acbd4633a13635e82bc1a764
 #: ../../source/events.rst:181
 msgid ""
 "A common issue is the separation of specific events contained within a "
 "single account of violations based on geography."
 msgstr ""
 
+# 4a3df02e7a584d11acc62d897cee48a0
 #: ../../source/events.rst:183
 msgid ""
 "Often a person is arrested and, for example, beaten at a specific site "
@@ -421,6 +569,7 @@ msgid ""
 "being transported."
 msgstr ""
 
+# 67a2ea9c825f40ab9fbf5cd4e77e7357
 #: ../../source/events.rst:185
 msgid ""
 "In such instances, researchers should consider the initial arrest and "
@@ -428,30 +577,39 @@ msgid ""
 "committed or otherwise tied to site of detention a separate ``event``."
 msgstr ""
 
+# 892c7596848c4919841e156a094696a8
 #: ../../source/events.rst:188
 msgid "Event: Exact location (Longitude or OSM object Name)"
 msgstr ""
 
+# 8cb4f3fef8ae44ba909b83b7f6e80692
 #: ../../source/events.rst:199
 msgid "Event: Exact location (Latitude or OSM object ID number)"
 msgstr ""
 
+# 2d313daaf36f4637a70f66b19044391a
 #: ../../source/events.rst:210
 msgid "Event: Settlement (OSM object Name)"
 msgstr ""
 
+# ea13f2760ab441f08ab346bc9e64e96c
+# 81469140411a4a5f98c521f06a69cb90
 #: ../../source/events.rst:214 ../../source/events.rst:233
 msgid "The city, town or village in which an event occurred."
 msgstr ""
 
+# 0188b72720474895a9f394421777da69
 #: ../../source/events.rst:218
 msgid "Text, OSM object name, first in a pair of values"
 msgstr ""
 
+# c199ad9a942840798f2f2dea30fee566
 #: ../../source/events.rst:222
 msgid "``Monclova``"
 msgstr ""
 
+# 486fce1cb45e475192f11722ce6cf557
+# 2dc271d030b6425fb37847ab0e3feb7c
 #: ../../source/events.rst:226 ../../source/events.rst:245
 msgid ""
 "Often, information about events does not list a settlement by name. If "
@@ -460,36 +618,44 @@ msgid ""
 "only to transcribe what other groups have reported."
 msgstr ""
 
+# a32bdce8cd5e4e1e9eb784aa2e281716
 #: ../../source/events.rst:229
 msgid "Event: Settlement (OSM object ID Number)"
 msgstr ""
 
+# 10e0a2b842d64d689634229350d78a00
 #: ../../source/events.rst:237
 msgid "Number, OSM object ID number, second in a pair of values"
 msgstr ""
 
+# 3a8de994346045b7a0b64c094c5e2508
 #: ../../source/events.rst:241
 msgid "``747101009``"
 msgstr ""
 
+# 53bf934827ae408fa27df79165ca895a
 #: ../../source/events.rst:248
 msgid "Event: Top Administrative Area (OSM object name)"
 msgstr ""
 
+# aa91a60ea1a046ab87d5c5bf70a9c28c
 #: ../../source/events.rst:252
 msgid ""
 "The OSM object name of the highest sub-national administrative area in "
 "which an organization site is based."
 msgstr ""
 
+# 012192efdd9c4da7acca6ca88de18ac7
 #: ../../source/events.rst:256
 msgid "Text, OSM relation name, first in a pair of values"
 msgstr ""
 
+# f74ab317195542b79f32b8ae0ba690df
 #: ../../source/events.rst:260
 msgid "``Michoacán``"
 msgstr ""
 
+# cf93b7552875452da2f513472de9ce23
 #: ../../source/events.rst:264
 msgid ""
 "We identify ``Events`` with a number of different levels of geographical "
@@ -500,6 +666,7 @@ msgid ""
 "national_administrations>`__."
 msgstr ""
 
+# 24eef4312bb045c883536adefeddb654
 #: ../../source/events.rst:266
 msgid ""
 "For example Mexico has both *municipios* (administrative level 6 in OSM) "
@@ -508,24 +675,29 @@ msgid ""
 "the name the \"state\" (admin level 4)."
 msgstr ""
 
+# 3aab1fadd28b421abe2cc5b87d3dc3cb
 #: ../../source/events.rst:269
 msgid "Event: Top Administrative Area (OSM object ID number)"
 msgstr ""
 
+# 4b3f9d68ccb14ba4ab95df0203d437d7
 #: ../../source/events.rst:273
 msgid ""
 "The OSM relation ID number of the highest sub-national administrative "
 "area in which an organization site is based."
 msgstr ""
 
+# 6704979070c74036ab2d3d4f4ba2605f
 #: ../../source/events.rst:277
 msgid "Text, OSM relation ID number, second in a pair of values"
 msgstr ""
 
+# 3e3793d8e1ba427398e8c18b3344bba9
 #: ../../source/events.rst:281
 msgid "``2340636``"
 msgstr ""
 
+# d5df6507717e42faab0ae83cada08118
 #: ../../source/events.rst:285
 msgid ""
 "We identify ``Events`` with a number of different levels of geographical "
@@ -536,6 +708,7 @@ msgid ""
 "national_administrations>`__."
 msgstr ""
 
+# cbb15a9d2f7a4313976a9d7fef94abd1
 #: ../../source/events.rst:287
 msgid ""
 "For example Mexico has both *municipios* (administrative level 6 in OSM) "
@@ -544,22 +717,27 @@ msgid ""
 " ID number)`` the name the \"state\" (admin level 4)."
 msgstr ""
 
+# b05ac2195e794809baf712559ab32ae0
 #: ../../source/events.rst:290
 msgid "Event: Country"
 msgstr ""
 
+# 140475e7a1e74746b0f98d53b0d25075
 #: ../../source/events.rst:294
 msgid "The country in which an event occurred."
 msgstr ""
 
+# 2679faf4e2ad43c1a136f6716afead42
 #: ../../source/events.rst:298
 msgid "Two letter country code"
 msgstr ""
 
+# 85fdef206cd0415ea8b8fcd1baf8c87e
 #: ../../source/events.rst:302
 msgid "``mx``, ``ug``, ``ng``"
 msgstr ""
 
+# 3ab0b008bd8245dc9d4ee21ce18ccfe6
 #: ../../source/events.rst:306
 msgid ""
 "We identify the location of events with a number of different levels of "
@@ -569,36 +747,44 @@ msgid ""
 "<https://www.iso.org/obp/ui/#search>`__."
 msgstr ""
 
+# 6f54bbfef1cc4c8aa9dad54a3011f4cb
 #: ../../source/events.rst:308
 msgid ""
 "For example, an event that occurred in Nigeria would have the code ``ng``"
 " and an event that occurred in Brazil would have the code ``br``."
 msgstr ""
 
+# 19fce42231984d209e9b41ecb90b97cc
 #: ../../source/events.rst:311
 msgid "Event: Violation type"
 msgstr ""
 
+# db4d5f3c1bf0476bb13abd3df3489582
 #: ../../source/events.rst:315
 msgid "Type of alleged violation of human rights committed during the event."
 msgstr ""
 
+# fdba33fb7c0343a6b72e5382877f85f6
 #: ../../source/events.rst:323
 msgid "``Torture``, ``Violations of the Right to Life``"
 msgstr ""
 
+# 352795e9dc0f4a0da2bd9e43f650f18d
 #: ../../source/events.rst:327
 msgid "In ``Event: Violation type``, values are taken \"as is\" from the source."
 msgstr ""
 
+# df06e7056da64b05bd02f4d3136793bb
 #: ../../source/events.rst:330
 msgid "Event: Description"
 msgstr ""
 
+# cde371f55ebe4f4d9db2086682d6f007
 #: ../../source/events.rst:334
 msgid "A description of the event."
 msgstr ""
 
+# 82586e1477d24602bed373da3e0f37bc
 #: ../../source/events.rst:342
 msgid ""
 "According to Amnesty International: \"Usman Modu, a 26-year-old scrap "
@@ -618,6 +804,7 @@ msgid ""
 "17 men arrested with Usman all died in military custody.\""
 msgstr ""
 
+# 7299010672cf401f888fe85ecd7dccea
 #: ../../source/events.rst:346
 msgid ""
 "In this field we record a direct quotation from the civil society, "
@@ -625,30 +812,36 @@ msgid ""
 " one report tied to it, start the quotation as below:"
 msgstr ""
 
+# d0d386fff2ee4f828ded76c5d97100f4
 #: ../../source/events.rst:348
 msgid ""
 "According to X organization, “Description of event”. According to Y "
 "organization, “Description of event”."
 msgstr ""
 
+# 15bacf317807473f98f1c05b0f636249
 #: ../../source/events.rst:351
 msgid "Event: Perpetrator name"
 msgstr ""
 
+# 07747628c92f436eb7b8f29560896c35
 #: ../../source/events.rst:355
 msgid ""
 "The name of the person alleged to have committed the human rights "
 "violation(s) in the event."
 msgstr ""
 
+# 585defb38ca74c7b8f1667db6d92a671
 #: ../../source/events.rst:359
 msgid "Text and numbers, taken from ``Person: Name``"
 msgstr ""
 
+# 38986d43733f4635af193713cb4319c7
 #: ../../source/events.rst:363
 msgid "``Friday Iyamabo``"
 msgstr ""
 
+# 98da3be9bc4940548e3873d902fb4723
 #: ../../source/events.rst:367
 msgid ""
 "If a person or persons are named in the sources for the event, we will "
@@ -656,6 +849,7 @@ msgid ""
 " Perpetrator name`` will correspond to a value in ``Person: Name``."
 msgstr ""
 
+# 84c9a02db17c4fc8abc661e55f213baf
 #: ../../source/events.rst:369
 msgid ""
 "For example: \"Nwanneka narrated to NOPRIN researchers her experience at "
@@ -674,6 +868,7 @@ msgid ""
 "complications with both her reproductive system and urinary tract.\""
 msgstr ""
 
+# ce92e3af3f6a42968d9d8bba17e1b5b3
 #: ../../source/events.rst:371
 msgid ""
 "In this case, the alleged perpetrator is named in the source report. We "
@@ -681,24 +876,29 @@ msgid ""
 "Perpetrator name``."
 msgstr ""
 
+# 6ea6bf0aeee54b969716f16a53821a01
 #: ../../source/events.rst:374
 msgid "Event: Perpetrator organization"
 msgstr ""
 
+# 47ff5a6cf5de4dd2bcf6410ccf87809b
 #: ../../source/events.rst:378
 msgid ""
 "The organization(s) alleged to have committed the human rights "
 "violation(s) in the event."
 msgstr ""
 
+# b8dde64fcfaf46cb897f8ab19c9ba2f0
 #: ../../source/events.rst:382
 msgid "Text and numbers, multiple entry, taken from ``Organization: Name``"
 msgstr ""
 
+# fa040809718d4f99b81688c6ea6dc27a
 #: ../../source/events.rst:386
 msgid "``2 Batallón de Fuerzas Especiales``"
 msgstr ""
 
+# 359bdd9b55f0412fa014a72955e0de98
 #: ../../source/events.rst:390
 msgid ""
 "If the sources that specific organizations committed the alleged human "
@@ -707,12 +907,14 @@ msgid ""
 "organization`` will correspond to a value in ``Organization: Name``."
 msgstr ""
 
+# 7db7201675dc40f5ae04129d3b079442
 #: ../../source/events.rst:392
 msgid ""
 "Here is an example of source material that contains information that "
 "would be included in ``Event: Perpetrator name``:"
 msgstr ""
 
+# 1c97539b399443bc8db85c159ff48b92
 #: ../../source/events.rst:394
 msgid ""
 "According to the United States Department of State, Bureau of Democracy, "
@@ -722,28 +924,33 @@ msgid ""
 "was no investigation conducted.\""
 msgstr ""
 
+# 6914a458a3c1481aa7a12b0db1b0aaf8
 #: ../../source/events.rst:397
 msgid "Event: Perpetrator classification"
 msgstr ""
 
+# 7fce2e0387664ea5b844515e2d0ae8ed
 #: ../../source/events.rst:401
 msgid ""
 "General branch or tier of the security force alleged to have committed "
 "the human rights violation(s)."
 msgstr ""
 
+# 1d7d2364d2974a0ba835b9ef50b6c663
 #: ../../source/events.rst:405
 msgid ""
 "Text and numbers, controlled vocabulary, taken from ``Organization: "
 "Classification``"
 msgstr ""
 
+# 2e57ac950c3a4331a5c4aaa0b01d4b69
 #: ../../source/events.rst:409
 msgid ""
 "``Army``, ``Ejército``,\\ ``Police``, ``Military``,\\ ``Military "
 "Police``,\\ ``Joint Operation``"
 msgstr ""
 
+# db78f3334c864aecb40e6d0d6a45b6a3
 #: ../../source/events.rst:413
 msgid ""
 "Sometimes a source will report that the alleged perpetrators of a human "
@@ -753,6 +960,7 @@ msgid ""
 "Classification``. For example:"
 msgstr ""
 
+# fe389849f50044719a0971bfe39172db
 #: ../../source/events.rst:415
 msgid ""
 "According to Amnesty International: \"On 1 May 2012, around midnight, "
@@ -775,6 +983,7 @@ msgid ""
 "Giwa barracks have told them he is not there.\""
 msgstr ""
 
+# a71da13f8b5f47578a6bcea2d516cb26
 #: ../../source/events.rst:417
 msgid ""
 "The only alleged perpetrators described in this alleged event are "
@@ -784,14 +993,18 @@ msgid ""
 "armed services of a country."
 msgstr ""
 
+# 254ffba4df8a459eaf3249ec3138ae03
 #: ../../source/events.rst:420
 msgid "Event: Source"
 msgstr ""
 
+# b32cdb5996454f779a4f9cb287d8e1f3
 #: ../../source/events.rst:424
 msgid "The source of information about the event."
 msgstr ""
 
+# d9a8a02a89ba477f8668a1dd81bb0155
+# 96fdbe2c36584b388bdaff0b40a16d64
 #: ../../source/events.rst:432 ../../source/events.rst:455
 msgid ""
 "``\"Recomendación No. 49/2011 sobre el caso de retención ilegal y tortura"
@@ -802,28 +1015,36 @@ msgid ""
 "http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf``"
 msgstr ""
 
+# 271946bbaecd483ca8ac8ad0e6235b09
+# 56c02bde0b2e4997a3a9ec4f90b4b924
 #: ../../source/events.rst:436 ../../source/events.rst:459
 msgid ""
 "The values we enter here should follow the general citation format used "
 "by Security Force monitor, as set out in this Research Handbook:"
 msgstr ""
 
+# c49e46f56db7466abaa475f39f7574ee
+# aab2d819c6754b20a61961a7bc9b76f7
 #: ../../source/events.rst:438 ../../source/events.rst:461
 msgid ""
 "Title of article or website page. Name of publishing organization "
 "(country of organization). Date. URL. Internet Archive link: URL"
 msgstr ""
 
+# fa98f9276f06423e9c8f9469a04b5f50
+# 8497086b418b48e6a8ac50a4d43fa394
 #: ../../source/events.rst:440 ../../source/events.rst:463
 msgid ""
 "Where there are multiple sources about the same event, they are listed in"
 " the order of the description."
 msgstr ""
 
+# c509b0f60bbb4403a8f17f17dd95afee
 #: ../../source/events.rst:443
 msgid "Event: Notes"
 msgstr ""
 
+# ba0c116ea3ef4e0c94899559d121c667
 #: ../../source/events.rst:447
 msgid "To DO."
 msgstr ""

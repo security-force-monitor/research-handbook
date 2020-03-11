@@ -1,0 +1,535 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research
+# Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-11 16:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/unitrec.rst:2 715c344d40b1419fb62bc34b18e72326
+msgid "Unit Records on WhoWasInCommand"
+msgstr ""
+
+#: ../../source/unitrec.rst:4 e028236fbf3a4d80b0351d97a288cdff
+msgid ""
+"This page gives an overview of the data that visitors to WhoWasInCommand "
+"will find in a unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:6 e5fc8c6803f445d285a924e825fa3fe8
+msgid ""
+"This includes descriptions of different sections of the unit page, the "
+"data fields that are used to create it and links to more information "
+"about each field."
+msgstr ""
+
+#: ../../source/unitrec.rst:9 a027efa5cbb74613af9014228f8f83bd
+msgid "Unit record: Title area"
+msgstr ""
+
+#: ../../source/unitrec.rst:14 d5e7fad39dda41f19d90a99eb9388799
+msgid "Image showing the title area of an unit record on WhoWasInCommand"
+msgstr ""
+
+#: ../../source/unitrec.rst:16 9f9758729c88421498d24cfb80cdc9ac
+msgid ""
+"This section contains key information about the identity of the unit. It "
+"also contains links to download and print actions for the displayed "
+"record. Hover over any value in the unit title area to display a little "
+"coloured circle; clicking on this will display the sources and confidence"
+" rating for each value."
+msgstr ""
+
+#: ../../source/unitrec.rst:18 a1682867bc5c4ba884e95e1398ac77ed
+msgid "**Fields used in the unit record title area**"
+msgstr ""
+
+#: ../../source/unitrec.rst:20 f2f2e7dfb86b4a769b2c8c4a80c58a41
+msgid "The following fields are used in the title area:"
+msgstr ""
+
+#: ../../source/unitrec.rst:22 ../../source/unitrec.rst:123
+#: ../../source/unitrec.rst:146 ../../source/unitrec.rst:170
+#: 3f3265a8107648fd8173ef8d497985da 605a593f9e2f49e8a2033e8ad8dd137f
+#: d21ccb0da45348efbc6d9c4a3d9aac12 fa61f76b505243e194e9cabeddd4d590
+msgid ":ref:`Unit: Name`"
+msgstr ""
+
+#: ../../source/unitrec.rst:23 ../../source/unitrec.rst:124
+#: ../../source/unitrec.rst:171 03860bbe96d242b889c20bb9b344bf9b
+msgid ":ref:`Unit: Other Names`"
+msgstr ""
+
+#: ../../source/unitrec.rst:24 ../../source/unitrec.rst:125
+#: ../../source/unitrec.rst:172 677751b39d6440a68d03a6aa97ae3078
+#: ca6550e2faad477c9284d9a525de5d92 e1958261e4d34624a5cb65a5e1921028
+msgid ":ref:`Unit: Classification`"
+msgstr ""
+
+#: ../../source/unitrec.rst:25 46574b2d37224be58851f8b9655c7d63
+msgid ":ref:`Unit: Country`"
+msgstr ""
+
+#: ../../source/unitrec.rst:27 78ae32faf87241c6b8c31c55502b1c28
+msgid "When a field is empty, it will not be displayed in the Title area."
+msgstr ""
+
+#: ../../source/unitrec.rst:30 f9d19159e9b74f2cab4473bd6657a179
+msgid "Unit record: Content sidebar"
+msgstr ""
+
+#: ../../source/unitrec.rst:35 fd98918cc87f4933adad0c4ac5df1de2
+msgid "Image showing the content sidebar of an unit record on WhoWasInCommand"
+msgstr ""
+
+#: ../../source/unitrec.rst:37 6ebb3c5e158c431bb76bfc820b703743
+msgid ""
+"The content sidebar is a navigation aid. It provides quick links to "
+"different parts of the page. The items inside the content sidebar "
+"indicate what sort of data is available about this unit. For example if "
+"\"Incidents\" is not listed in the content sidebar, then there is no data"
+" available about incidents involving this unit."
+msgstr ""
+
+#: ../../source/unitrec.rst:40 cec4d60de6b647eaafe938e9be47761d
+msgid "Unit record: Areas of Operation"
+msgstr ""
+
+#: ../../source/unitrec.rst:45 6027f4d2136446d8a732133384cac8ef
+msgid ""
+"Image showing the Area of Operations map and table of a unit record on "
+"WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:47 50af08d29c964750b0a0abcd838620ad
+msgid ""
+"The areas of operation section contains a map and table that describe "
+"where an organization has operated in some manner. Click on the "
+"highlighted areas of the map to display the name of an area of operation."
+" Grab the map to drag/pan it around. Swipe or use the ``+`` and ``-`` "
+"controls on the map to zoom in or zoom out. Hover over any value in the "
+"table and a little coloured circle will appear. Click on this to view the"
+" sources and confidence rating we have assigned to that value."
+msgstr ""
+
+#: ../../source/unitrec.rst:49 bdfaddeed5ff4dbf8f424f3686f04e1f
+msgid "**Fields used in the unit record areas of operations section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:51 3d93325223b242d89d6ca4c5ed656191
+msgid "The following fields are used in the areas of operation section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:53 b8c79e8011fc4ef5b9decf7c3b1cbefe
+msgid ":ref:`Unit: Area of Operations (Name)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:54 b8c79e8011fc4ef5b9decf7c3b1cbefe
+msgid ":ref:`Unit: Area of Operations (ID)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:55 4250ccb12b004323a5ec9a6c203eef8f
+msgid ":ref:`Unit: Area of Operations, First Cited Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:56 ceefd96a0eaa425b9237feb8647d14bd
+msgid ":ref:`Unit: Area of Operations First Cited Date is Start Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:57 4250ccb12b004323a5ec9a6c203eef8f
+msgid ":ref:`Unit: Area of Operations Last Cited Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:58 6218da87169c412990fb32a9fed93060
+msgid ":ref:`Unit: Area of Operations is Open-Ended`"
+msgstr ""
+
+#: ../../source/unitrec.rst:60 6c4138cbad614667b95454c111666986
+msgid ""
+"The Areas of Operation section will display where there is a valid Area "
+"of Operations record that contains values for ``Unit: Area of Operations "
+"(Name)`` and ``Unit: Area of Operations (ID)``. Otherwise, the section "
+"will not display."
+msgstr ""
+
+#: ../../source/unitrec.rst:63 a027efa5cbb74613af9014228f8f83bd
+msgid "Unit record: Sites"
+msgstr ""
+
+#: ../../source/unitrec.rst:68 5518a2641e274ffa99a8a9210fea1620
+msgid ""
+"Image showing a map and table of sites - or bases - as part of an unit "
+"record on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:70 67e701bab62d42178d29bab9b9f052a9
+msgid ""
+"This section contains a map and a table that describe sites associated "
+"with the organization. Clicking on the pins plotted on the map will "
+"display the name of the site. Grab the map to drag/pan it around. Swipe "
+"or use the ``+`` and ``-`` controls on the map to zoom in or zoom out. "
+"Hover over any value in the table and a little coloured circle will "
+"appear. Click on this to view the sources and confidence rating for that "
+"value."
+msgstr ""
+
+#: ../../source/unitrec.rst:72 c5070479f2024d47a7ff7d13bb7dfbb6
+msgid "**Fields used in the unit Sites section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:74 0bb6877123c54d0a8dbf4d4ab6fb7c0d
+msgid "The following fields are used in the Site section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:76 2dfc398a19b1446ab6cabcebd5c36b99
+msgid ":ref:`Unit: Site, Exact Location (Longitude or Gazetteer Name)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:77 2dfc398a19b1446ab6cabcebd5c36b99
+msgid ":ref:`Unit: Site, Exact Location (Latitude or Gazetteer Identity Number)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:78 148943d7434d4b8a9c0a8c58a92085c2
+msgid ":ref:`Unit: Site, Nearest Settlement (Name)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:79 c42600dc6d52434db115fe51db6427af
+msgid ":ref:`Unit: Site, Nearest Settlement (ID)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:80 bc002c1a426f4a3783258dd3fcf272e5
+msgid ":ref:`Unit: Site, First-level Administrative Area (Name)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:81 00761f8faed74c26af18e061fdf3f2be
+msgid ":ref:`Unit: Site, First-level Administrative Area (ID)`"
+msgstr ""
+
+#: ../../source/unitrec.rst:82 628138a73f7d430eb08fb66708813712
+msgid ":ref:`Unit: Site, First Cited Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:83 2dfc398a19b1446ab6cabcebd5c36b99
+msgid ":ref:`Unit: Site was Founded on First Cited Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:84 ed6145abae784b10ba07b80049a0029c
+msgid ":ref:`Unit: Site, Last Cited Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:85 aae211302ef84148ab49fceaab82183b
+msgid ":ref:`Unit: Site, Last Cited Date is Open-Ended`"
+msgstr ""
+
+#: ../../source/unitrec.rst:87 5f3fcb51696549d2a7a863cc9a9b5ac7
+msgid ""
+"The Sites section will display where there is a valid Site record. "
+"Otherwise, the section will not display on the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:90 a027efa5cbb74613af9014228f8f83bd
+msgid "Unit record: Memberships"
+msgstr ""
+
+#: ../../source/unitrec.rst:95 c7fc8c676be24a3792c292afa5daee84
+msgid "Image showing a membership table of a unit record on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:97 d8740b203a534d93a91ffa928b4be31f
+msgid ""
+"This section contains a table indicating whether the organization has "
+"been a member of internal/national joint operations, international "
+"peacekeeping missions, or other multi-unit deployments. Hover over any "
+"value in the table and a little coloured circle will appear. Click on "
+"this to view the sources and confidence rating for that value."
+msgstr ""
+
+#: ../../source/unitrec.rst:99 d1ed6c5995b442e1a787077ebc3e3b08
+msgid "**Fields used in the unit memberships section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:101 67bc52e9a1024c17abf4185edc8aad5c
+msgid "The following fields are used in the memberships section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:103 ../../source/unitrec.rst:126
+#: 648f83e4e19e4d4481b15995a61186f0 c803aaf75d8a4d26bda9fdad6d961b52
+msgid ":ref:`Unit: Membership`"
+msgstr ""
+
+#: ../../source/unitrec.rst:104 ../../source/unitrec.rst:127
+#: 9017e182b27e462194f0f3612e193055
+msgid ":ref:`Unit: Membership First Cited Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:105 ../../source/unitrec.rst:128
+#: 9017e182b27e462194f0f3612e193055
+msgid ":ref:`Unit: Membership First Cited Date is Start Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:106 ../../source/unitrec.rst:129
+#: db9f0947bbab42b498915b1aedc69d09
+msgid ":ref:`Unit: Membership Last Cited Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:107 ../../source/unitrec.rst:130
+#: 81924beb11824a3094444062d2c5863e
+msgid ":ref:`Unit: Membership End-Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:109 87a042f9f17e4e1a876b6de06b924fe4
+msgid ""
+"Where a unit has no memberships attached to it, the memberships section "
+"will not display on the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:112 a027efa5cbb74613af9014228f8f83bd
+msgid "Unit record: Member units"
+msgstr ""
+
+#: ../../source/unitrec.rst:117 3e51f8386b87446594c0d9ed8f4c42e1
+msgid ""
+"This section contains a table listing the units that comprise the present"
+" unit. For example, it will list units that have taken part in a joint "
+"operation, international peacekeeping missing or other multi-unit "
+"organization. However over any value in the table, and a little coloured "
+"circle will appear. Click on this to view the sources and confidnce "
+"rating for that value."
+msgstr ""
+
+#: ../../source/unitrec.rst:119 3d41f3f80d0e42ea801fc2dfb9aadcf8
+msgid "**Fields used in the Member Units section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:121 d72682b38b6d4ea7b95dab821a10a522
+msgid "The following fields are used in the member units section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:133 f9d19159e9b74f2cab4473bd6657a179
+msgid "Unit record: Parent units"
+msgstr ""
+
+#: ../../source/unitrec.rst:138 5ae9a0ddf32e4a8f98ed370f0f7b3f75
+msgid ""
+"Image showing a table of parent units for an organization on "
+"WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:140 fe1e545b6a444e41ac7ec9278370a883
+msgid ""
+"The parent units section displays an interactive chart. This shows the "
+"links between all units known to be above the present one in the overall "
+"organizational hierarchy of that security force, right up to the "
+"Commander in Chief or equivalent. The chart is drawn using parent "
+"relationships that are classified as ``command`` (rather than "
+"``informal`` or ``administrative``). They are drawn at the last cited or "
+"end date of the parent relationship. This date is displayed at the bottom"
+" of the chart. Where a unit has different parents at different times, a "
+"chart is drawn for each relationship: swiping left or right, or using the"
+" arrows at each side, displays these."
+msgstr ""
+
+#: ../../source/unitrec.rst:142 a7836a82acc8436ab6f818ee74ce8a90
+msgid "**Fields used in the Parent Units section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:144 f9bab57b8eeb4a8a8b5dc46dc8727f87
+msgid "The following fields are used in the parent units sections:"
+msgstr ""
+
+#: ../../source/unitrec.rst:147 ../../source/unitrec.rst:173
+#: ed6145abae784b10ba07b80049a0029c
+msgid ":ref:`Unit: Related Unit`"
+msgstr ""
+
+#: ../../source/unitrec.rst:148 ../../source/unitrec.rst:174
+#: 386ac1b0bab747779e9522cb421dfd69 51d8fa41dc5643eaa0e490fa5c3a6979
+msgid ":ref:`Unit: Related Unit Classification`"
+msgstr ""
+
+#: ../../source/unitrec.rst:149 ../../source/unitrec.rst:175
+#: 895ab53e56b84601a90c38a264f88926 92ebe003930c462683d25509b8e04d93
+msgid ":ref:`Unit: Related Unit First Cited Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:150 ../../source/unitrec.rst:176
+#: 87058e4e496a468ca3635c0037afbc02 cdac68b9529d418e86c30d3752ffe3e2
+msgid ":ref:`Unit: Unit Relationship Start Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:151 ../../source/unitrec.rst:177
+#: 895ab53e56b84601a90c38a264f88926
+msgid ":ref:`Unit: Related Unit Last Cited Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:152 ../../source/unitrec.rst:178
+#: 228610d27e544a26916043fe74575634 4f5235b3e97643a49ccd60c3fd76b452
+msgid ":ref:`Unit: Related Unit is Open-Ended`"
+msgstr ""
+
+#: ../../source/unitrec.rst:154 b00d2b8f84e5487d81137c1a022b9fb3
+msgid ""
+"Where a unit does not have a parent relationship, this section will not "
+"be displayed in the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:157 f9d19159e9b74f2cab4473bd6657a179
+msgid "Unit record: Unit subsidiaries"
+msgstr ""
+
+#: ../../source/unitrec.rst:162 d211e0cbab304b92b077b60b30eddef8
+msgid ""
+"Image showing a table of subsidiaries on an unit record on "
+"WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:164 9aa59e2eb96649aab4423c5e1e8380d1
+msgid ""
+"The subsidiaries section contains a table describing all units known to "
+"have been immediately below the current unit in the overall "
+"organizational hierarchy of that security force. Hover over any value in "
+"tables to display a little coloured circle; clicking on this will display"
+" the sources and confidence rating for each value."
+msgstr ""
+
+#: ../../source/unitrec.rst:166 24163aaee1f140f1a1422e2b1b35cdc0
+msgid "**Fields used in the Unit subsidiaries section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:168 94b81555002840fbaf00c148880c2664
+msgid "The following fields are used in the subsidiaries section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:180 709cd053b8224015948226a44d89568c
+msgid ""
+"Where a unit has no subsidaires, this section will not be displayed in "
+"the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:183 a027efa5cbb74613af9014228f8f83bd
+msgid "Unit record: Unit personnel"
+msgstr ""
+
+#: ../../source/unitrec.rst:188 d655b26a8f60453f980b3f34b1f63cc6
+msgid ""
+"Image of a table showing a list of personnel on an organzation record on "
+"WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:190 f21ef43587324510b383fc4f65c396a3
+msgid ""
+"The personnel section displays a table showing all persons affiliated to "
+"this unit at any time in command, administrative and other roles. Hover "
+"over any value in the table to display a little coloured circle; clicking"
+" on this will display the sources and confidence rating for each value."
+msgstr ""
+
+#: ../../source/unitrec.rst:192 216ce73007e44a25a98e212fec4b1d4a
+msgid "**Fields used in the unit personnel section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:194 1344e4fc980943f288049da9d861516e
+msgid "The following fields are used in the personnel section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:196 665765b6746448e38d749ef090125f33
+msgid ":ref:`Person: Name`"
+msgstr ""
+
+#: ../../source/unitrec.rst:197 baebd72188594c65a02109d120583ecf
+msgid ":ref:`Person: Posting to Unit`"
+msgstr ""
+
+#: ../../source/unitrec.rst:198 baebd72188594c65a02109d120583ecf
+msgid ":ref:`Person: Posting Role`"
+msgstr ""
+
+#: ../../source/unitrec.rst:199 3421e24e5dc341adaf52ddad789509f0
+msgid ":ref:`Person: Posting Title`"
+msgstr ""
+
+#: ../../source/unitrec.rst:200 baebd72188594c65a02109d120583ecf
+msgid ":ref:`Person: Posting Rank`"
+msgstr ""
+
+#: ../../source/unitrec.rst:201 9017e182b27e462194f0f3612e193055
+msgid ":ref:`Person: Posting First Cited Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:202 9017e182b27e462194f0f3612e193055
+msgid ":ref:`Person: Posting First Cited Date is Start Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:203 db9f0947bbab42b498915b1aedc69d09
+msgid ":ref:`Person: Posting Last Cited Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:204 9017e182b27e462194f0f3612e193055
+msgid ":ref:`Person: Posting Last Cited Date is End Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:206 b716ad9384c940859558fcbfad0c7463
+msgid ""
+"Where no persons in the dataset are members of a unit, this section will "
+"not be displayed in the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:209 f9d19159e9b74f2cab4473bd6657a179
+msgid "Unit record: Unit incidents"
+msgstr ""
+
+#: ../../source/unitrec.rst:214 fda05805f5b64c09bdf1dc9d8efda61c
+msgid "Image showing a list of incidents on an unit record on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:216 8e4f8f184de148afb2f3d83dddd17ad0
+msgid ""
+"The incidents section displays a list of incidents of alleged human "
+"rights violations that sources allege the unit has committed. Hover over "
+"either the date or the incident description to display a little coloured "
+"circle that when clicked will show the sources and confidence rating we "
+"have assigned to this data."
+msgstr ""
+
+#: ../../source/unitrec.rst:218 58f40f0b021b4c0eaca57cecb31af5c7
+msgid "**Fields used in the unit incidents section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:220 e6c4c0036632487d93807c85d1582f44
+msgid "The following fields are used in the incidents section:"
+msgstr ""
+
+#: ../../source/unitrec.rst:222 03860bbe96d242b889c20bb9b344bf9b
+msgid ":ref:`Incident: Start Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:223 583e85c5c76849699f2ed807a858d031
+msgid ":ref:`Incident: End Date`"
+msgstr ""
+
+#: ../../source/unitrec.rst:224 51d8fa41dc5643eaa0e490fa5c3a6979
+msgid ":ref:`Incident: Violation Description`"
+msgstr ""
+
+#: ../../source/unitrec.rst:225 ded0ea6486634f71befcb4724e4b3748
+msgid ":ref:`Incident: Perpetrator Unit`"
+msgstr ""
+
+#: ../../source/unitrec.rst:227 f40495f5cf84465aab1923c85122949e
+msgid ""
+"If a source has not made an allegation against a unit, this section will "
+"not be displayed in the unit record."
+msgstr ""
+

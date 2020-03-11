@@ -2,49 +2,49 @@
 # Copyright (C) 2019, Security Force Monitor
 # This file is distributed under the same license as the SFM Research
 # Handbook package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: SFM Research Handbook \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-26 12:33+0100\n"
+"POT-Creation-Date: 2020-03-11 16:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 
-#: ../../source/tutorials.rst:2
+#: ../../source/tutorials.rst:2 f5b9ee0185034dae803cfca15fa385c3
 msgid "Tutorials"
 msgstr ""
 
-#: ../../source/tutorials.rst:5
+#: ../../source/tutorials.rst:5 b1073912651d40f0991ea8279a5b89ef
 msgid "Recording geographical information"
 msgstr ""
 
-#: ../../source/tutorials.rst:7
+#: ../../source/tutorials.rst:7 7ffb47a4a8d5430db48bd1e52d230fcf
 msgid ""
 "Guidance on how to analyse, extract and record geographical information "
 "from sources used to create our data."
 msgstr ""
 
-#: ../../source/tutorials.rst:10
+#: ../../source/tutorials.rst:10 838b876fbdc545349353f9254988fc48
 msgid "Dates and time periods in Security Force Monitor"
 msgstr ""
 
-#: ../../source/tutorials.rst:12
+#: ../../source/tutorials.rst:12 322d8dc1d0d248719e2f365065218f6f
 msgid "Guidance on how Security Force Monitor deals with time in the datasets"
 msgstr ""
 
-#: ../../source/tutorials.rst:15
+#: ../../source/tutorials.rst:15 4e23dfd5615b4d47a305d1f6396a8967
 msgid "Archiving and retrieving sources from the Internet Archive"
 msgstr ""
 
-#: ../../source/tutorials.rst:17
+#: ../../source/tutorials.rst:17 ef9ffaef2b3d4e16962f818092059ccb
 msgid ""
 "Guidance on how to create an archive snapshot of a source using teh "
 "Internet Archive, and how to retrieve that information."
