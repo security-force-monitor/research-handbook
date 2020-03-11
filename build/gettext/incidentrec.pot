@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-11 16:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/incidentrec.rst:2
+#: b59352a894a74a3ab18444289b309685
+msgid "Incident Records on WhoWasInCommand"
+msgstr ""
+
+#: ../../source/incidentrec.rst:4
+#: 149797171b28489aa36d8300a556c84a
+msgid "This page contains an overview of the data that visitors to WhoWasInCommand will find in an incident record."
+msgstr ""
+
+#: ../../source/incidentrec.rst:6
+#: 58ef75955856482d9e2d3efba7cee80e
+msgid "This includes the different sections of the incident record, the data fields that are used to create it and links to more information about each field."
+msgstr ""
+
+#: ../../source/incidentrec.rst:9
+#: 1a71af92d7f949d0b847a79e10bbc69b
+msgid "Incident record: Title area"
+msgstr ""
+
+#: ../../source/incidentrec.rst:14
+#: 596eb7e02cf24601a66ad95cd73c1f49
+msgid "This section contains key information about the incident. It also contains links to download and print actions for the displayed record. Hover over any value in the title area to display a little coloured circle; clicking on this will display the sources and confidence rating for we have assigned to each value."
+msgstr ""
+
+#: ../../source/incidentrec.rst:16
+#: d4f25e5e3a224c59a1c94104decf0484
+msgid "**Fields used in incident title area**"
+msgstr ""
+
+#: ../../source/incidentrec.rst:18
+#: 28ec24621eb749bbb50be26c7572b0bc
+msgid "The following fields are used in the incident title area section:"
+msgstr ""
+
+#: ../../source/incidentrec.rst:20
+#: bba7ffbb78ce4c55b0780b3d552373bc
+msgid ":ref:`Incident: Start Date`"
+msgstr ""
+
+#: ../../source/incidentrec.rst:21
+#: a6247d86359d4f75b1747d668beb40fa
+msgid ":ref:`Incident: End Date`"
+msgstr ""
+
+#: ../../source/incidentrec.rst:22
+#: ../../source/incidentrec.rst:47
+#: 1e8f9b8344614b10a38f47293600326b
+#: b316fa778b574272b9effb53de3b8a0d
+msgid ":ref:`Incident: Country`"
+msgstr ""
+
+#: ../../source/incidentrec.rst:23
+#: 316ea5b930cb452ba831961db185bb59
+msgid ":ref:`Incident: Violation type`"
+msgstr ""
+
+#: ../../source/incidentrec.rst:26
+#: 2950f3de53b04fb485b026bc2ca84ced
+msgid "Incident record: Content sidebar"
+msgstr ""
+
+#: ../../source/incidentrec.rst:31
+#: 74f8553839ba4f72bc09bf723f6171cb
+msgid "The content sidebar is a navigation aid. It provides quick links to different sections of the record. The items inside the content sidebar indicate what sort of data is available about this incident. For example if \"Perpetrator units\" is not listed in the content sidebar, then there are no data available about alleged perpetrators of the incident."
+msgstr ""
+
+#: ../../source/incidentrec.rst:34
+#: fdd8aba36a174c7fa1566bdd326c804b
+msgid "Incident record: Location"
+msgstr ""
+
+#: ../../source/incidentrec.rst:39
+#: eb381156f2be4ce99dabb66bf18e6296
+msgid "This section contains an interactive map and some text that describe the location where sources indicate that an incident occured. Click on the pins placed in the map to display the name of a location. Grab the map to drag/pan it around. Swipe or use the ``+`` and ``-`` controls on the map to zoom in or zoom out. Hover over the text description of the location and a little coloured circle will appear. Click on this to view the sources and confidence rating we have assigned to that value."
+msgstr ""
+
+#: ../../source/incidentrec.rst:41
+#: 3f730ada20d0403dac5db94091cfddfb
+msgid "**Fields used in incident location section**"
+msgstr ""
+
+#: ../../source/incidentrec.rst:43
+#: 1587cc280c2b49909ae83d10f409ebb4
+msgid ":ref:`Incident: Location Description`"
+msgstr ""
+
+#: ../../source/incidentrec.rst:44
+#: 9306cd9e8d024e6cbe03b1a0bf7cc0bc
+msgid ":ref:`Incident: Site, Exact location (Coordinate Pair or Gazetteer Name and Identity Number)`"
+msgstr ""
+
+#: ../../source/incidentrec.rst:45
+#: fd46e00e6d054f6c838c499862607c16
+msgid ":ref:`Incident: Site, Nearest Settlement`"
+msgstr ""
+
+#: ../../source/incidentrec.rst:46
+#: 93f636c6a4b443dabfb5ad0c4ee9bc3b
+msgid ":ref:`Incident: Site, First-level Administrative Area`"
+msgstr ""
+
+#: ../../source/incidentrec.rst:50
+#: 50a07581988a42409af644688364b9be
+msgid "Incident record: Description"
+msgstr ""
+
+#: ../../source/incidentrec.rst:55
+#: 11dab522094e403895506611e1eae59c
+msgid "This section contains a direct quotation from the civil society, governmental or other source that describes the incident. As with all tables in person, unit and incident records on WhoWasInCommand, hovering over or tapping any value in the table will cause a little coloured circle to appear. Clicking or tapping again on this will show the sources and confidence ratings we have assigned to that value."
+msgstr ""
+
+#: ../../source/incidentrec.rst:57
+#: 9550e43c265a44e9a5152af05cfa8467
+msgid "**Fields used in incident description section**"
+msgstr ""
+
+#: ../../source/incidentrec.rst:59
+#: c37a18dee1974fba93a85655374b19c4
+msgid "The following field is used in the incident description section:"
+msgstr ""
+
+#: ../../source/incidentrec.rst:61
+#: 6b9ac12c65b54e71b74b8434c4e01227
+msgid ":ref:`Incident: Violation Description`"
+msgstr ""
+
+#: ../../source/incidentrec.rst:64
+#: 0393320bc2d343e1a1c63117387bf7b0
+msgid "Incident record: Perpetrator units"
+msgstr ""
+
+#: ../../source/incidentrec.rst:69
+#: ce1789a511c8409bb0bff91fda74681d
+msgid "This section contains a table listing the unit(s) that sources allege committed the human rights violation(s) described in the incident. As with all tables in person, unit and incident records on WhoWasInCommand, hovering over or tapping any value in the table will cause a little coloured circle to appear. Clicking or tapping again on this will show the sources and confidence ratings we have assigned to that value."
+msgstr ""
+
+#: ../../source/incidentrec.rst:71
+#: 40b4782e5a7441db90d52f047b90e567
+msgid "**Fields used in perpetrator units section**"
+msgstr ""
+
+#: ../../source/incidentrec.rst:73
+#: d470a3dbf91b47a09c32c3a3718613a9
+msgid "The following fields are used in the perpetrator units section:"
+msgstr ""
+
+#: ../../source/incidentrec.rst:75
+#: dfe73ba6cfd54cdb9cd98c4d3f3e192d
+msgid ":ref:`Incident: Perpetrator Unit`"
+msgstr ""
+
+#: ../../source/incidentrec.rst:76
+#: 8ffcd4c9cf41405ca18b08c25cb17577
+msgid ":ref:`Unit: Name`"
+msgstr ""
+
+#: ../../source/incidentrec.rst:77
+#: 23706efbabff4b34be6af93249d6059c
+msgid ":ref:`Unit: Other Names`"
+msgstr ""
+
+#: ../../source/incidentrec.rst:78
+#: 3720d64449714c97811c4560566d92cb
+msgid ":ref:`Unit: Classification`"
+msgstr ""

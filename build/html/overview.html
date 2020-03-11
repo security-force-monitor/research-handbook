@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Research Handbook for Security Force Monitor &mdash; SFM Research Handbook 1.0.1 documentation</title>
+  <title>Research Handbook for Security Force Monitor &mdash; SFM Research Handbook  documentation</title>
   
 
   
@@ -21,10 +21,10 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -83,10 +83,10 @@
               <p class="caption"><span class="caption-text">Introduction</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Research Handbook for Security Force Monitor</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#about-security-force-monitor">About Security Force Monitor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#about-this-research-handbook">About this Research Handbook</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#contributors">Contributors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#about-security-force-monitor">About Security Force Monitor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#license">License</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#copyright-and-license">Copyright and license</a></li>
 </ul>
 </li>
 </ul>
@@ -97,8 +97,6 @@
 <li class="toctree-l2"><a class="reference internal" href="methodology.html#phase-2-write-a-country-guide">Phase 2: Write a Country Guide</a></li>
 <li class="toctree-l2"><a class="reference internal" href="methodology.html#phase-3-conduct-detailed-research">Phase 3: Conduct detailed research</a></li>
 <li class="toctree-l2"><a class="reference internal" href="methodology.html#phase-4-publish-data">Phase 4: Publish data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="methodology.html#timebound-data">Timebound Data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="methodology.html#unknown-vs-unnamed-organizations">Unknown vs. Unnamed Organizations</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="tutorials.html">Tutorials</a><ul>
@@ -110,101 +108,148 @@
 </ul>
 <p class="caption"><span class="caption-text">Data Model</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="datamodel.html">What data does the Monitor collect?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="sources_confidence.html">Sources and Confidence</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="sources_confidence.html#sources">Sources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sources_confidence.html#confidence">Confidence</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datamodel.html">What data does the Monitor collect?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="datamodel.html#units-persons-and-incidents">Units, persons and incidents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="datamodel.html#sample-data-entry-sheets">Sample data entry sheets</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="organizations.html">Organizations</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-id">Organization: ID</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-name">Organization: Name</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-aliases">Organization: Aliases</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-country">Organization: Country</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-classification">Organization: Classification</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-date-first-cited">Organization: Date first cited</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-start-date">Organization: Start date?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-date-last-cited">Organization: Date last cited</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-open-ended">Organization: Open-ended?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-parent">Organization: Parent</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#parent-relationship-classification">Parent relationship: Classification</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#parent-relationship-date-first-cited">Parent relationship: Date first cited</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#parent-relationship-start-date">Parent relationship: start date?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#parent-organization-date-last-cited">Parent organization: date last cited</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#parent-relationship-open-ended">Parent relationship: Open-ended?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-base">Site: Base</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-exact-location-longitude-or-osm-object-name">Site: Exact Location (Longitude or OSM object Name)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-exact-location-latitude-or-osm-object-id">Site: Exact Location (Latitude or OSM object ID)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-settlement-osm-object-name">Site: Settlement (OSM object Name)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-settlement-osm-object-id">Site: Settlement (OSM object ID)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-top-administrative-area-osm-object-name">Site: Top Administrative Area (OSM object Name)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-top-administrative-area-osm-object-id-number">Site: Top Administrative Area (OSM object ID number)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-country">Site: Country</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-date-of-first-citation">Site: Date of first citation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-founding-date">Site: Founding date?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-date-last-cited">Site: Date last cited</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#site-open-ended">Site: Open-ended?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-osm-object-name">Area of Operations: OSM object name</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-osm-object-id-number">Area of Operations: OSM object ID number</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-country">Area of Operations: Country</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-date-first-cited">Area of Operations: Date first cited</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-start-date">Area of Operations: Start date?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-date-last-cited">Area of Operations: Date last cited</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#area-of-operations-open-ended">Area of Operations: Open-ended?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-membership">Organization Membership</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#membership-date-first-cited">Membership: Date first cited</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#membership-start-date">Membership: Start date?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#membership-date-of-last-citation">Membership: Date of last citation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#membership-end-date">Membership: End Date?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="organizations.html#organization-notes">Organization: Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_integrity.html">Data integrity measures</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="data_integrity.html#data-point-level-evidencing">Data point level evidencing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_integrity.html#confidence-scores">Confidence scores</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_integrity.html#timebound-data">Timebound Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_integrity.html#unknown-vs-unnamed-units">Unknown vs. Unnamed Units</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="units.html">Units</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units.html#what-are-units">What are units?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-unique-identifier">Unit: Unique Identifier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-research-owner">Unit: Research Owner</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-research-status">Unit: Research Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-research-comments">Unit: Research Comments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-name">Unit: Name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-other-names">Unit: Other Names</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-country">Unit: Country</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-classification">Unit: Classification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-first-cited-date">Unit: First Cited Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-first-cited-date-is-also-unit-s-start-date">Unit: First Cited Date is also Unit’s Start Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-last-cited-date">Unit: Last Cited Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-last-cited-date-is-open-ended">Unit: Last Cited Date is Open-Ended</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-related-unit">Unit: Related Unit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-type-of-relationship">Unit: Type of Relationship</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-related-unit-classification">Unit: Related Unit Classification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-related-unit-first-cited-date">Unit: Related Unit First Cited Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-unit-relationship-start-date">Unit: Unit Relationship Start Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-related-unit-last-cited-date">Unit: Related Unit Last Cited Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-related-unit-is-open-ended">Unit: Related Unit is Open-Ended</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-base-name">Unit: Base Name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-site-exact-location-longitude-or-gazetteer-name">Unit: Site, Exact Location (Longitude or Gazetteer Name)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-site-exact-location-latitude-or-gazetteer-identity-number">Unit: Site, Exact Location (Latitude or Gazetteer Identity Number)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-site-nearest-settlement-name">Unit: Site, Nearest Settlement (Name)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-site-nearest-settlement-id">Unit: Site, Nearest Settlement (ID)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-site-first-level-administrative-area-name">Unit: Site, First-level Administrative Area (Name)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-site-first-level-administrative-area-id">Unit: Site, First-level Administrative Area (ID)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-site-country">Unit: Site Country</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-site-first-cited-date">Unit: Site, First Cited Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-site-was-founded-on-first-cited-date">Unit: Site was Founded on First Cited Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-site-last-cited-date">Unit: Site, Last Cited Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-site-last-cited-date-is-open-ended">Unit: Site, Last Cited Date is Open-Ended</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-area-of-operations-name">Unit: Area of Operations (Name)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-area-of-operations-id">Unit: Area of Operations (ID)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-country-of-area-of-operations">Unit: Country of Area of Operations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-area-of-operations-first-cited-date">Unit: Area of Operations, First Cited Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-area-of-operations-first-cited-date-is-start-date">Unit: Area of Operations First Cited Date is Start Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-area-of-operations-last-cited-date">Unit: Area of Operations Last Cited Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-area-of-operations-is-open-ended">Unit: Area of Operations is Open-Ended</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-membership">Unit: Membership</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-membership-first-cited-date">Unit: Membership First Cited Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-membership-first-cited-date-is-start-date">Unit: Membership First Cited Date is Start Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-membership-last-cited-date">Unit: Membership Last Cited Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-membership-end-date">Unit: Membership End-Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units.html#unit-notes">Unit: Notes</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="persons.html">Persons</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-id">Person: ID</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#what-are-persons">What are persons?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-unique-identier">Person: Unique Identier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-research-owner">Person: Research Owner</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-research-status">Person: Research Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-research-comments">Person: Research Comments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="persons.html#person-name">Person: Name</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-aliases">Person: Aliases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-other-names">Person: Other Names</a></li>
 <li class="toctree-l2"><a class="reference internal" href="persons.html#person-country">Person: Country</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-gender">Person: Gender</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-date-of-birth">Person: Date of Birth</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-date-of-death">Person: Date of Death</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-deceased">Person: Deceased</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-biography">Person: Biography</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-external-link">Person: External Link</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-organization">Person: Organization</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-role">Person: Role</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-title">Person: Title</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-rank">Person: Rank</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-membership-date-first-cited">Person Membership: Date first cited</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-membership-start-date">Person Membership: Start date</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-membership-context-start-date">Person Membership: Context Start Date</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-membership-date-last-cited">Person Membership: Date last cited</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-membership-end-date">Person Membership: End date?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persons.html#person-membership-context-end-date">Person Membership: Context End Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-posting-to-unit">Person: Posting to Unit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-posting-role">Person: Posting Role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-posting-title">Person: Posting Title</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-posting-rank">Person: Posting Rank</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-posting-first-cited-date">Person: Posting First Cited Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-posting-first-cited-date-is-start-date">Person: Posting First Cited Date is Start Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-context-for-posting-start-date">Person: Context for Posting Start Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-posting-last-cited-date">Person: Posting Last Cited Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-posting-last-cited-date-is-end-date">Person: Posting Last Cited Date is End Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#person-context-for-posting-end-date">Person: Context for Posting End Date</a></li>
 <li class="toctree-l2"><a class="reference internal" href="persons.html#person-notes">Person: Notes</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="events.html">Events</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-id">Event: ID</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-start-date">Event: Start date</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-end-date">Event: End date</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-date-of-publication">Event: Date of publication</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-date-of-last-update">Event: Date of last update</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-status-as-of-last-update">Event: Status as of last update</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-location">Event: Location</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-exact-location-longitude-or-osm-object-name">Event: Exact location (Longitude or OSM object Name)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-exact-location-latitude-or-osm-object-id-number">Event: Exact location (Latitude or OSM object ID number)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-settlement-osm-object-name">Event: Settlement (OSM object Name)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-settlement-osm-object-id-number">Event: Settlement (OSM object ID Number)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-top-administrative-area-osm-object-name">Event: Top Administrative Area (OSM object name)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-top-administrative-area-osm-object-id-number">Event: Top Administrative Area (OSM object ID number)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-country">Event: Country</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-violation-type">Event: Violation type</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-description">Event: Description</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-perpetrator-name">Event: Perpetrator name</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-perpetrator-organization">Event: Perpetrator organization</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-perpetrator-classification">Event: Perpetrator classification</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-source">Event: Source</a></li>
-<li class="toctree-l2"><a class="reference internal" href="events.html#event-notes">Event: Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="persons_extra.html">Persons Extra</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-name">Person Extra: Name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-unique-identifier">Person Extra: Unique Identifier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-gender">Person Extra: Gender</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-date-of-birth">Person Extra: Date of Birth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-deceased">Person Extra: Deceased</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-date-of-death">Person Extra: Date of Death</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-account-type">Person Extra: Account Type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-account-identity">Person Extra: Account Identity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-external-link-description">Person Extra: External Link Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-media-description">Person Extra: Media Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-notes">Person Extra: Notes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="incidents.html">Incidents</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#what-are-incidents">What are incidents?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-unique-identifying-number">Incident: Unique Identifying Number</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-research-owner">Incident: Research Owner</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-research-status">Incident: Research Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-research-comments">Incident: Research Comments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-start-date">Incident: Start Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-end-date">Incident: End Date</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-date-of-publication">Incident: Date of Publication</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-date-of-last-update">Incident: Date of Last Update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-status-as-of-last-update">Incident: Status as of Last Update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-location-description">Incident: Location Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-site-exact-location-coordinate-pair-or-gazetteer-name-and-identity-number">Incident: Site, Exact location (Coordinate Pair or Gazetteer Name and Identity Number)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-site-nearest-settlement">Incident: Site, Nearest Settlement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-site-first-level-administrative-area">Incident: Site, First-level Administrative Area</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-country">Incident: Country</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-violation-type">Incident: Violation type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-violation-description">Incident: Violation Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-perpetrator-name">Incident: Perpetrator Name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-perpetrator-unit">Incident: Perpetrator Unit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-perpetrator-classification">Incident: Perpetrator classification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#incident-source">Incident: Source</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sources.html">Sources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#what-are-sources">What are sources?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#sources-and-access-points">Sources and Access Points</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-research-comments">Source: Research Comments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-restricted">Source: Restricted</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-external-archive">Source: External Archive</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-access-point-unique-identifier">Source: Access Point Unique Identifier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-type">Source: Type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-title">Source: Title</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-author">Source: Author</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-source-url">Source: Source URL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-creation-date-and-time">Source: Creation Date and Time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-upload-date-and-time">Source: Upload Date and Time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-publication-date-and-time">Source: Publication Date and Time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-access-date-and-time">Source: Access Date and Time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-access-point-type">Source: Access Point Type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-access-point-trigger">Source: Access Point Trigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-access-point-archive-url">Source: Access Point Archive URL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-access-point-archive-timestamp">Source: Access Point Archive Timestamp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-publication-country">Source: Publication Country</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-publication-name">Source: Publication Name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sources.html#source-publication-unique-identifier">Source: Publication Unique Identifier</a></li>
 </ul>
 </li>
 </ul>
@@ -217,7 +262,6 @@
 <li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#where-can-i-find-out-more-about-the-data-on-units-persons-and-incidents">Where can I find out more about the data on “units”, “persons” and “incidents”?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#how-can-i-see-all-the-units-for-a-particular-country">How can I see all the units for a particular country?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#why-does-whowasincommand-make-suggestions-to-me">Why does WhoWasInCommand make suggestions to me?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#how-do-i-get-all-the-sources-used-in-a-record">How do I get all the sources used in a record?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#how-do-i-see-the-sources-used-for-a-specific-datapoint">How do I see the sources used for a specific datapoint?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#what-are-those-little-numbered-circles-that-keep-appearing">What are those little numbered circles that keep appearing?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#why-do-some-dates-have-a-dotted-line-beneath-them-and-some-don-t">Why do some dates have a dotted line beneath them and some don’t?</a></li>
@@ -225,37 +269,34 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="unitrec.html">Unit Records on WhoWasInCommand</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-title-area">Unit record title area</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-content-sidebar">Unit record content sidebar</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-areas-of-operation">Unit record Areas of Operation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-sites">Unit Sites</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-memberships">Unit memberships</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unitrec.html#member-units">Member units</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unitrec.html#parent-units">Parent Units</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-subsidiaries">Unit subsidiaries</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-personnel">Unit personnel</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-incidents">Unit incidents</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-changelog">Unit record changelog</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-title-area">Unit record: Title area</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-content-sidebar">Unit record: Content sidebar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-areas-of-operation">Unit record: Areas of Operation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-sites">Unit record: Sites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-memberships">Unit record: Memberships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-member-units">Unit record: Member units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-parent-units">Unit record: Parent units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-unit-subsidiaries">Unit record: Unit subsidiaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-unit-personnel">Unit record: Unit personnel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-unit-incidents">Unit record: Unit incidents</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="personsrec.html">Person records on WhoWasInCommand</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-title-area">Person record title area</a></li>
-<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-content-sidebar">Person record content sidebar</a></li>
-<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-last-seen-as">Person “Last Seen As”</a></li>
-<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-memberships">Person memberships</a></li>
-<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-chain-of-command">Person chain of command</a></li>
-<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-superiors">Person superiors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-subordinates">Person subordinates</a></li>
-<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-changelog">Person record changelog</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-title-area">Person record: Title area</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-content-sidebar">Person record: Content sidebar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-person-last-seen-as">Person record: Person “Last Seen As”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-person-memberships">Person record: Person memberships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-chain-of-command">Person record: Chain of command</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-superiors">Person record: Superiors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-subordinates">Person record: Subordinates</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="eventrec.html">Incident Records on WhoWasInCommand</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="eventrec.html#incident-title-area">Incident title area</a></li>
-<li class="toctree-l2"><a class="reference internal" href="eventrec.html#incident-content-sidebar">Incident content sidebar</a></li>
-<li class="toctree-l2"><a class="reference internal" href="eventrec.html#incident-location">Incident location</a></li>
-<li class="toctree-l2"><a class="reference internal" href="eventrec.html#incident-description">Incident description</a></li>
-<li class="toctree-l2"><a class="reference internal" href="eventrec.html#perpetrator-organizations">Perpetrator organizations</a></li>
-<li class="toctree-l2"><a class="reference internal" href="eventrec.html#incident-changelog">Incident Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="incidentrec.html">Incident Records on WhoWasInCommand</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="incidentrec.html#incident-record-title-area">Incident record: Title area</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidentrec.html#incident-record-content-sidebar">Incident record: Content sidebar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidentrec.html#incident-record-location">Incident record: Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidentrec.html#incident-record-description">Incident record: Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidentrec.html#incident-record-perpetrator-units">Incident record: Perpetrator units</a></li>
 </ul>
 </li>
 </ul>
@@ -333,27 +374,6 @@
             
   <div class="section" id="research-handbook-for-security-force-monitor">
 <h1>Research Handbook for Security Force Monitor<a class="headerlink" href="#research-handbook-for-security-force-monitor" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="about-this-research-handbook">
-<h2>About this Research Handbook<a class="headerlink" href="#about-this-research-handbook" title="Permalink to this headline">¶</a></h2>
-<p>This Research Handbook contains information about the data and tools used by Security Force Monitor, a project of the Columbia Law School Human Rights Initiative. Currently, it has three main sections:</p>
-<ul class="simple">
-<li><p>WhoWasInCommand.com User Guide: The data created by Security Force Monitor is published online on WhoWasInCommand.com, a platform with powerful search functions, clean and interactive views of data on persons, organizations and events.</p></li>
-<li><p>Methodology: Security Force Monitor has a four phase approach to researching a country’s security forces. This section outlines our process.</p></li>
-<li><p>Data Model: this section describes the way that Security Force Monitor structures the data it collects, outlines the main entities in use (<code class="docutils literal notranslate"><span class="pre">persons</span></code>,<code class="docutils literal notranslate"><span class="pre">organizations</span></code> and <code class="docutils literal notranslate"><span class="pre">events</span></code>) and details how each field is used.</p></li>
-</ul>
-<p>The Research Handbook is a work-in-progress, and is updated during the course of the work of Security Force Monitor.</p>
-</div>
-<div class="section" id="contributors">
-<h2>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline">¶</a></h2>
-<div class="line-block">
-<div class="line">Tony Wilson, Tom Longley and Michel Manzur from <a class="reference external" href="https://securityforcemonitor.org">Security Force Monitor</a> wrote the first version of this Research Handbook.</div>
-<div class="line"><a class="reference external" href="https://twitter.com/mckinneyjames">James McKinney</a> - at the time with <a class="reference external" href="http://opennorth.ca">OpenNorth</a> - was a major contributor to the development of Monitor’s data model, adapting Popolo (an international open government data standard) and developing the specifications for the Monitor’s research tool.</div>
-</div>
-<p>Security Force Monitor has partnered with DataMade to create WhoWasInCommand.com. DataMade has operationalized and refined Security Force Monitor’s data structure, created a powerful open source platform to put the data online, and made a significant contribution to the concept and design of WhoWasInCommand.com.</p>
-<p><strong>How to contribute</strong></p>
-<p>The <a class="reference external" href="https://github.com/security-force-monitor/sfm-research-handbook">Research Handbook source is hosted on Github</a>, and published here as a Gitbook.</p>
-<p>When reading it, we are sure you will find things that can be improved - please let us know what needs to be done, either by <a class="reference external" href="mailto:info&#37;&#52;&#48;securityforcemonitor&#46;org">emailing us</a>, <a class="reference external" href="https://github.com/security-force-monitor/sfm-research-handbook/issues">submitting a pull request or filing a issue on Github</a>.</p>
-</div>
 <div class="section" id="about-security-force-monitor">
 <h2>About Security Force Monitor<a class="headerlink" href="#about-security-force-monitor" title="Permalink to this headline">¶</a></h2>
 <p>The Security Force Monitor works to make police, military and other security forces around the world more transparent and accountable.</p>
@@ -369,10 +389,34 @@
 <p>The Security Force Monitor is a project of the <a class="reference external" href="http://www.law.columbia.edu/human-rights-institute">Columbia Law School Human Rights Institute</a>.</p>
 <p><a class="reference external" href="https://securityforcemonitor.org">More information about Security Force Monitor</a> can be found on our website.</p>
 </div>
-<div class="section" id="license">
-<h2>License<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h2>
-<p>The Security Force Monitor Research Handbook is licensed under a <a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
-<div class="figure align-center" id="id1">
+<div class="section" id="about-this-research-handbook">
+<h2>About this Research Handbook<a class="headerlink" href="#about-this-research-handbook" title="Permalink to this headline">¶</a></h2>
+<p>This Research Handbook is a guide to investigating the structure, personnel, infrastructure, operations and connections to human rights abuses of security forces around the world. It provides detailed information  about the methods, data and tools used by Security Force Monitor to do this.</p>
+<p>The Research Handbook has three sections:</p>
+<ul class="simple">
+<li><p><strong>WhoWasInCommand.com User Guide</strong>: The data created by Security Force Monitor is published online at <a class="reference external" href="https://WhoWasInCommand.com">https://WhoWasInCommand.com</a>, a purpose-built platform with powerful search functions, clean and interactive views of the organizational structure, command of personnel and chains of command, and the geographical footprint of security forces in many countries.</p></li>
+<li><p><strong>Methodology</strong>: Security Force Monitor has a four phase approach to researching a country’s security forces. This section outlines our process.</p></li>
+<li><p><strong>Data Model</strong>: this section describes the way that Security Force Monitor structures the data it collects and the steps taken to ensure data integrity. In this section, we also provide detailed documentation about the standard data collection formats and fields that we use to organize our research and store data:</p></li>
+<li><p>the <a class="reference internal" href="persons.html"><span class="doc">Persons</span></a> and <a class="reference internal" href="persons_extra.html"><span class="doc">Persons Extra</span></a> formats are used to capture data about persons, their ranks and roles within security forces, information about their online presence and how they look and sound.</p></li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li><p>the <a class="reference internal" href="units.html"><span class="doc">Units</span></a> format is used to stored data about the organizational structure of a security force, its physical infrastructure and its areas areas of operation.</p></li>
+<li><p>the <a class="reference internal" href="incidents.html"><span class="doc">Incidents</span></a> format is used to store data about human rights abuses specific units or persons from security forces are alleged to have committed.</p></li>
+</ul>
+</div></blockquote>
+<p>This Research Handbook is a work-in-progress and is regularly updated during the course of the work of Security Force Monitor.</p>
+</div>
+<div class="section" id="contributors">
+<h2>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline">¶</a></h2>
+<p>Tony Wilson, Tom Longley and Michel Manzur from <a class="reference external" href="https://securityforcemonitor.org/about">Security Force Monitor</a> are the authors of this Research Handbook.</p>
+<p>Security Force Monitor has partnered with <a class="reference external" href="https://datamade.us">DataMade</a> to create WhoWasInCommand.com. DataMade has operationalized and refined Security Force Monitor’s data structure, worked with us to create a powerful open source platform to put the data online, and made a significant contribution to the concept and design of WhoWasInCommand.com.</p>
+<p><a class="reference external" href="https://twitter.com/mckinneyjames">James McKinney</a> - at the time with <a class="reference external" href="http://opennorth.ca">OpenNorth</a> - was a major contributor to the development of Monitor’s data model, adapting Popolo (an international open government data standard) and developing the specifications for the Monitor’s research tool.</p>
+</div>
+<div class="section" id="copyright-and-license">
+<h2>Copyright and license<a class="headerlink" href="#copyright-and-license" title="Permalink to this headline">¶</a></h2>
+<p>The Security Force Monitor Research Handbook is licensed under a <a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. You are free to copy, share and adapt all or any part of this handbook, but you must give appropriate credit to Security Force Monitor.</p>
+<div class="figure align-default" id="id1">
 <img alt="License: CC BY 4.0" src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" /><p class="caption"><span class="caption-text">License: CC BY 4.0</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 </div>

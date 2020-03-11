@@ -99,7 +99,7 @@ You mean these?
 .. figure:: _static/wwic_citation_references.gif
    :alt: 
 
-The little numbered circles indicate two things: \* Click on it to show a list of the sources used to evidence that specific datapoint. \* The colour indicates the level of confidence we have in the data: Red for "Low", yellow for "Medium" and green for "High". You can read an explanation of how we grade inforamation in this handbook's page on :ref:`Sources and Confidence`.
+The little numbered circles indicate two things: \* Click on it to show a list of the sources used to evidence that specific datapoint. \* The colour indicates the level of confidence we have in the data: Red for "Low", yellow for "Medium" and green for "High". You can read an explanation of how we grade inforamation in this handbook's page on :ref:`Data integrity measures`.
 
 Why do some dates have a dotted line beneath them and some don't?
 -----------------------------------------------------------------

@@ -6,7 +6,7 @@ This page gives an overview of the data that visitors to WhoWasInCommand will fi
 This includes descriptions of different sections of the unit page, the data fields that are used to create it and links to more information about each field.
 
 Unit record: Title area
-----------------------
+-----------------------
 
 .. figure:: _static/org_record_anatomy_titlearea.png
    :alt: Image showing the title area of an unit record on WhoWasInCommand
@@ -27,7 +27,7 @@ The following fields are used in the title area:
 When a field is empty, it will not be displayed in the Title area.
 
 Unit record: Content sidebar
----------------------------
+----------------------------
 
 .. figure:: _static/org_record_anatomy_content_sidebar.png
    :alt: Image showing the content sidebar of an unit record on WhoWasInCommand
@@ -37,7 +37,7 @@ Unit record: Content sidebar
 The content sidebar is a navigation aid. It provides quick links to different parts of the page. The items inside the content sidebar indicate what sort of data is available about this unit. For example if "Incidents" is not listed in the content sidebar, then there is no data available about incidents involving this unit.
 
 Unit record: Areas of Operation
-------------------------------
+-------------------------------
 
 .. figure:: _static/org_record_anatomy_areas_of_operation.png
    :alt: Image showing the Area of Operation map and table of a unit record on WhoWasInCommand.com
@@ -52,7 +52,7 @@ The following fields are used in the areas of operation section:
 
 -  :ref:`Unit: Area of Operations (Name)`
 -  :ref:`Unit: Area of Operations (ID)`
--  :ref:`Unit: Area of Operations First Cited Date`
+-  :ref:`Unit: Area of Operations, First Cited Date`
 -  :ref:`Unit: Area of Operations First Cited Date is Start Date`
 -  :ref:`Unit: Area of Operations Last Cited Date`
 -  :ref:`Unit: Area of Operations is Open-Ended`
@@ -87,7 +87,7 @@ The following fields are used in the Site section:
 The Sites section will display where there is a valid Site record. Otherwise, the section will not display on the unit record.
 
 Unit record: Memberships
------------------------
+------------------------
 
 .. figure:: _static/org_record_anatomy_memberships.png
    :alt: Image showing a membership table of a unit record on WhoWasInCommand.com
@@ -109,7 +109,7 @@ The following fields are used in the memberships section:
 Where a unit has no memberships attached to it, the memberships section will not display on the unit record.
 
 Unit record: Member units
-------------------------
+-------------------------
 
 .. figure:: _static/org_record_anatomy_member_units.png
    :alt: 
@@ -130,7 +130,7 @@ The following fields are used in the member units section:
 -  :ref:`Unit: Membership End-Date`
 
 Unit record: Parent units
------------------------
+-------------------------
 
 .. figure:: _static/org_record_anatomy_parents.png
    :alt: Image showing a table of parent units for an organization on WhoWasInCommand.com
@@ -200,7 +200,6 @@ The following fields are used in the personnel section:
 -  :ref:`Person: Posting Rank`
 -  :ref:`Person: Posting First Cited Date`
 -  :ref:`Person: Posting First Cited Date is Start Date`
--  :ref:`Person: Posting for Posting Start Date`
 -  :ref:`Person: Posting Last Cited Date`
 -  :ref:`Person: Posting Last Cited Date is End Date`
 

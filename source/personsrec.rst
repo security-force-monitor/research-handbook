@@ -6,7 +6,7 @@ This page contains an overview of the data that visitors to WhoWasInCommand will
 This includes the different sections of the person record, the data fields that are used to create it and links to more information about each field.
 
 Person record: Title area
-------------------------
+-------------------------
 
 .. figure:: _static/person_record_anatomy_title_area.png
    :alt: Image showing the title area of a person record on WhoWasInCommand.com
@@ -22,7 +22,7 @@ This section contains key information about the identity of the person. It also 
 -  :ref:`Person: Country`
 
 Person record: Content sidebar
------------------------------
+------------------------------
 
 .. figure:: _static/person_record_anatomy_content_sidebar.png
    :alt: Image showing the content sidebar of a person record on WhoWasInCommand.com
@@ -32,7 +32,7 @@ Person record: Content sidebar
 The content sidebar is a navigation aid. It provides quick links to different sections of the person record. The items inside the content sidebar indicate what sort of data is available about this person. If a particular section is not listed in the content sidebar - for example, "Subordinates" - then there is no data available about the subordinates of this person.
 
 Person record: Person "Last Seen As"
----------------------
+------------------------------------
 
 .. figure:: _static/person_record_anatomy_last_seen_as.png
    :alt: Image showing the Last Seen As section of a person record on WhoWasInCommand.com
@@ -53,7 +53,7 @@ The following fields are used in the Last Seen As section:
 -  :ref:`Person: Posting Last Cited Date is End Date`
 
 Person record: Person memberships
-------------------
+---------------------------------
 
 .. figure:: _static/person_record_anatomy_memberships.png
    :alt: Image showing the memberships table on a person record on WhoWasInCommand.com
@@ -79,7 +79,7 @@ The following fields are used in the memberships section:
 -  :ref:`Person: Posting Last Cited Date is End Date`
 
 Person record: Chain of command
------------------------
+-------------------------------
 
 .. figure:: _static/person_record_anatomy_chain_of_command.png
    :alt: Image showing the Chain of Command interactive chart that appear on person records on WhoWasInCommand.com
