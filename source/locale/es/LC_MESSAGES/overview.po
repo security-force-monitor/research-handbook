@@ -23,7 +23,8 @@ msgstr ""
 
 #: ../../source/overview.rst:2 5a9fa9424c4b4bd4a74a67b5e0d24094
 msgid "Research Handbook for Security Force Monitor"
-msgstr "Research Handbook for Security Force Monitor (Spanish Version)"
+msgstr ""
+"Research Handbook for Security Force Monitor (Spanish Version - updated)"
 
 #: ../../source/overview.rst:5 3071f0c2b4a9491faa3c9b733926dce5
 msgid "About Security Force Monitor"
