@@ -1,7 +1,7 @@
 Security Force Monitor: Research Handbook
 =========================================
 
-This repository contains Security Force Monitor's Research Handbook, which is deployed publicly at `help.securityforcemonitor.org <https://help.securityforcemonitor.org>`_. The Research Handbook documents the approach used by Security Force Monitor (SFM) to research police, army and other security and defence forces alleged to have carried out violations of human rights law and international criminal law. It provides an overview of SFM's research methodology, along with documentation of SFM's data model. It also contains the text of help pages for SFM's `WhoWasInCommand.com <https://whowasincommand.com`_ platform. More information about SFM can be found at ``securityforcemonitor.org/about <https://securityforcemonitor.org>``.
+This repository contains Security Force Monitor's Research Handbook, which is deployed publicly at `help.securityforcemonitor.org <https://help.securityforcemonitor.org>`_. The Research Handbook documents the approach used by Security Force Monitor (SFM) to research police, army and other security and defence forces alleged to have carried out violations of human rights law and international criminal law. It provides an overview of SFM's research methodology, along with documentation of SFM's data model. It also contains the text of help pages for SFM's `WhoWasInCommand.com <https://whowasincommand.com`_ platform. More information about SFM can be found at `securityforcemonitor.org/about <https://securityforcemonitor.org>`_.
 
 Documentation toolset
 ---------------------
