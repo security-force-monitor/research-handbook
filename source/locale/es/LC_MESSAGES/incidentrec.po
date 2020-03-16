@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2019, Security Force Monitor
-# This file is distributed under the same license as the SFM Research
-# Handbook package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: SFM Research Handbook \n"
+"Project-Id-Version: SFM Research Handbook\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-11 16:28+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-03-16 12:31+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/sfm/teams/108084/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/incidentrec.rst:2 b59352a894a74a3ab18444289b309685
 msgid "Incident Records on WhoWasInCommand"
@@ -24,15 +23,14 @@ msgstr ""
 
 #: ../../source/incidentrec.rst:4 149797171b28489aa36d8300a556c84a
 msgid ""
-"This page contains an overview of the data that visitors to "
-"WhoWasInCommand will find in an incident record."
+"This page contains an overview of the data that visitors to WhoWasInCommand "
+"will find in an incident record."
 msgstr ""
 
 #: ../../source/incidentrec.rst:6 58ef75955856482d9e2d3efba7cee80e
 msgid ""
-"This includes the different sections of the incident record, the data "
-"fields that are used to create it and links to more information about "
-"each field."
+"This includes the different sections of the incident record, the data fields"
+" that are used to create it and links to more information about each field."
 msgstr ""
 
 #: ../../source/incidentrec.rst:9 1a71af92d7f949d0b847a79e10bbc69b
@@ -41,11 +39,11 @@ msgstr ""
 
 #: ../../source/incidentrec.rst:14 596eb7e02cf24601a66ad95cd73c1f49
 msgid ""
-"This section contains key information about the incident. It also "
-"contains links to download and print actions for the displayed record. "
-"Hover over any value in the title area to display a little coloured "
-"circle; clicking on this will display the sources and confidence rating "
-"for we have assigned to each value."
+"This section contains key information about the incident. It also contains "
+"links to download and print actions for the displayed record. Hover over any"
+" value in the title area to display a little coloured circle; clicking on "
+"this will display the sources and confidence rating for we have assigned to "
+"each value."
 msgstr ""
 
 #: ../../source/incidentrec.rst:16 d4f25e5e3a224c59a1c94104decf0484
@@ -81,9 +79,9 @@ msgstr ""
 msgid ""
 "The content sidebar is a navigation aid. It provides quick links to "
 "different sections of the record. The items inside the content sidebar "
-"indicate what sort of data is available about this incident. For example "
-"if \"Perpetrator units\" is not listed in the content sidebar, then there"
-" are no data available about alleged perpetrators of the incident."
+"indicate what sort of data is available about this incident. For example if "
+"\"Perpetrator units\" is not listed in the content sidebar, then there are "
+"no data available about alleged perpetrators of the incident."
 msgstr ""
 
 #: ../../source/incidentrec.rst:34 fdd8aba36a174c7fa1566bdd326c804b
@@ -93,12 +91,12 @@ msgstr ""
 #: ../../source/incidentrec.rst:39 eb381156f2be4ce99dabb66bf18e6296
 msgid ""
 "This section contains an interactive map and some text that describe the "
-"location where sources indicate that an incident occured. Click on the "
-"pins placed in the map to display the name of a location. Grab the map to"
-" drag/pan it around. Swipe or use the ``+`` and ``-`` controls on the map"
-" to zoom in or zoom out. Hover over the text description of the location "
-"and a little coloured circle will appear. Click on this to view the "
-"sources and confidence rating we have assigned to that value."
+"location where sources indicate that an incident occured. Click on the pins "
+"placed in the map to display the name of a location. Grab the map to "
+"drag/pan it around. Swipe or use the ``+`` and ``-`` controls on the map to "
+"zoom in or zoom out. Hover over the text description of the location and a "
+"little coloured circle will appear. Click on this to view the sources and "
+"confidence rating we have assigned to that value."
 msgstr ""
 
 #: ../../source/incidentrec.rst:41 3f730ada20d0403dac5db94091cfddfb
@@ -111,8 +109,8 @@ msgstr ""
 
 #: ../../source/incidentrec.rst:44 9306cd9e8d024e6cbe03b1a0bf7cc0bc
 msgid ""
-":ref:`Incident: Site, Exact location (Coordinate Pair or Gazetteer Name "
-"and Identity Number)`"
+":ref:`Incident: Site, Exact location (Coordinate Pair or Gazetteer Name and "
+"Identity Number)`"
 msgstr ""
 
 #: ../../source/incidentrec.rst:45 fd46e00e6d054f6c838c499862607c16
@@ -130,11 +128,11 @@ msgstr ""
 #: ../../source/incidentrec.rst:55 11dab522094e403895506611e1eae59c
 msgid ""
 "This section contains a direct quotation from the civil society, "
-"governmental or other source that describes the incident. As with all "
-"tables in person, unit and incident records on WhoWasInCommand, hovering "
-"over or tapping any value in the table will cause a little coloured "
-"circle to appear. Clicking or tapping again on this will show the sources"
-" and confidence ratings we have assigned to that value."
+"governmental or other source that describes the incident. As with all tables"
+" in person, unit and incident records on WhoWasInCommand, hovering over or "
+"tapping any value in the table will cause a little coloured circle to "
+"appear. Clicking or tapping again on this will show the sources and "
+"confidence ratings we have assigned to that value."
 msgstr ""
 
 #: ../../source/incidentrec.rst:57 9550e43c265a44e9a5152af05cfa8467
@@ -156,11 +154,11 @@ msgstr ""
 #: ../../source/incidentrec.rst:69 ce1789a511c8409bb0bff91fda74681d
 msgid ""
 "This section contains a table listing the unit(s) that sources allege "
-"committed the human rights violation(s) described in the incident. As "
-"with all tables in person, unit and incident records on WhoWasInCommand, "
-"hovering over or tapping any value in the table will cause a little "
-"coloured circle to appear. Clicking or tapping again on this will show "
-"the sources and confidence ratings we have assigned to that value."
+"committed the human rights violation(s) described in the incident. As with "
+"all tables in person, unit and incident records on WhoWasInCommand, hovering"
+" over or tapping any value in the table will cause a little coloured circle "
+"to appear. Clicking or tapping again on this will show the sources and "
+"confidence ratings we have assigned to that value."
 msgstr ""
 
 #: ../../source/incidentrec.rst:71 40b4782e5a7441db90d52f047b90e567
@@ -186,4 +184,3 @@ msgstr ""
 #: ../../source/incidentrec.rst:78 3720d64449714c97811c4560566d92cb
 msgid ":ref:`Unit: Classification`"
 msgstr ""
-

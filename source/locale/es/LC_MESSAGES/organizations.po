@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2019, Security Force Monitor
-# This file is distributed under the same license as the SFM Research
-# Handbook package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: SFM Research Handbook \n"
+"Project-Id-Version: SFM Research Handbook\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-26 12:40+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-03-16 12:31+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/sfm/teams/108084/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # 284366598f9e42f6a5b0ecb617f4740c
 #: ../../source/organizations.rst:2
@@ -27,23 +26,22 @@ msgstr ""
 #: ../../source/organizations.rst:4
 msgid ""
 "Organizations are official state or state-sanctioned organizations "
-"responsible for the internal or external security for a country, "
-"including police, army, navy, air force and other security forces, as "
-"well as those civilian institutions linked to security forces through the"
-" chain of command or other linkages. Organizations refer to any part of "
-"the hierarchy of a security force, ranging from a national defense "
-"ministry to a police post in a small town. We use the term \"Unit\" "
-"interchangeably with \"Organization\". Organizations can also be "
-"groupings of organizations, including joint operations, task forces or "
-"peacekeeping missions.Organizations are official state or state-"
-"sanctioned organizations responsible for the internal or external "
-"security for a country, including police, army, navy, air force and other"
-" national security bodies. Organizations refer to any part of the "
-"hierarchy of a security force, ranging from a national defense ministry "
-"to a police post in a small town. We use the term \"Unit\" "
-"interchangeably with \"Organization\". Organizations can also be "
-"groupings of organizations, including joint operations, task forces or "
-"peacekeeping missions."
+"responsible for the internal or external security for a country, including "
+"police, army, navy, air force and other security forces, as well as those "
+"civilian institutions linked to security forces through the chain of command"
+" or other linkages. Organizations refer to any part of the hierarchy of a "
+"security force, ranging from a national defense ministry to a police post in"
+" a small town. We use the term \"Unit\" interchangeably with "
+"\"Organization\". Organizations can also be groupings of organizations, "
+"including joint operations, task forces or peacekeeping "
+"missions.Organizations are official state or state-sanctioned organizations "
+"responsible for the internal or external security for a country, including "
+"police, army, navy, air force and other national security bodies. "
+"Organizations refer to any part of the hierarchy of a security force, "
+"ranging from a national defense ministry to a police post in a small town. "
+"We use the term \"Unit\" interchangeably with \"Organization\". "
+"Organizations can also be groupings of organizations, including joint "
+"operations, task forces or peacekeeping missions."
 msgstr ""
 
 # 53ba5b19a2144bb78814d9aab63434ed
@@ -75,7 +73,8 @@ msgstr ""
 
 # ea42e4c1115748708259315bac946b3e
 #: ../../source/organizations.rst:12
-msgid "memberships in joint operations or international peacekeeping missions."
+msgid ""
+"memberships in joint operations or international peacekeeping missions."
 msgstr ""
 
 # 6e1d095933d34377985c100a790e8e8c
@@ -362,8 +361,8 @@ msgstr ""
 # 39dfcfff22254028bf45ee2933553075
 #: ../../source/organizations.rst:31
 msgid ""
-"This field is created automatically when data is uploaded into the "
-"Monitor's online platform."
+"This field is created automatically when data is uploaded into the Monitor's"
+" online platform."
 msgstr ""
 
 # 04b3b1cf00464396843d5f387b602c7a
@@ -386,89 +385,88 @@ msgstr ""
 # b07df7a857074586a9142bac46c71ba0
 #: ../../source/organizations.rst:50
 msgid ""
-"As different sources will spell an organization's name in different ways "
-"the Security Force Monitor works to create a single canonical version of "
-"an organization's name based on sources and standardized to match the "
-"overall structure of and reporting about the security forces:"
+"As different sources will spell an organization's name in different ways the"
+" Security Force Monitor works to create a single canonical version of an "
+"organization's name based on sources and standardized to match the overall "
+"structure of and reporting about the security forces:"
 msgstr ""
 
 # 95015004b2034f21be1e5c41381c11b9
 #: ../../source/organizations.rst:52
 msgid ""
-"Example: ``Police Divisions`` are a class of police units in Nigeria. "
-"There are over 1000 units of this type nationwide. However, each "
-"individual ``Police Division`` may not have a citation for their formal "
-"name such as Lagos Police Division, but only have a citation (or numerous"
-" citations) for the less formal ``Lagos Division``. The Monitor would "
-"list the name of the unit as ``Lagos Police Division`` with a note about "
-"the methodology behind that choice. The less formal ``Lagos Division`` "
-"name would be entered in the ``Aliases or alternative spellings`` field."
+"Example: ``Police Divisions`` are a class of police units in Nigeria. There "
+"are over 1000 units of this type nationwide. However, each individual "
+"``Police Division`` may not have a citation for their formal name such as "
+"Lagos Police Division, but only have a citation (or numerous citations) for "
+"the less formal ``Lagos Division``. The Monitor would list the name of the "
+"unit as ``Lagos Police Division`` with a note about the methodology behind "
+"that choice. The less formal ``Lagos Division`` name would be entered in the"
+" ``Aliases or alternative spellings`` field."
 msgstr ""
 
 # a2f8c20e104940abad0b8c56fbb9600a
 #: ../../source/organizations.rst:54
 msgid ""
-"Example: Army units of a country may follow a naming convention of a "
-"number and then name of unit: e.g. ``3 Battalion`` or ``25 Brigade``. "
-"There may be a unit of which we only have citations for a variation on "
-"that: e.g. ``Fourth Battalion``. In this case, the Monitor would list the"
-" name of the unit as ``4 Battalion`` with a note about the methodology "
-"behind that choice. The ``Fourth Battalion`` name variant would be "
-"entered in the ``Aliases or alternative spellings`` field"
+"Example: Army units of a country may follow a naming convention of a number "
+"and then name of unit: e.g. ``3 Battalion`` or ``25 Brigade``. There may be "
+"a unit of which we only have citations for a variation on that: e.g. "
+"``Fourth Battalion``. In this case, the Monitor would list the name of the "
+"unit as ``4 Battalion`` with a note about the methodology behind that "
+"choice. The ``Fourth Battalion`` name variant would be entered in the "
+"``Aliases or alternative spellings`` field"
 msgstr ""
 
 # 183e165cab5141e68e52ff6409200c5e
 #: ../../source/organizations.rst:56
 msgid ""
 "Additionally, wherever possible, we will choose the most complete and "
-"complex version of an organization’s name that can be evidenced by a "
-"source:"
+"complex version of an organization’s name that can be evidenced by a source:"
 msgstr ""
 
 # aa7e414a29ea423a894f3b242868ee3b
 #: ../../source/organizations.rst:58
 msgid ""
-"Example: ``3 Armoured Division`` would be the entry, rather than the more"
-" informal ``3 Division`` (which may have more citations)."
+"Example: ``3 Armoured Division`` would be the entry, rather than the more "
+"informal ``3 Division`` (which may have more citations)."
 msgstr ""
 
 # eef19be7659b45118289e23b90d41201
 #: ../../source/organizations.rst:60
 msgid ""
-"The Monitor does not use ordinal indicators like ``1st`` or ``3rd`` in "
-"the name of an Organization. Instead these will be listed in the "
-"``Organization: Aliases`` field (see below)."
+"The Monitor does not use ordinal indicators like ``1st`` or ``3rd`` in the "
+"name of an Organization. Instead these will be listed in the ``Organization:"
+" Aliases`` field (see below)."
 msgstr ""
 
 # d3d01192766a4c1ab9afae49430ca57f
 #: ../../source/organizations.rst:62
 msgid ""
-"The Monitor uses the name in the official (local) language of the country"
-" where appropriate and/or possible."
+"The Monitor uses the name in the official (local) language of the country "
+"where appropriate and/or possible."
 msgstr ""
 
 # 7e4bd73d41db4f79a69c94fae46f47c1
 #: ../../source/organizations.rst:64
 msgid ""
-"Example: A unit in the Mexican Army would be called by its name in "
-"Spanish (``10 Regimiento de Caballería Motorizado``), rather than the "
-"English translation ( ``10 Motorized Cavalry Regiment``)."
+"Example: A unit in the Mexican Army would be called by its name in Spanish "
+"(``10 Regimiento de Caballería Motorizado``), rather than the English "
+"translation ( ``10 Motorized Cavalry Regiment``)."
 msgstr ""
 
 # e4d7731381a24f02be749993f8e69514
 #: ../../source/organizations.rst:66
 msgid ""
 "In an effort to standardize names across all countries, the Monitor "
-"generally uses Arabic numerals in the ``Organization: Name``\\ field. "
-"Where warranted by sources the Monitor will use Roman numerals like ``V``"
-" or ``XI`` instead of ``5`` or ``11`` respectively."
+"generally uses Arabic numerals in the ``Organization: Name``\\ field. Where "
+"warranted by sources the Monitor will use Roman numerals like ``V`` or "
+"``XI`` instead of ``5`` or ``11`` respectively."
 msgstr ""
 
 # 314943eb9c2646f0b37ba7b8ba7749bc
 #: ../../source/organizations.rst:68
 msgid ""
-"In cases where multiple organizations have the same name the Monitor will"
-" distinguish them by adding unique identifying text based on the "
+"In cases where multiple organizations have the same name the Monitor will "
+"distinguish them by adding unique identifying text based on the "
 "organization's site or parent."
 msgstr ""
 
@@ -477,12 +475,12 @@ msgstr ""
 msgid ""
 "Example: There are multiple \"Central Police Station\" formations across "
 "Nigeria, some based in the same state. To better distinguish these are "
-"separate, distinct units the Monitor added information on where the units"
-" were located to the name field for instance ``Central Police Station "
-"(Awka, Anambra State).``\\ In Myanmar there have been different units "
-"through time both the name Central Regional Military Command. To "
-"distinguish them the Monitor added information on when the unit came into"
-" existence to the name: ``Central Regional Military Command (post 199)``."
+"separate, distinct units the Monitor added information on where the units "
+"were located to the name field for instance ``Central Police Station (Awka, "
+"Anambra State).``\\ In Myanmar there have been different units through time "
+"both the name Central Regional Military Command. To distinguish them the "
+"Monitor added information on when the unit came into existence to the name: "
+"``Central Regional Military Command (post 199)``."
 msgstr ""
 
 # 2db30530bd9048a096e1a819d9b2cd4b
@@ -493,23 +491,23 @@ msgstr ""
 # f8a4dac2abbb4d2bb203273d00bd1227
 #: ../../source/organizations.rst:77
 msgid ""
-"Other names for an organization, including aliases, alternative spellings"
-" and abbreviations"
+"Other names for an organization, including aliases, alternative spellings "
+"and abbreviations"
 msgstr ""
 
 # 95bf2539c88e412ba19592ba8a384ebb
 #: ../../source/organizations.rst:85
 msgid ""
-"If ``3 Armoured Division`` is used as the canonical ``Organization: "
-"Name`` of an organization, entries in the ``Organization: Aliases`` field"
-" may include ``3 Div`` and ``Three Division``."
+"If ``3 Armoured Division`` is used as the canonical ``Organization: Name`` "
+"of an organization, entries in the ``Organization: Aliases`` field may "
+"include ``3 Div`` and ``Three Division``."
 msgstr ""
 
 # 9d24a73cbf2341b987b402bfafb63f05
 #: ../../source/organizations.rst:89
 msgid ""
-"Different sources will spell an organization's name in different ways. We"
-" choose and record a canonical version of a organization's name in the "
+"Different sources will spell an organization's name in different ways. We "
+"choose and record a canonical version of a organization's name in the "
 "``Organization: Name`` field. All other spellings that we have found are "
 "treated as aliases and stored in this field."
 msgstr ""
@@ -517,17 +515,17 @@ msgstr ""
 # 40c9f7aef4f34a90b1b41cf4c990f5f8
 #: ../../source/organizations.rst:91
 msgid ""
-"Although we do not use ordinal indicators like ``2nd`` or ``10/o`` in the"
-" canonical name we choose for an organization, where a source uses an "
-"Ordinal we record it as an alias."
+"Although we do not use ordinal indicators like ``2nd`` or ``10/o`` in the "
+"canonical name we choose for an organization, where a source uses an Ordinal"
+" we record it as an alias."
 msgstr ""
 
 # d4b9293dd13a4a1789a9ac1d08dfe224
 #: ../../source/organizations.rst:93
 msgid ""
-"Example: We find a version of the organization name ``3 Armoured "
-"Division`` that has an Ordinal indicator: ``10/o. Regimiento de "
-"Caballería Motorizado.`` We would record this in the ``Aliases`` field."
+"Example: We find a version of the organization name ``3 Armoured Division`` "
+"that has an Ordinal indicator: ``10/o. Regimiento de Caballería "
+"Motorizado.`` We would record this in the ``Aliases`` field."
 msgstr ""
 
 # df87351609d24abea4b75218b5a2a65f
@@ -559,17 +557,17 @@ msgstr ""
 # 9bf0ecf060e6459eb6e85693426aa084
 #: ../../source/organizations.rst:112
 msgid ""
-"The ``Organization: Country`` field identifies the country this "
-"organization comes from. All entries in this field are two letter country"
-" codes taken from `ISO 3166 which can be searched here "
+"The ``Organization: Country`` field identifies the country this organization"
+" comes from. All entries in this field are two letter country codes taken "
+"from `ISO 3166 which can be searched here "
 "<https://www.iso.org/obp/ui/#search>`__."
 msgstr ""
 
 # 313899a35b114b2cab4aa97be20e0511
 #: ../../source/organizations.rst:114
 msgid ""
-"For example, an organization based in Nigeria would have the code ``ng`` "
-"and an organization based in Brazil would have the code ``br``"
+"For example, an organization based in Nigeria would have the code ``ng`` and"
+" an organization based in Brazil would have the code ``br``"
 msgstr ""
 
 # 591e9336f987420fa94f86d43df70d6c
@@ -580,8 +578,8 @@ msgstr ""
 # 261f4c6d55a8434a9def8909255c75fd
 #: ../../source/organizations.rst:121
 msgid ""
-"Branch of the security services that the organization a part of or "
-"general descriptor for the organization."
+"Branch of the security services that the organization a part of or general "
+"descriptor for the organization."
 msgstr ""
 
 # f4dfff2780444cad885a9c87ea866dd6
@@ -596,58 +594,57 @@ msgstr ""
 msgid ""
 "We use classifications to describe the basic nature of a specific "
 "organization and to assist investigations of potential linkages between "
-"reports of human rights abuses and the Security Force Monitor's dataset. "
-"As alleged perpetrators are usually identified in general terms of "
-"\"soldiers\" and \"police\" this field is important as a first step to "
-"understand potential linkages between organizations, persons and "
-"incidents. ``Organization: Classification`` values are useful supplements"
-" to ``Organization: Parent`` and ``Organization: Membership`` data we use"
-" to connect different units together."
+"reports of human rights abuses and the Security Force Monitor's dataset. As "
+"alleged perpetrators are usually identified in general terms of \"soldiers\""
+" and \"police\" this field is important as a first step to understand "
+"potential linkages between organizations, persons and incidents. "
+"``Organization: Classification`` values are useful supplements to "
+"``Organization: Parent`` and ``Organization: Membership`` data we use to "
+"connect different units together."
 msgstr ""
 
 # 8c0e3c06eee9477bbce65b63cc37983f
 #: ../../source/organizations.rst:135
 msgid ""
-"The ``Organization: Classification`` field will contain a mix of standard"
-" terms and country-specific terms used to describe security force "
-"branches. In choosing terms to include in the ``Organization: "
-"Classification`` field we try to include terms that are used by country "
-"experts as well as those that are commons terms. We also try to be "
-"economical and create as few, distinct terms as possible."
+"The ``Organization: Classification`` field will contain a mix of standard "
+"terms and country-specific terms used to describe security force branches. "
+"In choosing terms to include in the ``Organization: Classification`` field "
+"we try to include terms that are used by country experts as well as those "
+"that are commons terms. We also try to be economical and create as few, "
+"distinct terms as possible."
 msgstr ""
 
 # cabde54774ff4d52bebb9972b9c961f7
 #: ../../source/organizations.rst:137
 msgid ""
 "Example: a standard term we would apply to army units is ``Army``. The "
-"equivalent in Mexico would be ``Ejécito``. We would capture both terms in"
-" the ``Organization: Classification`` field."
+"equivalent in Mexico would be ``Ejécito``. We would capture both terms in "
+"the ``Organization: Classification`` field."
 msgstr ""
 
 # 55e202bf15e84ef98f33e910d307f85f
 #: ../../source/organizations.rst:139
 msgid ""
-"Organizations may have more than one classification, usually this will be"
-" when an organization can have \"generic\" and \"specific\" "
-"classifications."
+"Organizations may have more than one classification, usually this will be "
+"when an organization can have \"generic\" and \"specific\" classifications."
 msgstr ""
 
 # 3bb54d56b2ba4618b4ea7dc8d88a4c40
 #: ../../source/organizations.rst:141
 msgid ""
-"Example: Organizations which are part of the army of a country may be "
-"coded as having a classification of ``Army`` as well as a classification "
-"of ``Military``, whereas organizations which are part of the navy of a "
-"country would have classifications of of ``Navy`` and ``Military``. For "
-"both the army and navy unit their respective classifications are correct,"
-" the army and the navy are part of the military. Critically, this enables"
-" the Monitor or users of the Monitor's data to properly analyze "
-"allegations against \"soldiers\" and \"members of the army\" in the "
-"country. In the case of \"soldiers\" this analysis should include every "
-"unit with the classification of ``Military`` while if there is greater "
-"specificity of \"members of the army\" would mean excluding any "
-"organization with the classification of ``Navy`` and focusing only on "
-"those organizations with a classification of ``Army.``"
+"Example: Organizations which are part of the army of a country may be coded "
+"as having a classification of ``Army`` as well as a classification of "
+"``Military``, whereas organizations which are part of the navy of a country "
+"would have classifications of of ``Navy`` and ``Military``. For both the "
+"army and navy unit their respective classifications are correct, the army "
+"and the navy are part of the military. Critically, this enables the Monitor "
+"or users of the Monitor's data to properly analyze allegations against "
+"\"soldiers\" and \"members of the army\" in the country. In the case of "
+"\"soldiers\" this analysis should include every unit with the classification"
+" of ``Military`` while if there is greater specificity of \"members of the "
+"army\" would mean excluding any organization with the classification of "
+"``Navy`` and focusing only on those organizations with a classification of "
+"``Army.``"
 msgstr ""
 
 # a0f588eda4ee4d399d14a240f9544dbd
@@ -658,8 +655,8 @@ msgstr ""
 # e3a9e1c842374de3835c8cd54504f09f
 #: ../../source/organizations.rst:148
 msgid ""
-"The earliest date that a source shows an organization exists, either "
-"through direct reference in the source or by the date of its publication."
+"The earliest date that a source shows an organization exists, either through"
+" direct reference in the source or by the date of its publication."
 msgstr ""
 
 # 7f35d35ec9cc4cbdb9919d456ff45ebc
@@ -700,17 +697,16 @@ msgstr ""
 # dc0eeb92539b4448acb5ec3ef854425f
 #: ../../source/organizations.rst:160
 msgid ""
-"Along with the fields ``Organization: Start date?``, ``Organization: Date"
-" last cited`` and ``Organization: Open-ended?`` the field ``Organization:"
-" Date first cited`` provides data about the time period we can evidence "
-"an organization has existed."
+"Along with the fields ``Organization: Start date?``, ``Organization: Date "
+"last cited`` and ``Organization: Open-ended?`` the field ``Organization: "
+"Date first cited`` provides data about the time period we can evidence an "
+"organization has existed."
 msgstr ""
 
 # c2d95962b13d44ccb437045865c9156f
 #: ../../source/organizations.rst:162
 msgid ""
-"The ``Organization: Date first cited`` field contains a date that is "
-"either:"
+"The ``Organization: Date first cited`` field contains a date that is either:"
 msgstr ""
 
 # a04528ab514a4837b1fe7e3062cf043a
@@ -730,20 +726,20 @@ msgstr ""
 # 8029e9ea603946ceb8260a6870a38b14
 #: ../../source/organizations.rst:167
 msgid ""
-"For example, if three sources published on 1 January 2012, 1 February "
-"2012 and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 "
-"January 2012 as the ``Organization: Date first cited``. If the source "
-"published on 1 March 2012 refers to activity of 1 Motorized Brigade that "
-"occurred on 30 June 2011, we will use 30 June 2011 as the ``Organization:"
-" Date first cited``."
+"For example, if three sources published on 1 January 2012, 1 February 2012 "
+"and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 January "
+"2012 as the ``Organization: Date first cited``. If the source published on 1"
+" March 2012 refers to activity of 1 Motorized Brigade that occurred on 30 "
+"June 2011, we will use 30 June 2011 as the ``Organization: Date first "
+"cited``."
 msgstr ""
 
 # f3def21544fe42188944695925ebfb64
 #: ../../source/organizations.rst:169
 msgid ""
 "In keeping with all date fields we include in this dataset, where our "
-"research can only find a year or a year and a month, this can be included"
-" in ``Organization: Date first cited`` ."
+"research can only find a year or a year and a month, this can be included in"
+" ``Organization: Date first cited`` ."
 msgstr ""
 
 # 9973026d80884833aef74d2e82b31631
@@ -762,9 +758,9 @@ msgstr ""
 # 7d026cb71a8d43c28b3fb9f39274a5db
 #: ../../source/organizations.rst:178
 msgid ""
-"Is the value in ``Organization: Date first cited`` the actual date on "
-"which an organization was founded (Y), or the earliest date a source has "
-"referred to an organization (N)?"
+"Is the value in ``Organization: Date first cited`` the actual date on which "
+"an organization was founded (Y), or the earliest date a source has referred "
+"to an organization (N)?"
 msgstr ""
 
 # af48385438474b6587e9b7ff5a92ece9
@@ -787,11 +783,11 @@ msgstr ""
 # 6b176174a30f42fd8b696229123f378b
 #: ../../source/organizations.rst:190
 msgid ""
-"This is a clarifying field for ``Organization: Date first cited``. Where "
-"a source references an organization and specifies the date that "
-"organization was created we will enter ``Y`` . In all other cases we will"
-" enter a value of ``N`` to indicate that the date is not a start date, "
-"but the date of first citation."
+"This is a clarifying field for ``Organization: Date first cited``. Where a "
+"source references an organization and specifies the date that organization "
+"was created we will enter ``Y`` . In all other cases we will enter a value "
+"of ``N`` to indicate that the date is not a start date, but the date of "
+"first citation."
 msgstr ""
 
 # 3aa7a4ac06e049d9823e9f363524754f
@@ -814,8 +810,8 @@ msgstr ""
 # 7dee7d46ed024748800a1c40fa32e2f5
 #: ../../source/organizations.rst:209
 msgid ""
-"Along with the fields ``Organization: Date first cited``, ``Organization:"
-" Start date?``\\ and ``Organization: Open-ended?`` the field ``Date last "
+"Along with the fields ``Organization: Date first cited``, ``Organization: "
+"Start date?``\\ and ``Organization: Open-ended?`` the field ``Date last "
 "cited`` provides data on the time period we can say an organization has "
 "existed."
 msgstr ""
@@ -823,8 +819,7 @@ msgstr ""
 # 99122b0369224355b7fbabf075f3bb0a
 #: ../../source/organizations.rst:211
 msgid ""
-"The ``Organization: Date last cited`` field contains a date that is "
-"either:"
+"The ``Organization: Date last cited`` field contains a date that is either:"
 msgstr ""
 
 # 838fc83539a24ebd80aabcac1ccaf402
@@ -844,27 +839,27 @@ msgstr ""
 # 9bfcfd9e8a92433a8f00341766e135c5
 #: ../../source/organizations.rst:216
 msgid ""
-"For example, if three sources published on 1 January 2012, 1 February "
-"2012 and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 "
-"March 2012 as the ``Organization: Date last cited``. If the source "
-"published on 1 March 2012 refers to activity of 1 Motorized Brigade that "
-"occurred on 15 February 2012, we will use 15 February 2012 as the value "
-"in ``Organization: Date last cited``."
+"For example, if three sources published on 1 January 2012, 1 February 2012 "
+"and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 March 2012 "
+"as the ``Organization: Date last cited``. If the source published on 1 March"
+" 2012 refers to activity of 1 Motorized Brigade that occurred on 15 February"
+" 2012, we will use 15 February 2012 as the value in ``Organization: Date "
+"last cited``."
 msgstr ""
 
 # 67882463b4834e8d9f8c4329b3b17ced
 #: ../../source/organizations.rst:218
 msgid ""
 "In keeping with all date fields we include in this dataset, where our "
-"research can only find a year or a year and a month, this can be included"
-" in ``Organization: Date last cited`` ."
+"research can only find a year or a year and a month, this can be included in"
+" ``Organization: Date last cited`` ."
 msgstr ""
 
 # 01ecd3fc79254b5e86b5b5d77166c817
 #: ../../source/organizations.rst:220
 msgid ""
-"This field is clarified by ``Organization: Open-ended?``, which indicates"
-" whether the date in ``Organization: Date last cited`` is the date an "
+"This field is clarified by ``Organization: Open-ended?``, which indicates "
+"whether the date in ``Organization: Date last cited`` is the date an "
 "organization was disbanded."
 msgstr ""
 
@@ -876,12 +871,12 @@ msgstr ""
 # 90a9e49159bc4887a0f7f1acb0dc924f
 #: ../../source/organizations.rst:227
 msgid ""
-"Is the value in ``Organization: Date last cited`` the actual date on "
-"which an organization was disbanded (E), or can we assume this "
-"organization continues to exist after this date to the present (Y), or "
-"should it not be assumed that the organization continues to exist after "
-"``Organization: Date last cited`` because of poor sourcing or disbandment"
-" at an unclear point in time (N)?"
+"Is the value in ``Organization: Date last cited`` the actual date on which "
+"an organization was disbanded (E), or can we assume this organization "
+"continues to exist after this date to the present (Y), or should it not be "
+"assumed that the organization continues to exist after ``Organization: Date "
+"last cited`` because of poor sourcing or disbandment at an unclear point in "
+"time (N)?"
 msgstr ""
 
 # dccfa5ff22b148d098e0c8c556dcc92e
@@ -901,15 +896,14 @@ msgstr ""
 #: ../../source/organizations.rst:239
 msgid ""
 "We use this field to clarify the meaning of the date entered in "
-"``Organization: Date last cited``. One of the below values should be "
-"chosen:"
+"``Organization: Date last cited``. One of the below values should be chosen:"
 msgstr ""
 
 # 9a8a332b3115463ead876ee8a103d0ad
 #: ../../source/organizations.rst:241
 msgid ""
-"``E`` indicates the exact date this organization was disbanded, or ceases"
-" to exist."
+"``E`` indicates the exact date this organization was disbanded, or ceases to"
+" exist."
 msgstr ""
 
 # 5fb0a94d13854c4f9898337bd3f2ca59
@@ -920,8 +914,8 @@ msgstr ""
 # 121c6ba6b99d481ab75e2fe2b46a6164
 #: ../../source/organizations.rst:243
 msgid ""
-"``N`` indicates we do not assume that this organization continues to "
-"exist, but we do not have an exact end date."
+"``N`` indicates we do not assume that this organization continues to exist, "
+"but we do not have an exact end date."
 msgstr ""
 
 # 351876819c844cd1adb76d4aaefefe54
@@ -942,11 +936,10 @@ msgstr ""
 # 8911231f98af4a5586ddf4a95af62693
 #: ../../source/organizations.rst:262
 msgid ""
-"``Organization: Parent`` describes a hierarchical, time-bound "
-"relationship between two organizations that are part of the same branch "
-"of a security force. The parent is “above” or distinct and separate from "
-"the organization in some way. Over time, an organization may have "
-"different parents."
+"``Organization: Parent`` describes a hierarchical, time-bound relationship "
+"between two organizations that are part of the same branch of a security "
+"force. The parent is “above” or distinct and separate from the organization "
+"in some way. Over time, an organization may have different parents."
 msgstr ""
 
 # aa9269f0ec0041e39fd497edfe24a590
@@ -954,31 +947,30 @@ msgstr ""
 msgid ""
 "Example: In Nigeria the ``112 Task Force Battalion`` had the parent of a "
 "parent of ``7 Division Garrison`` between 12 November 2015 and 24 March "
-"2016. The ``112 Task Force Battalion`` was then under the ``22 Task Force"
-" Brigade`` from 14 March 2017 to 26 October 2017."
+"2016. The ``112 Task Force Battalion`` was then under the ``22 Task Force "
+"Brigade`` from 14 March 2017 to 26 October 2017."
 msgstr ""
 
 # da1d58ef6faf4cf2a5075f935a7337da
 #: ../../source/organizations.rst:266
 msgid ""
-"Organizations can also have multiple parent relationships at the same "
-"time. For example, sources could indicate an organization has a formal "
-"legal parent unit while at the same time a new security body established "
-"by decree can also directly order the organization to carry out "
-"operations, establishing a second parent relationship."
+"Organizations can also have multiple parent relationships at the same time. "
+"For example, sources could indicate an organization has a formal legal "
+"parent unit while at the same time a new security body established by decree"
+" can also directly order the organization to carry out operations, "
+"establishing a second parent relationship."
 msgstr ""
 
 # e501e1a71a364a8da03457f94b528296
 #: ../../source/organizations.rst:268
 msgid ""
-"In our data model ``Organization: Parent`` relationships are different "
-"from ``Organization: Membership``. Often when there is an \"operation\" "
-"or \"joint task force\", it may not have have personnel of its own. "
-"Rather, personnel from a range of different organizations are assigned to"
-" it. Generally, these types of arrangements don’t put the operation "
-"“above” the unit in the organizational chart. We outline these types of "
-"relationships using the field ``Organization: Membership``, which is "
-"documented below."
+"In our data model ``Organization: Parent`` relationships are different from "
+"``Organization: Membership``. Often when there is an \"operation\" or "
+"\"joint task force\", it may not have have personnel of its own. Rather, "
+"personnel from a range of different organizations are assigned to it. "
+"Generally, these types of arrangements don’t put the operation “above” the "
+"unit in the organizational chart. We outline these types of relationships "
+"using the field ``Organization: Membership``, which is documented below."
 msgstr ""
 
 # c00bf13e2f7d4a34b3a850e75a004dc8
@@ -1004,33 +996,32 @@ msgstr ""
 # dfd46979408046818ddda72f6bcea778
 #: ../../source/organizations.rst:287
 msgid ""
-"Organizations have a ``Command`` relationship when the parent "
-"organization can order the organization to perform some operational "
-"activity. These cover both *de jure* and *de facto* relationships between"
-" organizations."
+"Organizations have a ``Command`` relationship when the parent organization "
+"can order the organization to perform some operational activity. These cover"
+" both *de jure* and *de facto* relationships between organizations."
 msgstr ""
 
 # 0a6edc8d74044e669fbe800d2d451bde
 #: ../../source/organizations.rst:289
 msgid ""
-"``Informal`` relationships occur when there is a relationship outside of "
-"the legal or formal structure of security forces and where the exact "
-"nature of the relationship is unclear."
+"``Informal`` relationships occur when there is a relationship outside of the"
+" legal or formal structure of security forces and where the exact nature of "
+"the relationship is unclear."
 msgstr ""
 
 # 5f2986872643449e9332ef91532a6388
 #: ../../source/organizations.rst:291
 msgid ""
-"Example: Lagos state in Nigeria has a security council which is a meeting"
-" of the governor, and the top commanders of police and military units in "
-"the state. The security council should be considered its own "
-"organization. By law a governor of a state is not in the chain of command"
-" for the military or police forces, but the security council membership "
-"establishes a relationship between the organizations and meetings often "
-"result in new approaches to security being taken, such as different "
-"deployments of police. In this case, we could make the determination that"
-" an informal relationship exists between the security council and the "
-"police and military organizations."
+"Example: Lagos state in Nigeria has a security council which is a meeting of"
+" the governor, and the top commanders of police and military units in the "
+"state. The security council should be considered its own organization. By "
+"law a governor of a state is not in the chain of command for the military or"
+" police forces, but the security council membership establishes a "
+"relationship between the organizations and meetings often result in new "
+"approaches to security being taken, such as different deployments of police."
+" In this case, we could make the determination that an informal relationship"
+" exists between the security council and the police and military "
+"organizations."
 msgstr ""
 
 # ffa4bc6024354f54b75370fb5194b33b
@@ -1038,23 +1029,21 @@ msgstr ""
 msgid ""
 "``Administrative`` relationships exist where a formal, non-command "
 "relationship exists between organizations, or where an administrative "
-"description is more accurate of the relationship between two "
-"organizations."
+"description is more accurate of the relationship between two organizations."
 msgstr ""
 
 # eaac6b10adfa4496a532b3d006b45951
 #: ../../source/organizations.rst:295
 msgid ""
-"Example: By law the Ministry of Defence in Nigeria provides "
-"administrative support to the Nigerian Army, establishing a relationship "
-"we could classify as ``Administrative``. The Standards Department of an "
-"Army Headquarters might be under the control of the Army Headquarters, "
-"meaning the Army Headquarters could order the Department to take some "
-"sort of action. This technically means the Department is under the "
-"“command” of the Headquarters, but the Monitor would describe this "
-"relationship as ``Administrative`` because the Department is not in the "
-"field conducting operations, it's an administrative organ of the Army "
-"Headquarters."
+"Example: By law the Ministry of Defence in Nigeria provides administrative "
+"support to the Nigerian Army, establishing a relationship we could classify "
+"as ``Administrative``. The Standards Department of an Army Headquarters "
+"might be under the control of the Army Headquarters, meaning the Army "
+"Headquarters could order the Department to take some sort of action. This "
+"technically means the Department is under the “command” of the Headquarters,"
+" but the Monitor would describe this relationship as ``Administrative`` "
+"because the Department is not in the field conducting operations, it's an "
+"administrative organ of the Army Headquarters."
 msgstr ""
 
 # bbdc30f4b0d04e5b90bfa13dc530c41d
@@ -1066,66 +1055,65 @@ msgstr ""
 #: ../../source/organizations.rst:302
 msgid ""
 "The earliest date that a source shows a parent organization relationship "
-"exists, either through direct reference in the source or by the date of "
-"its publication."
+"exists, either through direct reference in the source or by the date of its "
+"publication."
 msgstr ""
 
 # e221fe96b83e41608149748fe3b6d535
 #: ../../source/organizations.rst:314
 msgid ""
 "Along with the fields ``Parent relationship: Start date?``, ``Parent "
-"relationship: Sate last cited`` and ``Parent relationship: Open-ended?`` "
-"the field ``Parent organization: Date first cited`` provides data on the "
-"time period we can say one organization is the parent of another ."
+"relationship: Sate last cited`` and ``Parent relationship: Open-ended?`` the"
+" field ``Parent organization: Date first cited`` provides data on the time "
+"period we can say one organization is the parent of another ."
 msgstr ""
 
 # ee8f6329e59b4834a7fc3ea84d47dce6
 #: ../../source/organizations.rst:316
 msgid ""
-"The ``Parent organization: Date first cited`` field contains a date that "
-"is either:"
+"The ``Parent organization: Date first cited`` field contains a date that is "
+"either:"
 msgstr ""
 
 # 847975c21bc8446092caef193cb36b11
 #: ../../source/organizations.rst:318
 msgid ""
-"The earliest date found in a source that specifically references a parent"
-" relationship; or,"
+"The earliest date found in a source that specifically references a parent "
+"relationship; or,"
 msgstr ""
 
 # 9e399620b21b46a385cd9a02582065af
 #: ../../source/organizations.rst:319
 msgid ""
-"The earliest date of publication of sources that make reference to a "
-"parent relationship."
+"The earliest date of publication of sources that make reference to a parent "
+"relationship."
 msgstr ""
 
 # c94c81b60e6b4d6ca61f75ffd31992d7
 #: ../../source/organizations.rst:321
 msgid ""
-"For example, if three sources published on 1 January 2012, 1 February "
-"2012 and 1 March 2012 all say that 3 Armoured Division became the parent "
-"of 1 Motorized Brigade, we will enter 1 January 2012 in ``Parent "
-"relationship: date first cited``. If the source published on 1 March 2012"
-" says that 3 Armoured Division became the parent of 1 Motorized Brigade "
-"on 30 June 2011, we will use 30 June 2011 as the ``Parent relationship: "
-"date first cited``."
+"For example, if three sources published on 1 January 2012, 1 February 2012 "
+"and 1 March 2012 all say that 3 Armoured Division became the parent of 1 "
+"Motorized Brigade, we will enter 1 January 2012 in ``Parent relationship: "
+"date first cited``. If the source published on 1 March 2012 says that 3 "
+"Armoured Division became the parent of 1 Motorized Brigade on 30 June 2011, "
+"we will use 30 June 2011 as the ``Parent relationship: date first cited``."
 msgstr ""
 
 # 6ab9e279a7e746828cb3e60a5040bc73
 #: ../../source/organizations.rst:323
 msgid ""
 "In keeping with all date fields we include in this dataset, where our "
-"research can only find a year or a year and a month, this can be included"
-" ``Parent relationship: Date first cited`` ."
+"research can only find a year or a year and a month, this can be included "
+"``Parent relationship: Date first cited`` ."
 msgstr ""
 
 # b57c6265531e4810b6b6896b2c5edbed
 #: ../../source/organizations.rst:325
 msgid ""
-"This field is clarified by the field ``Parent relationship: Start date?``"
-" which indicates whether the date included here is the actual date on "
-"which an organization became the parent of another."
+"This field is clarified by the field ``Parent relationship: Start date?`` "
+"which indicates whether the date included here is the actual date on which "
+"an organization became the parent of another."
 msgstr ""
 
 # 245a47fb22a94dff91a671872e793952
@@ -1136,9 +1124,9 @@ msgstr ""
 # 5b81791efed54c3f9bc2826e7b554a4c
 #: ../../source/organizations.rst:332
 msgid ""
-"Is the value in ``Parent relationship: Date first cited`` the actual date"
-" on which an organization became the parent of another, or the earliest "
-"date a source has referred to the relationship?"
+"Is the value in ``Parent relationship: Date first cited`` the actual date on"
+" which an organization became the parent of another, or the earliest date a "
+"source has referred to the relationship?"
 msgstr ""
 
 # 921026ee80cf4e92b47cbe618b05f621
@@ -1153,11 +1141,11 @@ msgstr ""
 # fb6a654c6d28493e9f99b3da52cb2e2b
 #: ../../source/organizations.rst:344
 msgid ""
-"This is a clarifying field for ``Parent relationship: Date first cited``."
-" Where a source references the parent relationship and specifies the date"
-" that the relationship began we will enter ``Y`` . In all other cases we "
-"will enter a value of ``N`` to indicate that the date is not a start "
-"date, but the date of first citation."
+"This is a clarifying field for ``Parent relationship: Date first cited``. "
+"Where a source references the parent relationship and specifies the date "
+"that the relationship began we will enter ``Y`` . In all other cases we will"
+" enter a value of ``N`` to indicate that the date is not a start date, but "
+"the date of first citation."
 msgstr ""
 
 # 47a8b5715d624481b967e2ba2b7a5d03
@@ -1169,24 +1157,24 @@ msgstr ""
 #: ../../source/organizations.rst:351
 msgid ""
 "The latest date that a source shows a parent organization relationship "
-"exists, either through direct reference in the source or by the date of "
-"its publication."
+"exists, either through direct reference in the source or by the date of its "
+"publication."
 msgstr ""
 
 # 52328db4be5f42c48c16ec45ae1115aa
 #: ../../source/organizations.rst:363
 msgid ""
-"Along with the fields ``Parent relationship: Date first cited``, ``Parent"
-" relationship: Start date?`` and ``Parent relationship: Open-ended?`` the"
-" field ``Parent organization: Date last cited`` provides data on the time"
-" period we can evidence that one organization is the parent of another."
+"Along with the fields ``Parent relationship: Date first cited``, ``Parent "
+"relationship: Start date?`` and ``Parent relationship: Open-ended?`` the "
+"field ``Parent organization: Date last cited`` provides data on the time "
+"period we can evidence that one organization is the parent of another."
 msgstr ""
 
 # afc19069efa94904a3a03ac3ae4485cd
 #: ../../source/organizations.rst:365
 msgid ""
-"The ``Parent organization: Date last cited`` field contains a date that "
-"is either:"
+"The ``Parent organization: Date last cited`` field contains a date that is "
+"either:"
 msgstr ""
 
 # 0dc61eeb81d64a2bb3ebe3402adbc6d0
@@ -1199,44 +1187,44 @@ msgstr ""
 # 8f5018fb3e5648308370ca654db28638
 #: ../../source/organizations.rst:368
 msgid ""
-"The latest date of publication of sources that make reference to a parent"
-" relationship."
+"The latest date of publication of sources that make reference to a parent "
+"relationship."
 msgstr ""
 
 # dc864e40970440549c054a317f7e318d
 #: ../../source/organizations.rst:370
 msgid ""
-"Example: Three sources published on 1 January 2012, 1 February 2012 and 1"
-" March 2012 all state that the 1 Motorized Brigade is under the 3 "
-"Armoured Division (which evidences a parent relationship), we will enter "
-"1 March 2012 in ``Parent relationship: Date last cited``."
+"Example: Three sources published on 1 January 2012, 1 February 2012 and 1 "
+"March 2012 all state that the 1 Motorized Brigade is under the 3 Armoured "
+"Division (which evidences a parent relationship), we will enter 1 March 2012"
+" in ``Parent relationship: Date last cited``."
 msgstr ""
 
 # 9418b0b285224db2a18e0450d71b2ffa
 # a0d6f30427ea4565bc22000984508d02
 #: ../../source/organizations.rst:372 ../../source/organizations.rst:376
 msgid ""
-"Example: A source published on 23 July 2017 describes actions undertaken "
-"by the 1 Motorized Brigade is under the 3 Armoured Division during riots "
-"in 2009, and another source published on 8 June 2008 states that the 1 "
-"Motorized Brigade is under the 3 Armoured Division, we would enter 2009 "
-"in ``Parent relationship: Date last cited``."
+"Example: A source published on 23 July 2017 describes actions undertaken by "
+"the 1 Motorized Brigade is under the 3 Armoured Division during riots in "
+"2009, and another source published on 8 June 2008 states that the 1 "
+"Motorized Brigade is under the 3 Armoured Division, we would enter 2009 in "
+"``Parent relationship: Date last cited``."
 msgstr ""
 
 # 0d2ad7a084e34cb08786a13080738690
 #: ../../source/organizations.rst:374
 msgid ""
 "In keeping with all date fields we include in this dataset, where our "
-"research can only find a year or a year and a month, this can be included"
-" ``Parent relationship: Date last cited`` ."
+"research can only find a year or a year and a month, this can be included "
+"``Parent relationship: Date last cited`` ."
 msgstr ""
 
 # 5997bc31b4d447218b4cafa676fa2ebb
 #: ../../source/organizations.rst:378
 msgid ""
-"This field is clarified by the field ``Parent relationship: Open-ended?``"
-" which indicates whether the date included here is the actual date on "
-"which an organization stopped being the parent of another."
+"This field is clarified by the field ``Parent relationship: Open-ended?`` "
+"which indicates whether the date included here is the actual date on which "
+"an organization stopped being the parent of another."
 msgstr ""
 
 # b8190d30017b47f1ac34415755f053d5
@@ -1247,11 +1235,11 @@ msgstr ""
 # 193c085554504f3481504f7958f513c6
 #: ../../source/organizations.rst:385
 msgid ""
-"Is the value in ``Parent relationship: Date last cited`` the actual date "
-"on which the parent relationship ended (E), or can we assume this "
-"relationship continues to exist after this date (Y), or can we not assume"
-" the relationship continues to exist after this date, but the exact end "
-"point is unknown (N)?"
+"Is the value in ``Parent relationship: Date last cited`` the actual date on "
+"which the parent relationship ended (E), or can we assume this relationship "
+"continues to exist after this date (Y), or can we not assume the "
+"relationship continues to exist after this date, but the exact end point is "
+"unknown (N)?"
 msgstr ""
 
 # 5fdf04663c814a50826572d2b9cae6b5
@@ -1264,29 +1252,27 @@ msgstr ""
 #: ../../source/organizations.rst:397
 msgid ""
 "We use this field to clarify the meaning of the date entered in ``Parent "
-"relationship: Date last cited``. One of the below values should be "
-"chosen:"
+"relationship: Date last cited``. One of the below values should be chosen:"
 msgstr ""
 
 # 7d46fa7655574ae9b54c7df06d446c61
 #: ../../source/organizations.rst:399
 msgid ""
-"``E`` indicates the exact date one organization stopped being the parent "
-"of another."
+"``E`` indicates the exact date one organization stopped being the parent of "
+"another."
 msgstr ""
 
 # c58a23b2c6e049cebd24944b156a803b
 #: ../../source/organizations.rst:400
 msgid ""
-"``Y`` indicates that we assume this parent relationship continues to "
-"exist."
+"``Y`` indicates that we assume this parent relationship continues to exist."
 msgstr ""
 
 # c12e5bb7683846eb91067afe38bdacd4
 #: ../../source/organizations.rst:401
 msgid ""
-"``N`` indicates we do not assume that this parent relationship continues "
-"to exist, but we do not have an exact end date."
+"``N`` indicates we do not assume that this parent relationship continues to "
+"exist, but we do not have an exact end date."
 msgstr ""
 
 # bde727ca7421443d82ab92f83f8c722c
@@ -1309,9 +1295,9 @@ msgstr ""
 # eb2859faf9d94694953493d0b8bbfb29
 #: ../../source/organizations.rst:420
 msgid ""
-"The ``Base`` field adds detail about a site. This field is used to record"
-" data about organizations that are located in a distinctively-named "
-"building or complex."
+"The ``Base`` field adds detail about a site. This field is used to record "
+"data about organizations that are located in a distinctively-named building "
+"or complex."
 msgstr ""
 
 # 9dc9a75cc294484c9f99d3cb7c027b62
@@ -1324,10 +1310,10 @@ msgstr ""
 # 2fd3eda7bdd3402bbdb653c09984c473
 #: ../../source/organizations.rst:424
 msgid ""
-"This field should not be used for anything that matches the name or alias"
-" of a organization. For example, ``North Sector Police Station`` should "
-"not be put in this field if the name of the organization is ``North "
-"Sector Police Station``."
+"This field should not be used for anything that matches the name or alias of"
+" a organization. For example, ``North Sector Police Station`` should not be "
+"put in this field if the name of the organization is ``North Sector Police "
+"Station``."
 msgstr ""
 
 # f8b1c9a6b21a426e9e7d4e293ee32478
@@ -1346,8 +1332,7 @@ msgstr ""
 #: ../../source/organizations.rst:435
 msgid ""
 "First value of a latitude/longitude pair (using `EPSG:3857 "
-"<http://spatialreference.org/ref/epsg/wgs-84/>`__), or an OSM object "
-"Name."
+"<http://spatialreference.org/ref/epsg/wgs-84/>`__), or an OSM object Name."
 msgstr ""
 
 # ce32b6114c35411989b0fdae206164d7
@@ -1371,26 +1356,26 @@ msgstr ""
 # a17228efdedc4c0581f2ba6eb434304f
 #: ../../source/organizations.rst:446
 msgid ""
-"``Site: Exact Location (Longitude or OSM Object Name)`` is the first of a"
-" pair of values with ``Site: Exact Location (Latitude or OSM Object "
-"ID)``. It is used to record the most precise location of a site "
-"associated with an organization, whether this is an object (node, way or "
-"relation) on OpenStreetMap or a pair of geographical coordinates."
+"``Site: Exact Location (Longitude or OSM Object Name)`` is the first of a "
+"pair of values with ``Site: Exact Location (Latitude or OSM Object ID)``. It"
+" is used to record the most precise location of a site associated with an "
+"organization, whether this is an object (node, way or relation) on "
+"OpenStreetMap or a pair of geographical coordinates."
 msgstr ""
 
 # 6a5abfb9b8b1468ba740c9828c012fd1
 #: ../../source/organizations.rst:448
 msgid ""
-"Where an object for the exact site is present on OpenStreetMap we will "
-"enter its name in this field."
+"Where an object for the exact site is present on OpenStreetMap we will enter"
+" its name in this field."
 msgstr ""
 
 # 89b6ec2568174770afa7128361a8163e
 # 3a29e808222b4fe6a9f61a7e3a804ae6
 #: ../../source/organizations.rst:449 ../../source/organizations.rst:474
 msgid ""
-"Where no OSM object exists for the exact site a pair of coordinates will "
-"be used, the latitude value recorded in this field."
+"Where no OSM object exists for the exact site a pair of coordinates will be "
+"used, the latitude value recorded in this field."
 msgstr ""
 
 # 2a24db3f876d44f48e8c78bf8ce7bf57
@@ -1401,8 +1386,8 @@ msgstr ""
 # 1bf55d11ddef41f8af07a76635b6d6c2
 #: ../../source/organizations.rst:456
 msgid ""
-"The latitude or OSM object ID number of the most precise location of a "
-"site associated with this organization."
+"The latitude or OSM object ID number of the most precise location of a site "
+"associated with this organization."
 msgstr ""
 
 # 883523b8d52a4ea4a90816043fc1ed6a
@@ -1426,18 +1411,18 @@ msgstr ""
 # 75a8bd75092a42a9b20b25efa8e4e0ae
 #: ../../source/organizations.rst:471
 msgid ""
-"``Site: Exact Location (Latitude or OSM Object ID)`` is the second of a "
-"pair of values with ``Site: Exact Location (Longitude or OSM Object "
-"Name)``. It is used to record the most precise location of a site "
-"associated with an organization, whether this is an object (node, way or "
-"relation) on OpenStreetMap or a pair of geographical coordinates."
+"``Site: Exact Location (Latitude or OSM Object ID)`` is the second of a pair"
+" of values with ``Site: Exact Location (Longitude or OSM Object Name)``. It "
+"is used to record the most precise location of a site associated with an "
+"organization, whether this is an object (node, way or relation) on "
+"OpenStreetMap or a pair of geographical coordinates."
 msgstr ""
 
 # b42e146369c44de5ab40b8bd89ac538d
 #: ../../source/organizations.rst:473
 msgid ""
-"Where an object for the exact site is present on OpenStreetMap we will "
-"enter its ID number in this field."
+"Where an object for the exact site is present on OpenStreetMap we will enter"
+" its ID number in this field."
 msgstr ""
 
 # 8cd358d9b139403396aa2fbe90c80b29
@@ -1466,10 +1451,10 @@ msgstr ""
 #: ../../source/organizations.rst:493
 msgid ""
 "We identify ``sites`` with a number of different levels of geographical "
-"precision. In ``Site: Settlement (OSM Object Name)`` we record the name "
-"of the OSM object (node, way or relation) that identifies a settlement in"
-" which there is an organization site. It could be a city, town or village"
-" or other OSM object that denotes a settlement."
+"precision. In ``Site: Settlement (OSM Object Name)`` we record the name of "
+"the OSM object (node, way or relation) that identifies a settlement in which"
+" there is an organization site. It could be a city, town or village or other"
+" OSM object that denotes a settlement."
 msgstr ""
 
 # b8bc86989f414edab16fac063eed76e7
@@ -1491,10 +1476,10 @@ msgstr ""
 #: ../../source/organizations.rst:512
 msgid ""
 "We identify ``sites`` with a number of different levels of geographical "
-"precision. In ``Site: Settlement (OSM Object ID)`` field we record the "
-"name of the OSM object (node, way or relation) ID number that identifies "
-"a settlement in which there is an organization site. It could be a city, "
-"town or village or other OSM object that denotes a settlement."
+"precision. In ``Site: Settlement (OSM Object ID)`` field we record the name "
+"of the OSM object (node, way or relation) ID number that identifies a "
+"settlement in which there is an organization site. It could be a city, town "
+"or village or other OSM object that denotes a settlement."
 msgstr ""
 
 # 40cf863226b34b59805229b6c9248ce5
@@ -1505,8 +1490,8 @@ msgstr ""
 # b832bc78a12e40ccb408afa5ec3b9905
 #: ../../source/organizations.rst:519
 msgid ""
-"The OSM name of the largest, generally used administrative area of a "
-"country (usually admin level 4)."
+"The OSM name of the largest, generally used administrative area of a country"
+" (usually admin level 4)."
 msgstr ""
 
 # 8d84d22c57114a9e820355cbac622631
@@ -1518,23 +1503,23 @@ msgstr ""
 #: ../../source/organizations.rst:531
 msgid ""
 "We identify ``sites`` with a number of different levels of geographical "
-"precision. In ``Site: Top Administrative Area (OSM Object Name)`` we "
-"record the text name of highest level subnational boundary for the "
-"country in which the site is located, `as found in in OpenStreetMap "
+"precision. In ``Site: Top Administrative Area (OSM Object Name)`` we record "
+"the text name of highest level subnational boundary for the country in which"
+" the site is located, `as found in in OpenStreetMap "
 "<http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-"
 "national_administrations>`__. Generally, these are `relations "
-"<https://wiki.openstreetmap.org/wiki/Relation>`__ in the OSM dataset "
-"tagged as administrative level 4."
+"<https://wiki.openstreetmap.org/wiki/Relation>`__ in the OSM dataset tagged "
+"as administrative level 4."
 msgstr ""
 
 # 6e08b9a30b374fe8a3db9e5f842dfa9b
 # 801c1e3e712a4ce9a03a9047e1adcd35
 #: ../../source/organizations.rst:533 ../../source/organizations.rst:554
 msgid ""
-"Example: Mexico has both *municipios* (administrative level 6 in OSM) and"
-" states (administrative level 4). For a ``site`` based in Mexico, we "
-"would record in ``Site: Top Administrative Area (OSM Name)`` the name of "
-"the administrative level 4 object or the state."
+"Example: Mexico has both *municipios* (administrative level 6 in OSM) and "
+"states (administrative level 4). For a ``site`` based in Mexico, we would "
+"record in ``Site: Top Administrative Area (OSM Name)`` the name of the "
+"administrative level 4 object or the state."
 msgstr ""
 
 # 87229b1345464e85893d80db04c78963
@@ -1545,8 +1530,8 @@ msgstr ""
 # 497113d6f03e4e13bdef5425e5ffb84e
 #: ../../source/organizations.rst:540
 msgid ""
-"The OSM ID of the largest, generally used administrative area of a "
-"country (usually admin level 4)."
+"The OSM ID of the largest, generally used administrative area of a country "
+"(usually admin level 4)."
 msgstr ""
 
 # 60fc8c8c99834a33a3996e44d837407f
@@ -1563,14 +1548,13 @@ msgstr ""
 #: ../../source/organizations.rst:552
 msgid ""
 "We identify ``sites`` with a number of different levels of geographical "
-"precision. In ``Site: Top Administrative Area (OSM Object ID number)`` we"
-" record OSM object ID number of the highest level subnational boundary "
-"for the country in which the site is located, `as found in in "
-"OpenStreetMap "
+"precision. In ``Site: Top Administrative Area (OSM Object ID number)`` we "
+"record OSM object ID number of the highest level subnational boundary for "
+"the country in which the site is located, `as found in in OpenStreetMap "
 "<http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-"
 "national_administrations>`__. Generally, these are `relations "
-"<https://wiki.openstreetmap.org/wiki/Relation>`__ in the OSM dataset "
-"tagged as administrative e level 4."
+"<https://wiki.openstreetmap.org/wiki/Relation>`__ in the OSM dataset tagged "
+"as administrative e level 4."
 msgstr ""
 
 # dfd31b79a9d249db9825071fe49a27da
@@ -1580,7 +1564,8 @@ msgstr ""
 
 # 4f404635959d4525945fbaa828c2875d
 #: ../../source/organizations.rst:561
-msgid "ISO 3166 code for the country in which the organization's site is located."
+msgid ""
+"ISO 3166 code for the country in which the organization's site is located."
 msgstr ""
 
 # dd6b3d1686d84119b81b52b7366c87da
@@ -1609,17 +1594,16 @@ msgstr ""
 # 38493eceacdc477dbea62c9cc5c2028d
 #: ../../source/organizations.rst:582
 msgid ""
-"This field is for the earliest citation for the location of a site, "
-"either through direct reference in the source or by the date of its "
-"publication."
+"This field is for the earliest citation for the location of a site, either "
+"through direct reference in the source or by the date of its publication."
 msgstr ""
 
 # 992a77075cbd4ed68df13e234dffd9ac
 #: ../../source/organizations.rst:594
 msgid ""
-"Along with the fields ``Site: Founding date?``, ``Site: Date last cited``"
-" and ``Site: Open-ended?`` the field ``Site: Date first cited`` provides "
-"data on the time period for a site's location."
+"Along with the fields ``Site: Founding date?``, ``Site: Date last cited`` "
+"and ``Site: Open-ended?`` the field ``Site: Date first cited`` provides data"
+" on the time period for a site's location."
 msgstr ""
 
 # a62c149e6af94922a880cb997b6aaa6e
@@ -1630,16 +1614,16 @@ msgstr ""
 # b69a70d717fa4ba791da99cfb8adf218
 #: ../../source/organizations.rst:598
 msgid ""
-"The earliest date found in any source that references the values "
-"contained in the pairs of fields that record ``Site: Settlement``, or "
-"failing that, ``Site: Top Administrative area``."
+"The earliest date found in any source that references the values contained "
+"in the pairs of fields that record ``Site: Settlement``, or failing that, "
+"``Site: Top Administrative area``."
 msgstr ""
 
 # 2f6a024cda26491e98d698aa4a88be71
 #: ../../source/organizations.rst:599
 msgid ""
-"The earliest date of publication of any source that references the values"
-" contained in the pairs of fields that record ``Site: Settlement``, or "
+"The earliest date of publication of any source that references the values "
+"contained in the pairs of fields that record ``Site: Settlement``, or "
 "failing that, ``Site: Top Administrative area``."
 msgstr ""
 
@@ -1647,8 +1631,8 @@ msgstr ""
 #: ../../source/organizations.rst:601
 msgid ""
 "In keeping with all date fields we include in this dataset, where our "
-"research can only find a year or a year and a month, this can be included"
-" in ``Site: Date first cited``."
+"research can only find a year or a year and a month, this can be included in"
+" ``Site: Date first cited``."
 msgstr ""
 
 # a690fda6303c4e43adedfac34475a807
@@ -1675,11 +1659,11 @@ msgstr ""
 # d6d5155bb52245a393a9fd289980d573
 #: ../../source/organizations.rst:622
 msgid ""
-"This is a clarifying field for ``Site: Date first cited``. Where a source"
-" references an organization site and specifies the date that organization"
-" site was founded we will enter ``Y`` . In all other cases we will enter "
-"a value of ``N`` to indicate that the date is not a start date, but the "
-"date of first citation."
+"This is a clarifying field for ``Site: Date first cited``. Where a source "
+"references an organization site and specifies the date that organization "
+"site was founded we will enter ``Y`` . In all other cases we will enter a "
+"value of ``N`` to indicate that the date is not a start date, but the date "
+"of first citation."
 msgstr ""
 
 # 7cd91494041d45959800e3fbea622b70
@@ -1697,9 +1681,9 @@ msgstr ""
 # 8062b6c8c8c74871b9f8908e9473ee17
 #: ../../source/organizations.rst:641
 msgid ""
-"Along with the fields ``Site: Date first cited``, ``Site: Founding "
-"date?`` and ``Site is Open-ended?`` the field ``Site: Date last cited`` "
-"provides data on the time period for a site's location."
+"Along with the fields ``Site: Date first cited``, ``Site: Founding date?`` "
+"and ``Site is Open-ended?`` the field ``Site: Date last cited`` provides "
+"data on the time period for a site's location."
 msgstr ""
 
 # 2c290399f74243deb9455cd426ef9085
@@ -1710,9 +1694,9 @@ msgstr ""
 # d82f0f8e690e4954a97561db441ab00f
 #: ../../source/organizations.rst:645
 msgid ""
-"The latest date found in any source that references the values contained "
-"in the pairs of fields that record ``Site: Settlement``, or failing that,"
-" ``Site: Top Administrative area``."
+"The latest date found in any source that references the values contained in "
+"the pairs of fields that record ``Site: Settlement``, or failing that, "
+"``Site: Top Administrative area``."
 msgstr ""
 
 # cf18b5170f1b4688b2ef9cbcfbc4f169
@@ -1727,16 +1711,16 @@ msgstr ""
 #: ../../source/organizations.rst:648
 msgid ""
 "In keeping with all date fields we include in this dataset, where our "
-"research can only find a year or a year and a month, this can be included"
-" in ``Site: Date last cited``."
+"research can only find a year or a year and a month, this can be included in"
+" ``Site: Date last cited``."
 msgstr ""
 
 # 6ae2def1db6d4a1ead123b2422a332dd
 #: ../../source/organizations.rst:650
 msgid ""
-"This field is clarified by the field ``Site: Open-ended?`` which "
-"indicates whether the date included here is the actual date on which an "
-"organization was no longer located at this site."
+"This field is clarified by the field ``Site: Open-ended?`` which indicates "
+"whether the date included here is the actual date on which an organization "
+"was no longer located at this site."
 msgstr ""
 
 # 9f0fe361854148ef8eb42599607bbb95
@@ -1747,20 +1731,20 @@ msgstr ""
 # d5b40d6772f94c63b485d2bbc67cdaa9
 #: ../../source/organizations.rst:657
 msgid ""
-"Indicates whether the value in ``Site: Date last cited`` is the actual "
-"date on which an organization site was disbanded, the latest date a "
-"source has referred to an organization site, and whether can we assume "
-"this organization site continues to exist."
+"Indicates whether the value in ``Site: Date last cited`` is the actual date "
+"on which an organization site was disbanded, the latest date a source has "
+"referred to an organization site, and whether can we assume this "
+"organization site continues to exist."
 msgstr ""
 
 # 8fa73eb1a693470b92e810be864cd3ba
 #: ../../source/organizations.rst:669
 msgid ""
-"We use this field to clarify the meaning of the date entered in ``Date "
-"last cited``. In entering a value for this field we use a variety of "
-"factors including: the history of basing for the unit, the overall "
-"structure and nature of the security forces, and the frequency of "
-"movement of similar units."
+"We use this field to clarify the meaning of the date entered in ``Date last "
+"cited``. In entering a value for this field we use a variety of factors "
+"including: the history of basing for the unit, the overall structure and "
+"nature of the security forces, and the frequency of movement of similar "
+"units."
 msgstr ""
 
 # 871cd13e969a461bafa0937cccee7abf
@@ -1768,7 +1752,8 @@ msgstr ""
 # 17eee7271e294c7b9eb54a46b6c22063
 #: ../../source/organizations.rst:671 ../../source/organizations.rst:828
 #: ../../source/organizations.rst:950
-msgid "The values that can be entered in this field are restricted to the below:"
+msgid ""
+"The values that can be entered in this field are restricted to the below:"
 msgstr ""
 
 # ec9c537c648b48a9af63328e9b659106
@@ -1780,14 +1765,15 @@ msgstr ""
 
 # 602b76f573dd4685a23101db3cd89202
 #: ../../source/organizations.rst:674
-msgid "``Y`` indicates that we assume this organization site continues to exist."
+msgid ""
+"``Y`` indicates that we assume this organization site continues to exist."
 msgstr ""
 
 # 51f399c85093437eb7049e163db45fb0
 #: ../../source/organizations.rst:675
 msgid ""
-"``N`` indicates we do not assume that this organization site continues to"
-" exist, but we do not have an exact end date."
+"``N`` indicates we do not assume that this organization site continues to "
+"exist, but we do not have an exact end date."
 msgstr ""
 
 # 1ba6c20f6be240288553b2918ae605ba
@@ -1799,8 +1785,8 @@ msgstr ""
 # 45ffc61be717463cb27f49c0be23e628
 #: ../../source/organizations.rst:682 ../../source/organizations.rst:701
 msgid ""
-"A geographical area in which an organization exercises jurisdiction or "
-"has operated in any manner"
+"A geographical area in which an organization exercises jurisdiction or has "
+"operated in any manner"
 msgstr ""
 
 # ace3eda3f807484e82f8f3f280d764d8
@@ -1816,10 +1802,10 @@ msgstr ""
 # 47dc7acfbaa5481fa985300849878148
 #: ../../source/organizations.rst:694
 msgid ""
-"The ``Area of Operations`` fields document multiple and concurrent areas "
-"of operation of an organization. The value entered in this field is the "
-"OpenStreetMap name for the lowest-level formal geographical area that "
-"best describes where an organization has operated in some manner."
+"The ``Area of Operations`` fields document multiple and concurrent areas of "
+"operation of an organization. The value entered in this field is the "
+"OpenStreetMap name for the lowest-level formal geographical area that best "
+"describes where an organization has operated in some manner."
 msgstr ""
 
 # 8f74437dd5ab46df8518855e2ca59faa
@@ -1840,11 +1826,10 @@ msgstr ""
 # 8adb6f74ed9a4b2abda45727e2c10382
 #: ../../source/organizations.rst:713
 msgid ""
-"The ``Area of Operations`` fields document multiple and concurrent areas "
-"of operation of an organization. The value entered in this field is the "
-"OpenStreetMap object ID number for the lowest-level formal geographical "
-"area that best describes where an organization has operated in some "
-"manner."
+"The ``Area of Operations`` fields document multiple and concurrent areas of "
+"operation of an organization. The value entered in this field is the "
+"OpenStreetMap object ID number for the lowest-level formal geographical area"
+" that best describes where an organization has operated in some manner."
 msgstr ""
 
 # 43c787ca7f6649028760ae5303eb161d
@@ -1860,12 +1845,11 @@ msgstr ""
 # 82bcc970aee44e068654a19a03f8ac23
 #: ../../source/organizations.rst:732
 msgid ""
-"We identify ``Area of Operations`` with two different levels of "
-"geographical precision.The ``Area of Operations: Country`` field "
-"identifies the country in which an organization has operated in some "
-"manner. All entries in this field are two letter country codes taken from"
-" `ISO 3166, which can be searched here "
-"<https://www.iso.org/obp/ui/#search>`__."
+"We identify ``Area of Operations`` with two different levels of geographical"
+" precision.The ``Area of Operations: Country`` field identifies the country "
+"in which an organization has operated in some manner. All entries in this "
+"field are two letter country codes taken from `ISO 3166, which can be "
+"searched here <https://www.iso.org/obp/ui/#search>`__."
 msgstr ""
 
 # b8261740ed7a46279dc226bba4c3a0a6
@@ -1877,55 +1861,54 @@ msgstr ""
 #: ../../source/organizations.rst:739
 msgid ""
 "This field is for the earliest citation for an organization's ``Area of "
-"Operations``, either through direct reference in the source or by the "
-"date of its publication."
+"Operations``, either through direct reference in the source or by the date "
+"of its publication."
 msgstr ""
 
 # f19118e5568141fcab3fe91c907e5f65
 #: ../../source/organizations.rst:751
 msgid ""
 "Along with the fields ``Area of Operations: Founding date?``, ``Area of "
-"Operations: Date last cited`` and ``Area of Operations: Open-ended?`` the"
-" field ``Area of Operations: Date first cited`` provides data on the time"
-" period for which can specify an organization's Area of operations."
+"Operations: Date last cited`` and ``Area of Operations: Open-ended?`` the "
+"field ``Area of Operations: Date first cited`` provides data on the time "
+"period for which can specify an organization's Area of operations."
 msgstr ""
 
 # 73c07d9fb3c54c2b97b16a17c0d770a9
 #: ../../source/organizations.rst:753
 msgid ""
-"The ``Area of Operations: Date first cited`` field contains a date that "
-"is either:"
+"The ``Area of Operations: Date first cited`` field contains a date that is "
+"either:"
 msgstr ""
 
 # 735737f2d586438a94e73e25caf18829
 #: ../../source/organizations.rst:755
 msgid ""
-"The earliest date found in any source that references the values "
-"contained in the pairs of fields that record ``Area of Operations``."
+"The earliest date found in any source that references the values contained "
+"in the pairs of fields that record ``Area of Operations``."
 msgstr ""
 
 # 39e4545eb2c6466daab16912c89e5bce
 #: ../../source/organizations.rst:756
 msgid ""
-"The earliest date of publication for any source that references the "
-"values contained in the pairs of fields that record ``Area of "
-"Operations``."
+"The earliest date of publication for any source that references the values "
+"contained in the pairs of fields that record ``Area of Operations``."
 msgstr ""
 
 # 81ed47a0ff3041298533798795e361d4
 #: ../../source/organizations.rst:758
 msgid ""
 "In keeping with all date fields we include in this dataset, where our "
-"research can only find a year or a year and a month, this can be included"
-" in ``Area of Operations: Date first cited``."
+"research can only find a year or a year and a month, this can be included in"
+" ``Area of Operations: Date first cited``."
 msgstr ""
 
 # 6c201c225a634f03adc1e2f6052e6513
 #: ../../source/organizations.rst:760
 msgid ""
 "This field is clarified by the field ``Area of Operations: start date?`` "
-"which indicates whether the date included here is the actual date on "
-"which an Area of Operations started."
+"which indicates whether the date included here is the actual date on which "
+"an Area of Operations started."
 msgstr ""
 
 # 977f39026510405b8565ba1a8343ef4d
@@ -1936,9 +1919,9 @@ msgstr ""
 # 641265884b8340cab2d54ddb4cd9212f
 #: ../../source/organizations.rst:767
 msgid ""
-"Is the value in ``Area of Operations: Date first cited`` the actual date "
-"on which an organization's Area of Operations started, or the earliest "
-"date a source has referred to an organization's Area of Operations?"
+"Is the value in ``Area of Operations: Date first cited`` the actual date on "
+"which an organization's Area of Operations started, or the earliest date a "
+"source has referred to an organization's Area of Operations?"
 msgstr ""
 
 # b0b329b301ac4fe6b14286dec255dad0
@@ -1950,10 +1933,10 @@ msgstr ""
 #: ../../source/organizations.rst:779
 msgid ""
 "This is a clarifying field for ``Area of Operations: Date first cited``. "
-"Where a source references an organization site and specifies the date "
-"that organization Area of Operations was started we will enter ``Y`` . In"
-" all other cases we will enter a value of ``N`` to indicate that the date"
-" is not a start date, but the date of first citation."
+"Where a source references an organization site and specifies the date that "
+"organization Area of Operations was started we will enter ``Y`` . In all "
+"other cases we will enter a value of ``N`` to indicate that the date is not "
+"a start date, but the date of first citation."
 msgstr ""
 
 # 6e8ac30abe2148598b84a0dcbc37fae3
@@ -1971,43 +1954,43 @@ msgstr ""
 # b3f99b3df6ce483aa35aa886e17d7536
 #: ../../source/organizations.rst:798
 msgid ""
-"Along with the fields ``Area of Operations: Date first cited``, ``Area of"
-" Operations: start date?`` and ``Area of Operations: Open-ended?`` the "
-"field ``Site: Date last cited`` provides data on the time period for "
-"which can specify an Area of Operations location."
+"Along with the fields ``Area of Operations: Date first cited``, ``Area of "
+"Operations: start date?`` and ``Area of Operations: Open-ended?`` the field "
+"``Site: Date last cited`` provides data on the time period for which can "
+"specify an Area of Operations location."
 msgstr ""
 
 # d3d81fe50d3a4401b3c294fece5dc15f
 #: ../../source/organizations.rst:800
 msgid ""
-"The ``Area of Operations: Date last cited`` field contains a date that is"
-" either:"
+"The ``Area of Operations: Date last cited`` field contains a date that is "
+"either:"
 msgstr ""
 
 # f5cad3d49db94890a5c74ec283d4f588
 #: ../../source/organizations.rst:802
 msgid ""
-"The latest date found in any source that references the values contained "
-"in the pairs of fields that record ``Area of Operations``."
+"The latest date found in any source that references the values contained in "
+"the pairs of fields that record ``Area of Operations``."
 msgstr ""
 
 # d24df38b1c74496589f66c2e31c16092
 #: ../../source/organizations.rst:803
 msgid ""
 "The latest date of publication for any source that references the values "
-"contained in the pairs of fields that record ``Area of Operations``. . In"
-" keeping with all date fields we include in this dataset, where our "
-"research can only find a year or a year and a month, this can be included"
-" in ``Site: Date last cited``."
+"contained in the pairs of fields that record ``Area of Operations``. . In "
+"keeping with all date fields we include in this dataset, where our research "
+"can only find a year or a year and a month, this can be included in ``Site: "
+"Date last cited``."
 msgstr ""
 
 # 5808dd651efb47549d3e7463ce9b6835
 #: ../../source/organizations.rst:805
 msgid ""
-"This field is clarified by the field ``Site: Open-ended?`` which "
-"indicates whether the date included here is the actual date on which an "
-"organization site was ended, or whether we have reason to assume its "
-"continued existence beyond that date."
+"This field is clarified by the field ``Site: Open-ended?`` which indicates "
+"whether the date included here is the actual date on which an organization "
+"site was ended, or whether we have reason to assume its continued existence "
+"beyond that date."
 msgstr ""
 
 # 684dd7ba5f664e52b45665add9de2a33
@@ -2018,11 +2001,11 @@ msgstr ""
 # a53f4a310a0e4c4497979a8213e76ca2
 #: ../../source/organizations.rst:812
 msgid ""
-"Indicates whether the value in ``Area of Operations: Date last cited`` is"
-" the actual date on which an organization ended operations in the "
-"specified area, the latest date a source has referred to this Area of "
-"Operations, and whether can we assume an organization will continue to "
-"operate in an area beyond the date of last citation."
+"Indicates whether the value in ``Area of Operations: Date last cited`` is "
+"the actual date on which an organization ended operations in the specified "
+"area, the latest date a source has referred to this Area of Operations, and "
+"whether can we assume an organization will continue to operate in an area "
+"beyond the date of last citation."
 msgstr ""
 
 # e9dbb7c074d84a42a93d0e6a218a897f
@@ -2038,21 +2021,21 @@ msgstr ""
 # aaf8dbeede1647f79c863075b18d36d9
 #: ../../source/organizations.rst:824
 msgid ""
-"We use this field to clarify the meaning of the date entered in ``Area of"
-" Operations: Date last cited``. In entering a value for this field we use"
-" a variety of factors to assess whether an organization continues to "
-"operation in any manner in this area beyond the date of the last "
-"citation. These include: the history of operations of the organization, "
-"the overall structure and nature of the security forces, and the "
-"frequency of movement of similar units."
+"We use this field to clarify the meaning of the date entered in ``Area of "
+"Operations: Date last cited``. In entering a value for this field we use a "
+"variety of factors to assess whether an organization continues to operation "
+"in any manner in this area beyond the date of the last citation. These "
+"include: the history of operations of the organization, the overall "
+"structure and nature of the security forces, and the frequency of movement "
+"of similar units."
 msgstr ""
 
 # e5a89ea70dac4cf9bfb1b1f7247fff56
 #: ../../source/organizations.rst:826
 msgid ""
-"For Example, the ``New York State police`` would likely maintain an AOO "
-"over all of ``New York State`` even if the last citation available to us "
-"was from 2015."
+"For Example, the ``New York State police`` would likely maintain an AOO over"
+" all of ``New York State`` even if the last citation available to us was "
+"from 2015."
 msgstr ""
 
 # ba0dc58422c646a6afdac773d03c1a31
@@ -2065,8 +2048,8 @@ msgstr ""
 # ba9d8921118140c2bd5ba63492041f51
 #: ../../source/organizations.rst:831
 msgid ""
-"``Y`` indicates that we assume this organization continues to operation "
-"in the specified area."
+"``Y`` indicates that we assume this organization continues to operation in "
+"the specified area."
 msgstr ""
 
 # 62142d761d1d4fb6b961cd6bf0dc3679
@@ -2085,9 +2068,8 @@ msgstr ""
 # d9ed77fc7e744b5890ce1eef831f9c08
 #: ../../source/organizations.rst:839
 msgid ""
-"Internal/national joint operations, international peacekeeping "
-"operations, or other multi-unit efforts that this organization is a part "
-"of"
+"Internal/national joint operations, international peacekeeping operations, "
+"or other multi-unit efforts that this organization is a part of"
 msgstr ""
 
 # ca56eacb57b240a58252a2d2a9e8f8db
@@ -2105,22 +2087,22 @@ msgstr ""
 msgid ""
 "This field indicates whether an organization has had any memberships or "
 "attachments to internal/national joint operations, international "
-"peacekeeping operations, or other multi-unit efforts. Generally this "
-"means one of two things:"
+"peacekeeping operations, or other multi-unit efforts. Generally this means "
+"one of two things:"
 msgstr ""
 
 # 12d91d68f5e94d93a5a6bf3a692c7e87
 #: ../../source/organizations.rst:853
 msgid ""
-"1) Multiple units operate as part of an “operation” focused on a specific"
-" mission."
+"1) Multiple units operate as part of an “operation” focused on a specific "
+"mission."
 msgstr ""
 
 # baebe7a66a18438286571768ed39d090
 #: ../../source/organizations.rst:854
 msgid ""
-"2) Multiple units “lend” or otherwise deploy personnel who operate under "
-"the command of a force composition like a \"Joint Task Force\" or "
+"2) Multiple units “lend” or otherwise deploy personnel who operate under the"
+" command of a force composition like a \"Joint Task Force\" or "
 "\"Operation\", which usually has a commander of its own."
 msgstr ""
 
@@ -2129,21 +2111,21 @@ msgstr ""
 msgid ""
 "Example: soldiers from ``1 Division`` are deployed to the northeast of "
 "Nigeria to operate under ``Operation BOYANA``. ``1 Division`` has a "
-"commander, but the soldiers as part of ``Operation BOYANA`` likely report"
-" to and take orders from the commander of ``Operation BOYANA``. When the "
-"soldiers are done with their rotation, after several months, they return "
-"to their “home unit” ``1 Division``. So while ``Operation BOYANA`` "
-"commands some soldiers who are part of ``1 Division`` it doesn’t "
-"technically command all of the soldiers of ``1 Division`` (otherwise it "
-"would be the parent unit)."
+"commander, but the soldiers as part of ``Operation BOYANA`` likely report to"
+" and take orders from the commander of ``Operation BOYANA``. When the "
+"soldiers are done with their rotation, after several months, they return to "
+"their “home unit” ``1 Division``. So while ``Operation BOYANA`` commands "
+"some soldiers who are part of ``1 Division`` it doesn’t technically command "
+"all of the soldiers of ``1 Division`` (otherwise it would be the parent "
+"unit)."
 msgstr ""
 
 # bd1f9db7be1f41ecb9faeb2f7a3ce7f9
 #: ../../source/organizations.rst:858
 msgid ""
-"We treat task forces, operations, peacekeeping missions and anything else"
-" represented in this field as distinct organizations which must have "
-"their own record in the system."
+"We treat task forces, operations, peacekeeping missions and anything else "
+"represented in this field as distinct organizations which must have their "
+"own record in the system."
 msgstr ""
 
 # 674b78f59cda4f3b97b2080279b0f919
@@ -2154,47 +2136,48 @@ msgstr ""
 # 3d02ddbbe58e45abb8f424762694a876
 #: ../../source/organizations.rst:865
 msgid ""
-"This field is for the earliest citation for the location of a membership,"
-" either through direct reference in the source or by the date of its "
+"This field is for the earliest citation for the location of a membership, "
+"either through direct reference in the source or by the date of its "
 "publication."
 msgstr ""
 
 # 014d5028be274230bd5c8dea86c23685
 #: ../../source/organizations.rst:877
 msgid ""
-"Along with the fields ``Membership: Start date?``, ``Membership: Date "
-"last cited`` and ``Membership: Open-ended?`` the field ``Membership: Date"
-" first cited`` provides data on the duration of one organization's "
-"membership in another."
+"Along with the fields ``Membership: Start date?``, ``Membership: Date last "
+"cited`` and ``Membership: Open-ended?`` the field ``Membership: Date first "
+"cited`` provides data on the duration of one organization's membership in "
+"another."
 msgstr ""
 
 # 7a8f5a43c3df490980b8a3161de299c3
 #: ../../source/organizations.rst:879
-msgid "The ``Membership: Date first cited`` field contains a date that is either:"
+msgid ""
+"The ``Membership: Date first cited`` field contains a date that is either:"
 msgstr ""
 
 # 05daebed1ee54d5cab390577a10e1108
 #: ../../source/organizations.rst:881
 msgid ""
-"The earliest date found in any source that references the values "
-"contained in the pairs of fields that record ``Membership``"
+"The earliest date found in any source that references the values contained "
+"in the pairs of fields that record ``Membership``"
 msgstr ""
 
 # 80cc6e8efba24166b1688fcc48e52c51
 #: ../../source/organizations.rst:882
 msgid ""
-"The earliest date of publication of any source that references the values"
-" contained in the pairs of fields that record ``Membership``. . In "
-"keeping with all date fields we include in this dataset, where our "
-"research can only find a year or a year and a month, this can be included"
-" in ``Membership: Date first cited``."
+"The earliest date of publication of any source that references the values "
+"contained in the pairs of fields that record ``Membership``. . In keeping "
+"with all date fields we include in this dataset, where our research can only"
+" find a year or a year and a month, this can be included in ``Membership: "
+"Date first cited``."
 msgstr ""
 
 # f1f65395b0944b17bbd12fd1530d6eee
 #: ../../source/organizations.rst:884
 msgid ""
-"This field is clarified by the field ``Membership: Founding date?`` which"
-" indicates whether the date included here is the actual date on which an "
+"This field is clarified by the field ``Membership: Founding date?`` which "
+"indicates whether the date included here is the actual date on which an "
 "organization membership was founded."
 msgstr ""
 
@@ -2206,19 +2189,19 @@ msgstr ""
 # 3ccedd2fc6594e35aa03399625044d86
 #: ../../source/organizations.rst:891
 msgid ""
-"Is the value in ``Membership: Date first cited`` the actual date on which"
-" a membership was started, or the earliest date a source has referred to "
-"an organization Membership?"
+"Is the value in ``Membership: Date first cited`` the actual date on which a "
+"membership was started, or the earliest date a source has referred to an "
+"organization Membership?"
 msgstr ""
 
 # 133c487647304c8a9b18cd0bbce3a84a
 #: ../../source/organizations.rst:903
 msgid ""
 "This is a clarifying field for ``Membership: Date first cited``. Where a "
-"source references a membership and specifies the exact date the "
-"relationship was established we will enter ``Y`` . In all other cases we "
-"will enter a value of ``N`` to indicate that the date is not a start "
-"date, but the date of first citation."
+"source references a membership and specifies the exact date the relationship"
+" was established we will enter ``Y`` . In all other cases we will enter a "
+"value of ``N`` to indicate that the date is not a start date, but the date "
+"of first citation."
 msgstr ""
 
 # 05aa23fe6ab241e997ae71afa1874e09
@@ -2229,38 +2212,39 @@ msgstr ""
 # 700164b550c84ca2ac0169e96ac6f0c6
 #: ../../source/organizations.rst:910
 msgid ""
-"This field is for the latest citation of a membership, either through "
-"direct reference in the source or by the date of its publication."
+"This field is for the latest citation of a membership, either through direct"
+" reference in the source or by the date of its publication."
 msgstr ""
 
 # 14b2c2af15204bdf91796f521fb3f59a
 #: ../../source/organizations.rst:922
 msgid ""
-"Along with the fields ``Membership: Date first cited``, ``Membership: "
-"Start date?`` and ``Membership: End-date?`` the field ``Membership: Date "
-"last cited`` provides data on duration of a membership."
+"Along with the fields ``Membership: Date first cited``, ``Membership: Start "
+"date?`` and ``Membership: End-date?`` the field ``Membership: Date last "
+"cited`` provides data on duration of a membership."
 msgstr ""
 
 # 4c09c028b8e44b8c876602a09d6dc110
 #: ../../source/organizations.rst:924
-msgid "The ``Membership: Date last cited`` field contains a date that is either:"
+msgid ""
+"The ``Membership: Date last cited`` field contains a date that is either:"
 msgstr ""
 
 # e054a90c81274a9a8e641ad1dd27b12d
 #: ../../source/organizations.rst:926
 msgid ""
-"The latest date found in any source that references the values contained "
-"in the pairs of fields that record ``Membership``; or,"
+"The latest date found in any source that references the values contained in "
+"the pairs of fields that record ``Membership``; or,"
 msgstr ""
 
 # f45ee4ce97574242ab0b44e522adad47
 #: ../../source/organizations.rst:927
 msgid ""
 "The latest date of publication of any source that references the values "
-"contained in the pairs of fields that record ``Membership``. . In keeping"
-" with all date fields we include in this dataset, where our research can "
-"only find a year or a year and a month, this can be included in "
-"``Membership: Date last cited``."
+"contained in the pairs of fields that record ``Membership``. . In keeping "
+"with all date fields we include in this dataset, where our research can only"
+" find a year or a year and a month, this can be included in ``Membership: "
+"Date last cited``."
 msgstr ""
 
 # 96884e0a0a13435590550456962f9fc6
@@ -2279,8 +2263,8 @@ msgstr ""
 # 60d145fa1dd94cb1a9b9de268a78e6a1
 #: ../../source/organizations.rst:936
 msgid ""
-"Is the value in ``Membership: Date last cited`` the actual date on which "
-"the membership ended (Y), or the latest date a source has referred to an "
+"Is the value in ``Membership: Date last cited`` the actual date on which the"
+" membership ended (Y), or the latest date a source has referred to an "
 "organizational Membership (N)?"
 msgstr ""
 
@@ -2311,8 +2295,8 @@ msgstr ""
 # 18853788cc254d10915f2ea3b1af7fcd
 #: ../../source/organizations.rst:960
 msgid ""
-"Analysis, commentary and notes about the organization that do not fit "
-"into the data structure."
+"Analysis, commentary and notes about the organization that do not fit into "
+"the data structure."
 msgstr ""
 
 # 1f47a8213d8343a48c9f0feb1cc7e728
@@ -2320,18 +2304,16 @@ msgstr ""
 msgid ""
 "``In March 1990 the previous Central Regional Military Command based in "
 "Taungoo was renamed Southern Regional Military Command, the previous "
-"Northwestern Regional Military Command based in Mandalay was renamed as "
-"the Central Regional Military Command and a new Northwestern Regional "
-"Military Command was created in Monywa.``"
+"Northwestern Regional Military Command based in Mandalay was renamed as the "
+"Central Regional Military Command and a new Northwestern Regional Military "
+"Command was created in Monywa.``"
 msgstr ""
 
 # 85f0f11ba2894ef18b08678d696ccde4
 #: ../../source/organizations.rst:972
 msgid ""
 "We use this field to record information about the organization that is "
-"likely to provide useful context, additional information that does not "
-"fit into the data structure, and notes about how decisions were made "
-"about which data to include. Any sources used should be referenced in the"
-" field."
+"likely to provide useful context, additional information that does not fit "
+"into the data structure, and notes about how decisions were made about which"
+" data to include. Any sources used should be referenced in the field."
 msgstr ""
-

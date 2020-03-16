@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2019, Security Force Monitor
-# This file is distributed under the same license as the SFM Research
-# Handbook package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: SFM Research Handbook \n"
+"Project-Id-Version: SFM Research Handbook\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-11 16:29+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-03-16 12:32+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/sfm/teams/108084/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/datamodel.rst:2 be6eef43574240e7b36b8cd13257bddd
 msgid "What data does the Monitor collect?"
@@ -28,41 +27,40 @@ msgstr ""
 
 #: ../../source/datamodel.rst:7 e9242973fff846948b21d6efa6e3d11d
 msgid ""
-"Security Force Monitor researches and creates data about three things (or"
-" \"entities\") related to security forces around the world:"
+"Security Force Monitor researches and creates data about three things (or "
+"\"entities\") related to security forces around the world:"
 msgstr ""
 
 #: ../../source/datamodel.rst:9 92ae6ed36e124276a9eacffbc109d9b1
 msgid ""
 ":ref:`Units` are official state or state-sanctioned organizations "
-"responsible for the internal or external security for a country, "
-"including the police, army, navy, air force and other security forces. "
-"Units refer to any any part of the hierarchy of a security force, ranging"
-" from a defense ministry with national jurisdiction, to a police unit "
-"based in a small town. Units can also be groupings of units such as "
-"\"operations\", \"joint task forces\" or peacekeeping missions. The "
-"Monitor collects data about a unit's name, aliases, bases and other "
-"physical infrastructure, geographical areas of operation and "
-"relationships with other units over time."
+"responsible for the internal or external security for a country, including "
+"the police, army, navy, air force and other security forces. Units refer to "
+"any any part of the hierarchy of a security force, ranging from a defense "
+"ministry with national jurisdiction, to a police unit based in a small town."
+" Units can also be groupings of units such as \"operations\", \"joint task "
+"forces\" or peacekeeping missions. The Monitor collects data about a unit's "
+"name, aliases, bases and other physical infrastructure, geographical areas "
+"of operation and relationships with other units over time."
 msgstr ""
 
 #: ../../source/datamodel.rst:10 1c1ed7e3e1a544828173e8f20a3e437a
 msgid ""
 ":ref:`Persons` are natural persons who are affiliated with, or hold "
-"positions of command over a specific unit at a particular point in time. "
-"The Monitor creates a dossier for each person, which includes their name,"
-" aliases, rank, title, role and the different units which they are "
-"affiliated with. In addition, we use a format called :ref:`Persons Extra`"
-" to capture data about a person's online and social media accounts, and "
-"media describing how a person looks and sounds"
+"positions of command over a specific unit at a particular point in time. The"
+" Monitor creates a dossier for each person, which includes their name, "
+"aliases, rank, title, role and the different units which they are affiliated"
+" with. In addition, we use a format called :ref:`Persons Extra` to capture "
+"data about a person's online and social media accounts, and media describing"
+" how a person looks and sounds"
 msgstr ""
 
 #: ../../source/datamodel.rst:11 81ac7d86ce9442119315f676edd5137f
 msgid ""
 ":ref:`Incidents` are publicly-documented allegations of human rights "
 "violations committed by security forces. These include extrajudicial "
-"killings, rape, torture and other forms of violence. The Monitor does not"
-" make allegations itself, but rather complies allegations made by "
+"killings, rape, torture and other forms of violence. The Monitor does not "
+"make allegations itself, but rather complies allegations made by "
 "governmental bodies, human rights organizations and other civil society "
 "actors. For each incident, the Monitor includes a description from the "
 "source, date(s), specific location(s), its perpetrators and the types of "
@@ -74,15 +72,15 @@ msgid ""
 "Every piece of data collected by the Monitor is individually sourced and "
 "each data point about :ref:`Persons` and :ref:`Units` is assigned a "
 "confidence score. The Research Handbook sections on :ref:`Sources` and "
-":ref:`Data integrity measures` provide more guidance about these aspects "
-"of the data creation process."
+":ref:`Data integrity measures` provide more guidance about these aspects of "
+"the data creation process."
 msgstr ""
 
 #: ../../source/datamodel.rst:15 bc55eeeddcb0498b80552290727cbd3c
 msgid ""
-"Detailed guidance about the fields used by the Monitor to record data "
-"about :ref:`Units`, :ref:`Persons` and :ref:`Incidents` is provided in "
-"the sections that follow."
+"Detailed guidance about the fields used by the Monitor to record data about "
+":ref:`Units`, :ref:`Persons` and :ref:`Incidents` is provided in the "
+"sections that follow."
 msgstr ""
 
 #: ../../source/datamodel.rst:18 91195f326b7140ce838216122f62103a
@@ -92,11 +90,11 @@ msgstr ""
 #: ../../source/datamodel.rst:20 aae6bcb9fe6142a1a79a97906946f40f
 msgid ""
 "Security Force Monitor uses databases, spreadsheets and other tools to "
-"capture and analyse the data described in this Research Handbook. Though "
-"the spreadsheet can get quite large and unwieldy, it remains an extremely"
-" powerful and effective way to capture and store data. To assist you with"
-" your research, here are the formats we use as a Google Sheet, and in "
-"Excel and OpenDocument formats:"
+"capture and analyse the data described in this Research Handbook. Though the"
+" spreadsheet can get quite large and unwieldy, it remains an extremely "
+"powerful and effective way to capture and store data. To assist you with "
+"your research, here are the formats we use as a Google Sheet, and in Excel "
+"and OpenDocument formats:"
 msgstr ""
 
 #: ../../source/datamodel.rst:22 53959c0a97d748de9fd9eddfe13862b7
@@ -114,6 +112,6 @@ msgstr ""
 #: ../../source/datamodel.rst:24 15f00eff78df4dbaad93ef6adfcb84e6
 msgid ""
 "Sample data entry sheets `as a Google Sheet "
-"<https://docs.google.com/spreadsheets/d/1-ae43_6JfXHZyC0-rYkOvnbB2RZgzyEy2VgJqAD_-KA/>`_."
+"<https://docs.google.com/spreadsheets/d/1-ae43_6JfXHZyC0"
+"-rYkOvnbB2RZgzyEy2VgJqAD_-KA/>`_."
 msgstr ""
-

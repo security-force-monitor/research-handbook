@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2019, Security Force Monitor
-# This file is distributed under the same license as the SFM Research
-# Handbook package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: SFM Research Handbook \n"
+"Project-Id-Version: SFM Research Handbook\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-11 16:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-03-16 12:32+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/sfm/teams/108084/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/persons.rst:2 880eecb2d96a4a0b88c5962e68e89af6
 msgid "Persons"
@@ -28,31 +27,31 @@ msgstr ""
 
 #: ../../source/persons.rst:7 2e6898a2e81841d6abac95e5b45c84f0
 msgid ""
-"Persons are natural persons who are affiliated with, or hold positions of"
-" command over a specific unit at a particular point in time."
+"Persons are natural persons who are affiliated with, or hold positions of "
+"command over a specific unit at a particular point in time."
 msgstr ""
 
 #: ../../source/persons.rst:9 f0d3649ef7174a22beedcd7b1fd7c7a6
 msgid ""
-"The fields in the \"Persons\" data capture format are used to record "
-"basic details about a person's identity, along with their career within a"
-" branch of the security force. Using these fields we can capture a "
-"persons rank, role and title in one or numerous differe units and see how"
-" it has changed over time."
+"The fields in the \"Persons\" data capture format are used to record basic "
+"details about a person's identity, along with their career within a branch "
+"of the security force. Using these fields we can capture a persons rank, "
+"role and title in one or numerous differe units and see how it has changed "
+"over time."
 msgstr ""
 
 #: ../../source/persons.rst:11 8fcebe74c95c431794d64f709dc6069f
 msgid ""
-"This data capture format is supplemented by the \"Persons Extra\" format,"
-" which enables the capture of other biographical details (like their date"
-" of birth, and then they may have died), their social media accounts, and"
-" media that provide information about how a person looks and sounds."
+"This data capture format is supplemented by the \"Persons Extra\" format, "
+"which enables the capture of other biographical details (like their date of "
+"birth, and then they may have died), their social media accounts, and media "
+"that provide information about how a person looks and sounds."
 msgstr ""
 
 #: ../../source/persons.rst:13 ec69d10832504513998093df21f6e666
 msgid ""
-"A spreadsheet containing all the fields used by Security Force Monitor "
-"can be found in the section called :ref:`Sample Data Entry Sheets`."
+"A spreadsheet containing all the fields used by Security Force Monitor can "
+"be found in the section called :ref:`Sample Data Entry Sheets`."
 msgstr ""
 
 #: ../../source/persons.rst:16 85832b4e20624e628106e8f6fac2f6c2
@@ -68,6 +67,14 @@ msgstr ""
 #: ../../source/persons.rst:513 ../../source/persons.rst:550
 #: ../../source/persons.rst:598 ../../source/persons.rst:636
 #: ../../source/persons.rst:673 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
 msgid "**Description**"
 msgstr ""
 
@@ -84,12 +91,21 @@ msgstr ""
 #: ../../source/persons.rst:479 ../../source/persons.rst:517
 #: ../../source/persons.rst:554 ../../source/persons.rst:602
 #: ../../source/persons.rst:640 ../../source/persons.rst:677
-#: 819698bcfa4c4fffae3cbbb03f8ba5c3
+#: 819698bcfa4c4fffae3cbbb03f8ba5c3 819698bcfa4c4fffae3cbbb03f8ba5c3
+#: 819698bcfa4c4fffae3cbbb03f8ba5c3 819698bcfa4c4fffae3cbbb03f8ba5c3
+#: 819698bcfa4c4fffae3cbbb03f8ba5c3 819698bcfa4c4fffae3cbbb03f8ba5c3
+#: 819698bcfa4c4fffae3cbbb03f8ba5c3 819698bcfa4c4fffae3cbbb03f8ba5c3
+#: 819698bcfa4c4fffae3cbbb03f8ba5c3 819698bcfa4c4fffae3cbbb03f8ba5c3
+#: 819698bcfa4c4fffae3cbbb03f8ba5c3 819698bcfa4c4fffae3cbbb03f8ba5c3
+#: 819698bcfa4c4fffae3cbbb03f8ba5c3 819698bcfa4c4fffae3cbbb03f8ba5c3
+#: 819698bcfa4c4fffae3cbbb03f8ba5c3 819698bcfa4c4fffae3cbbb03f8ba5c3
+#: 819698bcfa4c4fffae3cbbb03f8ba5c3 819698bcfa4c4fffae3cbbb03f8ba5c3
 msgid "**Type of field**"
 msgstr ""
 
 #: ../../source/persons.rst:24 ../../source/persons.rst:178
 #: ../../source/persons.rst:679 050fc9e9e89c4819b38c211717b5d9e6
+#: 050fc9e9e89c4819b38c211717b5d9e6 050fc9e9e89c4819b38c211717b5d9e6
 msgid "Text and numbers"
 msgstr ""
 
@@ -102,7 +118,15 @@ msgstr ""
 #: ../../source/persons.rst:483 ../../source/persons.rst:521
 #: ../../source/persons.rst:558 ../../source/persons.rst:606
 #: ../../source/persons.rst:644 ../../source/persons.rst:681
-#: cd716042f7dc450d8dff64e013812798
+#: cd716042f7dc450d8dff64e013812798 cd716042f7dc450d8dff64e013812798
+#: cd716042f7dc450d8dff64e013812798 cd716042f7dc450d8dff64e013812798
+#: cd716042f7dc450d8dff64e013812798 cd716042f7dc450d8dff64e013812798
+#: cd716042f7dc450d8dff64e013812798 cd716042f7dc450d8dff64e013812798
+#: cd716042f7dc450d8dff64e013812798 cd716042f7dc450d8dff64e013812798
+#: cd716042f7dc450d8dff64e013812798 cd716042f7dc450d8dff64e013812798
+#: cd716042f7dc450d8dff64e013812798 cd716042f7dc450d8dff64e013812798
+#: cd716042f7dc450d8dff64e013812798 cd716042f7dc450d8dff64e013812798
+#: cd716042f7dc450d8dff64e013812798 cd716042f7dc450d8dff64e013812798
 msgid "**Example of use**"
 msgstr ""
 
@@ -119,15 +143,15 @@ msgstr ""
 #: ../../source/persons.rst:487 ../../source/persons.rst:525
 #: ../../source/persons.rst:562 ../../source/persons.rst:610
 #: ../../source/persons.rst:648 ../../source/persons.rst:685
-#: 115d88d85cd94802b29ad6a4419a8992 2202e3564d5b4dd7895710ca1c7e0d4a
-#: 23313671250941b3861f0d30e67a76e7 378a5999e33847c0b6458bfe6a02c0c8
-#: 44c550501f7041179a6f1fbaaccbfa87 63aff9df4a6a4a158c9794f578d1e5c6
-#: 641408c207f443d9b53b767b591d049c 6a46996abc0c464a9c7cfc3213963c2d
-#: 7091a131d1da4b2ebdf760f6024fac4b 7834f71f88794189afdb7d261321f019
-#: 821e84e458494630807ea1319c31702b 8a64c144f86d4f54aa7287d7fcb9ac48
-#: 9173b49eb7f24d369a091c11460bbd5c b1073fd0cf6349dc9965f31a8e0742c0
-#: bd6d03b3b60441cca3bf743d18ac05e4 c9abd5f15ec942b991a181e35a787615
-#: d918e8611d1e4c8286c84b168330af14 eaea595f916b45b995010550f1f24797
+#: 44c550501f7041179a6f1fbaaccbfa87 641408c207f443d9b53b767b591d049c
+#: 821e84e458494630807ea1319c31702b 6a46996abc0c464a9c7cfc3213963c2d
+#: 8a64c144f86d4f54aa7287d7fcb9ac48 c9abd5f15ec942b991a181e35a787615
+#: 9173b49eb7f24d369a091c11460bbd5c bd6d03b3b60441cca3bf743d18ac05e4
+#: eaea595f916b45b995010550f1f24797 378a5999e33847c0b6458bfe6a02c0c8
+#: 115d88d85cd94802b29ad6a4419a8992 23313671250941b3861f0d30e67a76e7
+#: 7834f71f88794189afdb7d261321f019 b1073fd0cf6349dc9965f31a8e0742c0
+#: 7091a131d1da4b2ebdf760f6024fac4b 2202e3564d5b4dd7895710ca1c7e0d4a
+#: d918e8611d1e4c8286c84b168330af14 63aff9df4a6a4a158c9794f578d1e5c6
 msgid "**Spreadsheet column name**"
 msgstr ""
 
@@ -144,7 +168,15 @@ msgstr ""
 #: ../../source/persons.rst:491 ../../source/persons.rst:529
 #: ../../source/persons.rst:566 ../../source/persons.rst:614
 #: ../../source/persons.rst:652 ../../source/persons.rst:689
-#: 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
+#: 95ff1dc55ec5408fbebf43a8e208196b 95ff1dc55ec5408fbebf43a8e208196b
 msgid "**Shortcode**"
 msgstr ""
 
@@ -161,8 +193,15 @@ msgstr ""
 #: ../../source/persons.rst:495 ../../source/persons.rst:533
 #: ../../source/persons.rst:570 ../../source/persons.rst:618
 #: ../../source/persons.rst:656 ../../source/persons.rst:693
-#: 993ef298d8c64693917262817e093881 9f0aa6fc1eac47f380cb78c7a669ddbd
-#: a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae 993ef298d8c64693917262817e093881
+#: 9f0aa6fc1eac47f380cb78c7a669ddbd a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
 msgid "**Sources**"
 msgstr ""
 
@@ -171,11 +210,11 @@ msgstr ""
 #: ../../source/persons.rst:117 ../../source/persons.rst:121
 #: ../../source/persons.rst:159 ../../source/persons.rst:163
 #: ../../source/persons.rst:695 ../../source/persons.rst:699
-#: 04abc534db14485f9ec4f8a54335059f 12fb604b92c84234a852d48fe3dd3323
-#: 3feebe65fb7b41ebb4a81eb34edd2c8d 5b7a5f37c7e7466aa0b75d18e2e3adee
-#: 6343d31dc2494e67a892f969bfbcc3a9 7480b765b0ee480ea98363138646378b
-#: 7915762060274c56997f897bbc4bb1f7 7ee4f0d93cbd4743892cf9ea2b22a1da
-#: bf2d23a609c74df5b3517c893170d7a4 e7a6d1ce7a514bfcb8dc2d95a195bc51
+#: 12fb604b92c84234a852d48fe3dd3323 bf2d23a609c74df5b3517c893170d7a4
+#: 5b7a5f37c7e7466aa0b75d18e2e3adee 7480b765b0ee480ea98363138646378b
+#: 6343d31dc2494e67a892f969bfbcc3a9 e7a6d1ce7a514bfcb8dc2d95a195bc51
+#: 3feebe65fb7b41ebb4a81eb34edd2c8d 7ee4f0d93cbd4743892cf9ea2b22a1da
+#: 04abc534db14485f9ec4f8a54335059f 7915762060274c56997f897bbc4bb1f7
 msgid "No"
 msgstr ""
 
@@ -188,8 +227,15 @@ msgstr ""
 #: ../../source/persons.rst:499 ../../source/persons.rst:537
 #: ../../source/persons.rst:574 ../../source/persons.rst:622
 #: ../../source/persons.rst:660 ../../source/persons.rst:697
-#: 0389933b1c9a41918e23d62756e2cfe9 5f9e265abdc2444287139b9679b68fa5
-#: a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: 5f9e265abdc2444287139b9679b68fa5 a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: 0389933b1c9a41918e23d62756e2cfe9 a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
 msgid "**Confidence**"
 msgstr ""
 
@@ -202,15 +248,23 @@ msgstr ""
 #: ../../source/persons.rst:503 ../../source/persons.rst:541
 #: ../../source/persons.rst:578 ../../source/persons.rst:626
 #: ../../source/persons.rst:664 ../../source/persons.rst:701
-#: a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
+#: a15e25ba35834911b4af90461f6e2aae a15e25ba35834911b4af90461f6e2aae
 msgid "**Guidance on use**"
 msgstr ""
 
 #: ../../source/persons.rst:48 20e884477907471cadd552035f87324e
 msgid ""
 "This value is a Universally Unique Indentifier (UUID) generated using a "
-"computer program. UUIDs can be created easily using either installable or"
-" online tools, for example:"
+"computer program. UUIDs can be created easily using either installable or "
+"online tools, for example:"
 msgstr ""
 
 #: ../../source/persons.rst:50 4ea1becf11a540fd8ed07fc03b13b69e
@@ -224,28 +278,28 @@ msgstr ""
 #: ../../source/persons.rst:53 fc08f0f544a44c61b64616bc81091b3c
 msgid ""
 "The field is administrative, providing a reliable way to differentiate "
-"between different persons. In earlier versions, Security Force Monitor "
-"used ``person:name`` to do this role but this provided inefficient as the"
-" dataset grew."
+"between different persons. In earlier versions, Security Force Monitor used "
+"``person:name`` to do this role but this provided inefficient as the dataset"
+" grew."
 msgstr ""
 
 #: ../../source/persons.rst:55 5553be1eefc748afbe8e5d1f6286a9df
 msgid ""
 "When a new person is created directly in WhoWasInCommand, the platform "
-"automatically creates a UUID for that person and stores it in this field."
-" If a new person is created in a spreadsheet, the Staff Researcher must "
-"generate a unique identifying number for that person and copy it into the"
-" field ``person:id:admin`` for every row associated with that specific "
-"person. This manual, copy-and-paste step is a potential source of error "
-"and the Staff Researcher must be careful not to re-use a UUID."
+"automatically creates a UUID for that person and stores it in this field. If"
+" a new person is created in a spreadsheet, the Staff Researcher must "
+"generate a unique identifying number for that person and copy it into the "
+"field ``person:id:admin`` for every row associated with that specific "
+"person. This manual, copy-and-paste step is a potential source of error and "
+"the Staff Researcher must be careful not to re-use a UUID."
 msgstr ""
 
 #: ../../source/persons.rst:57 a1ef1730bc494d599e46b8b92c0e05c7
 msgid ""
-"Bulk updates made to WhoWasInCommand.com by spreadsheet import are based "
-"on the values in this field. For example, changes made in the row "
-"``a407be6a-28e6-4237-b4e9-307f27b1202e`` in the spreadsheet will be "
-"applied to the person with that UUID in WhoWasInCommand."
+"Bulk updates made to WhoWasInCommand.com by spreadsheet import are based on "
+"the values in this field. For example, changes made in the row ``a407be6a-"
+"28e6-4237-b4e9-307f27b1202e`` in the spreadsheet will be applied to the "
+"person with that UUID in WhoWasInCommand."
 msgstr ""
 
 #: ../../source/persons.rst:60 2ce1fe0b77f24759a48d1cab508f087d
@@ -258,8 +312,8 @@ msgstr ""
 
 #: ../../source/persons.rst:66 ../../source/persons.rst:143
 #: ../../source/persons.rst:519 ../../source/persons.rst:642
-#: 8234f977be014bbdb7e8f61af2e31619 d05dc620d990476889f0c0a19c3267bd
-#: e1877b8f35434d3eb9fa4e009934b61d f7028aab47524aa980bcf3f0409090df
+#: d05dc620d990476889f0c0a19c3267bd 8234f977be014bbdb7e8f61af2e31619
+#: f7028aab47524aa980bcf3f0409090df e1877b8f35434d3eb9fa4e009934b61d
 msgid "Text"
 msgstr ""
 
@@ -277,12 +331,11 @@ msgstr ""
 
 #: ../../source/persons.rst:90 faa4abcbe749442baf465b8f53b3169d
 msgid ""
-"This field is administrative and only used where data are created using a"
-" spreadsheets. It is a simple measure to help researchers keep track of "
-"records they have created. These data are not imported into "
-"WhoWasInCommand. Instead, WhoWasInCommand keeps a record of the changes "
-"(edits, new records, deletions) by the name of the system user who made "
-"them."
+"This field is administrative and only used where data are created using a "
+"spreadsheets. It is a simple measure to help researchers keep track of "
+"records they have created. These data are not imported into WhoWasInCommand."
+" Instead, WhoWasInCommand keeps a record of the changes (edits, new records,"
+" deletions) by the name of the system user who made them."
 msgstr ""
 
 #: ../../source/persons.rst:93 f2b7d1ca0bbe4a7bbf79918ca2f5e685
@@ -311,21 +364,22 @@ msgstr ""
 
 #: ../../source/persons.rst:125 600da92cfe704833a16c2ffecdceec33
 msgid ""
-"This administrative field is only used in spreadsheets. Staff Researchers"
-" use this field to indicate where a row of data stands in the research "
+"This administrative field is only used in spreadsheets. Staff Researchers "
+"use this field to indicate where a row of data stands in the research "
 "workflow between the first cut of a row of data, review by other "
-"researchers, and final readiness for publication. Values in this field "
-"are taken from the below controlled list:"
+"researchers, and final readiness for publication. Values in this field are "
+"taken from the below controlled list:"
 msgstr ""
 
 #: ../../source/persons.rst:127 a64570e586644c33930373317e5dc49d
-msgid "`0`: First commit. This row of data has just been added and needs review."
+msgid ""
+"`0`: First commit. This row of data has just been added and needs review."
 msgstr ""
 
 #: ../../source/persons.rst:128 ac9d5530e4de48a3ab5f23d4f51d2478
 msgid ""
-"`1`: Fixes needed. A reviewer has made comments that need to be "
-"addressed, which will be recorded in the ``person:comment:admin`` field."
+"`1`: Fixes needed. A reviewer has made comments that need to be addressed, "
+"which will be recorded in the ``person:comment:admin`` field."
 msgstr ""
 
 #: ../../source/persons.rst:129 969e2baa1abd4fc8a51f76bedcefb3b5
@@ -336,14 +390,14 @@ msgstr ""
 
 #: ../../source/persons.rst:130 4a23cd557cef4ddb8f87a5e94c83ce32
 msgid ""
-"`3`: Clean. A final check has been made by a reviewer, and this row of "
-"data can be published."
+"`3`: Clean. A final check has been made by a reviewer, and this row of data "
+"can be published."
 msgstr ""
 
 #: ../../source/persons.rst:132 aa3076edac9c459fa608b1e4ec6c2e29
 msgid ""
-"Data created and managed in WhoWasInCommand does not use this mechanism. "
-"At the time of writing, a simple review system is being implemeneted in "
+"Data created and managed in WhoWasInCommand does not use this mechanism. At "
+"the time of writing, a simple review system is being implemeneted in "
 "WhoWasInCommand."
 msgstr ""
 
@@ -372,11 +426,11 @@ msgstr ""
 #: ../../source/persons.rst:167 74af83c5fff64f35a03157b3d780d68d
 msgid ""
 "This is an adminstrative field specific to data created in spreadsheets. "
-"Staff Researchers use it to pass on feedback about the data in the row. "
-"This may included changes needs to specific fields, references to sources"
-" that the owner of the row might look at, and other observations that can"
-" improve the quality of the data. Data in this field are not intended for"
-" publication."
+"Staff Researchers use it to pass on feedback about the data in the row. This"
+" may included changes needs to specific fields, references to sources that "
+"the owner of the row might look at, and other observations that can improve "
+"the quality of the data. Data in this field are not intended for "
+"publication."
 msgstr ""
 
 #: ../../source/persons.rst:170 ff132d7133504ca483cab53798dcd62c
@@ -409,16 +463,16 @@ msgstr ""
 
 #: ../../source/persons.rst:202 813382111f1546378eed196ab8c8e9d8
 msgid ""
-"Different sources will spell the name of a person in different ways, so "
-"we choose a name to be a canonical entry for that person. Whenever "
-"possible, the canonical entry will contain the most complicated or "
-"complete version of a person's name, even if it has the smallest number "
-"of citations. For example ``Magaji Musa Majia'a`` will be used instead of"
-" ``Magaji Majiaa``. Other names will be placed in the ``Person: Othr "
-"Names`` field (documented below). Titles, roles, honorifics and other "
-"attributes that are more correctly linked to a person's posting in a unit"
-" are recorded in fields like ``Person: Posting Rank``, ``Person: Posting "
-"Role`` or ``Person: Posting Title``."
+"Different sources will spell the name of a person in different ways, so we "
+"choose a name to be a canonical entry for that person. Whenever possible, "
+"the canonical entry will contain the most complicated or complete version of"
+" a person's name, even if it has the smallest number of citations. For "
+"example ``Magaji Musa Majia'a`` will be used instead of ``Magaji Majiaa``. "
+"Other names will be placed in the ``Person: Othr Names`` field (documented "
+"below). Titles, roles, honorifics and other attributes that are more "
+"correctly linked to a person's posting in a unit are recorded in fields like"
+" ``Person: Posting Rank``, ``Person: Posting Role`` or ``Person: Posting "
+"Title``."
 msgstr ""
 
 #: ../../source/persons.rst:205 e7d8dc09421042f5a1c942244afb4c86
@@ -431,6 +485,7 @@ msgstr ""
 
 #: ../../source/persons.rst:213 ../../source/persons.rst:359
 #: ../../source/persons.rst:394 f96878a0aae34bf7ba757e732af642e2
+#: f96878a0aae34bf7ba757e732af642e2 f96878a0aae34bf7ba757e732af642e2
 msgid "Text and numbers, free entry"
 msgstr ""
 
@@ -456,14 +511,14 @@ msgstr ""
 
 #: ../../source/persons.rst:237 58090d8ff0ca4ff7944734bfbc9b893f
 msgid ""
-"Different sources will spell a person's name in different ways. We choose"
-" and record a canonical version of a person's name in the ``Person: "
-"Name`` field. All other spellings that we have found are treated as "
-"aliases and stored in this field. This field may contain multiple values,"
-" which will be separated by a semi-colon. Titles, roles, honorifics and "
-"other attributes that are more correctly linked to a person's posting in "
-"a unit are recorded in fields like ``Person: Posting Rank``, ``Person: "
-"Posting Role`` or ``Person: Posting Title``."
+"Different sources will spell a person's name in different ways. We choose "
+"and record a canonical version of a person's name in the ``Person: Name`` "
+"field. All other spellings that we have found are treated as aliases and "
+"stored in this field. This field may contain multiple values, which will be "
+"separated by a semi-colon. Titles, roles, honorifics and other attributes "
+"that are more correctly linked to a person's posting in a unit are recorded "
+"in fields like ``Person: Posting Rank``, ``Person: Posting Role`` or "
+"``Person: Posting Title``."
 msgstr ""
 
 #: ../../source/persons.rst:240 148982471038489da3a341605fd9d29b
@@ -492,30 +547,30 @@ msgstr ""
 
 #: ../../source/persons.rst:264 87203d5803734dd39d9bc6793fe7071c
 msgid ""
-"Yes (``person:country:source``, ``p_c_s``), but only in WhoWasInCommand "
-"and not spreadsheets."
+"Yes (``person:country:source``, ``p_c_s``), but only in WhoWasInCommand and "
+"not spreadsheets."
 msgstr ""
 
 #: ../../source/persons.rst:268 2a8133adb88d43f3b0560de749e910bb
 msgid ""
-"Yes (``person:country:confidence``, ``p_c_c``), but only in "
-"WhoWasInCommand and not spreadsheets."
+"Yes (``person:country:confidence``, ``p_c_c``), but only in WhoWasInCommand "
+"and not spreadsheets."
 msgstr ""
 
 #: ../../source/persons.rst:272 77a3b570b0e3454aa7b636a42ebe9519
 msgid ""
-"Values for this field are chosen from the list of ISO 3166-1 alpha-2 "
-"codes, which can be found (`on the ISO website "
+"Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, "
+"which can be found (`on the ISO website "
 "<https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia "
 "<https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__."
 " This field does not denote the citizenship or country of origin of a "
-"person. Rather, it denotes where a unit they are a member of is located. "
-"For example, if ``1 Batallón de Infantería`` is located in Juarez, "
-"Mexico, the unit will be assigned a value of ``mx`` in the field ``Unit: "
-"Country``. Any person who is a member of that unit will be assigned a "
-"value of ``mx`` in the field ``Person: Country`` as well. A person may "
-"have multiple entries for ``Person: Country`` where our research shows "
-"they or a unit they are a member of is deployed to different countries."
+"person. Rather, it denotes where a unit they are a member of is located. For"
+" example, if ``1 Batallón de Infantería`` is located in Juarez, Mexico, the "
+"unit will be assigned a value of ``mx`` in the field ``Unit: Country``. Any "
+"person who is a member of that unit will be assigned a value of ``mx`` in "
+"the field ``Person: Country`` as well. A person may have multiple entries "
+"for ``Person: Country`` where our research shows they or a unit they are a "
+"member of is deployed to different countries."
 msgstr ""
 
 #: ../../source/persons.rst:275 85832b4e20624e628106e8f6fac2f6c2
@@ -527,7 +582,7 @@ msgid "The unit that the person is a member of."
 msgstr ""
 
 #: ../../source/persons.rst:283 ../../source/persons.rst:318
-#: 2591669f4e254f5b888ece48c98e91a5
+#: 2591669f4e254f5b888ece48c98e91a5 2591669f4e254f5b888ece48c98e91a5
 msgid "Text and numbers, controlled vocabulary"
 msgstr ""
 
@@ -553,15 +608,15 @@ msgstr ""
 
 #: ../../source/persons.rst:307 bfe18b9f5d0a47c491e8503e58ea0c13
 msgid ""
-"Values in this field correspond with names of units that already exist in"
-" the dataset (recording in the field ``Unit: Name``. A person can have "
+"Values in this field correspond with names of units that already exist in "
+"the dataset (recording in the field ``Unit: Name``. A person can have "
 "multiple postings to the same unit. These are triggered when there is a "
 "change to their entries for ``Person: Posting Rank``, ``Person: Posting "
-"Title`` or ``Person: Posting Role`` with respect to the unit. An example "
-"of this is where a person is promoted. Another case where a person can "
-"have multiple posting of the same unit is where research indicates there "
-"are clear start or end dates to a posting. An example of where this might"
-" occur is if a person does multiple \"tours\" in a particular unit."
+"Title`` or ``Person: Posting Role`` with respect to the unit. An example of "
+"this is where a person is promoted. Another case where a person can have "
+"multiple posting of the same unit is where research indicates there are "
+"clear start or end dates to a posting. An example of where this might occur "
+"is if a person does multiple \"tours\" in a particular unit."
 msgstr ""
 
 #: ../../source/persons.rst:310 2ce1fe0b77f24759a48d1cab508f087d
@@ -602,25 +657,25 @@ msgstr ""
 
 #: ../../source/persons.rst:344 deabede077aa48c7998ab33ceb94a164
 msgid ""
-"There are a variety of other roles a person can have including ``Second "
-"in Command``, ``Chief of Staff`` along with other less common entries. "
-"They will vary between countries."
+"There are a variety of other roles a person can have including ``Second in "
+"Command``, ``Chief of Staff`` along with other less common entries. They "
+"will vary between countries."
 msgstr ""
 
 #: ../../source/persons.rst:346 4a7aab37d80845dd9b0ebf221675d993
 msgid ""
-"As a special note, heads of academic or other security force institutions"
-" will sometimes be referred to as the ``Commandant``. In these cases, "
+"As a special note, heads of academic or other security force institutions "
+"will sometimes be referred to as the ``Commandant``. In these cases, "
 "``Commandant`` should be recorded in the ``Title`` field, and their role "
 "should be recorded as ``Commander``."
 msgstr ""
 
 #: ../../source/persons.rst:348 a063e323eb7e456ea420711b57b94d4b
 msgid ""
-"If a person is referred to as “the head”, “chief” or some other variation"
-" indicating that they are in charge of a unit, they should be regarded as"
-" the ``Commander`` for the purposes of entering a value in ``Person: "
-"Posting Role``."
+"If a person is referred to as “the head”, “chief” or some other variation "
+"indicating that they are in charge of a unit, they should be regarded as the"
+" ``Commander`` for the purposes of entering a value in ``Person: Posting "
+"Role``."
 msgstr ""
 
 #: ../../source/persons.rst:351 85832b4e20624e628106e8f6fac2f6c2
@@ -663,7 +718,8 @@ msgid "Person: Posting Rank"
 msgstr ""
 
 #: ../../source/persons.rst:390 c3315de2daac4501b02937eabf9db2c8
-msgid "The official position of a person in the hierarchy of a security force."
+msgid ""
+"The official position of a person in the hierarchy of a security force."
 msgstr ""
 
 #: ../../source/persons.rst:398 9af0e44bf944486396677360323315c7
@@ -688,14 +744,13 @@ msgstr ""
 
 #: ../../source/persons.rst:418 1a85d068ac6c466a9d6a3d8de8356f62
 msgid ""
-"We remove any dashes that are contained in ``Person: Posting Rank`` "
-"values."
+"We remove any dashes that are contained in ``Person: Posting Rank`` values."
 msgstr ""
 
 #: ../../source/persons.rst:420 f6b5f7a3dc9146f1a55b372bec78e876
 msgid ""
-"For example, we would enter ``Brigadier General`` rather than "
-"``Brigadier-General``."
+"For example, we would enter ``Brigadier General`` rather than ``Brigadier-"
+"General``."
 msgstr ""
 
 #: ../../source/persons.rst:423 2ee484353a464b1fbea11269922fccd2
@@ -704,13 +759,13 @@ msgstr ""
 
 #: ../../source/persons.rst:427 86211df1a4ef4be5a3c1ed125517da35
 msgid ""
-"The earliest date a source evidences a relationship between a person and "
-"a unit, either through direct reference in the source or by the date of "
-"its publication."
+"The earliest date a source evidences a relationship between a person and a "
+"unit, either through direct reference in the source or by the date of its "
+"publication."
 msgstr ""
 
 #: ../../source/persons.rst:431 ../../source/persons.rst:556
-#: ea31b7b3fc554f59b5b2a83f6ab196b9
+#: ea31b7b3fc554f59b5b2a83f6ab196b9 ea31b7b3fc554f59b5b2a83f6ab196b9
 msgid "Date (YYYY-MM-DD), fuzzy"
 msgstr ""
 
@@ -736,10 +791,10 @@ msgstr ""
 
 #: ../../source/persons.rst:455 a5ac397f4fa6494ab2a8dab6e2238dde
 msgid ""
-"Along with the fields ``Person: Posting First Cited Date is Start Date``,"
-" ``Person: Posting Last Cited Date`` and ``Person: Posting Last Cited "
-"Date is End Date`` this field provides data about the time period over "
-"which we can evidence a person's relationships to a unit."
+"Along with the fields ``Person: Posting First Cited Date is Start Date``, "
+"``Person: Posting Last Cited Date`` and ``Person: Posting Last Cited Date is"
+" End Date`` this field provides data about the time period over which we can"
+" evidence a person's relationships to a unit."
 msgstr ""
 
 #: ../../source/persons.rst:457 1bb44546e64b46aa9b4e1b6517750fc5
@@ -762,48 +817,47 @@ msgstr ""
 
 #: ../../source/persons.rst:462 0038518027a24e1c877d88276825e914
 msgid ""
-"For example, if three sources published on 1 January 2012, 1 February "
-"2012 and 1 March 2012 all refer to this person as a commander, we will "
-"use 1 January 2012 as the value in ``Person: Posting First Cited Date``. "
-"If the source published on 1 March 2012 refers to this person as a "
-"commander on the date of 30 June 2011, we will use 30 June 2011 as the "
-"value in ``Person: Posting First Cited Date``."
+"For example, if three sources published on 1 January 2012, 1 February 2012 "
+"and 1 March 2012 all refer to this person as a commander, we will use 1 "
+"January 2012 as the value in ``Person: Posting First Cited Date``. If the "
+"source published on 1 March 2012 refers to this person as a commander on the"
+" date of 30 June 2011, we will use 30 June 2011 as the value in ``Person: "
+"Posting First Cited Date``."
 msgstr ""
 
 #: ../../source/persons.rst:464 5a2749d95b574285a553d5c4505ee012
 msgid ""
 "The values for ``Person: Posting Title``, ``Person: Posting Role`` and "
-"``Person: Posting Rank`` held by a person are assumed to continue until a"
-" source indicates a change in any of those values. If the person's role, "
-"title or rank changes a new entry will need to be created to document "
-"that change. This new entry will have updated values for ``Person: "
-"Posting First Cited Date`` and related date fields."
+"``Person: Posting Rank`` held by a person are assumed to continue until a "
+"source indicates a change in any of those values. If the person's role, "
+"title or rank changes a new entry will need to be created to document that "
+"change. This new entry will have updated values for ``Person: Posting First "
+"Cited Date`` and related date fields."
 msgstr ""
 
 #: ../../source/persons.rst:466 ea4826c377db41eea2ac56f8dd16568b
 msgid ""
-"For example, if a source indicates that Major General Jack Johnson is the"
-" commander of 1 Division as of 2007-08-20 all of the relevant fields "
-"would be entered based on that source. If another source states that Jack"
-" Johnson retired from the 1 Division on 2008-01-10 the last citation for "
-"Jack Johnson's affiliation would be 2008-01-10. However, this would also "
-"assume that Jack Johnson continued to have the Role of Commander and the "
-"Rank of Major General from 2007-08-20 until 2008-01-10."
+"For example, if a source indicates that Major General Jack Johnson is the "
+"commander of 1 Division as of 2007-08-20 all of the relevant fields would be"
+" entered based on that source. If another source states that Jack Johnson "
+"retired from the 1 Division on 2008-01-10 the last citation for Jack "
+"Johnson's affiliation would be 2008-01-10. However, this would also assume "
+"that Jack Johnson continued to have the Role of Commander and the Rank of "
+"Major General from 2007-08-20 until 2008-01-10."
 msgstr ""
 
 #: ../../source/persons.rst:468 d32d1fe2234e47bb9e8e9e9852569f10
 msgid ""
 "In keeping with all date fields we include in this dataset, where our "
-"research can only find a year or a year and a month, this can be included"
-" in ``Person: Posting First Cited Date``."
+"research can only find a year or a year and a month, this can be included in"
+" ``Person: Posting First Cited Date``."
 msgstr ""
 
 #: ../../source/persons.rst:470 fe584ae2857242939ae28be53b6f1cc0
 msgid ""
-"This field is clarified by the field ``Person: Posting First Cited Date "
-"is Start Date`` which indicates whether the date included here is the "
-"actual date on which the relationship between a person and a unit "
-"started."
+"This field is clarified by the field ``Person: Posting First Cited Date is "
+"Start Date`` which indicates whether the date included here is the actual "
+"date on which the relationship between a person and a unit started."
 msgstr ""
 
 #: ../../source/persons.rst:473 2ee484353a464b1fbea11269922fccd2
@@ -812,18 +866,18 @@ msgstr ""
 
 #: ../../source/persons.rst:477 3c3181b5026f4e82b891154b071aa201
 msgid ""
-"Indicates whether the value in ``Person: Posting First Cited Date`` is "
-"the actual date on which a person became a member of this unit, or the "
-"earliest date a source has referred to the relationship."
+"Indicates whether the value in ``Person: Posting First Cited Date`` is the "
+"actual date on which a person became a member of this unit, or the earliest "
+"date a source has referred to the relationship."
 msgstr ""
 
 #: ../../source/persons.rst:481 ../../source/persons.rst:604
-#: 3cb7461bad6748a4ab248f5a02e76aac
+#: 3cb7461bad6748a4ab248f5a02e76aac 3cb7461bad6748a4ab248f5a02e76aac
 msgid "Boolean"
 msgstr ""
 
 #: ../../source/persons.rst:485 ../../source/persons.rst:608
-#: 1d9ae909b8a24028b84221b8cee31558
+#: 1d9ae909b8a24028b84221b8cee31558 1d9ae909b8a24028b84221b8cee31558
 msgid "``Y``, ``N``"
 msgstr ""
 
@@ -849,20 +903,20 @@ msgstr ""
 
 #: ../../source/persons.rst:505 666c025183a24e6cbb3bdb8c87c9bd14
 msgid ""
-"This is a clarifying field for ``Person: Posting First Cited Date`` and "
-"has two options:"
+"This is a clarifying field for ``Person: Posting First Cited Date`` and has "
+"two options:"
 msgstr ""
 
 #: ../../source/persons.rst:507 401b4eb330a24aeea03ac5790dd6310a
 msgid ""
-"``Y``: Where the content of the source has indicated the exact date that "
-"a relationship between a person and a unit began"
+"``Y``: Where the content of the source has indicated the exact date that a "
+"relationship between a person and a unit began"
 msgstr ""
 
 #: ../../source/persons.rst:508 fc1880dd8ffb46b188fee100f6579196
 msgid ""
-"``N``: In all other cases we will enter a value of ``N`` to indicate that"
-" the date is not a start date, but the date of first citation."
+"``N``: In all other cases we will enter a value of ``N`` to indicate that "
+"the date is not a start date, but the date of first citation."
 msgstr ""
 
 #: ../../source/persons.rst:511 2ee484353a464b1fbea11269922fccd2
@@ -871,15 +925,15 @@ msgstr ""
 
 #: ../../source/persons.rst:515 3c300b8042114c66b5803353a076195a
 msgid ""
-"Additional information explaining why we are able to be specific about "
-"the start date of a person's specific posting to a unit."
+"Additional information explaining why we are able to be specific about the "
+"start date of a person's specific posting to a unit."
 msgstr ""
 
 #: ../../source/persons.rst:523 ../../source/persons.rst:646
 #: c2c5bdc1a42840338447e126caf2c176 dde2c1e71a7044d4bc73480d3d424e2c
 msgid ""
-"``Person was promoted on this date``, ``Person retired from the army on "
-"this date``"
+"``Person was promoted on this date``, ``Person retired from the army on this"
+" date``"
 msgstr ""
 
 #: ../../source/persons.rst:527 28c17e26dd5746cdb8fbd533ec39f3cc
@@ -903,7 +957,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/persons.rst:543 ../../source/persons.rst:666
-#: 0e4dea3a6944479a92ae8110ad54f590
+#: 0e4dea3a6944479a92ae8110ad54f590 0e4dea3a6944479a92ae8110ad54f590
 msgid "This field is not currently in use in spreadsheets or WhoWasInCommand."
 msgstr ""
 
@@ -922,8 +976,8 @@ msgstr ""
 #: ../../source/persons.rst:552 088c687bac29480c96a6dd846c956d8a
 msgid ""
 "The latest date a source evidences a relationship between a person and a "
-"unit, either through direct reference in the source or by the date of its"
-" publication."
+"unit, either through direct reference in the source or by the date of its "
+"publication."
 msgstr ""
 
 #: ../../source/persons.rst:560 8b7a59152b034a1f99a2bf3b696aa1a9
@@ -948,11 +1002,10 @@ msgstr ""
 
 #: ../../source/persons.rst:580 4d0d6a36386546418246b4f12b907f85
 msgid ""
-"Along with the fields ``Person: Posting First Cited Date``, ``Person: "
-"First Cited Date is Start Date``, and ``Person: Posting Last Cited Date "
-"is End Date`` the field ``Person: Posting Last Cited Date`` provides data"
-" about the time period over which we can evidence a person's "
-"relationships to a unit."
+"Along with the fields ``Person: Posting First Cited Date``, ``Person: First "
+"Cited Date is Start Date``, and ``Person: Posting Last Cited Date is End "
+"Date`` the field ``Person: Posting Last Cited Date`` provides data about the"
+" time period over which we can evidence a person's relationships to a unit."
 msgstr ""
 
 #: ../../source/persons.rst:582 1bb44546e64b46aa9b4e1b6517750fc5
@@ -975,36 +1028,36 @@ msgstr ""
 
 #: ../../source/persons.rst:587 6d38524bfe794180b4ac0962e8ea5560
 msgid ""
-"For example, if three sources published on 1 January 2012, 1 February "
-"2012 and 1 March 2012 all refer to this person as a commander, we will "
-"use 1 March 2012 as the value in ``Person: Posting Last Cited Date``. If "
-"the source published on 1 March 2012 refers to this person as a commander"
-" on the date of 14 February 2011, we will use 14 February 2011 as the "
-"value in ``Person: Posting Last Cited Date``."
+"For example, if three sources published on 1 January 2012, 1 February 2012 "
+"and 1 March 2012 all refer to this person as a commander, we will use 1 "
+"March 2012 as the value in ``Person: Posting Last Cited Date``. If the "
+"source published on 1 March 2012 refers to this person as a commander on the"
+" date of 14 February 2011, we will use 14 February 2011 as the value in "
+"``Person: Posting Last Cited Date``."
 msgstr ""
 
 #: ../../source/persons.rst:589 5a2749d95b574285a553d5c4505ee012
 msgid ""
 "The values for ``Person: Posting Title``, ``Person: Posting Role`` and "
-"``Person: Posting Rank`` held by a person are assumed to continue until a"
-" source indicates a change in any of those values. If the person's role, "
-"title or rank changes a new entry will need to be created to document "
-"that change. This new entry will have updated values for ``Person: "
-"Posting Last Cited Date`` and related date fields."
+"``Person: Posting Rank`` held by a person are assumed to continue until a "
+"source indicates a change in any of those values. If the person's role, "
+"title or rank changes a new entry will need to be created to document that "
+"change. This new entry will have updated values for ``Person: Posting Last "
+"Cited Date`` and related date fields."
 msgstr ""
 
 #: ../../source/persons.rst:591 f8735c467b9f455cb73126cc97f53a18
 msgid ""
 "In keeping with all date fields we include in this dataset, where our "
-"research can only find a year or a year and a month, this can be included"
-" ``Person: Posting Last Cited Date`` ."
+"research can only find a year or a year and a month, this can be included "
+"``Person: Posting Last Cited Date`` ."
 msgstr ""
 
 #: ../../source/persons.rst:593 941097b9781d4936b680ffaa1b00a53a
 msgid ""
-"This field is clarified by the field ``Person: Posting Last Cited Date is"
-" End Date`` which indicates whether the date included here is the actual "
-"date on which the relationship between a person and a unit ended."
+"This field is clarified by the field ``Person: Posting Last Cited Date is "
+"End Date`` which indicates whether the date included here is the actual date"
+" on which the relationship between a person and a unit ended."
 msgstr ""
 
 #: ../../source/persons.rst:596 de915b5dbcee49f593493a2a549ee2ac
@@ -1014,8 +1067,8 @@ msgstr ""
 #: ../../source/persons.rst:600 51d63b849398405bbe5125e61d8b1dae
 msgid ""
 "This field indicates whether the value in ``Person : Posting Last Cited "
-"Date`` is the actual end date on which the person ceased to be a member "
-"of this unit or if it is only the date last cited for that relationship."
+"Date`` is the actual end date on which the person ceased to be a member of "
+"this unit or if it is only the date last cited for that relationship."
 msgstr ""
 
 #: ../../source/persons.rst:612 ac3c55884e364fa88d8b890e9d4e8623
@@ -1040,8 +1093,8 @@ msgstr ""
 
 #: ../../source/persons.rst:628 666c025183a24e6cbb3bdb8c87c9bd14
 msgid ""
-"This is a clarifying field for ``Person : Posting Last Cited Date``. One "
-"of the below values should be chosen:"
+"This is a clarifying field for ``Person : Posting Last Cited Date``. One of "
+"the below values should be chosen:"
 msgstr ""
 
 #: ../../source/persons.rst:630 401b4eb330a24aeea03ac5790dd6310a
@@ -1052,8 +1105,8 @@ msgstr ""
 
 #: ../../source/persons.rst:631 f3ec16b8751e408795f9a4b02fd705ae
 msgid ""
-"``N`` indicates that the date is not an exact end date, but the date of "
-"last citation."
+"``N`` indicates that the date is not an exact end date, but the date of last"
+" citation."
 msgstr ""
 
 #: ../../source/persons.rst:634 b98abf728ec44b44838a641990ecf428
@@ -1062,8 +1115,8 @@ msgstr ""
 
 #: ../../source/persons.rst:638 2e78dd7aef8c4519818a4e9750dc85b6
 msgid ""
-"Additional information explaining why we are able to be specific about "
-"the end date of a person's specific posting to a unit."
+"Additional information explaining why we are able to be specific about the "
+"end date of a person's specific posting to a unit."
 msgstr ""
 
 #: ../../source/persons.rst:650 59f3e6b9b1d5478c878cf617ab0d297a
@@ -1076,8 +1129,7 @@ msgstr ""
 
 #: ../../source/persons.rst:658 211a4f3982c946cb91ec2cbcd839a6b6
 msgid ""
-"Yes (``person:posting_first_cited_date_end_context:source``, "
-"``p_pfcdec_s``)"
+"Yes (``person:posting_first_cited_date_end_context:source``, ``p_pfcdec_s``)"
 msgstr ""
 
 #: ../../source/persons.rst:662 7453786728e9492c9770c15047454293
@@ -1090,8 +1142,8 @@ msgstr ""
 msgid ""
 "This is a clarifying field for the ``Person: Posting Last Cited Date is "
 "Date``, and enables us to capture the reasons that persons move between "
-"units. The data in this field should be a simple statement summarising "
-"the reason described in the source."
+"units. The data in this field should be a simple statement summarising the "
+"reason described in the source."
 msgstr ""
 
 #: ../../source/persons.rst:671 e97e892bd6e74a9691dfdd5f3f0d3635
@@ -1106,8 +1158,8 @@ msgstr ""
 
 #: ../../source/persons.rst:683 4eea80dbd941487b925396840e787082
 msgid ""
-"``Trained in logisitics at Fort Lackland, Texas and the air force base of"
-" Wright Patterson, Ohio.``"
+"``Trained in logisitics at Fort Lackland, Texas and the air force base of "
+"Wright Patterson, Ohio.``"
 msgstr ""
 
 #: ../../source/persons.rst:687 2ce1fe0b77f24759a48d1cab508f087d
@@ -1120,10 +1172,8 @@ msgstr ""
 
 #: ../../source/persons.rst:703 f3887a24a131464d9773e324802c6119
 msgid ""
-"We use this field to record information about the person that is likely "
-"to provide useful context, additional information that does not fit into "
-"the data structure, and notes about how decisions were made about which "
-"data to include. Any sources used should be included directly inside the "
-"field."
+"We use this field to record information about the person that is likely to "
+"provide useful context, additional information that does not fit into the "
+"data structure, and notes about how decisions were made about which data to "
+"include. Any sources used should be included directly inside the field."
 msgstr ""
-

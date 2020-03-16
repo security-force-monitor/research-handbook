@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2019, Security Force Monitor
-# This file is distributed under the same license as the SFM Research
-# Handbook package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: SFM Research Handbook \n"
+"Project-Id-Version: SFM Research Handbook\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-11 16:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-03-16 12:32+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/sfm/teams/108084/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/methodology.rst:2 a3d32e76060045fda5c37b0586dabba5
 msgid "Research methodology"
@@ -39,9 +38,9 @@ msgstr ""
 #: ../../source/methodology.rst:11 c364905b290f47568fa4acbb34eec4d1
 msgid ""
 "Security Force Monitor collects data about the :doc:`persons` and "
-":doc:`units` that comprise security forces, along with allegations of "
-"human rights abuses made against security forces. This data is carefully "
-"collected from a variety of sources, generally online. These include:"
+":doc:`units` that comprise security forces, along with allegations of human "
+"rights abuses made against security forces. This data is carefully collected"
+" from a variety of sources, generally online. These include:"
 msgstr ""
 
 #: ../../source/methodology.rst:13 ed4a5dc112314203bd07a2c4c6c8d299
@@ -116,25 +115,24 @@ msgstr ""
 
 #: ../../source/methodology.rst:32 5d6cc2d8957547f6a0ac8e024ae17640
 msgid ""
-"Security Force Monitor researchers familiarize themselves with the "
-"country’s governance and administrative structures, gaining understanding"
-" about the levels of government (for example: local, regional, state, "
-"national) and their connection to different security forces. In examining"
-" this we also flag where there might be major changes in the structure of"
-" government, such as those that may accompany a constitutional referendum"
-" or a peace process. These affect how the Monitor will represent data on "
-"security forces over time."
+"Security Force Monitor researchers familiarize themselves with the country’s"
+" governance and administrative structures, gaining understanding about the "
+"levels of government (for example: local, regional, state, national) and "
+"their connection to different security forces. In examining this we also "
+"flag where there might be major changes in the structure of government, such"
+" as those that may accompany a constitutional referendum or a peace process."
+" These affect how the Monitor will represent data on security forces over "
+"time."
 msgstr ""
 
 #: ../../source/methodology.rst:34 4ebee714365c43a0a475f9e5d082ab39
 msgid ""
 "Examining the administrative geography of a country provides important "
-"context for the structure and operations of the security forces. This "
-"part of the scoping process also gives us insight into how much of a "
-"country’s administrative geography is represented in online gazetteers "
-"(like `OpenStreetMap <https://nominatim.openstreetmap.org/>`__ or "
-"`GeoNames <https://www.geonames.org>`__) that the Monitor uses in its "
-"analysis."
+"context for the structure and operations of the security forces. This part "
+"of the scoping process also gives us insight into how much of a country’s "
+"administrative geography is represented in online gazetteers (like "
+"`OpenStreetMap <https://nominatim.openstreetmap.org/>`__ or `GeoNames "
+"<https://www.geonames.org>`__) that the Monitor uses in its analysis."
 msgstr ""
 
 #: ../../source/methodology.rst:36 b9a683e1e6694177ba949b85e6b48e7e
@@ -144,17 +142,17 @@ msgstr ""
 #: ../../source/methodology.rst:38 5ee6ad6048c345be82724a890cc8f04e
 msgid ""
 "During this first phase, researchers also identify sources that could be "
-"turned into large, high value datasets for the Monitor. These are sources"
-" that contain a sufficiently large amount or complex type of data that "
-"technical help is necessary to extract it in a timely way; doing the work"
-" “by hand” is possible, but would be slow and error prone. These high "
-"value data extraction tasks use techniques such as web-scraping, scripted"
-" parsing and geospatial analysis. An example of these types of sources "
-"are the `Internet Archive snapshots the official webpage of the Mexican "
-"Army and Air Force "
+"turned into large, high value datasets for the Monitor. These are sources "
+"that contain a sufficiently large amount or complex type of data that "
+"technical help is necessary to extract it in a timely way; doing the work "
+"“by hand” is possible, but would be slow and error prone. These high value "
+"data extraction tasks use techniques such as web-scraping, scripted parsing "
+"and geospatial analysis. An example of these types of sources are the "
+"`Internet Archive snapshots the official webpage of the Mexican Army and Air"
+" Force "
 "<https://web.archive.org/web/20050908175401/http://www.sedena.gob.mx/ejercito/comandancias/index.html>`__"
-" (and child pages) going back more than a decade which outline the top "
-"level structures of the Mexican army and its commanding officers."
+" (and child pages) going back more than a decade which outline the top level"
+" structures of the Mexican army and its commanding officers."
 msgstr ""
 
 #: ../../source/methodology.rst:41 672938fec171442b9b586cf36e973eec
@@ -163,39 +161,39 @@ msgstr ""
 
 #: ../../source/methodology.rst:43 6c47f240e9b84efbb464a94501aadfed
 msgid ""
-"The sources gathered during our scoping phase are used to write a Country"
-" Guide to assist with further research."
+"The sources gathered during our scoping phase are used to write a Country "
+"Guide to assist with further research."
 msgstr ""
 
 #: ../../source/methodology.rst:45 2ede1ee0715642d2b34b4bd4a97ddc9e
 msgid ""
 "The Guide begins as a general overview of the structures of security "
 "services of a country. It gives researchers a general framework to help "
-"organize and prioritize research, by giving an estimate of the scale of "
-"the work: number of installations, units, persons that need to be "
-"researchers in detail."
+"organize and prioritize research, by giving an estimate of the scale of the "
+"work: number of installations, units, persons that need to be researchers in"
+" detail."
 msgstr ""
 
 #: ../../source/methodology.rst:47 8544fec9514f48a2b2915b335e706e2b
 msgid ""
-"For example, the Monitor's scoping research on Nigeria revealed that by "
-"law every state and the federal territory has a Police Command. By "
-"extension this means since 1996 (when the last states of Nigeria were "
-"created) there have been 37 Police Commands. Statistics from the Nigeria "
-"Police Force show that between 2007 and 2012 most Police Commands were in"
-" charge of 2 to 3 Police Area Commands (though some heavily populated "
-"states have more, with Lagos having the most at 8). These statistics also"
-" show that on average each state and the federal capital territory had 30"
-" Police Divisions, which by law are generally under the command of a "
-"Police Area Command. Thus, from a few initial sources a Monitor "
-"researcher can have a general sense of the structure of the police and a "
-"useful metric to compare the Monitor’s dataset against."
+"For example, the Monitor's scoping research on Nigeria revealed that by law "
+"every state and the federal territory has a Police Command. By extension "
+"this means since 1996 (when the last states of Nigeria were created) there "
+"have been 37 Police Commands. Statistics from the Nigeria Police Force show "
+"that between 2007 and 2012 most Police Commands were in charge of 2 to 3 "
+"Police Area Commands (though some heavily populated states have more, with "
+"Lagos having the most at 8). These statistics also show that on average each"
+" state and the federal capital territory had 30 Police Divisions, which by "
+"law are generally under the command of a Police Area Command. Thus, from a "
+"few initial sources a Monitor researcher can have a general sense of the "
+"structure of the police and a useful metric to compare the Monitor’s dataset"
+" against."
 msgstr ""
 
 #: ../../source/methodology.rst:49 4b9d94b6297d430994257348c94099c3
 msgid ""
-"Further, a list of keywords and sources is created for researchers as "
-"well - these serve as leads for researchers to follow."
+"Further, a list of keywords and sources is created for researchers as well -"
+" these serve as leads for researchers to follow."
 msgstr ""
 
 #: ../../source/methodology.rst:51 e049635aeb0e4c80b03ffd72f588c772
@@ -210,38 +208,38 @@ msgstr ""
 
 #: ../../source/methodology.rst:56 3d68ad78bbf44fc3ae0715369204a3c8
 msgid ""
-"Researchers use the initial keywords and sources to begin a “deep dive” "
-"into the security forces."
+"Researchers use the initial keywords and sources to begin a “deep dive” into"
+" the security forces."
 msgstr ""
 
 #: ../../source/methodology.rst:58 37d2b4fe0d3244b9b97161ae307123db
 msgid ""
 "Anything relating to the types of information the Monitor collects is "
-"entered into the Monitor’s database. The Data Model section of this "
-"Research Handbook gives detailed guidance to Monitor researchers about "
-"the types of data to take from sources and how it should be entered."
+"entered into the Monitor’s database. The Data Model section of this Research"
+" Handbook gives detailed guidance to Monitor researchers about the types of "
+"data to take from sources and how it should be entered."
 msgstr ""
 
 #: ../../source/methodology.rst:60 be4f27a781dc4489a90dfc6f19be0143
 msgid ""
-"Additionally, data from this research is used to update the Country Guide"
-" to provide greater granular detail on the security forces of a country "
-"or to update sections as needed. New sources and keywords discovered "
-"during research are added to the existing guide as well."
+"Additionally, data from this research is used to update the Country Guide to"
+" provide greater granular detail on the security forces of a country or to "
+"update sections as needed. New sources and keywords discovered during "
+"research are added to the existing guide as well."
 msgstr ""
 
 #: ../../source/methodology.rst:62 1cc779ce04874fb2a0fc014a817378a7
 msgid ""
-"As the Monitor builds its database on the security forces of a country, "
-"new information is cross-referenced to further evidence data, discover "
-"gaps, or identify mistakes. There are three key questions Monitor "
-"researchers ask themselves whenever they review information in a source:"
+"As the Monitor builds its database on the security forces of a country, new "
+"information is cross-referenced to further evidence data, discover gaps, or "
+"identify mistakes. There are three key questions Monitor researchers ask "
+"themselves whenever they review information in a source:"
 msgstr ""
 
 #: ../../source/methodology.rst:64 3a2cac3910e54a858ac0a0106009f404
 msgid ""
-"\"Does this make sense given what is detailed about the security forces "
-"from other sources?\""
+"\"Does this make sense given what is detailed about the security forces from"
+" other sources?\""
 msgstr ""
 
 #: ../../source/methodology.rst:65 47a7181fe2da489ebc61136cf2283d11
@@ -252,8 +250,7 @@ msgstr ""
 
 #: ../../source/methodology.rst:66 764470e62fea4342bbc3f5ef9536884f
 msgid ""
-"\"Do I have enough information to accept or reject what this source "
-"says?\""
+"\"Do I have enough information to accept or reject what this source says?\""
 msgstr ""
 
 #: ../../source/methodology.rst:68 dcd68ed985544237b6899280f1b49eef
@@ -262,8 +259,8 @@ msgid ""
 "security forces and to help a researcher answer these questions. Data "
 "entered into the Monitor’s databases are progressively updated as new "
 "information is found. Throughout, researchers take a number of quality "
-"assurance steps to validate the data against the standards set out in the"
-" Data Model section"
+"assurance steps to validate the data against the standards set out in the "
+"Data Model section"
 msgstr ""
 
 #: ../../source/methodology.rst:71 29bd8ec4458a40fda873fe7b50deb66c
@@ -272,9 +269,8 @@ msgstr ""
 
 #: ../../source/methodology.rst:73 211e00fd4af64732abf1ee1d115ecaf7
 msgid ""
-"Researchers will publish data online when confident that the main "
-"branches and overall structure of a country’s security forces are "
-"adequately covered. Data is published online on the Monitor’s platform: "
-"`WhoWasInCommand.com <https://whowasincommand.com/>`__."
+"Researchers will publish data online when confident that the main branches "
+"and overall structure of a country’s security forces are adequately covered."
+" Data is published online on the Monitor’s platform: `WhoWasInCommand.com "
+"<https://whowasincommand.com/>`__."
 msgstr ""
-

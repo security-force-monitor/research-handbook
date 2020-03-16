@@ -1,3 +1,7 @@
+# GITIGNORE: Research Handbook
+# 
+# tl	/ 2020-03-16
+
 # OSX
 
 ## General
@@ -20,10 +24,11 @@ Icon
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 
-# gpg
+## gpg
 
 secring.*
 
+## Other OSX stuff
 
 .AppleDB
 .AppleDesktop
@@ -35,7 +40,7 @@ Temporary Items
 
 ## Swap
 [._]*.s[a-v][a-z]
-!*.svg  # comment out if you don't need vector files
+!*.svg 
 [._]*.sw[a-p]
 [._]s[a-rt-v][a-z]
 [._]ss[a-gi-z]
@@ -52,3 +57,9 @@ Sessionx.vim
 tags
 ## Persistent undo
 [._]*.un~
+
+# Transifex
+## Transifex config
+.tx/*
+## Transifex management script
+to-tx.sh

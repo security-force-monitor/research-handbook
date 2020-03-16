@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2019, Security Force Monitor
-# This file is distributed under the same license as the SFM Research
-# Handbook package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: SFM Research Handbook \n"
+"Project-Id-Version: SFM Research Handbook\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-11 16:28+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-03-16 12:32+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/sfm/teams/108084/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/generalfunctions.rst:2 21eae8b08c5d4273afe2cbe3e4f13454
 msgid "Frequently Asked Questions about WhoWasInCommand"
@@ -29,8 +28,8 @@ msgstr ""
 #: ../../source/generalfunctions.rst:7 a0d76161a6614d489ca27b9cb6b84026
 msgid ""
 "In short: a search engine about security forces, their structures, "
-"personnel, areas of operation and connections to allegations of human "
-"rights abuses."
+"personnel, areas of operation and connections to allegations of human rights"
+" abuses."
 msgstr ""
 
 #: ../../source/generalfunctions.rst:9 626d06aeaefe40fea7ebcca97590eebf
@@ -61,15 +60,14 @@ msgstr ""
 
 #: ../../source/generalfunctions.rst:17 962831cfffd548989f416a9c5d240bef
 msgid ""
-"What allegations have civil society groups made against a unit or "
-"commander?"
+"What allegations have civil society groups made against a unit or commander?"
 msgstr ""
 
 #: ../../source/generalfunctions.rst:19 382b2777facf41ebb8832f5f463aac80
 msgid ""
-"WhoWasinCommand presents data from thousands of public sources to help "
-"human rights researchers, investigative journalists and anyone who wants "
-"security forces to be more accountable."
+"WhoWasinCommand presents data from thousands of public sources to help human"
+" rights researchers, investigative journalists and anyone who wants security"
+" forces to be more accountable."
 msgstr ""
 
 #: ../../source/generalfunctions.rst:22 5b04d227e48c47c3b22e1ca46f8fdd6c
@@ -82,25 +80,25 @@ msgstr ""
 
 #: ../../source/generalfunctions.rst:29 fb6d435a945d4d90887977e5d5d433d8
 msgid ""
-"When you enter a search term into WhoWasInCommand, it will search across "
-"28 different fields that contain text to attempt to find a match for your"
-" term. Where it can't find a match, it will alert you. If find a term "
-"that is a bit like the term you area searching, WhoWasInCommand may make "
-"a suggestion to you."
+"When you enter a search term into WhoWasInCommand, it will search across 28 "
+"different fields that contain text to attempt to find a match for your term."
+" Where it can't find a match, it will alert you. If find a term that is a "
+"bit like the term you area searching, WhoWasInCommand may make a suggestion "
+"to you."
 msgstr ""
 
 #: ../../source/generalfunctions.rst:31 e6d435709894476bb25574cbc159ee2c
 msgid ""
-"Use a combination of search terms and different filters to see what sets "
-"of results appear, and gradually refine it until you find what you are "
-"looking for."
+"Use a combination of search terms and different filters to see what sets of "
+"results appear, and gradually refine it until you find what you are looking "
+"for."
 msgstr ""
 
 #: ../../source/generalfunctions.rst:33 543ec0a7205f44319b62c3dcc95f9b93
 msgid ""
-"You can also use our \"Countries\" page as a jump-off point. It has "
-"direct links to all the units, person and incidents for a partiucular "
-"country, along with some \"collections\" we have added."
+"You can also use our \"Countries\" page as a jump-off point. It has direct "
+"links to all the units, person and incidents for a partiucular country, "
+"along with some \"collections\" we have added."
 msgstr ""
 
 #: ../../source/generalfunctions.rst:36 6f9b5587cee9435f989d37e7b6e738be
@@ -111,9 +109,9 @@ msgstr ""
 
 #: ../../source/generalfunctions.rst:38 2e468b88ffd4480b993fc8defecfe595
 msgid ""
-"On WhoWasInCommand you will see lots of little question marks. Click on "
-"them to be taken to a page describing what the data means, or how a "
-"particular feature of the website works."
+"On WhoWasInCommand you will see lots of little question marks. Click on them"
+" to be taken to a page describing what the data means, or how a particular "
+"feature of the website works."
 msgstr ""
 
 #: ../../source/generalfunctions.rst:44 036b4d4a696a4e4ca30c9fe537c38603
@@ -174,11 +172,11 @@ msgstr ""
 
 #: ../../source/generalfunctions.rst:69 10715927b17941c68fea9769d50aef38
 msgid ""
-"It's trying to be helpful. When you enter a search term and "
-"WhoWasInCommand does not make an exact match, it may present words that "
-"have some degree of similarity, or sound similar. For example, searching "
-"with the term ``operat`` causes WhoWasInCommand to suggestion that you "
-"might be searching for an ``operation``:"
+"It's trying to be helpful. When you enter a search term and WhoWasInCommand "
+"does not make an exact match, it may present words that have some degree of "
+"similarity, or sound similar. For example, searching with the term "
+"``operat`` causes WhoWasInCommand to suggestion that you might be searching "
+"for an ``operation``:"
 msgstr ""
 
 #: ../../source/generalfunctions.rst:75 30963926f5014e5499836aa5e9c62f7e
@@ -193,22 +191,22 @@ msgstr ""
 
 #: ../../source/generalfunctions.rst:82 2e39230122904038823c90ef744f6861
 msgid ""
-"Hover your mouse (or tap on it, if on a tablet or mobile) over any of the"
-" values and little coloured circle will appear:"
+"Hover your mouse (or tap on it, if on a tablet or mobile) over any of the "
+"values and little coloured circle will appear:"
 msgstr ""
 
 #: ../../source/generalfunctions.rst:87 91894be4f05f4b3f8952b19abd370627
 msgid ""
-"Click it to see a little \"pop-over\" that lists all the sources for that"
-" datapoint:"
+"Click it to see a little \"pop-over\" that lists all the sources for that "
+"datapoint:"
 msgstr ""
 
 #: ../../source/generalfunctions.rst:92 9e1f880ce1d24efab8c5d42c511c6655
 msgid ""
 "This pop-over shows you the number of sources for the datapoint. You can "
-"scroll up and down to see them, and click on the links to access the "
-"sources directly. It also shows you the confidence rating that we have "
-"given the specific datapoint."
+"scroll up and down to see them, and click on the links to access the sources"
+" directly. It also shows you the confidence rating that we have given the "
+"specific datapoint."
 msgstr ""
 
 #: ../../source/generalfunctions.rst:95 c9d0d3dda69e482abdaa8267abe4dd98
@@ -221,12 +219,12 @@ msgstr ""
 
 #: ../../source/generalfunctions.rst:102 99b0ea86868b4dac92cf7be7d262464d
 msgid ""
-"The little numbered circles indicate two things: \\* Click on it to show "
-"a list of the sources used to evidence that specific datapoint. \\* The "
-"colour indicates the level of confidence we have in the data: Red for "
-"\"Low\", yellow for \"Medium\" and green for \"High\". You can read an "
-"explanation of how we grade inforamation in this handbook's page on "
-":ref:`Data integrity measures`."
+"The little numbered circles indicate two things: \\* Click on it to show a "
+"list of the sources used to evidence that specific datapoint. \\* The colour"
+" indicates the level of confidence we have in the data: Red for \"Low\", "
+"yellow for \"Medium\" and green for \"High\". You can read an explanation of"
+" how we grade inforamation in this handbook's page on :ref:`Data integrity "
+"measures`."
 msgstr ""
 
 #: ../../source/generalfunctions.rst:105 1a77575b47574eca901fbab1b2ea204c
@@ -235,21 +233,22 @@ msgstr ""
 
 #: ../../source/generalfunctions.rst:110 030355b0b8814762bd7505852ba74746
 msgid ""
-"If there is a dotted line under a date, this means that we think this is "
-"an exact start date or exact end date. This means that a source has been "
-"very specific about the date when, for example, a unit was created or "
-"started operating in an area."
+"If there is a dotted line under a date, this means that we think this is an "
+"exact start date or exact end date. This means that a source has been very "
+"specific about the date when, for example, a unit was created or started "
+"operating in an area."
 msgstr ""
 
 #: ../../source/generalfunctions.rst:112 7be04cc7f4f848e6b3461dfce4981867
 msgid ""
-"If there is no dotted line under a date, this indicates that it is just "
-"the earlist reference we have for the creation of a unit, or the "
-"commencement of an operation."
+"If there is no dotted line under a date, this indicates that it is just the "
+"earlist reference we have for the creation of a unit, or the commencement of"
+" an operation."
 msgstr ""
 
 #: ../../source/generalfunctions.rst:115 14157aef66764d15bb32e7b768e58719
-msgid "The command chart is taking a looooong time to load. Is there a problem?"
+msgid ""
+"The command chart is taking a looooong time to load. Is there a problem?"
 msgstr ""
 
 #: ../../source/generalfunctions.rst:117 558be470be544aca90f282c97eaecbba
@@ -264,4 +263,3 @@ msgid ""
 "appearance of the Chain of Command or Parent Unit chart. When this is "
 "happening, we display a \"spinner\" to let you know. It looks like this:"
 msgstr ""
-
