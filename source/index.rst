@@ -15,6 +15,12 @@ Security Force Monitor: Research Handbook
    tutorials
 
 .. toctree::
+   :caption: Countries
+   :maxdepth: 1
+
+   countries
+
+.. toctree::
    :caption: Data Model
    :maxdepth: 1
 

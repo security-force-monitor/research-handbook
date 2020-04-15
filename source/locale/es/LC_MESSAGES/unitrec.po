@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the SFM Research Handbook package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tom Longley <tom@securityforcemonitor.org>, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: SFM Research Handbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-11 16:28+0000\n"
+"POT-Creation-Date: 2020-04-15 18:39+0100\n"
 "PO-Revision-Date: 2020-03-16 12:32+0000\n"
+"Last-Translator: Tom Longley <tom@securityforcemonitor.org>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/sfm/teams/108084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../source/unitrec.rst:2 715c344d40b1419fb62bc34b18e72326
 msgid "Unit Records on WhoWasInCommand"
-msgstr ""
+msgstr "Unit Records on WhoWasinCommand in Spanish"
 
 #: ../../source/unitrec.rst:4 e028236fbf3a4d80b0351d97a288cdff
 msgid ""
