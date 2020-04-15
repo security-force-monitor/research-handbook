@@ -1,9 +1,0 @@
-Test Help Page
-==============
-
-Some text
-
-A subtitle in the help page
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Subtitle body text

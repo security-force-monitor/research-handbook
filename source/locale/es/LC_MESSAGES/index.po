@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFM Research Handbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-11 16:02+0000\n"
+"POT-Creation-Date: 2020-04-15 18:39+0100\n"
 "PO-Revision-Date: 2020-03-16 12:32+0000\n"
 "Language-Team: Spanish (https://www.transifex.com/sfm/teams/108084/es/)\n"
 "MIME-Version: 1.0\n"
@@ -18,22 +18,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/index.rst:4 ../../source/index.rst:4
-#: da3b34f731524ab78c8b24bc04be1449
+#: d2c33f35d4594156912a71c13acbaf5c
 msgid "Introduction"
 msgstr ""
 
 #: ../../source/index.rst:10 ../../source/index.rst:10
-#: 8b1d038b28544adc95d61bde1369def6
+#: 936980ec806041e9800f7674fbca1328
 msgid "Methodology"
 msgstr ""
 
 #: ../../source/index.rst:17 ../../source/index.rst:17
-#: f2b67068381041b3afc80479b61f2aaf
+#: 0d5619d0e86d4b7eb3f430cf54a192ad
+msgid "Countries"
+msgstr ""
+
+#: ../../source/index.rst:23 ../../source/index.rst:23
+#: da435bd45a6540019f04eb540b5a6035
 msgid "Data Model"
 msgstr ""
 
-#: ../../source/index.rst:29 ../../source/index.rst:29
-#: 25200f265714484fad5c945169c44674
+#: ../../source/index.rst:35 ../../source/index.rst:35
+#: a2fa0c6962c244c8893f9935b98a253a
 msgid "WhoWasInCommand"
 msgstr ""
 

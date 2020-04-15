@@ -26,7 +26,7 @@ How to make a simple update to existing Handbook content
 - Update the .rst files in ``/source`` with any changes you want to make.
 - Run ``make html`` and those changes will then be reflected in the files in ``/build``.
 - Work through any errors that Sphinx throws at this point; it's got quite chatty and helpful error messages.
-- To ensure the changes become available to the different translations, run ``sphinx-build -b gettext . build/gettext``.
+- To ensure the changes become available to the different translations, run ``sphinx-build -b gettext source/ build/gettext``.
 - Get the updated source files up to Transifex with ``tx push --source``
 - Do the translations in Transifex, and then pull them back to the repo with ``tx pull --all``.
 - Commit the changes to repo; merge and push them to ``master``.
