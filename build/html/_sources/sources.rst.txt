@@ -561,7 +561,7 @@ Source: Publication Country
 
 **Description**
 
-County in which the publication or publishing organization of the source is based.
+Country in which the publication or publishing organization of the source is based.
 
 **Type of field**
 

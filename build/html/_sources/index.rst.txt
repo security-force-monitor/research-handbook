@@ -30,6 +30,7 @@ Security Force Monitor: Research Handbook
    persons
    persons_extra
    incidents
+   locations
    sources
 
 .. toctree::

@@ -32,7 +32,7 @@ The Research Handbook has three sections:
 -  **Methodology**: Security Force Monitor has a four phase approach to researching a country's security forces. This section outlines our process.
 -  **Data Model**: this section describes the way that Security Force Monitor structures the data it collects and the steps taken to ensure data integrity. In this section, we also provide detailed documentation about the standard data collection formats and fields that we use to organize our research and store data:
  
-- the :doc:`persons` and :doc:`persons_extra` formats are used to capture data about persons, their ranks and roles within security forces, information about their online presence and how they look and sound.
+ - the :doc:`persons` and :doc:`persons_extra` formats are used to capture data about persons, their ranks and roles within security forces, information about their online presence and how they look and sound.
 
  - the :doc:`units` format is used to stored data about the organizational structure of a security force, its physical infrastructure and its areas areas of operation.
  
