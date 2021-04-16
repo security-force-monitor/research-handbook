@@ -963,7 +963,7 @@ Yes (``unit:location:confidence``, ``u_loc_c``)
 
 **Guidance on use**
 
-This field is used to store information about a :ref:`Location` at which the unit has infrastructure, or as operated. The value included in this field must be taken from ``location:humane_id_admin``. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
+This field is used to store information about a :ref:`Locations` at which the unit has infrastructure, or as operated. The value included in this field must be taken from ``location:humane_id_admin``. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
 
 
 Unit: Location First Cited Date
