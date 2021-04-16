@@ -1,0 +1,1637 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Security Force Monitor
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-16 14:28+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/locations.rst:2
+#: 9f75d45b1a5f43d1b87d6790031be614
+msgid "Locations"
+msgstr ""
+
+#: ../../source/locations.rst:5
+#: fc84611ebd494b3095661e0d177d9db4
+msgid "What are Locations?"
+msgstr ""
+
+#: ../../source/locations.rst:7
+#: 92e1c62d629f4e459e30a8c1c19817ee
+msgid "Locations are unique places or positions. A named town or city can be a Location, as can an administrative area like a county, district or state. In fact, anything that be drawn on a map can be a Location: a specific point, a section of a road, a military line of control, and so on."
+msgstr ""
+
+#: ../../source/locations.rst:9
+#: 56c9c2ac1df84898bc352d01460835f7
+msgid "In the Security Force Monitor (SFM) data model, Locations are a primary entity; this means we manage them as a discrete set of datapoints that can be referenced in other parts of the dataset. Locations are the way we describe the \"sites\" and \"areas of operation\" of :ref:`Units`. Locations describe the geographic footprint of security forces, including their infrastructure (bases, facilities, checkpoints, air fields, bunkers), as well as their territorial jurisdictions and operations as they change over time. We also use Locations to describe the places where security force units are alleged to have committed human rights abuses."
+msgstr ""
+
+#: ../../source/locations.rst:11
+#: 8af4d891bf2543dcb58056284da167c1
+msgid "To define a Location, we start with information included in the sources that underpin all our research (see :ref:`Data integrity measures` and :ref:`Sources`). The Location descriptions contained in sources vary greatly in their precision and accuracy:"
+msgstr ""
+
+#: ../../source/locations.rst:13
+#: 65fecd504ca6421d97dda22b9d0c8825
+msgid "At a precise coordinate: \"Artillery Brigade deployed to latitude x, longitude y\"."
+msgstr ""
+
+#: ../../source/locations.rst:14
+#: 6809b237d6304ef69f46afd86a690532
+msgid "At a very specific place: \"Has a checkpoint on the corner of street A and street B in Test Town\"."
+msgstr ""
+
+#: ../../source/locations.rst:15
+#: bb90b4fba21d4aa99428431a1114d5f1
+msgid "At a very specific named place: \"Based at Famous General Army Camp in Test Town\"."
+msgstr ""
+
+#: ../../source/locations.rst:16
+#: d42a52e0874b4a96a34390d1aa6abb95
+msgid "At a nonspecific place in a particular settlement: \"In Test Town\"."
+msgstr ""
+
+#: ../../source/locations.rst:17
+#: 501134cac58d43f49b423c0727ac8d52
+msgid "In a named subdivision of a particular settlement: \"Suburb A in Test Town\"."
+msgstr ""
+
+#: ../../source/locations.rst:18
+#: 02dde48c2d6a4d14b40e819fa4843950
+msgid "In a named but nonspecific place near a particular settlement: \"At the Smoth family borehole north of Test Town\""
+msgstr ""
+
+#: ../../source/locations.rst:19
+#: f71a34d49f1c4c97a3ede7f84f832bbe
+msgid "In a nonspecific place near a particular settlement: \"Around Test Town\"."
+msgstr ""
+
+#: ../../source/locations.rst:20
+#: 3a41175b7f084244b46de053d9dc8cd6
+msgid "In a definable area that is not a settlement: \"In Test County\"."
+msgstr ""
+
+#: ../../source/locations.rst:21
+#: d58d6459b2414aaca5128d387a56603b
+msgid "In an area that is difficult to define: \"Somewhere in the north of the country\""
+msgstr ""
+
+#: ../../source/locations.rst:23
+#: 698f382e25444f8eb949964eab16706a
+msgid "When we have decided on what Location is actually described in the source, we use the fields in this standard format to capture and structure data about the Location. We can do this by consulting existing sources of geospatial information like `OpenStreetMap <https://openstreetmap.org>`__, `Humanitarian Data Exchange <https://data.humdata.org/>`__, commercial mapping services like Google Maps, and (where they exist) data provided by the relevant national geospatial agencies. We reconcile the information we gain from the sources with options provided to us by a number of geospatial information sources, which we then turn into a Location."
+msgstr ""
+
+#: ../../source/locations.rst:25
+#: 9b13dc7bc36f47e9bc1ac2c946cf364f
+msgid "For example. if a source describes a place called \"Potiskum\" in Yobe State, Nigeria we can `look it up on OpenStreetMap <https://www.openstreetmap.org/node/255322295>`__. From this record, we can capture the Location's name, object ID number (``255322295``) and its geometry type ( a \"node\", which is a \"point\" for our purposes). We enter this basic data about the Location into the Location fieldset, generate a UUID for it (``41b3aec7-d88e-4ef1-a7d8-1b7fdf81a20c``), and create a \"human readable\" key that we can then use to reference this specific Location in other parts of the data model (``Potiskum (osm, point) 41b3aec7-d88e-4ef1-a7d8-1b7fdf81a20c``). We can then use SFM's ``geo`` automation tool to obtain more information from OpenStreetMap about this Location, including its geometry (in this case, a coordinate pair), additional metadata (such as a name in Arabic or other local languages), and the various adminstrative areas (like states, local government areas, wards) in which it is sited. This additional information enables us to plot the Location on a map, and opens up a whole range of opportunities for geospatial analysis."
+msgstr ""
+
+#: ../../source/locations.rst:27
+#: 5062e44142ca45e7b35466cc9eb74fe3
+msgid "Where there is not a good option in an existing geospatial data source, and where the source contains sufficient descriptive information, we can create the Location data directly using a Geographical Information System (GIS) tool like QGIS, Earth Pro or Google My Maps. This method is useful for describing Locations that may emerge from geolocation processes, such as views portrayed in images and other subjective descriptions of a place."
+msgstr ""
+
+#: ../../source/locations.rst:29
+#: 9386af99a1d4435a914c96439f1e12dc
+msgid "We create a datasets of Locations for each country we work on. These data are stored in a spreadsheet (or delimited text file like ``.csv`` or ``.tsv``) and a corresponding ``GeoJSON`` file that contains everything in the spreadsheet as well as every Location's geometry and any additional metadata about the Location provided by the geospatial information source. The two files provide views of the data that are useful for different purposes. The ``.tsv`` can be easily updated using a spreadsheet, but it's not the right place to store the geometry; the ``GeoJSON`` is more useful to developers and can be pulled in a geographica information system (GIS) for analysis and visualisation. We keep the two files synchronised. Storing the Location data this way also means we retain a standalone copy in robust and easily-processed formats of all the data we need."
+msgstr ""
+
+#: ../../source/locations.rst:31
+#: 275de7b8077a48f2b48a1636e5a3baca
+msgid "The Location model described in this documentation replaces an earlier approach that stored the full metadata about a Location alongside the data on Units and Incidents. Maintaining the Location information using the earlier approach involved a great deal of duplication and introduced more opportunities for error. This updated approach brings the management of Location information into a single place and idiom, enables more effective use of automation tools, and extends the range of data we can capture and manage about Locations."
+msgstr ""
+
+#: ../../source/locations.rst:34
+#: d6051fa8a6fb4d8586778a7983582665
+msgid "Location: Research Status"
+msgstr ""
+
+#: ../../source/locations.rst:36
+#: ../../source/locations.rst:80
+#: ../../source/locations.rst:115
+#: ../../source/locations.rst:159
+#: ../../source/locations.rst:202
+#: ../../source/locations.rst:237
+#: ../../source/locations.rst:272
+#: ../../source/locations.rst:315
+#: ../../source/locations.rst:350
+#: ../../source/locations.rst:385
+#: ../../source/locations.rst:420
+#: ../../source/locations.rst:459
+#: ../../source/locations.rst:498
+#: ../../source/locations.rst:537
+#: ../../source/locations.rst:576
+#: ../../source/locations.rst:616
+#: ../../source/locations.rst:655
+#: ../../source/locations.rst:694
+#: ../../source/locations.rst:733
+#: ../../source/locations.rst:772
+#: ../../source/locations.rst:807
+#: ../../source/locations.rst:842
+#: ../../source/locations.rst:879
+#: ../../source/locations.rst:916
+#: ../../source/locations.rst:951
+#: 31917aaf634a47daae4bf3d40487d13f
+#: cb575d8fe6bb4d36943329f6007551c1
+#: 33310e8cfc184fafb7404bf9a36e76d3
+#: 07986fbca4a3483fb4412dcab67305b1
+#: 288c6e15dcb14f05ae0fa7b2db28ae2a
+#: 9837ab78ea9b42909233c31008f26122
+#: b75781b35b344ec89bad90a8dd5884e1
+#: dac3e493b240442ba4356626ddcd3e3f
+#: 8cb4c20c74004581b6d9d41fca5855de
+#: d25c32fda0494facbf3739e3a432ac2e
+#: 71fd5cb398aa4133b9cc25ca5382f6a1
+#: 8019a6a722c642fc80c5f800237e2594
+#: 3f6bcde409a845c0a5b249e61aaaf01c
+#: 25944652552f4c77a6efee1d7b27fb73
+#: 2987a5aa0633498f991679a37107325e
+#: fb8cd0b2c0f545698e4bbe43f40af2d1
+#: 6ce6e2ccd03f46b581cc9be7ab4966a5
+#: ce0026636262429fba6130ee335ab594
+#: b93b612e1d44430b86d61dcd101d32cd
+#: f509223d7a7a4e5786a4c4c0910390f1
+#: f5682bc4e6e54032815b292b0d6e5150
+#: 7080117ce3fc4d6caac89f809e25ade8
+#: 282f45a083804212abc33334a185874e
+#: e6df1ab5c51942469c746915a319cce8
+#: b8eabfe0df454867b0aa352f2839c4ef
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/locations.rst:38
+#: 6536b1a8048e499fb88923327d662422
+msgid "The place of a row of Location data in the research workflow."
+msgstr ""
+
+#: ../../source/locations.rst:40
+#: ../../source/locations.rst:84
+#: ../../source/locations.rst:119
+#: ../../source/locations.rst:163
+#: ../../source/locations.rst:206
+#: ../../source/locations.rst:241
+#: ../../source/locations.rst:276
+#: ../../source/locations.rst:319
+#: ../../source/locations.rst:354
+#: ../../source/locations.rst:389
+#: ../../source/locations.rst:424
+#: ../../source/locations.rst:463
+#: ../../source/locations.rst:502
+#: ../../source/locations.rst:541
+#: ../../source/locations.rst:580
+#: ../../source/locations.rst:620
+#: ../../source/locations.rst:659
+#: ../../source/locations.rst:698
+#: ../../source/locations.rst:737
+#: ../../source/locations.rst:776
+#: ../../source/locations.rst:811
+#: ../../source/locations.rst:846
+#: ../../source/locations.rst:883
+#: ../../source/locations.rst:920
+#: ../../source/locations.rst:955
+#: 5d8a48df2e85471fbb2f2b8db1726663
+#: 5b4d5ab1054a4607b04fd7039fff03fc
+#: f255c0fecd3e4f6cb15aa8fff28215b8
+#: 3489187ba8d1419fab7dd3b7de4317ab
+#: bd3d61633dd94851a062ab366334968a
+#: 9640a7f886f34d2eb929ab737d73fb42
+#: e3b61c0a4bb54a4b8c23cfc847d50709
+#: a229d48bbdf746efa8b497c4cd1ef03f
+#: 3bc378a43c904a1ea1014f89477deea4
+#: a8475df434624c2d94ab676de610517c
+#: b1967a4372414b27b2edf2c2c584c81c
+#: a34b7c3e9c1b4210ae192b0e620f3557
+#: b810798d96fb497f8a5cbcc6ab0c21d0
+#: 33b1dbc6e2dd4e4993a56a8a6a85e16c
+#: 9e56891c0fd9437d9eb03d8ce61d315e
+#: 7e4b5eb4ccfb44eab64a8fa8dc509ad4
+#: bbae714119ba494280f75b8c6989e54f
+#: 153e51914bc543ba92acfed395042f8f
+#: e79ea26f2de540de8422f201dfdf2732
+#: 7a12e98222844f998bc11e48a5d180f1
+#: cf78d0ca28ce4b10bd2e66db9fb0fcbc
+#: 872973f74d3042c7886ae1c1691ad58a
+#: b42669b56eb64341a60dc7887b7cd3ff
+#: a66ba1270fa6446ca28cec7145c215f4
+#: 1aa7cf08908a42cca7bf0b0fbe569e30
+msgid "**Type of field**"
+msgstr ""
+
+#: ../../source/locations.rst:42
+#: 42ac37956fd2431b84b18f6a57b12789
+msgid "Text and numbers; controlled vocabulary."
+msgstr ""
+
+#: ../../source/locations.rst:44
+#: ../../source/locations.rst:88
+#: ../../source/locations.rst:123
+#: ../../source/locations.rst:167
+#: ../../source/locations.rst:210
+#: ../../source/locations.rst:245
+#: ../../source/locations.rst:280
+#: ../../source/locations.rst:323
+#: ../../source/locations.rst:358
+#: ../../source/locations.rst:393
+#: ../../source/locations.rst:428
+#: ../../source/locations.rst:467
+#: ../../source/locations.rst:506
+#: ../../source/locations.rst:545
+#: ../../source/locations.rst:584
+#: ../../source/locations.rst:624
+#: ../../source/locations.rst:663
+#: ../../source/locations.rst:702
+#: ../../source/locations.rst:741
+#: ../../source/locations.rst:780
+#: ../../source/locations.rst:815
+#: ../../source/locations.rst:850
+#: ../../source/locations.rst:887
+#: ../../source/locations.rst:924
+#: ../../source/locations.rst:959
+#: 102b9f86f38c4e31806e1363beb065cf
+#: e1c7817acb9e4128aeddebf41964d21a
+#: 7140154384db4e83a222302645b2b221
+#: ceca0b90c04d46bbb3278c10b7e5a24a
+#: f3c571cb349e40dbba0e2ca13a30f707
+#: f90c733715a0425c8cad23029bbf19ad
+#: c583642c7d9d42e7932f01658fe3b62a
+#: 8f0abd782e7c457a9a9e725e842526f2
+#: 9cb86f96bfbd4612bf1ba80aff7487eb
+#: 03e290013fdd4a789a075ccb536b2c27
+#: 1c2ec2bbd4bc4847b40f6a3521539983
+#: ae4a64bafc144801aa84841e279b32e4
+#: f23446c33f9f4c03ab7ea1c6ece92f92
+#: 7afe5c590ecf4601b020e0b01fb802d8
+#: 24a45537c7334a178ab0ef1fc1118230
+#: d404e0746c4e4ef18bec02f3c8ce73ab
+#: 346e6b815da746f4a504f56213b5e109
+#: 1996794deac344d899a77af826eba473
+#: ebbd95a621ec4f67a094aa181effcd17
+#: d68fe58132b64159b249c69f20eccb42
+#: 7878fa8e83274181a7300cfc633a2921
+#: fab007e4972b42439fde62588ac09e75
+#: 85a3fbed9ef648a690e42bdc604669d6
+#: 35ba759cf828458085e91c877a2f8664
+#: bb5ff702ef53434e8a58a851f6d7beaa
+msgid "**Example of use**"
+msgstr ""
+
+#: ../../source/locations.rst:46
+#: 655341894b3241aab8dc2ced20a5bd87
+msgid "``3``, ``X``"
+msgstr ""
+
+#: ../../source/locations.rst:48
+#: ../../source/locations.rst:92
+#: ../../source/locations.rst:127
+#: ../../source/locations.rst:171
+#: ../../source/locations.rst:214
+#: ../../source/locations.rst:249
+#: ../../source/locations.rst:284
+#: ../../source/locations.rst:327
+#: ../../source/locations.rst:362
+#: ../../source/locations.rst:397
+#: ../../source/locations.rst:432
+#: ../../source/locations.rst:471
+#: ../../source/locations.rst:510
+#: ../../source/locations.rst:549
+#: ../../source/locations.rst:588
+#: ../../source/locations.rst:628
+#: ../../source/locations.rst:667
+#: ../../source/locations.rst:706
+#: ../../source/locations.rst:745
+#: ../../source/locations.rst:784
+#: ../../source/locations.rst:819
+#: ../../source/locations.rst:854
+#: ../../source/locations.rst:891
+#: ../../source/locations.rst:928
+#: ../../source/locations.rst:963
+#: 402921010a5f4d82934600ae3a119b55
+#: 4ff96087a5e546558c6d3a38f6711ec2
+#: 8832e732693d41cd94797d717f92f8e1
+#: 208a40a36d594305b87cda35e9e988b3
+#: 1f3d2ec2286041a68d8bcd99298c2f0b
+#: e5dd372cfeb04d4fa8092fb0b5fdf76f
+#: ce773dbe24d74c3e9c36f2f3f0411905
+#: 3d630c80a1354f4790decb6c710cd7e3
+#: 8434ff959fb3464cb05dbd24664cb3b8
+#: cc9c6afafc5e4bdf8950b4c2493e3857
+#: 089411be2a0c4634b523b8f05b304ad5
+#: ac8bb58669ae4cb8b5b2c5d4b7eb9ba7
+#: a9a0bf8d6e1d4abc9c8c8cb6220566fd
+#: 1ec1464d37594a4db6a77a0eddb6a970
+#: a41b5d27494849bcb6ec6e6a66f693ed
+#: 987ff2f732214be993b2c058c9695f83
+#: b174c2a9f0714931b4299724445787f5
+#: 0d9e24e073c141b0bee3b3518a107b86
+#: f76e5c2b3dae4de297ea1d91b0a29d79
+#: f1bde34d870245fdba5147dbf152e3f8
+#: 2af19d08b8e54795b7ab286f07253f6c
+#: 268b74851fcc400dad862520b33aab6b
+#: 0983e1a2a79b4a0da13430e7e0df5bf1
+#: 94f56fd58cc54482b8539d128f9f28c9
+#: d525744c54554bfea9c6e70538f2d49f
+msgid "**Spreadsheet column name**"
+msgstr ""
+
+#: ../../source/locations.rst:50
+#: 8dae4ee9a2034cc5887ce16fafad4cce
+msgid "``location:status:admin``"
+msgstr ""
+
+#: ../../source/locations.rst:52
+#: ../../source/locations.rst:96
+#: ../../source/locations.rst:131
+#: ../../source/locations.rst:175
+#: ../../source/locations.rst:218
+#: ../../source/locations.rst:253
+#: ../../source/locations.rst:288
+#: ../../source/locations.rst:331
+#: ../../source/locations.rst:366
+#: ../../source/locations.rst:401
+#: ../../source/locations.rst:436
+#: ../../source/locations.rst:475
+#: ../../source/locations.rst:514
+#: ../../source/locations.rst:553
+#: ../../source/locations.rst:592
+#: ../../source/locations.rst:632
+#: ../../source/locations.rst:671
+#: ../../source/locations.rst:710
+#: ../../source/locations.rst:749
+#: ../../source/locations.rst:788
+#: ../../source/locations.rst:823
+#: ../../source/locations.rst:858
+#: ../../source/locations.rst:895
+#: ../../source/locations.rst:932
+#: ../../source/locations.rst:967
+#: 76dd7c5350c7407aafe9f90c95d8423d
+#: 0673127b20414c76a3c2644da9590f65
+#: 6bb90e72195e421bba5eaee34aae2df2
+#: 6beaef0e7e1e47858a6d75e0cd7b6899
+#: 231403f8324b439391ae870772733d97
+#: 3bbe558fa72845d7b6f0482bb23fb6d8
+#: 966384b7b91d4b00833651bf1612278d
+#: ebb210da94dc4bba8143b86c54193025
+#: 60e99091aaf14cbb9765ea79e6f4a948
+#: 5e10c8ea35aa4bc98672c3c5ed9e2289
+#: 18b73edc21d24e4f8f84802254a7d8b4
+#: 40ac8af74fad4711866ad0a306723ae6
+#: e552a3aeb0614edab894bdf77cb80acb
+#: 54cf8e7498ce4356a1745c5d6d92445e
+#: af87b30708da4251b5c1b22b6b48a49d
+#: a69f8772cf924c77b2ca1d5f472c3218
+#: 7028dcf7cc1147e482747839f41f2c6f
+#: 9de8efad31eb415597aa37b8e61bc95d
+#: 65c268832d0b495892013777b4aa83b3
+#: 3fbb9c28a8284629a5858ca1e339a836
+#: 246e81a608b14fccac2c267d7227e8ff
+#: 992d9cb9059740adada7215d398181d8
+#: 2a1458602fec46dbbff1e370d3f124e8
+#: ce9246660e73484eb14d5d359f27b33f
+#: 78794c5e020e4346bd0cf9e2342818f5
+msgid "**Shortcode**"
+msgstr ""
+
+#: ../../source/locations.rst:54
+#: 0a1cccb7a2db4061ab73640e8d9ff98e
+msgid "``l_sta_a``"
+msgstr ""
+
+#: ../../source/locations.rst:56
+#: ../../source/locations.rst:100
+#: ../../source/locations.rst:135
+#: ../../source/locations.rst:179
+#: ../../source/locations.rst:222
+#: ../../source/locations.rst:257
+#: ../../source/locations.rst:292
+#: ../../source/locations.rst:335
+#: ../../source/locations.rst:370
+#: ../../source/locations.rst:405
+#: ../../source/locations.rst:440
+#: ../../source/locations.rst:479
+#: ../../source/locations.rst:518
+#: ../../source/locations.rst:557
+#: ../../source/locations.rst:596
+#: ../../source/locations.rst:636
+#: ../../source/locations.rst:675
+#: ../../source/locations.rst:714
+#: ../../source/locations.rst:753
+#: ../../source/locations.rst:792
+#: ../../source/locations.rst:827
+#: ../../source/locations.rst:862
+#: ../../source/locations.rst:899
+#: ../../source/locations.rst:936
+#: ../../source/locations.rst:971
+#: d971100fe57f447baad1101b929f54bc
+#: 949098066894402b9a70cce6b49928c9
+#: d8610543be67435fb362c01a484fbddc
+#: 4995598b49ae4f31a455039335c1b95c
+#: 00def7d3052d4e03ab8598c6e0b2deb3
+#: 4cd17c5dd04140038eec602713130fd8
+#: 1d8111b4b0e944cb885b8c6cb94220cc
+#: 6cf6e48665be474f9d88750579f8c8bb
+#: 55895a5da1874fb79e59e7990bbc7fc4
+#: 7c6f14657e1f49c8ba30210d22b481f9
+#: b46aa2601cae49268454254afb096cd7
+#: 39d894344c6546b5a1bde5a99600da28
+#: afdad4135f0e4ef8a980019b1069a766
+#: f32145a1053b4fd9b6837de9ca8a8a74
+#: 4260bd2b3c3549cbabf2a32429d8fb20
+#: 91d2ab82b6574043af91139f29350c27
+#: 8b9bf33306cb4c388c97c4c74edb70f8
+#: 79f169eff056465dad106c6d7e1d65e6
+#: 1a68dfa6f61a4fbbb8295b7165f38963
+#: 46d75fa9ea354b3ea81ee2dda96d294c
+#: 1b51d3ce239f473990692db9c1f8ddd0
+#: ca8ad7a9f5c241d8aef7ea339b154709
+#: 4008242e72d14f4db45c077862bafeb0
+#: a04b73e339224c23988d48262a7ba693
+#: ac868f1af7c64feb83955f46c6ee77c7
+msgid "**Sources**"
+msgstr ""
+
+#: ../../source/locations.rst:58
+#: ../../source/locations.rst:62
+#: ../../source/locations.rst:102
+#: ../../source/locations.rst:106
+#: ../../source/locations.rst:137
+#: ../../source/locations.rst:141
+#: ../../source/locations.rst:181
+#: ../../source/locations.rst:185
+#: ../../source/locations.rst:224
+#: ../../source/locations.rst:228
+#: ../../source/locations.rst:259
+#: ../../source/locations.rst:263
+#: ../../source/locations.rst:294
+#: ../../source/locations.rst:298
+#: ../../source/locations.rst:337
+#: ../../source/locations.rst:341
+#: ../../source/locations.rst:372
+#: ../../source/locations.rst:376
+#: ../../source/locations.rst:407
+#: ../../source/locations.rst:411
+#: ../../source/locations.rst:442
+#: ../../source/locations.rst:446
+#: ../../source/locations.rst:481
+#: ../../source/locations.rst:485
+#: ../../source/locations.rst:520
+#: ../../source/locations.rst:524
+#: ../../source/locations.rst:559
+#: ../../source/locations.rst:563
+#: ../../source/locations.rst:598
+#: ../../source/locations.rst:602
+#: ../../source/locations.rst:638
+#: ../../source/locations.rst:642
+#: ../../source/locations.rst:677
+#: ../../source/locations.rst:681
+#: ../../source/locations.rst:716
+#: ../../source/locations.rst:755
+#: ../../source/locations.rst:759
+#: ../../source/locations.rst:794
+#: ../../source/locations.rst:798
+#: ../../source/locations.rst:829
+#: ../../source/locations.rst:864
+#: ../../source/locations.rst:868
+#: ../../source/locations.rst:901
+#: ../../source/locations.rst:905
+#: ../../source/locations.rst:938
+#: ../../source/locations.rst:942
+#: ../../source/locations.rst:973
+#: ../../source/locations.rst:977
+#: 34fd8d39b2a642249f03a314b05d6972
+#: a815600e92d044a3b5017aac58183456
+#: a63e9965b73f477c9fa2c4db806be422
+#: 33e1420cbd214924bfa2a2fb6923d33f
+#: ad4fd3bdc796449ea8b6b0bf21f225ba
+#: bb12f1e8e71e4cdf8ec6fa36c13c30b5
+#: 424b743d8a184337aafab938be5a9ab6
+#: 5941a9dfd1ce4c8a9f3033faa56cffa1
+#: dcfa9117fb674cfb86c4fa54a25ec49c
+#: e9d2a1db57a741bc92f164586145779b
+#: c277ea5c90744951a27131771f6434f8
+#: 27fcda1ab5f0417d9ef242f1e1bc9920
+#: 5e8713b6a08f4ae7842cf758b55024e4
+#: 1a93004ac41e4bbdac2fdfe346501aea
+#: d2c54c42e3bf40ebb5349b091678b364
+#: 11bdf3d13ea048ab928fcb6ae2b9d212
+#: 908e14c32e554c398ee823851f686580
+#: 75844d0dcb4d4d5da9dc7c9557c737ab
+#: ed52876e60af49ef95eccf3f80e7c03e
+#: 74e846bc9db14f4aa3058f211f1be195
+#: 69670c2e000c4800be76fe9b9be82a6c
+#: 46b2b82026874a6a8bc93b8fa7141839
+#: d65cc3f040c047ba98c6bf4394e2d8b7
+#: df6c2a1826164503a4e37d6061f61aef
+#: 2b4ea0438d8e438989202602ac141dd5
+#: c6a035fca2894751b3ffb48c4a239dd1
+#: 29c8bc1c57dd4af98a2c1b4dec3eaafd
+#: 76b28e227d834cf3b9aee7632805a792
+#: 985da25d0b6d4fc1b86b16ec9b638f27
+#: 0dca4e809fe94cd39b00e64fdacec6e7
+#: 8cb8abc91cc64e90bf6c12be86ae2632
+#: 4a16cd10d8f346458995de8955024785
+#: 9d58954586b745989f1dc404d4149f78
+#: 91b59ac5a8c043cc8758ec286af8bd99
+#: 30158ea8e943419f8efe4c11600e0b31
+#: e7da60c5e5e2458d8b5c0a262238cf1c
+#: d81baa38df1346dfa87434bbe76f8b9c
+#: c7333defcaac4d8fb6702f733ef5dfd5
+#: 91779aab7faf4ecea927db5aa4bfc9ee
+#: f541b7fa00484cb2a465027294e61741
+#: 3e1bffc5a4a74d1a964d2d0275fc9c30
+#: d6f92a74b38448a6aed7e83e2f27ec99
+#: 76806022072242c492d31335cdfe741c
+#: 6a077efc4ddd4c94839d7c8ffd51cbd7
+#: c88eb5ade1274027b757299bdb436674
+#: ccd5639cedd247c79a318e0fc1dcae40
+#: cf7ffffbe7874b4e9e39ca717296b879
+#: 08acf6d746014561a790ee8bf62e86ea
+msgid "No"
+msgstr ""
+
+#: ../../source/locations.rst:60
+#: ../../source/locations.rst:104
+#: ../../source/locations.rst:139
+#: ../../source/locations.rst:183
+#: ../../source/locations.rst:226
+#: ../../source/locations.rst:261
+#: ../../source/locations.rst:296
+#: ../../source/locations.rst:339
+#: ../../source/locations.rst:374
+#: ../../source/locations.rst:409
+#: ../../source/locations.rst:444
+#: ../../source/locations.rst:483
+#: ../../source/locations.rst:522
+#: ../../source/locations.rst:561
+#: ../../source/locations.rst:600
+#: ../../source/locations.rst:640
+#: ../../source/locations.rst:679
+#: ../../source/locations.rst:718
+#: ../../source/locations.rst:757
+#: ../../source/locations.rst:796
+#: ../../source/locations.rst:831
+#: ../../source/locations.rst:866
+#: ../../source/locations.rst:903
+#: ../../source/locations.rst:940
+#: ../../source/locations.rst:975
+#: 5e16aa95dc064a038601c33a1fc7872e
+#: 4fe79ea4bd2c4da3b242454b864647f5
+#: adff43eba1254b4e8d9d15046fbbefbe
+#: 8196d16f2b9449cb991fd41b72f18b40
+#: 8e8e52e198164bb5ae6d887e0ea85cf5
+#: 1d2b0148aab7408eaaf9e4dfe6126cee
+#: 938cfe0414094e9d9557bab09f50d14d
+#: f56f0c3f05ec4c81a9bc771397210e08
+#: fab22ed02bce42b9a51fc89a8b926479
+#: 105a75cbf2d940bdb0c9c165c3e2b5d4
+#: d2b0e1f145a842488a02d4766e521f1c
+#: f6fbcdc59bd445e8be2403677314e7ef
+#: 9883328a0bd04c18932bc424412d504e
+#: 8e6d12ab183147f8ac75d25f50d88919
+#: 9a47ceb82342449783009601de9493d2
+#: 8a814da86f924468a3c9e7b494bb93d1
+#: 453ab91a3d734cdf8536ade28eed95b4
+#: fc428e70a35d4debb39de29359484452
+#: 0e4093ea1b1240899635631cd6e4f3b7
+#: c915f90815e24c72a8215d5c0ba82976
+#: eacb50a6f2594780bf6326ad1f711a57
+#: 44b09c2a44ca4084a5c1ee92130e7f1b
+#: e117e7d7722b4f75a1f68b7cb589ceea
+#: aaf0d3e34b884424a959ca3776504993
+#: b18275ab906a4543ac37bfc30141b5db
+msgid "**Confidence**"
+msgstr ""
+
+#: ../../source/locations.rst:64
+#: ../../source/locations.rst:108
+#: ../../source/locations.rst:143
+#: ../../source/locations.rst:187
+#: ../../source/locations.rst:230
+#: ../../source/locations.rst:265
+#: ../../source/locations.rst:300
+#: ../../source/locations.rst:343
+#: ../../source/locations.rst:378
+#: ../../source/locations.rst:413
+#: ../../source/locations.rst:448
+#: ../../source/locations.rst:487
+#: ../../source/locations.rst:526
+#: ../../source/locations.rst:565
+#: ../../source/locations.rst:604
+#: ../../source/locations.rst:644
+#: ../../source/locations.rst:683
+#: ../../source/locations.rst:722
+#: ../../source/locations.rst:761
+#: ../../source/locations.rst:800
+#: ../../source/locations.rst:835
+#: ../../source/locations.rst:870
+#: ../../source/locations.rst:907
+#: ../../source/locations.rst:944
+#: ../../source/locations.rst:979
+#: 81a1aec496b0442fbef4f49e1cd22320
+#: 6ad5c3d55907436c86524b50f8c6dab3
+#: 732c11c4a8dc4bd6a52045aeb79babee
+#: 9d0b2314391b4c849397d2b5109a20ce
+#: 6e7a98b558914bf1be3f3e1ee6083aac
+#: 924b5bdb9dc345898013ebf5993defab
+#: e38013395d5441028e06fe426d308aeb
+#: 0b702dbf837249c7b6448931c25e40a4
+#: b150e38732bf45908e3f97a86319b274
+#: bc4d8f41292247668dc8c55da7342f63
+#: a56339b420cd4165a055b8c8eaea3b52
+#: eed759eb9caa429fbf084561c601d7e6
+#: 92da94b8f05541cf8742f253329f11f6
+#: 163b39202559454b8c00b76714635d33
+#: 50ede64339ff40649ddbc3d537d74d68
+#: 0df1844b9e074926807fc50af4b9d9e1
+#: 2b7e8b7a4e2344118d05bdeab97f6edc
+#: 9d8249523467497592a7c1ef92148119
+#: 05d1ae143250492eb68e4eb82cb139ec
+#: d832b8a283ec414fb98cd017f13d77ca
+#: 177e91c24322440480a52128882bf4df
+#: 894bba310f24495b830b18661adce1a3
+#: 4a4bf94a82774299b9a6e005c243c5c5
+#: 09e462a471754e6fa9a34aee2d1d1f4f
+#: bb44115433a54f71bfe4133d288ca944
+msgid "**Guidance on use**"
+msgstr ""
+
+#: ../../source/locations.rst:66
+#: 7de1354ab5fa44519f34e984c51943d4
+msgid "Staff Researchers use this field to indicate where a row of data stands in the research workflow between the first cut of a row of data, review by other researchers, and final readiness for publication. Values in this field are taken from the below controlled list:"
+msgstr ""
+
+#: ../../source/locations.rst:69
+#: f9da1eede58843558c67a4b55bf53093
+msgid "`X`: Row should be deleted."
+msgstr ""
+
+#: ../../source/locations.rst:70
+#: c327a55d98904e36bd0407331a5fd3f2
+msgid "`0`: First commit. This row of data has just been added and needs review."
+msgstr ""
+
+#: ../../source/locations.rst:71
+#: bfae57d33a0f47de8c293f26029855b0
+msgid "`1`: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the ``Locations:comments:admin`` field."
+msgstr ""
+
+#: ../../source/locations.rst:72
+#: 4463f9ba205a42b8b65b5b59c247375c
+msgid "`2`: Fixes made. The owner of this data has addressed the reviewer's comments."
+msgstr ""
+
+#: ../../source/locations.rst:73
+#: 7220ce2fca744af78d700432c61095f9
+msgid "`3`: Clean. A final check has been made by a reviewer, and this row of data can be published."
+msgstr ""
+
+#: ../../source/locations.rst:75
+#: f3ed8ef5400c4eed9c3853f220553578
+msgid "This field is common to all main entities in the SFM data model."
+msgstr ""
+
+#: ../../source/locations.rst:78
+#: 1c6434992bb748e4a8327d8788845232
+msgid "Location: Research Comments"
+msgstr ""
+
+#: ../../source/locations.rst:82
+#: f4196a06a69a4bc98b1a284df9418909
+msgid "Observations specific to the process of reviewing data in this row, including fixes, refinements and other suggestions."
+msgstr ""
+
+#: ../../source/locations.rst:86
+#: ../../source/locations.rst:278
+#: 70a70f25427e45a7ac1805537123c30a
+#: f099e189e6a3465d99a8536e16c02e20
+msgid "Text"
+msgstr ""
+
+#: ../../source/locations.rst:90
+#: 8942fa6963c74e948f4ac6eb7da12ad1
+msgid "``Location does not exist in OpenStreetMap - alternate gazeteer needed``, ``Possible duplicate of Location 1bbdfd2b-2d7c-4677-8e1f-8fa5b0367cfe``, ``Reprocess to update geometry``"
+msgstr ""
+
+#: ../../source/locations.rst:94
+#: c1d6863a22d04fa2b605b2ad943c574e
+msgid "``location:comments:admin``"
+msgstr ""
+
+#: ../../source/locations.rst:98
+#: 6d9229d9b7124ba1a8f087d584ba677f
+msgid "``l_com_a``"
+msgstr ""
+
+#: ../../source/locations.rst:110
+#: 3e119802dfb44b1d85d671b60bac3ac0
+msgid "Staff Researchers use this administrative field to pass on feedback about the data in the row. This may included changes needed to specific fields in that row, references to sources that the owner of the row might look at, and other observations that can improve the quality of the data. Data in this field are not intended for publication. The workflow of Location datapoints is a little different from other entities within the SFM data model, in that it is a combination of manual work by Staff Researchers and automation work by developers. The comments field is commonly used to flag places where developers may need to provide assistance. The comments field is common to all main entities in the SFM data model."
+msgstr ""
+
+#: ../../source/locations.rst:113
+#: 93e164d1a4994841ad2c7db1fb45fbb7
+msgid "Location: Unique Identifier"
+msgstr ""
+
+#: ../../source/locations.rst:117
+#: 98c1fe94ea5544e1891ab384371d9ed9
+msgid "A unique 36-character code assigned to each Location in the dataset."
+msgstr ""
+
+#: ../../source/locations.rst:121
+#: ../../source/locations.rst:165
+#: ../../source/locations.rst:208
+#: ../../source/locations.rst:243
+#: ../../source/locations.rst:321
+#: ../../source/locations.rst:356
+#: ../../source/locations.rst:813
+#: 22b648d8a6f244869753e84f6560024f
+#: f81b53e127d14aa59b2e7d860074378f
+#: 3c7f1408a18c46bc9294f423c087db0b
+#: 451ea82c1ebf4083abfce8ae5f4f3aa0
+#: 8f7bdcf631c34bef88f024cd9cc4b191
+#: 0889439952734208a2cce1206cd5d20e
+#: 109b1b489cda446cad0c5c125d774579
+msgid "Text and numbers"
+msgstr ""
+
+#: ../../source/locations.rst:125
+#: 5e0f349a59a642cfbad9f15f15918456
+msgid "``5f55f3f1-ed83-4766-b26a-fd11bedc398c``"
+msgstr ""
+
+#: ../../source/locations.rst:129
+#: 190727d0ac2542988d9577bc5849ffe1
+msgid "``location:id:admin``"
+msgstr ""
+
+#: ../../source/locations.rst:133
+#: d9f8a873ca3b4649be60d6b6b533f0c0
+msgid "``l_id_a``"
+msgstr ""
+
+#: ../../source/locations.rst:145
+#: 8ed91b6c3fa34ed68308df4e674d6f29
+msgid "This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs must be created using either installable or online tools, for example:"
+msgstr ""
+
+#: ../../source/locations.rst:147
+#: d90231e546f1417daf560b5350859e38
+msgid "Linux and OSX/MacOS users: `uuidgen` command line tool."
+msgstr ""
+
+#: ../../source/locations.rst:148
+#: 3d47bad1adb5476cae7869b7f37de132
+msgid "On the web: `UUID Generator <https://www.uuidgenerator.net/version>`_."
+msgstr ""
+
+#: ../../source/locations.rst:150
+#: 76f6b0c2a9c8462382283b01e160e327
+msgid "The field is administrative, providing a reliable way to differentiate between different Locations. ID fields are common to all main entities in the SFM data model."
+msgstr ""
+
+#: ../../source/locations.rst:152
+#: b24a320558e848e7bcf828c90b903dc5
+msgid "When a new Location is created in a spreadsheet, the Staff Researcher must generate a unique identifying number for the Locations and copy it into the field ``location:id:admin``. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID."
+msgstr ""
+
+#: ../../source/locations.rst:154
+#: a4139cb68ab7420cadf89b868b6f29db
+msgid "Bulk updates made to WhoWasInCommand.com by spreadsheet import are based on the values in this field. For example, changes made in the row ``a407be6a-28e6-4237-b4e9-307f27b120e`` in the spreadsheet will be applied to the Location with that UUID in WhoWasInCommand."
+msgstr ""
+
+#: ../../source/locations.rst:157
+#: 9bfba6fbcbd94b7bae08f86c5f97da29
+msgid "Location: Human-Readable Unique Identifier"
+msgstr ""
+
+#: ../../source/locations.rst:161
+#: b5c947c760704a90abcf208e71b61a8c
+msgid "A human-readable unique identifier for each Location in the dataset."
+msgstr ""
+
+#: ../../source/locations.rst:169
+#: e125e1b0d930482cb2ac3d9357845194
+msgid "``Ta'izz Governorate (osm, poly) 5c35b342-0b5e-4648-86cd-7ad730d647fa``"
+msgstr ""
+
+#: ../../source/locations.rst:173
+#: c582dfaaca5d48e0850bb3b2322f90fa
+msgid "``location:humane_id:admin``"
+msgstr ""
+
+#: ../../source/locations.rst:177
+#: 4a121ebe34fa4c199ac373f4f90ee2d0
+msgid "``l_hid_a``"
+msgstr ""
+
+#: ../../source/locations.rst:189
+#: fb4dae37d4804ba89c403b01bf5698ed
+msgid "The values in ``location:humane_id:admin`` are a concatenation of four other values in the row of data. They provide a unique but human-readable key that can be included in Units and Incidents data to refer to a specific Location within the ``Locations`` dataset. The field is created by following the below format:"
+msgstr ""
+
+#: ../../source/locations.rst:195
+#: a2fecb6c4a034037ac95315a0cbef7bd
+msgid "The value ``Ta'izz Governorate (osm, poly) 5c35b342-0b5e-4648-86cd-7ad730d647fa`` tells us that the name of the place is ``Ta'izz Governorate``, that it is a Location found in ``osm`` (short for \"OpenStreetMap\") that it denotes an area (``poly``); the UUID provides the hard link to a specific row in the Location table."
+msgstr ""
+
+#: ../../source/locations.rst:197
+#: 8e6273136af648fcb228aa7d8a056889
+msgid "Values in ``location:humane_id:admin`` are used by Staff Researchers to reference a Location in other data tables. For example, when defining a ``site`` or ``area of operations`` in the :ref:`Units` tables, a value from ``location:humane_id:admin`` is used. The reason for this particular formulation is the need to balance readability with uniqueness. We could choose to use the UUID in ``location:id:admin`` as a way to reference Locations in other tables, but this would not give any indication about where the Location was, or what sort of Location it was. Similarly, the values in ``location:name`` could be used as a reference to a Location, but these are not unique enough for us to be certain that we are referencing the correction Location. The format we have chosen balances these competing needs, giving the user a quick way to see the name of a Location, what type of object it is, where we got it from, along with its UUID."
+msgstr ""
+
+#: ../../source/locations.rst:200
+#: d2e9d4e236ac4c32b0aa6fc1ab3b7c32
+msgid "Location: Object Name"
+msgstr ""
+
+#: ../../source/locations.rst:204
+#: 02931f26772b4de2b2ab97af715ed2bc
+msgid "The name of the Location as specified in the source of geospatial information from which it is taken."
+msgstr ""
+
+#: ../../source/locations.rst:212
+#: ad9cab349f58489e9394c67dae1df5d3
+msgid "```Ta'izz Governorate```"
+msgstr ""
+
+#: ../../source/locations.rst:216
+#: 04d1b74290cd49c49bc3c859dad76d01
+msgid "``location:name``"
+msgstr ""
+
+#: ../../source/locations.rst:220
+#: 4033de11a6074f4cb895e7ce831a8149
+msgid "``l_n``"
+msgstr ""
+
+#: ../../source/locations.rst:232
+#: 383da67f9e65481a9f5c8855dfa8e82e
+msgid "Locations are a combination of metadata entered by hand and other data obtained through use of automation tools. Locations are also derived from different data sources that may describe geographic objects in a variety of ways. The value in ``location:name`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's ``name`` field and place it in ``location:name``. Along with ``location:id`` and ``location:geo_type``, ``location:name`` is needed in order for automation tools toidentify the object within the geospatial data source. Where a Location is arbitrarily-defined, or is derived from a data source that does not provide a name, the Staff Researcher can provide one."
+msgstr ""
+
+#: ../../source/locations.rst:235
+#: 582dfdec2ca24b0eb33f24b6897d065f
+msgid "Location: Object Identifier"
+msgstr ""
+
+#: ../../source/locations.rst:239
+#: 64fd500ea0a846f6acdba533922db01f
+msgid "The identifier for the Location as specified in the source of geospatial information from which it is taken."
+msgstr ""
+
+#: ../../source/locations.rst:247
+#: cd0e90736613493eabffc5850696bb37
+msgid "``383895``"
+msgstr ""
+
+#: ../../source/locations.rst:251
+#: 5fdb7976861a4ee0ac832aeba4ffbcab
+msgid "``location:id``"
+msgstr ""
+
+#: ../../source/locations.rst:255
+#: 0c650a7d645a44f9918f0ba588f7398b
+msgid "``l_oid``"
+msgstr ""
+
+#: ../../source/locations.rst:267
+#: ff8874c70af9470ba19a4c2dfe4ead53
+msgid "Locations are a combination of metadata entered by hand and other data obtained through use of automation. Locations are also derived from different data sources that may describe geographic objects in a variety of ways. The value in ``location:id`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's ``id`` field and place it in ``location:id``. Along with ``location:name`` and ``location:geo_type``, ``location:id`` is needed in order for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily defined, or is derived from a data source that does not provide a ID number, the Staff Researcher can provide one."
+msgstr ""
+
+#: ../../source/locations.rst:270
+#: 71923a34000f4cff9a7f72a610004ed4
+msgid "Location: Object Geometry Type"
+msgstr ""
+
+#: ../../source/locations.rst:274
+#: aff33cb0d79d47eb89bd29b941dba676
+msgid "The two-dimensional geometric primative of the Location, as defined in the source of geospatial information from which it is taken."
+msgstr ""
+
+#: ../../source/locations.rst:282
+#: 62d6c16df065471b8bfc18bee7538656
+msgid "``point``, ``poly``"
+msgstr ""
+
+#: ../../source/locations.rst:286
+#: fb60a72a03164ba595ebc6588cb51ca0
+msgid "``location:geo_type``"
+msgstr ""
+
+#: ../../source/locations.rst:290
+#: fa24baa8d8ff4911a76088040312284c
+msgid "``l_gt``"
+msgstr ""
+
+#: ../../source/locations.rst:302
+#: 455b93245d524ada9fb44e0255ca2f88
+msgid "This field used a controlled vocabulary to describe the type of geometry used to represent the Location on a map. The Staff Researcher can choose from the following three options?"
+msgstr ""
+
+#: ../../source/locations.rst:304
+#: 7403a2e86c584dc29f23af209efdae4b
+msgid "``point``: the Location is a single distinct point on a map, represented by a single pair of geographic coordinates."
+msgstr ""
+
+#: ../../source/locations.rst:305
+#: 8ccfe24cdf264ba898acaea5f6213857
+msgid "``poly``: the Location is a closed area on a map, its boundary described by a sequence of geographic coordinates."
+msgstr ""
+
+#: ../../source/locations.rst:306
+#: 0d5efa84a7094c3780e9b35c81f08142
+msgid "``line``: the Location is a line on a map, described by a sequence of geographic coordinates. A ``line`` may also be closed."
+msgstr ""
+
+#: ../../source/locations.rst:308
+#: 42e2a67b6b734fca8190ed5e324b9e23
+msgid "The gazeteer used as the source of geometry may used different terminology to describe the Location. For example, in OpenStreetMap the boundaries of administrative areas (such as counties or states) `are described <https://wiki.openstreetmap.org/wiki/Relation>`_ using an object called a ``relation``; although this can be a complex mix of different objects, for our purposes it is a ``poly`` because it describes an area."
+msgstr ""
+
+#: ../../source/locations.rst:310
+#: 5bf11a6bf7c445e2abedfde36bfdf252
+msgid "Along with the values in ``location:name``, ``location:id`` and ``location:id:admin`` the value entered in ``location:geo_type`` becomes part of the Location's \"humane id\", a human-readable unique identifier that acts as a reference for a Location when it is used in other parts of the data model (such as when defining a \"site\" in the :ref:`Units` data,for example)."
+msgstr ""
+
+#: ../../source/locations.rst:313
+#: 046e6c1b1d604b42871d533a493efda8
+msgid "Location: Origin"
+msgstr ""
+
+#: ../../source/locations.rst:317
+#: 6d255ec480b84dc5ace7272eb9b2b1bb
+msgid "The geospatial information source that provides information about this Location."
+msgstr ""
+
+#: ../../source/locations.rst:325
+#: 9da114ebd75149c393a7a4c2792779f5
+msgid "``osm``, ``sfm``, ``hdx``"
+msgstr ""
+
+#: ../../source/locations.rst:329
+#: df388f2eee4347e6a99ecb11b4c2c3f4
+msgid "``location:origin``"
+msgstr ""
+
+#: ../../source/locations.rst:333
+#: 917bf4653024458e80632db1fd928c40
+msgid "``l_o``"
+msgstr ""
+
+#: ../../source/locations.rst:345
+#: cb09f08f87bc4067ac8769110749ad41
+msgid "SFM uses a combination of manual data entry and automated processes to manage Location information. The values in ``location:origin`` identify where automation tools should go to obtain spatial information about an object. For example, if the value ``osm`` is entered in ``location:origin`` this indicates that the automation tool should query OpenStreetMap in order to obtain spatial information about a Location. If ``osm`` were set, then the values in ``location:name`` and ``location:id`` would correspond to the object name and ID number in OpenStreetMap. Locations can be derived from comprehensive online services, as well as other sources like locally-held ``.shp`` or ``.kml`` files. The number of origins is unlimited."
+msgstr ""
+
+#: ../../source/locations.rst:348
+#: a11f26b932e64fb9ba7ca627f6e0e255
+msgid "Location: Source"
+msgstr ""
+
+#: ../../source/locations.rst:352
+#: 22cd106b5208464397189b2a3de95edf
+msgid "The UUID of the access point in the source that provides information about the Location."
+msgstr ""
+
+#: ../../source/locations.rst:360
+#: 02eb9dcad4b64fcbb7656c1100664847
+msgid "``20248d51-6efe-4150-a5b6-4211fd83365d``"
+msgstr ""
+
+#: ../../source/locations.rst:364
+#: 4586d9851bd84628bfd2884f118d057d
+msgid "``location:source``"
+msgstr ""
+
+#: ../../source/locations.rst:368
+#: 59d4318607c24ca798a5834bb0f5bea6
+msgid "``l_s``"
+msgstr ""
+
+#: ../../source/locations.rst:380
+#: c145060b6a26486aadd3692b4d236854
+msgid "SFM uses a number of different sources of geographical information, including OpenStreetMap, data provided by the United Nations through the Humanitarian Data Exchange, and Locations that are arbitrarily defined during research. Staff Researchers should use the ``location:source`` field to make note of exactly which dataset has been used as a source of this Location. The UUID will reference an entry in the :ref:`Sources` dataset. In this way, the ``location:source`` field serves a different purpose to ``location:origin``."
+msgstr ""
+
+#: ../../source/locations.rst:383
+#: 260a984b918546b88ddbb44d386af6c8
+msgid "Location: Country"
+msgstr ""
+
+#: ../../source/locations.rst:387
+#: 34f457e54aca48f294db287e6f132d80
+msgid "Country in which the Location is situated."
+msgstr ""
+
+#: ../../source/locations.rst:391
+#: 48e02c81459746f0bab96d3264306f1e
+msgid "Text, controlled vocabulary"
+msgstr ""
+
+#: ../../source/locations.rst:395
+#: 8d7862b47c4140dab3085e5177981d66
+msgid "``ye``, ``ng``, ``mm``"
+msgstr ""
+
+#: ../../source/locations.rst:399
+#: c814cd87ac0f488992c34a75c9482f5d
+msgid "``location:country``"
+msgstr ""
+
+#: ../../source/locations.rst:403
+#: 380fb39743a842f4b841f95f97e6308a
+msgid "``l_c``"
+msgstr ""
+
+#: ../../source/locations.rst:415
+#: d4683df36b1f45a9bb807afd8ec5c94d
+msgid "Values for this field are the ISO 3166-1 alpha-2 country codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__). This field is entered manually by the Staff Researcher and acts as a simple cross-check on the automatically-populted values in ``location:admin_level_2``."
+msgstr ""
+
+#: ../../source/locations.rst:418
+#: 671fcf5a54114b1cb54ee00fbdb6437d
+msgid "Location: Admin Level"
+msgstr ""
+
+#: ../../source/locations.rst:422
+#: c95eab3946a447e59a4ebcba92384cfa
+msgid "The administrative level of the Location described in the row, if defined in the source of geographical information from which the Location is derived."
+msgstr ""
+
+#: ../../source/locations.rst:426
+#: 48ce1054761f48f8850983765b3492da
+msgid "Numbers; programatically created."
+msgstr ""
+
+#: ../../source/locations.rst:430
+#: f522e2baea8c4f2bbc5a85c448383f9c
+msgid "``2``"
+msgstr ""
+
+#: ../../source/locations.rst:434
+#: d3f3211ec2d44f669c32fd6bb43d3493
+msgid "``location:admin_level``"
+msgstr ""
+
+#: ../../source/locations.rst:438
+#: 3468c93c323e4189b93d9bf9dc0e7b7a
+msgid "``l_al``"
+msgstr ""
+
+#: ../../source/locations.rst:450
+#: f7e13a61687145e786fbf8afe0220471
+msgid "In every country, places are organized hierarchically based on their political significance, population and other factors. This feature passes into geographical information systems. At the top of the hierarchy rests the international boundary and capital city of a country; beneath this, there are sub-national divisions like states or provinces, and regional capitals, followed by districts, counties, municipalities, towns, suburbs, wards and so on. Different countries have different ways of describing these political and administrative divisions, but they are largely hierarchical and can be cross-compared. Knowing the level(s) at which a Location sits in the overall hierarchy provides us with a useful way to group and understand Locations; it can tell us important things about political and administrative authority, governance and elections, as well as security force jurisdictions and organizational structures."
+msgstr ""
+
+#: ../../source/locations.rst:452
+#: 573fd7660e034df59a891dbb09abab41
+msgid "The field ``location:admin_level`` is drawn from OpenStreetMap, which has a `comprehensive table <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__ that matches the divisions that exist in every state to a single ranking scheme from ``2`` (international border) to ``10`` (small villages and communities). Some countries have defined a level ``11`` division, but we do not use this. Not all levels are present in every country: for example, Mexico does not define a level 3 administrative area."
+msgstr ""
+
+#: ../../source/locations.rst:454
+#: 53e97904ff26444c881ebc5769eb78f0
+msgid "The data in ``location:admin_level`` and the other \"admin_level\" fields are automatically populated using a script that queries the OSM Overpass API. The Staff Researcher does not do this manually."
+msgstr ""
+
+#: ../../source/locations.rst:457
+#: 98946052c4974cd39ccf7387fe5757a3
+msgid "Location: Admin Level 10"
+msgstr ""
+
+#: ../../source/locations.rst:461
+#: f3d9072b7cc440cb8ebbf7a0fffd10e3
+msgid "The administrative level 10 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: ../../source/locations.rst:465
+#: 4ff557d0c5da41c596196f2fc89b268a
+msgid "Text and numbers; programatically created."
+msgstr ""
+
+#: ../../source/locations.rst:469
+#: 9bd6947fa6b2487b86a337b118184d39
+msgid "``San Roque (osm, poly) 78dd704f-12ba-4b38-b887-41efd0d803fb``, a *barangay* `located in the Philippines <https://www.openstreetmap.org/relation/2996306>`__."
+msgstr ""
+
+#: ../../source/locations.rst:473
+#: 07becce3b8624e0984543f2691a6f643
+msgid "``location:admin_level_10``"
+msgstr ""
+
+#: ../../source/locations.rst:477
+#: b38fe409b9df4cd0b171e95184458b5b
+msgid "``l_al10``"
+msgstr ""
+
+#: ../../source/locations.rst:489
+#: f9d80b723c5b4ba3b2b5ddf92f3d1e1c
+msgid "This field contains the human-readable idenfifier (``location:humane_id:admin``) of the level 10 adminstrative area in which the current Location is situated. Level 10 is a extrenely small adminstrative division, and is rarely specified in freely available geospatial information sources."
+msgstr ""
+
+#: ../../source/locations.rst:491
+#: 707ac9f81e3b4aa5b365bae74abda989
+msgid "The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes *quartiers* (Belgium), *asumid* (subdistricts of Talinn, Estonia) and *الحي* (neighbourhoods of Damascus, Syria) in the list of types of level 10 administrative area."
+msgstr ""
+
+#: ../../source/locations.rst:493
+#: ../../source/locations.rst:532
+#: ../../source/locations.rst:571
+#: ../../source/locations.rst:610
+#: ../../source/locations.rst:650
+#: ../../source/locations.rst:689
+#: ../../source/locations.rst:728
+#: ../../source/locations.rst:767
+#: 74afcaa4086844628fb45ee430e843f3
+#: 2975f02380744946b424b6c1f2366470
+#: 08f8321488bd47aaae15f3c7a8e9148c
+#: bd4be6e54a5d4543be9ad30d986f9a4c
+#: 9bd23db49d3a491a9d570391a725d518
+#: 696c6e34e05f4445bd1f984a3ae188f6
+#: 67e93aadbb8743d9a6052b957d647938
+#: 3c5cfd329a244d18be1cea2ae0557410
+msgid "This field is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually."
+msgstr ""
+
+#: ../../source/locations.rst:496
+#: 2cb6efc6ae994f57b4e9a5b3309ff29b
+msgid "Location: Admin Level 9"
+msgstr ""
+
+#: ../../source/locations.rst:500
+#: dcf250717eab481a8a60eb390032f3cf
+msgid "The administrative level 9 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: ../../source/locations.rst:504
+#: ../../source/locations.rst:543
+#: ../../source/locations.rst:582
+#: ../../source/locations.rst:622
+#: ../../source/locations.rst:661
+#: ../../source/locations.rst:700
+#: ../../source/locations.rst:720
+#: ../../source/locations.rst:739
+#: ../../source/locations.rst:778
+#: ../../source/locations.rst:922
+#: 1d947e3c60224b9cb4b0ba51d9f4e9de
+#: e0e97d893123482fbb2e8bcf5f3eca9f
+#: 988841b6a6324921aa933c2e257e65e0
+#: 09636546d9fc43d2985d069435d69db4
+#: 270a125af7e34766a9e024abf92c6c0d
+#: 3e036c7087fd4c6a82765ddd80997c00
+#: 1fce0a23cf36433593b0a96c1469adcd
+#: e961fb527eb04e3591e471a30af5c6bf
+#: cfa86eaad58440dfa1042d0683696212
+#: 6a72f205864d4a1cac279c6403f1c26c
+msgid "Text and numbers; programatically generated."
+msgstr ""
+
+#: ../../source/locations.rst:508
+#: 1a8a1d7dfafb40a08caad499fbc9a941
+msgid "``Zone 13 (osm, poly) b858ac31-9e46-4818-b70a-572756d60012``, a *barangay zone* `in the Philippines <https://www.openstreetmap.org/relation/11378938>`__."
+msgstr ""
+
+#: ../../source/locations.rst:512
+#: 0ef61333f4d1470591954a4b5231eeb5
+msgid "``location:admin_level_9``"
+msgstr ""
+
+#: ../../source/locations.rst:516
+#: 90475384cd0140f0802e94458c7d8499
+msgid "``l_al9``"
+msgstr ""
+
+#: ../../source/locations.rst:528
+#: 4c5520b638fa4726b30fc8eedf942491
+msgid "This field contains the human-readable idenfifier (``location:humane_id:admin``) of the level 9 adminstrative area in which the current Location is situated. Level 9 is a extrenely small adminstrative division, and is rarely specified in freely available geospatial information sources."
+msgstr ""
+
+#: ../../source/locations.rst:530
+#: 3197ec78cd13457d80edb2e2e9dee511
+msgid "The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes *arangay zones* (Philippines), *Sectores y Barrios de 1° nivel* (Venezuela) and *မြို့နယ်* (townships in Myanmar) in the list of types of level 9 administrative area."
+msgstr ""
+
+#: ../../source/locations.rst:535
+#: 58df355d17fd4894ac2283bba2d642da
+msgid "Location: Admin Level 8"
+msgstr ""
+
+#: ../../source/locations.rst:539
+#: a30095c87cab41b9a1d09303a1abbe61
+msgid "The administrative level 8 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: ../../source/locations.rst:547
+#: f837f641c5d04d1388568b6ed4b9f1c8
+msgid "``Ermita (osm, poly) 9989ba43-3b03-473a-8226-511a8eb82c3d``, an `administrative district of Manila <https://www.openstreetmap.org/relation/103706#map=15/14.5852/120.9821>`__ in the Philippines."
+msgstr ""
+
+#: ../../source/locations.rst:551
+#: f1ae494f3edb444fa149c1d9186d7f4f
+msgid "``location:admin_level_8``"
+msgstr ""
+
+#: ../../source/locations.rst:555
+#: 319101566b544a17b49cc717d12aaac3
+msgid "``l_al8``"
+msgstr ""
+
+#: ../../source/locations.rst:567
+#: 52972660ee4e4c238db2093d89430d36
+msgid "This field contains the human-readable idenfifier (``location:humane_id:admin``) of the level 8 adminstrative area in which the current Location is situated. Level 9 is a relatively small adminstrative division, and may not be commonly found in freely available geospatial information sources."
+msgstr ""
+
+#: ../../source/locations.rst:569
+#: 347c9746cce44be6a16a78826e8437f9
+msgid "The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes *city corporations* (Bangladesh), *cantons* (Chad) and *kebele* (Ethiopia) in the list of types of level 8 administrative area."
+msgstr ""
+
+#: ../../source/locations.rst:574
+#: eb22f26a0fca4d868f4bd31ecd9c0163
+msgid "Location: Admin Level 7"
+msgstr ""
+
+#: ../../source/locations.rst:578
+#: 3d75562678874b55b9c7eeca50e46bb1
+msgid "The administrative level 7 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: ../../source/locations.rst:586
+#: d1b418aa434f48f39104aaafdfec8be4
+msgid "``Wuse II (osm, poly) 111f698a-421e-4fc8-9ace-c0aa62b461b5``"
+msgstr ""
+
+#: ../../source/locations.rst:590
+#: 311cb2fec2ef4cac8d116f5a98cb8bf6
+msgid "``location:admin_level_7``"
+msgstr ""
+
+#: ../../source/locations.rst:594
+#: a660fd263eba4b9bb19a4b9594715b48
+msgid "``l_al7``"
+msgstr ""
+
+#: ../../source/locations.rst:606
+#: 30319bc0f05f4ef7ad5e0c4accd79251
+msgid "This field contains the human-readable idenfifier (``location:humane_id:admin``) of the level 7 adminstrative area in which the current Location is situated. Level 7 areas are commonly found in freely available geospatial information sources such as OpenStreetMap."
+msgstr ""
+
+#: ../../source/locations.rst:608
+#: a81d1e69e23540e0b3da71b7d7d0977a
+msgid "The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes *sous-préfectures* (Chad), *arrondissements* (in the cities of Ouagadougou and Bobo Dioulasso, Burkina Faso) and *microrregiões* (micro-regions in Brazil) in the list of types of level 7 administrative area."
+msgstr ""
+
+#: ../../source/locations.rst:614
+#: b2aecbb7f6ed47bdb7b80fe97126a783
+msgid "Location: Admin Level 6"
+msgstr ""
+
+#: ../../source/locations.rst:618
+#: 051854c2ca3a49db969b6785c07ee843
+msgid "The administrative level 6 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: ../../source/locations.rst:626
+#: 7c6c79e478924d48b9ea39bdb3ffa9d3
+msgid "``Arbinda (osm, poly) 659c231e-eb1e-4c46-a710-b7663ef9f2e0``, a *commune rurale* `in Burkina Faso <https://www.openstreetmap.org/relation/6199315>`__."
+msgstr ""
+
+#: ../../source/locations.rst:630
+#: c87cd926f0e94c08954aae9bda7b06b2
+msgid "``location:admin_level_6``"
+msgstr ""
+
+#: ../../source/locations.rst:634
+#: f38624399a2c44c29faa30cc3cee56cb
+msgid "``l_al6``"
+msgstr ""
+
+#: ../../source/locations.rst:646
+#: 559057c518f64a17804dd18c245e5979
+msgid "This field contains the human-readable idenfifier (``location:humane_id:admin``) of the level 6 adminstrative area in which the current Location is situated. Level 6 areas are commonly found in freely available geospatial information sources such as OpenStreetMap."
+msgstr ""
+
+#: ../../source/locations.rst:648
+#: fc2f1dd870f34a9f89ce15848ca00e82
+msgid "The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes *départments* (Chad), *municipios* (Mexico) and local government areas (Nigeria) in the list of types of level 6 administrative area."
+msgstr ""
+
+#: ../../source/locations.rst:653
+#: dc76a6a1e15946cd9d224deee94b82b4
+msgid "Location: Admin Level 5"
+msgstr ""
+
+#: ../../source/locations.rst:657
+#: 5dcb290b6a0948179212e4c938c1eec5
+msgid "The administrative level 5 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: ../../source/locations.rst:665
+#: ed326c89c123413c88d192caf038f04b
+msgid "``Seti (osm, poly) 64a4dd09-36d4-4455-bd07-a77addc91946``, a `zone in Nepal <https://www.openstreetmap.org/relation/4583223>`__."
+msgstr ""
+
+#: ../../source/locations.rst:669
+#: 439a5798a5b24b898db9216ea8366779
+msgid "``location:admin_level_5``"
+msgstr ""
+
+#: ../../source/locations.rst:673
+#: d5ed3b467e3747d180e14604d302d21b
+msgid "``l_al5``"
+msgstr ""
+
+#: ../../source/locations.rst:685
+#: 3dd1800441e94ba686e8aad3b43a8586
+msgid "This field contains the human-readable idenfifier (``location:humane_id:admin``) of the level 5 adminstrative area in which the current Location is situated. Level 5 areas are commonly found in freely available geospatial information sources such as OpenStreetMap."
+msgstr ""
+
+#: ../../source/locations.rst:687
+#: 4f73152404964d26b4a709aa163bd444
+msgid "The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes the *préfecture* (Togo), *Provincial legislative districts* (Philippines) and regions (Côte d'Ivoire) in the list of types of level 5 administrative area."
+msgstr ""
+
+#: ../../source/locations.rst:692
+#: 8e8c6a58d25744f2a027192746da556b
+msgid "Location: Admin Level 4"
+msgstr ""
+
+#: ../../source/locations.rst:696
+#: 6e9b8fc63098421bb466515ddd729ab7
+msgid "The administrative level 4 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: ../../source/locations.rst:704
+#: 55708cbe91eb4774b45fc4125f5e6792
+msgid "``Gombe (osm, poly) 06791bb5-c39d-4a32-a05b-f3945c4f83ea``, a `state in Nigeria <https://www.openstreetmap.org/relation/3720422>`__."
+msgstr ""
+
+#: ../../source/locations.rst:708
+#: 9543ce96768e4adda399d425ea64b582
+msgid "``location:admin_level_4``"
+msgstr ""
+
+#: ../../source/locations.rst:712
+#: eb6abc600ce44e7d826a990d87cd4f9e
+msgid "``l_al4``"
+msgstr ""
+
+#: ../../source/locations.rst:724
+#: 9eea30eb407e41f19bb87afc3abb9b14
+msgid "This field contains the human-readable idenfifier (``location:humane_id:admin``) of the level 4 adminstrative area in which the current Location is situated. Level 4 areas are commonly found in freely available geospatial information sources such as OpenStreetMap, and are usually the largest sub-national administrative areas."
+msgstr ""
+
+#: ../../source/locations.rst:726
+#: 263363e492514acb813a4fe1f1db3c89
+msgid "The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes provinces (Philippines), states (Nigeria) and *régions* (Mali) in the list of types of level 4 administrative area."
+msgstr ""
+
+#: ../../source/locations.rst:731
+#: 33125c4f42174fd2917f8ed0756c219a
+msgid "Location: Admin Level 3"
+msgstr ""
+
+#: ../../source/locations.rst:735
+#: 20abd50460c14a01a55f56d286538216
+msgid "The administrative level 3 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: ../../source/locations.rst:743
+#: bf127681af9f41be9629d5d30405d70a
+msgid "``Central Visayas (osm, poly) 81848978-3998-48bf-87a7-bd1888912aee``, `a region of the Philippines <https://www.openstreetmap.org/relation/3625910>`__."
+msgstr ""
+
+#: ../../source/locations.rst:747
+#: e7a4ca33abbb48d296077e7adb098a03
+msgid "``location:admin_level_3``"
+msgstr ""
+
+#: ../../source/locations.rst:751
+#: 927af5ff86ee406d80c61284fd3a39b7
+msgid "``l_al3``"
+msgstr ""
+
+#: ../../source/locations.rst:763
+#: 391bddf0f8df4adca560ae1b51edcd3d
+msgid "This field contains the human-readable idenfifier (``location:humane_id:admin``) of the level 3 adminstrative area in which the current Location is situated. Where defined, level 3 administrative areas are commonly found in freely available geospatial information sources such as OpenStreetMap."
+msgstr ""
+
+#: ../../source/locations.rst:765
+#: 18a22f1094a143e9b3accf702f76eba8
+msgid "The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes regions (Philippines) in the list of types of level 3 administrative area."
+msgstr ""
+
+#: ../../source/locations.rst:770
+#: fcbadfb5ce7048f5add41e783799c2e3
+msgid "Location: Admin Level 2"
+msgstr ""
+
+#: ../../source/locations.rst:774
+#: fa1d18c8dea54f5db57f9e319da1c832
+msgid "The administrative level 2 Location - the international state boundary - within which the present Location is wholly situated."
+msgstr ""
+
+#: ../../source/locations.rst:782
+#: 0f782a08c905446e9f8b9a77572763bc
+msgid "``Mali (osm, poly) 8e7b492e-5346-4f43-91a0-55c1f3419468``, ``Sudan (osm, poly) 7117df90-1e52-4726-806a-8e422a0511c6``"
+msgstr ""
+
+#: ../../source/locations.rst:786
+#: d519aa15094a4738bd774e69a94da9e1
+msgid "``location:admin_level_2``"
+msgstr ""
+
+#: ../../source/locations.rst:790
+#: 343d13a801934287876baa7e8fd674a3
+msgid "``l_al2``"
+msgstr ""
+
+#: ../../source/locations.rst:802
+#: 5ea8a8188ac247e69510173a07fd8ae7
+msgid "This field contains the human-readable identifier (``location:humane_id:admin``) of the international boundary of a state, also known within the OpenStreetMap schema of administrative areas as a level 2 boundary. This field is programatically generated using a geospatial query; the Staff Researcher does not enter this manually."
+msgstr ""
+
+#: ../../source/locations.rst:805
+#: ba490dd82e3c44928cbd6933c5b0b7e6
+msgid "Location: Notes"
+msgstr ""
+
+#: ../../source/locations.rst:809
+#: 4f3cade4e6454212840407efdf05794f
+msgid "Analysis, commentary and notes about the Location that do not fit into the data structure."
+msgstr ""
+
+#: ../../source/locations.rst:817
+#: 2cb80a3c730b4afd85ab87b33979b98b
+msgid "``Sources show Location is within the forested areas between two villages and is derived through geolocation and image analysis of source eeb13cf1-7b98-4075-a09b-530146d2ee37``"
+msgstr ""
+
+#: ../../source/locations.rst:821
+#: ddc8af03c696489d9c6d1876cd4dede2
+msgid "``location:notes:admin``"
+msgstr ""
+
+#: ../../source/locations.rst:825
+#: 083afe521b9d4ff99e369e0642f697fa
+msgid "``l_n_a``"
+msgstr ""
+
+#: ../../source/locations.rst:833
+#: fadc3eff0d0a4575b59d6848c5161510
+msgid "Yes"
+msgstr ""
+
+#: ../../source/locations.rst:837
+#: 01e104ef9f5c43a791809d1557710cd6
+msgid "We use this field to record information about the Location that is likely to provide useful context, additional information that does not fit into the data structure, and notes about how decisions were made about which data to include. Any sources used should be referenced directly inside the field. Notes are intended to be published."
+msgstr ""
+
+#: ../../source/locations.rst:840
+#: 07f7d034b92d466a9a687d6a3571a363
+msgid "Location: First Check Time"
+msgstr ""
+
+#: ../../source/locations.rst:844
+#: 57b59170b0b542cbbf8e616044281850
+msgid "Timestamp of the first time that metadata and geometry for this Location was obtained programatically from OpenStreetMap Overpass API."
+msgstr ""
+
+#: ../../source/locations.rst:848
+#: ../../source/locations.rst:885
+#: f65fc76cfc6d4ac392d1bd9a0f5e4622
+#: 58c0d1e3013b4978a1ad8cabf159810c
+msgid "Datetime; programatically generated."
+msgstr ""
+
+#: ../../source/locations.rst:852
+#: fa8160beb1514d48b14b7e5627808698
+msgid "``2021-02-14T19:39:01Z``"
+msgstr ""
+
+#: ../../source/locations.rst:856
+#: 982ccf161fbf4efe900aa26786f98d80
+msgid "``location:first_check_time``"
+msgstr ""
+
+#: ../../source/locations.rst:860
+#: d59968ae96fd427581a18bd69026271a
+msgid "``l_fct``"
+msgstr ""
+
+#: ../../source/locations.rst:872
+#: ../../source/locations.rst:909
+#: 1befc2728a574ba1b941e9087f301fa9
+#: fd4a8f88a5de432bbc4cc242fd07f2ba
+msgid "After Staff Researchers have entered the minimum metadata for a Location, we use a script to obtain further information about that object from OpenStreetMap's Overpass API. Overpass gives us the full set of metadata tags for the Location (such as its name in local languages, its last date of update and so on) as well as the geometry that we use to plot the Location on a map. As Location objects can change over time, we keep a record of the date and time at which we first obtained the extended metadata from OSM, as well as the most recent."
+msgstr ""
+
+#: ../../source/locations.rst:874
+#: ../../source/locations.rst:911
+#: ec70258082a4498a8fa8431c79307a7d
+#: 61377317806a4fd89b23ea03dc492d8a
+msgid "This is a programmatically generated field; the Staff Researcher should not enter this directly."
+msgstr ""
+
+#: ../../source/locations.rst:877
+#: 27337d8e91334606ba91ea91d8d5449b
+msgid "Location: Last Check Time"
+msgstr ""
+
+#: ../../source/locations.rst:881
+#: fc043cc2df374df89942d36a6ff90cc5
+msgid "Timestamp of the most recent time that metadata and geometry for this Location was obtained programatically from OpenStreetMap Overpass API."
+msgstr ""
+
+#: ../../source/locations.rst:889
+#: eac8b6825457472ab63e5b2aec032eb9
+msgid "``2021-02-15T20:33:02Z``"
+msgstr ""
+
+#: ../../source/locations.rst:893
+#: d8d36d7188074c8f8a0be8998061de4b
+msgid "``location:last_check_time``"
+msgstr ""
+
+#: ../../source/locations.rst:897
+#: d4fcf2f85a6b46e19644d1615386eb6e
+msgid "``l_lct``"
+msgstr ""
+
+#: ../../source/locations.rst:914
+#: 36873ad255a74cc2ab9f3310ef2b2a68
+msgid "Location: Error"
+msgstr ""
+
+#: ../../source/locations.rst:918
+#: fa28fafa07424928a406e351cbf81c5a
+msgid "Errors encountered during automated processing of a Location."
+msgstr ""
+
+#: ../../source/locations.rst:926
+#: 1d26bc6130fd4b8aa80cd6ea75321f08
+msgid "``not found``, ``Name changed to 'Arbindah'``"
+msgstr ""
+
+#: ../../source/locations.rst:930
+#: a34d4224b4d847c987849233594a8c77
+msgid "``location:error``"
+msgstr ""
+
+#: ../../source/locations.rst:934
+#: 6184381529f34b9893663a585505b392
+msgid "``l_err``"
+msgstr ""
+
+#: ../../source/locations.rst:946
+#: 9db3d82684ae44e78c5d34f14c2249b4
+msgid "SFM's ``geo`` tool will use this field to describe any problems it has in obtaining extended metadata about geometry of a Location from OpenStreetMap Overpass API. It populates this field each time the script it run; developers should use the messages to fix the underlying problem with the Location, after which ``geo`` can be re-run. The field is programmatically generated, and the Staff Researcher should not manually enter anything in this field."
+msgstr ""
+
+#: ../../source/locations.rst:949
+#: c5f5608100a24bb49855a2fc67842b0b
+msgid "Location: \"As of\" Date"
+msgstr ""
+
+#: ../../source/locations.rst:953
+#: f8a40817d8734828a59df521506800bf
+msgid "The date and time of the old version of an OpenStreetMap item that we want to retrieve."
+msgstr ""
+
+#: ../../source/locations.rst:957
+#: efc191a4dddc4cdebe48ad4a682768ec
+msgid "Datetime"
+msgstr ""
+
+#: ../../source/locations.rst:961
+#: 37aae1e2a68346338082b91ad33caa8e
+msgid "``2009-03-24T07:50:06Z``"
+msgstr ""
+
+#: ../../source/locations.rst:965
+#: 7cd72391d3dd4aeebc0847ba49683328
+msgid "``location:as_of_date``"
+msgstr ""
+
+#: ../../source/locations.rst:969
+#: 8c328a72f4e14d5fb27f3f4cc0c60abd
+msgid "``l_aod``"
+msgstr ""
+
+#: ../../source/locations.rst:981
+#: 8ad54b5b2ae647eb98b5fb074cd221eb
+msgid "OpenStreetMap is created by its users and every update to any object on the map is recorded and stored. This means you can see the history of an object, and that changes to the map can be observed, discussed and reverted if necessary. The version history of a map object is also important for SFM research, because it may give us a way to access earlier representations of administrative geography. Borders and boundaries change all the time, and these changes are often reflected in the map's history. It also means that we can protect the integrity of our own data by indicating that the Location is based on an OpenStreetMap object *as it was* at a particular date and time."
+msgstr ""
+
+#: ../../source/locations.rst:983
+#: d443a76d2dfe47258e4b3e3da5dc631d
+msgid "The feature of OpenStreetMap that enables this is the repository of `attic data <https://wiki.openstreetmap.org/wiki/Attic_Data>`__, and it can be queried using the Overpass API (directly or by using the SFM ``geo`` tool). The value the Staff Researcher enters into ``location:as_of_date`` must correspond a value listed in the version history of an object. This information is accessible by selecting \"View history\" on any OSM object, followed by \"Download XML\". Here is `an example of the attic data for Ermita <https://www.openstreetmap.org/api/0.6/relation/103706/history>`__, a level 9 administrative area in then Philippines."
+msgstr ""
