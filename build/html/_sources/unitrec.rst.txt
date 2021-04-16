@@ -46,18 +46,7 @@ Unit record: Areas of Operation
 
 The areas of operation section contains a map and table that describe where an organization has operated in some manner. Click on the highlighted areas of the map to display the name of an area of operation. Grab the map to drag/pan it around. Swipe or use the ``+`` and ``-`` controls on the map to zoom in or zoom out. Hover over any value in the table and a little coloured circle will appear. Click on this to view the sources and confidence rating we have assigned to that value.
 
-**Fields used in the unit record areas of operations section**
-
-The following fields are used in the areas of operation section:
-
--  :ref:`Unit: Area of Operations (Name)`
--  :ref:`Unit: Area of Operations (ID)`
--  :ref:`Unit: Area of Operations, First Cited Date`
--  :ref:`Unit: Area of Operations First Cited Date is Start Date`
--  :ref:`Unit: Area of Operations Last Cited Date`
--  :ref:`Unit: Area of Operations is Open-Ended`
-
-The Areas of Operation section will display where there is a valid Area of Operations record that contains values for ``Unit: Area of Operations (Name)`` and ``Unit: Area of Operations (ID)``. Otherwise, the section will not display.
+The Areas of Operation section will display where an area of operations has been specified, otherwise it will not appear.
 
 Unit record: Sites
 ------------------
@@ -69,22 +58,8 @@ Unit record: Sites
 
 This section contains a map and a table that describe sites associated with the organization. Clicking on the pins plotted on the map will display the name of the site. Grab the map to drag/pan it around. Swipe or use the ``+`` and ``-`` controls on the map to zoom in or zoom out. Hover over any value in the table and a little coloured circle will appear. Click on this to view the sources and confidence rating for that value.
 
-**Fields used in the unit Sites section**
 
-The following fields are used in the Site section:
-
--  :ref:`Unit: Site, Exact Location (Longitude or Gazetteer Name)`
--  :ref:`Unit: Site, Exact Location (Latitude or Gazetteer Identity Number)`
--  :ref:`Unit: Site, Nearest Settlement (Name)`
--  :ref:`Unit: Site, Nearest Settlement (ID)`
--  :ref:`Unit: Site, First-level Administrative Area (Name)`
--  :ref:`Unit: Site, First-level Administrative Area (ID)`
--  :ref:`Unit: Site, First Cited Date`
--  :ref:`Unit: Site was Founded on First Cited Date`
--  :ref:`Unit: Site, Last Cited Date`
--  :ref:`Unit: Site, Last Cited Date is Open-Ended`
-
-The Sites section will display where there is a valid Site record. Otherwise, the section will not display on the unit record.
+The Sites section will display where there is a valid site record. Otherwise, the section will not display on the unit record.
 
 Unit record: Memberships
 ------------------------
@@ -96,16 +71,6 @@ Unit record: Memberships
 
 This section contains a table indicating whether the organization has been a member of internal/national joint operations, international peacekeeping missions, or other multi-unit deployments. Hover over any value in the table and a little coloured circle will appear. Click on this to view the sources and confidence rating for that value.
 
-**Fields used in the unit memberships section**
-
-The following fields are used in the memberships section:
-
--  :ref:`Unit: Membership`
--  :ref:`Unit: Membership First Cited Date`
--  :ref:`Unit: Membership First Cited Date is Start Date`
--  :ref:`Unit: Membership Last Cited Date`
--  :ref:`Unit: Membership End-Date`
-
 Where a unit has no memberships attached to it, the memberships section will not display on the unit record.
 
 Unit record: Member units
@@ -116,19 +81,6 @@ Unit record: Member units
 
 This section contains a table listing the units that comprise the present unit. For example, it will list units that have taken part in a joint operation, international peacekeeping missing or other multi-unit organization. However over any value in the table, and a little coloured circle will appear. Click on this to view the sources and confidnce rating for that value.
 
-**Fields used in the Member Units section**
-
-The following fields are used in the member units section:
-
--  :ref:`Unit: Name`
--  :ref:`Unit: Other Names`
--  :ref:`Unit: Classification`
--  :ref:`Unit: Membership`
--  :ref:`Unit: Membership First Cited Date`
--  :ref:`Unit: Membership First Cited Date is Start Date`
--  :ref:`Unit: Membership Last Cited Date`
--  :ref:`Unit: Membership End-Date`
-
 Unit record: Parent units
 -------------------------
 
@@ -138,18 +90,6 @@ Unit record: Parent units
    Image showing a table of parent units for an organization on WhoWasInCommand.com
 
 The parent units section displays an interactive chart. This shows the links between all units known to be above the present one in the overall organizational hierarchy of that security force, right up to the Commander in Chief or equivalent. The chart is drawn using parent relationships that are classified as ``command`` (rather than ``informal`` or ``administrative``). They are drawn at the last cited or end date of the parent relationship. This date is displayed at the bottom of the chart. Where a unit has different parents at different times, a chart is drawn for each relationship: swiping left or right, or using the arrows at each side, displays these.
-
-**Fields used in the Parent Units section**
-
-The following fields are used in the parent units sections:
-
--  :ref:`Unit: Name`
--  :ref:`Unit: Related Unit`
--  :ref:`Unit: Related Unit Classification`
--  :ref:`Unit: Related Unit First Cited Date`
--  :ref:`Unit: Unit Relationship Start Date`
--  :ref:`Unit: Related Unit Last Cited Date`
--  :ref:`Unit: Related Unit is Open-Ended`
 
 Where a unit does not have a parent relationship, this section will not be displayed in the unit record.
 
@@ -165,18 +105,6 @@ The subsidiaries section contains a table describing all units known to have bee
 
 **Fields used in the Unit subsidiaries section**
 
-The following fields are used in the subsidiaries section:
-
--  :ref:`Unit: Name`
--  :ref:`Unit: Other Names`
--  :ref:`Unit: Classification`
--  :ref:`Unit: Related Unit`
--  :ref:`Unit: Related Unit Classification`
--  :ref:`Unit: Related Unit First Cited Date`
--  :ref:`Unit: Unit Relationship Start Date`
--  :ref:`Unit: Related Unit Last Cited Date`
--  :ref:`Unit: Related Unit is Open-Ended`
-
 Where a unit has no subsidaires, this section will not be displayed in the unit record.
 
 Unit record: Unit personnel
@@ -191,18 +119,6 @@ The personnel section displays a table showing all persons affiliated to this un
 
 **Fields used in the unit personnel section**
 
-The following fields are used in the personnel section:
-
--  :ref:`Person: Name`
--  :ref:`Person: Posting to Unit`
--  :ref:`Person: Posting Role`
--  :ref:`Person: Posting Title`
--  :ref:`Person: Posting Rank`
--  :ref:`Person: Posting First Cited Date`
--  :ref:`Person: Posting First Cited Date is Start Date`
--  :ref:`Person: Posting Last Cited Date`
--  :ref:`Person: Posting Last Cited Date is End Date`
-
 Where no persons in the dataset are members of a unit, this section will not be displayed in the unit record.
 
 Unit record: Unit incidents
@@ -216,12 +132,5 @@ Unit record: Unit incidents
 The incidents section displays a list of incidents of alleged human rights violations that sources allege the unit has committed. Hover over either the date or the incident description to display a little coloured circle that when clicked will show the sources and confidence rating we have assigned to this data.
 
 **Fields used in the unit incidents section**
-
-The following fields are used in the incidents section:
-
--  :ref:`Incident: Start Date`
--  :ref:`Incident: End Date`
--  :ref:`Incident: Violation Description`
--  :ref:`Incident: Perpetrator Unit`
 
 If a source has not made an allegation against a unit, this section will not be displayed in the unit record.
