@@ -419,30 +419,26 @@ Often a person is arrested and, for example, beaten at a specific site (and the 
 
 In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one ``incident`` and abuses committed or otherwise tied to site of detention a separate ``incident``.
 
-Incident: Site, Exact location (Coordinate Pair or Gazetteer Name and Identity Number)
---------------------------------------------------------------------------------------
+Incident: Location
+------------------
 
 **Description**
 
-A pair of fields used to capture the most precise location of an incident, using whichever is the more precise of a set of geographical coordinates or a name and reference/identity number from a gazetteer.
-
 **Type of field**
 
-Field pair that takes as input an EPSG:4326 coordinate pair, or a name and reference/identity number from a gazetteer.
+Text and numbers; linked to ``location:humane_id_admin``.
 
 **Example of use**
 
-``Ciudad Juárez`` and ``4145208823``
-
-``104.64728`` and ``24.0506``
+``Baga (osm, point) 4d7d97a6-d85e-436b-9511-81e8d55ceff3``
 
 **Spreadsheet column name**
 
-``incident:site_exact_location_name_longitude`` and ``incident:site_exact_location_id_latitude``
+``incident:location``
 
 **Shortcode**
 
-``i_selnlon`` and  ``i_selidlat``
+``i_loc``
 
 **Sources**
 
@@ -452,132 +448,9 @@ No
 
 No
 
-**Guidance for use**
+**Guidance on use**
 
-Where research indicates that an incident occurred at a location that can be geocoded precisely, we record this data in the pair of fields called ``Incident: Site, Exact Location (Coordinate Pair or Gazetteer Name and Identity Number)``. This field pair will take input in two ways:
-
-- A coordinate pair in EPSG:4326 format: The number for longitude should go in ``incident:site_exact_location_name_longitude`` and the number for latitude should go in ``incident:site_exact_location_id_latitude``.
-- if the gazetteer in use is Open Street Maps, then we use an OSM object name and ID number: The OSM object name should go in ``incident:site_exact_location_name_longitude`` and the OSM object ID should go in ``incident:site_exact_location_id_latitude``.
-
-Incident: Site, Nearest Settlement
-----------------------------------
-
-**Description**
-
-A pair of fields used to capture data on the nearest city, town or village to where an incident occurred.
-
-**Type of field**
-
-Field pair that takes as an input a name and reference/identity number from a gazetteer.
-
-**Example of use**
-
-``Monclova`` and ``747101009``
-
-**Spreadsheet column name**
-
-``incident:site_settlement_name`` and ``incident:site_settlement_id``
-
-**Shortcode**
-
-``i_ssn`` and ``i_ssid``
-
-**Sources**
-
-No
-
-**Confidence**
-
-No
-
-**Guidance for use**
-
-Where a source states that an incident happened in a particular settlement (whether village, town or city), we find the appropriate name and reference/idetity number provided by the gazetteer in use for the dataset, and record it in this pair of fields. If the gazetteer is Open Street Map, for example, we would do the following:
-
-- The OSM object name should be placed in ``incident:site_settlement_name``
-- The OSM object ID number should be placed in ``incident:site_settlement_id``
-
-Often, information about incidents does not list a settlement by name. If so, we will leave this field blank even if by the description it seems to indicate a particular place. This is because we only transcribe what other groups have reported about an incident, and do not augment it. 
-
-
-Incident: Site, First-level Administrative Area
------------------------------------------------
-
-**Description**
-
-A pair of fields used to record the highest sub-national administrative area of the incident location.
-
-**Type of field**
-
-Field pair that takes as an input a name and reference/identity number from a gazetteer.
-
-**Example of use**
-
-``Michoacán`` and ``2340636``
-
-**Spreadsheet column name**
-
-``incident:site_first_admin_area_name`` and ``incident:site_first_admin_area_id``
-
-**Shortcode**
-
-``i_sfaan`` and ``i_sfaaid``
-
-**Sources**
-
-No
-
-**Confidence**
-
-No
-
-**Guidance for use**
-
-We identify ``incidents`` with a number of different levels of geographical precision. In this field pair we record details of the first level subnational administrative area for the country in which the incident site is located, as defined by the gazetteer in use. For example, if Open Street Map is the gazetteer in use for the dataset, the administrative areas are  `defined here<http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations>`__. 
-
-For example, in  Mexico there are "*municipios*" (classified as administrative level 6 in OSM) and states (administrative level 4 in OSM). "States" are larger in area than "*municipios*" but in the hierarchy of administrative areas are immediately beneath the international national boundary of Mexico: therefore, "states" are the first-level administrative area. For a ``incident`` which occurred in Mexico, we would record the OSM object name and ID number of the relevant "state" in the field pair called ``Incident: Site, First-level Administrative Area``.
-
-This pair of fields takes input in the following form, using Open Street Map as an example:
-
-- the OSM object name should be placed in the field ``incident:site_first_admin_area_name``
-- the OSM object ID number should be placed in the field ``incident:site_first_admin_area_id``
-
-Incident: Country
------------------
-
-**Description**
-
-The country in which an incident occurred.
-
-**Type of field**
-
-Two letter country code
-
-**Example of use**
-
-``mx``, ``ug``, ``ng``
-
-**Spreadsheet column name**
-
-``incident:site_country``
-
-**Shortcode**
-
-``i_sc``
-
-**Sources**
-
-No
-
-**Confidence**
-
-No
-
-**Guidance for use**
-
-We identify the location of incidents with a number of different levels of geographical precision. The ``Incident: Country`` field identifies the country in which an incident occurred. All entries in this field are two letter country codes taken from `ISO 3166 which can be searched here <https://www.iso.org/obp/ui/#search>`__.
-
-    For example, an incident that occurred in Nigeria would have the code ``ng`` and an incident that occurred in Brazil would have the code ``br``.
+This field is used to store information about the Location where an incident happened. The value included in this field must be taken from ``location:humane_id:admin`` in the :ref:`Locations`` dataset. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
 
 Incident: Violation type
 ------------------------
@@ -653,8 +526,43 @@ In this field we record a direct quotation from the civil society, governmental 
 
     According to X organization, “Description of incident”. According to Y organization, “Description of incident”.
 
-Incident: Perpetrator Name
---------------------------
+Incident: Perpetrator Person Unique Identifier
+----------------------------------------------
+
+**Description**
+
+The UUID of the person named in ``Incident: Perpetrator Person Name``.
+
+**Type of field**
+
+Text and numbers; linked to ``person:id:admin``.
+
+**Example of use**
+
+``251be336-e67b-4e44-bc0d-97d4e8188b44``
+
+**Spreadsheet column name**
+
+``incident:perpetrator_person_id:admin``
+
+**Shortcode**
+
+``i_ppid_a``
+
+**Sources**
+
+No
+
+**Confidence**
+
+No
+
+**Guidance on use**
+
+This value in this field should be the same as the value in ``persons:id:admin`` of the person named in ``Incident: Perpetrator Person Name``.
+
+Incident: Perpetrator Person Name
+---------------------------------
 
 **Description**
 
@@ -662,7 +570,7 @@ The name of the person alleged to have committed the act(s) described in the inc
 
 **Type of field**
 
-Text and numbers, multiple entry, taken from entries recorded in ``Person: Name``
+Text and numbers, multiple entry; linked to ``person:name``.
 
 **Example of use**
 
@@ -670,11 +578,11 @@ Text and numbers, multiple entry, taken from entries recorded in ``Person: Name`
 
 **Spreadsheet column name**
 
-``incident:perpetrator_name``
+``incident:perpetrator_person_name``
 
 **Shortcode**
 
-``i_pn``
+``i_ppn``
 
 **Sources**
 
@@ -686,14 +594,49 @@ No
 
 **Guidance for use**
 
-If a person or persons are named in the sources for the incident, we will record this information in the ``Incident: Perpetrator Name`` field. The value in ``Incident: Perpetrator Name`` will correspond to a value in ``Person: Name``.
+If a person or persons are named in the sources for the incident, we will record this information in the ``Incident: Perpetrator Persons Name`` field. The value in ``Incident: Perpetrator Person Name`` will correspond to a value in ``Person: Name``.
 
     For example: "Nwanneka narrated to NOPRIN researchers her experience at the SCID in Enugu in May 2002. She was initially arrested with two other females by officers of the Ninth Mile Police Station on the outskirts of Enugu on charges of assisting an armed robbery suspect, before being transferred to the SCID on May 3, 2002. After taking the statements of the female detainees, NPF Inspector Friday Iyamabo ordered them detained in the cells of the SCID. He later reportedly returned to the cell with pepper spray and powdered chili pepper, ordered the female detainees to strip and one after the other applied the mixture of pepper spray and chili to their genitals after severely beating them with batons. The detainees were denied access to medical treatment. Five years after this experience, Nwanneka reported to NOPRIN researchers in April 2007 that, as a result of this experience, she continues to suffer from complications with both her reproductive system and urinary tract."
 
-In this case, the alleged perpetrator is named in the source report. We would record the name ``Friday Iyamabo`` in the field ``Incident: Perpetrator Name``.
+In this case, the alleged perpetrator is named in the source report. We would record the name ``Friday Iyamabo`` in the field ``Incident: Perpetrator Person  Name``.
 
-Incident: Perpetrator Unit 
---------------------------
+Incident: Perpetrator Unit Unique Identifier
+--------------------------------------------
+
+**Description**
+
+The UUID of the unit named in ``Incident: Perpetrator Unit Name``.
+
+**Type of field**
+
+Text and numbers; linked to ``unit:id:admin``.
+
+**Example of use**
+
+``a27d4e1f-7add-4302-ab2e-70c426cce519``
+
+**Spreadsheet column name**
+
+``incident:perpetrator_unit_id:admin``
+
+**Shortcode**
+
+``i_puid_a``
+
+**Sources**
+
+No
+
+**Confidence**
+
+No
+
+**Guidance on use**
+
+This value in this field should be the same as the value in ``unit:id:admin`` of the unit named in ``Incident: Perpetrator Unit Name``.
+
+Incident: Perpetrator Unit Name
+-------------------------------
 
 **Description**
 
@@ -701,7 +644,7 @@ The unit(s) alleged to have committed the act(s) described in the incident.
 
 **Type of field**
 
-Text and numbers, multiple entry, taken entries recorded in ``Unit: Name``
+Text and numbers, multiple entry; linked to ``unit:name``.
 
 **Example of use**
 
@@ -709,11 +652,11 @@ Text and numbers, multiple entry, taken entries recorded in ``Unit: Name``
 
 **Spreadsheet column name**
 
-``incident:perpetrator_unit``
+``incident:perpetrator_unit_name``
 
 **Shortcode**
 
-``i_pu``
+``i_pun``
 
 **Sources**
 
@@ -725,13 +668,13 @@ No
 
 **Guidance for use**
 
-If the source for the incident states that specific units committed the alleged human rights violations described in the incident, we include these names in ``Incident: Perpetrator Unit``. The value in ``Incident: Perpetrator Unit`` will correspond to a value in ``Unit: Name``.
+If the source for the incident states that specific units committed the alleged human rights violations described in the incident, we include these names in ``Incident: Perpetrator Unit Name``. The value in ``Incident: Perpetrator Unit Name`` will correspond to a value in ``Unit: Name``.
 
-Here is an example of source material that contains information that would be included in ``Incident: Perpetrator Unit``:
+Here is an example of source material that contains information that would be included in ``Incident: Perpetrator Unit Name``:
 
     According to the United States Department of State, Bureau of Democracy, Human Rights and Labor: "On March 24, the JTF reportedly killed four men near Isaka in the Okrika Local Government Area, Rivers State, when they confronted them and other armed men attempting to hijack a barge. There was no investigation conducted."
 
-In this case, we would search ``Unit: Name`` for the canonical entry for "JTF" and include it in the field ``Incident: Perpetrator Unit``.
+In this case, we would search ``Unit: Name`` for the canonical entry for "JTF" and include it in the field ``Incident: Perpetrator Unit Name``.
 
 Incident: Perpetrator classification
 ------------------------------------
@@ -746,7 +689,7 @@ Text and numbers, multiple entry, controlled vocabulary taken from ``Unit: Class
 
 **Example of use**
 
-``Army``, ``Ejército``,\ ``Police``, ``Military``,\ ``Military Police ; Joint Operation``
+``Army``, ``Ejército``, ``Police``, ``Military``, ``Military Police ; Joint Operation``
 
 **Spreadsheet column name**
 
