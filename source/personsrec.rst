@@ -15,12 +15,6 @@ Person record: Title area
 
 This section contains key information about the identity of the person. It also contains links to download and print actions for the displayed record. Hover your mouse or tap any value in the title area and a little coloured circle will appear: click this to display the sources and confidence rating that we have assigned to that datapoint.
 
-**Fields used in the person record title area**
-
--  :ref:`Person: Name`
--  :ref:`Person: Other Names`
--  :ref:`Person: Country`
-
 Person record: Content sidebar
 ------------------------------
 
@@ -41,17 +35,6 @@ Person record: Person "Last Seen As"
 
 This section summarises the most recently-available data about a person's rank, role and membership of a unit. Hover over any value in this section and a little coloured circle will appear. Click on this to view the sources and confidence rating for that value.
 
-**Fields used in the Person "Last Seen As" section**
-
-The following fields are used in the Last Seen As section:
-
--  :ref:`Person: Posting Rank`
--  :ref:`Person: Posting to Unit`
--  :ref:`Person: Posting Role`
--  :ref:`Unit: Classification`
--  :ref:`Person: Posting Last Cited Date`
--  :ref:`Person: Posting Last Cited Date is End Date`
-
 Person record: Person memberships
 ---------------------------------
 
@@ -63,20 +46,6 @@ Person record: Person memberships
 This section contains a table that describes the positions a person has held in different units. In this table, WhoWasInCommand will display a new membership row is displayed for each time a person changes unit, rank, role or title. This means that in some records a person may have multiple memberships in the same organization, but in different roles or at a different rank.
 
 As with all tables in person, unit and incident records on WhoWasInCommand, hovering over or tapping any value in the table will cause a little coloured circle to appear. Clicking or tapping again on this will show the sources and confidence ratings we have assigned to that value.
-
-**Fields used in the person memberships section**
-
-The following fields are used in the memberships section:
-
-
--  :ref:`Person: Posting to Unit`
--  :ref:`Person: Posting Rank`
--  :ref:`Person: Posting Role`
--  :ref:`Person: Posting Title`
--  :ref:`Person: Posting First Cited Date`
--  :ref:`Person: Posting First Cited Date is Start Date`
--  :ref:`Person: Posting Last Cited Date`
--  :ref:`Person: Posting Last Cited Date is End Date`
 
 Person record: Chain of command
 -------------------------------
@@ -92,19 +61,6 @@ The charts are drawn using parent relationships between units that are classifie
 
 The charts are drawn at the last cited or end date of the parent relationship. This date is displayed at the bottom of the chart. Where a unit has different parents at different times, a chart is drawn for each relationship: swiping left or right, or using the arrows at each side, displays these.
 
-**Fields used in the person chain of command section**
-
-The following fields are used in the chain of command section:
-
--  :ref:`Unit: Name`
--  :ref:`Unit: Related Unit`
--  :ref:`Unit: Related Unit Classification`
--  :ref:`Unit: Related Unit First Cited Date`
--  :ref:`Unit: Unit Relationship Start Date`
--  :ref:`Unit: Related Unit Last Cited Date`
--  :ref:`Unit: Related Unit is Open-Ended`
--  :ref:`Person: Name`
-
 Person record: Superiors
 ------------------------
 
@@ -114,19 +70,6 @@ Person record: Superiors
    Image showing the table of commanders of superior units that appears on a person record on WhoWasInCommand.com
 
 This section displays a table of commanders of units that were superior to any units commanded by this person, along with the duration of overlap in service that sources are able to evidence. As with all tables in person, unit and incident records, hovering over or tapping any value in the table will cause a little coloured circle to appear. Click or tap again on this to view the sources and confidence ratings we have assigned to that value.
-
-**Fields used in the person superiors section**
-
-The following fields are used in the superiors section:
-
--  :ref:`Unit: Name`
--  :ref:`Unit: Related Unit`
--  :ref:`Unit: Related Unit Classification`
--  :ref:`Unit: Related Unit First Cited Date`
--  :ref:`Unit: Unit Relationship Start Date`
--  :ref:`Unit: Related Unit Last Cited Date`
--  :ref:`Unit: Related Unit is Open-Ended`
--  :ref:`Person: Name`
 
 The below fields are calculated from the date values in the above fields:
 
@@ -145,17 +88,6 @@ Person record: Subordinates
 This section displays a table of commanders of units that were subordinate to any units commanded by this person. As with all tables in person, unit and incident records on WhoWasInCommand, hovering over or tapping any value in the table will cause a little coloured circle to appear. Click or tap again on this to view the sources and confidence ratings we have assigned to that value.
 
 **Fields used in the person subordinates section**
-
-The following fields are used in the superiors section:
-
--  :ref:`Unit: Name`
--  :ref:`Unit: Related Unit`
--  :ref:`Unit: Related Unit Classification`
--  :ref:`Unit: Related Unit First Cited Date`
--  :ref:`Unit: Unit Relationship Start Date`
--  :ref:`Unit: Related Unit Last Cited Date`
--  :ref:`Unit: Related Unit is Open-Ended`
--  :ref:`Person: Name`
 
 The following fields are calculated from date values in the above fields:
 
