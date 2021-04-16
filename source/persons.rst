@@ -276,7 +276,7 @@ Person:: Unique Identifier of Posting Unit
 
 **Description**
 
-A unique 32 character code assigned to each unit in the dataset, as already recorded in the ``unit:id:admin`` field of the :doc:`Units` sheet.
+A unique 32 character code assigned to each unit in the dataset, as already recorded in the ``unit:id:admin`` field of the :ref:`Units` sheet.
 
 **Type of field**
 
@@ -304,7 +304,7 @@ Yes. Inherits from ``Person: Name of Posting Unit`` (``person:posting:confidence
 
 **Guidance on use**
 
-This field is used to store the UUID of the unit to which the person is posted, and which is named in ``person:posting_unit_name``. The unit must already have an entry in the :doc:`Units` dataset. The value must be identical to that in ``unit:id:admin``.
+This field is used to store the UUID of the unit to which the person is posted, and which is named in ``person:posting_unit_name``. The unit must already have an entry in the :ref:`Units` dataset. The value must be identical to that in ``unit:id:admin``.
 
 Person: Name of Posting Unit
 ----------------------------
