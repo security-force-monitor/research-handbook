@@ -56,7 +56,7 @@ This value is a Universally Unique Indentifier (UUID) generated using a computer
 
 The field is administrative, providing a reliable way to differentiate between different units. In earlier versions, Security Force Monitor used ``unit:name`` to do this role but this provided inefficient as the dataset grew.
 
-When a new unit is created directly in WhoWasInCommand, the platform automatically creates a UUID for that unit and stores it in this field. If a new unit is created in a spreadsheet, the Staff Researcher must generate a unique identifying number for that unit and copy it into the field ``unit:id:admin`` for every row associated with that specific unit. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID.
+The Staff Researcher must generate a unique identifying number for that unit and copy it into the field ``unit:id:admin`` for every row associated with that specific unit. This manual, copy-and-paste step is a potential source of error. The Staff Researcher must be careful never to re-use a UUID anywhere in this or other parts of the dataset.
 
 Bulk updates made to WhoWasInCommand.com by spreadsheet import are based on the values in this field. For example, changes made in the row ``a407be6a-28e6-4237-b4e9-307f27b1202e`` in the spreadsheet will be applied to the unit with that UUID in WhoWasInCommand. 
 
@@ -93,8 +93,7 @@ No
 
 **Guidance on use**
 
-This field is administrative and only used where data are created using a spreadsheets. It is a simple measure to help researchers keep track of records they have created. These data are not imported into WhoWasInCommand. Instead, WhoWasInCommand keeps a record of the changes (edits, new records, deletions) by the name of the system user who made them.
-
+This field is administrative and only used where data are created using a spreadsheets. It is a simple measure to help researchers keep track of records they have created, and may be used for arbitrary grouping and tagging of specific sets of rows if needed.
 
 Unit: Research Status
 ---------------------
@@ -129,8 +128,7 @@ No
 
 **Guidance on use**
 
-This administrative field is only used in spreadsheets. Staff Researchers use this field to indicate where a row of data stands in the research workflow between the first cut of a row of data, review by other researchers, and final readiness for publication. Values in this field are taken from the below controlled list:
-
+Staff Researchers use this administrative field to indicate where a row of data stands in the research workflow between the first cut of a row of data, review by other researchers, and final readiness for publication. Values in this field are taken from the below controlled list:
 
 - ``X``: Row should be deleted.
 - ``0``: First commit. This row of data has just been added and needs review.
@@ -173,15 +171,14 @@ No
 
 **Guidance on use**
 
-This is an adminstrative field specific to data created in spreadsheets. Staff Researchers use it to pass on feedback about the data in the row. This may included changes needs to specific fields, references to sources that the owner of the row might look at, and other observations that can improve the quality of the data. Data in this field are not intended for publication. The comments field is common to all main entities in the SFM data model.
-
+Staff Researchers use  this field to exchange feedback about the data in the row. This may included changes needs to specific fields, references to sources that the owner of the row might look at, and other observations that can improve the quality of the data. Data in this field are not intended for publication. The comments field is common to all main entities in the SFM data model.
 
 Unit: Name
 ----------
 
 **Description**
 
-Name of the unit.
+Canonical name of the unit.
 
 **Type of field**
 
@@ -229,7 +226,7 @@ The Monitor uses the name in the official (local) language of the country where 
 
 In an effort to standardize names across all countries, the Monitor generally uses Arabic numerals in the ``Unit: Name`` field. Where warranted by sources the Monitor will use Roman numerals like ``V`` or ``XI`` instead of ``5`` or ``11`` respectively.
 
-In cases where multiple units have the same name the Monitor will distinguish them by adding unique identifying text based on the unit's site or parent.
+In cases where multiple units have the same name the Monitor will distinguish them by adding unique identifying text based on the unit's Location or parent unit.
 
     Example: There are multiple "Central Police Station" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance ``Central Police Station (Awka, Anambra State).``\ In Myanmar there have been different units through time both the name Central Regional Military Command. To distinguish them the Monitor added information on when the unit came into existence to the name: ``Central Regional Military Command (post 199)``.
 
@@ -277,11 +274,11 @@ Unit: Country
 
 **Description**
 
-ISO 3166 two letter code for the country in which a unit originates.
+ISO 3166 two letter code for the country from  which a unit originates.
 
 **Type of field**
 
-Two letter country code
+Text; controlled vocabulary.
 
 **Example of use**
 
@@ -307,7 +304,7 @@ Yes (``unit:country:confidence``, ``u_c_c``)
 
 The ``Unit: Country`` field identifies the country this unit comes from. All entries in this field are two letter country codes taken from `ISO 3166 <https://www.iso.org/obp/ui/#search>`__.
 
-    For example, a unit based in Nigeria would have the code ``ng`` and a unit based in Brazil would have the code ``br``
+    For example, a unit from Nigeria would have the code ``ng`` and a unit from Brazil would have the code ``br``
 
 Unit: Classification
 --------------------
@@ -587,7 +584,6 @@ Yes. Inherits from ``Unit: Related Units`` (``unit:related_unit:confidence``, ``
 **Guidance on use**
  
 All units referenced as relations in this cluster of "related units" fields must already have an original entry of their own. This value in this field should be the same as the value in ``unit:id:admin`` of the unit noted in ``unit:related_unit``.
-
 
 Unit: Related Unit
 ------------------
@@ -1097,7 +1093,7 @@ Unit: Location Last Cited Date is Open-Ended
 
 **Description**
 
-Indicates whether the value in ``Unit: Location Last Cited Date`` is the actual date on which a unit site was disbanded, the latest date a source has referred to a unit site, and whether can we assume this unit site continues to exist.
+Indicates whether the value in ``Unit: Location Last Cited Date`` is the actual date on which a unit ceased to be sited or operate in a Location, the latest date a source has referred to a unit's Location, and whether can we assume this unit continues to be sited or operate at this Location.
 
 **Type of field**
 

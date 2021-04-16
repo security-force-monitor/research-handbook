@@ -271,8 +271,43 @@ Yes (``person:country:confidence``, ``p_c_c``), but only in WhoWasInCommand and 
 
 Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__. This field does not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if ``1 Batallón de Infantería`` is located in Juarez, Mexico, the unit will be assigned a value of ``mx`` in the field ``Unit: Country``. Any person who is a member of that unit will be assigned a value of ``mx`` in the field ``Person: Country`` as well. A person may have multiple entries for ``Person: Country`` where our research shows they or a unit they are a member of is deployed to different countries.
 
-Person: Posting to Unit
------------------------
+Person:: Unique Identifier of Posting Unit
+------------------------------------------
+
+**Description**
+
+A unique 32 character code assigned to each unit in the dataset, as already recorded in the ``unit:id:admin`` field of the :doc:`Units` sheet.
+
+**Type of field**
+
+Text and numbers; linked to ``unit:id:admin``
+
+**Example of use**
+
+``a848de4e-ebeb-49d6-9099-7e68ca3b57fc``
+
+**Spreadsheet column name**
+
+``person:posting_unit_id:admin``
+
+**Shortcode**
+
+``p_puid_a``
+
+**Sources**
+
+Yes. Inherits from ``Person: Name of Posting Unit`` (``person:posting:source``, ``p_pn_s``)
+
+**Confidence**
+
+Yes. Inherits from ``Person: Name of Posting Unit`` (``person:posting:confidence``, ``p_pn_c``)
+
+**Guidance on use**
+
+This field is used to store the UUID of the unit to which the person is posted, and which is named in ``person:posting_unit_name``. The unit must already have an entry in the :doc:`Units` dataset. The value must be identical to that in ``unit:id:admin``.
+
+Person: Name of Posting Unit
+----------------------------
 
 **Description**
 
@@ -288,19 +323,19 @@ Text and numbers, controlled vocabulary
 
 **Spreadsheet column name**
 
-``person:posting``
+``person:posting_unit_name``
 
 **Shortcode**
 
-``p_p``
+``p_pn``
 
 **Sources**
 
-Yes (``person:posting:source``, ``p_p_s``)
+Yes (``person:posting:source``, ``p_pn_s``)
 
 **Confidence**
 
-Yes (``person:posting:confidence``, ``p_p_c``)
+Yes (``person:posting:confidence``, ``p_pn_c``)
 
 **Guidance on use**
 
@@ -700,4 +735,4 @@ No
 
 **Guidance on use**
 
-We use this field to record information about the person that is likely to provide useful context, additional information that does not fit into the data structure, and notes about how decisions were made about which data to include. Any sources used should be included directly inside the field.
+We use this field to record information about the person that is likely to provide useful context, additional information that does not fit into the data structure, and notes about how decisions were made about which data to include. Any sources used in the note should be created as :ref:`Sources` and the access point UUID (as stored in ``source:access_point_id:admin``) should be included directly in the note.

@@ -445,7 +445,7 @@
 <li><p>On the web: <a class="reference external" href="https://www.uuidgenerator.net/version">UUID Generator</a>.</p></li>
 </ul>
 <p>The field is administrative, providing a reliable way to differentiate between different units. In earlier versions, Security Force Monitor used <code class="docutils literal notranslate"><span class="pre">unit:name</span></code> to do this role but this provided inefficient as the dataset grew.</p>
-<p>When a new unit is created directly in WhoWasInCommand, the platform automatically creates a UUID for that unit and stores it in this field. If a new unit is created in a spreadsheet, the Staff Researcher must generate a unique identifying number for that unit and copy it into the field <code class="docutils literal notranslate"><span class="pre">unit:id:admin</span></code> for every row associated with that specific unit. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID.</p>
+<p>The Staff Researcher must generate a unique identifying number for that unit and copy it into the field <code class="docutils literal notranslate"><span class="pre">unit:id:admin</span></code> for every row associated with that specific unit. This manual, copy-and-paste step is a potential source of error. The Staff Researcher must be careful never to re-use a UUID anywhere in this or other parts of the dataset.</p>
 <p>Bulk updates made to WhoWasInCommand.com by spreadsheet import are based on the values in this field. For example, changes made in the row <code class="docutils literal notranslate"><span class="pre">a407be6a-28e6-4237-b4e9-307f27b1202e</span></code> in the spreadsheet will be applied to the unit with that UUID in WhoWasInCommand.</p>
 </div>
 <div class="section" id="unit-research-owner">
@@ -465,7 +465,7 @@
 <p><strong>Confidence</strong></p>
 <p>No</p>
 <p><strong>Guidance on use</strong></p>
-<p>This field is administrative and only used where data are created using a spreadsheets. It is a simple measure to help researchers keep track of records they have created. These data are not imported into WhoWasInCommand. Instead, WhoWasInCommand keeps a record of the changes (edits, new records, deletions) by the name of the system user who made them.</p>
+<p>This field is administrative and only used where data are created using a spreadsheets. It is a simple measure to help researchers keep track of records they have created, and may be used for arbitrary grouping and tagging of specific sets of rows if needed.</p>
 </div>
 <div class="section" id="unit-research-status">
 <h2>Unit: Research Status<a class="headerlink" href="#unit-research-status" title="Permalink to this headline">¶</a></h2>
@@ -484,7 +484,7 @@
 <p><strong>Confidence</strong></p>
 <p>No</p>
 <p><strong>Guidance on use</strong></p>
-<p>This administrative field is only used in spreadsheets. Staff Researchers use this field to indicate where a row of data stands in the research workflow between the first cut of a row of data, review by other researchers, and final readiness for publication. Values in this field are taken from the below controlled list:</p>
+<p>Staff Researchers use this administrative field to indicate where a row of data stands in the research workflow between the first cut of a row of data, review by other researchers, and final readiness for publication. Values in this field are taken from the below controlled list:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">X</span></code>: Row should be deleted.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">0</span></code>: First commit. This row of data has just been added and needs review.</p></li>
@@ -511,12 +511,12 @@
 <p><strong>Confidence</strong></p>
 <p>No</p>
 <p><strong>Guidance on use</strong></p>
-<p>This is an adminstrative field specific to data created in spreadsheets. Staff Researchers use it to pass on feedback about the data in the row. This may included changes needs to specific fields, references to sources that the owner of the row might look at, and other observations that can improve the quality of the data. Data in this field are not intended for publication. The comments field is common to all main entities in the SFM data model.</p>
+<p>Staff Researchers use  this field to exchange feedback about the data in the row. This may included changes needs to specific fields, references to sources that the owner of the row might look at, and other observations that can improve the quality of the data. Data in this field are not intended for publication. The comments field is common to all main entities in the SFM data model.</p>
 </div>
 <div class="section" id="unit-name">
 <h2>Unit: Name<a class="headerlink" href="#unit-name" title="Permalink to this headline">¶</a></h2>
 <p><strong>Description</strong></p>
-<p>Name of the unit.</p>
+<p>Canonical name of the unit.</p>
 <p><strong>Type of field</strong></p>
 <p>Text and numbers</p>
 <p><strong>Example of use</strong></p>
@@ -546,7 +546,7 @@
 <div><p>Example: A unit in the Mexican Army would be called by its name in Spanish (<code class="docutils literal notranslate"><span class="pre">10</span> <span class="pre">Regimiento</span> <span class="pre">de</span> <span class="pre">Caballería</span> <span class="pre">Motorizado</span></code>), rather than the English translation ( <code class="docutils literal notranslate"><span class="pre">10</span> <span class="pre">Motorized</span> <span class="pre">Cavalry</span> <span class="pre">Regiment</span></code>).</p>
 </div></blockquote>
 <p>In an effort to standardize names across all countries, the Monitor generally uses Arabic numerals in the <code class="docutils literal notranslate"><span class="pre">Unit:</span> <span class="pre">Name</span></code> field. Where warranted by sources the Monitor will use Roman numerals like <code class="docutils literal notranslate"><span class="pre">V</span></code> or <code class="docutils literal notranslate"><span class="pre">XI</span></code> instead of <code class="docutils literal notranslate"><span class="pre">5</span></code> or <code class="docutils literal notranslate"><span class="pre">11</span></code> respectively.</p>
-<p>In cases where multiple units have the same name the Monitor will distinguish them by adding unique identifying text based on the unit’s site or parent.</p>
+<p>In cases where multiple units have the same name the Monitor will distinguish them by adding unique identifying text based on the unit’s Location or parent unit.</p>
 <blockquote>
 <div><p>Example: There are multiple “Central Police Station” formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance <code class="docutils literal notranslate"><span class="pre">Central</span> <span class="pre">Police</span> <span class="pre">Station</span> <span class="pre">(Awka,</span> <span class="pre">Anambra</span> <span class="pre">State).</span></code>In Myanmar there have been different units through time both the name Central Regional Military Command. To distinguish them the Monitor added information on when the unit came into existence to the name: <code class="docutils literal notranslate"><span class="pre">Central</span> <span class="pre">Regional</span> <span class="pre">Military</span> <span class="pre">Command</span> <span class="pre">(post</span> <span class="pre">199)</span></code>.</p>
 </div></blockquote>
@@ -577,9 +577,9 @@
 <div class="section" id="unit-country">
 <h2>Unit: Country<a class="headerlink" href="#unit-country" title="Permalink to this headline">¶</a></h2>
 <p><strong>Description</strong></p>
-<p>ISO 3166 two letter code for the country in which a unit originates.</p>
+<p>ISO 3166 two letter code for the country from  which a unit originates.</p>
 <p><strong>Type of field</strong></p>
-<p>Two letter country code</p>
+<p>Text; controlled vocabulary.</p>
 <p><strong>Example of use</strong></p>
 <p><code class="docutils literal notranslate"><span class="pre">mx</span></code>, <code class="docutils literal notranslate"><span class="pre">ug</span></code>, <code class="docutils literal notranslate"><span class="pre">ng</span></code></p>
 <p><strong>Spreadsheet column name</strong></p>
@@ -593,7 +593,7 @@
 <p><strong>Guidance on use</strong></p>
 <p>The <code class="docutils literal notranslate"><span class="pre">Unit:</span> <span class="pre">Country</span></code> field identifies the country this unit comes from. All entries in this field are two letter country codes taken from <a class="reference external" href="https://www.iso.org/obp/ui/#search">ISO 3166</a>.</p>
 <blockquote>
-<div><p>For example, a unit based in Nigeria would have the code <code class="docutils literal notranslate"><span class="pre">ng</span></code> and a unit based in Brazil would have the code <code class="docutils literal notranslate"><span class="pre">br</span></code></p>
+<div><p>For example, a unit from Nigeria would have the code <code class="docutils literal notranslate"><span class="pre">ng</span></code> and a unit from Brazil would have the code <code class="docutils literal notranslate"><span class="pre">br</span></code></p>
 </div></blockquote>
 </div>
 <div class="section" id="unit-classification">
@@ -1085,7 +1085,7 @@
 <div class="section" id="unit-location-last-cited-date-is-open-ended">
 <h2>Unit: Location Last Cited Date is Open-Ended<a class="headerlink" href="#unit-location-last-cited-date-is-open-ended" title="Permalink to this headline">¶</a></h2>
 <p><strong>Description</strong></p>
-<p>Indicates whether the value in <code class="docutils literal notranslate"><span class="pre">Unit:</span> <span class="pre">Location</span> <span class="pre">Last</span> <span class="pre">Cited</span> <span class="pre">Date</span></code> is the actual date on which a unit site was disbanded, the latest date a source has referred to a unit site, and whether can we assume this unit site continues to exist.</p>
+<p>Indicates whether the value in <code class="docutils literal notranslate"><span class="pre">Unit:</span> <span class="pre">Location</span> <span class="pre">Last</span> <span class="pre">Cited</span> <span class="pre">Date</span></code> is the actual date on which a unit ceased to be sited or operate in a Location, the latest date a source has referred to a unit’s Location, and whether can we assume this unit continues to be sited or operate at this Location.</p>
 <p><strong>Type of field</strong></p>
 <p>Single choice (Y, N, E)</p>
 <p><strong>Example of use</strong></p>
