@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFM Research Handbook \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-15 18:39+0100\n"
+"POT-Creation-Date: 2021-04-16 14:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1157,7 +1157,7 @@ msgstr ""
 
 #: ../../source/sources.rst:564
 #: 2070fc918e124d83afc8a28c52d56dcd
-msgid "County in which the publication or publishing organization of the source is based."
+msgid "Country in which the publication or publishing organization of the source is based."
 msgstr ""
 
 #: ../../source/sources.rst:568

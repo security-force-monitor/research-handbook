@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFM Research Handbook \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-15 18:39+0100\n"
+"POT-Creation-Date: 2021-04-16 14:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,15 +67,14 @@ msgstr ""
 #: ../../source/incidents.rst:339
 #: ../../source/incidents.rst:374
 #: ../../source/incidents.rst:425
-#: ../../source/incidents.rst:465
-#: ../../source/incidents.rst:506
-#: ../../source/incidents.rst:548
-#: ../../source/incidents.rst:585
-#: ../../source/incidents.rst:622
-#: ../../source/incidents.rst:659
-#: ../../source/incidents.rst:698
-#: ../../source/incidents.rst:739
-#: ../../source/incidents.rst:780
+#: ../../source/incidents.rst:458
+#: ../../source/incidents.rst:495
+#: ../../source/incidents.rst:532
+#: ../../source/incidents.rst:567
+#: ../../source/incidents.rst:606
+#: ../../source/incidents.rst:641
+#: ../../source/incidents.rst:682
+#: ../../source/incidents.rst:723
 #: 2d348dd0d3924b73af22db8a7ae0d560
 #: fceb3fde5be1456bbee31ada8da806dd
 #: b85bbdb73fec41689b995e25c9f274cf
@@ -88,14 +87,13 @@ msgstr ""
 #: dc3bee9d37db48e7a929a50e35d1e963
 #: b472af1994f1496ca14e942d0ef8fd8b
 #: 4610bc2daf984cbf8684af75c81ae8d8
-#: 3fb64c09b10d406abe365d1e50d49d5a
-#: 12429294c3b642b1a4dfd6c12b95e51a
-#: ed529dde7ec54db28afd0995ef5f15be
-#: 83ed406f52be431cab255793f4956902
-#: 108117b34f484779a14acb73bc3621d2
-#: 576f92c9471c4f4eaac06f35d25e30c6
-#: 478772405af54d69b54ae3a180a49031
-#: a106dba84b0245989ba82e5bb25e121e
+#: 4610bc2daf984cbf8684af75c81ae8d8
+#: 4610bc2daf984cbf8684af75c81ae8d8
+#: 4610bc2daf984cbf8684af75c81ae8d8
+#: 4610bc2daf984cbf8684af75c81ae8d8
+#: 4610bc2daf984cbf8684af75c81ae8d8
+#: 4610bc2daf984cbf8684af75c81ae8d8
+#: 4610bc2daf984cbf8684af75c81ae8d8
 msgid "**Description**"
 msgstr ""
 
@@ -114,16 +112,15 @@ msgstr ""
 #: ../../source/incidents.rst:308
 #: ../../source/incidents.rst:343
 #: ../../source/incidents.rst:378
-#: ../../source/incidents.rst:429
-#: ../../source/incidents.rst:469
-#: ../../source/incidents.rst:510
-#: ../../source/incidents.rst:552
-#: ../../source/incidents.rst:589
-#: ../../source/incidents.rst:626
-#: ../../source/incidents.rst:663
-#: ../../source/incidents.rst:702
-#: ../../source/incidents.rst:743
-#: ../../source/incidents.rst:784
+#: ../../source/incidents.rst:427
+#: ../../source/incidents.rst:462
+#: ../../source/incidents.rst:499
+#: ../../source/incidents.rst:536
+#: ../../source/incidents.rst:571
+#: ../../source/incidents.rst:610
+#: ../../source/incidents.rst:645
+#: ../../source/incidents.rst:686
+#: ../../source/incidents.rst:727
 #: e537fc89653a4515a07b35e7d55afc88
 #: 1e814dabb8a94e6c9cc258d7273cbf72
 #: 0c9940069ec84eadbfb1020d9d242769
@@ -135,21 +132,20 @@ msgstr ""
 #: 868ab1ac8c034b02a5e91c8634af5603
 #: 5d16966279454c91821c8a8a1513fca1
 #: 9346bf0a36924753aac223afd6883fe9
-#: ae9a5dd325224a3f813854ed9fa796db
-#: b9a41edf767041ee864e595d7e6c0ae9
-#: 8649b81b61d640ed9bafb11b52eee028
-#: a62428ab03c040fdac9202fe66cf9e0e
-#: 6e6a719f2be345778f47d1c0b5c4b208
-#: 6fd7625099a74ef1834ffe5b62222b07
-#: 30738c14ad734b42ad94c2e82b30388e
-#: 532fab1f172b4627bc4380f53d80278a
-#: a839d81f4a7a418594bbd5da2a163b58
+#: 9346bf0a36924753aac223afd6883fe9
+#: 9346bf0a36924753aac223afd6883fe9
+#: 9346bf0a36924753aac223afd6883fe9
+#: 9346bf0a36924753aac223afd6883fe9
+#: 9346bf0a36924753aac223afd6883fe9
+#: 9346bf0a36924753aac223afd6883fe9
+#: 9346bf0a36924753aac223afd6883fe9
+#: 9346bf0a36924753aac223afd6883fe9
 msgid "**Type of field**"
 msgstr ""
 
 #: ../../source/incidents.rst:26
 #: ../../source/incidents.rst:380
-#: ../../source/incidents.rst:628
+#: ../../source/incidents.rst:501
 #: 8b1c00a9821541ee929305bac029248a
 #: 2171f7969db842099fda8bcce2933a68
 #: 85fa751643df4ad1a287ae812fde6504
@@ -166,16 +162,15 @@ msgstr ""
 #: ../../source/incidents.rst:312
 #: ../../source/incidents.rst:347
 #: ../../source/incidents.rst:382
-#: ../../source/incidents.rst:433
-#: ../../source/incidents.rst:473
-#: ../../source/incidents.rst:514
-#: ../../source/incidents.rst:556
-#: ../../source/incidents.rst:593
-#: ../../source/incidents.rst:630
-#: ../../source/incidents.rst:667
-#: ../../source/incidents.rst:706
-#: ../../source/incidents.rst:747
-#: ../../source/incidents.rst:788
+#: ../../source/incidents.rst:431
+#: ../../source/incidents.rst:466
+#: ../../source/incidents.rst:503
+#: ../../source/incidents.rst:540
+#: ../../source/incidents.rst:575
+#: ../../source/incidents.rst:614
+#: ../../source/incidents.rst:649
+#: ../../source/incidents.rst:690
+#: ../../source/incidents.rst:731
 #: 32e63a224d71468995c6c24e939c5286
 #: d9d27a0c128c43ecbc97cc69311af649
 #: 8bf0c750ac5e4c3c8a5728964f0f391a
@@ -187,15 +182,14 @@ msgstr ""
 #: 6877b6c88d034811b9ea4220f9245e8a
 #: 8002e4d2ecf54617983e328480a2c85b
 #: e5af54416fcc41b5b87286b1a2c00c22
-#: f84b47e4a35f4d70a95251f58731b8cd
-#: cff65a29fb5d44f0901df5005e7036ba
-#: 3a7a862098484ce491edbea517f266fc
-#: 1c66d5c360574fd084b5eade893d3e2a
-#: 02bbd3903c0e4283a194195ca1dd080a
-#: 2968188f3af44ed2aa4866bb4409c73c
-#: b8816091d8bb429fbeb214f4ee9c0389
-#: 42023477ac7545deb3ddbeb4fd3016c6
-#: 6eee93e8b9734752b3126b209cc1679e
+#: e5af54416fcc41b5b87286b1a2c00c22
+#: e5af54416fcc41b5b87286b1a2c00c22
+#: e5af54416fcc41b5b87286b1a2c00c22
+#: e5af54416fcc41b5b87286b1a2c00c22
+#: e5af54416fcc41b5b87286b1a2c00c22
+#: e5af54416fcc41b5b87286b1a2c00c22
+#: e5af54416fcc41b5b87286b1a2c00c22
+#: e5af54416fcc41b5b87286b1a2c00c22
 msgid "**Example of use**"
 msgstr ""
 
@@ -214,16 +208,15 @@ msgstr ""
 #: ../../source/incidents.rst:316
 #: ../../source/incidents.rst:351
 #: ../../source/incidents.rst:386
-#: ../../source/incidents.rst:439
-#: ../../source/incidents.rst:477
-#: ../../source/incidents.rst:518
-#: ../../source/incidents.rst:560
-#: ../../source/incidents.rst:597
-#: ../../source/incidents.rst:634
-#: ../../source/incidents.rst:671
-#: ../../source/incidents.rst:710
-#: ../../source/incidents.rst:751
-#: ../../source/incidents.rst:792
+#: ../../source/incidents.rst:435
+#: ../../source/incidents.rst:470
+#: ../../source/incidents.rst:507
+#: ../../source/incidents.rst:544
+#: ../../source/incidents.rst:579
+#: ../../source/incidents.rst:618
+#: ../../source/incidents.rst:653
+#: ../../source/incidents.rst:694
+#: ../../source/incidents.rst:735
 #: 3dc9b0c26c82403eba503e80910bca3a
 #: dd965e95dd174823baa0187833c9a53d
 #: 2f4e1b3f61a747ccb63cdeb9f872f022
@@ -235,15 +228,14 @@ msgstr ""
 #: 79bafe93b693441890df17a476559963
 #: 74173a6dfcc5427ab412f4939287da79
 #: 19096418e50e4301a39d71468dc76649
-#: 5640e0c0063348cd800b4c381160153d
-#: adc6758db5c5406fa1c356e6a346e2af
-#: 72c5076057c84ac7b39b399252f99e4c
-#: 7a410a17d0a2493fbfc0d853ab212495
-#: 707b4d0e79354405880e0e7c2c82145d
-#: c1d5fcadb5db40f38ca0f4cf9216b34a
-#: 3d12dc21e0934186a761e318560fb89a
-#: cd1f5eabf0fe45509aaa1f2d53f898a3
-#: 42627e4c174945868d9cfacef19d68f8
+#: 19096418e50e4301a39d71468dc76649
+#: 19096418e50e4301a39d71468dc76649
+#: 19096418e50e4301a39d71468dc76649
+#: 19096418e50e4301a39d71468dc76649
+#: 19096418e50e4301a39d71468dc76649
+#: 19096418e50e4301a39d71468dc76649
+#: 19096418e50e4301a39d71468dc76649
+#: 19096418e50e4301a39d71468dc76649
 msgid "**Spreadsheet column name**"
 msgstr ""
 
@@ -262,16 +254,15 @@ msgstr ""
 #: ../../source/incidents.rst:320
 #: ../../source/incidents.rst:355
 #: ../../source/incidents.rst:390
-#: ../../source/incidents.rst:443
-#: ../../source/incidents.rst:481
-#: ../../source/incidents.rst:522
-#: ../../source/incidents.rst:564
-#: ../../source/incidents.rst:601
-#: ../../source/incidents.rst:638
-#: ../../source/incidents.rst:675
-#: ../../source/incidents.rst:714
-#: ../../source/incidents.rst:755
-#: ../../source/incidents.rst:796
+#: ../../source/incidents.rst:439
+#: ../../source/incidents.rst:474
+#: ../../source/incidents.rst:511
+#: ../../source/incidents.rst:548
+#: ../../source/incidents.rst:583
+#: ../../source/incidents.rst:622
+#: ../../source/incidents.rst:657
+#: ../../source/incidents.rst:698
+#: ../../source/incidents.rst:739
 #: fc3a07c9f66a4298a1730ae65a388afd
 #: 2555c74e20f14afc898b7545592efd28
 #: 35a2eea6ae574817b94c2fb60cce4ab4
@@ -283,15 +274,14 @@ msgstr ""
 #: 06e552256ebf47b6a712e46024bf3f03
 #: 89fa87025e0540aeb798337e80f9fb80
 #: e49e0ec3a71f4fac966ab18272f8fae0
-#: 8a4c9f8fe363459baa6ccfa28ecab515
-#: e8a34779acb248679432a91247bfe6e4
-#: e25efa5efbed4b24bae9f247ee82bd1c
-#: dd014f8a4725483baf725d95feee3e3e
-#: bb7090f18c0a446d9c41d9b39fa319a2
-#: dcc424947da44a949ce2522983bff16f
-#: dd29c927f66e49eaaad7f323065e4809
-#: 3b9ee3e53f984c57aeb249c30bfb5c83
-#: cce09746c70448c9b164e0f094c942bf
+#: e49e0ec3a71f4fac966ab18272f8fae0
+#: e49e0ec3a71f4fac966ab18272f8fae0
+#: e49e0ec3a71f4fac966ab18272f8fae0
+#: e49e0ec3a71f4fac966ab18272f8fae0
+#: e49e0ec3a71f4fac966ab18272f8fae0
+#: e49e0ec3a71f4fac966ab18272f8fae0
+#: e49e0ec3a71f4fac966ab18272f8fae0
+#: e49e0ec3a71f4fac966ab18272f8fae0
 msgid "**Shortcode**"
 msgstr ""
 
@@ -310,16 +300,15 @@ msgstr ""
 #: ../../source/incidents.rst:324
 #: ../../source/incidents.rst:359
 #: ../../source/incidents.rst:394
-#: ../../source/incidents.rst:447
-#: ../../source/incidents.rst:485
-#: ../../source/incidents.rst:526
-#: ../../source/incidents.rst:568
-#: ../../source/incidents.rst:605
-#: ../../source/incidents.rst:642
-#: ../../source/incidents.rst:679
-#: ../../source/incidents.rst:718
-#: ../../source/incidents.rst:759
-#: ../../source/incidents.rst:800
+#: ../../source/incidents.rst:443
+#: ../../source/incidents.rst:478
+#: ../../source/incidents.rst:515
+#: ../../source/incidents.rst:552
+#: ../../source/incidents.rst:587
+#: ../../source/incidents.rst:626
+#: ../../source/incidents.rst:661
+#: ../../source/incidents.rst:702
+#: ../../source/incidents.rst:743
 #: e2e05aa506474bfb8148906d2b325ce7
 #: 4acf8fd162214badb6889fe59ca9b4cd
 #: 545f1eef0da04e63b01e01268de965ea
@@ -331,15 +320,14 @@ msgstr ""
 #: b396861246f04c9aa257ed3bb15ffa2b
 #: eba01d9e9a294d8282fe61c94f1a7c74
 #: 7ec7f4611eed498898647c07fea99441
-#: 2f75673bc4ad4ac4a4edba7ce1439f9f
-#: 26c5463058434e43af74397cd181e2cf
-#: d2d7e21703f54dadacb5da3e6fbeb1ee
-#: 79f0fad58e14450da470e71a4993b45c
-#: 9aada21e369d4a7bb12e07084938295d
-#: 16412059337840bd87b77627e1fe2999
-#: e4a15d4b726d46d081c59e2d7bad7961
-#: 4438052e929a4c4faa69f58d65f6ec4b
-#: 595c0d01ee9a4629a90699ccf3870240
+#: 7ec7f4611eed498898647c07fea99441
+#: 7ec7f4611eed498898647c07fea99441
+#: 7ec7f4611eed498898647c07fea99441
+#: 7ec7f4611eed498898647c07fea99441
+#: 7ec7f4611eed498898647c07fea99441
+#: 7ec7f4611eed498898647c07fea99441
+#: 7ec7f4611eed498898647c07fea99441
+#: 7ec7f4611eed498898647c07fea99441
 msgid "**Sources**"
 msgstr ""
 
@@ -363,26 +351,24 @@ msgstr ""
 #: ../../source/incidents.rst:365
 #: ../../source/incidents.rst:396
 #: ../../source/incidents.rst:400
+#: ../../source/incidents.rst:445
 #: ../../source/incidents.rst:449
-#: ../../source/incidents.rst:453
-#: ../../source/incidents.rst:487
-#: ../../source/incidents.rst:491
-#: ../../source/incidents.rst:528
-#: ../../source/incidents.rst:532
-#: ../../source/incidents.rst:570
-#: ../../source/incidents.rst:574
-#: ../../source/incidents.rst:607
-#: ../../source/incidents.rst:611
-#: ../../source/incidents.rst:644
-#: ../../source/incidents.rst:648
-#: ../../source/incidents.rst:681
-#: ../../source/incidents.rst:685
-#: ../../source/incidents.rst:720
-#: ../../source/incidents.rst:724
-#: ../../source/incidents.rst:761
-#: ../../source/incidents.rst:765
-#: ../../source/incidents.rst:802
-#: ../../source/incidents.rst:806
+#: ../../source/incidents.rst:480
+#: ../../source/incidents.rst:484
+#: ../../source/incidents.rst:517
+#: ../../source/incidents.rst:521
+#: ../../source/incidents.rst:554
+#: ../../source/incidents.rst:558
+#: ../../source/incidents.rst:589
+#: ../../source/incidents.rst:593
+#: ../../source/incidents.rst:628
+#: ../../source/incidents.rst:632
+#: ../../source/incidents.rst:663
+#: ../../source/incidents.rst:667
+#: ../../source/incidents.rst:704
+#: ../../source/incidents.rst:708
+#: ../../source/incidents.rst:745
+#: ../../source/incidents.rst:749
 #: 242e950abb804772bc48b97301774c77
 #: 0e39f268778b45d589ff074343e3f96a
 #: d2fe5122be244e46a5a95df914513fc6
@@ -403,26 +389,24 @@ msgstr ""
 #: 0a5b65aaf9a4422bb17b469d5ba1fed7
 #: fca56b0aa7594643a7dc4f608fdf4c32
 #: 165143a8c4904163b071716ce46f4015
+#: 5e8ebf5ec191438588544a875a3af388
 #: 227f3a0e09954d678de41617ce2abaa9
 #: 5e8ebf5ec191438588544a875a3af388
-#: fa53743ea7474100b5c122da07149631
-#: bf73c4191d1f490db14f9ac4c411250e
-#: 9632f694a4a6410981eb1e58e6a1e28d
-#: 61d05bcc978a4c2aa0045f14f8d03018
-#: 7b90a0885e1049e39261a8805768992d
-#: 8c3ff16e5eef4c7ba0d82b4a37dd28f5
-#: f4009f6a3cf0454c8026357b410499ae
-#: 11485b87887e4062b55e09dd47cca085
-#: 0c73a8150e234ad0816f5a300a36e6ca
-#: 375c768d85724eaba2f25e26c5934d20
-#: 597fd7c9c5f745438bbdc4449daf7aca
-#: 0cb64a6e93cc439e9497a072128d04bb
-#: 90b33f64dc5446c4865fa477d4cdeb0b
-#: b0e8275d39b0408da24f83459a130dc7
-#: fb69af84772a4343869ea8f03e111ddb
-#: 6d3ef19a4b744f72bb18b4955438d611
-#: 378f6874912c4ae58b817a24445f78ee
-#: 9af35be01454403fb23583870c65b68f
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
+#: 5e8ebf5ec191438588544a875a3af388
 msgid "No"
 msgstr ""
 
@@ -436,16 +420,15 @@ msgstr ""
 #: ../../source/incidents.rst:328
 #: ../../source/incidents.rst:363
 #: ../../source/incidents.rst:398
-#: ../../source/incidents.rst:451
-#: ../../source/incidents.rst:489
-#: ../../source/incidents.rst:530
-#: ../../source/incidents.rst:572
-#: ../../source/incidents.rst:609
-#: ../../source/incidents.rst:646
-#: ../../source/incidents.rst:683
-#: ../../source/incidents.rst:722
-#: ../../source/incidents.rst:763
-#: ../../source/incidents.rst:804
+#: ../../source/incidents.rst:447
+#: ../../source/incidents.rst:482
+#: ../../source/incidents.rst:519
+#: ../../source/incidents.rst:556
+#: ../../source/incidents.rst:591
+#: ../../source/incidents.rst:630
+#: ../../source/incidents.rst:665
+#: ../../source/incidents.rst:706
+#: ../../source/incidents.rst:747
 #: 080cd66d2761421c8bf0043d82081439
 #: f09ae33cd31b4e9f86ae4f95ef178a89
 #: 5436995f49d54377b3e56ef50dea270b
@@ -457,15 +440,14 @@ msgstr ""
 #: e79d87532b164b52a9b5f4b70f603776
 #: eb1d8e76bd96443b9a271a666ee99a6c
 #: c32bc776302743d48ae5f3e246116fba
-#: 0ddfbaf4d5a34a6d803cbf07eba2e1e6
-#: cb4c059af4c94267831c98399e2e2a53
-#: 994fb0993c984d62b3a194eb05afcb0d
-#: 2dfd6cd89d694c77958d83243a9a6a38
-#: e4a8c14d4fb54b97bb6323c01de53c4b
-#: 84092a829e11423c94119c9967514634
-#: 8b330e23eca64c7fb4f678dda925715f
-#: 18813693b75041c4a6b998fff1e27b76
-#: b15ef5c01ab74e21a57bd798378abbda
+#: c32bc776302743d48ae5f3e246116fba
+#: c32bc776302743d48ae5f3e246116fba
+#: c32bc776302743d48ae5f3e246116fba
+#: c32bc776302743d48ae5f3e246116fba
+#: c32bc776302743d48ae5f3e246116fba
+#: c32bc776302743d48ae5f3e246116fba
+#: c32bc776302743d48ae5f3e246116fba
+#: c32bc776302743d48ae5f3e246116fba
 msgid "**Confidence**"
 msgstr ""
 
@@ -479,16 +461,12 @@ msgstr ""
 #: ../../source/incidents.rst:332
 #: ../../source/incidents.rst:367
 #: ../../source/incidents.rst:402
-#: ../../source/incidents.rst:455
-#: ../../source/incidents.rst:493
-#: ../../source/incidents.rst:534
-#: ../../source/incidents.rst:576
-#: ../../source/incidents.rst:613
-#: ../../source/incidents.rst:650
-#: ../../source/incidents.rst:687
-#: ../../source/incidents.rst:726
-#: ../../source/incidents.rst:767
-#: ../../source/incidents.rst:808
+#: ../../source/incidents.rst:486
+#: ../../source/incidents.rst:523
+#: ../../source/incidents.rst:595
+#: ../../source/incidents.rst:669
+#: ../../source/incidents.rst:710
+#: ../../source/incidents.rst:751
 #: 8b804f17742c4eef8a6ea067d56e382b
 #: 55cc1dae4223426089f783d179441967
 #: 54578210f7a54644ab33fe5f8a5ac2bf
@@ -500,15 +478,11 @@ msgstr ""
 #: 16eeb948e98a461cadcb53f06d360b60
 #: c3803d70b2d541a49021d7e77c396373
 #: 03731a27e8ee4f4ba12613b05890e601
-#: 9ed19e7239a04241ad6d73b39e34ce23
-#: e56e696484e8451caff4830c9c914fb6
-#: cb26508fa11046948995972e26fd08c6
-#: cc1f0b1b6bcf44229bd7e6b1ce7cd1a4
-#: 530f55dfda15480e9ecdb25dd9ba5c28
-#: 648deb18c65044a8a43ce92cbdf355d5
-#: 144341168af44bda913e48839d9c61f2
-#: 324d992f225e45b2a24a0957049ee27a
-#: d23e41d2a2614379932ad63234d0fd14
+#: 03731a27e8ee4f4ba12613b05890e601
+#: 03731a27e8ee4f4ba12613b05890e601
+#: 03731a27e8ee4f4ba12613b05890e601
+#: 03731a27e8ee4f4ba12613b05890e601
+#: 03731a27e8ee4f4ba12613b05890e601
 msgid "**Guidance for use**"
 msgstr ""
 
@@ -949,448 +923,365 @@ msgid "In such instances, researchers should consider the initial arrest and tra
 msgstr ""
 
 #: ../../source/incidents.rst:423
-#: cbc8d34cd0a446e1be198a6eed15917d
-msgid "Incident: Site, Exact location (Coordinate Pair or Gazetteer Name and Identity Number)"
+#: 6e0521fe7a674ad594056111acdbe8f5
+msgid "Incident: Location"
 msgstr ""
 
-#: ../../source/incidents.rst:427
-#: 24b609ca7e274042bb9fc23706cc0397
-msgid "A pair of fields used to capture the most precise location of an incident, using whichever is the more precise of a set of geographical coordinates or a name and reference/identity number from a gazetteer."
+#: ../../source/incidents.rst:429
+#: fd3e13086db34f7a97e277b46235a07e
+msgid "Text and numbers; linked to ``location:humane_id_admin``."
 msgstr ""
 
-#: ../../source/incidents.rst:431
-#: 097226a889754fbf8e232b3928bedf6a
-msgid "Field pair that takes as input an EPSG:4326 coordinate pair, or a name and reference/identity number from a gazetteer."
-msgstr ""
-
-#: ../../source/incidents.rst:435
-#: 6297f4d400d44bbea0409aa01537478e
-msgid "``Ciudad Juárez`` and ``4145208823``"
+#: ../../source/incidents.rst:433
+#: bf36ea527c274b2da553a97a7df339d5
+msgid "``Baga (osm, point) 4d7d97a6-d85e-436b-9511-81e8d55ceff3``"
 msgstr ""
 
 #: ../../source/incidents.rst:437
-#: 3f1149c80b3e4dd7aa1a1b599695850d
-msgid "``104.64728`` and ``24.0506``"
+#: 61df72a0477f42dd9d6df6f15d5684a8
+msgid "``incident:location``"
 msgstr ""
 
 #: ../../source/incidents.rst:441
-#: 4b0bd655f2dc4f488e9c2488d6ca5380
-msgid "``incident:site_exact_location_name_longitude`` and ``incident:site_exact_location_id_latitude``"
-msgstr ""
-
-#: ../../source/incidents.rst:445
-#: 2e27d6dcbb0c4edcbce8427872954a84
-msgid "``i_selnlon`` and  ``i_selidlat``"
-msgstr ""
-
-#: ../../source/incidents.rst:457
-#: 55a5924881304d39bfcb3d56b96a308e
-msgid "Where research indicates that an incident occurred at a location that can be geocoded precisely, we record this data in the pair of fields called ``Incident: Site, Exact Location (Coordinate Pair or Gazetteer Name and Identity Number)``. This field pair will take input in two ways:"
-msgstr ""
-
-#: ../../source/incidents.rst:459
-#: 67808bf01b14459b9ef0114eba879ac9
-msgid "A coordinate pair in EPSG:4326 format: The number for longitude should go in ``incident:site_exact_location_name_longitude`` and the number for latitude should go in ``incident:site_exact_location_id_latitude``."
-msgstr ""
-
-#: ../../source/incidents.rst:460
-#: e3f3bcfac18d4030be98ca64a0aeee79
-msgid "if the gazetteer in use is Open Street Maps, then we use an OSM object name and ID number: The OSM object name should go in ``incident:site_exact_location_name_longitude`` and the OSM object ID should go in ``incident:site_exact_location_id_latitude``."
-msgstr ""
-
-#: ../../source/incidents.rst:463
-#: 99cb3ad120ef45e8beb0efd1242c8278
-msgid "Incident: Site, Nearest Settlement"
-msgstr ""
-
-#: ../../source/incidents.rst:467
-#: d440223b987f4c0db4088e6f45ea74c9
-msgid "A pair of fields used to capture data on the nearest city, town or village to where an incident occurred."
-msgstr ""
-
-#: ../../source/incidents.rst:471
-#: ../../source/incidents.rst:512
-#: d479edfc37a5483988ab6518feae6530
-#: f03a9e491a7d435a8bf4304f4e3c5eeb
-msgid "Field pair that takes as an input a name and reference/identity number from a gazetteer."
-msgstr ""
-
-#: ../../source/incidents.rst:475
-#: 20bcfe2662534741b3487306dcbdc902
-msgid "``Monclova`` and ``747101009``"
-msgstr ""
-
-#: ../../source/incidents.rst:479
-#: 83f575eb9fde4f3daf93e9cb46085034
-msgid "``incident:site_settlement_name`` and ``incident:site_settlement_id``"
-msgstr ""
-
-#: ../../source/incidents.rst:483
-#: 5e7c0ad1a9a5432c8f36d7ee2b04589b
-msgid "``i_ssn`` and ``i_ssid``"
-msgstr ""
-
-#: ../../source/incidents.rst:495
-#: efe4ca7feb994016a70cc8b08e3c1d02
-msgid "Where a source states that an incident happened in a particular settlement (whether village, town or city), we find the appropriate name and reference/idetity number provided by the gazetteer in use for the dataset, and record it in this pair of fields. If the gazetteer is Open Street Map, for example, we would do the following:"
-msgstr ""
-
-#: ../../source/incidents.rst:497
-#: 8c615ff87679442d92573bb9946ceb77
-msgid "The OSM object name should be placed in ``incident:site_settlement_name``"
-msgstr ""
-
-#: ../../source/incidents.rst:498
-#: 879a6e6d9a63479da9f82c1b8d5bbb32
-msgid "The OSM object ID number should be placed in ``incident:site_settlement_id``"
-msgstr ""
-
-#: ../../source/incidents.rst:500
-#: 28ed88f61df64e2094f01b259bca78e1
-msgid "Often, information about incidents does not list a settlement by name. If so, we will leave this field blank even if by the description it seems to indicate a particular place. This is because we only transcribe what other groups have reported about an incident, and do not augment it."
-msgstr ""
-
-#: ../../source/incidents.rst:504
-#: a7bb28111d3746708f2b78accc677832
-msgid "Incident: Site, First-level Administrative Area"
-msgstr ""
-
-#: ../../source/incidents.rst:508
-#: 6dd707ef8114421195afb5fd871d0ce4
-msgid "A pair of fields used to record the highest sub-national administrative area of the incident location."
-msgstr ""
-
-#: ../../source/incidents.rst:516
-#: b70356b9ec37420582f7da763fee4fb2
-msgid "``Michoacán`` and ``2340636``"
-msgstr ""
-
-#: ../../source/incidents.rst:520
-#: d378563d94b34583a3dd6a1ca031ddef
-msgid "``incident:site_first_admin_area_name`` and ``incident:site_first_admin_area_id``"
-msgstr ""
-
-#: ../../source/incidents.rst:524
-#: f43fe61d639645c48607dba0a370a79f
-msgid "``i_sfaan`` and ``i_sfaaid``"
-msgstr ""
-
-#: ../../source/incidents.rst:536
-#: be124a1cf7a14a7eac955e71e8bad042
-msgid "We identify ``incidents`` with a number of different levels of geographical precision. In this field pair we record details of the first level subnational administrative area for the country in which the incident site is located, as defined by the gazetteer in use. For example, if Open Street Map is the gazetteer in use for the dataset, the administrative areas are  `defined here<http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations>`__."
-msgstr ""
-
-#: ../../source/incidents.rst:538
-#: 5b16735ff69a4b86b2fc5f2580e4a5a7
-msgid "For example, in  Mexico there are \"*municipios*\" (classified as administrative level 6 in OSM) and states (administrative level 4 in OSM). \"States\" are larger in area than \"*municipios*\" but in the hierarchy of administrative areas are immediately beneath the international national boundary of Mexico: therefore, \"states\" are the first-level administrative area. For a ``incident`` which occurred in Mexico, we would record the OSM object name and ID number of the relevant \"state\" in the field pair called ``Incident: Site, First-level Administrative Area``."
-msgstr ""
-
-#: ../../source/incidents.rst:540
-#: f5c09d10f7834c3f9a0a02e886e0c278
-msgid "This pair of fields takes input in the following form, using Open Street Map as an example:"
-msgstr ""
-
-#: ../../source/incidents.rst:542
-#: 3d94149f82fd48bb8e32bf214a3bc2f2
-msgid "the OSM object name should be placed in the field ``incident:site_first_admin_area_name``"
-msgstr ""
-
-#: ../../source/incidents.rst:543
-#: 8cb6959ee5fd43a0b9c76699339b6e67
-msgid "the OSM object ID number should be placed in the field ``incident:site_first_admin_area_id``"
-msgstr ""
-
-#: ../../source/incidents.rst:546
-#: 78f778fc2544407b96c83823bdc72976
-msgid "Incident: Country"
-msgstr ""
-
-#: ../../source/incidents.rst:550
-#: 501f74d5a2e44c0cb25d2bf45f91651b
-msgid "The country in which an incident occurred."
-msgstr ""
-
-#: ../../source/incidents.rst:554
-#: 4fc8c88f3e954eae8bc6543c05f00c79
-msgid "Two letter country code"
-msgstr ""
-
-#: ../../source/incidents.rst:558
-#: 69041242814244cc9236db9e4a4cb86e
-msgid "``mx``, ``ug``, ``ng``"
-msgstr ""
-
-#: ../../source/incidents.rst:562
-#: b2e35d8fdc254a29aca8a6db83ad2045
-msgid "``incident:site_country``"
-msgstr ""
-
-#: ../../source/incidents.rst:566
 #: a4faca1678824bd2a5fce2e3c22bbb68
-msgid "``i_sc``"
+msgid "``i_loc``"
 msgstr ""
 
-#: ../../source/incidents.rst:578
-#: f14dc1a112374461b966f8af9eed8d59
-msgid "We identify the location of incidents with a number of different levels of geographical precision. The ``Incident: Country`` field identifies the country in which an incident occurred. All entries in this field are two letter country codes taken from `ISO 3166 which can be searched here <https://www.iso.org/obp/ui/#search>`__."
+#: ../../source/incidents.rst:451
+#: ../../source/incidents.rst:560
+#: ../../source/incidents.rst:634
+#: 03731a27e8ee4f4ba12613b05890e601
+#: 03731a27e8ee4f4ba12613b05890e601
+#: 03731a27e8ee4f4ba12613b05890e601
+msgid "**Guidance on use**"
 msgstr ""
 
-#: ../../source/incidents.rst:580
-#: fda1fb4878d949a5ba35274cc7a1fa45
-msgid "For example, an incident that occurred in Nigeria would have the code ``ng`` and an incident that occurred in Brazil would have the code ``br``."
+#: ../../source/incidents.rst:453
+#: 0d8a8d2eb4304dc2866bc11f8a1bd7c9
+msgid "This field is used to store information about the Location where an incident happened. The value included in this field must be taken from ``location:humane_id:admin`` in the :ref:`Locations` dataset. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation."
 msgstr ""
 
-#: ../../source/incidents.rst:583
+#: ../../source/incidents.rst:456
 #: 6e0521fe7a674ad594056111acdbe8f5
 msgid "Incident: Violation type"
 msgstr ""
 
-#: ../../source/incidents.rst:587
+#: ../../source/incidents.rst:460
 #: 4102aae5be844e1c99621bbdf7ce4ea9
 msgid "Type of alleged violation of human rights law, international humanitarian law or other relevant laws committed during the incident."
 msgstr ""
 
-#: ../../source/incidents.rst:591
+#: ../../source/incidents.rst:464
 #: 4ec89a864300413d9caa8e3e1d22527b
 msgid "Text, multiple entry, controlled vocabulary"
 msgstr ""
 
-#: ../../source/incidents.rst:595
+#: ../../source/incidents.rst:468
 #: 61b0e968736b477fbade3b6d03e75b5c
 msgid "``Torture; Violations of the Right to Life``, ``Intentionally directing attacks against the civilian population``"
 msgstr ""
 
-#: ../../source/incidents.rst:599
+#: ../../source/incidents.rst:472
 #: 61df72a0477f42dd9d6df6f15d5684a8
 msgid "``incident:violation_type``"
 msgstr ""
 
-#: ../../source/incidents.rst:603
+#: ../../source/incidents.rst:476
 #: fe48f1523afb4c4085876f9f134254af
 msgid "``i_vt``"
 msgstr ""
 
-#: ../../source/incidents.rst:615
+#: ../../source/incidents.rst:488
 #: 9257da98eb6141ad840fa83345749cda
 msgid "In ``Incident: Violation Type``, a values is taken \"as is\" from the source. If the source states \"torture\", we transcribe this without further analysis."
 msgstr ""
 
-#: ../../source/incidents.rst:617
+#: ../../source/incidents.rst:490
 #: 58b9257a282f49a499f4d811d44807e0
 msgid "This field can accept multiple entries. If the field is created in a spreadsheet, the discrete entries must be separated with semi-colon."
 msgstr ""
 
-#: ../../source/incidents.rst:620
+#: ../../source/incidents.rst:493
 #: a3a34650f30d4c7aaf9c8d20a4b77c74
 msgid "Incident: Violation Description"
 msgstr ""
 
-#: ../../source/incidents.rst:624
+#: ../../source/incidents.rst:497
 #: 7d1a373751564082a07e90cd35a4fee3
 msgid "A description of the incident."
 msgstr ""
 
-#: ../../source/incidents.rst:632
+#: ../../source/incidents.rst:505
 #: 56e0c9214b1943bb99ea1e8262a21db6
 msgid "According to Amnesty International: \"Usman Modu, a 26-year-old scrap metal dealer from Maiduguri, spent almost two and a half years in Giwa barracks. He was arrested in April 2012 in Gwange, Maiduguri, during a screening operation after a Boko Haram attack. All the people who left the mosque were gathered together: the elderly and children were allowed to go home. The men were brought before a “pointer”, who pointed at him and 17 other men. He was first taken to a JTF station called NEPA and then to Giwa Barracks. “One by one we were brought in front of an armoured tank. I never saw anything. People said there was someone inside. When I went up, soldiers said I should go left. They started beating me. One soldier beat me with his gun and I fell down. They tied my hands behind my back and beat me. Then told me to go inside the car. I don't know why I was chosen. I was surprised, I don't know what I have done.” The military released Usman with 41 others in November 2014. The 17 men arrested with Usman all died in military custody.\""
 msgstr ""
 
-#: ../../source/incidents.rst:636
+#: ../../source/incidents.rst:509
 #: 433f86b720cc43dbbcc34a82ca06a6d6
 msgid "``incident:violation_description``"
 msgstr ""
 
-#: ../../source/incidents.rst:640
+#: ../../source/incidents.rst:513
 #: a2e4be51aa73461eb5f2c3a344bb82f7
 msgid "``i_vd``"
 msgstr ""
 
-#: ../../source/incidents.rst:652
+#: ../../source/incidents.rst:525
 #: ce7bdbe0267b41aba05ffdc62f720965
 msgid "In this field we record a direct quotation from the civil society, governmental or other source that describes the incident. When an incident has more than one report tied to it, start the quotation as below:"
 msgstr ""
 
-#: ../../source/incidents.rst:654
+#: ../../source/incidents.rst:527
 #: 8f19995d385843eb8100f563c56e4af0
 msgid "According to X organization, “Description of incident”. According to Y organization, “Description of incident”."
 msgstr ""
 
-#: ../../source/incidents.rst:657
-#: 46db0846ddb44749b6c5c6cd9c893cd9
-msgid "Incident: Perpetrator Name"
+#: ../../source/incidents.rst:530
+#: 9d41e84f600148d7963325c1bfcc0095
+msgid "Incident: Perpetrator Person Unique Identifier"
 msgstr ""
 
-#: ../../source/incidents.rst:661
+#: ../../source/incidents.rst:534
+#: 8c615ff87679442d92573bb9946ceb77
+msgid "The UUID of the person named in ``Incident: Perpetrator Person Name``."
+msgstr ""
+
+#: ../../source/incidents.rst:538
+#: 9f6cadaff5da4cd8b2ac370ce459a3ab
+msgid "Text and numbers; linked to ``person:id:admin``."
+msgstr ""
+
+#: ../../source/incidents.rst:542
+#: ef3e12975a4c47a59a19b8c52935a406
+msgid "``251be336-e67b-4e44-bc0d-97d4e8188b44``"
+msgstr ""
+
+#: ../../source/incidents.rst:546
+#: 5c877a2806514c75a368ca3582f38a4e
+msgid "``incident:perpetrator_person_id:admin``"
+msgstr ""
+
+#: ../../source/incidents.rst:550
+#: 2b9c836cc66a466ab5e2b140fc52444e
+msgid "``i_ppid_a``"
+msgstr ""
+
+#: ../../source/incidents.rst:562
+#: 2e02ab72e32b40b3b21b11c5e3328ba1
+msgid "This value in this field should be the same as the value in ``persons:id:admin`` of the person named in ``Incident: Perpetrator Person Name``."
+msgstr ""
+
+#: ../../source/incidents.rst:565
+#: 46db0846ddb44749b6c5c6cd9c893cd9
+msgid "Incident: Perpetrator Person Name"
+msgstr ""
+
+#: ../../source/incidents.rst:569
 #: fe3a53cf805c451dab7e78699081d1f9
 msgid "The name of the person alleged to have committed the act(s) described in the incident."
 msgstr ""
 
-#: ../../source/incidents.rst:665
+#: ../../source/incidents.rst:573
 #: 9f6cadaff5da4cd8b2ac370ce459a3ab
-msgid "Text and numbers, multiple entry, taken from entries recorded in ``Person: Name``"
+msgid "Text and numbers, multiple entry; linked to ``person:name``."
 msgstr ""
 
-#: ../../source/incidents.rst:669
+#: ../../source/incidents.rst:577
 #: 142a99362bb547c2af02b8a833a33b95
 msgid "``Friday Iyamabo``"
 msgstr ""
 
-#: ../../source/incidents.rst:673
+#: ../../source/incidents.rst:581
 #: c7ed70c695fc4f1ebeb5203895d0a9b9
-msgid "``incident:perpetrator_name``"
+msgid "``incident:perpetrator_person_name``"
 msgstr ""
 
-#: ../../source/incidents.rst:677
+#: ../../source/incidents.rst:585
 #: 523475a757c4411a8e586bbef4f15719
-msgid "``i_pn``"
+msgid "``i_ppn``"
 msgstr ""
 
-#: ../../source/incidents.rst:689
+#: ../../source/incidents.rst:597
 #: 85e9ee5c3d7b4b2d857841caaa7a3935
-msgid "If a person or persons are named in the sources for the incident, we will record this information in the ``Incident: Perpetrator Name`` field. The value in ``Incident: Perpetrator Name`` will correspond to a value in ``Person: Name``."
+msgid "If a person or persons are named in the sources for the incident, we will record this information in the ``Incident: Perpetrator Persons Name`` field. The value in ``Incident: Perpetrator Person Name`` will correspond to a value in ``Person: Name``."
 msgstr ""
 
-#: ../../source/incidents.rst:691
+#: ../../source/incidents.rst:599
 #: 9fdd9726de034de497cc24245ed9727f
 msgid "For example: \"Nwanneka narrated to NOPRIN researchers her experience at the SCID in Enugu in May 2002. She was initially arrested with two other females by officers of the Ninth Mile Police Station on the outskirts of Enugu on charges of assisting an armed robbery suspect, before being transferred to the SCID on May 3, 2002. After taking the statements of the female detainees, NPF Inspector Friday Iyamabo ordered them detained in the cells of the SCID. He later reportedly returned to the cell with pepper spray and powdered chili pepper, ordered the female detainees to strip and one after the other applied the mixture of pepper spray and chili to their genitals after severely beating them with batons. The detainees were denied access to medical treatment. Five years after this experience, Nwanneka reported to NOPRIN researchers in April 2007 that, as a result of this experience, she continues to suffer from complications with both her reproductive system and urinary tract.\""
 msgstr ""
 
-#: ../../source/incidents.rst:693
+#: ../../source/incidents.rst:601
 #: 2e02ab72e32b40b3b21b11c5e3328ba1
-msgid "In this case, the alleged perpetrator is named in the source report. We would record the name ``Friday Iyamabo`` in the field ``Incident: Perpetrator Name``."
+msgid "In this case, the alleged perpetrator is named in the source report. We would record the name ``Friday Iyamabo`` in the field ``Incident: Perpetrator Person  Name``."
 msgstr ""
 
-#: ../../source/incidents.rst:696
-#: e1c08faab06b40f8a1b45a5233e58422
-msgid "Incident: Perpetrator Unit"
+#: ../../source/incidents.rst:604
+#: 9d41e84f600148d7963325c1bfcc0095
+msgid "Incident: Perpetrator Unit Unique Identifier"
 msgstr ""
 
-#: ../../source/incidents.rst:700
+#: ../../source/incidents.rst:608
+#: 8c615ff87679442d92573bb9946ceb77
+msgid "The UUID of the unit named in ``Incident: Perpetrator Unit Name``."
+msgstr ""
+
+#: ../../source/incidents.rst:612
+#: fd3e13086db34f7a97e277b46235a07e
+msgid "Text and numbers; linked to ``unit:id:admin``."
+msgstr ""
+
+#: ../../source/incidents.rst:616
+#: 38c351f2fade4587bd0e46de257b3d6b
+msgid "``a27d4e1f-7add-4302-ab2e-70c426cce519``"
+msgstr ""
+
+#: ../../source/incidents.rst:620
+#: 5c877a2806514c75a368ca3582f38a4e
+msgid "``incident:perpetrator_unit_id:admin``"
+msgstr ""
+
+#: ../../source/incidents.rst:624
+#: 2b9c836cc66a466ab5e2b140fc52444e
+msgid "``i_puid_a``"
+msgstr ""
+
+#: ../../source/incidents.rst:636
+#: aed4f6f06e7a483cbabe260b604597c7
+msgid "This value in this field should be the same as the value in ``unit:id:admin`` of the unit named in ``Incident: Perpetrator Unit Name``."
+msgstr ""
+
+#: ../../source/incidents.rst:639
+#: 46db0846ddb44749b6c5c6cd9c893cd9
+msgid "Incident: Perpetrator Unit Name"
+msgstr ""
+
+#: ../../source/incidents.rst:643
 #: 2e71233f54b3409e8bf39018ec8cde1d
 msgid "The unit(s) alleged to have committed the act(s) described in the incident."
 msgstr ""
 
-#: ../../source/incidents.rst:704
+#: ../../source/incidents.rst:647
 #: fd3e13086db34f7a97e277b46235a07e
-msgid "Text and numbers, multiple entry, taken entries recorded in ``Unit: Name``"
+msgid "Text and numbers, multiple entry; linked to ``unit:name``."
 msgstr ""
 
-#: ../../source/incidents.rst:708
+#: ../../source/incidents.rst:651
 #: 9f808c77eae1424b835a3c8cfa14dd90
 msgid "``2 Batallón de Fuerzas Especiales``"
 msgstr ""
 
-#: ../../source/incidents.rst:712
-#: 76cb645341f64573a13fc2d2704dfc7a
-msgid "``incident:perpetrator_unit``"
+#: ../../source/incidents.rst:655
+#: c7ed70c695fc4f1ebeb5203895d0a9b9
+msgid "``incident:perpetrator_unit_name``"
 msgstr ""
 
-#: ../../source/incidents.rst:716
-#: b703d5d34db143c8bfe8b615438e779c
-msgid "``i_pu``"
+#: ../../source/incidents.rst:659
+#: 523475a757c4411a8e586bbef4f15719
+msgid "``i_pun``"
 msgstr ""
 
-#: ../../source/incidents.rst:728
+#: ../../source/incidents.rst:671
 #: 694c4763ed454c14a892d4d7985ddfb5
-msgid "If the source for the incident states that specific units committed the alleged human rights violations described in the incident, we include these names in ``Incident: Perpetrator Unit``. The value in ``Incident: Perpetrator Unit`` will correspond to a value in ``Unit: Name``."
+msgid "If the source for the incident states that specific units committed the alleged human rights violations described in the incident, we include these names in ``Incident: Perpetrator Unit Name``. The value in ``Incident: Perpetrator Unit Name`` will correspond to a value in ``Unit: Name``."
 msgstr ""
 
-#: ../../source/incidents.rst:730
+#: ../../source/incidents.rst:673
 #: 82415ddbad024d2aaa6110305f10226d
-msgid "Here is an example of source material that contains information that would be included in ``Incident: Perpetrator Unit``:"
+msgid "Here is an example of source material that contains information that would be included in ``Incident: Perpetrator Unit Name``:"
 msgstr ""
 
-#: ../../source/incidents.rst:732
+#: ../../source/incidents.rst:675
 #: f8f09d604ceb4da487fce57fda69f3fe
 msgid "According to the United States Department of State, Bureau of Democracy, Human Rights and Labor: \"On March 24, the JTF reportedly killed four men near Isaka in the Okrika Local Government Area, Rivers State, when they confronted them and other armed men attempting to hijack a barge. There was no investigation conducted.\""
 msgstr ""
 
-#: ../../source/incidents.rst:734
+#: ../../source/incidents.rst:677
 #: aed4f6f06e7a483cbabe260b604597c7
-msgid "In this case, we would search ``Unit: Name`` for the canonical entry for \"JTF\" and include it in the field ``Incident: Perpetrator Unit``."
+msgid "In this case, we would search ``Unit: Name`` for the canonical entry for \"JTF\" and include it in the field ``Incident: Perpetrator Unit Name``."
 msgstr ""
 
-#: ../../source/incidents.rst:737
+#: ../../source/incidents.rst:680
 #: 9d41e84f600148d7963325c1bfcc0095
 msgid "Incident: Perpetrator classification"
 msgstr ""
 
-#: ../../source/incidents.rst:741
+#: ../../source/incidents.rst:684
 #: c28d442f69234ca88383f5a8dd23c4d8
 msgid "General branch or tier of the security force alleged to have committed the act(s) described in the incident."
 msgstr ""
 
-#: ../../source/incidents.rst:745
+#: ../../source/incidents.rst:688
 #: bd547c98cba3457f8214154f607fbc41
 msgid "Text and numbers, multiple entry, controlled vocabulary taken from ``Unit: Classification``"
 msgstr ""
 
-#: ../../source/incidents.rst:749
+#: ../../source/incidents.rst:692
 #: 6ca1b4df6eb64b20828ebfa6878de5c3
-msgid "``Army``, ``Ejército``,\\ ``Police``, ``Military``,\\ ``Military Police ; Joint Operation``"
+msgid "``Army``, ``Ejército``, ``Police``, ``Military``, ``Military Police ; Joint Operation``"
 msgstr ""
 
-#: ../../source/incidents.rst:753
+#: ../../source/incidents.rst:696
 #: 5c877a2806514c75a368ca3582f38a4e
 msgid "``incident:perpetrator_classification``"
 msgstr ""
 
-#: ../../source/incidents.rst:757
+#: ../../source/incidents.rst:700
 #: 7d1beec710cf4e1987ff8627680f6a94
 msgid "``i_pcl``"
 msgstr ""
 
-#: ../../source/incidents.rst:769
+#: ../../source/incidents.rst:712
 #: 2272d084d2e14072b30f459c87cc8ab6
 msgid "Sometimes a source will report general information about the alleged perpetrators of an act. For example, rather than state a unit or a specific person the source might include something generic like “soldiers” or “police\". In cases like these where we can't be more specific we use this field to record the branch or general classification of the force implicated in the incident. For example:"
 msgstr ""
 
-#: ../../source/incidents.rst:771
+#: ../../source/incidents.rst:714
 #: 0a3db4c5de064693b900da0b20ed2fd8
 msgid "According to Amnesty International: \"On 1 May 2012, around midnight, Nigerian soldiers arrested 37-year-old Dungus Ladan (not his real name), at his home in Maiduguri. Fatima, Dungus’ wife, told Amnesty International that the soldiers promised to just take him for an interrogation that should not last more than a few hours. When her husband did not return, she said, his father went on 3 May to Giwa barracks to check what had happened. Soldiers told him that Dungus had already been released. When he still did not return, the father went back again to the barracks, where soldiers told him that he should come back the next day to bail out his son. The following day, several relatives went together and gave the soldiers “what they could,” and the soldiers again promised to release Dungus that day. His wife said that the soldiers kept asking for money, and the family kept paying, but Dungus was never released. In February 2014, his father saw Dungus in the detention facility; they spoke briefly. Dungus said he had been framed by some people who owed him money and they arranged for him to be arrested and detained. Since then, his family has not seen him again; soldiers at Giwa barracks have told them he is not there.\""
 msgstr ""
 
-#: ../../source/incidents.rst:773
+#: ../../source/incidents.rst:716
 #: cbe4c256c346431fb44c258e70dfd14c
 msgid "The only alleged perpetrators described in this alleged incident are \"soldiers\". The most appropriate term to enter in ``Incident: Perpetrator Classification`` to match this description which would be \"military\" because \"soldiers\" could refer to personnel of the Army, Navy or other armed services of a country."
 msgstr ""
 
-#: ../../source/incidents.rst:775
+#: ../../source/incidents.rst:718
 #: 388631d69b434fa48fee63f6ed1ee82c
 msgid "Entries in ``Incident: Perpetrator Classification`` correspond to those in ``Unit: Classification``."
 msgstr ""
 
-#: ../../source/incidents.rst:778
+#: ../../source/incidents.rst:721
 #: 751360aadc1f431da87a3a8ba0156c21
 msgid "Incident: Source"
 msgstr ""
 
-#: ../../source/incidents.rst:782
+#: ../../source/incidents.rst:725
 #: 11efaa9e40ad4b449cba77e2fdc40c36
 msgid "The UUID of the access point in the source that provides information about the incident."
 msgstr ""
 
-#: ../../source/incidents.rst:786
+#: ../../source/incidents.rst:729
 #: 211388251489436c8c66a08f175e4b4a
 msgid "Text and numbers, chosen from list"
 msgstr ""
 
-#: ../../source/incidents.rst:790
+#: ../../source/incidents.rst:733
 #: 36284fbbc4d9425b9d2a7c22dd899d9b
 msgid "``5b8362d6-b13a-4764-9ff0-2d7cfd7d5f37``"
 msgstr ""
 
-#: ../../source/incidents.rst:794
+#: ../../source/incidents.rst:737
 #: c97961bb60034c71b32811f146817400
 msgid "``incident:all:source``"
 msgstr ""
 
-#: ../../source/incidents.rst:798
+#: ../../source/incidents.rst:741
 #: 2b9c836cc66a466ab5e2b140fc52444e
 msgid "``i_all_s``"
 msgstr ""
 
-#: ../../source/incidents.rst:810
+#: ../../source/incidents.rst:753
 #: 5b24e01c5ddb402d864f379a7306ad62
 msgid "Unlike data captured about ``units`` or ``person``, data about ``incidents`` are not sourced at the level of each individual field. Instead, we have a single source for the whole incident. The entry in ``Incident: Source`` should be a Unique Identifier (\"UUID\") for a source access point that has been alreayd created in the master list of sources. The relevant values will be found in the field ``Source: Access Point Unique Identifier``."
 msgstr ""

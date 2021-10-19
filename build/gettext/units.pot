@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFM Research Handbook \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-15 18:39+0100\n"
+"POT-Creation-Date: 2021-04-16 14:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,92 +73,60 @@ msgstr ""
 
 #: ../../source/units.rst:22
 #: ../../source/units.rst:66
-#: ../../source/units.rst:102
-#: ../../source/units.rst:145
-#: ../../source/units.rst:181
-#: ../../source/units.rst:238
-#: ../../source/units.rst:277
-#: ../../source/units.rst:314
-#: ../../source/units.rst:357
-#: ../../source/units.rst:403
-#: ../../source/units.rst:441
-#: ../../source/units.rst:487
-#: ../../source/units.rst:526
-#: ../../source/units.rst:572
-#: ../../source/units.rst:608
-#: ../../source/units.rst:651
-#: ../../source/units.rst:697
-#: ../../source/units.rst:732
-#: ../../source/units.rst:783
-#: ../../source/units.rst:822
-#: ../../source/units.rst:862
-#: ../../source/units.rst:903
-#: ../../source/units.rst:944
-#: ../../source/units.rst:979
-#: ../../source/units.rst:1014
-#: ../../source/units.rst:1051
-#: ../../source/units.rst:1088
-#: ../../source/units.rst:1125
-#: ../../source/units.rst:1170
-#: ../../source/units.rst:1208
-#: ../../source/units.rst:1252
-#: ../../source/units.rst:1293
-#: ../../source/units.rst:1328
-#: ../../source/units.rst:1363
-#: ../../source/units.rst:1400
-#: ../../source/units.rst:1444
-#: ../../source/units.rst:1483
-#: ../../source/units.rst:1525
-#: ../../source/units.rst:1568
-#: ../../source/units.rst:1610
-#: ../../source/units.rst:1652
-#: ../../source/units.rst:1690
-#: ../../source/units.rst:1732
-#: ../../source/units.rst:1772
+#: ../../source/units.rst:101
+#: ../../source/units.rst:144
+#: ../../source/units.rst:179
+#: ../../source/units.rst:236
+#: ../../source/units.rst:275
+#: ../../source/units.rst:312
+#: ../../source/units.rst:355
+#: ../../source/units.rst:401
+#: ../../source/units.rst:439
+#: ../../source/units.rst:485
+#: ../../source/units.rst:524
+#: ../../source/units.rst:560
+#: ../../source/units.rst:591
+#: ../../source/units.rst:644
+#: ../../source/units.rst:687
+#: ../../source/units.rst:733
+#: ../../source/units.rst:768
+#: ../../source/units.rst:818
+#: ../../source/units.rst:857
+#: ../../source/units.rst:893
+#: ../../source/units.rst:932
+#: ../../source/units.rst:968
+#: ../../source/units.rst:1012
+#: ../../source/units.rst:1050
+#: ../../source/units.rst:1094
+#: ../../source/units.rst:1135
 #: 086a3f7df3884665bbb654beed59de9b
 #: 555ef2796b244f3488f4b17950c7dbbd
 #: 9cbc054b6e1c4b22834d5bbb4b34411d
 #: d2273badb8224b5a95571e8a48151674
-#: 7ddbb8a742f74814ac2cf5372feb6213
-#: aad6682fbbaa413d831476cc33e2b7dd
-#: 7fd95b45db724ac59ff716328f479931
-#: 9b1ea4a4410b4732a13046b7b07c8818
-#: 0ed4f19f40a740eaa6b192652ce322b9
-#: f8ce9aed1b984633a3dec77de2e921e1
-#: 906cad9f4aea45d48aae2054814e07bd
-#: b42e89b34ead459a9b1998e37c707f88
-#: eab1dcb92962475fa59946255fc650a4
-#: b92d75fb380e402697690e7ef3537d40
-#: 07ebe8c053304b839fabf73f73fcd463
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
 #: 7adfde0ece5041bc93b7cc9a3a057e84
-#: 2e523a6b1d9c4cfaa82629f807fc1b08
-#: d8df9145611248ef8024126286594d47
-#: 6b5086ab49364bebbd51232cb404bb77
-#: c561cae67c894018b737115f9cab99c1
-#: 11916c1885954bc6bdf4b0660587f4e7
-#: 026dcead348d4b70833ea7ff9d4e1dac
-#: 27f9cc5996f947bdb6b31849a47a8603
-#: 22b19fc2ac75475c94d25b728ef991da
-#: f256e282987e4f79939a2d6993d1660b
-#: 114836a1e2f84c1da8e278545c2be353
-#: f5828c9bc0cd4ddc938d0e64dda4831c
-#: fa7e7d6629e645f880bfe320ed4dcf88
-#: 442a45b9f41f4675900b01604223c1d7
-#: 95ddf508c50f43aeb88689bbf62456f5
-#: 18c5d8a57b0e4c988c621892a6244db5
-#: eb46950e00814a7aba4013fc205b0ecb
-#: 2b4168cf37814353b1033e2b74ec6946
-#: ed84a5db729e496bb9b6dc51fe2e0f7d
-#: 9ab652431af44c128e0259b4764faf02
-#: d592443ebd6c49ed8903b55a31535973
-#: eb44f100e6ae4f748c0f1f52cde4a350
-#: f3f2d3f63eb64088b87d7fa0890ce8ab
-#: 408530fca80240afa7aa07cbcae24946
-#: 6a2e93dac11c4840800c0ae7ca921940
-#: dbbb8c1ef46547e39e8550ce041eae9b
-#: f1c3f9faa785426aa9f078bd234d1503
-#: c81075bd336c4db8bd6cdd3b40247ca3
-#: c0f38e2640b944398bf29b1b9c4d7c6b
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
+#: d2273badb8224b5a95571e8a48151674
 msgid "**Description**"
 msgstr ""
 
@@ -169,202 +137,132 @@ msgstr ""
 
 #: ../../source/units.rst:26
 #: ../../source/units.rst:70
-#: ../../source/units.rst:106
-#: ../../source/units.rst:149
-#: ../../source/units.rst:185
-#: ../../source/units.rst:242
-#: ../../source/units.rst:281
-#: ../../source/units.rst:318
-#: ../../source/units.rst:361
-#: ../../source/units.rst:407
-#: ../../source/units.rst:445
-#: ../../source/units.rst:491
-#: ../../source/units.rst:530
-#: ../../source/units.rst:576
-#: ../../source/units.rst:612
-#: ../../source/units.rst:655
-#: ../../source/units.rst:701
-#: ../../source/units.rst:736
-#: ../../source/units.rst:787
-#: ../../source/units.rst:826
-#: ../../source/units.rst:866
-#: ../../source/units.rst:907
-#: ../../source/units.rst:948
-#: ../../source/units.rst:983
-#: ../../source/units.rst:1018
-#: ../../source/units.rst:1055
-#: ../../source/units.rst:1092
-#: ../../source/units.rst:1129
-#: ../../source/units.rst:1174
-#: ../../source/units.rst:1212
-#: ../../source/units.rst:1256
-#: ../../source/units.rst:1297
-#: ../../source/units.rst:1332
-#: ../../source/units.rst:1367
-#: ../../source/units.rst:1404
-#: ../../source/units.rst:1448
-#: ../../source/units.rst:1487
-#: ../../source/units.rst:1529
-#: ../../source/units.rst:1572
-#: ../../source/units.rst:1614
-#: ../../source/units.rst:1656
-#: ../../source/units.rst:1694
-#: ../../source/units.rst:1736
-#: ../../source/units.rst:1776
+#: ../../source/units.rst:105
+#: ../../source/units.rst:148
+#: ../../source/units.rst:183
+#: ../../source/units.rst:240
+#: ../../source/units.rst:279
+#: ../../source/units.rst:316
+#: ../../source/units.rst:359
+#: ../../source/units.rst:405
+#: ../../source/units.rst:443
+#: ../../source/units.rst:489
+#: ../../source/units.rst:528
+#: ../../source/units.rst:564
+#: ../../source/units.rst:595
+#: ../../source/units.rst:648
+#: ../../source/units.rst:691
+#: ../../source/units.rst:737
+#: ../../source/units.rst:772
+#: ../../source/units.rst:822
+#: ../../source/units.rst:861
+#: ../../source/units.rst:897
+#: ../../source/units.rst:936
+#: ../../source/units.rst:972
+#: ../../source/units.rst:1016
+#: ../../source/units.rst:1054
+#: ../../source/units.rst:1098
+#: ../../source/units.rst:1139
 #: fc8fc3e5172943d8953b3ca989c44f5d
 #: 2ae19f0a3d07431ea48512524252d3e9
 #: ef7e3b03ec0c4930b21f9f6ed769b1fa
 #: 27b6066dfe0249138a49d0395406880e
-#: fe45f0d77ac44c3983ae2bfb40c451a5
-#: 4e9421d844874043ac7ea0cc23e5045c
-#: 0c1b55ee08de429680925b72c9206032
-#: 8195137f438543e6bd31f027c3bd3ec4
-#: 71333c4bdfe3410a82d20034c4394891
-#: 8871484d2b9a4c6f8ba797f69c57d9bf
-#: 9407f05ee807481b94148a18be85caf1
-#: ec9727392a1249c39d039353c0a10a95
-#: 406ef34eda8b4428b21f3a2adcbf5349
-#: 82ea61796fcb4c7aa14aba680e476387
-#: 64ffe26bf2494fc58997e7209eb50555
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
 #: a1ad39d0f6e94a5ebda8c578e93c089e
-#: ab5f23f92dea490aa6f9bbddfcb65bdf
-#: 7497a24c400e4b8aba413b68631c6e5a
-#: d8ec6ba3444140b0a3b35768da19cc7a
-#: ea08d35c9cd649428ac376bb32f7f1f7
-#: c8421e0807e8471b8e0e582befd3d039
-#: 039465d0ce824f88849d72e7520d10a4
-#: b87c0d6bee4845d4955f7101a5f9b910
-#: 30f706bdbb5f45628342c6545ec592f7
-#: 65354b70fd5748d5ac8e29ebb9b8d53c
-#: 542eccbc766e46df9181341035bb8855
-#: f26eb4911f6e4298aea78cd9ad2f8b4e
-#: fe9afc05aada427fab779e7faad2cc45
-#: 706fba0621a5437382959628db0584dd
-#: 3ca2ba0d90814ac7996309836a804b3a
-#: 7669d11e1dd84ab788dd6b708d165c20
-#: 4d719da4214b487793de710d8f2ccda5
-#: 611635967ec74cadae6c313258df5c65
-#: aeaee17e1cca415d9627131d08d23bb8
-#: 92b98860d02344249a69f5d90e523a4c
-#: d5e17f1fda6a449d8e0918dc61a4d89d
-#: 79649e53bf71497abe3f2b5b2714e06b
-#: 90b325efafa84c6bb1afbc8638047bf1
-#: 29c1973434f04d6ca96b85aefb1021ca
-#: 2fb5066e40314e8bbb4aa9146ccc5eb0
-#: 12053a2546804122adfc3755c6817d30
-#: 97b47411e8d94aa4b5827e4b5c16bdec
-#: 389f856621044085836132411e9d86d3
-#: 82a3ac284f314a13bcbb22b6163c80fd
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
+#: 27b6066dfe0249138a49d0395406880e
 msgid "**Type of field**"
 msgstr ""
 
 #: ../../source/units.rst:28
-#: ../../source/units.rst:187
-#: ../../source/units.rst:244
-#: ../../source/units.rst:320
-#: ../../source/units.rst:532
-#: ../../source/units.rst:828
-#: ../../source/units.rst:1574
-#: ../../source/units.rst:1778
+#: ../../source/units.rst:185
+#: ../../source/units.rst:242
+#: ../../source/units.rst:318
+#: ../../source/units.rst:566
+#: ../../source/units.rst:597
+#: ../../source/units.rst:899
+#: ../../source/units.rst:1141
 #: 216baec8a1c84cc58f86eaa3c33fbdee
 #: 475d4dd2f683403fa2a62dd9db64478f
-#: d1aa70344376433c9e3e6518c7caa11a
-#: a10d329abeb440989cb37ed8842ebb64
-#: 8bf742acfd0749b88c53e883b0f1d4f9
-#: 0cf2fba8b2c5405caa871f542ebae342
-#: 372892f090434363bf2c5f7e3d31e253
-#: a5feaadd935a48989ee58c920de6a41d
+#: 475d4dd2f683403fa2a62dd9db64478f
+#: 475d4dd2f683403fa2a62dd9db64478f
+#: 475d4dd2f683403fa2a62dd9db64478f
+#: 475d4dd2f683403fa2a62dd9db64478f
+#: 475d4dd2f683403fa2a62dd9db64478f
+#: 475d4dd2f683403fa2a62dd9db64478f
 msgid "Text and numbers"
 msgstr ""
 
 #: ../../source/units.rst:30
 #: ../../source/units.rst:74
-#: ../../source/units.rst:110
-#: ../../source/units.rst:153
-#: ../../source/units.rst:189
-#: ../../source/units.rst:246
-#: ../../source/units.rst:285
-#: ../../source/units.rst:322
-#: ../../source/units.rst:365
-#: ../../source/units.rst:411
-#: ../../source/units.rst:449
-#: ../../source/units.rst:495
-#: ../../source/units.rst:534
-#: ../../source/units.rst:580
-#: ../../source/units.rst:616
-#: ../../source/units.rst:659
-#: ../../source/units.rst:705
-#: ../../source/units.rst:740
-#: ../../source/units.rst:791
-#: ../../source/units.rst:830
-#: ../../source/units.rst:870
-#: ../../source/units.rst:911
-#: ../../source/units.rst:952
-#: ../../source/units.rst:987
-#: ../../source/units.rst:1022
-#: ../../source/units.rst:1059
-#: ../../source/units.rst:1096
-#: ../../source/units.rst:1133
-#: ../../source/units.rst:1178
-#: ../../source/units.rst:1216
-#: ../../source/units.rst:1260
-#: ../../source/units.rst:1301
-#: ../../source/units.rst:1336
-#: ../../source/units.rst:1371
-#: ../../source/units.rst:1408
-#: ../../source/units.rst:1452
-#: ../../source/units.rst:1491
-#: ../../source/units.rst:1533
-#: ../../source/units.rst:1576
-#: ../../source/units.rst:1618
-#: ../../source/units.rst:1660
-#: ../../source/units.rst:1698
-#: ../../source/units.rst:1740
-#: ../../source/units.rst:1780
+#: ../../source/units.rst:109
+#: ../../source/units.rst:152
+#: ../../source/units.rst:187
+#: ../../source/units.rst:244
+#: ../../source/units.rst:283
+#: ../../source/units.rst:320
+#: ../../source/units.rst:363
+#: ../../source/units.rst:409
+#: ../../source/units.rst:447
+#: ../../source/units.rst:493
+#: ../../source/units.rst:599
+#: ../../source/units.rst:652
+#: ../../source/units.rst:695
+#: ../../source/units.rst:741
+#: ../../source/units.rst:776
+#: ../../source/units.rst:826
+#: ../../source/units.rst:901
+#: ../../source/units.rst:940
+#: ../../source/units.rst:976
+#: ../../source/units.rst:1020
+#: ../../source/units.rst:1058
+#: ../../source/units.rst:1102
+#: ../../source/units.rst:1143
 #: 6d371c2c0d6145abbe56d052249f6c70
 #: 906420e9d5f44f8481c4734f6bea814b
 #: 2cbd5836df08414e942dd1ae17742be9
 #: e523ff069fb14a50aae220199dc9d4d9
-#: d7217c09df5443d4a112288a85431515
-#: 906d6ad3e3b44bdf863ef94628cda6a3
-#: 725e907887e44611be15129190ecaf83
-#: 09500b0b511a47d08c660f72d80a9613
-#: d0c492113e834f04b6710188f8c8f98c
-#: 3062fe6748974694ae544d69b89a822e
-#: 9052e64607cd409bbbf38573bb8d8d6f
-#: 525db1a801014833994a2576c627d643
-#: d12c93486a9f4867a589fab6545a3011
-#: a7402f4b04df4e03aa9bc6b0d41e9552
-#: 887db94a2fd846059813be04d1412919
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
 #: 1931625aed7c4cd0b20ed111ea38ca2a
-#: bb80e8685b8b40b7b83ec7710f2d8301
-#: 25e3f81d6922401d8eeaba46db01c5b6
-#: 0845510c5b044b74b70e61f5dc7d8312
-#: a6b2c97939284848b997ee0a3a9a4b79
-#: be7f4ccb9c32457aa37d5f7966c66354
-#: 0a5aec02ac6241e1aecf6a15ab290918
-#: f6ecc568544d469ab1960994310e1a61
-#: 4d34ea1eb2d34289a9e422d94fdb95ce
-#: 48385524c30041cebb3072e3e665e2f6
-#: e48d343d1c814780a514e0f3e9334eef
-#: 971c05ceb99d4d51b6797af52000e786
-#: ca09b98674f44ea9aeddffaea381006d
-#: 9bc72fb8e13e432db81f694c65c20d00
-#: 80ec3937631240c787143e49169025dc
-#: 4610ae39105b4d8994bc377fe4576214
-#: 64b6fe16dff149008376f81eef9f16f2
-#: 709cc936604a40519db868dfdd492d05
-#: 3fd1fc294a49475ba521a70666a3ef96
-#: 831aee9c65d14fe39d73e6ca4b21a843
-#: f7066b1ceb2c4413baab605a7aa70eba
-#: b69427deb78e4ba1902226a94ae9ed0c
-#: 5c10c1b02e8440f285835aff71223162
-#: 071551c6bc914ae1be07c682a7a90597
-#: cb757ca41ae84158b90ae6624043fa3e
-#: 76b7f3dfb22443fd853150f31bf97e38
-#: 7194f39f42d64f41a3b9eaa27ebef5b3
-#: 1371246425604d75b207ad06471e1d69
-#: 062591de83b446bd851438abceccd450
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
+#: e523ff069fb14a50aae220199dc9d4d9
 msgid "**Example of use**"
 msgstr ""
 
@@ -375,86 +273,56 @@ msgstr ""
 
 #: ../../source/units.rst:34
 #: ../../source/units.rst:78
-#: ../../source/units.rst:114
-#: ../../source/units.rst:157
-#: ../../source/units.rst:193
-#: ../../source/units.rst:250
-#: ../../source/units.rst:289
-#: ../../source/units.rst:326
-#: ../../source/units.rst:369
-#: ../../source/units.rst:415
-#: ../../source/units.rst:453
-#: ../../source/units.rst:499
-#: ../../source/units.rst:538
-#: ../../source/units.rst:620
-#: ../../source/units.rst:709
-#: ../../source/units.rst:795
-#: ../../source/units.rst:834
-#: ../../source/units.rst:875
-#: ../../source/units.rst:916
-#: ../../source/units.rst:956
-#: ../../source/units.rst:991
-#: ../../source/units.rst:1026
-#: ../../source/units.rst:1063
-#: ../../source/units.rst:1100
-#: ../../source/units.rst:1137
-#: ../../source/units.rst:1182
-#: ../../source/units.rst:1220
-#: ../../source/units.rst:1264
-#: ../../source/units.rst:1305
-#: ../../source/units.rst:1340
-#: ../../source/units.rst:1375
-#: ../../source/units.rst:1412
-#: ../../source/units.rst:1456
-#: ../../source/units.rst:1495
-#: ../../source/units.rst:1537
-#: ../../source/units.rst:1580
-#: ../../source/units.rst:1622
-#: ../../source/units.rst:1664
-#: ../../source/units.rst:1702
-#: ../../source/units.rst:1744
-#: ../../source/units.rst:1784
+#: ../../source/units.rst:113
+#: ../../source/units.rst:156
+#: ../../source/units.rst:191
+#: ../../source/units.rst:248
+#: ../../source/units.rst:287
+#: ../../source/units.rst:324
+#: ../../source/units.rst:367
+#: ../../source/units.rst:413
+#: ../../source/units.rst:451
+#: ../../source/units.rst:497
+#: ../../source/units.rst:532
+#: ../../source/units.rst:568
+#: ../../source/units.rst:603
+#: ../../source/units.rst:656
+#: ../../source/units.rst:745
+#: ../../source/units.rst:830
+#: ../../source/units.rst:865
+#: ../../source/units.rst:905
+#: ../../source/units.rst:944
+#: ../../source/units.rst:980
+#: ../../source/units.rst:1024
+#: ../../source/units.rst:1062
+#: ../../source/units.rst:1106
+#: ../../source/units.rst:1147
 #: 5944e15790354a548ec645e454e4423a
 #: fc7f97f82e4e43a9b76e3558803c6b34
 #: 252c464cb7954efb8cd3e85c19fed677
 #: 27f70451e90b4f8bbdb65037536708be
-#: 1687e9b03d664a258f6665972827000e
-#: 2f85ae2cf6f74594bb22c245cd1bc5be
-#: 1bf2fa5445d7469f8c9ec6439d673b80
-#: 00b1032ec8b940f7a58f4c0a3a218d4a
-#: db186ce42e0544369d57bec4e0d5f199
-#: e1c1bc5eb2c2466b9b0cce0977be2d2b
-#: 4411e45bae724d099995df52f320cff2
-#: 34589cc565484ed6bd790e4a18239731
-#: 8fe916ef28cc428fa98860c8b7252609
-#: 9c3cb944338d4d13a50780365781600f
-#: cc90b59e42324cb7ab9f1a25fde08b68
-#: 72fb42b8487e47e09dabfaa483d43e51
-#: e05f2ac55b7f4ff28459536cf0041add
-#: 76cecf22d7ad4aaca793847a9b46fe15
-#: a1745e7ef25a43b48fae78a29af5251d
-#: 93e8ac09347c487ab4522bdd23b1214c
-#: d21ec6b7b7f64da3abb889134c5dc46e
-#: 71cc7f47e1ef48c7a032862494744213
-#: 873d1e474d47424b87ac6e07ff2b5389
-#: e688e5dace5248aa8c683c4e33e31f6b
-#: 6f0720baa7b6478493d96470a68b5a8d
-#: 92f662c638494aa68db8da6351b2ba9f
-#: 896972fedc4d49e1a548fcca7e39b598
-#: 6a0f37e7f1304aa5b8732e63312a5679
-#: 39180b5ef5bc4cb38d69210954b39b77
-#: 8e7abdbd245d4a7fbcf8550c54ac1351
-#: 134f780be4544ba787242ce4a75b8b02
-#: a339046282254d4d9d07a1eacc488a1f
-#: cac7c2bd8f8443fc9366c2fc03d99ec5
-#: 0a507697ae174b19b792cd8a6bdf1619
-#: c3a5360b95e44f43b761488cbdde7b69
-#: c7c08d8240734a42808b631ce965fddb
-#: 57a52a5df373440381b26e578f93f1de
-#: e815cf5216ee4b76a6281e39b6193765
-#: 609eb4177c154c0f8a36f23a66088d0b
-#: 4a56c280620c4203bba3bb3e0e070f00
-#: 124205c51bfd4a6687141ba94c6e5258
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
+#: 27f70451e90b4f8bbdb65037536708be
 msgid "**Spreadsheet column name**"
 msgstr ""
 
@@ -465,90 +333,60 @@ msgstr ""
 
 #: ../../source/units.rst:38
 #: ../../source/units.rst:82
-#: ../../source/units.rst:118
-#: ../../source/units.rst:161
-#: ../../source/units.rst:197
-#: ../../source/units.rst:254
-#: ../../source/units.rst:293
-#: ../../source/units.rst:330
-#: ../../source/units.rst:373
-#: ../../source/units.rst:419
-#: ../../source/units.rst:457
-#: ../../source/units.rst:503
-#: ../../source/units.rst:542
-#: ../../source/units.rst:588
-#: ../../source/units.rst:624
-#: ../../source/units.rst:667
-#: ../../source/units.rst:713
-#: ../../source/units.rst:748
-#: ../../source/units.rst:799
-#: ../../source/units.rst:838
-#: ../../source/units.rst:879
-#: ../../source/units.rst:920
-#: ../../source/units.rst:960
-#: ../../source/units.rst:995
-#: ../../source/units.rst:1030
-#: ../../source/units.rst:1067
-#: ../../source/units.rst:1141
-#: ../../source/units.rst:1186
-#: ../../source/units.rst:1224
-#: ../../source/units.rst:1268
-#: ../../source/units.rst:1309
-#: ../../source/units.rst:1344
-#: ../../source/units.rst:1379
-#: ../../source/units.rst:1416
-#: ../../source/units.rst:1460
-#: ../../source/units.rst:1499
-#: ../../source/units.rst:1541
-#: ../../source/units.rst:1584
-#: ../../source/units.rst:1626
-#: ../../source/units.rst:1668
-#: ../../source/units.rst:1706
-#: ../../source/units.rst:1748
-#: ../../source/units.rst:1788
+#: ../../source/units.rst:117
+#: ../../source/units.rst:160
+#: ../../source/units.rst:195
+#: ../../source/units.rst:252
+#: ../../source/units.rst:291
+#: ../../source/units.rst:328
+#: ../../source/units.rst:371
+#: ../../source/units.rst:417
+#: ../../source/units.rst:455
+#: ../../source/units.rst:501
+#: ../../source/units.rst:536
+#: ../../source/units.rst:572
+#: ../../source/units.rst:607
+#: ../../source/units.rst:660
+#: ../../source/units.rst:703
+#: ../../source/units.rst:749
+#: ../../source/units.rst:784
+#: ../../source/units.rst:834
+#: ../../source/units.rst:869
+#: ../../source/units.rst:909
+#: ../../source/units.rst:948
+#: ../../source/units.rst:984
+#: ../../source/units.rst:1028
+#: ../../source/units.rst:1066
+#: ../../source/units.rst:1110
+#: ../../source/units.rst:1151
 #: aaa072ae34084e899944b9547097a6b3
 #: 8c4af9cb7fae4573993f5365ae016f2b
 #: cd876b1eed3f4b63a2e76ea51bdf35be
 #: 246218e4e04447f09ceb6c746bb0dd67
-#: 21fcaa83f0564396a58019d3b28b63ee
-#: 63bb4775f3994664a45c44d04107b328
-#: b8056a19db76487e835ecc2be5668af6
-#: c20e7adbff46423795c120c700f7ba65
-#: 7344edf3d6c44479be3c74229ee4f0c4
-#: 2a0b88f26dee4160854b78494fe04818
-#: a258c8f2532942f0bfa83b93313aa8bb
-#: 1767c9c2fdf040f6944c73418487a9e1
-#: a5aeef949acf473ebc5c1aa9f5f0e061
-#: e78b081e1ef84be9852ef2f7c92ddd8b
-#: f0a075c300b14049aa24d6c7d71d645c
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
 #: f98af687f42947b5b849af8d2965cec8
-#: 867993f77ae0463593da35d275de6032
-#: 9d4577590aaa447e9c4815abb3ed9ff6
-#: e0f13d90f6834140b9f140c905563326
-#: 8b2da86823794c34a1a28eccf372a2ce
-#: 8f7a24fa8f4540bda3b8c03ab2e8cb42
-#: 7718d4d4ab5d4985bcbab9524f3cebc7
-#: 16f6207818e04c0e82ca7e0acc2b5c25
-#: e386b3bd6f1c4a178e46da7f9cab325d
-#: ee58401ff0b34c2e8c7154bbe9244487
-#: 2061c27a32d24988a10adf62fe9d135e
-#: 2f870034abd74120913cb9cafeb29eb4
-#: 4a299f47043649eb919d7ddd8de14c80
-#: 9a9024515e8e457598821f9d58206874
-#: 162d630aa6724d6d976d644cf4de77ec
-#: fadcbb8af0c8496b951a76124f703470
-#: 6dfc5862d9db4733b45d567d48b8b9cb
-#: 66179b9ebda14d8e8db1e621b36fcef8
-#: f83a135498954d99b459783e85c1603e
-#: c04049af82344ca99fdf5bc00106bb98
-#: c7be245aff3e4aa5a77c509c66a974c9
-#: 7215e818dfc94145a85ca8ea2bb6aa66
-#: b4ce73224a0344a5889405b619387e39
-#: d4ef80089198477ab81ad0eb44f602c9
-#: 6ad2e7ca016249be95e362428d7f56a2
-#: 6bc4009f704e49bf898fcc97751c530f
-#: 58a9690ebb9d443ab3e6a3f0107a84d0
-#: ad41eddb07b64b8c9616b0278f78675c
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
+#: 246218e4e04447f09ceb6c746bb0dd67
 msgid "**Shortcode**"
 msgstr ""
 
@@ -559,92 +397,60 @@ msgstr ""
 
 #: ../../source/units.rst:42
 #: ../../source/units.rst:86
-#: ../../source/units.rst:122
-#: ../../source/units.rst:165
-#: ../../source/units.rst:201
-#: ../../source/units.rst:258
-#: ../../source/units.rst:297
-#: ../../source/units.rst:334
-#: ../../source/units.rst:377
-#: ../../source/units.rst:423
-#: ../../source/units.rst:461
-#: ../../source/units.rst:507
-#: ../../source/units.rst:546
-#: ../../source/units.rst:592
-#: ../../source/units.rst:628
-#: ../../source/units.rst:671
-#: ../../source/units.rst:717
-#: ../../source/units.rst:752
-#: ../../source/units.rst:803
-#: ../../source/units.rst:842
-#: ../../source/units.rst:883
-#: ../../source/units.rst:924
-#: ../../source/units.rst:964
-#: ../../source/units.rst:999
-#: ../../source/units.rst:1034
-#: ../../source/units.rst:1071
-#: ../../source/units.rst:1108
-#: ../../source/units.rst:1145
-#: ../../source/units.rst:1190
-#: ../../source/units.rst:1228
-#: ../../source/units.rst:1272
-#: ../../source/units.rst:1313
-#: ../../source/units.rst:1348
-#: ../../source/units.rst:1383
-#: ../../source/units.rst:1420
-#: ../../source/units.rst:1464
-#: ../../source/units.rst:1503
-#: ../../source/units.rst:1545
-#: ../../source/units.rst:1588
-#: ../../source/units.rst:1630
-#: ../../source/units.rst:1672
-#: ../../source/units.rst:1710
-#: ../../source/units.rst:1752
-#: ../../source/units.rst:1792
+#: ../../source/units.rst:121
+#: ../../source/units.rst:164
+#: ../../source/units.rst:199
+#: ../../source/units.rst:256
+#: ../../source/units.rst:295
+#: ../../source/units.rst:332
+#: ../../source/units.rst:375
+#: ../../source/units.rst:421
+#: ../../source/units.rst:459
+#: ../../source/units.rst:505
+#: ../../source/units.rst:540
+#: ../../source/units.rst:576
+#: ../../source/units.rst:611
+#: ../../source/units.rst:664
+#: ../../source/units.rst:707
+#: ../../source/units.rst:753
+#: ../../source/units.rst:788
+#: ../../source/units.rst:838
+#: ../../source/units.rst:873
+#: ../../source/units.rst:913
+#: ../../source/units.rst:952
+#: ../../source/units.rst:988
+#: ../../source/units.rst:1032
+#: ../../source/units.rst:1070
+#: ../../source/units.rst:1114
+#: ../../source/units.rst:1155
 #: 98f0f1005b674cf0b1d12fc5b2b7e581
 #: 0429bade1d1d43b29db74081fe817b29
 #: beb7b98d104f4e6c908f4be2374b61a7
 #: 3bbb632ff1ea451db892befead8b35e8
-#: cc84e9dcb30e49e9b2a0e5308da9c0dc
-#: cacde8bca77f488eb8e02d4bf9f1f31d
-#: 90f90ec7ad914ecc8dd8e2b976c367de
-#: f49bfc51da5540d1a83a015f60e90726
-#: d1c75181996b4cdba6d421ff3fc97e5d
-#: d986251f8ba447a7a3515bb0d4ab0895
-#: 25976ff47b2943c2ba2115348ea00045
-#: 899835c077b044ff8fa428cab7321fa5
-#: 991cf7dc4245426f853a4e6633455e21
-#: a74a2c23b7d943d4adc54a026cdf0e65
-#: 628fc82505c743bdbb2074027d6dea86
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
 #: d1cd065b28ac49adaa9028b7d4128c59
-#: b9df4712ab7f4fb5b66b2a27a717f9ea
-#: df66258fa62e441abc706aed8d683cb1
-#: 97ef2a236d0a4e2aad07e023a001cc86
-#: b2c7c09bef7440dc8a3e3b94f138f8f3
-#: 918239a9d3a2448f98dcee5d0baa447c
-#: b500fac34fdd43ffa4a39bb29e0e8952
-#: 207eab5502e7440786fff5a6d8eefb8c
-#: b9ab41d8f5e14b49acd7cd179fc32e3a
-#: 780172bcbcc94e1e8c68bb439012ecef
-#: 666875516deb488cbfbd48eb1e11543e
-#: a0a200057b0846818445811e56c984ce
-#: cc66eac4a28b4bb38f813eeb07dc9a6d
-#: d4802671ac1046a286100332da7cc795
-#: 2fc01862588342f5b09de19864db81b0
-#: 137fd1a26551459783e496439eb35c43
-#: 4c0afac5f4aa43fa97392b475e2e3fee
-#: 4ed07cefd3d6465580dea5cb2cc6f3b3
-#: 09eb4c3e801049e88a7c571bdf28ca40
-#: 9b1b448125cd4a9fa647fe420bf91e75
-#: 6951b83ea48b4cf4b7341c2e40ac3283
-#: 8e1381e518d24c579cef0377820632ff
-#: 401f2e995f6d41ecb8aa4d86fa875d5e
-#: 4dac565c83914aeeb529c7ede484c99a
-#: f7c527ad6e2a4cf3b2769fe017175a35
-#: 33985305ac284a408b3509d7a3d8076c
-#: d71244f5edc343099c72ddfbaea47a05
-#: b495c42186084b10a3b48bcba2dddfda
-#: a81f40bc10af4c548557d2cdddab57dc
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
+#: 3bbb632ff1ea451db892befead8b35e8
 msgid "**Sources**"
 msgstr ""
 
@@ -652,14 +458,12 @@ msgstr ""
 #: ../../source/units.rst:48
 #: ../../source/units.rst:88
 #: ../../source/units.rst:92
-#: ../../source/units.rst:124
-#: ../../source/units.rst:128
-#: ../../source/units.rst:167
-#: ../../source/units.rst:171
-#: ../../source/units.rst:594
-#: ../../source/units.rst:598
-#: ../../source/units.rst:1794
-#: ../../source/units.rst:1798
+#: ../../source/units.rst:123
+#: ../../source/units.rst:127
+#: ../../source/units.rst:166
+#: ../../source/units.rst:170
+#: ../../source/units.rst:1157
+#: ../../source/units.rst:1161
 #: 972bd262439e4df199975fa602d7ccb6
 #: 91f276394aa540aa83792fc736601f5c
 #: 174c514a1d27423fbeaf027e19b5bf6b
@@ -667,199 +471,133 @@ msgstr ""
 #: 51212af96d6843dfa4db94fc860507c9
 #: f1846bd47aec4925bb85a0ce7dfafd1a
 #: 48c4e1074c024bb7b711bf01d974467c
-#: e4eddd8179f34273ac1d84a953017c5d
-#: 3ed1d7ad702f40fdb1bb391668d51b7f
-#: 619e0e247d5543b5bdd7c10afe69031a
-#: f21573b173e84bebbf0c4254f7fc6ed1
-#: f75a328522b642b7b111f28e75125308
+#: 48c4e1074c024bb7b711bf01d974467c
+#: 48c4e1074c024bb7b711bf01d974467c
+#: 48c4e1074c024bb7b711bf01d974467c
 msgid "No"
 msgstr ""
 
 #: ../../source/units.rst:46
 #: ../../source/units.rst:90
-#: ../../source/units.rst:126
-#: ../../source/units.rst:169
-#: ../../source/units.rst:205
-#: ../../source/units.rst:262
-#: ../../source/units.rst:301
-#: ../../source/units.rst:338
-#: ../../source/units.rst:381
-#: ../../source/units.rst:427
-#: ../../source/units.rst:465
-#: ../../source/units.rst:511
-#: ../../source/units.rst:550
-#: ../../source/units.rst:596
-#: ../../source/units.rst:632
-#: ../../source/units.rst:675
-#: ../../source/units.rst:721
-#: ../../source/units.rst:756
-#: ../../source/units.rst:807
-#: ../../source/units.rst:846
-#: ../../source/units.rst:887
-#: ../../source/units.rst:928
-#: ../../source/units.rst:968
-#: ../../source/units.rst:1003
-#: ../../source/units.rst:1038
-#: ../../source/units.rst:1075
-#: ../../source/units.rst:1112
-#: ../../source/units.rst:1149
-#: ../../source/units.rst:1194
-#: ../../source/units.rst:1232
-#: ../../source/units.rst:1276
-#: ../../source/units.rst:1317
-#: ../../source/units.rst:1352
-#: ../../source/units.rst:1387
-#: ../../source/units.rst:1424
-#: ../../source/units.rst:1469
-#: ../../source/units.rst:1507
-#: ../../source/units.rst:1549
-#: ../../source/units.rst:1592
-#: ../../source/units.rst:1634
-#: ../../source/units.rst:1676
-#: ../../source/units.rst:1714
-#: ../../source/units.rst:1756
-#: ../../source/units.rst:1796
+#: ../../source/units.rst:125
+#: ../../source/units.rst:168
+#: ../../source/units.rst:203
+#: ../../source/units.rst:260
+#: ../../source/units.rst:299
+#: ../../source/units.rst:336
+#: ../../source/units.rst:379
+#: ../../source/units.rst:425
+#: ../../source/units.rst:463
+#: ../../source/units.rst:509
+#: ../../source/units.rst:544
+#: ../../source/units.rst:580
+#: ../../source/units.rst:615
+#: ../../source/units.rst:668
+#: ../../source/units.rst:711
+#: ../../source/units.rst:757
+#: ../../source/units.rst:792
+#: ../../source/units.rst:842
+#: ../../source/units.rst:877
+#: ../../source/units.rst:917
+#: ../../source/units.rst:956
+#: ../../source/units.rst:992
+#: ../../source/units.rst:1036
+#: ../../source/units.rst:1074
+#: ../../source/units.rst:1118
+#: ../../source/units.rst:1159
 #: 4fae61ae9f6a4dd5830c947213478b76
 #: d405a535fc2347f5b25a38e0a8968a54
 #: 6d9fadb4c4614e77b79ff4da7ba52e03
 #: 395851488e2b48938ebe640c2ec644c2
-#: c810714c7517421fa85700b1723b1a0b
-#: 797a37f80a1d42948d667d9ecde912e5
-#: aedcfdb3eb9a43a9a5f69019b476c150
-#: 71a57cb36d134fc6b38cd4e95fe23294
-#: 6acf3c16bbde46c5aceaada92dc04689
-#: 6b7dc3ab76ac4971a37467bd9e188f95
-#: 6c1f684ac38141d284e6b74c8cee97d3
-#: 299031e91d854d6ba864a6c3206f87df
-#: 7362e04dccbc4709aa788109a3866130
-#: 8d446ac880664ed78b964a5ecc00da6d
-#: e1ab690bbf684ac08d1b32f028339374
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
 #: d0fad342c0f842208ba0654fa5e60c6d
-#: 0da292ea76fc4f17b143beb8b1e3c5fe
-#: 675d7b6df51a4139bb67a6df423f7ab1
-#: ffa1a527d9794d51a63ac585144acaaa
-#: d8aad82ad3964719a021d0c24371734c
-#: 0ad7e4e289694f14b37b54d4f6ff0dbc
-#: 575547ef1f374cceaf1fab3abd862eb5
-#: 97e4315ab6e24e05b8672309d84a8636
-#: c43068d248a44fef984070ef97017627
-#: d9d10ffb711c4f32b959a382a047720d
-#: da086c4b22674664bb31596169c63a81
-#: 696892855eff46e18e825453210253a2
-#: b7c07018c2854e3f8ac6e53c524e3a6b
-#: 6fa9fbdba3fb42879696110401d79352
-#: 44fdf89fb73541c796e52039ddcf858c
-#: fa9190bb7e1e4c8eb7728d23ee0d3b23
-#: 52359b7fbe674cc7a08dc51117a429e7
-#: cc2112a621c641a6ae01261ece8e6b7e
-#: 5937eddf9df546ca90c34763b2c33a22
-#: 51b53bfd5e91494cb5b78c7b87701ed8
-#: f8c14a82b3474f849694a8d79abc4e02
-#: 4ee31d6179a1413c95e209de89d0e6ea
-#: a82774f575b6481786105e6487fa5bb9
-#: 043236107d0d4ca5bace1177591daee1
-#: e57c00bff6184693ad2d49dd0495e3d7
-#: 50dfd74ae66140eaa8e9e0991e10fe97
-#: 03a416e8973d4228a57673da0c607c02
-#: 1640bdf1febf4674aa9a3fcf92475150
-#: bbc4c26df5584eef80b833fb9474d920
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
+#: 395851488e2b48938ebe640c2ec644c2
 msgid "**Confidence**"
 msgstr ""
 
 #: ../../source/units.rst:50
 #: ../../source/units.rst:94
-#: ../../source/units.rst:130
-#: ../../source/units.rst:173
-#: ../../source/units.rst:209
-#: ../../source/units.rst:266
-#: ../../source/units.rst:305
-#: ../../source/units.rst:342
-#: ../../source/units.rst:385
-#: ../../source/units.rst:431
-#: ../../source/units.rst:469
-#: ../../source/units.rst:515
-#: ../../source/units.rst:554
-#: ../../source/units.rst:600
-#: ../../source/units.rst:636
-#: ../../source/units.rst:679
-#: ../../source/units.rst:725
-#: ../../source/units.rst:760
-#: ../../source/units.rst:811
-#: ../../source/units.rst:850
-#: ../../source/units.rst:891
-#: ../../source/units.rst:932
-#: ../../source/units.rst:972
-#: ../../source/units.rst:1007
-#: ../../source/units.rst:1042
-#: ../../source/units.rst:1079
-#: ../../source/units.rst:1116
-#: ../../source/units.rst:1154
-#: ../../source/units.rst:1198
-#: ../../source/units.rst:1236
-#: ../../source/units.rst:1280
-#: ../../source/units.rst:1321
-#: ../../source/units.rst:1356
-#: ../../source/units.rst:1391
-#: ../../source/units.rst:1428
-#: ../../source/units.rst:1473
-#: ../../source/units.rst:1511
-#: ../../source/units.rst:1553
-#: ../../source/units.rst:1596
-#: ../../source/units.rst:1638
-#: ../../source/units.rst:1680
-#: ../../source/units.rst:1718
-#: ../../source/units.rst:1760
-#: ../../source/units.rst:1800
+#: ../../source/units.rst:129
+#: ../../source/units.rst:172
+#: ../../source/units.rst:207
+#: ../../source/units.rst:264
+#: ../../source/units.rst:303
+#: ../../source/units.rst:340
+#: ../../source/units.rst:383
+#: ../../source/units.rst:429
+#: ../../source/units.rst:467
+#: ../../source/units.rst:513
+#: ../../source/units.rst:548
+#: ../../source/units.rst:584
+#: ../../source/units.rst:619
+#: ../../source/units.rst:672
+#: ../../source/units.rst:715
+#: ../../source/units.rst:761
+#: ../../source/units.rst:796
+#: ../../source/units.rst:846
+#: ../../source/units.rst:881
+#: ../../source/units.rst:921
+#: ../../source/units.rst:960
+#: ../../source/units.rst:996
+#: ../../source/units.rst:1040
+#: ../../source/units.rst:1078
+#: ../../source/units.rst:1122
+#: ../../source/units.rst:1163
 #: 8c05bfa2ac504b388a36770b6bd3aa54
 #: ac4a3ac3c0cf468d8b7dd6d9e5348292
 #: 134e3119443c4741b74c1d9eeb660c95
 #: c58657441cb04697ae0e1dfe6c7c482c
-#: cf2e3554626644939303e7afd90a846a
-#: 82f900f8d47b44948f19c370e3a6c3d4
-#: 71f27eb2e81b46d99e09574c126a8465
-#: f3005fe97cb54a6a9ad010cea530e817
-#: a9edd0f3571a4a68803903b305307acf
-#: 2a2b4a0e875b4de48ebe9c5477b590e9
-#: e700623e1c1b47008d72cae5706df14f
-#: 21d08def2b16411790cea330761c2d1c
-#: 96313d622b16427bba8bc4f75a670c6a
-#: 5c544b07985b4985803cf6ac6b4e21a0
-#: 54858b6f38f24a1d810790e178cc5d40
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
 #: f677022472334458999b5abb4e8c0d2e
-#: 9f62f584fdb1455392f1b14c6737c517
-#: 41f06d11def844e2885273884129f8b0
-#: b28bf0118fa94f53b78b14cd57c94bed
-#: 39e261e4e9a944299b5aef63f038c3cb
-#: 18da8dc758d94cc38c025432954c988d
-#: 36033a9bcbbc409aa812dc8ba5ea1bb4
-#: 7ca0194270824530b66cab176d61ead2
-#: 18be1dd552564228b7359e44af5adf0f
-#: 3da0385589a3489d9514a6ddc0b303dd
-#: 6e62c525e62747c4b4df8526d6e9e90c
-#: 2ba79168a21a440c9916031bd4ff5338
-#: a43984495857442aa7131c95d3c83400
-#: cd9c126bceb84e41996881a359dd2925
-#: 63e661a52369479e88e7a54916ae6c00
-#: 9953448f07b04c37b3330bec9626d50d
-#: cce121b431d341a99f165afe407a526d
-#: 23bf9a3ae86f4d0fba0325f4415c2623
-#: 336386242be1410aa2580fed9aecdd5f
-#: 10e91833b84e4b72b963c5d31622f776
-#: c7a5e967c54c450da6ac1b4e17f3ed8f
-#: 9754b259bc1f4eb7a3b32634fdec4c09
-#: 81eb95a2413b401d8ebc06f61dffbae4
-#: 2b393ebf2fff46dea3fc3b81a95ff2ac
-#: 8ad802a9557f4b66b6e05f1519fb3ebd
-#: 99452f56a94247a5ba2ba01dd4eaad3a
-#: 47b697d46d4e4fc08d9f115670d37ec2
-#: a5af5b53f6464277b2ec113c12164d0a
-#: 343e47d02a814cf1a055a0affbba08a3
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
+#: c58657441cb04697ae0e1dfe6c7c482c
 msgid "**Guidance on use**"
 msgstr ""
 
 #: ../../source/units.rst:52
 #: fc5a6681e9c04b748c9d2bfcf9e5ce73
-msgid "This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs can be created easily using either installable or online tools, for example:"
+msgid "This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs must be created easily using either installable or online tools, for example:"
 msgstr ""
 
 #: ../../source/units.rst:54
@@ -879,7 +617,7 @@ msgstr ""
 
 #: ../../source/units.rst:59
 #: 12b3226cf0a0445c9241b59c47aeb78a
-msgid "When a new unit is created directly in WhoWasInCommand, the platform automatically creates a UUID for that unit and stores it in this field. If a new unit is created in a spreadsheet, the Staff Researcher must generate a unique identifying number for that unit and copy it into the field ``unit:id:admin`` for every row associated with that specific unit. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID."
+msgid "The Staff Researcher must generate a unique identifying number for that unit and copy it into the field ``unit:id:admin`` for every row associated with that specific unit. This manual, copy-and-paste step is a potential source of error. The Staff Researcher must be careful never to re-use a UUID anywhere in this or other parts of the dataset."
 msgstr ""
 
 #: ../../source/units.rst:61
@@ -898,7 +636,7 @@ msgid "Initials of Staff Reseacher who first created the unit."
 msgstr ""
 
 #: ../../source/units.rst:72
-#: ../../source/units.rst:151
+#: ../../source/units.rst:150
 #: e002684a01624e2fbef8ec59dfce6b59
 #: 47cb2c908293432c92631bef96f09942
 msgid "Text"
@@ -921,2348 +659,1515 @@ msgstr ""
 
 #: ../../source/units.rst:96
 #: b28bd41253c74d4fa5ef30c744dd3a86
-msgid "This field is administrative and only used where data are created using a spreadsheets. It is a simple measure to help researchers keep track of records they have created. These data are not imported into WhoWasInCommand. Instead, WhoWasInCommand keeps a record of the changes (edits, new records, deletions) by the name of the system user who made them."
+msgid "This field is administrative and only used where data are created using a spreadsheets. It is a simple measure to help researchers keep track of records they have created, and may be used for arbitrary grouping and tagging of specific sets of rows if needed."
 msgstr ""
 
-#: ../../source/units.rst:100
+#: ../../source/units.rst:99
 #: e684bb680f3d43f592362fe90c1c931b
 msgid "Unit: Research Status"
 msgstr ""
 
-#: ../../source/units.rst:104
+#: ../../source/units.rst:103
 #: a1ba457f4792442890d1bd1828e0a36a
 msgid "The place of a row of data in the research workflow."
 msgstr ""
 
-#: ../../source/units.rst:108
-#: 959c77465cda4d619ccfbcb59e5a3054
-msgid "Number range from 0 to 3"
+#: ../../source/units.rst:107
+#: ../../source/units.rst:530
+#: ../../source/units.rst:863
+#: f300ffd487f2483f89bcb31025cfe5e1
+#: 238b5001e8bf4d04a192d24cd0700dd3
+#: e945665fa6f64cb3b8d2f40891f58b93
+msgid "Text and numbers; controlled vocabulary."
 msgstr ""
 
-#: ../../source/units.rst:112
-#: 8da83e48b9ed4503ad5de25814af7ba6
-msgid "``1``"
+#: ../../source/units.rst:111
+#: 82c033df3544468f928e474f5f930f53
+msgid "``1``, ``X``"
 msgstr ""
 
-#: ../../source/units.rst:116
+#: ../../source/units.rst:115
 #: 215717bb114b43c1944ac54eb9002a5d
 msgid "``unit:status:admin``"
 msgstr ""
 
-#: ../../source/units.rst:120
+#: ../../source/units.rst:119
 #: d0f23754e30545d6945b328403e3a20b
 msgid "``u_sta_a``"
 msgstr ""
 
-#: ../../source/units.rst:132
+#: ../../source/units.rst:131
 #: 30fb7b6d654942429c5aa39bad104e52
-msgid "This administrative field is only used in spreadsheets. Staff Researchers use this field to indicate where a row of data stands in the research workflow between the first cut of a row of data, review by other researchers, and final readiness for publication. Values in this field are taken from the below controlled list:"
+msgid "Staff Researchers use this administrative field to indicate where a row of data stands in the research workflow between the first cut of a row of data, review by other researchers, and final readiness for publication. Values in this field are taken from the below controlled list:"
+msgstr ""
+
+#: ../../source/units.rst:133
+#: 2fe7721f1f784d70ab26e4ab65aba8a1
+msgid "``X``: Row should be deleted."
+msgstr ""
+
+#: ../../source/units.rst:134
+#: 01c32c85788446ed807ae05d9f480a48
+msgid "``0``: First commit. This row of data has just been added and needs review."
 msgstr ""
 
 #: ../../source/units.rst:135
-#: 01c32c85788446ed807ae05d9f480a48
-msgid "`0`: First commit. This row of data has just been added and needs review."
+#: 86e434ba9bbe4c1c8262665194564db3
+msgid "``1``: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the ``unit:comment:admin`` field."
 msgstr ""
 
 #: ../../source/units.rst:136
-#: 86e434ba9bbe4c1c8262665194564db3
-msgid "`1`: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the ``unit:comment:admin`` field."
+#: dfba93f71139468bb0f164f8846d1059
+msgid "``2``: Fixes made. The owner of this data has addressed the reviewer's comments."
 msgstr ""
 
 #: ../../source/units.rst:137
-#: dfba93f71139468bb0f164f8846d1059
-msgid "`2`: Fixes made. The owner of this data has addressed the reviewer's comments."
-msgstr ""
-
-#: ../../source/units.rst:138
 #: b7ee13f82a6d401da7542921d640b84c
-msgid "`3`: Clean. A final check has been made by a reviewer, and this row of data can be published."
+msgid "``3``: Clean. A final check has been made by a reviewer, and this row of data can be published."
 msgstr ""
 
-#: ../../source/units.rst:140
-#: ebf33adf1e054933ad4de9750f68c279
-msgid "Data created and managed in WhoWasInCommand does not use this mechanism. At the time of writing, a simple review system is being implemeneted in WhoWasInCommand."
+#: ../../source/units.rst:139
+#: 48064cd4c7b048378a0c96d29710563c
+msgid "This field is common to all main entities in the SFM data model."
 msgstr ""
 
-#: ../../source/units.rst:143
+#: ../../source/units.rst:142
 #: f062e4f61ede4b55b270adc8d3fad1d2
 msgid "Unit: Research Comments"
 msgstr ""
 
-#: ../../source/units.rst:147
+#: ../../source/units.rst:146
 #: 04d4e94a3fe64940a314639918c10767
 msgid "Observations specific to the process of reviewing data in this row, including fixes, refinements and other suggestions."
 msgstr ""
 
-#: ../../source/units.rst:155
+#: ../../source/units.rst:154
 #: 3d102ead35844369a18cc482b3a686dd
 msgid "``Parent unit missing``, ``Geography needs attention``, ``Possible duplicate - merge?``"
 msgstr ""
 
-#: ../../source/units.rst:159
+#: ../../source/units.rst:158
 #: 0cc3cfdf9c0544d19fa18bdb8d3af1a3
 msgid "``unit:comments:admin``"
 msgstr ""
 
-#: ../../source/units.rst:163
+#: ../../source/units.rst:162
 #: cfb48e1f44074b3189ea457c28f761f6
 msgid "``u_com_a``"
 msgstr ""
 
-#: ../../source/units.rst:175
+#: ../../source/units.rst:174
 #: a043632dfdf04abea9e59c78a95fcca7
-msgid "This is an adminstrative field specific to data created in spreadsheets. Staff Researchers use it to pass on feedback about the data in the row. This may included changes needs to specific fields, references to sources that the owner of the row might look at, and other observations that can improve the quality of the data. Data in this field are not intended for publication."
+msgid "Staff Researchers use  this field to exchange feedback about the data in the row. This may included changes needs to specific fields, references to sources that the owner of the row might look at, and other observations that can improve the quality of the data. Data in this field are not intended for publication. The comments field is common to all main entities in the SFM data model."
 msgstr ""
 
-#: ../../source/units.rst:179
+#: ../../source/units.rst:177
 #: 20151cccde7842fa9ec7eae13f8baca1
 msgid "Unit: Name"
 msgstr ""
 
-#: ../../source/units.rst:183
+#: ../../source/units.rst:181
 #: 283f44f93f4e43f48e7e8506c279c6b6
-msgid "Name of the unit."
+msgid "Canonical name of the unit."
 msgstr ""
 
-#: ../../source/units.rst:191
+#: ../../source/units.rst:189
 #: c991c7695ebc42119e6cf419f59fbe60
 msgid "``3 Armoured Division``, ``3 Compañía de Infantería No Encuadrada``, ``7 Military Operations Command``"
 msgstr ""
 
-#: ../../source/units.rst:195
+#: ../../source/units.rst:193
 #: f01ba3617881474b9f700785401e25ec
 msgid "``unit:name``"
 msgstr ""
 
-#: ../../source/units.rst:199
+#: ../../source/units.rst:197
 #: ded011e0a9d84283908b0aaab4520277
 msgid "``u_n``"
 msgstr ""
 
-#: ../../source/units.rst:203
+#: ../../source/units.rst:201
 #: 473b39b6993a46739e3f339edfdcae22
 msgid "Yes (``unit:name:source``, ``u_n_s``)"
 msgstr ""
 
-#: ../../source/units.rst:207
+#: ../../source/units.rst:205
 #: 7312a51136234ca99bdc110b8724be07
 msgid "Yes (``unit:name:confidence``, ``u_n_c``)"
 msgstr ""
 
-#: ../../source/units.rst:211
+#: ../../source/units.rst:209
 #: 93c09da63a984e37b93227f765ec9665
 msgid "As different sources will spell a unit's name in different ways the Security Force Monitor works to create a single canonical version of a unit's name based on sources and standardized to match the overall structure of and reporting about the security forces:"
 msgstr ""
 
-#: ../../source/units.rst:213
+#: ../../source/units.rst:211
 #: f5bcfb8cc60647e292134e9e3a3e94dc
 msgid "Example: ``Police Divisions`` are a class of police units in Nigeria. There are over 1000 units of this type nationwide. However, each individual ``Police Division`` may not have a citation for their formal name such as Lagos Police Division, but only have a citation (or numerous citations) for the less formal ``Lagos Division``. The Monitor would list the name of the unit as ``Lagos Police Division`` with a note about the methodology behind that choice. The less formal ``Lagos Division`` name would be entered in the ``Unit: Aliases`` field (documented below)."
 msgstr ""
 
-#: ../../source/units.rst:215
+#: ../../source/units.rst:213
 #: 857d0bd1225948efb8c24e079445cb93
 msgid "Example: Army units of a country may follow a naming convention of a number and then name of unit: e.g. ``3 Battalion`` or ``25 Brigade``. There may be a unit of which we only have citations for a variation on that: e.g. ``Fourth Battalion``. In this case, the Monitor would list the name of the unit as ``4 Battalion`` with a note about the methodology behind that choice. The ``Fourth Battalion`` name variant would be entered in the ``Aliases or alternative spellings`` field"
 msgstr ""
 
-#: ../../source/units.rst:217
+#: ../../source/units.rst:215
 #: f5a68770b7304ad798b1416b21965016
 msgid "Standardizations don't have specific sources, so we have created a specific source to use in these cases. Where a value in ``Unit: Name`` has been standardized, a source with the following title will be associated with it: \"Name standardized in accordance with Security Force Monitor research\"."
 msgstr ""
 
-#: ../../source/units.rst:219
+#: ../../source/units.rst:217
 #: 8ba02bb255be445f9a8072e1633ad334
 msgid "Additionally, wherever possible, we will choose the most complete and complex version of a unit’s name that can be evidenced by a source:"
 msgstr ""
 
-#: ../../source/units.rst:221
+#: ../../source/units.rst:219
 #: e1da72a0b8874fc6be5047027573473c
 msgid "Example: ``3 Armoured Division`` would be the entry, rather than the more informal ``3 Division`` (which may have more citations)."
 msgstr ""
 
-#: ../../source/units.rst:223
+#: ../../source/units.rst:221
 #: beaa649529f74b60bc490ee167d057f8
 msgid "The Monitor does not use ordinal indicators like ``1st`` or ``3rd`` in the name of an Unit. Instead these will be listed in the ``Unit: Other Names`` field (see below)."
 msgstr ""
 
-#: ../../source/units.rst:225
+#: ../../source/units.rst:223
 #: 00dfbc4c081e4d198d8be93161fad0c9
 msgid "The Monitor uses the name in the official (local) language of the country where appropriate and/or possible."
 msgstr ""
 
-#: ../../source/units.rst:227
+#: ../../source/units.rst:225
 #: e209a2083c124ac69f5616ddf78d0e8b
 msgid "Example: A unit in the Mexican Army would be called by its name in Spanish (``10 Regimiento de Caballería Motorizado``), rather than the English translation ( ``10 Motorized Cavalry Regiment``)."
 msgstr ""
 
-#: ../../source/units.rst:229
+#: ../../source/units.rst:227
 #: b7a7d6f38ddd4bebbfa6b138b07385d5
 msgid "In an effort to standardize names across all countries, the Monitor generally uses Arabic numerals in the ``Unit: Name`` field. Where warranted by sources the Monitor will use Roman numerals like ``V`` or ``XI`` instead of ``5`` or ``11`` respectively."
 msgstr ""
 
-#: ../../source/units.rst:231
+#: ../../source/units.rst:229
 #: 3fa574569e9e4850b96210cb7164fee2
-msgid "In cases where multiple units have the same name the Monitor will distinguish them by adding unique identifying text based on the unit's site or parent."
+msgid "In cases where multiple units have the same name the Monitor will distinguish them by adding unique identifying text based on the unit's Location or parent unit."
 msgstr ""
 
-#: ../../source/units.rst:233
+#: ../../source/units.rst:231
 #: d95aab2981fb42aeaa63320ee30c0b52
 msgid "Example: There are multiple \"Central Police Station\" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance ``Central Police Station (Awka, Anambra State).``\\ In Myanmar there have been different units through time both the name Central Regional Military Command. To distinguish them the Monitor added information on when the unit came into existence to the name: ``Central Regional Military Command (post 199)``."
 msgstr ""
 
-#: ../../source/units.rst:236
+#: ../../source/units.rst:234
 #: bca7f7ce7f674bf3aba00c29b3846def
 msgid "Unit: Other Names"
 msgstr ""
 
-#: ../../source/units.rst:240
+#: ../../source/units.rst:238
 #: f76256001c68455589f5fb903a931fa9
 msgid "Other names for a unit, including aliases, alternative spellings and abbreviations."
 msgstr ""
 
-#: ../../source/units.rst:248
+#: ../../source/units.rst:246
 #: e91380e04319494ca94ce880e679928e
 msgid "If ``3 Armoured Division`` is used as the canonical ``Unit: Name`` of a unit, entries in the ``Unit: Other Names`` field may include ``3 Div`` and ``Three Division``."
 msgstr ""
 
-#: ../../source/units.rst:252
+#: ../../source/units.rst:250
 #: 4debbf2bca4e4697b32ec9c676f30d0d
 msgid "``unit:other_names``"
 msgstr ""
 
-#: ../../source/units.rst:256
+#: ../../source/units.rst:254
 #: c2fa6065accb4693800f058c67809f30
 msgid "``u_on``"
 msgstr ""
 
-#: ../../source/units.rst:260
+#: ../../source/units.rst:258
 #: 894409f97c794a71b009f3b42c7b11ca
 msgid "Yes (``unit:other_names:source``, ``u_on_s``)"
 msgstr ""
 
-#: ../../source/units.rst:264
+#: ../../source/units.rst:262
 #: eff8bd930b46485dbaaef68ca4742e68
 msgid "Yes (``unit:other_names:confidence``, ``u_on_c``)"
 msgstr ""
 
-#: ../../source/units.rst:268
+#: ../../source/units.rst:266
 #: 97b6ab16cbd84096aea9255e7e21f8f4
 msgid "Different sources will spell a unit's name in different ways. We choose and record a canonical version of a unit's name in the ``Unit: Name`` field. All other spellings that we have found are treated as aliases and stored in this field."
 msgstr ""
 
-#: ../../source/units.rst:270
+#: ../../source/units.rst:268
 #: 344af010c2354a9f86a14868d9f2de06
 msgid "Although we do not use ordinal indicators like ``2nd`` or ``10/o`` in the canonical name we choose for a unit, where a source uses an Ordinal we record it as an alias."
 msgstr ""
 
-#: ../../source/units.rst:272
+#: ../../source/units.rst:270
 #: e366d6acb94b4ab6a1e6d220ab147c20
 msgid "Example: We find a version of the unit name ``3 Armoured Division`` that has an Ordinal indicator: ``10/o. Regimiento de Caballería Motorizado.`` We would record this in the ``Unit: Other Names`` field."
 msgstr ""
 
-#: ../../source/units.rst:275
+#: ../../source/units.rst:273
 #: 64f6008c6473403cbe2bb28976b04584
 msgid "Unit: Country"
 msgstr ""
 
-#: ../../source/units.rst:279
+#: ../../source/units.rst:277
 #: 6e0e70760b2f42f6be297fa39ecf37a0
-msgid "ISO 3166 two letter code for the country in which a unit originates."
+msgid "ISO 3166 two letter code for the country from  which a unit originates."
 msgstr ""
 
-#: ../../source/units.rst:283
-#: ../../source/units.rst:1094
-#: ../../source/units.rst:1369
-#: a3845f6576ae4c79923e0f9fdc9ce722
-#: aea8cffb434c4359b53df3fec5bbf7e5
-#: ca78f42e876a498689f242827f1eeb8d
-msgid "Two letter country code"
+#: ../../source/units.rst:281
+#: ff62d2beba9f474da417bfd93b39f94d
+msgid "Text; controlled vocabulary."
 msgstr ""
 
-#: ../../source/units.rst:287
-#: ../../source/units.rst:1098
-#: ../../source/units.rst:1373
+#: ../../source/units.rst:285
 #: 0c50ffd78d5d4e5f8919020a7dcb8708
-#: 706652effef14c41b35f56a35e91f991
-#: 7928915fdc4c48e4ac68d9b188111e98
 msgid "``mx``, ``ug``, ``ng``"
 msgstr ""
 
-#: ../../source/units.rst:291
+#: ../../source/units.rst:289
 #: b3d14f9c37a44626ba6a63fbf310a1ec
 msgid "``unit:country``"
 msgstr ""
 
-#: ../../source/units.rst:295
+#: ../../source/units.rst:293
 #: bc7deb18b7af4414a5ab1e30fad431d0
 msgid "``u_c``"
 msgstr ""
 
-#: ../../source/units.rst:299
+#: ../../source/units.rst:297
 #: 14b36e70989a42eca70319d74f1c68e0
 msgid "Yes (``unit:country:sources``, ``u_c_s``)"
 msgstr ""
 
-#: ../../source/units.rst:303
+#: ../../source/units.rst:301
 #: bcf79460d86146f28be81c8149e2d6de
 msgid "Yes (``unit:country:confidence``, ``u_c_c``)"
 msgstr ""
 
-#: ../../source/units.rst:307
+#: ../../source/units.rst:305
 #: f873f5b3a5d14b35b279db2d7e090b27
 msgid "The ``Unit: Country`` field identifies the country this unit comes from. All entries in this field are two letter country codes taken from `ISO 3166 <https://www.iso.org/obp/ui/#search>`__."
 msgstr ""
 
-#: ../../source/units.rst:309
+#: ../../source/units.rst:307
 #: a887f015b6fc407db4e0c8f30c1554fd
-msgid "For example, a unit based in Nigeria would have the code ``ng`` and a unit based in Brazil would have the code ``br``"
+msgid "For example, a unit from Nigeria would have the code ``ng`` and a unit from Brazil would have the code ``br``"
 msgstr ""
 
-#: ../../source/units.rst:312
+#: ../../source/units.rst:310
 #: 787cc73a3183426f8f3c5fb229455d2e
 msgid "Unit: Classification"
 msgstr ""
 
-#: ../../source/units.rst:316
+#: ../../source/units.rst:314
 #: a0b6745d245a44888b108dd1f50d0f59
 msgid "Branch of the security services that the unit a part of or general descriptor for the unit."
 msgstr ""
 
-#: ../../source/units.rst:324
+#: ../../source/units.rst:322
 #: c4b41a02b4bf4891b11cb3baf6d4e971
 msgid "``Army``, ``Ejército``, ``Police``, ``Military``, ``Military Police``, ``Joint Operation``"
 msgstr ""
 
-#: ../../source/units.rst:328
+#: ../../source/units.rst:326
 #: 498483b952094abb97d57c14fe6d3ee4
 msgid "``unit:classification``"
 msgstr ""
 
-#: ../../source/units.rst:332
+#: ../../source/units.rst:330
 #: f6f65533276540d29b09659e77df7f42
 msgid "``u_cl``"
 msgstr ""
 
-#: ../../source/units.rst:336
+#: ../../source/units.rst:334
 #: 2e21ee383e734d2097d215d84910f76b
 msgid "Yes (``unit:classification:sources``, ``u_cl_s``)"
 msgstr ""
 
-#: ../../source/units.rst:340
+#: ../../source/units.rst:338
 #: 104e5122e8fb4ae2829c3088d2b2e8f0
 msgid "Yes (``unit:classification:confidence``, ``u_cl_c``)"
 msgstr ""
 
-#: ../../source/units.rst:344
+#: ../../source/units.rst:342
 #: 8751ba9b23804a80a87df27168fddaa1
 msgid "We use classifications to describe the basic nature of a specific unit and to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor's dataset. As alleged perpetrators are usually identified in general terms of \"soldiers\" and \"police\" this field is important as a first step to understand potential linkages between units, persons and incidents. ``Unit: Classification`` values are useful supplements to ``Unit: Related Unit`` and ``Unit: Membership`` data we use to connect different units together."
 msgstr ""
 
-#: ../../source/units.rst:346
+#: ../../source/units.rst:344
 #: 735fb50a1f144f6686c00bf57eae056d
 msgid "The ``Unit: Classification`` field will contain a mix of standard terms and country-specific terms used to describe security force branches. In choosing terms to include in the ``Unit: Classification`` field we try to include terms that are used by country experts as well as those that are commons terms. We also try to be economical and create as few, distinct terms as possible."
 msgstr ""
 
-#: ../../source/units.rst:348
+#: ../../source/units.rst:346
 #: d4786402633e47ba92f352e65d12b7c8
 msgid "Example: a standard term we would apply to army units is ``Army``. The equivalent in Mexico would be ``Ejécito``. We would capture both terms in the ``Unit: Classification`` field."
 msgstr ""
 
-#: ../../source/units.rst:350
+#: ../../source/units.rst:348
 #: 7fc83252d865420c9ac2c76985a54f6e
 msgid "Units may have more than one classification, usually this will be when a unit can have \"generic\" and \"specific\" classifications."
 msgstr ""
 
-#: ../../source/units.rst:352
+#: ../../source/units.rst:350
 #: 563507fb56364730b240aa8a1294af7d
 msgid "Example: Units which are part of the army of a country may be coded as having a classification of ``Army`` as well as a classification of ``Military``, whereas units which are part of the navy of a country would have classifications of of ``Navy`` and ``Military``. For both the army and navy unit their respective classifications are correct, the army and the navy are part of the military. Critically, this enables the Monitor or users of the Monitor's data to properly analyze allegations against \"soldiers\" and \"members of the army\" in the country. In the case of \"soldiers\" this analysis should include every unit with the classification of ``Military`` while if there is greater specificity of \"members of the army\" would mean excluding any unit with the classification of ``Navy`` and focusing only on those units with a classification of ``Army.``"
 msgstr ""
 
-#: ../../source/units.rst:355
+#: ../../source/units.rst:353
 #: 7756ce54b7aa43a19dfdcbdc956001c1
 msgid "Unit: First Cited Date"
 msgstr ""
 
-#: ../../source/units.rst:359
+#: ../../source/units.rst:357
 #: 09335b956da543fea74acd7239d696e4
 msgid "The earliest date that a source shows a unit exists, either through direct reference in the source or by the date of its publication."
 msgstr ""
 
-#: ../../source/units.rst:363
-#: ../../source/units.rst:447
-#: ../../source/units.rst:657
-#: ../../source/units.rst:738
-#: ../../source/units.rst:1131
-#: ../../source/units.rst:1214
-#: ../../source/units.rst:1406
-#: ../../source/units.rst:1489
-#: ../../source/units.rst:1616
-#: ../../source/units.rst:1696
+#: ../../source/units.rst:361
+#: ../../source/units.rst:445
+#: ../../source/units.rst:693
+#: ../../source/units.rst:774
+#: ../../source/units.rst:974
+#: ../../source/units.rst:1056
 #: cd2b42b7995847da87304bb4a8fc88e0
-#: 18ce7df714834ffb88cd6501af593abc
-#: 84f57d6950c144d3add41f00a71b7d9a
-#: 742bbdcff7e64e549f8193597f34f1f4
-#: eb08060b40c84a2a97aa7032522446d6
-#: 3768f0c94b974804b9a17a3599d0e8e2
-#: a4814ed93f9c451b86a483c4700bbdf5
-#: ed1ff1cf71ac46a699e5b6f5d4443b08
-#: 2b8e27dcbdcf44db95f475bbf6718b63
-#: 7c43a2d0caab4821bd30d8dd2885c5c1
+#: cd2b42b7995847da87304bb4a8fc88e0
+#: cd2b42b7995847da87304bb4a8fc88e0
+#: cd2b42b7995847da87304bb4a8fc88e0
+#: cd2b42b7995847da87304bb4a8fc88e0
+#: cd2b42b7995847da87304bb4a8fc88e0
 msgid "Date (YYYY-MM-DD), fuzzy"
 msgstr ""
 
-#: ../../source/units.rst:367
-#: ../../source/units.rst:661
-#: ../../source/units.rst:742
-#: ../../source/units.rst:1135
-#: ../../source/units.rst:1218
-#: ../../source/units.rst:1410
-#: ../../source/units.rst:1493
-#: ../../source/units.rst:1620
-#: ../../source/units.rst:1700
+#: ../../source/units.rst:365
+#: ../../source/units.rst:697
+#: ../../source/units.rst:778
+#: ../../source/units.rst:978
+#: ../../source/units.rst:1060
 #: 20ce7721478541869e6b65d8cd5a6332
-#: f388904c963d4c0b9422ee4b82d30895
-#: d97928046eda40509d6bf41ae589076b
-#: 5f5b1e8a90144de89f0c714bb754d13a
-#: 2b737a7999b643c18cb544ee229512f3
-#: a826a6609b5b4be487a16ba6cd9d0cf2
-#: fb660c41194c4dff90dc519aab5932ea
-#: 721997c20cf44904bdea9d5422430212
-#: 1aa696110af844779f5310433714cd4c
+#: 20ce7721478541869e6b65d8cd5a6332
+#: 20ce7721478541869e6b65d8cd5a6332
+#: 20ce7721478541869e6b65d8cd5a6332
+#: 20ce7721478541869e6b65d8cd5a6332
 msgid "``2012``, ``2012-11``, ``2012-11-23``"
 msgstr ""
 
-#: ../../source/units.rst:371
+#: ../../source/units.rst:369
 #: 5218daf25b374ca89cc8c41110b75a09
 msgid "``unit:first_cited_date``"
 msgstr ""
 
-#: ../../source/units.rst:375
+#: ../../source/units.rst:373
 #: dd6ad24b0e6140e88892b7330346f4ef
 msgid "``u_fcd``"
 msgstr ""
 
-#: ../../source/units.rst:379
+#: ../../source/units.rst:377
 #: d5eecc3bde5947c6829b52ce53d608a6
 msgid "Yes (``unit:first_cited_date:source``, ``u_fcd_s``)"
 msgstr ""
 
-#: ../../source/units.rst:383
+#: ../../source/units.rst:381
 #: 62db0d63a3064cbc9636144e9b184128
 msgid "Yes (``unit:first_cited_date:confidence``, ``u_fcd_c``)"
 msgstr ""
 
-#: ../../source/units.rst:387
+#: ../../source/units.rst:385
 #: 215489923f9649adaa108c8fe695ce2a
 msgid "Along with the fields ``Unit: First Cited Date is also Unit's Start Date``, ``Unit: Last Cited Date`` and ``Unit: Last Cited Date is Open-Ended`` the field ``Unit: First Cited Date`` provides data about the time period we can evidence a unit has existed."
 msgstr ""
 
-#: ../../source/units.rst:389
+#: ../../source/units.rst:387
 #: ca2779bc2e99451cb774c315d176210f
 msgid "The ``Unit: First Cited Date`` field contains a date that is either:"
 msgstr ""
 
-#: ../../source/units.rst:391
+#: ../../source/units.rst:389
 #: d18a8ddf61694bcabf7a207a3fecd123
 msgid "The earliest date found in a source that specifically references a unit; or,"
 msgstr ""
 
-#: ../../source/units.rst:392
+#: ../../source/units.rst:390
 #: 2ebf3d34df624aeeb40c1c0147dd141a
 msgid "The earliest date of publication of sources that make reference to a unit."
 msgstr ""
 
-#: ../../source/units.rst:394
+#: ../../source/units.rst:392
 #: 12a3592bff37486b8fb3c848bc805712
 msgid "For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 January 2012 as the ``Unit: First Cited Date``. If the source published on 1 March 2012 refers to activity of 1 Motorized Brigade that occurred on 30 June 2011, we will use 30 June 2011 as the ``Unit: First Cited Date``."
 msgstr ""
 
-#: ../../source/units.rst:396
+#: ../../source/units.rst:394
 #: c34e4656b684462d98a428965606afc0
 msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Unit: First Cited Date`` ."
 msgstr ""
 
-#: ../../source/units.rst:398
+#: ../../source/units.rst:396
 #: 30f35fb242f2475d8cf195b0d40da974
 msgid "This field is clarified by the field ``Unit: First Cited Date is also Unit's Start Date`` which indicates whether the date included here is the actual date on which a unit was founded."
 msgstr ""
 
-#: ../../source/units.rst:401
+#: ../../source/units.rst:399
 #: eb42ea110a1e42348b65d0ec2e0471ea
 msgid "Unit: First Cited Date is also Unit's Start Date"
 msgstr ""
 
-#: ../../source/units.rst:405
+#: ../../source/units.rst:403
 #: 35b9e6e5e58a4123a83186a92343822c
 msgid "Indicates whether the value in ``Unit: First Cited Date`` is the actual date a unit was founded."
 msgstr ""
 
-#: ../../source/units.rst:409
-#: ../../source/units.rst:578
-#: ../../source/units.rst:1450
-#: ../../source/units.rst:1658
-#: ../../source/units.rst:1738
+#: ../../source/units.rst:407
 #: 3e24d4e2f3b74cc8bdbc0153080e38a4
-#: 4ce7c7a85d7741b68cbf22b16a193211
-#: d3ee0ca2a2e241e88e1026a87fd41181
-#: dbe0f080be45411d979d66ce9d997d38
-#: ffb4e8165fec4ee78454dced3dca2bc7
 msgid "Boolean"
 msgstr ""
 
-#: ../../source/units.rst:413
-#: ../../source/units.rst:707
-#: ../../source/units.rst:1180
-#: ../../source/units.rst:1454
-#: ../../source/units.rst:1662
-#: ../../source/units.rst:1742
+#: ../../source/units.rst:411
+#: ../../source/units.rst:743
+#: ../../source/units.rst:1022
 #: 82c033df3544468f928e474f5f930f53
-#: 0505661510524212b8467c2483544e02
-#: 500adbe2b27547df994b2b1e0abb9154
-#: 5c80489ad5474157a1858dd33d68b271
-#: 6d105cb8defe430ba566679f0e931448
-#: 586144384a864c7f80c09aae5095641d
+#: 82c033df3544468f928e474f5f930f53
+#: 82c033df3544468f928e474f5f930f53
 msgid "``Y``, ``N``"
 msgstr ""
 
-#: ../../source/units.rst:417
+#: ../../source/units.rst:415
 #: 8c876d9e7766430fbf1e1d44f25ef37f
 msgid "``unit:first_cited_date_start``"
 msgstr ""
 
-#: ../../source/units.rst:421
+#: ../../source/units.rst:419
 #: b3dca401b49446f9ab4952eb752d3841
 msgid "``u_fcds``"
 msgstr ""
 
-#: ../../source/units.rst:425
+#: ../../source/units.rst:423
 #: cc42b86c609a43ed8b043e663e679c83
 msgid "Yes. Inherits from ``Unit: First Cited Date`` (``unit:first_cited_date:source``, ``u_fcd_s``)."
 msgstr ""
 
-#: ../../source/units.rst:429
+#: ../../source/units.rst:427
 #: fa18dd2f76484c2e90d98b7e09a047d4
 msgid "Yes. Inherits from ``Unit:First Cited Date`` (``unit:first_cited_date:confidence``, ``u_fcd_c``)."
 msgstr ""
 
-#: ../../source/units.rst:433
+#: ../../source/units.rst:431
 #: c60108a46c75499aa7dbee448bf6cc0e
 msgid "This is a clarifying field for ``Unit: First Cited Date``:"
 msgstr ""
 
-#: ../../source/units.rst:435
+#: ../../source/units.rst:433
 #: 8995f3b3c72a4480bf385b15cef52a2b
 msgid "``Y``: used where a source references a unit and specifies the date that unit was created"
 msgstr ""
 
-#: ../../source/units.rst:436
+#: ../../source/units.rst:434
 #: 8f9f9ce0d27f4e59bc5602a0fefad75c
 msgid "``N``: used in all other cases, indicating that the date is not a start date but the date of first citation."
 msgstr ""
 
-#: ../../source/units.rst:439
+#: ../../source/units.rst:437
 #: 880f26fc729c460e8700ba1cef3559cb
 msgid "Unit: Last Cited Date"
 msgstr ""
 
-#: ../../source/units.rst:443
+#: ../../source/units.rst:441
 #: f6c6cf636bdf4171964a35a03d6da9b1
 msgid "The most recent date for sourcing the unit's existence, either through direct reference in the source or by the date of its publication."
 msgstr ""
 
-#: ../../source/units.rst:451
+#: ../../source/units.rst:449
 #: 8d566be97ef24d69839060679271ab01
 msgid "``2013``, ``2013-12``, ``2013-12-28``"
 msgstr ""
 
-#: ../../source/units.rst:455
+#: ../../source/units.rst:453
 #: 313cb53d46a540269508cb1dbbbd8d98
 msgid "``unit:last_cited_date``"
 msgstr ""
 
-#: ../../source/units.rst:459
+#: ../../source/units.rst:457
 #: fe09a178ea2c4084aeaf49d3775f0950
 msgid "``u_lcd``"
 msgstr ""
 
-#: ../../source/units.rst:463
+#: ../../source/units.rst:461
 #: 4ceab0b86b0c4642827bad29c8830a9b
 msgid "Yes (``unit:last_cited_date:sources``, ``u_lcd_s``)"
 msgstr ""
 
-#: ../../source/units.rst:467
+#: ../../source/units.rst:465
 #: 5d2c0bc503f04d399739b937a49ea22c
 msgid "Yes (``unit:last_cited_date:confidence``, ``u_lcd_c``)"
 msgstr ""
 
-#: ../../source/units.rst:471
+#: ../../source/units.rst:469
 #: 8c74303d4a564951bd2643b251c17fd0
 msgid "Along with the fields ``Unit: First Cited Date``, ``Unit: First Cited Date is also Unit's Start Date`` and ``Unit: Last Cited Date is Open-Ended`` the field ``Unit: Last Cited Date`` provides data on the time period we can say a unit has existed."
 msgstr ""
 
-#: ../../source/units.rst:473
+#: ../../source/units.rst:471
 #: ff9bceb97b184af5bdddeb7fe651e60c
 msgid "The ``Unit: Last Cited Date`` field contains a date that is either:"
 msgstr ""
 
-#: ../../source/units.rst:475
+#: ../../source/units.rst:473
 #: dd0a581d8c754da1898de109f31a168d
 msgid "The latest date found in a source that specifically references a unit; or,"
 msgstr ""
 
-#: ../../source/units.rst:476
+#: ../../source/units.rst:474
 #: 9abc990586d74588a86001c106930153
 msgid "The latest date of publication of sources that make reference to a unit."
 msgstr ""
 
-#: ../../source/units.rst:478
+#: ../../source/units.rst:476
 #: 2275b96e20a34167a41364ca03561b29
 msgid "For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 March 2012 as the ``Unit: Last Cited Date``. If the source published on 1 March 2012 refers to activity of 1 Motorized Brigade that occurred on 15 February 2012, we will use 15 February 2012 as the value in ``Unit: Last Cited Date``."
 msgstr ""
 
-#: ../../source/units.rst:480
+#: ../../source/units.rst:478
 #: 68de5dcf7237494d8b360a9e5500b2d1
 msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Unit: Last Cited Date``."
 msgstr ""
 
-#: ../../source/units.rst:482
+#: ../../source/units.rst:480
 #: 0c0d041fcba9445dae65751d17cd5bf3
 msgid "This field is clarified by ``Unit: Open-ended?``, which indicates whether the date in ``Unit: Date last cited`` is the date a unit was disbanded."
 msgstr ""
 
-#: ../../source/units.rst:485
+#: ../../source/units.rst:483
 #: c29cbc4c83ca41e4830977a6f21efa10
 msgid "Unit: Last Cited Date is Open-Ended"
 msgstr ""
 
-#: ../../source/units.rst:489
+#: ../../source/units.rst:487
 #: fd7e5e66d0f8497aaedb04715dd32f30
 msgid "Indicates whether the value in ``Unit: Last Cited Date`` the actual date on which a unit was disbanded or not."
 msgstr ""
 
-#: ../../source/units.rst:493
+#: ../../source/units.rst:491
 #: 0d09d32f43544a28be4c78bf4d2fc865
 msgid "Single choice"
 msgstr ""
 
-#: ../../source/units.rst:497
-#: ../../source/units.rst:793
-#: ../../source/units.rst:1262
-#: ../../source/units.rst:1535
+#: ../../source/units.rst:495
+#: ../../source/units.rst:828
+#: ../../source/units.rst:1104
 #: 4aa42f67877e4a3d9939e4f4231b5087
-#: 9bf61583bf1f41809f9167b5c7722406
-#: d3f5db46946e4d9b816b01c0801f6101
-#: e23d25578bce457a80c84c2d5b935ba3
+#: 4aa42f67877e4a3d9939e4f4231b5087
+#: 4aa42f67877e4a3d9939e4f4231b5087
 msgid "``Y``, ``N``, ``E``"
 msgstr ""
 
-#: ../../source/units.rst:501
+#: ../../source/units.rst:499
 #: 5d4f16dd67bc4d58adae8086e891ce64
 msgid "``unit:last_cited_date_open``"
 msgstr ""
 
-#: ../../source/units.rst:505
+#: ../../source/units.rst:503
 #: 58db2d316a0e4e6190b8c7fc390366c8
 msgid "``u_lcdo``"
 msgstr ""
 
-#: ../../source/units.rst:509
+#: ../../source/units.rst:507
 #: 9f76c69c5e6f400eb18759de6d2af2ab
 msgid "Yes. Inherits from ``Unit: Last Cited Date`` (``unit:last_cited_date:source``, ``u_lcd_s``)"
 msgstr ""
 
-#: ../../source/units.rst:513
+#: ../../source/units.rst:511
 #: df69f0266f904b788359c5bf0da30d7b
 msgid "Yes. Inherits from ``Unit: Last Cited Date`` (``unit:last_cited_date:confidence``, ``u_lcd_c``)"
 msgstr ""
 
-#: ../../source/units.rst:517
+#: ../../source/units.rst:515
 #: 1146b40324424df89e96ade7536cf7f5
 msgid "We use this field to clarify the meaning of the date entered in ``Unit: Last Cited Date``. Depending on information availalbe from sources, one of the below values should be chosen:"
 msgstr ""
 
-#: ../../source/units.rst:519
+#: ../../source/units.rst:517
 #: 020c532571404aa99ef23e77f2d9ff82
 msgid "``E`` indicates the exact date this unit was disbanded, or ceases to exist."
 msgstr ""
 
-#: ../../source/units.rst:520
+#: ../../source/units.rst:518
 #: 7fe353f4856644549177444a7f607212
 msgid "``Y`` indicates that we assume this unit continues to exist."
 msgstr ""
 
-#: ../../source/units.rst:521
+#: ../../source/units.rst:519
 #: c88b86473cbc4f508f4d164cf9443e29
 msgid "``N`` indicates we do not assume that this unit continues to exist, but we do not have an exact end date."
 msgstr ""
 
-#: ../../source/units.rst:524
-#: 98b04b5fe44c475e8be8cc973b52140e
-msgid "Unit: Related Unit"
-msgstr ""
-
-#: ../../source/units.rst:528
-#: a3eefede9c35441b971660c49b323616
-msgid "The immediate superior or parent unit in the overall hierarchy of security force."
-msgstr ""
-
-#: ../../source/units.rst:536
-#: fb33f545236c4453b064517aff811753
-msgid "``301 Artillery Regiment``"
-msgstr ""
-
-#: ../../source/units.rst:540
-#: 122e1678291d4c45a9e0cbeaa24020f9
-msgid "``unit:related_unit``"
-msgstr ""
-
-#: ../../source/units.rst:544
-#: 5925aad651d54908b4977e1704dea53a
-msgid "``u_ru``"
-msgstr ""
-
-#: ../../source/units.rst:548
-#: a9c764bcc0a0425cb6168fd510c795c0
-msgid "Yes (``unit:related_unit:source``, ``u_ru_s``)"
-msgstr ""
-
-#: ../../source/units.rst:552
-#: e502c45788d94e018f2fb47472864f6f
-msgid "Yes (``unit:related_unit:confidence``, ``u_ru_c``)"
-msgstr ""
-
-#: ../../source/units.rst:556
-#: b77881ca4d544d60a70023b5ef98e212
-msgid "``Unit: Related Unit`` describes a hierarchical, time-bound relationship between two units that are part of the same branch of a security force. ``Unit: Related Unit`` is a synonym for  \"parent unit\" in that is describes a unit that “above” and distinct and separate from the unit in some way. The aggregated upwards relationships form organizational structured and command chains."
-msgstr ""
-
-#: ../../source/units.rst:558
-#: 25f77baa217a4466afa6f9c0482cf0ca
-msgid "Over time, a unit may have different parents."
-msgstr ""
-
-#: ../../source/units.rst:560
-#: 23fece7ad6e041bdb5cd600cc9f121a2
-msgid "Example: In Nigeria the ``112 Task Force Battalion`` had the parent of ``7 Division Garrison`` between 12 November 2015 and 24 March 2016. The ``112 Task Force Battalion`` was then under the ``22 Task Force Brigade`` from 14 March 2017 to 26 October 2017."
-msgstr ""
-
-#: ../../source/units.rst:562
-#: 7547754476c74a6c973b0dd8e3f6c145
-msgid "Units can also have multiple parent relationships at the same time. For example, sources could indicate a unit has a formal legal parent unit while at the same time a new security body established by decree can also directly order the unit to carry out operations, establishing a second parent relationship."
-msgstr ""
-
-#: ../../source/units.rst:564
-#: a2279dee6d10436baabd366558d0fce2
-msgid "Relationships between units described with ``Unit: Related Unit`` are different from ``Unit: Membership``. Often when there is an \"operation\" or \"joint task force\", it may not have have personnel of its own. Rather, personnel from a range of different units are assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the unital chart. We outline these types of relationships using the field ``Unit: Membership``, which is documented below."
-msgstr ""
-
-#: ../../source/units.rst:566
-#: 84c165300aa242e5a3d6b770be026ccf
-msgid "The field ``Unit: Related Unit`` always contains data about then immediate superior unit. In WhoWasInCommand, this value can be specified from both sides of the relationship. In the example above, this means that the record for ``7 Division Garrison`` could be edited to add ``112 Task Force Battalion`` as a subordinate or child unit. However, this would mean that the ``Unit: Related Unit`` field for ``112 Task Froce Battalion`` would then be populated with ``7 Division Garrison``. In WhoWasInCommand, a clarifying field called ``Unit: Type of Relationship`` enables this ability."
-msgstr ""
-
-#: ../../source/units.rst:570
+#: ../../source/units.rst:522
 #: f5a06877ed79496aa8ca8ec3e13af407
 msgid "Unit: Type of Relationship"
 msgstr ""
 
-#: ../../source/units.rst:574
-#: f2509879ba6b469a95c401b16ea34cc1
-msgid "A field specific to WhoWasInCommand that indicates whether a unit specified in ``Unit: Related Unit`` is an immediate subordinate (child) or superior (parent) unit."
+#: ../../source/units.rst:526
+#: b5f8fb26b61b49dcb6e6fe0f84701899
+msgid "The type of relationship that exists between two units."
 msgstr ""
 
+#: ../../source/units.rst:534
+#: fb437222a69c446c8d1463f6aa55af42
+msgid "``unit:relation_type``"
+msgstr ""
+
+#: ../../source/units.rst:538
+#: 47820e7fbc3048adacfb079c32a89585
+msgid "``u_rut``"
+msgstr ""
+
+#: ../../source/units.rst:542
+#: ../../source/units.rst:578
+#: 9f76c69c5e6f400eb18759de6d2af2ab
+#: 9f76c69c5e6f400eb18759de6d2af2ab
+msgid "Yes. Inherits from ``Unit: Related Unit`` (``unit:related_unit:source``, ``u_ru_s``)"
+msgstr ""
+
+#: ../../source/units.rst:546
 #: ../../source/units.rst:582
-#: d029571eae484aa9b4f1f8dd64839ae0
-msgid "``Parent``, ``Child``"
+#: df69f0266f904b788359c5bf0da30d7b
+#: df69f0266f904b788359c5bf0da30d7b
+msgid "Yes. Inherits from ``Unit: Related Units`` (``unit:related_unit:confidence``, ``u_ru_c``)"
 msgstr ""
 
-#: ../../source/units.rst:584
-#: ../../source/units.rst:744
-#: bc1953a3cec5401f8790ef83a70d9b88
-#: 3f83bc0accf0432dbb4a7be2443a89d5
-msgid "**Spreadheet column name**"
+#: ../../source/units.rst:550
+#: 5fae4d260e724716b8b78f0eb3f6bbbc
+msgid "We use this field to define the nature of the relationship between the unit that is the subject of the row (as defined in ``Unit: Name``) and the unit noted in ``Unit: Related Unit``. The Staff Researcher must choose one of the two options below:"
+msgstr ""
+
+#: ../../source/units.rst:552
+#: 0ad3a959c6bd4192b57201c9e0143b4c
+msgid "``child``: the unit described in the row is immediately subordinate to the unit noted in ``Unit: Related Unit``."
+msgstr ""
+
+#: ../../source/units.rst:553
+#: fa49dc79784241048855510b141849df
+msgid "``member``: the unit described in the row is a member of the unit noted in ``Unit: Related Unit``."
+msgstr ""
+
+#: ../../source/units.rst:555
+#: ccd9b721e77a48dcaf860cf973e5a144
+msgid "The values included in this field are used to build the organizational structure of a branch of the security forces. This is discussed in more detail in the documentation below for the field ``Unit: Related Unit``."
+msgstr ""
+
+#: ../../source/units.rst:558
+#: b97daad1a37942f580cfe4050cab940f
+msgid "Unit: Related Unit Unique Identifier"
+msgstr ""
+
+#: ../../source/units.rst:562
+#: c11086126e50412bac6c3abd703d5ef4
+msgid "The UUID of the related unit."
+msgstr ""
+
+#: ../../source/units.rst:570
+#: d58e1cd3756c4c5f9959b7b9cd7c2940
+msgid "``unit:related_unit_id:admin``"
+msgstr ""
+
+#: ../../source/units.rst:574
+#: 30dabf74da1946418f935e4ba9c81ea1
+msgid "``u_ruid_a``"
 msgstr ""
 
 #: ../../source/units.rst:586
-#: 485630558bbd44d99508fdf0fe39964f
-msgid "Specific to WhoWasInCommand and not used in spreadsheets."
+#: 602dd195e4e349efbb722f36a2a6538d
+msgid "All units referenced as relations in this cluster of \"related units\" fields must already have an original entry of their own. This value in this field should be the same as the value in ``unit:id:admin`` of the unit noted in ``unit:related_unit``."
 msgstr ""
 
-#: ../../source/units.rst:590
-#: 07a70741a3fb4e868840a83106cd0c97
-msgid "None"
+#: ../../source/units.rst:589
+#: 98b04b5fe44c475e8be8cc973b52140e
+msgid "Unit: Related Unit"
 msgstr ""
 
-#: ../../source/units.rst:602
-#: 71f31c248cda4e49bbac0544774424c2
-msgid "The field ``Unit: Related Unit`` always contains data about then immediate superior unit. In WhoWasInCommand, this value can be specified from both sides of the relationship. In the example above, this means that the record for ``7 Division Garrison`` could be edited to add ``112 Task Force Battalion`` as a subordinate or child unit. However, this would mean that the ``Unit: Related Unit`` field for ``112 Task Froce Battalion`` would then be populated with ``7 Division Garrison``. In WhoWasInCommand, a clarifying field called ``Unit: Type of Relationship`` enables this ability. It simply chooses which record should be used to define the relationship; no additional data is created when this field is used."
+#: ../../source/units.rst:593
+#: a3eefede9c35441b971660c49b323616
+msgid "The immediate superior or parent unit of the current unit, or the unit to which the current unit is a member."
 msgstr ""
 
-#: ../../source/units.rst:606
-#: 7810b510c20c4b62b872dc4e8b82f576
-msgid "Unit: Related Unit Classification"
+#: ../../source/units.rst:601
+#: fb33f545236c4453b064517aff811753
+msgid "``301 Artillery Regiment``"
 msgstr ""
 
-#: ../../source/units.rst:610
-#: b5f8fb26b61b49dcb6e6fe0f84701899
-msgid "Type of relationships that exists between two units."
+#: ../../source/units.rst:605
+#: 122e1678291d4c45a9e0cbeaa24020f9
+msgid "``unit:related_unit``"
 msgstr ""
 
-#: ../../source/units.rst:614
-#: ff62d2beba9f474da417bfd93b39f94d
-msgid "Controlled vocabulary, single choice"
+#: ../../source/units.rst:609
+#: 5925aad651d54908b4977e1704dea53a
+msgid "``u_ru``"
 msgstr ""
 
-#: ../../source/units.rst:618
-#: a96089c903de42729df46971deae57d0
-msgid "``Command``, ``Administrative``, ``Informal``"
+#: ../../source/units.rst:613
+#: a9c764bcc0a0425cb6168fd510c795c0
+msgid "Yes (``unit:related_unit:source``, ``u_ru_s``)"
 msgstr ""
 
-#: ../../source/units.rst:622
-#: d58e1cd3756c4c5f9959b7b9cd7c2940
-msgid "``unit:related_unit_class``"
+#: ../../source/units.rst:617
+#: e502c45788d94e018f2fb47472864f6f
+msgid "Yes (``unit:related_unit:confidence``, ``u_ru_c``)"
 msgstr ""
 
-#: ../../source/units.rst:626
-#: 47820e7fbc3048adacfb079c32a89585
-msgid "``u_ruc``"
+#: ../../source/units.rst:621
+#: dd00703add2b4ea9a98be3ca1ab621e3
+msgid "``Unit: Related Unit`` and the accompanying cluster of fields is used to describe the relationships that exist between units. The SFM data model includes two types of relationship between units: \"Hierarchic\", and \"membership\"."
 msgstr ""
 
-#: ../../source/units.rst:630
-#: c7133731847c47f2a6e2ba4672df8817
-msgid "Yes (``unit:related_unit_class:source``, ``u_ruc_s``)"
+#: ../../source/units.rst:623
+#: b77881ca4d544d60a70023b5ef98e212
+msgid "\"Hierarchic\" relationships are time-bound parent-child relationships between two units that are part of the same branch of a security force. When the relationship is defined in this way,``Unit: Related Unit`` is a synonym for  \"parent unit\" in that it describes a unit that is “above” and distinct and separate from the present unit in some way. It also exercises authority over the \"child\" unit. The aggregated upwards relationships  between units form organizational structured and command chains."
 msgstr ""
 
-#: ../../source/units.rst:634
-#: dd0b00e5739a4992b5a25339d35e0cbd
-msgid "Yes (``unit:related_unit_class:confidence``, ``u_ruc_c``)"
+#: ../../source/units.rst:625
+#: 25f77baa217a4466afa6f9c0482cf0ca
+msgid "Over time, a unit may have different parents."
 msgstr ""
 
-#: ../../source/units.rst:638
-#: 5198c146d8e14cfab7249cc945ca6f6a
-msgid "Units have a ``Command`` relationship when the related parent unit can order the unit to perform some operational activity. These cover both *de jure* and *de facto* relationships between units."
+#: ../../source/units.rst:627
+#: 23fece7ad6e041bdb5cd600cc9f121a2
+msgid "Example: In Nigeria the ``112 Task Force Battalion`` had the parent of ``7 Division Garrison`` between 12 November 2015 and 24 March 2016. The ``112 Task Force Battalion`` was then under the ``22 Task Force Brigade`` from 14 March 2017 to 26 October 2017."
 msgstr ""
 
-#: ../../source/units.rst:640
-#: 40f08c6864824f59949345a7ea3a69e6
-msgid "``Informal`` relationships occur when there is a relationship outside of the legal or formal structure of security forces and where the exact nature of the relationship is unclear."
+#: ../../source/units.rst:629
+#: 7547754476c74a6c973b0dd8e3f6c145
+msgid "Units can also have multiple parent relationships at the same time. For example, sources could indicate a unit has a formal legal parent unit while at the same time a new security body established by decree can also directly order the unit to carry out operations, establishing a second parent relationship."
 msgstr ""
 
-#: ../../source/units.rst:642
-#: e2e477bfbc9d42c8a8aee67a32489ad7
-msgid "Example: Lagos state in Nigeria has a security council which is a meeting of the governor, and the top commanders of police and military units in the state. The security council should be considered its own unit. By law a governor of a state is not in the chain of command for the military or police forces, but the security council membership establishes a relationship between the units and meetings often result in new approaches to security being taken, such as different deployments of police. In this case, we could make the determination that an informal relationship exists between the security council and the police and military units."
+#: ../../source/units.rst:631
+#: 29b149fbbef34d1fbfb009ddf436912c
+msgid "\"Membership\" relationships indicate that a unit is member of or attached to internal/national joint operations, international peacekeeping operations, or other multi-unit efforts. Often when there is an \"operation\" or \"joint task force\", it may not have have personnel of its own. Rather, personnel from a range of different units are assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the organizational chart. There are two circumstances in which it is appropriate to define a relationship as a \"Membership\". First, where multiple units operate as part of an “operation” focused on a specific mission. Second, where multiple units “lend” or otherwise deploy personnel who operate under the command of a force composition like a \"Joint Task Force\" or \"Operation\", which usually has a commander of its own."
 msgstr ""
 
-#: ../../source/units.rst:644
-#: ad93e53e3d8c449fb3524f2916ac4e1e
-msgid "``Administrative`` relationships exist where a formal, non-command relationship exists between units, or where an administrative description is more accurate of the relationship between two units."
-msgstr ""
-
-#: ../../source/units.rst:646
-#: 7a130da4022b465994d2e7f5a4732a9a
-msgid "Example: By law the Ministry of Defence in Nigeria provides administrative support to the Nigerian Army, establishing a relationship we could classify as ``Administrative``. The Standards Department of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could order the Department to take some sort of action. This technically means the Department is under the “command” of the Headquarters, but the Monitor would describe this relationship as ``Administrative`` because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters."
-msgstr ""
-
-#: ../../source/units.rst:649
-#: d1b02a8bf60a43078458180ed22521ab
-msgid "Unit: Related Unit First Cited Date"
-msgstr ""
-
-#: ../../source/units.rst:653
-#: 28be0b8580a042b3b78f9c8476ab54d1
-msgid "The earliest date that a source evidences a relationship between units, either through direct reference in the source or by the date of its publication."
-msgstr ""
-
-#: ../../source/units.rst:663
-#: 18f415b4681d4766b1462c6c9fd1b266
-msgid "**Spreadsheet column heading**"
-msgstr ""
-
-#: ../../source/units.rst:665
-#: 916191a3cc604a0c88e2310dd2309dad
-msgid "``unit:related_unit_first_cited_date``"
-msgstr ""
-
-#: ../../source/units.rst:669
-#: 8c0d20c3580f47b187f528f71c08b5b8
-msgid "``u_rufcd``"
-msgstr ""
-
-#: ../../source/units.rst:673
-#: f79f242a02bb4f2c94fead784a3ecdad
-msgid "Yes (``unit:related_unit_first_cited_date:source``, ``u_rufcd_s``)"
-msgstr ""
-
-#: ../../source/units.rst:677
-#: d5c6f428487241d5b2b964acc4f3e78f
-msgid "Yes (``unit:related_unit_first_cited_date:confidence``, ``u_rufcd_c``)"
-msgstr ""
-
-#: ../../source/units.rst:681
-#: ef86e9a0b79a4bf4bcd624b9b231a281
-msgid "Along with the fields ``Unit: Unit Relationship Start Date``, ``Unit: Related Unit Last Cited Date`` and ``Unit: Related Unit is Open-Ended`` the field ``Unit: Related Unit First Cited Date`` provides data on the time period for which sources provide evidence that one unit is related to another as a parent."
-msgstr ""
-
-#: ../../source/units.rst:683
-#: 752b46a0608e4aab8570d9e26c6d6739
-msgid "The ``Unit: Related Unit First Cited Date`` field contains a date that is either:"
-msgstr ""
-
-#: ../../source/units.rst:685
-#: efa3220a3cb34f648417cb55cc040566
-msgid "The earliest date found in a source that specifically references a parent relationship; or,"
-msgstr ""
-
-#: ../../source/units.rst:686
-#: 44d5795acc3440b2b60b3b601267d6ad
-msgid "The earliest date of publication of sources that make reference to a parent relationship."
-msgstr ""
-
-#: ../../source/units.rst:688
-#: cd718979757b426295999c76d4fe94c8
-msgid "For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all say that 3 Armoured Division became the parent of 1 Motorized Brigade, we will enter 1 January 2012 in ``Unit: Related Unit First Cited Date``. If the source published on 1 March 2012 says that 3 Armoured Division became the parent of 1 Motorized Brigade on 30 June 2011, we will use 30 June 2011 as the ``Unit: Related Unit First Cited Date``."
-msgstr ""
-
-#: ../../source/units.rst:690
-#: 43e3143a26de40959c4e557e71319524
-msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, such partial dates can be included in ``Unit: Related Unit First Cited Date`` ."
-msgstr ""
-
-#: ../../source/units.rst:692
-#: 67f4ffff27254d52b530bcce3c0c2c12
-msgid "This field is clarified by the field ``Unit: Unit Relationship Start Date`` (documented below) which indicates whether the date included here is the actual date on which a unit became the parent of another."
-msgstr ""
-
-#: ../../source/units.rst:695
-#: 744cfefc276c498bbb6d4401ec98db98
-msgid "Unit: Unit Relationship Start Date"
-msgstr ""
-
-#: ../../source/units.rst:699
-#: 2e025bb5543e4a23b01e7dea53aaf59b
-msgid "Indicates whether the value in ``Unit: Related Units First Cited Date`` is the actual date on which a unit became the parent of another, or the earliest date a source has referred to the relationship"
-msgstr ""
-
-#: ../../source/units.rst:703
-#: ../../source/units.rst:1176
-#: c9a672e001504273bdfa3698ee16e54d
-#: 5f91392eaedf4c1faddfd9cc2e3d5e15
-msgid "Boolean (Yes, No)"
-msgstr ""
-
-#: ../../source/units.rst:711
-#: f7996dce6ee148d79871482ccc7c418c
-msgid "``unit:related_unit_first_cited_date_start``"
-msgstr ""
-
-#: ../../source/units.rst:715
-#: 30dabf74da1946418f935e4ba9c81ea1
-msgid "``u_rufcds``"
-msgstr ""
-
-#: ../../source/units.rst:719
-#: b7c80fe6483f49458b889f68e05b2f74
-msgid "Yes. Inherits from ``Unit: Related Unit First Cited Date`` (``unit:related_unit_first_cited_date:source``, ``u_rufcd_s``)"
-msgstr ""
-
-#: ../../source/units.rst:723
-#: 530065fc384b4fb28e8481310f13a0e9
-msgid "Yes. Inherits from ``Unit: Related Unit First Cited Date`` (``unit:related_unit_first_cited_date:confidence``, ``u_rufcd_c``)"
-msgstr ""
-
-#: ../../source/units.rst:727
-#: 25eb57a8428944828b163eb179cf3106
-msgid "This is a clarifying field for ``Unit: Related Unit First Cited Date``. Where a source references the parent relationship and specifies the date that the relationship began we will enter ``Y`` . In all other cases we will enter a value of ``N`` to indicate that the date is not a start date, but the date of first citation."
-msgstr ""
-
-#: ../../source/units.rst:730
-#: 743e146750e34e3fac09e9255a07e89b
-msgid "Unit: Related Unit Last Cited Date"
-msgstr ""
-
-#: ../../source/units.rst:734
-#: ae5587ac81c6445e9574895c2d9193de
-msgid "The latest date that a source evidences a parent unit relationship, either through direct reference in the source or by the date of its publication."
-msgstr ""
-
-#: ../../source/units.rst:746
-#: 39d38de4f0f2458da29a469eb4d6fc49
-msgid "``unit:related_unit_last_cited_date``"
-msgstr ""
-
-#: ../../source/units.rst:750
-#: 4adfc7c3650f474194ab3eec0c443586
-msgid "``u_rulcd``"
-msgstr ""
-
-#: ../../source/units.rst:754
-#: a537d61aded64f7c89c0a2198895b8a1
-msgid "Yes (``unit:related_unit_last_cited_date:source``, ``u_rulcd_s``)"
-msgstr ""
-
-#: ../../source/units.rst:758
-#: f854eb26f81445789297935d707f2cf4
-msgid "Yes (``unit:related_unit_last_cited_date:confidence``, ``u_rulcd_c``)"
-msgstr ""
-
-#: ../../source/units.rst:762
-#: 3fe6c8bebb05495389b5d0d91b283e23
-msgid "Along with the fields ``Unit: Related Unit First Cited Date``, ``Unit: Unit Relationship Start Date`` and ``Unit: Related Unit is Open-Ended`` the field ``Unit: Related Unit Last Cited Date`` provides data on the time period we can evidence that one unit is the parent of another."
-msgstr ""
-
-#: ../../source/units.rst:764
-#: 151f0487e5a24f19bc3db474a094f48c
-msgid "The ``Unit: Related Unit Last Cited Date`` field contains a date that is either:"
-msgstr ""
-
-#: ../../source/units.rst:766
-#: af6bb2c5bd544b989f16aa9a4d8ae11d
-msgid "The latest date found in a source that specifically references a parent relationship; or,"
-msgstr ""
-
-#: ../../source/units.rst:767
-#: ba284b2077c14f0894c643fdb93916e5
-msgid "The latest date of publication of sources that make reference to a parent relationship."
-msgstr ""
-
-#: ../../source/units.rst:769
-#: 279a858435224e9d9abbadc8ad5b2c1f
-msgid "Example: Three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all state that the 1 Motorized Brigade is under the 3 Armoured Division (which evidences a parent relationship), we will enter 1 March 2012 in ``Unit: Related Unit Last Cited Date``."
-msgstr ""
-
-#: ../../source/units.rst:771
-#: ../../source/units.rst:775
-#: a479f0b420f94cc6a7222dce6b5a1402
-#: d692b9ce77094ff591861b2b215c1c34
-msgid "Example: A source published on 23 July 2017 describes actions undertaken by the 1 Motorized Brigade is under the 3 Armoured Division during riots in 2009, and another source published on 8 June 2008 states that the 1 Motorized Brigade is under the 3 Armoured Division, we would enter 2009 in ``Unit: Related Unit Last Cited Date``."
-msgstr ""
-
-#: ../../source/units.rst:773
-#: ee0c0fe8b44d4b438c753b82d12715e7
-msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Unit: Related Unit Last Cited Date``"
-msgstr ""
-
-#: ../../source/units.rst:777
-#: 8ad3442433214e1badcf9e546732b0f8
-msgid "This field is clarified by the field ``Unit: Related Unit is Open-Ended``, which indicates whether the date included here is the actual date on which a unit stopped being the parent of another."
-msgstr ""
-
-#: ../../source/units.rst:781
-#: b97daad1a37942f580cfe4050cab940f
-msgid "Unit: Related Unit is Open-Ended"
-msgstr ""
-
-#: ../../source/units.rst:785
-#: a9260bb3dad048e892c46ce64c6d1749
-msgid "Indicates whether or not the value in ``Unit: Related Unit Last Cited Date`` is the actual date on which the parent relationship ended."
-msgstr ""
-
-#: ../../source/units.rst:789
-#: ../../source/units.rst:1258
-#: e5efdef7af574ef688ab513a454cdff1
-#: 5d36d4f319124e03a489929f10cd8551
-msgid "Single choice (Y, N, E)"
-msgstr ""
-
-#: ../../source/units.rst:797
-#: fb437222a69c446c8d1463f6aa55af42
-msgid "``unit:related_unit_open``"
-msgstr ""
-
-#: ../../source/units.rst:801
-#: 7909cc5539ec47859f4e08beb2db70b7
-msgid "``u_ruo``"
-msgstr ""
-
-#: ../../source/units.rst:805
-#: 0508aff0ac6346eea51fa0b5bda85aaa
-msgid "Yes. Inherits from ``Unit: Related Unit Last Cited Date`` (``unit:related_unit_last_cited_date:source``, ``u_rulcd_s``)"
-msgstr ""
-
-#: ../../source/units.rst:809
-#: 3cd5c0b9bc3c4814a2bda01aded12fd0
-msgid "Yes. Inherits from ``Unit: Related Unit Last Cited Date`` (``unit:related_unit_last_cited_date:confidence``, ``u_rulcd_c``)"
-msgstr ""
-
-#: ../../source/units.rst:813
-#: 2fa645e3c9c249cfabea92f79c2c5518
-msgid "We use this field to clarify the meaning of the date entered in ``Unit: Related Unit Last Cited Date`` One of the below values should be chosen:"
-msgstr ""
-
-#: ../../source/units.rst:815
-#: 49a6c8f40a3a4a1fa2292cdebe216ddc
-msgid "``E`` indicates the exact date one unit stopped being the parent of another."
-msgstr ""
-
-#: ../../source/units.rst:816
-#: a241d7b24b4a4006a06fa3e715bbcf83
-msgid "``Y`` indicates that we assume this parent relationship continues to exist."
-msgstr ""
-
-#: ../../source/units.rst:817
-#: ab9320c8060f46dba5ea08f2366d2a0d
-msgid "``N`` indicates we do not assume that this parent relationship continues to exist, but we do not have an exact end date."
-msgstr ""
-
-#: ../../source/units.rst:820
-#: fb8cc957b6ce4dc582ef2c9ef96d532f
-msgid "Unit: Base Name"
-msgstr ""
-
-#: ../../source/units.rst:824
-#: c87274d2029a47c5b33887de98744b94
-msgid "A base is a distinctively named building or complex - like a barracks or camp - where the unit is located."
-msgstr ""
-
-#: ../../source/units.rst:832
-#: 31ad6b0ad35a433192c6b83c86f96658
-msgid "``Leopard Base``, ``Giwa Barracks``, ``Bonny Camp``"
-msgstr ""
-
-#: ../../source/units.rst:836
-#: d40a8e93949c4a498a4291232c7721ac
-msgid "``unit:base_name```"
-msgstr ""
-
-#: ../../source/units.rst:840
-#: be30fdf85ec74c56a51cf0e974d899c3
-msgid "``u_bn``"
-msgstr ""
-
-#: ../../source/units.rst:844
-#: b31b0b80ab144622b4e67df644a154d7
-msgid "Yes (``unit:base_name:source``, ``u_b_s``)"
-msgstr ""
-
-#: ../../source/units.rst:848
-#: 90855cd9a9814851b5e0961190f56e04
-msgid "Yes (``unit:base_name:confidence``, ``u_b_c``)"
-msgstr ""
-
-#: ../../source/units.rst:853
-#: 7effbdf85c144a599ebc12c24cb55211
-msgid "The ``Unit: Base Name`` field adds detail about a site. This field is used to record data about units that are located in a distinctively-named building or complex."
-msgstr ""
-
-#: ../../source/units.rst:855
-#: ce976fc5a65548ad8fee93f3fa96d84e
-msgid "For example, ``3 Battalion`` in Nigeria is cited as being based in the ``Lubanga Barracks`` in ``Enugu, Enugu State, Nigeria``."
-msgstr ""
-
-#: ../../source/units.rst:857
-#: c2d3ffa6975e40528fce311572e9b9fb
-msgid "This field should not be used for anything that matches the name or alias of a unit. For example, ``North Sector Police Station`` should not be put in this field if the name of the unit is ``North Sector Police Station``."
-msgstr ""
-
-#: ../../source/units.rst:860
-#: 9e5e73eb172641038920460c83aa9f6e
-msgid "Unit: Site, Exact Location (Longitude or Gazetteer Name)"
-msgstr ""
-
-#: ../../source/units.rst:864
-#: 3b8db4c12bf34671aca72be0baf37261
-msgid "The longitude or gazetteer name of the most precise location of a site associated with a unit."
-msgstr ""
-
-#: ../../source/units.rst:868
-#: 25297e1b4f3a4a23a58dc22ebf54359c
-msgid "First value of a latitude/longitude pair (using `EPSG:3857 <http://spatialreference.org/ref/epsg/wgs-84/>`__), or a name provided by a gazetteer."
-msgstr ""
-
-#: ../../source/units.rst:872
-#: 70677ab798d0465caa13259be2410979
-msgid "If used to record an OSM Node Name: ``Masr Al-Gedida``"
-msgstr ""
-
-#: ../../source/units.rst:873
-#: 3fa52c63dcdd45b48e4346b220f7f940
-msgid "If used to record a latitude: ``31.3280332``"
-msgstr ""
-
-#: ../../source/units.rst:877
-#: 942b2e6df2564664a5641b0de9a2957e
-msgid "``unit:site_exact_location_name_longitude``"
-msgstr ""
-
-#: ../../source/units.rst:881
-#: 4afeee5968f84b37a435b5f32a9eff68
-msgid "``u_selnlon``"
-msgstr ""
-
-#: ../../source/units.rst:885
-#: ../../source/units.rst:926
-#: a0998904d7a449c8a01d2b5e9db4d2a6
-#: 89ffd80ae58f48d0b2e069c86ba94edd
-msgid "Yes (``unit:site_exact_location:source``, ``u_sel_s``)"
-msgstr ""
-
-#: ../../source/units.rst:889
-#: ../../source/units.rst:930
-#: ab6d63681fc54e6e816eb4b001ef47a3
-#: 29400eaeefa94010b557ce5b7c81aa32
-msgid "Yes (``unit:site_exact_location:confidence``, ``u_sel_c``)"
-msgstr ""
-
-#: ../../source/units.rst:893
-#: ../../source/units.rst:934
-#: d6bc85ef5a6847ac8249cfa03f486e7c
-#: 3fbc6dcc55f942ea919300b98bb1dea3
-msgid "We identify sites with a number of different levels of geographical precision."
-msgstr ""
-
-#: ../../source/units.rst:895
-#: e4a426efc9b24d76bcd7b9e0c2448073
-msgid "``Unit: Site, Exact Location (Longitude or Gazetteer Name)`` is the first of a pair of values with ``Unit: Site, Exact Location (Latitude or Gazetteer Identity Number)``. This pair of fields is used to record the most precise location of a site associated with a unit, whether this is a location name and ID provided by a gazetteer (such as an object (``node``, ``way`` or ``relation``) in OpenStreetMap) or a pair of geographical coordinates."
-msgstr ""
-
-#: ../../source/units.rst:897
-#: 44a002ca723044918378923ae7fb11b6
-msgid "Where an object for the exact site is present in the gazetteer we will enter its name in this field."
-msgstr ""
-
-#: ../../source/units.rst:898
-#: 02bd87d8d1b249a78cb406fab917dece
-msgid "Where no object exists in the gazetteer for the exact site a pair of coordinates will be used, the longitude value is recorded in this field."
-msgstr ""
-
-#: ../../source/units.rst:901
-#: aead6132da5e4ab8a4c0e660a52e997f
-msgid "Unit: Site, Exact Location (Latitude or Gazetteer Identity Number)"
-msgstr ""
-
-#: ../../source/units.rst:905
-#: 5ee91c84e5b448ba9a578069db520bee
-msgid "The latitude or gazetteer identity number of the most precise location of a site associated with a unit."
-msgstr ""
-
-#: ../../source/units.rst:909
-#: 98d9287a0a0248b583bceedd79a9f0b9
-msgid "Second value of a longitude/latitude pair (using `EPSG:3857 <http://spatialreference.org/ref/epsg/wgs-84/>`__), or an identity/reference number provided by a gazetteer."
-msgstr ""
-
-#: ../../source/units.rst:913
-#: 71291a64add646b282d7fda296f5ec22
-msgid "If used to record an OSM object ID number: ``452377264``"
-msgstr ""
-
-#: ../../source/units.rst:914
-#: e6d5507a7ee84c1a82751a02e83e18a8
-msgid "If used to record a Longitude: ``30.09716``"
-msgstr ""
-
-#: ../../source/units.rst:918
-#: 4c75e6ddbbcf407391b2b51b3861a7cf
-msgid "``unit:site_exact_location_id_latitude``"
-msgstr ""
-
-#: ../../source/units.rst:922
-#: b74280d0210b46caa8d18bc6435d643e
-msgid "``u_selidlat``"
-msgstr ""
-
-#: ../../source/units.rst:936
-#: 5082370832164cd08fed7efd4889a3b2
-msgid "``Unit: Site, Exact Location (Latitude or Gazetteer Identity Number)`` is the second of a pair of values with ``Unit: Site, Exact Location (Longitude or Gazetteer Name)``. This pair of fields is used to record the most precise location of a site associated with a unit, whether this is a location name and ID provided by a gazetteer (such as an object (``node``, ``way`` or ``relation``) in OpenStreetMap) or a pair of geographical coordinates."
-msgstr ""
-
-#: ../../source/units.rst:938
-#: 99b72de159cd4d6badd932f677d943d1
-msgid "Where an object for the exact site is present in the gazetteer we will enter its identity/reference number in this field."
-msgstr ""
-
-#: ../../source/units.rst:939
-#: 9ccb1391978a4543a8e2f0354b394e74
-msgid "Where no object exists in the gazetteer for the exact site a pair of coordinates will be used, the latitude value is recorded in this field."
-msgstr ""
-
-#: ../../source/units.rst:942
-#: 9f7848416ac64b19b6ba3844ec1a4397
-msgid "Unit: Site, Nearest Settlement (Name)"
-msgstr ""
-
-#: ../../source/units.rst:946
-#: ../../source/units.rst:981
-#: aff8e679af9c4d78b230629d77235333
-#: 8bb1d1f2932644b9ade52adca254397f
-msgid "The city, town or village in which a unit site is based."
-msgstr ""
-
-#: ../../source/units.rst:950
-#: 495fdf8dc7c14318b164499d4ad0cae7
-msgid "First in a pair of values with ``Unit: Site, Settlement (ID)``, gazetteer settlement Name (text)"
-msgstr ""
-
-#: ../../source/units.rst:954
-#: de1dc1ad5edf4571bd2bcc03d5388eda
-msgid "``Tampico``, ``Francisco Escarcega``, ``Abu al Matamir``"
-msgstr ""
-
-#: ../../source/units.rst:958
-#: 6381168efb5945f48d1551089df71ef7
-msgid "``unit:site_nearest_settlement_name``"
-msgstr ""
-
-#: ../../source/units.rst:962
-#: e77f4bc9b61d420d8ce530371e71178f
-msgid "``u_nsn``"
-msgstr ""
-
-#: ../../source/units.rst:966
-#: 52378a0402964e1f876d67e1a98fd7fa
-msgid "Yes (``unit:site_neartest_settlement_name:source``, ``u_nsn_s``)"
-msgstr ""
-
-#: ../../source/units.rst:970
-#: 7ee0fb35ec3f4cc0951d00b509338cd7
-msgid "Yes (``unit:site_neartest_settlement_name:confidence``, ``u_nsn_c``)"
-msgstr ""
-
-#: ../../source/units.rst:974
-#: 4eeea4924b6b41338a95ab74087308c6
-msgid "We identify ``sites`` with a number of different levels of geographical precision. In ``Site: Settlement (Name)`` we record the settlement name included in the gazetteer in use for the dataset. For example, if Open Street Map is the gazetter, then we will record the name of the OSM object (node, way or relation) that identifies a settlement in which there is a unit site. It could be a city, town or village or other gazetteer object that denotes a settlement."
-msgstr ""
-
-#: ../../source/units.rst:977
-#: 0711ec6707f44b929ae69bd392c2e963
-msgid "Unit: Site, Nearest Settlement (ID)"
-msgstr ""
-
-#: ../../source/units.rst:985
-#: b165fda0a0ec48a98cdfcd864a4e18d8
-msgid "Second in a pair of values with ``Unit: Site, Settlement (Name)``, gazetteer ID (number)"
-msgstr ""
-
-#: ../../source/units.rst:989
-#: 934472ff22694bf9b44d5ba2f693305a
-msgid "``273584290``,\\ ``286989920``,\\ ``769127625``"
-msgstr ""
-
-#: ../../source/units.rst:993
-#: b0dc966f38e04adeaaf717237b022c03
-msgid "``unit:site_nearest_settlement_id``"
-msgstr ""
-
-#: ../../source/units.rst:997
-#: d106d43764ef46e089c3b9c8c5e5c87f
-msgid "``u_nsid``"
-msgstr ""
-
-#: ../../source/units.rst:1001
-#: a33d47b52cf3416f967777e08fbad048
-msgid "Yes. Inherits from ``Unit: Site, Nearest Settlement (Name)`` (``unit:site_neartest_settlement_name:source``, ``u_nsn_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1005
-#: c0ad1911ddd442b19a912ff61101f605
-msgid "Yes. Inherits from ``Unit: Site, Nearest Settlement (Name)`` (``unit:site_neartest_settlement_name:confidence``, ``u_nsn_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1009
-#: 293ee59e2c1d40e0a50ba17861ff83a8
-msgid "We identify sites with a number of different levels of geographical precision. In ``Unit: Site, Nearest Settlement (ID)`` field we record the identity number of the location as provided by the gazetteer in use for the dataset. For example, if Open Steet Map is the gazetteer, then we will record the ID number of the OSM object (``node``, ``way`` or ``relation``) that identifies a settlement in which there is a unit site. It could be a city, town or village or other gazetteer object that denotes a settlement."
-msgstr ""
-
-#: ../../source/units.rst:1012
-#: 30a03321fbb54552960fc4bc8a076a89
-msgid "Unit: Site, First-level Administrative Area (Name)"
-msgstr ""
-
-#: ../../source/units.rst:1016
-#: 5821cb2cf9c84e1f8c5dfc225b330687
-msgid "The  name of the largest, generally used sub-national administrative area of a country, as defined by the gazetteer."
-msgstr ""
-
-#: ../../source/units.rst:1020
-#: f4d6145aeea648ea8b0004ad28d36c8f
-msgid "First in a pair of values, gazetteer name (text)"
-msgstr ""
-
-#: ../../source/units.rst:1024
-#: 7d0de401aa574eb596d6fc51df584afb
-msgid "``Michoacán, Borno``"
-msgstr ""
-
-#: ../../source/units.rst:1028
-#: b5cfe001521141f6a8c5fc150be59d9c
-msgid "``unit:site_first_admin_area_name``"
-msgstr ""
-
-#: ../../source/units.rst:1032
-#: e5bbbaaaeceb4b3cbc4f2d6e96f48bc0
-msgid "``u_sfaan``"
-msgstr ""
-
-#: ../../source/units.rst:1036
-#: 8c6dc02b3cba4941a72b524641437780
-msgid "Yes (``unit:site_first_admin_area_name:source``, ``u_sfaan_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1040
-#: 6a985890c674456caedff12c73bc4ae9
-msgid "Yes (``unit:site_first_admin_area_name:confidence``, ``u_sfaan_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1044
-#: 495633558ef94f96883cf7a6bb597c83
-msgid "We identify sites with a number of different levels of geographical precision. In ``Unit: Site, First-level Administrative Area (Name)`` we record the text name of highest level subnational boundary for the country in which the site is located, as defined in the gazetteer in use for the dataset. For example, if Open Steet Map is the gazetteer, administrative levels can be `found here <http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations>`__. Generally, adminstrative areas are `relations <https://wiki.openstreetmap.org/wiki/Relation>`__ in the OSM dataset, and are tagged as administrative levels."
-msgstr ""
-
-#: ../../source/units.rst:1046
-#: be869a59d5f54eabb5d29c0d12cb096c
-msgid "Example: Mexico has both *municipios* (administrative level 6 in OSM) and states (administrative level 4). For a ``site`` based in Mexico, we would record in ``Unit: Site, First-level Administrative Area (Name)`` the name of the administrative level 4 object or the state."
-msgstr ""
-
-#: ../../source/units.rst:1049
-#: 8bdce31e4fe04cabafb4f7e8909137be
-msgid "Unit: Site, First-level Administrative Area (ID)"
-msgstr ""
-
-#: ../../source/units.rst:1053
-#: 289553fbe6744f6a8b93ed6a136f01fe
-msgid "The identity number of the largest, generally used sub-national administrative area of a country, as defined by the gazetteer."
-msgstr ""
-
-#: ../../source/units.rst:1057
-#: 74005600851a4a18b91b042e489840df
-msgid "Second in a pair of values, gazetteer object ID (number"
-msgstr ""
-
-#: ../../source/units.rst:1061
-#: 19500c58bb2c4d0e8c8fb09f1edca131
-msgid "``2340636``"
-msgstr ""
-
-#: ../../source/units.rst:1065
-#: e364184ab42347ac8ef63dc0ae1634c6
-msgid "``unit:site_first_admin_area_id``"
-msgstr ""
-
-#: ../../source/units.rst:1069
-#: 2b247ae5d2b74c70a8263ad0de06b6e8
-msgid "``u_sfaaid``"
-msgstr ""
-
-#: ../../source/units.rst:1073
-#: 629f5b9d5c9b4a078a70a3ce4ff6b3b1
-msgid "Yes. Inherits from ``Unit: First-level Administrative Area (Name)`` (``unit:site_first_admin_area_name:source``, ``u_sfaan_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1077
-#: 9a04d2704cbb4b3b8821736793c03351
-msgid "Yes. Inherits from ``Unit: First-level Administrative Area (Name)`` (``unit:site_first_admin_area_name:confidence``, ``u_sfaan_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1081
-#: 2139b7155f1744e1b4cae104f8f03623
-msgid "We identify sites with a number of different levels of geographical precision. In ``Unit: Site, First-level Administrative Area (ID)`` we record the text name of highest level subnational boundary for the country in which the site is located, as defined in the gazetteer in use for the dataset. For example, if Open Steet Map is the gazetteer, administrative levels can be `found here <http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations>`__. Generally, adminstrative areas are `relations <https://wiki.openstreetmap.org/wiki/Relation>`__ in the OSM dataset, and are tagged as administrative levels."
-msgstr ""
-
-#: ../../source/units.rst:1083
-#: 5b180326f3f1454f9dc70a8afaa7b79e
-msgid "Example: Mexico has both *municipios* (administrative level 6 in OSM) and states (administrative level 4). For a ``site`` based in Mexico, we would record in ``Unit: First-level Administrative Area (ID number)`` the OSM object ID number of the administrative level 4 object or the state."
-msgstr ""
-
-#: ../../source/units.rst:1086
-#: a552368308ae4de1a91a3ecc0e4d9a21
-msgid "Unit: Site Country"
-msgstr ""
-
-#: ../../source/units.rst:1090
-#: 012e1a505aa3485e8629077e4702ae39
-msgid "ISO 3166 two letter code for the country in which a unit site is located."
-msgstr ""
-
-#: ../../source/units.rst:1102
-#: 7f58db8437884a748a1ab31177f42818
-msgid "``unit:site_country``"
-msgstr ""
-
-#: ../../source/units.rst:1104
-#: 456620b101eb4513b8b7cc5b06011ebf
-msgid "**Shortcodes**"
-msgstr ""
-
-#: ../../source/units.rst:1106
-#: 3b3fb0a2b5c24201a811c56fe1a863ee
-msgid "``u_sc``"
-msgstr ""
-
-#: ../../source/units.rst:1110
-#: 7c8470fcf250468694d4651ccf3795ce
-msgid "Yes (``unit:site_country:source``, ``u_sc_s``). These are not in use in spreadsheets."
-msgstr ""
-
-#: ../../source/units.rst:1114
-#: 18857725ed144c8daaf437dcf67ac708
-msgid "Yes (``unit:site_country:confidence``, ``u_sc_c``). These are not in use in spreadsheets."
-msgstr ""
-
-#: ../../source/units.rst:1118
-#: 1d60d39d08bb44f2808b124273b5fac0
-msgid "We identify sites with a number of different levels of geographical precision. The ``Unit: Site Country`` field identifies the country in which a unit site is located. All entries in this field are two letter country codes taken from `ISO 3166 which can be searched here <https://www.iso.org/obp/ui/#search>`__."
-msgstr ""
-
-#: ../../source/units.rst:1120
-#: 73ba1b56a3514e9689d4fdeb6073ad31
-msgid "For example, a unit site located in Nigeria would have the code ``ng`` and a unit site located in Brazil would have the code ``br``."
-msgstr ""
-
-#: ../../source/units.rst:1123
-#: 21f3dc7199e74d0ca40b1f20c529eccf
-msgid "Unit: Site, First Cited Date"
-msgstr ""
-
-#: ../../source/units.rst:1127
-#: 902e5ab95d264b79b86c880e15dccaab
-msgid "This field captures the earliest citation date for the location of a site, either through direct reference in the source or by the date of its publication."
-msgstr ""
-
-#: ../../source/units.rst:1139
-#: 1f305e2558f44a279db435ee927bda8f
-msgid "``unit:site_first_cited_date``"
-msgstr ""
-
-#: ../../source/units.rst:1143
-#: 710196f3e6e44367aba2052493a98141
-msgid "``u_sfcd``"
-msgstr ""
-
-#: ../../source/units.rst:1147
-#: 5d18e70dbf494c53b9f3e857b8cd9884
-msgid "Yes (``unit:site_first_cited_date:source``, ``u_sfcd_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1152
-#: 7319733bc17f45a882ec1fb54018bdd9
-msgid "Yes (``unit:site_first_cited_date:confidence``, ``u_sfcd_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1156
-#: f940e158cedf4866b077ba426391acf2
-msgid "Along with the fields ``Unit: Site was founded on First Cited Date``, ``Unit: Site, Last Cited Date`` and ``Unit: Site, Last Cited Date is Open-Ended`` the field ``Unit: Site, First Cited Date`` provides data on the time period for a site's location."
-msgstr ""
-
-#: ../../source/units.rst:1158
-#: 467c6a6eae64434d8a9086c9ea849a02
-msgid "The ``Unit: Site, First Cited Date`` field contains a date that is either:"
-msgstr ""
-
-#: ../../source/units.rst:1160
-#: 834a83775ffd469ca8d033d62af88492
-msgid "The earliest date found in any source that references the values contained in the pairs of fields that record ``Unit: Site, Nearest Settlement``, or failing that, ``Unit: Site, First-level Administrative Area``."
-msgstr ""
-
-#: ../../source/units.rst:1161
-#: 6af5eadd13584333aa5812d70c9974e8
-msgid "The earliest date of publication of any source that references the values contained in the pairs of fields that record ``Unit: Site, Nearest Settlement``, or failing that, ``Unit: Site, First-level Administrative area``."
-msgstr ""
-
-#: ../../source/units.rst:1163
-#: 52e98108eff44752b437e4cef99e93f0
-msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Unit: Site, First Cited Date``."
-msgstr ""
-
-#: ../../source/units.rst:1165
-#: 7fa9e142f0674718974512340325543f
-msgid "This field is clarified by the field ``Unit: Site was Founded on First Cited Date`` which indicates whether the date included here is the actual date on which a unit site was founded."
-msgstr ""
-
-#: ../../source/units.rst:1168
-#: f4ff9e16f03e40b9a716b87e6aa02255
-msgid "Unit: Site was Founded on First Cited Date"
-msgstr ""
-
-#: ../../source/units.rst:1172
-#: ac4fda669af84e99b95fa4fd79a43509
-msgid "Indicates whether or not the value in ``Unit: Site, First Cited Date`` the actual date on which a unit site was founded"
-msgstr ""
-
-#: ../../source/units.rst:1184
-#: 0ab4484dcee64df3bd72f7eab2bba6db
-msgid "``unit:site_first_cited_date_founding``"
-msgstr ""
-
-#: ../../source/units.rst:1188
-#: 995a31c4e15a40caab645fb3950ce3a4
-msgid "``u_sfcdf``"
-msgstr ""
-
-#: ../../source/units.rst:1192
-#: 6dc90551f19a4ca8be7ec0a0b2416e05
-msgid "Yes. Inherits from ``Unit: Site, First Cited Date`` (``unit:site_first_cited_date:source``, ``u_sfcd_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1196
-#: 171be25fe7374304b145b6f0637cf7d6
-msgid "Yes. Inherits from ``Unit: Site, First Cited Date`` (``unit:site_first_cited_date:confidence``, ``u_sfcd_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1200
-#: 4200b2179a0343a08ab9e601c77dd9a2
-msgid "This is a clarifying field for ``Unit: Site, First Cited Date``. There are two options for use in this field:"
-msgstr ""
-
-#: ../../source/units.rst:1202
-#: 84fc214a1f1147e28e216d048ab912be
-msgid "``Y``: Where a source references a unit site and specifies the date that unit site was founded."
-msgstr ""
-
-#: ../../source/units.rst:1203
-#: c37d74b645d3456db1cec70dae6fee87
-msgid "``N``: In all other cases, indicate that the date is not a start date, but the date of first citation."
-msgstr ""
-
-#: ../../source/units.rst:1206
-#: 8579ef460c0845539ccebd98c10994ee
-msgid "Unit: Site, Last Cited Date"
-msgstr ""
-
-#: ../../source/units.rst:1210
-#: 19d473ce9ad840c587d902520192b848
-msgid "This field is for the latest citation for the location of a site, either through direct reference in the source or by the date of its publication."
-msgstr ""
-
-#: ../../source/units.rst:1222
-#: f7aa8cb035f8454e83b510b5267a7d14
-msgid "``unit:site_last_cited_date``"
-msgstr ""
-
-#: ../../source/units.rst:1226
-#: dd78e03c1bb94e8a99a3fc9016a5ab29
-msgid "``u_slcd``"
-msgstr ""
-
-#: ../../source/units.rst:1230
-#: f3d683a0668c4dfe832c5d91cdb381c8
-msgid "Yes (``unit:site_last_cited_date:source``, ``u_slcd_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1234
-#: 056b275df53c4ce19598ef5cd841b0b3
-msgid "Yes (``unit:site_last_cited_date:confidence``, ``u_slcd_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1238
-#: cb633959cbde4e1a81d6c0f6dea53f3d
-msgid "Along with the fields ``Unit: Site, First Cited Date``, ``Unit: Site was founded on First Cited Date`` and ``Unit: Site, Last Cited Date is Open-Ended`` the field ``Unit: Site, Last Cited Date`` provides data on the time period for a site's location."
-msgstr ""
-
-#: ../../source/units.rst:1240
-#: 022796a92c75485ca23678e673ff6bed
-msgid "The ``Unit: Site, Last Cited Date`` field contains a date that is either:"
-msgstr ""
-
-#: ../../source/units.rst:1242
-#: 28462625e29c4241b3fcc8a0e6d7868d
-msgid "The latest date found in any source that references the values contained in the pairs of fields that record ``Unit: Site, Nearest Settlement``, or failing that, ``Unit: Site, First-level Administrative area``."
-msgstr ""
-
-#: ../../source/units.rst:1243
-#: 5c8d0673226c49cbb42239fbe767e474
-msgid "The latest date of publication of any source that references the values contained in the pairs of fields that record ``Unit: Site, Nearest Settlement``, or failing that, ``Unit: Site, First-level Administrative area``."
-msgstr ""
-
-#: ../../source/units.rst:1245
-#: 485e540b36a747e49a932d7fed1f49eb
-msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Unit: Site, Last Cited Date``."
-msgstr ""
-
-#: ../../source/units.rst:1247
-#: 362d9acd39894024a075f8c3b0e62e52
-msgid "This field is clarified by the field ``Unit: Site, Last Cited Date is Open-Ended`` which indicates whether the date included here is the actual date on which a unit was no longer located at this site."
-msgstr ""
-
-#: ../../source/units.rst:1250
-#: c0d38f48fdbb42c6aefa495d4c42830e
-msgid "Unit: Site, Last Cited Date is Open-Ended"
-msgstr ""
-
-#: ../../source/units.rst:1254
-#: ee64cd90461b4c958e2469f2b0c54397
-msgid "Indicates whether the value in ``Unit: Site, Last Cited Date`` is the actual date on which a unit site was disbanded, the latest date a source has referred to a unit site, and whether can we assume this unit site continues to exist."
-msgstr ""
-
-#: ../../source/units.rst:1266
-#: ead994a68252480bb495fe456dff74f8
-msgid "``unit:site_open``"
-msgstr ""
-
-#: ../../source/units.rst:1270
-#: 806ab35b82c441a19aa8b3500a190a45
-msgid "``u_so``"
-msgstr ""
-
-#: ../../source/units.rst:1274
-#: c1384d9fdb5f43d6af208f48cd880288
-msgid "Yes. Inherits from ``Unit: Site, Last Cited Date`` (``unit:site_last_cited_date:source``, ``u_slcd_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1278
-#: 3c00b9b9410740148b15ab49a01aed69
-msgid "Yes. Inherits from ``Unit: Site, Last Cited Date`` (``unit:site_last_cited_date:confidence``, ``u_slcd_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1282
-#: 5fae4d260e724716b8b78f0eb3f6bbbc
-msgid "We use this field to clarify the meaning of the date entered in ``Unit: Site, Last Cited Date``. In entering a value for this field we use a variety of factors including: the history of basing for the unit, the overall structure and nature of the security forces, and the frequency of movement of similar units."
-msgstr ""
-
-#: ../../source/units.rst:1284
-#: ../../source/units.rst:1559
-#: ../../source/units.rst:1764
-#: 2292827b523b4a14b9c9710f588fbce4
-#: 85151b3ce6ca4d1da7d97286e6924cff
-#: ae082389da3f4404b6635bbf365f1177
-msgid "The values that can be entered in this field are restricted to the below:"
-msgstr ""
-
-#: ../../source/units.rst:1286
-#: c1e931490c5340f996afb5b16a826cf9
-msgid "``E``: indicates the exact date this unit site was disbanded, or ceases to exist."
-msgstr ""
-
-#: ../../source/units.rst:1287
-#: de14810225eb4c539d2b0421556027b9
-msgid "``Y``: indicates that we assume this unit site continues to exist."
-msgstr ""
-
-#: ../../source/units.rst:1288
-#: bd40e5bdc2184bdba02417ef527b1228
-msgid "``N``: indicates we do not assume that this unit site continues to exist, but we do not have an exact end date."
-msgstr ""
-
-#: ../../source/units.rst:1291
-#: 6707ce76b63e4a14b1f4433d5db02606
-msgid "Unit: Area of Operations (Name)"
-msgstr ""
-
-#: ../../source/units.rst:1295
-#: ../../source/units.rst:1330
-#: b9ce75c6ae5249c5bc8c9a34e84c8219
-#: b7599c9e23e94680933f0249b47f4257
-msgid "A geographical area in which a unit exercises jurisdiction or has operated in any manner."
-msgstr ""
-
-#: ../../source/units.rst:1299
-#: d7fe5df630e14c71907c1e49056e96ee
-msgid "First in a pair of fields with ``Unit: Area of Operations (ID)``, gazetteer object name (text)"
-msgstr ""
-
-#: ../../source/units.rst:1303
-#: ccad394d9d3e4253964e2b7ad21fde6c
-msgid "``Baja California Sur``, ``Kafr el-Sheikh Governorate``"
-msgstr ""
-
-#: ../../source/units.rst:1307
-#: 5655146a17d4475ea731337438e8eeb8
-msgid "``unit:area_ops_name``"
-msgstr ""
-
-#: ../../source/units.rst:1311
-#: 6aaa5d74e0d64cb6a0e55698101f987c
-msgid "``u_an``"
-msgstr ""
-
-#: ../../source/units.rst:1315
-#: 72f22d844275445ca13893ec0a9383d3
-msgid "Yes (``unit:area_ops_name:source``, ``u_an_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1319
-#: 8a0bae91d23b4c718c62c87b65d0932a
-msgid "Yes (``unit:area_ops_name:confidence``, ``u_an_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1323
-#: 42edd0ec31034aa985cfe7c67d9cee3f
-msgid "This pair of fields document multiple and concurrent areas of operation of a unit. Where Open Street Map is used as the gazetteer for the dataset, the value entered in this field is the OSM name for the lowest-level formal geographical area that best describes where a unit has operated in some manner. In most cases, the OSM object type used in this field will be a ``relation``."
-msgstr ""
-
-#: ../../source/units.rst:1326
-#: 9fc5bdde820549b5afb1cb6df8e7f790
-msgid "Unit: Area of Operations (ID)"
-msgstr ""
-
-#: ../../source/units.rst:1334
-#: ce810968a7224feebf8d8eeac6bc7619
-msgid "Second in a pair of fields with ``Unit: Area of Operations (Name)``, gazetteer reference or ID number (number)"
-msgstr ""
-
-#: ../../source/units.rst:1338
-#: b9b3e9dcd5a742d09781c4b064787bde
-msgid "``2589611``, ``4103405``"
-msgstr ""
-
-#: ../../source/units.rst:1342
-#: 737d2925dabe45aeaf46135dfeb28eef
-msgid "``unit:area_ops_id``"
-msgstr ""
-
-#: ../../source/units.rst:1346
-#: 4d62e3c8e51e41baa34cf9b0cc985a07
-msgid "``u_aid``"
-msgstr ""
-
-#: ../../source/units.rst:1350
-#: 3cf794df7f9846b8bbe4e10c415605c2
-msgid "Yes. Inherits from ``Unit: Area of Operations (Name)`` (``unit:area_ops_name:source``, ``u_an_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1354
-#: d20a171905924fa3a6515473d34b3f18
-msgid "Yes. Inherits from ``Unit: Area of Operations (Name)`` (``unit:area_ops_name:confidence``, ``u_an_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1358
-#: 161340aa2c024ee886a48d91ebceaab3
-msgid "This pair fo fields document multiple and concurrent areas of operation of a unit. If Open Street Map is the gazetteer in use for the dataset, the value entered in this field is the OSM object ID number for the lowest-level formal geographical area that best describes where a unit has operated in some manner. In most cases, the OSM object type used in this field will be a ``relation``."
-msgstr ""
-
-#: ../../source/units.rst:1361
-#: 13dc0dd1fa09411c819b7059f80ab520
-msgid "Unit: Country of Area of Operations"
-msgstr ""
-
-#: ../../source/units.rst:1365
-#: 84c56dd547c548d596e77185b01bc924
-msgid "The country in which an Area of Operation is located."
-msgstr ""
-
-#: ../../source/units.rst:1377
-#: 6bae697abe1d4a5885bb1eaa324be726
-msgid "``unit:area_ops_country``"
-msgstr ""
-
-#: ../../source/units.rst:1381
-#: 2f78e76ab31d49839e9a32fc042d23e0
-msgid "``u_ac``"
-msgstr ""
-
-#: ../../source/units.rst:1385
-#: 2c5dc6b21f8e404291ab5f24548e0d31
-msgid "Yes (``unit:area_ops_country:source``, ``u_ac_s``), though these are not in use in spreadheets."
-msgstr ""
-
-#: ../../source/units.rst:1389
-#: da14ced472e547c2b9d41fa40278936b
-msgid "Yes (``unit:area_ops_country:confidence``, ``u_ac_c``), though these are not in use in spreadsheets."
-msgstr ""
-
-#: ../../source/units.rst:1393
-#: 022901d4e1644850a50aad1016b1291e
-msgid "We identify ``Area of Operations`` with two different levels of geographical precision"
-msgstr ""
-
-#: ../../source/units.rst:1395
-#: 6c545b6d49284eb28437afc51d600eab
-msgid "The ``Area of Operations: Country`` field identifies the country in which a unit has operated in some manner. All entries in this field are two letter country codes taken from `ISO 3166, which can be searched here <https://www.iso.org/obp/ui/#search>`__."
-msgstr ""
-
-#: ../../source/units.rst:1398
-#: 49835486e8744cae95c4bb4273bc45dd
-msgid "Unit: Area of Operations, First Cited Date"
-msgstr ""
-
-#: ../../source/units.rst:1402
-#: 656e5186d14740a489e5c32fd4aa1985
-msgid "This field is for the earliest citation for a unit's ``Area of Operations``, either through direct reference in the source or by the date of its publication."
-msgstr ""
-
-#: ../../source/units.rst:1414
-#: 3c15fde103cd4c1fa0bcd1cbca41c09e
-msgid "``unit:area_ops_first_cited_date``"
-msgstr ""
-
-#: ../../source/units.rst:1418
-#: 782f1ea489324eed877c3bcc2a6a0a43
-msgid "``u_aofcd``"
-msgstr ""
-
-#: ../../source/units.rst:1422
-#: 8d513b9aa1834894810ccdb4f777d5f2
-msgid "Yes (``unit:area_ops_first_cited_date:source``, ``u_aofcd_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1426
-#: ee4c809edc564726989155f9e75700db
-msgid "Yes (``unit:area_ops_first_cited_date:confidence``, ``u_aofcd_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1430
-#: db3087d6edea442f85fdcec092206160
-msgid "Along with the fields ``Unit: Area of Operations First Cited Date is Start Date``, ``Unit: Area of Operations Last Cited Date`` and ``Unit: Site, Last Cited Date is Open-Ended`` the field ``Unit: Area of Operations, First Cited Date`` provides data on the time period for which can specify a unit's Area of operations."
-msgstr ""
-
-#: ../../source/units.rst:1432
-#: c317139b13484a328cb318e047a0c1a9
-msgid "The ``Unit: Area of Operations, First Cited Date`` field contains a date that is either:"
-msgstr ""
-
-#: ../../source/units.rst:1434
-#: 6c17866308d8466da2921fc41bf4997a
-msgid "The earliest date found in any source that references the values contained in the pairs of fields that record ``Area of Operations``."
-msgstr ""
-
-#: ../../source/units.rst:1435
-#: 2ca7066bb72945dc8a625124521afb21
-msgid "The earliest date of publication for any source that references the values contained in the pairs of fields that record ``Area of Operations``."
-msgstr ""
-
-#: ../../source/units.rst:1437
-#: 076a51070b584306b76e2a1be99fdb34
-msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Unit: Area of Operations, First Cited``."
-msgstr ""
-
-#: ../../source/units.rst:1439
-#: a5fc8611ed924d75a596e680b456bec4
-msgid "This field is clarified by the field ``Unit: Area of Operations First Cited Date is Start Date`` which indicates whether the date included here is the actual date on which an Area of Operations started."
-msgstr ""
-
-#: ../../source/units.rst:1442
-#: 086c658ca55e46a39cef8e798d324ece
-msgid "Unit: Area of Operations First Cited Date is Start Date"
-msgstr ""
-
-#: ../../source/units.rst:1446
-#: a444951608d84dae8082d30515a9be0c
-msgid "Indicates whether or not the value in ``Unit: Area of Operations, First Cited Date`` is the actual date on which a unit's Area of Operations started, or the earliest date a source has referred to a unit's Area of Operations."
-msgstr ""
-
-#: ../../source/units.rst:1458
-#: 58e24ccfcf1b47fdafba0d20efc2d2e7
-msgid "``unit:area_ops_first_cited_date_start``"
-msgstr ""
-
-#: ../../source/units.rst:1462
-#: b06f0092ad754a7fae3a89e097a5ffea
-msgid "``u_aofcds``"
-msgstr ""
-
-#: ../../source/units.rst:1467
-#: 2f1e41ad96ae43d58a3a2f9f6010cc8b
-msgid "Yes. Inherits from ``Unit: Area of Operations First Cited Date`` (``unit:area_ops_first_cited_date:source``, ``u_aofcd_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1471
-#: c0bc327d274642dba07498da0a7dbdcc
-msgid "Yes. Inherits from ``Unit: Area of Operations First Cited Date`` (``unit:area_ops_first_cited_date:confidence``, ``u_aofcd_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1475
-#: c76fa7353d554616880508f4ac665cca
-msgid "This is a clarifying field for ``Unit: Area of Operations, Dirst Cited Date``. It has two options:"
-msgstr ""
-
-#: ../../source/units.rst:1477
-#: 61e62ce64f1a4057b0d25aa5b067e2f4
-msgid "``Y``: Used where a source references a unit and specifies the date that unit Area of Operations was started."
-msgstr ""
-
-#: ../../source/units.rst:1478
-#: b3dd4522e2f34f03b1b369dd3c3e9bed
-msgid "``N``: Used in all other cases to indicate that the date is not a start date, but the date of first citation."
-msgstr ""
-
-#: ../../source/units.rst:1481
-#: 590f66262b5f4bdfab4a0008dce0197d
-msgid "Unit: Area of Operations Last Cited Date"
-msgstr ""
-
-#: ../../source/units.rst:1485
-#: aa4b2e6452bc49c4a4371f716bf3ec22
-msgid "This field is for the date of latest citation for an Area of Operations, either through direct reference in the source or by the date of its publication."
-msgstr ""
-
-#: ../../source/units.rst:1497
-#: 85eb8c095ef3432ebd762e63046c844b
-msgid "``unit:area_ops_last_cited_date``"
-msgstr ""
-
-#: ../../source/units.rst:1501
-#: 41c9cff26335498493812752e8e7149e
-msgid "``u_aolcd``"
-msgstr ""
-
-#: ../../source/units.rst:1505
-#: 6a0191d7f91c4ce0ba7114b737c49c34
-msgid "Yes (``unit:area_ops_last_cited_date:source``, ``u_aolcd_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1509
-#: 5295267235d0493585b009111039db54
-msgid "Yes (``unit:area_ops_last_cited_date:confidence``, ``u_aolcd_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1513
-#: 53ea29ae52fc40c4ad0b443745c78b39
-msgid "Along with the fields ``Unit: Area of Operations First Cited Date``, ``Unit: Area of Operations First Cited Date is Start Date`` and ``Unit: Area of Operations is Open-Ended`` the field ``Unit: Area of Operations Last Cited Date`` provides data on the time period for which can specify an Area of Operations location."
-msgstr ""
-
-#: ../../source/units.rst:1515
-#: 5157150678724e8b9872a2e270a6d0a8
-msgid "The ``Unit: Area of Operations Last Cited Date`` field contains a date that is either:"
-msgstr ""
-
-#: ../../source/units.rst:1517
-#: a245723106ce45238f14d39e2c53db47
-msgid "The latest date found in any source that references the values contained in the pairs of fields that record ``Area of Operations``."
-msgstr ""
-
-#: ../../source/units.rst:1518
-#: 7a332bf7e7ac4a57bf4c3d4d69d4eaa6
-msgid "The latest date of publication for any source that references the values contained in the pairs of fields that record ``Area of Operations``. . In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Unit: Area of Operations Last Cited Date``."
-msgstr ""
-
-#: ../../source/units.rst:1520
-#: 508ef9fffa2745cf83c72de9f49eda61
-msgid "This field is clarified by the field ``Site: Open-ended?`` which indicates whether the date included here is the actual date on which a unit site was ended, or whether we have reason to assume its continued existence beyond that date."
-msgstr ""
-
-#: ../../source/units.rst:1523
-#: d5e8b32a251f44d2a7ad5b209afef7d5
-msgid "Unit: Area of Operations is Open-Ended"
-msgstr ""
-
-#: ../../source/units.rst:1527
-#: 2dfb836616f54a5b9de28fe07a96ab1e
-msgid "Indicates whether the value in ``Unit: Area of Operations Last Cited Date`` is the actual date on which a unit ended operations in the specified area, the latest date a source has referred to this Area of Operations, and whether can we assume a unit will continue to operate in an area beyond the date of last citation."
-msgstr ""
-
-#: ../../source/units.rst:1531
-#: b162b0a020cc4198aad015a3d4d42ee1
-msgid "Single choice from selection"
-msgstr ""
-
-#: ../../source/units.rst:1539
-#: 6bb708079f034359a64b95f3dcd381b0
-msgid "``unit:area_ops_open``"
-msgstr ""
-
-#: ../../source/units.rst:1543
-#: 79a3acd6434d4b898eadba5541a875aa
-msgid "``u_aoo``"
-msgstr ""
-
-#: ../../source/units.rst:1547
-#: b040753b88414967bdca0e159f502195
-msgid "Yes. Inherits from ``Unit: Area of Operations Last Cited Date`` (``unit:area_ops_last_cited_date:source``, ``u_aolcd_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1551
-#: 8648b03164a741e78847995f99213950
-msgid "Yes. Inherits from ``Unit: Area of Operations Last Cited Date`` (``unit:area_ops_last_cited_date:confidence``, ``u_aolcd_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1555
-#: ec84585610a44947be1d68d1da4513e9
-msgid "We use this field to clarify the meaning of the date entered in ``Unit: Area of Operations Last Cited Date``. In entering a value for this field we use a variety of factors to assess whether a unit continues to operation in any manner in this area beyond the date of the last citation. These include: the history of operations of the unit, the overall structure and nature of the security forces, and the frequency of movement of similar units."
-msgstr ""
-
-#: ../../source/units.rst:1557
-#: bf66aea019ee41049b92eea33c59f376
-msgid "For Example, the ``New York State police`` would likely maintain an area of operation over all of ``New York State`` even if the last citation available to us was from 2015."
-msgstr ""
-
-#: ../../source/units.rst:1561
-#: 9a559077ff9341bbace3da2ee61d0102
-msgid "``E``: indicates the exact date a unit stops operating in the specified area."
-msgstr ""
-
-#: ../../source/units.rst:1562
-#: 69a69c699c75496bafa1cd8d522d18e3
-msgid "``Y``: indicates that we assume this unit continues to operation in the specified area."
-msgstr ""
-
-#: ../../source/units.rst:1563
-#: 96ac127fa1274283adbf172e6da8bb37
-msgid "``N``: indicates we do not assume that this unit will continue to operate in the specified area, but we do not have an exact end date for this."
-msgstr ""
-
-#: ../../source/units.rst:1566
-#: 649093d244034ff9bc224ef1bc637dbf
-msgid "Unit: Membership"
-msgstr ""
-
-#: ../../source/units.rst:1570
-#: 1afb10fcb8d94b738d219aa2813565cf
-msgid "Internal/national joint operations, international peacekeeping operations, or other multi-unit efforts that this unit is a part of."
-msgstr ""
-
-#: ../../source/units.rst:1578
-#: de3c783138b44d808cf71af197fbea96
-msgid "``Operación Conjunta Chihuahua``, ``Operation BOYONA``"
-msgstr ""
-
-#: ../../source/units.rst:1582
-#: 6aa5ce724c0f49a98834149abf583d89
-msgid "``unit:membership_name``"
-msgstr ""
-
-#: ../../source/units.rst:1586
-#: 49f386e43b67421fbda650ac6bcf726b
-msgid "``u_m``"
-msgstr ""
-
-#: ../../source/units.rst:1590
-#: 489cc82f6cbd481ca61711f956ef6726
-msgid "Yes (``unit:membership_name:source``, ``u_m_s``)"
-msgstr ""
-
-#: ../../source/units.rst:1594
-#: c01f4e861f8c4c7d8a32600cdf24221d
-msgid "Yes (``unit:membership_name:confidence``, ``u_m_c``)"
-msgstr ""
-
-#: ../../source/units.rst:1598
-#: 79d1b1cb000f42f384b8223c3311d220
-msgid "This field indicates whether a unit has had any memberships or attachments to internal/national joint operations, international peacekeeping operations, or other multi-unit efforts. Generally this means one of two things:"
-msgstr ""
-
-#: ../../source/units.rst:1600
-#: a674cc9570e74684b73cfc1adc846377
-msgid "Multiple units operate as part of an “operation” focused on a specific mission."
-msgstr ""
-
-#: ../../source/units.rst:1601
-#: 906d0beca5df48a79962f6c50feb5229
-msgid "Multiple units “lend” or otherwise deploy personnel who operate under the command of a force composition like a \"Joint Task Force\" or \"Operation\", which usually has a commander of its own."
-msgstr ""
-
-#: ../../source/units.rst:1603
+#: ../../source/units.rst:633
 #: f22a82d6b231412fa151fd6df76eb24a
 msgid "Example: soldiers from ``1 Division`` are deployed to the northeast of Nigeria to operate under ``Operation BOYANA``. ``1 Division`` has a commander, but the soldiers as part of ``Operation BOYANA`` likely report to and take orders from the commander of ``Operation BOYANA``. When the soldiers are done with their rotation, after several months, they return to their “home unit” ``1 Division``. So while ``Operation BOYANA`` commands some soldiers who are part of ``1 Division`` it doesn’t technically command all of the soldiers of ``1 Division`` (otherwise it would be the parent unit)."
 msgstr ""
 
-#: ../../source/units.rst:1605
-#: aeaaa42b2c9848849b470c2b46625dd5
-msgid "We treat task forces, operations, peacekeeping missions and anything else represented in this field as distinct units which must have their own record in the system."
+#: ../../source/units.rst:635
+#: c289d5acd6f64a9db25103f6c9642bc5
+msgid "The type of relationship between units is determined by setting the value in ``unit:relation_type``, which offers two options:"
 msgstr ""
 
-#: ../../source/units.rst:1608
-#: 354d1d9f9f264bd0afc72bc859a1799e
-msgid "Unit: Membership First Cited Date"
+#: ../../source/units.rst:637
+#: f2509879ba6b469a95c401b16ea34cc1
+msgid "``child`` to define a hierarchic relationship. The unit specified in ``unit:related_unit`` is the parent of the unit in the present row."
 msgstr ""
 
-#: ../../source/units.rst:1612
-#: 868a197fc8cd495189f592e562fb6464
-msgid "This field is for the date of earliest citation for the location of a membership, either through direct reference in the source or by the date of its publication."
+#: ../../source/units.rst:638
+#: 8fe293a8fdb749bf8a6faf277761267a
+msgid "``members`` to define a membership relationship. The unit specified in the present row is a member of the unit noted in ``unit:related_unit``."
 msgstr ""
 
-#: ../../source/units.rst:1624
-#: f51ea35ba81c48a08bdfb1155de154a6
-msgid "``unit:membership_first_cited_date``"
+#: ../../source/units.rst:642
+#: 7810b510c20c4b62b872dc4e8b82f576
+msgid "Unit: Related Unit Classification"
 msgstr ""
 
-#: ../../source/units.rst:1628
-#: 559368d6567642aeb2c86a9be711f38c
-msgid "``u_mfcd``"
+#: ../../source/units.rst:646
+#: b5f8fb26b61b49dcb6e6fe0f84701899
+msgid "Type of relationships that exists between two units."
 msgstr ""
 
-#: ../../source/units.rst:1632
-#: 669651bd933640bab20cb7a8ad184266
-msgid "Yes (``unit:membership_first_cited_date:source``, ``u_mfcd_s``)"
+#: ../../source/units.rst:650
+#: ff62d2beba9f474da417bfd93b39f94d
+msgid "Controlled vocabulary, single choice"
 msgstr ""
 
-#: ../../source/units.rst:1636
-#: de184201f7f64907aadb80c0f4fa4ae6
-msgid "Yes (``unit:membership_first_cited_date:confidence``, ``u_mfcd_c``)"
+#: ../../source/units.rst:654
+#: a96089c903de42729df46971deae57d0
+msgid "``Command``, ``Administrative``, ``Informal``"
 msgstr ""
 
-#: ../../source/units.rst:1640
-#: 6341d73d07d14dd2a96588767e213ab9
-msgid "Along with the fields ``Unit: Membership First Cited Date is Start Date``, ``Unit: Membership Last Cited Date`` and ``Unit: Membership End-Date`` the field ``Unit: Membership First Cited Date`` provides data on the duration of one unit's membership in another."
+#: ../../source/units.rst:658
+#: d58e1cd3756c4c5f9959b7b9cd7c2940
+msgid "``unit:related_unit_class``"
 msgstr ""
 
-#: ../../source/units.rst:1642
-#: 49450daee73b495ab2fcb2cb4f4d5244
-msgid "The ``Unit: Membership First Cited Date`` field contains a date that is either:"
+#: ../../source/units.rst:662
+#: 47820e7fbc3048adacfb079c32a89585
+msgid "``u_ruc``"
 msgstr ""
 
-#: ../../source/units.rst:1644
+#: ../../source/units.rst:666
+#: c7133731847c47f2a6e2ba4672df8817
+msgid "Yes (``unit:related_unit_class:source``, ``u_ruc_s``)"
+msgstr ""
+
+#: ../../source/units.rst:670
+#: dd0b00e5739a4992b5a25339d35e0cbd
+msgid "Yes (``unit:related_unit_class:confidence``, ``u_ruc_c``)"
+msgstr ""
+
+#: ../../source/units.rst:674
+#: 5198c146d8e14cfab7249cc945ca6f6a
+msgid "Units have a ``Command`` relationship when the related parent unit can order the unit to perform some operational activity. These cover both *de jure* and *de facto* relationships between units."
+msgstr ""
+
+#: ../../source/units.rst:676
+#: 40f08c6864824f59949345a7ea3a69e6
+msgid "``Informal`` relationships occur when there is a relationship outside of the legal or formal structure of security forces and where the exact nature of the relationship is unclear."
+msgstr ""
+
+#: ../../source/units.rst:678
+#: e2e477bfbc9d42c8a8aee67a32489ad7
+msgid "Example: Lagos state in Nigeria has a security council which is a meeting of the governor, and the top commanders of police and military units in the state. The security council should be considered its own unit. By law a governor of a state is not in the chain of command for the military or police forces, but the security council membership establishes a relationship between the units and meetings often result in new approaches to security being taken, such as different deployments of police. In this case, we could make the determination that an informal relationship exists between the security council and the police and military units."
+msgstr ""
+
+#: ../../source/units.rst:680
+#: ad93e53e3d8c449fb3524f2916ac4e1e
+msgid "``Administrative`` relationships exist where a formal, non-command relationship exists between units, or where an administrative description is more accurate of the relationship between two units."
+msgstr ""
+
+#: ../../source/units.rst:682
+#: 7a130da4022b465994d2e7f5a4732a9a
+msgid "Example: By law the Ministry of Defence in Nigeria provides administrative support to the Nigerian Army, establishing a relationship we could classify as ``Administrative``. The Standards Department of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could order the Department to take some sort of action. This technically means the Department is under the “command” of the Headquarters, but the Monitor would describe this relationship as ``Administrative`` because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters."
+msgstr ""
+
+#: ../../source/units.rst:685
+#: d1b02a8bf60a43078458180ed22521ab
+msgid "Unit: Related Unit First Cited Date"
+msgstr ""
+
+#: ../../source/units.rst:689
+#: 28be0b8580a042b3b78f9c8476ab54d1
+msgid "The earliest date that a source evidences a relationship between units, either through direct reference in the source or by the date of its publication."
+msgstr ""
+
+#: ../../source/units.rst:699
+#: 18f415b4681d4766b1462c6c9fd1b266
+msgid "**Spreadsheet column heading**"
+msgstr ""
+
+#: ../../source/units.rst:701
+#: 916191a3cc604a0c88e2310dd2309dad
+msgid "``unit:related_unit_first_cited_date``"
+msgstr ""
+
+#: ../../source/units.rst:705
+#: 8c0d20c3580f47b187f528f71c08b5b8
+msgid "``u_rufcd``"
+msgstr ""
+
+#: ../../source/units.rst:709
+#: f79f242a02bb4f2c94fead784a3ecdad
+msgid "Yes (``unit:related_unit_first_cited_date:source``, ``u_rufcd_s``)"
+msgstr ""
+
+#: ../../source/units.rst:713
+#: d5c6f428487241d5b2b964acc4f3e78f
+msgid "Yes (``unit:related_unit_first_cited_date:confidence``, ``u_rufcd_c``)"
+msgstr ""
+
+#: ../../source/units.rst:717
+#: ef86e9a0b79a4bf4bcd624b9b231a281
+msgid "Along with the fields ``Unit: Unit Relationship Start Date``, ``Unit: Related Unit Last Cited Date`` and ``Unit: Related Unit is Open-Ended`` the field ``Unit: Related Unit First Cited Date`` provides data on the time period for which sources provide evidence that one unit is related to another as part of a hierarchy or as a membership."
+msgstr ""
+
+#: ../../source/units.rst:719
+#: 752b46a0608e4aab8570d9e26c6d6739
+msgid "The ``Unit: Related Unit First Cited Date`` field contains a date that is either:"
+msgstr ""
+
+#: ../../source/units.rst:721
+#: efa3220a3cb34f648417cb55cc040566
+msgid "The earliest date found in a source that specifically references a relationship; or,"
+msgstr ""
+
+#: ../../source/units.rst:722
+#: 44d5795acc3440b2b60b3b601267d6ad
+msgid "The earliest date of publication of sources that make reference to a relationship."
+msgstr ""
+
+#: ../../source/units.rst:724
+#: cd718979757b426295999c76d4fe94c8
+msgid "For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all say that 3 Armoured Division became the parent of 1 Motorized Brigade, we will enter 1 January 2012 in ``Unit: Related Unit First Cited Date``. If the source published on 1 March 2012 says that 3 Armoured Division became the parent of 1 Motorized Brigade on 30 June 2011, we will use 30 June 2011 as the ``Unit: Related Unit First Cited Date``."
+msgstr ""
+
+#: ../../source/units.rst:726
+#: 43e3143a26de40959c4e557e71319524
+msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, such partial dates can be included in ``Unit: Related Unit First Cited Date``."
+msgstr ""
+
+#: ../../source/units.rst:728
+#: 67f4ffff27254d52b530bcce3c0c2c12
+msgid "This field is clarified by the field ``Unit: Unit Relationship Start Date`` (documented below) which indicates whether the date included here is the actual date on which a unit became related to another."
+msgstr ""
+
+#: ../../source/units.rst:731
+#: 744cfefc276c498bbb6d4401ec98db98
+msgid "Unit: Unit Relationship Start Date"
+msgstr ""
+
+#: ../../source/units.rst:735
+#: 2e025bb5543e4a23b01e7dea53aaf59b
+msgid "Indicates whether the value in ``Unit: Related Unit First Cited Date`` is the actual date on which a unit became related to another, or the earliest date a source has referred to the relationship"
+msgstr ""
+
+#: ../../source/units.rst:739
+#: ../../source/units.rst:1018
+#: c9a672e001504273bdfa3698ee16e54d
+#: c9a672e001504273bdfa3698ee16e54d
+msgid "Boolean (Yes, No)"
+msgstr ""
+
+#: ../../source/units.rst:747
+#: f7996dce6ee148d79871482ccc7c418c
+msgid "``unit:related_unit_first_cited_date_start``"
+msgstr ""
+
+#: ../../source/units.rst:751
+#: 30dabf74da1946418f935e4ba9c81ea1
+msgid "``u_rufcds``"
+msgstr ""
+
+#: ../../source/units.rst:755
+#: b7c80fe6483f49458b889f68e05b2f74
+msgid "Yes. Inherits from ``Unit: Related Unit First Cited Date`` (``unit:related_unit_first_cited_date:source``, ``u_rufcd_s``)"
+msgstr ""
+
+#: ../../source/units.rst:759
+#: 530065fc384b4fb28e8481310f13a0e9
+msgid "Yes. Inherits from ``Unit: Related Unit First Cited Date`` (``unit:related_unit_first_cited_date:confidence``, ``u_rufcd_c``)"
+msgstr ""
+
+#: ../../source/units.rst:763
+#: 25eb57a8428944828b163eb179cf3106
+msgid "This is a clarifying field for ``Unit: Related Unit First Cited Date``. Where a source references the hierarchic or membership relationship and specifies the date that the relationship began we will enter ``Y`` . In all other cases we will enter a value of ``N`` to indicate that the date is not a start date, but the date of first citation."
+msgstr ""
+
+#: ../../source/units.rst:766
+#: 743e146750e34e3fac09e9255a07e89b
+msgid "Unit: Related Unit Last Cited Date"
+msgstr ""
+
+#: ../../source/units.rst:770
+#: ae5587ac81c6445e9574895c2d9193de
+msgid "The latest date that a source evidences a heirarchic or membership relationship, either through direct reference in the source or by the date of its publication."
+msgstr ""
+
+#: ../../source/units.rst:780
+#: bc1953a3cec5401f8790ef83a70d9b88
+msgid "**Spreadheet column name**"
+msgstr ""
+
+#: ../../source/units.rst:782
+#: 39d38de4f0f2458da29a469eb4d6fc49
+msgid "``unit:related_unit_last_cited_date``"
+msgstr ""
+
+#: ../../source/units.rst:786
+#: 4adfc7c3650f474194ab3eec0c443586
+msgid "``u_rulcd``"
+msgstr ""
+
+#: ../../source/units.rst:790
+#: a537d61aded64f7c89c0a2198895b8a1
+msgid "Yes (``unit:related_unit_last_cited_date:source``, ``u_rulcd_s``)"
+msgstr ""
+
+#: ../../source/units.rst:794
+#: f854eb26f81445789297935d707f2cf4
+msgid "Yes (``unit:related_unit_last_cited_date:confidence``, ``u_rulcd_c``)"
+msgstr ""
+
+#: ../../source/units.rst:798
+#: 3fe6c8bebb05495389b5d0d91b283e23
+msgid "Along with the fields ``Unit: Related Unit First Cited Date``, ``Unit: Unit Relationship Start Date`` and ``Unit: Related Unit is Open-Ended`` the field ``Unit: Related Unit Last Cited Date`` provides data on the time period we can evidence that one unit is related to another."
+msgstr ""
+
+#: ../../source/units.rst:800
+#: 151f0487e5a24f19bc3db474a094f48c
+msgid "The ``Unit: Related Unit Last Cited Date`` field contains a date that is either:"
+msgstr ""
+
+#: ../../source/units.rst:802
+#: af6bb2c5bd544b989f16aa9a4d8ae11d
+msgid "The latest date found in a source that specifically references a relationship; or,"
+msgstr ""
+
+#: ../../source/units.rst:803
+#: ba284b2077c14f0894c643fdb93916e5
+msgid "The latest date of publication of sources that make reference to a relationship."
+msgstr ""
+
+#: ../../source/units.rst:805
+#: 279a858435224e9d9abbadc8ad5b2c1f
+msgid "Example: Three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all state that the 1 Motorized Brigade is under the 3 Armoured Division (which evidences a parent relationship), we will enter 1 March 2012 in ``Unit: Related Unit Last Cited Date``."
+msgstr ""
+
+#: ../../source/units.rst:807
+#: ../../source/units.rst:811
+#: a479f0b420f94cc6a7222dce6b5a1402
+#: a479f0b420f94cc6a7222dce6b5a1402
+msgid "Example: A source published on 23 July 2017 describes actions undertaken by the 1 Motorized Brigade is under the 3 Armoured Division during riots in 2009, and another source published on 8 June 2008 states that the 1 Motorized Brigade is under the 3 Armoured Division, we would enter 2009 in ``Unit: Related Unit Last Cited Date``."
+msgstr ""
+
+#: ../../source/units.rst:809
+#: ee0c0fe8b44d4b438c753b82d12715e7
+msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Unit: Related Unit Last Cited Date``"
+msgstr ""
+
+#: ../../source/units.rst:813
+#: 8ad3442433214e1badcf9e546732b0f8
+msgid "This field is clarified by the field ``Unit: Related Unit is Open-Ended``, which indicates whether the date included here is the actual date on which a unit stopped being related to another."
+msgstr ""
+
+#: ../../source/units.rst:816
+#: b97daad1a37942f580cfe4050cab940f
+msgid "Unit: Related Unit is Open-Ended"
+msgstr ""
+
+#: ../../source/units.rst:820
+#: a9260bb3dad048e892c46ce64c6d1749
+msgid "Indicates whether or not the value in ``Unit: Related Unit Last Cited Date`` is the actual date on which the hierarchic or membership relationship ended."
+msgstr ""
+
+#: ../../source/units.rst:824
+#: ../../source/units.rst:1100
+#: e5efdef7af574ef688ab513a454cdff1
+#: e5efdef7af574ef688ab513a454cdff1
+msgid "Single choice (Y, N, E)"
+msgstr ""
+
+#: ../../source/units.rst:832
+#: fb437222a69c446c8d1463f6aa55af42
+msgid "``unit:related_unit_open``"
+msgstr ""
+
+#: ../../source/units.rst:836
+#: 7909cc5539ec47859f4e08beb2db70b7
+msgid "``u_ruo``"
+msgstr ""
+
+#: ../../source/units.rst:840
+#: 0508aff0ac6346eea51fa0b5bda85aaa
+msgid "Yes. Inherits from ``Unit: Related Unit Last Cited Date`` (``unit:related_unit_last_cited_date:source``, ``u_rulcd_s``)"
+msgstr ""
+
+#: ../../source/units.rst:844
+#: 3cd5c0b9bc3c4814a2bda01aded12fd0
+msgid "Yes. Inherits from ``Unit: Related Unit Last Cited Date`` (``unit:related_unit_last_cited_date:confidence``, ``u_rulcd_c``)"
+msgstr ""
+
+#: ../../source/units.rst:848
+#: 2fa645e3c9c249cfabea92f79c2c5518
+msgid "We use this field to clarify the meaning of the date entered in ``Unit: Related Unit Last Cited Date`` One of the below values should be chosen:"
+msgstr ""
+
+#: ../../source/units.rst:850
+#: 49a6c8f40a3a4a1fa2292cdebe216ddc
+msgid "``E`` indicates the exact date one unit stopped being related to another."
+msgstr ""
+
+#: ../../source/units.rst:851
+#: a241d7b24b4a4006a06fa3e715bbcf83
+msgid "``Y`` indicates that we assume this relationship continues to exist."
+msgstr ""
+
+#: ../../source/units.rst:852
+#: ab9320c8060f46dba5ea08f2366d2a0d
+msgid "``N`` indicates we do not assume that this relationship continues to exist, but we do not have an exact end date."
+msgstr ""
+
+#: ../../source/units.rst:855
+#: 880f26fc729c460e8700ba1cef3559cb
+msgid "Unit: Location Type"
+msgstr ""
+
+#: ../../source/units.rst:859
+#: 9abc990586d74588a86001c106930153
+msgid "The type of Location of a unit."
+msgstr ""
+
+#: ../../source/units.rst:867
+#: fb437222a69c446c8d1463f6aa55af42
+msgid "``unit:location_type``"
+msgstr ""
+
+#: ../../source/units.rst:871
+#: fe09a178ea2c4084aeaf49d3775f0950
+msgid "``u_loct``"
+msgstr ""
+
+#: ../../source/units.rst:875
+#: 9f76c69c5e6f400eb18759de6d2af2ab
+msgid "Yes. Inherits from ``Unit: Location`` (``unit:location:source``, ``u_loc_s``)"
+msgstr ""
+
+#: ../../source/units.rst:879
+#: df69f0266f904b788359c5bf0da30d7b
+msgid "Yes. Inherits from ``Unit: Location`` (``unit:location:confidence``, ``u_loc_c``)"
+msgstr ""
+
+#: ../../source/units.rst:883
+#: 656e5186d14740a489e5c32fd4aa1985
+msgid "This field defines the relationship between a unit and a Location. The Staff Researcher must choose one of the two options below:"
+msgstr ""
+
+#: ../../source/units.rst:885
+#: 2c21ccc30a274f17bbc43857eecdcf67
+msgid "``site``: the Location in ``unit:location`` describes a \"site\", such as a settlement or specific point, at which the unit has physical infrastructure like a station, camp, base, office or other facility."
+msgstr ""
+
+#: ../../source/units.rst:886
+#: 9eeef77b6bf347b397f0b96f2832d387
+msgid "``aoo``: the Location in ``unit:location`` describes an area, such as an administrative area, where the unit is known to have conducted operations or has terratorial jurisdiction."
+msgstr ""
+
+#: ../../source/units.rst:888
+#: 30836425ca1d4b17930da6c182da95e3
+msgid "The type of Location may be different from the way that the Location is described. For example, a small geographic area like a suburb is a *geometric area* but it could be used to describe a \"site\" for a unit. This is why :ref:`Locations` are defined independently of their relationship to Units and Incidents."
+msgstr ""
+
+#: ../../source/units.rst:891
+#: fb8cc957b6ce4dc582ef2c9ef96d532f
+msgid "Unit: Base Name"
+msgstr ""
+
+#: ../../source/units.rst:895
+#: c87274d2029a47c5b33887de98744b94
+msgid "A base is a distinctively named building or complex - like a barracks or camp - where the unit is located."
+msgstr ""
+
+#: ../../source/units.rst:903
+#: 31ad6b0ad35a433192c6b83c86f96658
+msgid "``Leopard Base``, ``Giwa Barracks``, ``Bonny Camp``"
+msgstr ""
+
+#: ../../source/units.rst:907
+#: d40a8e93949c4a498a4291232c7721ac
+msgid "``unit:base_name```"
+msgstr ""
+
+#: ../../source/units.rst:911
+#: be30fdf85ec74c56a51cf0e974d899c3
+msgid "``u_bn``"
+msgstr ""
+
+#: ../../source/units.rst:915
+#: b31b0b80ab144622b4e67df644a154d7
+msgid "Yes (``unit:base_name:source``, ``u_bn_s``)"
+msgstr ""
+
+#: ../../source/units.rst:919
+#: 90855cd9a9814851b5e0961190f56e04
+msgid "Yes (``unit:base_name:confidence``, ``u_bn_c``)"
+msgstr ""
+
+#: ../../source/units.rst:923
+#: 7effbdf85c144a599ebc12c24cb55211
+msgid "The ``Unit: Base Name`` field adds unit-specific context about a Location. This field is used to record data about units that are located in a distinctively-named building or complex."
+msgstr ""
+
+#: ../../source/units.rst:925
+#: ce976fc5a65548ad8fee93f3fa96d84e
+msgid "For example, ``3 Battalion`` in Nigeria is cited as being based in the ``Lubanga Barracks`` in ``Enugu, Enugu State, Nigeria``."
+msgstr ""
+
+#: ../../source/units.rst:927
+#: c2d3ffa6975e40528fce311572e9b9fb
+msgid "This field should not be used for anything that matches the name or alias of a unit. For example, ``North Sector Police Station`` should not be put in this field if the name of the unit is ``North Sector Police Station``."
+msgstr ""
+
+#: ../../source/units.rst:930
+#: 787cc73a3183426f8f3c5fb229455d2e
+msgid "Unit: Location"
+msgstr ""
+
+#: ../../source/units.rst:934
+#: a245723106ce45238f14d39e2c53db47
+msgid "Name of a Location where the unit has a \"site\" or \"area of operations\"."
+msgstr ""
+
+#: ../../source/units.rst:938
+#: cf885459636948c5b1a3aeaa455ec921
+msgid "Text and numbers; linked to ``location:humane_id:admin``"
+msgstr ""
+
+#: ../../source/units.rst:942
+#: 6a578f58adf34b6091da54834f38e26d
+msgid "``Ikorodu (osm, point) 93dcc4a8-8335-4a21-8372-a151c4972c54``"
+msgstr ""
+
+#: ../../source/units.rst:946
+#: 498483b952094abb97d57c14fe6d3ee4
+msgid "``unit:location``"
+msgstr ""
+
+#: ../../source/units.rst:950
+#: fe09a178ea2c4084aeaf49d3775f0950
+msgid "``u_loc``"
+msgstr ""
+
+#: ../../source/units.rst:954
+#: 14b36e70989a42eca70319d74f1c68e0
+msgid "Yes (``unit:location:source``, ``u_loc_s``)"
+msgstr ""
+
+#: ../../source/units.rst:958
+#: bcf79460d86146f28be81c8149e2d6de
+msgid "Yes (``unit:location:confidence``, ``u_loc_c``)"
+msgstr ""
+
+#: ../../source/units.rst:962
+#: 269386c037214eaab2338285696e7867
+msgid "This field is used to store information about a :ref:`Locations` at which the unit has infrastructure, or as operated. The value included in this field must be taken from ``location:humane_id_admin``. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation."
+msgstr ""
+
+#: ../../source/units.rst:966
+#: 21f3dc7199e74d0ca40b1f20c529eccf
+msgid "Unit: Location First Cited Date"
+msgstr ""
+
+#: ../../source/units.rst:970
+#: 902e5ab95d264b79b86c880e15dccaab
+msgid "This field captures the earliest citation date for the location of a site or area of operations, either through direct reference in the source or by the date of its publication."
+msgstr ""
+
+#: ../../source/units.rst:982
+#: 3c15fde103cd4c1fa0bcd1cbca41c09e
+msgid "``unit:location_first_cited_date``"
+msgstr ""
+
+#: ../../source/units.rst:986
+#: 710196f3e6e44367aba2052493a98141
+msgid "``u_sfcd``"
+msgstr ""
+
+#: ../../source/units.rst:990
+#: 8d513b9aa1834894810ccdb4f777d5f2
+msgid "Yes (``unit:location_first_cited_date:source``, ``u_locfcd_s``)"
+msgstr ""
+
+#: ../../source/units.rst:994
+#: ee4c809edc564726989155f9e75700db
+msgid "Yes (``unit:location_first_cited_date:confidence``, ``u_locfcd_c``)"
+msgstr ""
+
+#: ../../source/units.rst:998
+#: f940e158cedf4866b077ba426391acf2
+msgid "Along with the fields ``Unit: Location was founded on First Cited Date``, ``Unit: Location Last Cited Date`` and ``Unit: Location Last Cited Date is Open-Ended`` the field ``Unit: Location First Cited Date`` provides data on the time period at which a unit was sited or operated in a Location."
+msgstr ""
+
+#: ../../source/units.rst:1000
+#: 467c6a6eae64434d8a9086c9ea849a02
+msgid "The ``Unit: Location First Cited Date`` field contains a date that is either:"
+msgstr ""
+
+#: ../../source/units.rst:1002
 #: 4b5921e2a3a5441598d7f3d54faebdea
-msgid "The earliest date found in any source that references the values contained in the pairs of fields that record ``Membership``"
+msgid "The earliest date found in any source that references the value contained ``Unit: Location``; or,"
 msgstr ""
 
-#: ../../source/units.rst:1645
-#: d8fd08caf79049ee9867ee5809e68072
-msgid "The earliest date of publication of any source that references the values contained in the pairs of fields that record ``Membership``. . In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Unit: Membership First Cited Date``."
+#: ../../source/units.rst:1003
+#: 2ca7066bb72945dc8a625124521afb21
+msgid "The earliest date of publication of any source that references the value contained in ``Unit: Location``."
 msgstr ""
 
-#: ../../source/units.rst:1647
-#: fb48e5e1476a4835a87d9f3e46980661
-msgid "This field is clarified by the field ``Unit: Membership First Cited Date is Start Date`` which indicates whether the date included here is the actual date on which a unit membership was founded."
+#: ../../source/units.rst:1005
+#: 52e98108eff44752b437e4cef99e93f0
+msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Unit: Location First Cited Date``."
 msgstr ""
 
-#: ../../source/units.rst:1650
-#: 007c397fdf6643dd86f7c06cfa06b53d
-msgid "Unit: Membership First Cited Date is Start Date"
+#: ../../source/units.rst:1007
+#: 7fa9e142f0674718974512340325543f
+msgid "This field is clarified by the field ``Unit: Location was Founded on First Cited Date`` which indicates whether the date included here is the actual date on which a unit site was founded."
 msgstr ""
 
-#: ../../source/units.rst:1654
-#: f14b8fc9dd5441db856075fc05f75792
-msgid "Indicates whether or not the value in ``Unit: Membership First Cited Date`` is the actual date on which a membership was started, or the earliest date a source has referred to a unit Membership."
+#: ../../source/units.rst:1010
+#: f4ff9e16f03e40b9a716b87e6aa02255
+msgid "Unit: Location was Founded on First Cited Date"
 msgstr ""
 
-#: ../../source/units.rst:1666
-#: 6b7c3287113d4dcea58cecde163ec885
-msgid "``unit:membership_first_cited_date_start``"
+#: ../../source/units.rst:1014
+#: ac4fda669af84e99b95fa4fd79a43509
+msgid "Indicates whether or not the value in ``Unit: Location First Cited Date`` the actual date on which a unit site or area of operations was founded."
 msgstr ""
 
-#: ../../source/units.rst:1670
-#: 797d2bfe11da45d09abe53bdb52983f7
-msgid "``u_mfcds``"
+#: ../../source/units.rst:1026
+#: 0ab4484dcee64df3bd72f7eab2bba6db
+msgid "``unit:location_first_cited_date_founding``"
 msgstr ""
 
-#: ../../source/units.rst:1674
-#: 5814dc3026a14e43b6b42f053ba3156e
-msgid "Yes. Inherits from ``Unit: Membership First Cited Date`` (``unit:membership_first_cited_date:source``, ``u_mfcd_s``)"
+#: ../../source/units.rst:1030
+#: 995a31c4e15a40caab645fb3950ce3a4
+msgid "``u_sfcdf``"
 msgstr ""
 
-#: ../../source/units.rst:1678
-#: e47ccc2d6687475c9e00f379c335f406
-msgid "Yes. Inherits from ``Unit: Membership First Cited Date`` (``unit:membership_first_cited_date:confidence``, ``u_mfcd_c``)"
+#: ../../source/units.rst:1034
+#: 6dc90551f19a4ca8be7ec0a0b2416e05
+msgid "Yes. Inherits from ``Unit: Location First Cited Date`` (``unit:location_first_cited_date:source``, ``u_locfcd_s``)"
 msgstr ""
 
-#: ../../source/units.rst:1682
-#: 942b1aa678a3499abab9a7bb6553c02a
-msgid "This is a clarifying field for ``Unit: Mmbership First Cited Date``:"
+#: ../../source/units.rst:1038
+#: 171be25fe7374304b145b6f0637cf7d6
+msgid "Yes. Inherits from ``Unit: Location First Cited Date`` (``unit:location_first_cited_date:confidence``, ``u_locfcd_c``)"
 msgstr ""
 
-#: ../../source/units.rst:1684
-#: 2fd5ec5cdf4945d99eaf4e1d4c7f736c
-msgid "``Y``:  Where a source references a membership and specifies the exact date the relationship was established."
+#: ../../source/units.rst:1042
+#: 4200b2179a0343a08ab9e601c77dd9a2
+msgid "This is a clarifying field for ``Unit: Location First Cited Date``. There are two options for use in this field:"
 msgstr ""
 
-#: ../../source/units.rst:1685
-#: 2a3b7a12f8d14cb19109ccad7bc2f079
-msgid "``N``:  Used in all other cases to indicate that the date is not a start date, but the date of first citation."
+#: ../../source/units.rst:1044
+#: 84fc214a1f1147e28e216d048ab912be
+msgid "``Y``: Where a source references a unit site and specifies the date that unit site was founded."
 msgstr ""
 
-#: ../../source/units.rst:1688
-#: 1fcf4abf8d72448ba882a61ee8766d8f
-msgid "Unit: Membership Last Cited Date"
+#: ../../source/units.rst:1045
+#: c37d74b645d3456db1cec70dae6fee87
+msgid "``N``: In all other cases, indicate that the date is not a start date, but the date of first citation."
 msgstr ""
 
-#: ../../source/units.rst:1692
-#: 9a9ab21f2d52439d84e53b4aef395698
-msgid "This field is for the  latest date of citation of a membership, either through direct reference in the source or by the date of its publication."
+#: ../../source/units.rst:1048
+#: 8579ef460c0845539ccebd98c10994ee
+msgid "Unit: Location Last Cited Date"
 msgstr ""
 
-#: ../../source/units.rst:1704
-#: 45faabedb8114a4e86fa0e3aec58cb31
-msgid "``unit:membership_last_cited_date``"
+#: ../../source/units.rst:1052
+#: 19d473ce9ad840c587d902520192b848
+msgid "This field is for the latest citation for the location of a unit site or area of operations, either through direct reference in the source or by the date of its publication."
 msgstr ""
 
-#: ../../source/units.rst:1708
-#: abe76d0e93094770bcf5c84099f610a3
-msgid "``u_mlcd``"
+#: ../../source/units.rst:1064
+#: 85eb8c095ef3432ebd762e63046c844b
+msgid "``unit:location_last_cited_date``"
 msgstr ""
 
-#: ../../source/units.rst:1712
-#: 4ac97ed2a9c042b0a43bee78dd0f207f
-msgid "Yes (``unit:membership_last_cited_date:source``, ``u_mlcd_s``)"
+#: ../../source/units.rst:1068
+#: 41c9cff26335498493812752e8e7149e
+msgid "``u_loclcd``"
 msgstr ""
 
-#: ../../source/units.rst:1716
-#: a396713b93814f519fc2fb404422e8d9
-msgid "Yes (``unit:membership_last_cited_date:confidence``, ``u_mlcd_c``)"
+#: ../../source/units.rst:1072
+#: 6a0191d7f91c4ce0ba7114b737c49c34
+msgid "Yes (``unit:location_last_cited_date:source``, ``u_loclcd_s``)"
 msgstr ""
 
-#: ../../source/units.rst:1720
-#: 919b3c43baab45398a3aaf7f789e036a
-msgid "Along with the fields ``Membership: Date first cited``, ``Membership: Start date?`` and ``Membership: End-date?`` the field ``Membership: Date last cited`` provides data on duration of a membership."
+#: ../../source/units.rst:1076
+#: 5295267235d0493585b009111039db54
+msgid "Yes (``unit:location_last_cited_date:confidence``, ``u_loclcd_c``)"
 msgstr ""
 
-#: ../../source/units.rst:1722
-#: 0b05e33297584c418bb4cb325275b34e
-msgid "The ``Membership: Date last cited`` field contains a date that is either:"
+#: ../../source/units.rst:1080
+#: cb633959cbde4e1a81d6c0f6dea53f3d
+msgid "Along with the fields ``Unit: Location First Cited Date``, ``Unit: Location was founded on First Cited Date`` and ``Unit: Location Last Cited Date is Open-Ended`` the field ``Unit: Location Last Cited Date`` provides data on the time period that a unit was sited or operated at a Location."
 msgstr ""
 
-#: ../../source/units.rst:1724
+#: ../../source/units.rst:1082
+#: 022796a92c75485ca23678e673ff6bed
+msgid "The ``Unit: Location Last Cited Date`` field contains a date that is either:"
+msgstr ""
+
+#: ../../source/units.rst:1084
 #: dee7dee16abf418cb28747d51207621d
-msgid "The latest date found in any source that references the values contained in the pairs of fields that record ``Membership``; or,"
+msgid "The latest date found in any source that references the value contained in ``Unit: Location``; or,"
 msgstr ""
 
-#: ../../source/units.rst:1725
-#: 66fd15bd50f846129866a700bafdb979
-msgid "The latest date of publication of any source that references the values contained in the pairs of fields that record ``Membership``. . In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Membership: Date last cited``."
+#: ../../source/units.rst:1085
+#: 2ca7066bb72945dc8a625124521afb21
+msgid "The latest date of publication of any source that references the value contained in ``Unit: Location``."
 msgstr ""
 
-#: ../../source/units.rst:1727
-#: 9ed087f4bee748319b76859474793875
-msgid "This field is clarified by the field ``Unit: Membership End-Date`` which indicates whether the date included here is the actual date on which a unit Membership was terminated."
+#: ../../source/units.rst:1087
+#: 485e540b36a747e49a932d7fed1f49eb
+msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Unit: Location Last Cited Date``."
 msgstr ""
 
-#: ../../source/units.rst:1730
-#: 1e195a47ed794ac6bbb7ec5664a63a9d
-msgid "Unit: Membership End-Date"
+#: ../../source/units.rst:1089
+#: 362d9acd39894024a075f8c3b0e62e52
+msgid "This field is clarified by the field ``Unit: Location Last Cited Date is Open-Ended`` which indicates whether the date included here is the actual date on which a unit was no longer sited or operating in the Location."
 msgstr ""
 
-#: ../../source/units.rst:1734
-#: 06eb1c2527ee43cb95590850620d1cbc
-msgid "Indicate whether or not the value in ``Unit: Membership Last Cited Date`` the actual date on which the membership ended or the latest date a source has referred to a unital Membership."
+#: ../../source/units.rst:1092
+#: c0d38f48fdbb42c6aefa495d4c42830e
+msgid "Unit: Location Last Cited Date is Open-Ended"
 msgstr ""
 
-#: ../../source/units.rst:1746
-#: 8bb8f37178cd440b8fbc3bff5456ff95
-msgid "``unit:membership_last_cited_date_end``"
+#: ../../source/units.rst:1096
+#: 2dfb836616f54a5b9de28fe07a96ab1e
+msgid "Indicates whether the value in ``Unit: Location Last Cited Date`` is the actual date on which a unit ceased to be sited or operate in a Location, the latest date a source has referred to a unit's Location, and whether can we assume this unit continues to be sited or operate at this Location."
 msgstr ""
 
-#: ../../source/units.rst:1750
-#: cf097c201bcf48e4ae1592c0d8bcfab7
-msgid "``u_mclde``"
+#: ../../source/units.rst:1108
+#: 6bb708079f034359a64b95f3dcd381b0
+msgid "``unit:location_open``"
 msgstr ""
 
-#: ../../source/units.rst:1754
-#: c48cd0905a74411c8ec42bee740305d5
-msgid "Yes. Inherits from ``Unit: Membership Last Cited Date`` (``unit:membership_last_cited_date:source``, ``u_mlcd_s``)"
+#: ../../source/units.rst:1112
+#: 41c9cff26335498493812752e8e7149e
+msgid "``u_loclcd_o``"
 msgstr ""
 
-#: ../../source/units.rst:1758
-#: 2306b0f0988c45aa847f62dbfa940d04
-msgid "Yes. Inherits from ``Unit: Membership Last Cited Date`` (``unit:membership_last_cited_date:confidence``, ``u_mlcd_c``)"
+#: ../../source/units.rst:1116
+#: c1384d9fdb5f43d6af208f48cd880288
+msgid "Yes. Inherits from ``Unit: Location Last Cited Date`` (``unit:location_last_cited_date:source``, ``u_loclcd_s``)"
 msgstr ""
 
-#: ../../source/units.rst:1762
-#: a599a3fa0f55446f9cd59c977ec7982e
-msgid "We use this field to clarify the meaning of the date entered in ``Unit: Membership Last Cited Date``."
+#: ../../source/units.rst:1120
+#: 3c00b9b9410740148b15ab49a01aed69
+msgid "Yes. Inherits from ``Unit: Location Last Cited Date`` (``unit:location_last_cited_date:confidence``, ``u_loclcd_c``)"
 msgstr ""
 
-#: ../../source/units.rst:1766
-#: 9f1f0ce206bb4774ae9a0f3bb0ba3116
-msgid "``Y``: indicates that the membership ended on that date."
+#: ../../source/units.rst:1124
+#: 5fae4d260e724716b8b78f0eb3f6bbbc
+msgid "We use this field to clarify the meaning of the date entered in ``Unit: Location Last Cited Date``. In entering a value for this field we use a variety of factors including: the history of basing and operations for the unit, the overall structure and nature of the security forces, and the frequency of movement of similar units."
 msgstr ""
 
-#: ../../source/units.rst:1767
-#: 283b3d90e8314a338f18bf42600b4f46
-msgid "``N``: indicates that the date is the date of last citation for the membership."
+#: ../../source/units.rst:1126
+#: 2292827b523b4a14b9c9710f588fbce4
+msgid "The values that can be entered in this field are restricted to the below:"
 msgstr ""
 
-#: ../../source/units.rst:1770
+#: ../../source/units.rst:1128
+#: c1e931490c5340f996afb5b16a826cf9
+msgid "``E``: indicates the exact date this unit ceased to be sited or operate in this Location."
+msgstr ""
+
+#: ../../source/units.rst:1129
+#: 69a69c699c75496bafa1cd8d522d18e3
+msgid "``Y``: indicates that we assume this unit  continues to be sited or operate in this Location,"
+msgstr ""
+
+#: ../../source/units.rst:1130
+#: 96ac127fa1274283adbf172e6da8bb37
+msgid "``N``: indicates we do not assume that this unit continues to be sited or operate in this Location, but we do not have an exact end date."
+msgstr ""
+
+#: ../../source/units.rst:1133
 #: 948b2cebc54a423e83d8762c8b0479d2
 msgid "Unit: Notes"
 msgstr ""
 
-#: ../../source/units.rst:1774
+#: ../../source/units.rst:1137
 #: ab09915c94c74c839356ff53868595cb
 msgid "Analysis, commentary and notes about the unit that do not fit into the data structure."
 msgstr ""
 
-#: ../../source/units.rst:1782
+#: ../../source/units.rst:1145
 #: 151482b07fcc418d9f91503f5ced9238
 msgid "In March 1990 the previous Central Regional Military Command based in Taungoo was renamed Southern Regional Military Command, the previous Northwestern Regional Military Command based in Mandalay was renamed as the Central Regional Military Command and a new Northwestern Regional Military Command was created in Monywa."
 msgstr ""
 
-#: ../../source/units.rst:1786
+#: ../../source/units.rst:1149
 #: 14206c8d6b194753acbd2c599ae51ca9
 msgid "``unit:notes:admin``"
 msgstr ""
 
-#: ../../source/units.rst:1790
+#: ../../source/units.rst:1153
 #: 5535bf36baeb4f73be67d3d2aa33bb47
 msgid "``u_n_a``"
 msgstr ""
 
-#: ../../source/units.rst:1802
+#: ../../source/units.rst:1165
 #: f1cfedd4d77642a68bac916833afa031
-msgid "We use this field to record information about the unit that is likely to provide useful context, additional information that does not fit into the data structure, and notes about how decisions were made about which data to include. Any sources used should be referenced directly in the field as a full, archived URL."
+msgid "We use this field to record information about the unit that is likely to provide useful context, additional information that does not fit into the data structure, and notes about how decisions were made about which data to include. Any sources used in the note should be created as :ref:`Sources` and its access point UUID included (from ``source:access_point_id:admin``) included directly in the field."
 msgstr ""

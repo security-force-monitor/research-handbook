@@ -12,15 +12,13 @@ Security Force Monitor researches and creates data about three things (or "entit
 
 Every piece of data collected by the Monitor is individually sourced and each data point about :ref:`Persons` and :ref:`Units` is assigned a confidence score. The Research Handbook sections on :ref:`Sources` and :ref:`Data integrity measures` provide more guidance about these aspects of the data creation process.
 
-Detailed guidance about the fields used by the Monitor to record data about :ref:`Units`, :ref:`Persons` and :ref:`Incidents` is provided in the sections that follow.
+Detailed guidance about the fields used by the Monitor to record data about :ref:`Units`, :ref:`Persons`, :ref:`Incidents` :ref:`Locations` is provided in the sections that follow.
 
 Sample data entry sheets
 ------------------------
 
 Security Force Monitor uses databases, spreadsheets and other tools to capture and analyse the data described in this Research Handbook. Though the spreadsheet can get quite large and unwieldy, it remains an extremely powerful and effective way to capture and store data. To assist you with your research, here are the formats we use as a Google Sheet, and in Excel and OpenDocument formats:
 
-- Sample data entry sheets `in Excel format <_static/sfm_data_entry_20191203.xlsx>`_.
-- Sample data entry sheets `in Open Document format <_static/sfm_data_entry_20191203.ods>`_.
+- Sample data entry sheets `in Excel format <_static/sfm_data_entry_20210416.xlsx>`_.
+- Sample data entry sheets `in Open Document format <_static/sfm_data_entry_20210416.ods>`_.
 - Sample data entry sheets `as a Google Sheet <https://docs.google.com/spreadsheets/d/1-ae43_6JfXHZyC0-rYkOvnbB2RZgzyEy2VgJqAD_-KA/>`_.
-
-
