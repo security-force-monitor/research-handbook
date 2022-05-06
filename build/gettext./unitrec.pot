@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Security Force Monitor
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-06 16:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/unitrec.rst:2
+#: 690906fd0f1d47eca6645fbbb401e3d3
+msgid "Unit Records on WhoWasInCommand"
+msgstr ""
+
+#: ../../source/unitrec.rst:4
+#: 74b62b597d2446e58822fb151742abd3
+msgid "This page gives an overview of the data that visitors to WhoWasInCommand will find in a unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:6
+#: c38b247df2de4d9fb14e3229fc77b72e
+msgid "This includes descriptions of different sections of the unit page, the data fields that are used to create it and links to more information about each field."
+msgstr ""
+
+#: ../../source/unitrec.rst:9
+#: 7c2e76ac5f784c73a297e967fb94a16b
+msgid "Unit record: Title area"
+msgstr ""
+
+#: ../../source/unitrec.rst:14
+#: c84ac877425040edb35ca3b3fb01ce07
+msgid "Image showing the title area of an unit record on WhoWasInCommand"
+msgstr ""
+
+#: ../../source/unitrec.rst:16
+#: 4a9144ded7bd442cb5c64eb1bc5f3eff
+msgid "This section contains key information about the identity of the unit. It also contains links to download and print actions for the displayed record. Hover over any value in the unit title area to display a little coloured circle; clicking on this will display the sources and confidence rating for each value."
+msgstr ""
+
+#: ../../source/unitrec.rst:18
+#: 3b6070c89e0f4bf99d0ff37148056737
+msgid "**Fields used in the unit record title area**"
+msgstr ""
+
+#: ../../source/unitrec.rst:20
+#: c302a5cfdcd244329f86313d482190c9
+msgid "The following fields are used in the title area:"
+msgstr ""
+
+#: ../../source/unitrec.rst:22
+#: 536056b5b198455ea0a2f72bfaff59d9
+msgid ":ref:`Unit: Name`"
+msgstr ""
+
+#: ../../source/unitrec.rst:23
+#: 376b2129e5d44a6dbf831f423878d773
+msgid ":ref:`Unit: Other Names`"
+msgstr ""
+
+#: ../../source/unitrec.rst:24
+#: 26e56626417f465c8d10a74d29df3ea3
+msgid ":ref:`Unit: Classification`"
+msgstr ""
+
+#: ../../source/unitrec.rst:25
+#: e447ea1ed721435eb155e43b616a4655
+msgid ":ref:`Unit: Country`"
+msgstr ""
+
+#: ../../source/unitrec.rst:27
+#: 80121838f1f446fa8af116021878d939
+msgid "When a field is empty, it will not be displayed in the Title area."
+msgstr ""
+
+#: ../../source/unitrec.rst:30
+#: f01acd2b4fa54bb0b6a825907aa8e7c6
+msgid "Unit record: Content sidebar"
+msgstr ""
+
+#: ../../source/unitrec.rst:35
+#: f7472c1cfe51452ba38d4d2eb786ac2f
+msgid "Image showing the content sidebar of an unit record on WhoWasInCommand"
+msgstr ""
+
+#: ../../source/unitrec.rst:37
+#: cc1d794be5d14632a94dc12e2cb422c7
+msgid "The content sidebar is a navigation aid. It provides quick links to different parts of the page. The items inside the content sidebar indicate what sort of data is available about this unit. For example if \"Incidents\" is not listed in the content sidebar, then there is no data available about incidents involving this unit."
+msgstr ""
+
+#: ../../source/unitrec.rst:40
+#: 99946a45c97949f1b67d19431f3fdd38
+msgid "Unit record: Areas of Operation"
+msgstr ""
+
+#: ../../source/unitrec.rst:45
+#: 004b8d9ee6664c62a43c0df1c25818b2
+msgid "Image showing the Area of Operations map and table of a unit record on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:47
+#: 0dc6f6fc08ff445cb7e7ac9edfcd6068
+msgid "The areas of operation section contains a map and table that describe where an organization has operated in some manner. Click on the highlighted areas of the map to display the name of an area of operation. Grab the map to drag/pan it around. Swipe or use the ``+`` and ``-`` controls on the map to zoom in or zoom out. Hover over any value in the table and a little coloured circle will appear. Click on this to view the sources and confidence rating we have assigned to that value."
+msgstr ""
+
+#: ../../source/unitrec.rst:49
+#: fef47c7faf4144c98152e31817025cef
+msgid "The Areas of Operation section will display where an area of operations has been specified, otherwise it will not appear."
+msgstr ""
+
+#: ../../source/unitrec.rst:52
+#: 2e26ce1ec005409bb3e1e213bd7ddc37
+msgid "Unit record: Sites"
+msgstr ""
+
+#: ../../source/unitrec.rst:57
+#: 7dbddbd5ab724b6e8beb8b59f96c2648
+msgid "Image showing a map and table of sites - or bases - as part of an unit record on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:59
+#: 902958649f144e08abaaccdda047020c
+msgid "This section contains a map and a table that describe sites associated with the organization. Clicking on the pins plotted on the map will display the name of the site. Grab the map to drag/pan it around. Swipe or use the ``+`` and ``-`` controls on the map to zoom in or zoom out. Hover over any value in the table and a little coloured circle will appear. Click on this to view the sources and confidence rating for that value."
+msgstr ""
+
+#: ../../source/unitrec.rst:62
+#: 863112138a8c4e1a8320b3b56925241f
+msgid "The Sites section will display where there is a valid site record. Otherwise, the section will not display on the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:65
+#: bc692a7837cb498e861b2fc7c92ebae4
+msgid "Unit record: Memberships"
+msgstr ""
+
+#: ../../source/unitrec.rst:70
+#: 3186fa49475a4c3eb993a6b33bbfabe5
+msgid "Image showing a membership table of a unit record on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:72
+#: a2de44ddc1e84724befd97cf21aa2ea2
+msgid "This section contains a table indicating whether the organization has been a member of internal/national joint operations, international peacekeeping missions, or other multi-unit deployments. Hover over any value in the table and a little coloured circle will appear. Click on this to view the sources and confidence rating for that value."
+msgstr ""
+
+#: ../../source/unitrec.rst:74
+#: bcf2289a5316474283b8a43479f18cde
+msgid "Where a unit has no memberships attached to it, the memberships section will not display on the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:77
+#: 3935b7df72ec4023869e21bd9318b245
+msgid "Unit record: Member units"
+msgstr ""
+
+#: ../../source/unitrec.rst:82
+#: 9d8784918b3343ccb23f7826415f6c74
+msgid "This section contains a table listing the units that comprise the present unit. For example, it will list units that have taken part in a joint operation, international peacekeeping missing or other multi-unit organization. However over any value in the table, and a little coloured circle will appear. Click on this to view the sources and confidnce rating for that value."
+msgstr ""
+
+#: ../../source/unitrec.rst:85
+#: 9132524595e64e2ca578aedc12d75791
+msgid "Unit record: Parent units"
+msgstr ""
+
+#: ../../source/unitrec.rst:90
+#: ee977983d9b9437bb419ca578836618b
+msgid "Image showing a table of parent units for an organization on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:92
+#: 8fe05bc6b59944e490e399525278e71b
+msgid "The parent units section displays an interactive chart. This shows the links between all units known to be above the present one in the overall organizational hierarchy of that security force, right up to the Commander in Chief or equivalent. The chart is drawn using parent relationships that are classified as ``command`` (rather than ``informal`` or ``administrative``). They are drawn at the last cited or end date of the parent relationship. This date is displayed at the bottom of the chart. Where a unit has different parents at different times, a chart is drawn for each relationship: swiping left or right, or using the arrows at each side, displays these."
+msgstr ""
+
+#: ../../source/unitrec.rst:94
+#: 9e730dfa29c743f7894a0273b3b3e0bc
+msgid "Where a unit does not have a parent relationship, this section will not be displayed in the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:97
+#: d6e7a209d866482abc566b765ab50b46
+msgid "Unit record: Unit subsidiaries"
+msgstr ""
+
+#: ../../source/unitrec.rst:102
+#: f780653c4ccf4f52bad53532688cc500
+msgid "Image showing a table of subsidiaries on an unit record on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:104
+#: 9b82e05de45a41e89d2e2f56562a69f1
+msgid "The subsidiaries section contains a table describing all units known to have been immediately below the current unit in the overall organizational hierarchy of that security force. Hover over any value in tables to display a little coloured circle; clicking on this will display the sources and confidence rating for each value."
+msgstr ""
+
+#: ../../source/unitrec.rst:106
+#: d1058484b4bb40589dfece6fccff4557
+msgid "**Fields used in the Unit subsidiaries section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:108
+#: ab4a98b9244d4cecb6e936125a38fcef
+msgid "Where a unit has no subsidaires, this section will not be displayed in the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:111
+#: 717ea94a1e804213b132cabb2a6df0f6
+msgid "Unit record: Unit personnel"
+msgstr ""
+
+#: ../../source/unitrec.rst:116
+#: bbcf9c129805483dabf35cf5cfb0e45c
+msgid "Image of a table showing a list of personnel on an organzation record on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:118
+#: 04fe87c765444cde860bcfe58f7b10e5
+msgid "The personnel section displays a table showing all persons affiliated to this unit at any time in command, administrative and other roles. Hover over any value in the table to display a little coloured circle; clicking on this will display the sources and confidence rating for each value."
+msgstr ""
+
+#: ../../source/unitrec.rst:120
+#: 5939615081c94e5386dc98ad4a447de9
+msgid "**Fields used in the unit personnel section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:122
+#: 7500af1180224c5a857c22fa2ddadd7d
+msgid "Where no persons in the dataset are members of a unit, this section will not be displayed in the unit record."
+msgstr ""
+
+#: ../../source/unitrec.rst:125
+#: f6cc0382077b4736a92fbe00a09bc4d6
+msgid "Unit record: Unit incidents"
+msgstr ""
+
+#: ../../source/unitrec.rst:130
+#: ca3310417b684ba99132c9b431dcfe02
+msgid "Image showing a list of incidents on an unit record on WhoWasInCommand.com"
+msgstr ""
+
+#: ../../source/unitrec.rst:132
+#: edc1a6a7e8da488cae16b1f87f40549a
+msgid "The incidents section displays a list of incidents of alleged human rights violations that sources allege the unit has committed. Hover over either the date or the incident description to display a little coloured circle that when clicked will show the sources and confidence rating we have assigned to this data."
+msgstr ""
+
+#: ../../source/unitrec.rst:134
+#: 3dc5c6f0b038402f810dad429939b1e5
+msgid "**Fields used in the unit incidents section**"
+msgstr ""
+
+#: ../../source/unitrec.rst:136
+#: 89024dda888541ceb85cbdb2d7a5cec4
+msgid "If a source has not made an allegation against a unit, this section will not be displayed in the unit record."
+msgstr ""

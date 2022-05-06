@@ -1,0 +1,274 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Security Force Monitor
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-06 16:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/downloads.rst:2
+#: ac18a9f9a0624a608ccd4a29bb7dd157
+msgid "What data can I download from WhoWasInCommand?"
+msgstr ""
+
+#: ../../source/downloads.rst:6
+#: 24f384a2154542a4a11cfa02418b055a
+msgid "May 2022: The WhoWasInCommand.com download feature is experimental and subject to change. Currently, the downloads do not reflect improvements in how the Security Force Monitor data model deals with Locations."
+msgstr ""
+
+#: ../../source/downloads.rst:10
+#: 33f73d43a0814f568e71d366f29f0c35
+msgid "Data for download"
+msgstr ""
+
+#: ../../source/downloads.rst:12
+#: a6f10a90cb6542ebac6a1f805294202b
+msgid "Any data published on WhoWasInCommand can be downloaded as a set of Comma Separated Values (.csv) files. These can be easily loaded into a spreadsheet or database tool for analysis. To use WhoWasInCommand's data download feature visit the following link:"
+msgstr ""
+
+#: ../../source/downloads.rst:14
+#: 61b2ece14cf349f99f077462fcc7fd4e
+msgid "https://whowasincommand.com/en/download"
+msgstr ""
+
+#: ../../source/downloads.rst:16
+#: 120061a4f87c4bc8b7cf56e7675cc380
+msgid "The Security Force Monitor data model is a directed graph containing attriutes about units, persons, locations as they change across time. This is quite complicated and does not easily translate into a single file that is straightforward to understand and use without guidance. To get around this and provide a way to provide raw data directly to users, we offer seven different reports drawn from the data on a specific country:"
+msgstr ""
+
+#: ../../source/downloads.rst:18
+#: 9b59e5ea32b04a78aa61a93ae989685f
+msgid "**Basic**: a list of all the units in that country"
+msgstr ""
+
+#: ../../source/downloads.rst:19
+#: 39fff915b3f547cc943e32268fdc85f9
+msgid "**Parentage**: units organized into a hierarchy"
+msgstr ""
+
+#: ../../source/downloads.rst:20
+#: ee3fb95200c9428ba978b2be5f7f1022
+msgid "**Memberships**: units that are part of operations that may fall outside the regular chain of command"
+msgstr ""
+
+#: ../../source/downloads.rst:21
+#: 91c9f8b75b7d4914bd9a0ce0571e82a9
+msgid "**Areas of operation**: geographical distribution of units' operational areas"
+msgstr ""
+
+#: ../../source/downloads.rst:22
+#: 2f94c08d06ac42699dd1ace3ce3c3a5c
+msgid "**Sites**: specific locations"
+msgstr ""
+
+#: ../../source/downloads.rst:23
+#: 27103cff0da74dbfb49b723444f9ea92
+msgid "**Personnel**: list of command personnel"
+msgstr ""
+
+#: ../../source/downloads.rst:24
+#: cd00468fd6a14ab6ac55cb6bc8f6eb97
+msgid "**Sources**: sources used to evidence the data"
+msgstr ""
+
+#: ../../source/downloads.rst:26
+#: 91b63aedf20a46ffbe67d6914545d14c
+msgid "A full description of each downloadable slice of data is available in the sections below. It is important to note that none of the download contain the field-level sourcing that is a key part of Security Force Monitor's work (see :ref:`Data integrity measures` for more information). The reason for this is technical (discussed `here <https://github.com/security-force-monitor/sfm-cms/issues/661#issuecomment-635450705>`__ on the code repository for the software that powers WhoWasInCommand."
+msgstr ""
+
+#: ../../source/downloads.rst:29
+#: 078d9610dffd47c795fb2eec0393f3be
+msgid "How to download"
+msgstr ""
+
+#: ../../source/downloads.rst:31
+#: a2b25bece009460fb80171946643c359
+msgid "Visit the download page: `https://whowasincommand.com/en/download <https://whowasincommand.com/en/download/>`__"
+msgstr ""
+
+#: ../../source/downloads.rst:33
+#: b675bebd9cf048f39df748f1ba6c0119
+msgid "The interface looks like this:"
+msgstr ""
+
+#: ../../source/downloads.rst:38
+#: 0f57d3e18c53420fa4c0a96420c9f2c6
+msgid "Use the dropdown menu to select the report that you want to download:"
+msgstr ""
+
+#: ../../source/downloads.rst:43
+#: f4ff1e1a042b435a8954c2e76d34213e
+msgid "Then, use the next dropdown menu to choose the country about which you want to download data:"
+msgstr ""
+
+#: ../../source/downloads.rst:48
+#: 3b5c892e6cda4188a21f6fea455c1a6f
+msgid "Optionally, tick the checkbox to include Confidence Scores in the downloaded report. Read the page on :ref:`Confidence scores` for more information about this data integrity measure. As mentioned above, downloads do not currently include field-level sourcing."
+msgstr ""
+
+#: ../../source/downloads.rst:50
+#: 3ede149495df48a99bce85a1a9ea74c1
+msgid "Finally, click \"Download\" and a file containing the report will be downloaded to your computer. To help you identify the report, its filename is created using this simple template: ``[report_type]_-[country]_[YYYY-MM-DD].csv\"``"
+msgstr ""
+
+#: ../../source/downloads.rst:53
+#: 669da923648a4657860619d668b22f41
+msgid "Contents of each download"
+msgstr ""
+
+#: ../../source/downloads.rst:55
+#: 8022291b20f84f5083872468ca832fd7
+msgid "In this section we outline the seven different slices of data that users can download from WhoWasInCommand.com."
+msgstr ""
+
+#: ../../source/downloads.rst:58
+#: a9e4adf63540491098583c561af69dfa
+msgid "Download: Basic"
+msgstr ""
+
+#: ../../source/downloads.rst:60
+#: ../../source/downloads.rst:80
+#: ../../source/downloads.rst:107
+#: ../../source/downloads.rst:134
+#: ../../source/downloads.rst:162
+#: ../../source/downloads.rst:191
+#: ../../source/downloads.rst:237
+#: d41ea34c15404f3390e97c7c9758484a
+#: 842f59575fb74892a4cb520376846d9f
+#: 3873ded4db2f40919d28f1a5aadb7a16
+#: 7ecc575543ea49849faffbbe4b1ee37e
+#: 526a1ae67ed14fdebbb1c5bdeae41506
+#: 446effd735fa4f8395e63ad2629254e1
+#: 55dd582526c245ccbeb90c4515e7d723
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/downloads.rst:62
+#: e8bd0549dfa8408f865dcb480e3ceeb2
+msgid "The \"Basic\" download contains a list of distinct units in the dataset, along with force branch, aliases, earliest and latest observation dates for each unit."
+msgstr ""
+
+#: ../../source/downloads.rst:64
+#: af347e46fa064d40950417d1e08d4320
+msgid "**Field**"
+msgstr ""
+
+#: ../../source/downloads.rst:66
+#: f795021edf234c348f1c754764f7dc64
+msgid "1   unit:id:admin 2   unit:name 3   unit:country 4   unit:classification 5   unit:other_names 6   unit:first_cited_date 7   unit:last_cited_date 8   unit:first_cited_date_start 9   unit:last_cited_date_open ``"
+msgstr ""
+
+#: ../../source/downloads.rst:78
+#: 5b5a4e2bd9904231a6bf05622857b83b
+msgid "Download: Parentage"
+msgstr ""
+
+#: ../../source/downloads.rst:82
+#: 3775faf2708e488fa5962b3164582eeb
+msgid "The \"Parentage\" download contains data that describes how units fit into the organizational structure of the security and defence forces of the specified country. Each row contains a child-parent (``unit:name`` - ``unit:related_unit``) relationship inside the orgaizational hierarchy. Each row also contains data on the timescale for each relationship. You can find more information about how relatioships between units work in the :ref:`Unit: Related Unit` section of this handbook."
+msgstr ""
+
+#: ../../source/downloads.rst:84
+#: ../../source/downloads.rst:111
+#: ../../source/downloads.rst:138
+#: ../../source/downloads.rst:166
+#: ../../source/downloads.rst:195
+#: ../../source/downloads.rst:241
+#: 9c3287f51c004076be60727e68bb8edd
+#: 1de571c5c95a49069a55c9f17cdad547
+#: a86dd91fac3340de881dd8124e3dabf4
+#: 7a399fa9e00b481da73e02212833ea30
+#: eb420f22946b42f7883b79f5a0377b38
+#: 0596527c55f04e5eb0710d328cfa64fd
+msgid "**Fields**"
+msgstr ""
+
+#: ../../source/downloads.rst:86
+#: 5dcd3e813ddc4312a114848ffa13d4af
+msgid "1   unit:id:admin 2   unit:name 3   unit:country 4   unit:classification 5   unit:other_names 6   unit:first_cited_date 7   unit:last_cited_date 8   unit:first_cited_date_start 9   unit:last_cited_date_open 10  unit:related_unit 11  unit:related_unit:name 12  unit:related_unit:country 13  unit:related_unit_class 14  unit:related_unit_first_cited_date 15  unit:related_unit_first_cited_date_start 16  unit:related_unit_last_cited_date 17  unit:related_unit_open"
+msgstr ""
+
+#: ../../source/downloads.rst:105
+#: c30f3c0879f14bc78407803d85c3393c
+msgid "Download: Memberships"
+msgstr ""
+
+#: ../../source/downloads.rst:109
+#: 237a2e4ce085495a9fe3985b00795dfd
+msgid "The \"Memberships\" download contains data showing that the unit has been attached to internal/national joint operations, international peacekeeping operations, or other multi-unit efforts. These operational unit groupings exist in parallel to units' positionings in the regular organizational structure as described in the \"Parentage\" download. You can find more information about how memberships work in the :ref:`Unit: Related Unit` section of this handbook."
+msgstr ""
+
+#: ../../source/downloads.rst:113
+#: b60ce69d74e946f8860beb065a4ea999
+msgid "1   unit:id:admin 2   unit:name 3   unit:country 4   unit:classification 5   unit:other_names 6   unit:first_cited_date 7   unit:last_cited_date 8   unit:first_cited_date_start 9   unit:last_cited_date_open 10  unit:membership_id 11  unit:related_unit 12  unit:member_country 13  unit:member_classification 14  unit:related_unit_first_cited_date 15  unit:related_unit_first_cited_date_start 16  unit:related_unit_last_cited_date 17  unit:related_unit_open"
+msgstr ""
+
+#: ../../source/downloads.rst:132
+#: 95e8a2d86c054db681197f6793e07589
+msgid "Download: Areas of operation"
+msgstr ""
+
+#: ../../source/downloads.rst:136
+#: 398c9d70b325499b91d9660dfa019290
+msgid "The \"Areas of operation\" download describes the geographical areas that units have either been assigned to or in which they have been observed operating within. The Research Handbook sections :ref:`Unit: Location Type`, :ref:`Unit: Location` and :ref:`Locations` describe the concept of an area of operation in more detail."
+msgstr ""
+
+#: ../../source/downloads.rst:140
+#: 82ab0309eeff4236b6cb60f952a359b4
+msgid "1   unit:id:admin 2   unit:name 3   unit:country 4   unit:classification 5   unit:other_names 6   unit:first_cited_date 7   unit:last_cited_date 8   unit:first_cited_date_start 9   unit:last_cited_date_open 10  unit:area_ops_id 11  unit:area_ops_name 12  unit:area_ops_country 13  unit:area_ops_feature_type 14  unit:area_ops_admin_level 15  unit:area_ops_admin_level_1_id 16  unit:area_ops_admin_level_1_name 17  unit:area_ops_admin_level_2_id 18  unit:area_ops_admin_level_2_name"
+msgstr ""
+
+#: ../../source/downloads.rst:160
+#: ece8eba075fe400db4e651fc41b70ffa
+msgid "Download: Sites"
+msgstr ""
+
+#: ../../source/downloads.rst:164
+#: 125e0d5a0c1147d89f55f32b521114ee
+msgid "The \"Sites\" download describes the specific locations at which specific units have been observed. This download covers locations like infrastructure (such as police stations, barracks, airfields) and specific settlements. The Research Handbook sections :ref:`Unit: Location Type`, :ref:`Unit: Location` and :ref:`Locations` describe the concept of site in more detail."
+msgstr ""
+
+#: ../../source/downloads.rst:168
+#: 75001e2c846645cfa130476eb2d375f6
+msgid "1   unit:id:admin 2   unit:name 3   unit:country 4   unit:classification 5   unit:other_names 6   unit:first_cited_date 7   unit:last_cited_date 8   unit:first_cited_date_start 9   unit:last_cited_date_open 10  unit:site_exact_location_id_latitude 11  unit:site_exact_location_name_longitude 12  unit:site_country 13  unit:site_feature_type 14  unit:site_admin_level 15  unit:site_nearest_settlement_id 16  unit:site_nearest_settlement_name 17  unit:site_first_admin_area_id 18  unit:site_first_admin_area_name"
+msgstr ""
+
+#: ../../source/downloads.rst:189
+#: a88192ec25254ccc9707b10ffc743db6
+msgid "Download: Personnel"
+msgstr ""
+
+#: ../../source/downloads.rst:193
+#: 1aacc9943dcd405eab30a238ce2a9874
+msgid "The \"Personnel\" download provides data on people holding command positions in specific units. The download is organized by the unit to which a person was posted. It contains data on the person's posting (such as their role, rank, and title) in addition to any further biographical information (social media accounts, imagery of them, and so on). More information about how Security Force Monitor records data about persons is in the Research Handbook sections on :ref:`Persons` and :ref:`Persons Extra`."
+msgstr ""
+
+#: ../../source/downloads.rst:197
+#: c20c939bb3024b64ac0d2f927375f4b6
+msgid "1   unit:id:admin 2   unit:name 3   unit:country 4   unit:classification 5   unit:other_names 6   unit:first_cited_date 7   unit:last_cited_date 8   unit:first_cited_date_start 9   unit:last_cited_date_open 10  person:admin:id 11  person:name 12  person:other_names 13  person:country 14  person_extra:date_of_birth 15  person_extra:deceased_date 16  person_extra:deceased 17  person_extra:account_type 18  person_extra:account_id 19  person_extra:external_link_description 20  person_extra:media_desc 21  person_extra:notes:admin 22  person:posting_role 23  person:posting_rank 24  person:posting_title 25  person:posting_first_cited_date 26  person:posting_first_cited_date:year 27  person:posting_first_cited_date:month 28  person:posting_first_cited_date:day 29  person:posting_first_cited_date_start 30  person:posting_first_cited_date_start_context 31  person:posting_last_cited_date 32  person:posting_last_cited_date:year 33  person:posting_last_cited_date:month 34  person:posting_last_cited_date:day 35  person:posting_last_cited_date_end 36  person:posting_last_cited_date_end_context"
+msgstr ""
+
+#: ../../source/downloads.rst:235
+#: 8609ea88e3004f688f5077b8366da59f
+msgid "Download: Sources"
+msgstr ""
+
+#: ../../source/downloads.rst:239
+#: f53cc8bc9ebf4a73b537c6f951f434e3
+msgid "The \"Sources\" download contains a list of all the sources used to evidence data on WhoWasInCommand. Unlike the other downloads, the content of the \"Sources\" download is not limited to a specific country: it's everything referenced anywhere in WhoWasInCommand. To learn more about how Security Force Monitor uses sources, visit the sections of the Research Handbook about :ref:`Data integrity measures` and :ref:`Sources`."
+msgstr ""
+
+#: ../../source/downloads.rst:243
+#: f7a487a194cb4a1bbabd637885e67cce
+msgid "1   source:id:admin 2   source:title 3   source:type 4   source:author 5   source:publication_name 6   source:publication_country 7   source:published_timestamp 8   source:created_timestamp 9   source:uploaded_timestamp 10  source:url 11  source:access_point_id 12  source:access_point_type 13  source:access_point_trigger 14  source:accessed_timestamp 15  source:archive_url"
+msgstr ""

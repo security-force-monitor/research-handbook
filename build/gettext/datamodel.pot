@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, Security Force Monitor
+# Copyright (C) 2022, Security Force Monitor
 # This file is distributed under the same license as the SFM Research Handbook package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFM Research Handbook \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-15 18:39+0100\n"
+"POT-Creation-Date: 2022-05-06 16:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../source/datamodel.rst:15
 #: bc55eeeddcb0498b80552290727cbd3c
-msgid "Detailed guidance about the fields used by the Monitor to record data about :ref:`Units`, :ref:`Persons` and :ref:`Incidents` is provided in the sections that follow."
+msgid "Detailed guidance about the fields used by the Monitor to record data about :ref:`Units`, :ref:`Persons`, :ref:`Incidents` :ref:`Locations` is provided in the sections that follow."
 msgstr ""
 
 #: ../../source/datamodel.rst:18
@@ -68,12 +68,12 @@ msgstr ""
 
 #: ../../source/datamodel.rst:22
 #: 53959c0a97d748de9fd9eddfe13862b7
-msgid "Sample data entry sheets `in Excel format <_static/sfm_data_entry_20191203.xlsx>`_."
+msgid "Sample data entry sheets `in Excel format <_static/sfm_data_entry_20210416.xlsx>`_."
 msgstr ""
 
 #: ../../source/datamodel.rst:23
 #: f43c38cfd1c741a8887e7120663bdc20
-msgid "Sample data entry sheets `in Open Document format <_static/sfm_data_entry_20191203.ods>`_."
+msgid "Sample data entry sheets `in Open Document format <_static/sfm_data_entry_20210416.ods>`_."
 msgstr ""
 
 #: ../../source/datamodel.rst:24

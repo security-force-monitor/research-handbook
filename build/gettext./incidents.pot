@@ -1,0 +1,1287 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Security Force Monitor
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-06 16:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/incidents.rst:2
+#: 4c431c3335a941e9b4bbf1647a0d9cc3
+msgid "Incidents"
+msgstr ""
+
+#: ../../source/incidents.rst:5
+#: 32bbaa5d746e4d6b822325f421d797d7
+msgid "What are incidents?"
+msgstr ""
+
+#: ../../source/incidents.rst:7
+#: 9f37804cef9a4240a790ea604d461520
+msgid "Incidents are publicly-documented allegations of acts committed by state-controlled security forces that may violate human rights laws and standards, international criminal law and other sets of relevant norms. Incidents may include extrajudicial killings, rape, torture and other forms of violence. Security Force Monitor does not make these allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors around the world."
+msgstr ""
+
+#: ../../source/incidents.rst:9
+#: 9fd756d2cc244135b6c467c7b2088f0a
+msgid "The Security Force Monitor focuses its research on the structure, personnel and operations of security forces; we do not directly investigate specific allegations of human rights abuse in the way that Amnesty International or Human Rights Watch do. As such we consider all reports of human rights abuses as “alleged” in our documentation. This simply means these are claims that other organizations have made and which we are repeating without further verification. The Security Force Monitor does not make allegations against security forces and the data that we publish does not attempt to demonstrate involvement of individuals or units in human rights abuses beyond that which other organizations have alleged."
+msgstr ""
+
+#: ../../source/incidents.rst:11
+#: 47fe23fa600a48d6ba367498b2e35ee2
+msgid "For each incident, we include data about what happened and when, the location(s) it occurred at, the alleged perpetrators and the type of human rights violation the reporting organization claims has occurred."
+msgstr ""
+
+#: ../../source/incidents.rst:13
+#: b73073776f454327ac9e9cad185f8b96
+msgid "In a departure from how we compile data about :doc:`units` and :doc:`persons`, individual fields in incident records are not sourced and rated for confidence. Rather, we provide a single source for the entire incident. This is because each incident is a direct copy of material from a single source rather than a tapestry of material from a range of different sources."
+msgstr ""
+
+#: ../../source/incidents.rst:15
+#: fcba0ad6f2154cc0827f16d648d3e8ff
+msgid "A spreadsheet containing all the fields used by Security Force Monitor can be found in the section called :ref:`Sample Data Entry Sheets`."
+msgstr ""
+
+#: ../../source/incidents.rst:18
+#: 1e8ebf49c5014e9583ccab0e3300251c
+msgid "Incident: Unique Identifying Number"
+msgstr ""
+
+#: ../../source/incidents.rst:20
+#: ../../source/incidents.rst:64
+#: ../../source/incidents.rst:99
+#: ../../source/incidents.rst:142
+#: ../../source/incidents.rst:177
+#: ../../source/incidents.rst:220
+#: ../../source/incidents.rst:269
+#: ../../source/incidents.rst:304
+#: ../../source/incidents.rst:339
+#: ../../source/incidents.rst:374
+#: ../../source/incidents.rst:425
+#: ../../source/incidents.rst:458
+#: ../../source/incidents.rst:495
+#: ../../source/incidents.rst:532
+#: ../../source/incidents.rst:567
+#: ../../source/incidents.rst:606
+#: ../../source/incidents.rst:641
+#: ../../source/incidents.rst:682
+#: ../../source/incidents.rst:723
+#: 593a0e9bb955451b9c3effe527c5f521
+#: b15edb17a8374349b30f82b16116391e
+#: f2b7b60ebf1743c4853e8e4827b5236e
+#: 29bf47b19d13406197db5ac44e0c5219
+#: c26cb0f8123f4d0db1283d57b47f84bb
+#: aa1e00003ffd4f358e73b18a6b0940ef
+#: 7e087cb46bbe46d7813416c23170740a
+#: 3c82f16d2b2c451f884e0f346ea30717
+#: 5a37d6615a5347a294249fbe7ed5adc7
+#: f1e75b684b4147c9a5a4aa782dee463a
+#: a6851073651a47c6979bc95990ef26fb
+#: a822bba7f9fb4c43989a4945a5c56f2c
+#: 8b424d3f809b4543b54d18bb033f9270
+#: 014a5a5fa8a84fb6a362618165552df7
+#: 35964500a163414a9f82ac620e507cc0
+#: 59e00069caf949e89cf72b2552d8eeb4
+#: 2d1f54dde1bb468bb31947f3d46700c8
+#: 6ef2b8abe6834c5492065b9884a9babe
+#: 345e36715fcf42c0a4e71c873dacf52e
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/incidents.rst:22
+#: daf9dc0159714f77adf808bc381e6d64
+msgid "A unique 32 character code assigned to each incident in the dataset."
+msgstr ""
+
+#: ../../source/incidents.rst:24
+#: ../../source/incidents.rst:68
+#: ../../source/incidents.rst:103
+#: ../../source/incidents.rst:146
+#: ../../source/incidents.rst:181
+#: ../../source/incidents.rst:224
+#: ../../source/incidents.rst:273
+#: ../../source/incidents.rst:308
+#: ../../source/incidents.rst:343
+#: ../../source/incidents.rst:378
+#: ../../source/incidents.rst:427
+#: ../../source/incidents.rst:462
+#: ../../source/incidents.rst:499
+#: ../../source/incidents.rst:536
+#: ../../source/incidents.rst:571
+#: ../../source/incidents.rst:610
+#: ../../source/incidents.rst:645
+#: ../../source/incidents.rst:686
+#: ../../source/incidents.rst:727
+#: abc508114bdb47598fa1ff5089fc780c
+#: 3fa411b13d914bc8b5afbc471519de66
+#: 2d80ff3460a34fc1b9538a8b2f25046b
+#: 94e4bea566194c3ebaacaf0889e542a4
+#: c21a7103c95b425397a58efdeca1f8d0
+#: f5fad2b31bec45a1a8cc78da44686683
+#: 0c1e721d6e7d4847b73df421b8955047
+#: 36d8a364af3548d3b544ad21b9ebd31c
+#: cf0b76d3806d4c968f7d53b86a55a267
+#: ed04821978a14184a6719caabf512bf2
+#: ff2edaf9807e48e1acae579511e69d0a
+#: f7039d41cfc84be69799723a16ae1b99
+#: c26d2c0a5ada46f2a2c29d46809a23b1
+#: 050018ff12b741c9879ac2732f9b7e48
+#: c94be64a08df482fbbeabb0470bced75
+#: da73ebae4af64b23b5722ae8b6416a89
+#: e0dcf0a5a5dc4838808e9091952024ef
+#: a7223715b79c4b84887405925bfb4c30
+#: 7d79136e786646d1b70283da2d2d4878
+msgid "**Type of field**"
+msgstr ""
+
+#: ../../source/incidents.rst:26
+#: ../../source/incidents.rst:380
+#: ../../source/incidents.rst:501
+#: 4be884416a24469aa0d0abe2583d1ecc
+#: 42028ba4e01742caad468abf193ea728
+#: 92e6b8a46fd74a60ba15112a5ddc9eb7
+msgid "Text and numbers"
+msgstr ""
+
+#: ../../source/incidents.rst:28
+#: ../../source/incidents.rst:72
+#: ../../source/incidents.rst:107
+#: ../../source/incidents.rst:150
+#: ../../source/incidents.rst:185
+#: ../../source/incidents.rst:228
+#: ../../source/incidents.rst:277
+#: ../../source/incidents.rst:312
+#: ../../source/incidents.rst:347
+#: ../../source/incidents.rst:382
+#: ../../source/incidents.rst:431
+#: ../../source/incidents.rst:466
+#: ../../source/incidents.rst:503
+#: ../../source/incidents.rst:540
+#: ../../source/incidents.rst:575
+#: ../../source/incidents.rst:614
+#: ../../source/incidents.rst:649
+#: ../../source/incidents.rst:690
+#: ../../source/incidents.rst:731
+#: 3b797a20c07d4f5cb1e400f3224a33c9
+#: d803a3923be542f89cc74cce09be7177
+#: f58dfb7cc1414aa39226fba21be42d51
+#: a49683e6fb7049599a83bb2b13654b40
+#: 6d6c39312a5c4728b70c32fb704a9a03
+#: dac0cc3991d64c7893977cb203f90286
+#: 45207f672e3f4703bd04be9204c505cc
+#: 07ab0987aa084a5e90b673443e05cd55
+#: 52bc7fa605e34883ada3c5a9ce53b36a
+#: 2d98655457ca442fb780d853aa7e350c
+#: 40b298588a364a058a2986edbd48bf75
+#: c2ec35a8c069473e8ee3428d7b9b06e0
+#: dbff3fe8031947db95cc76fd5465a333
+#: fd6d9abecafd442ca48a86e260be6a02
+#: 0325c190f66d4e68951f77466227d374
+#: a64beea854154567bd84bfe7e2d7fc74
+#: e1772e186640463eb66e391a4690a243
+#: 48f2e18d35e94079899a48a00a1e87a5
+#: dc08ecc92f5d4b98b88a382c094ffe46
+msgid "**Example of use**"
+msgstr ""
+
+#: ../../source/incidents.rst:30
+#: 71be7fe851fd49cd99135c18febe4685
+msgid "``a407be6a-28e6-4237-b4e9-307f27b1202e``"
+msgstr ""
+
+#: ../../source/incidents.rst:32
+#: ../../source/incidents.rst:76
+#: ../../source/incidents.rst:111
+#: ../../source/incidents.rst:154
+#: ../../source/incidents.rst:189
+#: ../../source/incidents.rst:232
+#: ../../source/incidents.rst:281
+#: ../../source/incidents.rst:316
+#: ../../source/incidents.rst:351
+#: ../../source/incidents.rst:386
+#: ../../source/incidents.rst:435
+#: ../../source/incidents.rst:470
+#: ../../source/incidents.rst:507
+#: ../../source/incidents.rst:544
+#: ../../source/incidents.rst:579
+#: ../../source/incidents.rst:618
+#: ../../source/incidents.rst:653
+#: ../../source/incidents.rst:694
+#: ../../source/incidents.rst:735
+#: eeddb9b799924798a3215bde264c699b
+#: 978821117b6f45bd97f184855da384d6
+#: df7ebadf987e4f9c81e466fe5cd0603a
+#: 485d51b70bdb4dafaa9048e5f0d12b0a
+#: 035679f62e3440bcb2011dd74d2c5121
+#: e988dcdd932c4693a94b968df27edf31
+#: 8b0a49ace2844c9c9725ed58e4b4caee
+#: a510e6fac90c40e2ad8fe1b2e3bbfd32
+#: 0d24125d1c18403ab332df879e9c63f5
+#: b2b6ad43caa84e76b633c58bf979bba5
+#: 6615b76e0ec94e7dbd778d99c55649c8
+#: 7363c7dee9eb4a61ac6c61a78aa63bb4
+#: e3721a4cc9ea44c3a7b29c1fcb25ebab
+#: f4ae4eefdf2d46c38cde2543248fa19d
+#: 8c40c4cb8bdf4608a02587ccf76330a8
+#: 2fb8678efd194d189005eb0c6c7d45ad
+#: 895d1d3600f04e2baa1528954951c6ca
+#: 331c7cff3ddd46f58a2ba428faa50a10
+#: a330d777f09c45fa97dcad808ed29467
+msgid "**Spreadsheet column name**"
+msgstr ""
+
+#: ../../source/incidents.rst:34
+#: 88bccd84000d4c78b26d64f38770401a
+msgid "``incident:id:admin``"
+msgstr ""
+
+#: ../../source/incidents.rst:36
+#: ../../source/incidents.rst:80
+#: ../../source/incidents.rst:115
+#: ../../source/incidents.rst:158
+#: ../../source/incidents.rst:193
+#: ../../source/incidents.rst:236
+#: ../../source/incidents.rst:285
+#: ../../source/incidents.rst:320
+#: ../../source/incidents.rst:355
+#: ../../source/incidents.rst:390
+#: ../../source/incidents.rst:439
+#: ../../source/incidents.rst:474
+#: ../../source/incidents.rst:511
+#: ../../source/incidents.rst:548
+#: ../../source/incidents.rst:583
+#: ../../source/incidents.rst:622
+#: ../../source/incidents.rst:657
+#: ../../source/incidents.rst:698
+#: ../../source/incidents.rst:739
+#: e21f253b35f44d43aa42fc9e22fe199a
+#: d683d874088046ff998f482f3915cf45
+#: f44f68f8e0c645eba13ae24cca70ac6e
+#: 1255faa8733b4da7a6ab09a12272e82d
+#: 30240c7afac84cca931f0990e8dbf3a9
+#: bbe3a75e32f1474880be6532368fa36b
+#: 0995893c17d54d3091a9319a849fd365
+#: cd7fa455a1b540f0a051ee8641a5ffea
+#: 1f602d7b73464d138d56e18ec69439c4
+#: 5893a3e709cb4c38931cda518f5cc7c6
+#: 315559c1fdf745549339d5abac97e543
+#: 2f2cc3fa63384f9aa8859f5317be9d11
+#: 6cd93218e9b943dab63ed99f260d8e71
+#: 21577be4f1de447fb220b0c01863de2e
+#: 1cfe58f90b194472b22ca48bca51a41a
+#: 293ec5d952ad46dca88217362a40b404
+#: d2182fb092b04012aaaae400159e38af
+#: 094596c6c6f447aab60fe92a94a78289
+#: f24ae35fa62644298aa7232e9b3ff133
+msgid "**Shortcode**"
+msgstr ""
+
+#: ../../source/incidents.rst:38
+#: 93bb826c48e5450c80edc63338a98a66
+msgid "``i_id_a``"
+msgstr ""
+
+#: ../../source/incidents.rst:40
+#: ../../source/incidents.rst:84
+#: ../../source/incidents.rst:119
+#: ../../source/incidents.rst:162
+#: ../../source/incidents.rst:197
+#: ../../source/incidents.rst:240
+#: ../../source/incidents.rst:289
+#: ../../source/incidents.rst:324
+#: ../../source/incidents.rst:359
+#: ../../source/incidents.rst:394
+#: ../../source/incidents.rst:443
+#: ../../source/incidents.rst:478
+#: ../../source/incidents.rst:515
+#: ../../source/incidents.rst:552
+#: ../../source/incidents.rst:587
+#: ../../source/incidents.rst:626
+#: ../../source/incidents.rst:661
+#: ../../source/incidents.rst:702
+#: ../../source/incidents.rst:743
+#: d48c176b07e04474995aa59f53523d83
+#: e035b503232a46f081631dbff36a3d46
+#: dfd75773e64a46109cfec38faaf0a6e9
+#: d5cf28a1346b42d292e3ec49bcffa134
+#: 5457e836585e4ad1a97d328960697e17
+#: 26b89f0870174d5cb5a0b307041eb514
+#: fa12c5acf55d4a72a9671b411b552541
+#: f161713228f4448bbd8961d4e2b4ac54
+#: 674b68a3b1e7490e8bfa38f5b5f07a0e
+#: e85471a08dea49889dbb69a840d6d98b
+#: 24315c0119634c399c5460361b085661
+#: d67b6ddb0f584e84adb0969ac7ea3dba
+#: 0f759a90dee9480e910bada858f048b8
+#: d27cd1d968264b75896d733ca1d78c5e
+#: d69c13fd092f46f3bceecf312338a8a8
+#: 1012569368d54d51a0a6aadef9f3b0d3
+#: 6866045761914c228a21ba7810c60f5c
+#: 2db1cdfdd9634ed398bb5f94cd1f25c4
+#: 9ae6ebc8d417497897b09f69d9369a1e
+msgid "**Sources**"
+msgstr ""
+
+#: ../../source/incidents.rst:42
+#: ../../source/incidents.rst:46
+#: ../../source/incidents.rst:86
+#: ../../source/incidents.rst:90
+#: ../../source/incidents.rst:121
+#: ../../source/incidents.rst:125
+#: ../../source/incidents.rst:164
+#: ../../source/incidents.rst:168
+#: ../../source/incidents.rst:199
+#: ../../source/incidents.rst:203
+#: ../../source/incidents.rst:242
+#: ../../source/incidents.rst:246
+#: ../../source/incidents.rst:291
+#: ../../source/incidents.rst:295
+#: ../../source/incidents.rst:326
+#: ../../source/incidents.rst:330
+#: ../../source/incidents.rst:361
+#: ../../source/incidents.rst:365
+#: ../../source/incidents.rst:396
+#: ../../source/incidents.rst:400
+#: ../../source/incidents.rst:445
+#: ../../source/incidents.rst:449
+#: ../../source/incidents.rst:480
+#: ../../source/incidents.rst:484
+#: ../../source/incidents.rst:517
+#: ../../source/incidents.rst:521
+#: ../../source/incidents.rst:554
+#: ../../source/incidents.rst:558
+#: ../../source/incidents.rst:589
+#: ../../source/incidents.rst:593
+#: ../../source/incidents.rst:628
+#: ../../source/incidents.rst:632
+#: ../../source/incidents.rst:663
+#: ../../source/incidents.rst:667
+#: ../../source/incidents.rst:704
+#: ../../source/incidents.rst:708
+#: ../../source/incidents.rst:745
+#: ../../source/incidents.rst:749
+#: be7c2db5ad104c0ab7b1bf9967ea7db5
+#: cd622129f9a843fb8cdab24f2a3eec3d
+#: 5b8013cf2edb43ba9dcfd147202418db
+#: bbf136758ba54106b237e867e0da62ed
+#: 219d8adeb7e846718ff9b09de7e1e78b
+#: 7bf114545e5a4463b66e3fe1d4bc7c85
+#: 3c5388dc29ca4878a774fa91ae87a8e6
+#: 9e047f5d37f2440bb1b7afcc79a89c39
+#: a9ae34cc86e44a27856633598be0e2fa
+#: 8124672b07d3460c8b53193135b70837
+#: 0c67e0879e36421cafe53b10cc219595
+#: 77eb42718833498fa52450222c57f693
+#: 3f50484dc17a4cb1830f0936c9b6ad13
+#: cb353e441eef49038378d4b10c30368b
+#: ecdd3592d0ff463b9b8cdf22504d4041
+#: c42532efcb4e41b1b61ea03bd5557fc6
+#: d3170c6da45e42708ff314255b94da9b
+#: 50b7e1d62075496398bd0793f0016e11
+#: 1580c0bba2d04286bb5228993982670b
+#: 23494b62c95e4bbda713bfa9905f9421
+#: 3ad4ae4a7d62485a89e7ed16eefca315
+#: 591aa27c2d494cbaa025e640d36b4f88
+#: 170da35a54494aaaa1cacebff09d8041
+#: 639c1405c1f247b88686128d79cca26d
+#: bf261ade62bb4107972539d4f8ea1747
+#: a92f4a32cfef468fb2273b28ab4b6228
+#: 37c4a00e128c431b8ae4ec5cfc9e23ef
+#: 2581011c708b48cfaa3b40ed389cf4a9
+#: 37fa9cd7534f4cd9bee66303164816f1
+#: 99bfdc23264d4982848e4f3070320f6c
+#: 46c3feee70f54c8399bc306c7f0268f1
+#: d290b5d5c2ea4928810cba98f5ba701f
+#: 104ced6b42f84600889812a81a9f771c
+#: 42c46ee90b30483682724a5c08b4ee7b
+#: 513452fb2b63409e8dbcd89a4881a810
+#: 4be830e9151048d8816b43bf109bb735
+#: 5acee12d39e04e5794c1d6d9805bcda8
+#: fab76fbd7de943158b8795e00271d8a9
+msgid "No"
+msgstr ""
+
+#: ../../source/incidents.rst:44
+#: ../../source/incidents.rst:88
+#: ../../source/incidents.rst:123
+#: ../../source/incidents.rst:166
+#: ../../source/incidents.rst:201
+#: ../../source/incidents.rst:244
+#: ../../source/incidents.rst:293
+#: ../../source/incidents.rst:328
+#: ../../source/incidents.rst:363
+#: ../../source/incidents.rst:398
+#: ../../source/incidents.rst:447
+#: ../../source/incidents.rst:482
+#: ../../source/incidents.rst:519
+#: ../../source/incidents.rst:556
+#: ../../source/incidents.rst:591
+#: ../../source/incidents.rst:630
+#: ../../source/incidents.rst:665
+#: ../../source/incidents.rst:706
+#: ../../source/incidents.rst:747
+#: 75c3a4a0567f484bb1900423ef79030d
+#: a8d778ad831643ebb46270cd2117e2e3
+#: 74ce97ccc9cf4c1a95f57d6f339c3a3b
+#: a612b226805541318d3490f4475d59fb
+#: 0ba092bff6b5416ba572797f787ad8c3
+#: 7a3c18132b2948bea3a44ec59c4207b9
+#: 9cd5386b12304e38aafde8056ce16c95
+#: 5d1a5bde400b4220b35b1fd20a039809
+#: 22841da66e9b4d9aa1524fca61375e99
+#: dfea297bf1df42a896b9da185bf5cc27
+#: b621ee869bc3414287388e142b27bd63
+#: a5fb0c49acff4f06becd3300035b77fe
+#: d92516b2d36b4289a583d3f3a4c3004c
+#: 2107faca0b1742bfbf7ef357d3b40817
+#: 067ccea5edb04954910d11131b17565d
+#: 0cbf6e923b684b55844e133152a150b2
+#: 3452dcb57b494059999a49f21c0599f9
+#: 90b7fc13916c43f982e7182878464f37
+#: 42fba1ebbe3240d2b0ce5989bc35bb41
+msgid "**Confidence**"
+msgstr ""
+
+#: ../../source/incidents.rst:48
+#: ../../source/incidents.rst:92
+#: ../../source/incidents.rst:127
+#: ../../source/incidents.rst:170
+#: ../../source/incidents.rst:205
+#: ../../source/incidents.rst:248
+#: ../../source/incidents.rst:297
+#: ../../source/incidents.rst:332
+#: ../../source/incidents.rst:367
+#: ../../source/incidents.rst:402
+#: ../../source/incidents.rst:486
+#: ../../source/incidents.rst:523
+#: ../../source/incidents.rst:595
+#: ../../source/incidents.rst:669
+#: ../../source/incidents.rst:710
+#: ../../source/incidents.rst:751
+#: b176b6f00f4b423b94bb689154530d7b
+#: 0597385b7d6c4ab2b4a35a13328f8e74
+#: 767f3cd90ae24dcb9e0c0aff1f842a2e
+#: 769f450484324d9682881b0e0d6a4e52
+#: 8b8d146c84944e81b9f0de1f05e4638f
+#: 021a2a5597bc4b769fdd5368729d89c8
+#: dc97e25662864495aacc150bcc139449
+#: 8c2bc82553d146a280abfe843757f8a9
+#: b790122695894feb8c784fc80c523d13
+#: 2fb6cb865cea4381ad2ab91b2ccb942d
+#: df2ef79812774a0488463f0587e964c7
+#: 5798b1627bdc470d8cdb65c0f4180ec9
+#: 23c5ed64fd9f42f2ba186f38ec50981a
+#: c893674e5035464e892dd6979155da7d
+#: e5a364fd81d24bfd8bde5d7fc9d53359
+#: fc85772433d04cd29b9008fab3c9773d
+msgid "**Guidance for use**"
+msgstr ""
+
+#: ../../source/incidents.rst:50
+#: ea8a375782ab41b1a5f32a88f4f08178
+msgid "This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs can be created easily using either installable or online tools, for example:"
+msgstr ""
+
+#: ../../source/incidents.rst:52
+#: 3ba06fadd54d45839e8a6cfb12981fb6
+msgid "Linux and OSX users: `uuidgen` command line tool."
+msgstr ""
+
+#: ../../source/incidents.rst:53
+#: ac639f87675346d484311387ec712c78
+msgid "On the web: `UUID Generator <https://www.uuidgenerator.net/version>`__."
+msgstr ""
+
+#: ../../source/incidents.rst:55
+#: 5881ab0c781042b4a7029f530d3d125a
+msgid "The field is administrative, providing a reliable way to differentiate between different incidents."
+msgstr ""
+
+#: ../../source/incidents.rst:57
+#: e03a6766e1f54894be84ad630dbc0457
+msgid "When a new incident is created directly in WhoWasInCommand, the platform automatically creates a UUID for that incident and stores it in this field. If a new incident is created in a spreadsheet, the Staff Researcher must generate a unique identifying number for that incident and copy it into the field ``incident:id:admin`` for the single row associated with that specific incident. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID."
+msgstr ""
+
+#: ../../source/incidents.rst:59
+#: 2578c2b2dbfe41c2885c6fedccb47d63
+msgid "Bulk updates made to WhoWasInCommand.com by spreadsheet import are based on the values in this field. For example, changes made in the row ``a407be6a-28e6-4237-b4e9-307f27b1202e`` in the spreadsheet will be applied to the incident with that UUID in WhoWasInCommand."
+msgstr ""
+
+#: ../../source/incidents.rst:62
+#: 6c1d23a70e774289a034a5181994c74b
+msgid "Incident: Research Owner"
+msgstr ""
+
+#: ../../source/incidents.rst:66
+#: a19a2cba6bd84b48955c18b751acc555
+msgid "Initials of the Staff Researcher who first created the incident."
+msgstr ""
+
+#: ../../source/incidents.rst:70
+#: ../../source/incidents.rst:148
+#: 6402ecf2e50b474dab869fb7703f6ad1
+#: b510f4558b0446b1b4973382c3b78a99
+msgid "Text"
+msgstr ""
+
+#: ../../source/incidents.rst:74
+#: e1d26156ee754d6dbe14b45dc6c24feb
+msgid "``TL``, ``TW``, ``MM``"
+msgstr ""
+
+#: ../../source/incidents.rst:78
+#: 400f1c06fef349f6a22fd7f321759ca8
+msgid "``incident:owner:admin``"
+msgstr ""
+
+#: ../../source/incidents.rst:82
+#: 30335cdc28db4ea1b8a018fd362f783e
+msgid "``i_own_a``"
+msgstr ""
+
+#: ../../source/incidents.rst:94
+#: e8f71bb8a54942f6babebd5cdd94a312
+msgid "This field is adminstrative and only used where data are created in a spreadsheet. It is a simple measure to help researchers keep track of records they have created. These data are not imported into WhoWasInCommand. Instead, WhoWasInCommand keeps a record of the changes (edits, new records, deletion) by the name of the system user who made them."
+msgstr ""
+
+#: ../../source/incidents.rst:97
+#: 3504eedd37ce453e8e84a848112582f4
+msgid "Incident: Research Status"
+msgstr ""
+
+#: ../../source/incidents.rst:101
+#: 85288e854d5e424aa4d40a7b90d56497
+msgid "The place of a row of data in the research workflow."
+msgstr ""
+
+#: ../../source/incidents.rst:105
+#: db63790c23434d67a5ce7052acf7cc8f
+msgid "Number range from 0 to 3."
+msgstr ""
+
+#: ../../source/incidents.rst:109
+#: 13478f9b9d4649928b533c9cd2ccc99a
+msgid "``1``"
+msgstr ""
+
+#: ../../source/incidents.rst:113
+#: d4bf5013898a475faf9cef67682c1740
+msgid "``incident:status:admin``"
+msgstr ""
+
+#: ../../source/incidents.rst:117
+#: 5b530d474b434a9794b0b0991cf7fd6a
+msgid "``i_sta_a``"
+msgstr ""
+
+#: ../../source/incidents.rst:129
+#: 6029748de4bc4a81a1230cb50f2bc736
+msgid "This administrative field is only used in spreadsheets. Staff Researchers use this field to indicate where a row of data stands in the research workflow between the first cut of a row of data, review by other researchers, and final readiness for publication. Values in this field are taken from the below controlled list:"
+msgstr ""
+
+#: ../../source/incidents.rst:132
+#: 82d74a343c4c4bdd88c7ec59db382a32
+msgid "`0`: First commit. This row of data has just been added and needs review."
+msgstr ""
+
+#: ../../source/incidents.rst:133
+#: cd23e4f8654f4c48aaa71a339d7e53e7
+msgid "`1`: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the ``incident:comment:admin`` field."
+msgstr ""
+
+#: ../../source/incidents.rst:134
+#: 81bc5f7cf682452fa8cb6fd4b6175bb6
+msgid "`2`: Fixes made. The owner of this data has addressed the reviewer's comments."
+msgstr ""
+
+#: ../../source/incidents.rst:135
+#: 694e26a11a644e5880c277781dd39a58
+msgid "`3`: Clean. A final check has been made by a reviewer, and this row of data can be published."
+msgstr ""
+
+#: ../../source/incidents.rst:137
+#: 5a8444a99d8f46f0a40c104f7671b2e1
+msgid "Data created and managed in WhoWasInCommand does not use this mechanism. At the time of writing, a simple review system is being implemeneted in WhoWasInCommand."
+msgstr ""
+
+#: ../../source/incidents.rst:140
+#: 5a3823bdbf7e4784bf52c0e1ebb53cfe
+msgid "Incident: Research Comments"
+msgstr ""
+
+#: ../../source/incidents.rst:144
+#: 424fd68aa900486ea72d838da1e5292a
+msgid "Observations specific to the process of reviewing data in this row, including fixes, refinements and other suggestions."
+msgstr ""
+
+#: ../../source/incidents.rst:152
+#: 4dc631ad9e1940a58845ce1d7793ebcd
+msgid "``Check location``, ``Missing OSM objects``"
+msgstr ""
+
+#: ../../source/incidents.rst:156
+#: 22119c7955f643ad9ded8f02621cb125
+msgid "``incidents:comments:admin``"
+msgstr ""
+
+#: ../../source/incidents.rst:160
+#: c1e6b49670e34967a72192a0881bac64
+msgid "``i_com_a``"
+msgstr ""
+
+#: ../../source/incidents.rst:172
+#: 546bc75184fb434cbef2491b77001b8f
+msgid "This is an adminstrative field specific to data created in spreadsheets. Staff Researchers use it to pass on feedback about the data in the row. This may included changes needs to specific fields, references to sources that the owner of the row might look at, and other observations that can improve the quality of the data. Data in this field are not intended for publication."
+msgstr ""
+
+#: ../../source/incidents.rst:175
+#: 2f5875e58c79423c82ed4cc58977c1d6
+msgid "Incident: Start Date"
+msgstr ""
+
+#: ../../source/incidents.rst:179
+#: 2a28ebed24cf40698a38dbbde7fdf718
+msgid "The date on which an incident started."
+msgstr ""
+
+#: ../../source/incidents.rst:183
+#: ../../source/incidents.rst:226
+#: ../../source/incidents.rst:275
+#: ../../source/incidents.rst:310
+#: 433fdff03209441caa82e10606df0f19
+#: 8991ba78529e4df6af28e0fa4ec91688
+#: 4ae9640a0f7244acb5b43694b7a7e5c9
+#: c14ecfb422bb40068dfcc4d6b466f4eb
+msgid "Date (YYYY-MM-DD), fuzzy"
+msgstr ""
+
+#: ../../source/incidents.rst:187
+#: ../../source/incidents.rst:230
+#: ../../source/incidents.rst:279
+#: ../../source/incidents.rst:314
+#: 1e7056b22f804adaa83404de17972a34
+#: 90dd0d3d725b4fbfb2e09dc7cc3aa92b
+#: e8b2e8897ea44c5ba4cbbe47b9e3d566
+#: a21f236e79ec41a2a15e49d006ed64e7
+msgid "``2012``, ``2012-11``, ``2012-11-23``"
+msgstr ""
+
+#: ../../source/incidents.rst:191
+#: ffad5db740a24bba8ade2716c3ea952f
+msgid "``incident:start_date``"
+msgstr ""
+
+#: ../../source/incidents.rst:195
+#: 1676536ff23a482b84e22c9880ddc394
+msgid "``i_sd``"
+msgstr ""
+
+#: ../../source/incidents.rst:207
+#: 6f9736c9a6ba45cca283e44a9197df7b
+msgid "If an incident occurred within a single day, ``Incident: Start Date`` and ``Incident: End Date`` should be the same."
+msgstr ""
+
+#: ../../source/incidents.rst:209
+#: ab15d51b22c94bbbb552b600f0e67526
+msgid "Incidents may occur at some point during a range:"
+msgstr ""
+
+#: ../../source/incidents.rst:211
+#: 49e0d3d189d34100901774c6b3329e28
+msgid "For example: “On or about August 9, 2006, personnel of the NPF paraded 12 alleged armed robbers—including a 12-year-old—before the media at the Central Police Station in Umuahia, capital of Abia State. They claimed to have arrested the suspects after an exchange of gunfire with the police. Some of those in custody had gunshot wounds, and four others were killed during the incident at Olokobe-Ndume community in Umuahia North Local Government Area of Abia State. Following the parade, the police summarily executed the suspects and deposited their bodies at the premises of the Federal Medical Centre in Umuahia. They claimed that the executed victims signed confessional statements before they were killed. On August 17, 2006, the authorities of the Federal Medical Centre arranged a mass burial for the decomposing bodies of the victims. There were no autopsies or inquests. The police later organized a press conference at which they announced the executions.”"
+msgstr ""
+
+#: ../../source/incidents.rst:213
+#: 15c657fb9f9849cba0fb7a5f07434696
+msgid "We know from this source that the victims were alive as of 9 August 2006 and we know they were dead as of 17 August 2006. However the exact time of the killing occurred is not clear; it could have happened at any point during that time frame. To accommodate this, we would record ``2006-08-09`` in ``Incident: Start Date`` and ``2006-08-17`` in ``Incident: End Date``."
+msgstr ""
+
+#: ../../source/incidents.rst:215
+#: 0d0158bd6ae34202a28c3e9aaa733b22
+msgid "In keeping with all date fields we include in this dataset, where research indicates that only a year or a year and a month, these partial dates can be included in ``Incident: Start Date`` ."
+msgstr ""
+
+#: ../../source/incidents.rst:218
+#: c663662aa50b48b2b541bd044d64f543
+msgid "Incident: End Date"
+msgstr ""
+
+#: ../../source/incidents.rst:222
+#: e0a487e4bc1447f9a06bda5027b630cb
+msgid "The date on which an incident ended."
+msgstr ""
+
+#: ../../source/incidents.rst:234
+#: 7cdefede73d04eb9b4f634b75f22ea7d
+msgid "``incident:end_date``"
+msgstr ""
+
+#: ../../source/incidents.rst:238
+#: 040403711fe94e8182da2859dd02aa0c
+msgid "``i_ed``"
+msgstr ""
+
+#: ../../source/incidents.rst:250
+#: 7de3d34fca3646979bf470f61ee4a250
+msgid "If ``Incident: End Date`` is unclear there are several ways to determine what should be used."
+msgstr ""
+
+#: ../../source/incidents.rst:252
+#: 40c0e4cd9f3d49ac8a548cce8f4bd42e
+msgid "One option is to record the date of interview with victim as ``Incident: End Date``. We can assume that the allegation(s) ended at least the month/day of the interview - or that we at least know they occurred up to that date."
+msgstr ""
+
+#: ../../source/incidents.rst:254
+#: 77de2674bebe423d91f97d910c778d41
+msgid "For example: \"Abu Bakr, a former detainee in Giwa Barracks told Amnesty International that he had been forced to share a confined area with up to 400 other people [...] Abu Bakr who was held in Giwa barracks told Amnesty International in July 2014: “There was no toilet. To toilet you use a black plastic bag and when you go out you throw it… or if someone used his maybe he will give you.” He also explained: 'We had rice for breakfast. A small amount, they put it in your hand. You give your hand, they will put the rice, you swallow it, you go back to the cell. Later in the day they give you water once. It is in a jug and you drink and pass it to another inside the cell. In the evening it is rice and stew, small. They give it in a nylon bag. There is no washing, no showers. No sleep. You just sit down only, the place is very tight, just sit on your bottom. You can only pray in the cell where you are sitting.'\""
+msgstr ""
+
+#: ../../source/incidents.rst:256
+#: 730961375b974c4b90a38b9bd130d983
+msgid "In this example we could record ``2014-07`` in ``Incident: End Date`` because we know that at some time in July he talked to Amnesty International."
+msgstr ""
+
+#: ../../source/incidents.rst:258
+#: d4bc4463534a466c9c1dd56a0638ab63
+msgid "Here's another example:"
+msgstr ""
+
+#: ../../source/incidents.rst:260
+#: 5e66f5cdde164053a5e22af40ee806b2
+msgid "“Melvin, a 23-year-old sex worker in Port Harcourt, said she was raped twice by the police. She said: “I was arrested twice. Last month they took all of us to Mile 1 police station. We were six that day, we see different people. They put us in different places [in the police station]. We just have to allow them have sex with us. We were detained for three days. We were asked to pay N3,500 each. The one that will bail you will sleep with you. After that you can go.”"
+msgstr ""
+
+#: ../../source/incidents.rst:262
+#: 0ec3994a1fea4000acb6d1c088a8fe3f
+msgid "In this case, we can look at the footnotes. They often will give the date of when the victim was interviewed. In this case, both footnotes read: “Amnesty International interview in Port Harcourt, October 2011.” - so “last month” would be ``September 2011`` and we would record this as ``2011-09`` in ``Incident: Start Date``. While they were detained for three days it is unclear if the complete incident occurred in September because Amnesty interviewed this person in October 2011. Accordingly, we could record ``2011-10`` in ``Incident: End Date`` as they could have been arrested on September 29 and then released on 1 October 2011."
+msgstr ""
+
+#: ../../source/incidents.rst:264
+#: 6b22da8fcef1407ebfb16ceb9d63dc95
+msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Incident: End Date``."
+msgstr ""
+
+#: ../../source/incidents.rst:267
+#: 2aa7753a7c5e4783be64878041989163
+msgid "Incident: Date of Publication"
+msgstr ""
+
+#: ../../source/incidents.rst:271
+#: 3102cb5e53d14d4593e3ed579572a947
+msgid "The date of publication of the source used to evidence the incident."
+msgstr ""
+
+#: ../../source/incidents.rst:283
+#: a04acb65e68c4b559a292631dac5269b
+msgid "``incident:pub_date``"
+msgstr ""
+
+#: ../../source/incidents.rst:287
+#: 1fad4ad2621b4146a9e4cbe501cb8b31
+msgid "``i_pd``"
+msgstr ""
+
+#: ../../source/incidents.rst:299
+#: b986deb4c12d44248309eff434d7119c
+msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Incident: Date of Publication``."
+msgstr ""
+
+#: ../../source/incidents.rst:302
+#: 64ab38dbd1224677b010a29d1c986361
+msgid "Incident: Date of Last Update"
+msgstr ""
+
+#: ../../source/incidents.rst:306
+#: 3e7716faa3de4c9eb8c2ca400a0da31e
+msgid "The date of most recent update about the incident."
+msgstr ""
+
+#: ../../source/incidents.rst:318
+#: b168f468cfa04c48b9ede213e0a83a54
+msgid "``incident:update_date``"
+msgstr ""
+
+#: ../../source/incidents.rst:322
+#: be31b951d25549f58fc8d9af6b303285
+msgid "``i_ud``"
+msgstr ""
+
+#: ../../source/incidents.rst:334
+#: b6cf8b4c1ce24748a59bca17e74fff1a
+msgid "In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in ``Incident: Date of Last Update``."
+msgstr ""
+
+#: ../../source/incidents.rst:337
+#: 106349cef33e46e5b2368586207431e1
+msgid "Incident: Status as of Last Update"
+msgstr ""
+
+#: ../../source/incidents.rst:341
+#: b8dacb31946b4de9b4617f143f42896a
+msgid "Most recently available status of the incident."
+msgstr ""
+
+#: ../../source/incidents.rst:345
+#: 0db18c78ef8648fc91273cfc46a195a8
+msgid "Text, controlled vocabulary"
+msgstr ""
+
+#: ../../source/incidents.rst:349
+#: ../../source/incidents.rst:369
+#: 74ff45d404284934b7a1f24b262c48e4
+#: e192141b2b1746ba976123e378f2c5b2
+msgid "Field is not yet implemented."
+msgstr ""
+
+#: ../../source/incidents.rst:353
+#: 1189e83f6f5547d29913c88901c7facc
+msgid "``incident:update_status``"
+msgstr ""
+
+#: ../../source/incidents.rst:357
+#: 0b5fdff0124e483d8f49a065a7f60872
+msgid "``i_us``"
+msgstr ""
+
+#: ../../source/incidents.rst:372
+#: 5c92dce7a83644fb8c3da68f0abc2af3
+msgid "Incident: Location Description"
+msgstr ""
+
+#: ../../source/incidents.rst:376
+#: 1f20db72c09e4d77a76a59b8ad5a5276
+msgid "A description of the where the incident occurred."
+msgstr ""
+
+#: ../../source/incidents.rst:384
+#: adce135d9696439db27dc3899e5fa402
+msgid "``Giwa Barracks``, ``Rikkos neighborhood``, ``Campo Militar Número 6-B``"
+msgstr ""
+
+#: ../../source/incidents.rst:388
+#: dae57b3bfaf34c09b3ce7ed993acc38d
+msgid "``incident:location_description``"
+msgstr ""
+
+#: ../../source/incidents.rst:392
+#: 8dea196feb184500be7fd6251cb8bddb
+msgid "``i_ld``"
+msgstr ""
+
+#: ../../source/incidents.rst:404
+#: 902d6548b9c44eb3a1b4f3b8a5db9e25
+msgid "We use this field to record the location of an incident exactly as described in the source. Here is an example:"
+msgstr ""
+
+#: ../../source/incidents.rst:406
+#: 8347ebc501d643efa6ef13e86d4827e8
+msgid "\"Stanley Adiele Uwakwe and Faka Tamunotonye Kalio were arrested on 10 May and brought to Old GRA detention centre in Port Harcourt. After several days, they were transferred to another police station, but officers there told relatives that the men were not in detention. Unofficially, relatives were informed that the men had been killed by the police.\""
+msgstr ""
+
+#: ../../source/incidents.rst:408
+#: 22b07b64489e43e0877f6d44f96dc46a
+msgid "While they were detained at \"Old GRA detention centre\" the location of their killing is unclear. It is also not clear where they were located before they were disappeared - was it at the Old GRA or at the unnamed police station? Since we don’t know we’d leave the ``Incident: Location Description`` field blank."
+msgstr ""
+
+#: ../../source/incidents.rst:410
+#: 8206236ef0924e14a90732ef541bd456
+msgid "Here's another example of how to use this field:"
+msgstr ""
+
+#: ../../source/incidents.rst:412
+#: a63821e28df54f2a9834a13cff80adbd
+msgid "\"And in yet a third case, Human Rights Watch interviewed three witnesses who saw soldiers shoot five men on the Customs Bridge in Maiduguri. One of the victims survived. He told Human Rights Watch that on the afternoon of July 28 soldiers entered a mosque where he was praying with four other men. The soldiers removed their robes, beat them, and marched them to their commander at the bridge. He described what happened next: The soldiers told us to lie down. Four of the soldiers opened fire on us. The commander was watching. I was lying on my side. They saw that some of us were moving and shot us again. I then lost consciousness. I regained consciousness in the night and dragged myself to an area in the dirt near Dandal Community Bank. I spent the night under a bus. In the morning an achaba [commercial motorcycle taxi] man who knew me took me to my house. My family called a doctor…. They removed four bullets from my body. A former Boko Haram member who witnessed the shootings at the Customs Bridge insisted to Human Rights Watch that the five men were not Boko Haram members. According to him, “The old man was holding prayer beads, and Boko Haram members don’t do that. The two youth wore T-shirts and the [other] two men wore long pants, not the short pants of Boko Haram.” The soldiers left the corpses on the bridge for three days.\""
+msgstr ""
+
+#: ../../source/incidents.rst:414
+#: a785bad9d9a646dfbc4d71123c337a9b
+msgid "The location we would enter into ``Incident: Location Description`` would be  \"the Customs Bridge\",  while we would enter ``Maiduguri`` into the field called ``Incident: Site, Settlement`` (a field that is documented  below)."
+msgstr ""
+
+#: ../../source/incidents.rst:416
+#: beae3e6aa7af43a99ef13ce4923d8d1b
+msgid "A common issue is the separation of specific incidents contained within a single account of violations based on geography."
+msgstr ""
+
+#: ../../source/incidents.rst:418
+#: ee6f0d47e293469ebdc38bc745be0911
+msgid "Often a person is arrested and, for example, beaten at a specific site (and the account might include information about other victims being killed at the site of arrest). They are then transported to another site where they are detained and tortured. Moreover, the conditions during the transportation of detainees/prisoners may amount to violations of fundamental rights and often the narrator describes people dying while being transported."
+msgstr ""
+
+#: ../../source/incidents.rst:420
+#: 27d4a693e5fb4443be67e99d169aee72
+msgid "In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one ``incident`` and abuses committed or otherwise tied to site of detention a separate ``incident``."
+msgstr ""
+
+#: ../../source/incidents.rst:423
+#: 3daa20bbf9944655afea47bfe5aeab90
+msgid "Incident: Location"
+msgstr ""
+
+#: ../../source/incidents.rst:429
+#: cca2f6217d744a6faba4b2677b01dad3
+msgid "Text and numbers; linked to ``location:humane_id_admin``."
+msgstr ""
+
+#: ../../source/incidents.rst:433
+#: 3a56e3e2a58b4caba16cb9d5aa246c51
+msgid "``Baga (osm, point) 4d7d97a6-d85e-436b-9511-81e8d55ceff3``"
+msgstr ""
+
+#: ../../source/incidents.rst:437
+#: 900a701cca5a4d6782bb5303be216333
+msgid "``incident:location``"
+msgstr ""
+
+#: ../../source/incidents.rst:441
+#: 0b4f588067ca4fe9b737994b14a55289
+msgid "``i_loc``"
+msgstr ""
+
+#: ../../source/incidents.rst:451
+#: ../../source/incidents.rst:560
+#: ../../source/incidents.rst:634
+#: 171359d5d5c248469d250f0f46e3e8b4
+#: cb26144e44114bb791abe863f00064ca
+#: e3b4652886e64f8da5761175c689f400
+msgid "**Guidance on use**"
+msgstr ""
+
+#: ../../source/incidents.rst:453
+#: d426086db5e64e53bfb4edcf50554fa2
+msgid "This field is used to store information about the Location where an incident happened. The value included in this field must be taken from ``location:humane_id:admin`` in the :ref:`Locations` dataset. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation."
+msgstr ""
+
+#: ../../source/incidents.rst:456
+#: a5c5d9bd8abf4b0bafdc5ea53256183c
+msgid "Incident: Violation type"
+msgstr ""
+
+#: ../../source/incidents.rst:460
+#: dd0120bf587244899836b094b73cf6f1
+msgid "Type of alleged violation of human rights law, international humanitarian law or other relevant laws committed during the incident."
+msgstr ""
+
+#: ../../source/incidents.rst:464
+#: f708d81907cf4455906e87d41998c25f
+msgid "Text, multiple entry, controlled vocabulary"
+msgstr ""
+
+#: ../../source/incidents.rst:468
+#: ba6ea7f6613e4489be7f2d586421482c
+msgid "``Torture; Violations of the Right to Life``, ``Intentionally directing attacks against the civilian population``"
+msgstr ""
+
+#: ../../source/incidents.rst:472
+#: d9cd3e87571448f5b1cbb17a0220d4b8
+msgid "``incident:violation_type``"
+msgstr ""
+
+#: ../../source/incidents.rst:476
+#: a4aeb4ce3638411aab4b37ff31b6fdf0
+msgid "``i_vt``"
+msgstr ""
+
+#: ../../source/incidents.rst:488
+#: 7ee3ec24a6414014ac078a60413a01d4
+msgid "In ``Incident: Violation Type``, a values is taken \"as is\" from the source. If the source states \"torture\", we transcribe this without further analysis."
+msgstr ""
+
+#: ../../source/incidents.rst:490
+#: 52fafd345f80482ab5c4366f4c54d54f
+msgid "This field can accept multiple entries. If the field is created in a spreadsheet, the discrete entries must be separated with semi-colon."
+msgstr ""
+
+#: ../../source/incidents.rst:493
+#: 3e0f38eb58384b1c8430a21caaee1162
+msgid "Incident: Violation Description"
+msgstr ""
+
+#: ../../source/incidents.rst:497
+#: 424c8ff69401422fb4aa0ce5d64335b4
+msgid "A description of the incident."
+msgstr ""
+
+#: ../../source/incidents.rst:505
+#: fcdb0bf673da4827a1454b0f33c5ae2e
+msgid "According to Amnesty International: \"Usman Modu, a 26-year-old scrap metal dealer from Maiduguri, spent almost two and a half years in Giwa barracks. He was arrested in April 2012 in Gwange, Maiduguri, during a screening operation after a Boko Haram attack. All the people who left the mosque were gathered together: the elderly and children were allowed to go home. The men were brought before a “pointer”, who pointed at him and 17 other men. He was first taken to a JTF station called NEPA and then to Giwa Barracks. “One by one we were brought in front of an armoured tank. I never saw anything. People said there was someone inside. When I went up, soldiers said I should go left. They started beating me. One soldier beat me with his gun and I fell down. They tied my hands behind my back and beat me. Then told me to go inside the car. I don't know why I was chosen. I was surprised, I don't know what I have done.” The military released Usman with 41 others in November 2014. The 17 men arrested with Usman all died in military custody.\""
+msgstr ""
+
+#: ../../source/incidents.rst:509
+#: 54d4edf4a4b34515a9a97383cf267740
+msgid "``incident:violation_description``"
+msgstr ""
+
+#: ../../source/incidents.rst:513
+#: bf8623acf6054da28a22b55c4da752b9
+msgid "``i_vd``"
+msgstr ""
+
+#: ../../source/incidents.rst:525
+#: 4c7cbecc134a41158e302f3261ec1555
+msgid "In this field we record a direct quotation from the civil society, governmental or other source that describes the incident. When an incident has more than one report tied to it, start the quotation as below:"
+msgstr ""
+
+#: ../../source/incidents.rst:527
+#: 7fccf1aa8753406188f8c58b074a323a
+msgid "According to X organization, “Description of incident”. According to Y organization, “Description of incident”."
+msgstr ""
+
+#: ../../source/incidents.rst:530
+#: a6c9c681ef514cb1861c638d1d5d7d8d
+msgid "Incident: Perpetrator Person Unique Identifier"
+msgstr ""
+
+#: ../../source/incidents.rst:534
+#: a45ac5d17e5f4ecc97cdf5f20a4628de
+msgid "The UUID of the person named in ``Incident: Perpetrator Person Name``."
+msgstr ""
+
+#: ../../source/incidents.rst:538
+#: 9ca5f818c603476e87a716271971622e
+msgid "Text and numbers; linked to ``person:id:admin``."
+msgstr ""
+
+#: ../../source/incidents.rst:542
+#: c6e573028fde4eb58062c19fe21b5b0a
+msgid "``251be336-e67b-4e44-bc0d-97d4e8188b44``"
+msgstr ""
+
+#: ../../source/incidents.rst:546
+#: 3b0ddf1d125b446784df2d4f4708e44b
+msgid "``incident:perpetrator_person_id:admin``"
+msgstr ""
+
+#: ../../source/incidents.rst:550
+#: 117c3d0936464c96a2a39d88aebca352
+msgid "``i_ppid_a``"
+msgstr ""
+
+#: ../../source/incidents.rst:562
+#: 445c2b31a87b4ce5a6dcd2e7aea7e5b7
+msgid "This value in this field should be the same as the value in ``persons:id:admin`` of the person named in ``Incident: Perpetrator Person Name``."
+msgstr ""
+
+#: ../../source/incidents.rst:565
+#: 01e34f7961874c04b8b95e94da0ba7f5
+msgid "Incident: Perpetrator Person Name"
+msgstr ""
+
+#: ../../source/incidents.rst:569
+#: b28c741025014d458a9e2ebdf0566924
+msgid "The name of the person alleged to have committed the act(s) described in the incident."
+msgstr ""
+
+#: ../../source/incidents.rst:573
+#: a7583490aba144ac9e950632883df51a
+msgid "Text and numbers, multiple entry; linked to ``person:name``."
+msgstr ""
+
+#: ../../source/incidents.rst:577
+#: 0d1e9c22512d4db2a205a2f2f9dae695
+msgid "``Friday Iyamabo``"
+msgstr ""
+
+#: ../../source/incidents.rst:581
+#: ec7fa7ffb3e749c6a51fd37068dd5848
+msgid "``incident:perpetrator_person_name``"
+msgstr ""
+
+#: ../../source/incidents.rst:585
+#: fba5300711a64f86b2c814adad5cc181
+msgid "``i_ppn``"
+msgstr ""
+
+#: ../../source/incidents.rst:597
+#: db6aa67b5c20423faa04a82b8e618a32
+msgid "If a person or persons are named in the sources for the incident, we will record this information in the ``Incident: Perpetrator Persons Name`` field. The value in ``Incident: Perpetrator Person Name`` will correspond to a value in ``Person: Name``."
+msgstr ""
+
+#: ../../source/incidents.rst:599
+#: 2b459ce1545f4ec69cdef2c8606af6a8
+msgid "For example: \"Nwanneka narrated to NOPRIN researchers her experience at the SCID in Enugu in May 2002. She was initially arrested with two other females by officers of the Ninth Mile Police Station on the outskirts of Enugu on charges of assisting an armed robbery suspect, before being transferred to the SCID on May 3, 2002. After taking the statements of the female detainees, NPF Inspector Friday Iyamabo ordered them detained in the cells of the SCID. He later reportedly returned to the cell with pepper spray and powdered chili pepper, ordered the female detainees to strip and one after the other applied the mixture of pepper spray and chili to their genitals after severely beating them with batons. The detainees were denied access to medical treatment. Five years after this experience, Nwanneka reported to NOPRIN researchers in April 2007 that, as a result of this experience, she continues to suffer from complications with both her reproductive system and urinary tract.\""
+msgstr ""
+
+#: ../../source/incidents.rst:601
+#: 043a5f2eb52e4bc8a34af4eccf78b00f
+msgid "In this case, the alleged perpetrator is named in the source report. We would record the name ``Friday Iyamabo`` in the field ``Incident: Perpetrator Person  Name``."
+msgstr ""
+
+#: ../../source/incidents.rst:604
+#: e338b041ef0a47e58f54b3c364aab404
+msgid "Incident: Perpetrator Unit Unique Identifier"
+msgstr ""
+
+#: ../../source/incidents.rst:608
+#: 76accb53571048b2a4209c5e7cde728d
+msgid "The UUID of the unit named in ``Incident: Perpetrator Unit Name``."
+msgstr ""
+
+#: ../../source/incidents.rst:612
+#: 0708d7cf9aea4da1945105554e79367c
+msgid "Text and numbers; linked to ``unit:id:admin``."
+msgstr ""
+
+#: ../../source/incidents.rst:616
+#: 139c57f3286a4fcea8fb9479694a835e
+msgid "``a27d4e1f-7add-4302-ab2e-70c426cce519``"
+msgstr ""
+
+#: ../../source/incidents.rst:620
+#: c4d657d9cbf34bba9906fedab520d07c
+msgid "``incident:perpetrator_unit_id:admin``"
+msgstr ""
+
+#: ../../source/incidents.rst:624
+#: bdb9e527a55044cdae07d5882fc5527f
+msgid "``i_puid_a``"
+msgstr ""
+
+#: ../../source/incidents.rst:636
+#: 1989b6e2e77749d19b3d6d0375394c8e
+msgid "This value in this field should be the same as the value in ``unit:id:admin`` of the unit named in ``Incident: Perpetrator Unit Name``."
+msgstr ""
+
+#: ../../source/incidents.rst:639
+#: 899c245456a8436a89382f66d2a35f8e
+msgid "Incident: Perpetrator Unit Name"
+msgstr ""
+
+#: ../../source/incidents.rst:643
+#: 787cc34108c144c68810692bb266f3c0
+msgid "The unit(s) alleged to have committed the act(s) described in the incident."
+msgstr ""
+
+#: ../../source/incidents.rst:647
+#: 87bd5f814c8b4800b7bb91a1b248894d
+msgid "Text and numbers, multiple entry; linked to ``unit:name``."
+msgstr ""
+
+#: ../../source/incidents.rst:651
+#: 21f5a60e60df4c76998f689ff24c03a4
+msgid "``2 Batallón de Fuerzas Especiales``"
+msgstr ""
+
+#: ../../source/incidents.rst:655
+#: 6f504ab63afa4b468da5f22fb50f3c95
+msgid "``incident:perpetrator_unit_name``"
+msgstr ""
+
+#: ../../source/incidents.rst:659
+#: b58676a60aa64c3c86882e74f9dfd43d
+msgid "``i_pun``"
+msgstr ""
+
+#: ../../source/incidents.rst:671
+#: 7aef372624ad444494681c7cc9aa30f3
+msgid "If the source for the incident states that specific units committed the alleged human rights violations described in the incident, we include these names in ``Incident: Perpetrator Unit Name``. The value in ``Incident: Perpetrator Unit Name`` will correspond to a value in ``Unit: Name``."
+msgstr ""
+
+#: ../../source/incidents.rst:673
+#: 1e5d2f0d6cdd421fa3a3d4c2f642cc7a
+msgid "Here is an example of source material that contains information that would be included in ``Incident: Perpetrator Unit Name``:"
+msgstr ""
+
+#: ../../source/incidents.rst:675
+#: 1f67a496cbc447e983b9f69c7d015334
+msgid "According to the United States Department of State, Bureau of Democracy, Human Rights and Labor: \"On March 24, the JTF reportedly killed four men near Isaka in the Okrika Local Government Area, Rivers State, when they confronted them and other armed men attempting to hijack a barge. There was no investigation conducted.\""
+msgstr ""
+
+#: ../../source/incidents.rst:677
+#: 161b22d1ad0e4ac49eb40fc99b14db15
+msgid "In this case, we would search ``Unit: Name`` for the canonical entry for \"JTF\" and include it in the field ``Incident: Perpetrator Unit Name``."
+msgstr ""
+
+#: ../../source/incidents.rst:680
+#: 41fa2f5022f84b8d9b650002409d7b0c
+msgid "Incident: Perpetrator classification"
+msgstr ""
+
+#: ../../source/incidents.rst:684
+#: c03d7d1624144c63a4fe83d5b0345390
+msgid "General branch or tier of the security force alleged to have committed the act(s) described in the incident."
+msgstr ""
+
+#: ../../source/incidents.rst:688
+#: 6e1e69d01b9c4ceba5760d0801a281ca
+msgid "Text and numbers, multiple entry, controlled vocabulary taken from ``Unit: Classification``"
+msgstr ""
+
+#: ../../source/incidents.rst:692
+#: 27886f1145a643de8ed38134d6c64e8e
+msgid "``Army``, ``Ejército``, ``Police``, ``Military``, ``Military Police ; Joint Operation``"
+msgstr ""
+
+#: ../../source/incidents.rst:696
+#: b27ae95a476a403aacc56ad3fdf2a9dc
+msgid "``incident:perpetrator_classification``"
+msgstr ""
+
+#: ../../source/incidents.rst:700
+#: 40cc722b6f7f49be95246439d8d96ac9
+msgid "``i_pcl``"
+msgstr ""
+
+#: ../../source/incidents.rst:712
+#: 3509ef1a93214af0a33486d6e10f6d09
+msgid "Sometimes a source will report general information about the alleged perpetrators of an act. For example, rather than state a unit or a specific person the source might include something generic like “soldiers” or “police\". In cases like these where we can't be more specific we use this field to record the branch or general classification of the force implicated in the incident. For example:"
+msgstr ""
+
+#: ../../source/incidents.rst:714
+#: b8ab8d910572418ab3c3db644f0a03e0
+msgid "According to Amnesty International: \"On 1 May 2012, around midnight, Nigerian soldiers arrested 37-year-old Dungus Ladan (not his real name), at his home in Maiduguri. Fatima, Dungus’ wife, told Amnesty International that the soldiers promised to just take him for an interrogation that should not last more than a few hours. When her husband did not return, she said, his father went on 3 May to Giwa barracks to check what had happened. Soldiers told him that Dungus had already been released. When he still did not return, the father went back again to the barracks, where soldiers told him that he should come back the next day to bail out his son. The following day, several relatives went together and gave the soldiers “what they could,” and the soldiers again promised to release Dungus that day. His wife said that the soldiers kept asking for money, and the family kept paying, but Dungus was never released. In February 2014, his father saw Dungus in the detention facility; they spoke briefly. Dungus said he had been framed by some people who owed him money and they arranged for him to be arrested and detained. Since then, his family has not seen him again; soldiers at Giwa barracks have told them he is not there.\""
+msgstr ""
+
+#: ../../source/incidents.rst:716
+#: d761319a08454f439cc1e2df2e4f22bc
+msgid "The only alleged perpetrators described in this alleged incident are \"soldiers\". The most appropriate term to enter in ``Incident: Perpetrator Classification`` to match this description which would be \"military\" because \"soldiers\" could refer to personnel of the Army, Navy or other armed services of a country."
+msgstr ""
+
+#: ../../source/incidents.rst:718
+#: ced7b1c8e4ea43a1b41db2d2233ffa51
+msgid "Entries in ``Incident: Perpetrator Classification`` correspond to those in ``Unit: Classification``."
+msgstr ""
+
+#: ../../source/incidents.rst:721
+#: 70675238f46248608aec23efca0b3c91
+msgid "Incident: Source"
+msgstr ""
+
+#: ../../source/incidents.rst:725
+#: 16866c842ed9409198d8a20e1b45b469
+msgid "The UUID of the access point in the source that provides information about the incident."
+msgstr ""
+
+#: ../../source/incidents.rst:729
+#: 3465498d8dbd4e84b701207a0416c2cb
+msgid "Text and numbers, chosen from list"
+msgstr ""
+
+#: ../../source/incidents.rst:733
+#: bcdd9b7a72344511b6bbcd68d18e681c
+msgid "``5b8362d6-b13a-4764-9ff0-2d7cfd7d5f37``"
+msgstr ""
+
+#: ../../source/incidents.rst:737
+#: 91e4381e9e56493a8dd24d5f0d1eb28f
+msgid "``incident:all:source``"
+msgstr ""
+
+#: ../../source/incidents.rst:741
+#: a23e1afa3f9d4b68b2824e4ebc657ff3
+msgid "``i_all_s``"
+msgstr ""
+
+#: ../../source/incidents.rst:753
+#: e68984f9506e4b439a18c6c13c4554aa
+msgid "Unlike data captured about ``units`` or ``person``, data about ``incidents`` are not sourced at the level of each individual field. Instead, we have a single source for the whole incident. The entry in ``Incident: Source`` should be a Unique Identifier (\"UUID\") for a source access point that has been alreayd created in the master list of sources. The relevant values will be found in the field ``Source: Access Point Unique Identifier``."
+msgstr ""

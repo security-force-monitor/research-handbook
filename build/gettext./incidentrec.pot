@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Security Force Monitor
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-06 16:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/incidentrec.rst:2
+#: 0337db8331a14401a27f9a6af3166125
+msgid "Incident Records on WhoWasInCommand"
+msgstr ""
+
+#: ../../source/incidentrec.rst:4
+#: 3dc252c950e545f89776862fed4f75a7
+msgid "This page contains an overview of the data that visitors to WhoWasInCommand will find in an incident record."
+msgstr ""
+
+#: ../../source/incidentrec.rst:6
+#: e29a7d6259b440e4a9d3210a30a14ad6
+msgid "This includes the different sections of the incident record, the data fields that are used to create it and links to more information about each field."
+msgstr ""
+
+#: ../../source/incidentrec.rst:9
+#: 0984a4c70b6c41a0b0f4b5fa111bd3d2
+msgid "Incident record: Title area"
+msgstr ""
+
+#: ../../source/incidentrec.rst:14
+#: 9d097834f48e4a2ab88bd26c9707eaae
+msgid "This section contains key information about the incident. It also contains links to download and print actions for the displayed record. Hover over any value in the title area to display a little coloured circle; clicking on this will display the sources and confidence rating for we have assigned to each value."
+msgstr ""
+
+#: ../../source/incidentrec.rst:17
+#: 1764721d5d1648298cd0844968fe77ab
+msgid "Incident record: Content sidebar"
+msgstr ""
+
+#: ../../source/incidentrec.rst:22
+#: 277584d7d42e44aba1af4ef4bdccbe74
+msgid "The content sidebar is a navigation aid. It provides quick links to different sections of the record. The items inside the content sidebar indicate what sort of data is available about this incident. For example if \"Perpetrator units\" is not listed in the content sidebar, then there are no data available about alleged perpetrators of the incident."
+msgstr ""
+
+#: ../../source/incidentrec.rst:25
+#: 0dde0f2bd2e149e58bcbc6e2a3b2c70d
+msgid "Incident record: Location"
+msgstr ""
+
+#: ../../source/incidentrec.rst:30
+#: 76494eecd47a4781b85caea29bab4161
+msgid "This section contains an interactive map and some text that describe the location where sources indicate that an incident occured. Click on the pins placed in the map to display the name of a location. Grab the map to drag/pan it around. Swipe or use the ``+`` and ``-`` controls on the map to zoom in or zoom out. Hover over the text description of the location and a little coloured circle will appear. Click on this to view the sources and confidence rating we have assigned to that value."
+msgstr ""
+
+#: ../../source/incidentrec.rst:33
+#: a895bc3e825b452699ad729ad0774a48
+msgid "Incident record: Description"
+msgstr ""
+
+#: ../../source/incidentrec.rst:38
+#: e43d03bbdaf94016a10937ed263ff436
+msgid "This section contains a direct quotation from the civil society, governmental or other source that describes the incident. As with all tables in person, unit and incident records on WhoWasInCommand, hovering over or tapping any value in the table will cause a little coloured circle to appear. Clicking or tapping again on this will show the sources and confidence ratings we have assigned to that value."
+msgstr ""
+
+#: ../../source/incidentrec.rst:43
+#: 3f5ad5226b47493b89711f1a55978c7a
+msgid "Incident record: Perpetrator units"
+msgstr ""
+
+#: ../../source/incidentrec.rst:48
+#: 81de23febfca46bcbbfdabc91f2d3419
+msgid "This section contains a table listing the unit(s) that sources allege committed the human rights violation(s) described in the incident. As with all tables in person, unit and incident records on WhoWasInCommand, hovering over or tapping any value in the table will cause a little coloured circle to appear. Clicking or tapping again on this will show the sources and confidence ratings we have assigned to that value."
+msgstr ""

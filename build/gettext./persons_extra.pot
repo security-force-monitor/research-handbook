@@ -1,0 +1,742 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Security Force Monitor
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-06 16:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/persons_extra.rst:2
+#: 7f5827ef2188446a9fce606aa49a30e2
+msgid "Persons Extra"
+msgstr ""
+
+#: ../../source/persons_extra.rst:4
+#: 2431932fda1941d5adfdee3ef5f06c65
+msgid "The \"Persons Extra\" data capture format is used to extend the data in the :doc:`persons` format to cover a person's social media and other online accounts, official webpages, and media materials containing information about how the person looks and sounds."
+msgstr ""
+
+#: ../../source/persons_extra.rst:6
+#: 7447da0339ad470284df6197654fc4d0
+msgid "It also serves the purpose of grouping resources that are *ipso facto* - resources that are valuable in themselves, and not only as sources for other data points. This provides the Staff Analyst with a collection of audiovisual media resources that can be used to identify and further research the person."
+msgstr ""
+
+#: ../../source/persons_extra.rst:8
+#: 1b496a1cfa5047918314786e51a0a7d6
+msgid "A spreadsheet containing all the fields used by Security Force Monitor can be found in the section called :ref:`Sample Data Entry Sheets`."
+msgstr ""
+
+#: ../../source/persons_extra.rst:11
+#: 0af0b300637f4c04bbd14d4210dd6a5c
+msgid "Person Extra: Name"
+msgstr ""
+
+#: ../../source/persons_extra.rst:13
+#: ../../source/persons_extra.rst:50
+#: ../../source/persons_extra.rst:88
+#: ../../source/persons_extra.rst:127
+#: ../../source/persons_extra.rst:162
+#: ../../source/persons_extra.rst:199
+#: ../../source/persons_extra.rst:235
+#: ../../source/persons_extra.rst:272
+#: ../../source/persons_extra.rst:311
+#: ../../source/persons_extra.rst:351
+#: ../../source/persons_extra.rst:388
+#: 35a3824e16624a4bacffbdd6d251764a
+#: 3139d6d2a7db4873b6b40032e0f881ac
+#: e88bfd77066446768feed7d9ee448227
+#: 0e6982ba2db64d079759d1b6f1ea7533
+#: 13363835f14c4ba9a397957a0512e895
+#: eac330290d614915b043610b8d467147
+#: 6857d36f6bd248d4a59d5dde1edbed5c
+#: 999db1e3c74e433897b1cf74ec18464e
+#: 29a1ec9e557b41b6968a8492a616a329
+#: e00594070db34f71a205217573f95f67
+#: 75c1c442be404d2ba63e3734c80688c7
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/persons_extra.rst:15
+#: 931f54d90d4a444986189ae0ce04226d
+msgid "Full name of the person, including given, patronym and surnames, as already recorded in the ``person:name`` field of the :doc:`persons` sheet."
+msgstr ""
+
+#: ../../source/persons_extra.rst:17
+#: ../../source/persons_extra.rst:54
+#: ../../source/persons_extra.rst:92
+#: ../../source/persons_extra.rst:131
+#: ../../source/persons_extra.rst:166
+#: ../../source/persons_extra.rst:203
+#: ../../source/persons_extra.rst:239
+#: ../../source/persons_extra.rst:276
+#: ../../source/persons_extra.rst:315
+#: ../../source/persons_extra.rst:355
+#: ../../source/persons_extra.rst:392
+#: 71ce624a68d546e4855cda843b972152
+#: 30f03991deeb459cb0d914e46448d585
+#: 0b6192be40204f88a6b30b4dd9f9ccda
+#: b052f2881e204d41906254c6374e948a
+#: 66fc5dbf0e5e4f6ca1787d598b384124
+#: b4a1588258bc4c0e9e75de166fa6c3af
+#: ccace3135bbb4abca8c25a711dff6603
+#: 8ad51ceff87541f6af6cee2b995af3fd
+#: 92e9ae69d4a644689f56b32785f5b9b2
+#: fc77711905dc4d8586525ef1f3345ab4
+#: cf34bc98c1b04822a4fd7157cc38c761
+msgid "**Type of field**"
+msgstr ""
+
+#: ../../source/persons_extra.rst:19
+#: ../../source/persons_extra.rst:56
+#: ../../source/persons_extra.rst:278
+#: ../../source/persons_extra.rst:394
+#: 9ba23f5cea7a4fcf9b09136de7567550
+#: 16a616c3d5ae4d1782e2723e20e4fcba
+#: a5612b595e3545f4bdc509369e612285
+#: 56b7a79dc8ea4dada8fa30a06db6e48c
+msgid "Text and numbers"
+msgstr ""
+
+#: ../../source/persons_extra.rst:21
+#: ../../source/persons_extra.rst:58
+#: ../../source/persons_extra.rst:96
+#: ../../source/persons_extra.rst:135
+#: ../../source/persons_extra.rst:170
+#: ../../source/persons_extra.rst:207
+#: ../../source/persons_extra.rst:243
+#: ../../source/persons_extra.rst:280
+#: ../../source/persons_extra.rst:319
+#: ../../source/persons_extra.rst:359
+#: ../../source/persons_extra.rst:396
+#: e9b42914dc224ecbbf7e7d413c30dd64
+#: 0f8a7510a1d343c59612bc6f374987f3
+#: bbd0d631ccd34a68950e72a91d457bd3
+#: c5e1e044909b4ae29346e4e437bbc1fc
+#: f59067a86b494c03a6954c033eeb7c80
+#: 16b7ced4bcfd4139b6fc083643065204
+#: c3760dbe1761483d9399014b25c0cd23
+#: d309b4b34afe485998b3b3c88dade0fa
+#: e8cd0d2f60274f41aa61b5fa04a41e1d
+#: cbf254733cff40ca97240e73ddcb7c44
+#: 37ec5299caef4aa88bf5031e5e31fad0
+msgid "**Example of use**"
+msgstr ""
+
+#: ../../source/persons_extra.rst:23
+#: 68b08797bc74420a960282f996732518
+msgid "``Magaji Musa Majia'a``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:25
+#: ../../source/persons_extra.rst:62
+#: ../../source/persons_extra.rst:100
+#: ../../source/persons_extra.rst:139
+#: ../../source/persons_extra.rst:174
+#: ../../source/persons_extra.rst:211
+#: ../../source/persons_extra.rst:247
+#: ../../source/persons_extra.rst:284
+#: ../../source/persons_extra.rst:323
+#: ../../source/persons_extra.rst:363
+#: ../../source/persons_extra.rst:400
+#: 13cda6a2a870445d9d2ba82f5fa90b24
+#: c60e4af595164accad66a5687f1a804e
+#: fd71e29b392a43b983cc8c9deb39389f
+#: 9e2efd1071b742878b41b4e8a26b51db
+#: 51661c85aa5a4cdbb6f9946e9bba6ba8
+#: c1b1542a466c454da79bad536da366ad
+#: 329d02cf7fbf4313b77cd38ec3795f03
+#: 651be19c77b14c78b0400598c44afd70
+#: cd12895bf43848e28a4488cc92d6bb12
+#: 79e0a8a3d2784367940860fe78e0d49b
+#: e4c519f06bfb4e2ebce9f3c1339e3920
+msgid "**Spreadsheet column name**"
+msgstr ""
+
+#: ../../source/persons_extra.rst:27
+#: 52a2394ab4344f9bbc6c55b56d220ea4
+msgid "``person_extra:name``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:29
+#: ../../source/persons_extra.rst:66
+#: ../../source/persons_extra.rst:104
+#: ../../source/persons_extra.rst:143
+#: ../../source/persons_extra.rst:178
+#: ../../source/persons_extra.rst:215
+#: ../../source/persons_extra.rst:251
+#: ../../source/persons_extra.rst:288
+#: ../../source/persons_extra.rst:327
+#: ../../source/persons_extra.rst:367
+#: ../../source/persons_extra.rst:404
+#: 248fb52a5e8d4d1bbef5fb9d99d8eff5
+#: 4c6a3cb1437246eda5bc2d81e9ba1d86
+#: 40713591c96643f6ba9758ef966d06a2
+#: 0363421ce84647be979b052ede8589fd
+#: 1c120456ecef4b50be6a86371637ef39
+#: f0492efd1434464fa60fa93e4bf989e6
+#: f74c6efe22b94ec7825aae2bcbfdf615
+#: 7dfd2b1635e644f3a619af3b2ac95fcb
+#: 47ac2dde94704077a398a8c30b675677
+#: 5566f4902ac849e6ad186dfb9881d7fa
+#: dd8d62ead43746e6ab9622bd42bb350f
+msgid "**Shortcode**"
+msgstr ""
+
+#: ../../source/persons_extra.rst:31
+#: ../../source/persons_extra.rst:406
+#: 2870354c6b254107996bd070a0c388c9
+#: 1118d7bf759047d788267d246fff81f2
+msgid "``px_n``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:33
+#: ../../source/persons_extra.rst:70
+#: ../../source/persons_extra.rst:108
+#: ../../source/persons_extra.rst:147
+#: ../../source/persons_extra.rst:182
+#: ../../source/persons_extra.rst:219
+#: ../../source/persons_extra.rst:255
+#: ../../source/persons_extra.rst:292
+#: ../../source/persons_extra.rst:331
+#: ../../source/persons_extra.rst:371
+#: ../../source/persons_extra.rst:408
+#: 22e3e7c9373d455e8c1d7cf4bc5ff6a5
+#: c16a4e9cea644f02a8c5a6fe7912cb6c
+#: db1e861efcc8483eb34537993bb0fe63
+#: 1f7a71413aee4fcb937c41ed54fcb97f
+#: b7f4c1b64d4848a786aa054dbf204559
+#: c70665c6a32841608a3330f9c3b1f7d1
+#: 2904d1e634534790a46b5278636043c7
+#: 777ea125c5974eeaaeece348b27cce6e
+#: 0aea47127a8243a2a722cee4b4044333
+#: acee567454b3400b97510b5e1fb11506
+#: 9ca1a7e8471347e3b8c34db524af07d2
+msgid "**Sources**"
+msgstr ""
+
+#: ../../source/persons_extra.rst:35
+#: ../../source/persons_extra.rst:39
+#: ../../source/persons_extra.rst:72
+#: ../../source/persons_extra.rst:76
+#: ../../source/persons_extra.rst:410
+#: ../../source/persons_extra.rst:414
+#: bf7e95dc2e90450d87a25b99b85b324f
+#: 082496e7da03409da8b4028946479e12
+#: 529f489c0e5d4aceb18657a04bdd7dfb
+#: 3d6e5de5902b4068901bd91bbe653900
+#: 63cc3331464f4429ab11c584597a1199
+#: d875044a21f348b5bbc01392e1e6d7c0
+msgid "No."
+msgstr ""
+
+#: ../../source/persons_extra.rst:37
+#: ../../source/persons_extra.rst:74
+#: ../../source/persons_extra.rst:112
+#: ../../source/persons_extra.rst:151
+#: ../../source/persons_extra.rst:186
+#: ../../source/persons_extra.rst:223
+#: ../../source/persons_extra.rst:259
+#: ../../source/persons_extra.rst:296
+#: ../../source/persons_extra.rst:335
+#: ../../source/persons_extra.rst:375
+#: ../../source/persons_extra.rst:412
+#: af4ecef809d84075a2fe3e2e055d9d3a
+#: db60a307a5c645c8b0c5b6f459ca7021
+#: 938153b6e94b4af4b1bab17859181581
+#: ba17f5b30f8d4218ac6fd375279582fb
+#: 5e268685808e4b1a9ace8cb69d4182ba
+#: 210ab4755da44e5ebffb5b9656e82f0b
+#: 82733fd9b58443c2a8831ed34cdce23d
+#: c4d454825ec04953a3189209c96bda5d
+#: 4671e44b27ab49d89b10a6514a0c486b
+#: 72141fcc199f4294ab8896654f4c347e
+#: af3c0e7692a046d4a041ce0accb898f8
+msgid "**Confidence**"
+msgstr ""
+
+#: ../../source/persons_extra.rst:41
+#: ../../source/persons_extra.rst:78
+#: ../../source/persons_extra.rst:116
+#: ../../source/persons_extra.rst:155
+#: ../../source/persons_extra.rst:190
+#: ../../source/persons_extra.rst:227
+#: ../../source/persons_extra.rst:263
+#: ../../source/persons_extra.rst:300
+#: ../../source/persons_extra.rst:340
+#: ../../source/persons_extra.rst:379
+#: ../../source/persons_extra.rst:416
+#: 16c67c900af54aa887c43af47f6669ac
+#: d9de9920c39046bcbac22df27de342b3
+#: c189c1ce940f47bbabdb7cdfcb80a0af
+#: 6730324b42c043088800214785056720
+#: 5969f476351745d4ae26afeaa49496e3
+#: d4eb00b7b6624c598e81d4be5df7086d
+#: 75d496d2c2684ed987d9c0f2d16921a1
+#: 2daac4d9d79e4371a327526ed7d9ea10
+#: 284c828f64754aa5b03de0f5dc117634
+#: 2d7abbf3bed24a9baca7b30ad56d5be4
+#: c4af9483df1d4da586197d46a27b2245
+msgid "**Guidance on use**"
+msgstr ""
+
+#: ../../source/persons_extra.rst:43
+#: 2acace9317094f93bdc38bf157732d16
+msgid "This field is used to store the name of the person about whom extra information is being entered. The person must already have an entry in the :doc:`persons` sheet. The value must be identical to that in ``person:name``."
+msgstr ""
+
+#: ../../source/persons_extra.rst:45
+#: ../../source/persons_extra.rst:82
+#: 032d29ab4ba84b6fa613c9fba1109286
+#: 28fb0964b5bd46a5a2972a807c8e6491
+msgid "This field is duplicated for every row of data about the person."
+msgstr ""
+
+#: ../../source/persons_extra.rst:48
+#: 72f52d237e4d4306a90d2281c0f2d818
+msgid "Person Extra: Unique Identifier"
+msgstr ""
+
+#: ../../source/persons_extra.rst:52
+#: cf382b5171c748e0b73350c4d9665ea8
+msgid "A unique 32 character code assigned to each person in the dataset, as already recorded in the ``person:id:admin`` field of the :doc:`persons` sheet."
+msgstr ""
+
+#: ../../source/persons_extra.rst:60
+#: 3c0f5c48339a42d3a34aa19169a141b4
+msgid "``a848de4e-ebeb-49d6-9099-7e68ca3b57fc``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:64
+#: 3426ef8459324554affafbcf990e9e73
+msgid "``person_extra:id:admin``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:68
+#: 35bcb5a87a4249f692ca4fdba9cf5df2
+msgid "``px_id_a``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:80
+#: 07ccdb64cbfd4f69a6aa6e6893cd3d6a
+msgid "This field is used to store the UUID of the person about whom extra information is being entered. The person must already have an entry in the :doc:`persons` sheet. The value must be identical to that in ``person:id:admin``."
+msgstr ""
+
+#: ../../source/persons_extra.rst:86
+#: e72e9bc4e80e431cb4349b3e871ade11
+msgid "Person Extra: Gender"
+msgstr ""
+
+#: ../../source/persons_extra.rst:90
+#: 76416a7f01b744d6b459f540f47ed652
+msgid "Indicators of a person's sex or gender identity, as inferred from pronouns used in the text of available sources."
+msgstr ""
+
+#: ../../source/persons_extra.rst:94
+#: 044d3e2342e1493491be2afe8624a847
+msgid "Open list, single choice"
+msgstr ""
+
+#: ../../source/persons_extra.rst:98
+#: e7f3556ed69c497bbd8e7910368cfade
+msgid "``Male``, ``Female``, ``Other``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:102
+#: 6602c2e3b38e4d2584c988f688ec35be
+msgid "``person_extra:gender``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:106
+#: b132123abb2e4f1383a686ff5f69f07c
+msgid "``px_g``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:110
+#: 36c30cffa7d64b1db01fc502f5f5ffa9
+msgid "Yes (``person_extra:gender:source``, ``px_g_s``)"
+msgstr ""
+
+#: ../../source/persons_extra.rst:114
+#: b3092a4e32144d08bc2ee07ed8240f22
+msgid "Yes (``person_extra:gender:confidence``, ``px_g_c``)"
+msgstr ""
+
+#: ../../source/persons_extra.rst:118
+#: ced1e19b26c44d1abec119987ff7b255
+msgid "This field is used to capture data about the gender of a person, as determined only by the pronouns (\"her\", \"she\", \"his\", \"him\", etc) used in any available textual sources about this person. We do not infer a person's gender from their name or images of them."
+msgstr ""
+
+#: ../../source/persons_extra.rst:120
+#: b7e1717ec580484f9c9595d8b68cdeb0
+msgid "Echoing the definition used in the `FOAF standard<http://xmlns.com/foaf/spec/#term_gender>`__, the ``Person Extra: Gender`` field is not intended to capture the full range of possible biological, social and sexual associated with the word \"gender\". In the majority of cases the value recorded in this field will be ``male`` or ``female``. However, we have left this field open to include alternatives that are expressed within the available sources about a person."
+msgstr ""
+
+#: ../../source/persons_extra.rst:122
+#: 2a8fc3ceb13a471baebe3fb3eb47e494
+msgid "Where the sources contain no textual indication about the person's gender, the field should be left blank."
+msgstr ""
+
+#: ../../source/persons_extra.rst:125
+#: 0aa44603be4845f2bcbe68dd8f0b02a3
+msgid "Person Extra: Date of Birth"
+msgstr ""
+
+#: ../../source/persons_extra.rst:129
+#: 9d3d2652dd954fd3a541bec0926f3132
+msgid "The date on which a person was born."
+msgstr ""
+
+#: ../../source/persons_extra.rst:133
+#: ../../source/persons_extra.rst:205
+#: 8aad95f6c2924faa90843a808fe7ceed
+#: cc7fea39dc044ff69cf6feda1f9b6a0a
+msgid "Date (YYYY-MM-DD), fuzzy"
+msgstr ""
+
+#: ../../source/persons_extra.rst:137
+#: 4f9c493dd9bb457593af6beb2c037875
+msgid "``1985-10-01``, ``1985-10``, ``1985``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:141
+#: 632cad3dcb944d769104441a5f1fe468
+msgid "``person_extra:date_of_birth``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:145
+#: 720ec0725bdb4888ba26a064832d57c4
+msgid "``px_dob``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:149
+#: 2cf61b928366456bbeb71372e17db86f
+msgid "Yes (``person_extra:date_of_birth:source``, ``px_dob_s``)"
+msgstr ""
+
+#: ../../source/persons_extra.rst:153
+#: ca89cb58c04842bab8b277ae81b90be6
+msgid "Yes (``person_extra:date_of_birth:confidence``, ``px_dob_c``)"
+msgstr ""
+
+#: ../../source/persons_extra.rst:157
+#: 62c14bb9f0eb40f4b54a79811a593cf5
+msgid "This field is used to capture the date of birth of a person, with as much specificity as allowed by available sources. The field can accept a full or partial date."
+msgstr ""
+
+#: ../../source/persons_extra.rst:160
+#: ede4b59abd0743fa83b885533b28ff28
+msgid "Person Extra: Deceased"
+msgstr ""
+
+#: ../../source/persons_extra.rst:164
+#: 307a4dcfc97547dfb86a88423b86a318
+msgid "Indicates whether a person has died."
+msgstr ""
+
+#: ../../source/persons_extra.rst:168
+#: 4c27bbcba93444ab9420cebf8d8cdd91
+msgid "Positive confirmation, blank if none"
+msgstr ""
+
+#: ../../source/persons_extra.rst:172
+#: 50790fe0b8fd4ce9a157b571c66da9b1
+msgid "``Y``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:176
+#: f991b20333bc41de84959b34678a6bea
+msgid "``person_extra:deceased``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:180
+#: f1f748762c0c4d52b73299d318a8abe6
+msgid "``px_d``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:184
+#: fcc3e31cc4f34920847c8a4a50cf69ef
+msgid "Yes (``person_extra:deceased:source``, ``px_d_s``)"
+msgstr ""
+
+#: ../../source/persons_extra.rst:188
+#: dc8daab1a1e4472f82b3f679fcf43495
+msgid "Yes (``person_extra:deceased:confidence``, ``px_d_c``)"
+msgstr ""
+
+#: ../../source/persons_extra.rst:192
+#: 054b435b91a04b689b0ce07f9f3eebdf
+msgid "Where sources indicate that a person has died, enter ``Y`` in the field ``Person Extra: Deceased``. In all other cases, leave the field blank."
+msgstr ""
+
+#: ../../source/persons_extra.rst:194
+#: f1a806ca77d141a0aafedc2f283b953a
+msgid "In many cases the sources used to evidence ``Person Extra: Deceased`` and ``Person Extra: Date of Death`` will be the same. In some cases, however, sources may indicate a person has died without specifying a date. In these cases, the field ``Person Extra: Date of Death`` should not be filled in."
+msgstr ""
+
+#: ../../source/persons_extra.rst:197
+#: 3f1df4ce3d0c4664904570462a3ede1e
+msgid "Person Extra: Date of Death"
+msgstr ""
+
+#: ../../source/persons_extra.rst:201
+#: 4018d76835c745e5996475f496a7d216
+msgid "A date on which a person died."
+msgstr ""
+
+#: ../../source/persons_extra.rst:209
+#: 786ce5b2fab244818076ab7f811b3eae
+msgid "``2017-07-22``, ``2017-07``, ``2017``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:213
+#: e315d2c091a045f4ace1f3f602ea5680
+msgid "``person_extra:date_of_death``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:217
+#: 9784260f5a31489f8c0f1fdcd23f6c64
+msgid "``px_dod``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:221
+#: ed8e0075f6bb4d34814c773ddc4df630
+msgid "Yes (``person_extra:date_of_death:source``, ``p_dod_s``)"
+msgstr ""
+
+#: ../../source/persons_extra.rst:225
+#: 24a77af9ec4d44d3b5a2c74ec5711dc3
+msgid "Yes (``person_extra:date_of_death:confidence``, ``p_dod_c``)"
+msgstr ""
+
+#: ../../source/persons_extra.rst:229
+#: b693221acbd548169224601834661c11
+msgid "Use this field to record the full or partial date of a person's death, as recorded in a source. Where a source reports that a person has died, but does not indicate the date on which this happened, only the field ``Person Extra: Deceased`` should be filled in."
+msgstr ""
+
+#: ../../source/persons_extra.rst:233
+#: 94c8b402fe9244879a1efe2c03142f3c
+msgid "Person Extra: Account Type"
+msgstr ""
+
+#: ../../source/persons_extra.rst:237
+#: e6c3bc783b324670806546d515f993d9
+msgid "The name of an online platform or service on which the person holds an account."
+msgstr ""
+
+#: ../../source/persons_extra.rst:241
+#: 4286a98984ba44d4a41e7441a4516ae5
+msgid "Text and numbers, chosen from list."
+msgstr ""
+
+#: ../../source/persons_extra.rst:245
+#: f1a9b57c81a04558a4cb74408be9753e
+msgid "``facebook``, ``twitter``, ``telegram``, ``whatsapp``, ``youtube``, ``vkontakte``, ``wikipedia``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:249
+#: b9f85edfe0834f0d8dfe7f531221de8c
+msgid "``person_extra:account_type``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:253
+#: d8e5ec4e871a4bc09f2fb32e13a20177
+msgid "``px_at``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:257
+#: ../../source/persons_extra.rst:294
+#: 4ddb69d9931f4eb38bb8d93b93401f26
+#: 42955111cda749dcbfcc0fe5b0df9966
+msgid "Yes (``person_extra:account:source``, ``px_a_s``)"
+msgstr ""
+
+#: ../../source/persons_extra.rst:261
+#: ../../source/persons_extra.rst:298
+#: 22ccd1514cf7484a95bdfb1596235b54
+#: ccec393f3c3a40bdb930b315b83c0251
+msgid "Yes (``person_extra:account:confidence``, ``px_a_c``)"
+msgstr ""
+
+#: ../../source/persons_extra.rst:265
+#: e78dea756011429da19dcdc0e15d4a70
+msgid "This field is used to record the name of the online platform of service on which a person holds an account. The name is chosen from a list of available platforms and services, which will be updated as required. The subsequent field ``Person Extra: Account Identity`` is used to record the name of the account held by the person on the platform or service. Sources and confidence fields for ``Person Extra: Account Type`` are shared with ``Person Extra: Account Identity``."
+msgstr ""
+
+#: ../../source/persons_extra.rst:267
+#: ../../source/persons_extra.rst:306
+#: 9250222aaa6647f88768e013d296a59c
+#: b3ff5d832069491d88d61335e0616fec
+msgid "Where a person has more than one account, on the same or different platforms, a new row should be created."
+msgstr ""
+
+#: ../../source/persons_extra.rst:270
+#: 8b23ca957c4a417da75f1ebd511a6075
+msgid "Person Extra: Account Identity"
+msgstr ""
+
+#: ../../source/persons_extra.rst:274
+#: 03f4ff3daf414046b32beeee640a74cb
+msgid "The account name used by the person on a special online platform or service."
+msgstr ""
+
+#: ../../source/persons_extra.rst:282
+#: c109d33574754bc289cc270cc2b5ee5c
+msgid "``tomcopsymes`` (on Twitter)"
+msgstr ""
+
+#: ../../source/persons_extra.rst:286
+#: ef646fa1fac54514b53a1afb0d5df79c
+msgid "``person_extra:account_id``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:290
+#: 84c008e41d384d35af37453e7911b1b6
+msgid "``px_aid``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:302
+#: 7c7ec7b794354dfa9cbb9b083dff29bb
+msgid "This field is used to record the account name held by the person on a specific online platform or service. The name of the corresponding online platform or service is stored in ``Person Extra: Account Type``."
+msgstr ""
+
+#: ../../source/persons_extra.rst:304
+#: e915c88fe22f49e486dd9368256d8cc1
+msgid "Sources and confidence fields for ``Person Extra: Account Identity`` are shared with ``Person Extra: Account Name``."
+msgstr ""
+
+#: ../../source/persons_extra.rst:309
+#: 6a8300792144465d86ff19f1470b2073
+msgid "Person Extra: External Link Description"
+msgstr ""
+
+#: ../../source/persons_extra.rst:313
+#: 3a1204a5b670417ba9c412e832c7f77c
+msgid "Short textual description of the relevent content of a URL containing information about the person."
+msgstr ""
+
+#: ../../source/persons_extra.rst:317
+#: ../../source/persons_extra.rst:357
+#: 106690220bcb46bdb154cceee0025373
+#: 361f474be738465584973aceb228087b
+msgid "Text and numbers."
+msgstr ""
+
+#: ../../source/persons_extra.rst:321
+#: 98d2e97501814bbcaf34b99faf39bbaf
+msgid "``Official biography of General Luis Cresencio Sandoval Gonzálezi on the SEDENA website``, ``Wikipedia page for Luis Cresencio Sandoval``,"
+msgstr ""
+
+#: ../../source/persons_extra.rst:325
+#: 5305a25b1fa446f892a1422ea8253175
+msgid "``person_extra:external_link_description``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:329
+#: b5a313118e9d4f418dd5065816887f98
+msgid "``px_eld``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:333
+#: 3162a7fac219469bb2e23f0d0b8a1932
+msgid "Yes (``person_extra:external_link_source``, ``px_eld_s``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:338
+#: 4a3db6428a324ab6ad8b9d75c05250c1
+msgid "Yes (``person_extra:external_link_confidence``, ``px_eld_c``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:342
+#: fbf956ca4ab6444c8039a15ab57180d4
+msgid "This field is used to store a short decription of the content found at an external URL about this person. The details of the external link are stored in the relevant source record. This field is used to gather together resources that provide a high level of detail about the person, and will include official websites, blogs operated by the person, the Wikipedia page about them (if they have one), or Facebook pages credibly linked to the person. Details about the social media footprint of the person are not stored in this field - ``Person Extra: Account Type`` and ``Person Extra: Account Identity`` are used toe capture this data."
+msgstr ""
+
+#: ../../source/persons_extra.rst:344
+#: a974bca881bf45728ca80f19a6691300
+msgid "The source field associated with ``Person Extra: External Link Description`` is used to store data about the resource itself, along with other material that evidences why the external link is about the person."
+msgstr ""
+
+#: ../../source/persons_extra.rst:346
+#: 322eabd0ec4a46e49e0305fe5003db17
+msgid "A new row is created for each new resource."
+msgstr ""
+
+#: ../../source/persons_extra.rst:349
+#: 17e4c5b607864ab4a07cd44c6c8b55f7
+msgid "Person Extra: Media Description"
+msgstr ""
+
+#: ../../source/persons_extra.rst:353
+#: 9e1a995b6a2d4aa6aa9806af42353509
+msgid "Short textual description of material found in a media resource that provides information about a how person looks or sounds."
+msgstr ""
+
+#: ../../source/persons_extra.rst:361
+#: 221e9e9c72a741779358ebdaf8a769da
+msgid "\"Face and shoulders of Bosco Ntaganda, in military uniform with hat, tie and lapels, backed by two other men in combat fatigues armed with rifles. Taken at a news conference in January 2009.\""
+msgstr ""
+
+#: ../../source/persons_extra.rst:365
+#: ffd2af6110424c74a13f5d6e7571b9c6
+msgid "``person_extra:media_desc``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:369
+#: c09ae786bf84403a84e77d9870a0c356
+msgid "``px_md``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:373
+#: 73169e739cc14e14a982eb19a32d9e78
+msgid "Yes (``person_extra:media:source``, ``px_m_s``)"
+msgstr ""
+
+#: ../../source/persons_extra.rst:377
+#: f02c78cc9e9e43a9874e7682fb0aa96e
+msgid "Yes (``person_extra:media:confidence``, ``px_m_c``)"
+msgstr ""
+
+#: ../../source/persons_extra.rst:381
+#: a6b893a9256545f191ab3ca18450d4b3
+msgid "This field is used to store a brief description of the content of external. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. Details about the media type, URL and other metadata are contained in the source associated with ``Person Extra: Media Description``."
+msgstr ""
+
+#: ../../source/persons_extra.rst:383
+#: 3869f9089db94ffb8d522e899d118f9c
+msgid "A new row is created for each distinct media item about the person."
+msgstr ""
+
+#: ../../source/persons_extra.rst:386
+#: 0ea17a0ed5ac4be3816ee5028a1e4e0a
+msgid "Person Extra: Notes"
+msgstr ""
+
+#: ../../source/persons_extra.rst:390
+#: 52727f75ceb84e989d508d504a42dad0
+msgid "Analysis, commentary and notes about the material in row of data in Persons Extra that do not fit into the data structure."
+msgstr ""
+
+#: ../../source/persons_extra.rst:398
+#: 5c19328d28f840dc868d5af5fda95a30
+msgid "``The image referenced in this row is clipped from a longer video. Should it be necessary, additional views of this individual are available in the video.``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:402
+#: a3e5fd5b890d48abb2e44d002098ef2c
+msgid "``person_extra:notes``"
+msgstr ""
+
+#: ../../source/persons_extra.rst:418
+#: ed24186938094f55a6ab25a60bdb3852
+msgid "We use this field to record information about the material recorded in Persons Extra that is likely to provide useful context, additional information that does not fit into the data structure, and notes about how decisions were made about which data to include. Any sources used to write the notes should be included directly inside this field."
+msgstr ""

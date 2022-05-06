@@ -41,3 +41,4 @@ Security Force Monitor: Research Handbook
    unitrec
    personsrec
    incidentrec
+   downloads
