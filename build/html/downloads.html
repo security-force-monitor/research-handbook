@@ -422,15 +422,15 @@
 <p><a class="reference external" href="https://whowasincommand.com/en/download">https://whowasincommand.com/en/download</a></p>
 <p>The Security Force Monitor data model is a directed graph containing attriutes about units, persons, locations as they change across time. This is quite complicated and does not easily translate into a single file that is straightforward to understand and use without guidance. To get around this and provide a way to provide raw data directly to users, we offer seven different reports drawn from the data on a specific country:</p>
 <ul class="simple">
-<li><p><strong>Basic</strong>: a list of all the units in that country</p></li>
-<li><p><strong>Parentage</strong>: units organized into a hierarchy</p></li>
-<li><p><strong>Memberships</strong>: units that are part of operations that may fall outside the regular chain of command</p></li>
-<li><p><strong>Areas of operation</strong>: geographical distribution of units’ operational areas</p></li>
-<li><p><strong>Sites</strong>: specific locations</p></li>
-<li><p><strong>Personnel</strong>: list of command personnel</p></li>
-<li><p><strong>Sources</strong>: sources used to evidence the data</p></li>
+<li><p><strong>Basic</strong>: a list of all the units in that country.</p></li>
+<li><p><strong>Parentage</strong>: units organized into a hierarchy.</p></li>
+<li><p><strong>Memberships</strong>: units that are part of operations that may fall outside the regular chain of command.</p></li>
+<li><p><strong>Areas of operation</strong>: geographical distribution of units’ operational areas.</p></li>
+<li><p><strong>Sites</strong>: specific locations.</p></li>
+<li><p><strong>Personnel</strong>: list of command personnel.</p></li>
+<li><p><strong>Sources</strong>: sources used to evidence the data.</p></li>
 </ul>
-<p>A full description of each downloadable slice of data is available in the sections below. It is important to note that none of the download contain the field-level sourcing that is a key part of Security Force Monitor’s work (see <a class="reference internal" href="data_integrity.html#data-integrity-measures"><span class="std std-ref">Data integrity measures</span></a> for more information). The reason for this is technical (discussed <a class="reference external" href="https://github.com/security-force-monitor/sfm-cms/issues/661#issuecomment-635450705">here</a> on the code repository for the software that powers WhoWasInCommand.</p>
+<p>A full description of each downloadable slice of data is available in the sections below. It is important to note that none of the download contain the field-level sourcing that is a key part of Security Force Monitor’s work (see the Research Handbook section on <a class="reference internal" href="data_integrity.html#data-integrity-measures"><span class="std std-ref">Data integrity measures</span></a> for more information). The reason for this is technical (discussed <a class="reference external" href="https://github.com/security-force-monitor/sfm-cms/issues/661#issuecomment-635450705">here</a>) on the code repository for the software that powers WhoWasInCommand.</p>
 </div>
 <div class="section" id="how-to-download">
 <h2>How to download<a class="headerlink" href="#how-to-download" title="Permalink to this headline">¶</a></h2>
@@ -448,7 +448,7 @@
 <img alt="" src="_images/wwic_download_data_3.png" />
 </div>
 <p>Optionally, tick the checkbox to include Confidence Scores in the downloaded report. Read the page on <a class="reference internal" href="data_integrity.html#confidence-scores"><span class="std std-ref">Confidence scores</span></a> for more information about this data integrity measure. As mentioned above, downloads do not currently include field-level sourcing.</p>
-<p>Finally, click “Download” and a file containing the report will be downloaded to your computer. To help you identify the report, its filename is created using this simple template: <code class="docutils literal notranslate"><span class="pre">[report_type]_-[country]_[YYYY-MM-DD].csv&quot;</span></code></p>
+<p>Finally, click “Download” and a file containing the report will be downloaded to your computer. To help you identify the report, its filename is created using this simple template: <code class="docutils literal notranslate"><span class="pre">[report_type]_[country]_[YYYY-MM-DD].csv&quot;</span></code></p>
 </div>
 <div class="section" id="contents-of-each-download">
 <h2>Contents of each download<a class="headerlink" href="#contents-of-each-download" title="Permalink to this headline">¶</a></h2>
@@ -457,174 +457,187 @@
 <h3>Download: Basic<a class="headerlink" href="#download-basic" title="Permalink to this headline">¶</a></h3>
 <p><strong>Description</strong></p>
 <p>The “Basic” download contains a list of distinct units in the dataset, along with force branch, aliases, earliest and latest observation dates for each unit.</p>
-<p><strong>Field</strong></p>
-<p>1   unit:id:admin
-2   unit:name
-3   unit:country
-4   unit:classification
-5   unit:other_names
-6   unit:first_cited_date
-7   unit:last_cited_date
-8   unit:first_cited_date_start
-9   unit:last_cited_date_open
-``</p>
+<p><strong>Fields</strong></p>
+<ul class="simple">
+<li><p>unit:id:admin</p></li>
+<li><p>unit:name</p></li>
+<li><p>unit:country</p></li>
+<li><p>unit:classification</p></li>
+<li><p>unit:other_names</p></li>
+<li><p>unit:first_cited_date</p></li>
+<li><p>unit:last_cited_date</p></li>
+<li><p>unit:first_cited_date_start</p></li>
+<li><p>unit:last_cited_date_open</p></li>
+</ul>
 </div>
 <div class="section" id="download-parentage">
 <h3>Download: Parentage<a class="headerlink" href="#download-parentage" title="Permalink to this headline">¶</a></h3>
 <p><strong>Description</strong></p>
 <p>The “Parentage” download contains data that describes how units fit into the organizational structure of the security and defence forces of the specified country. Each row contains a child-parent (<code class="docutils literal notranslate"><span class="pre">unit:name</span></code> - <code class="docutils literal notranslate"><span class="pre">unit:related_unit</span></code>) relationship inside the orgaizational hierarchy. Each row also contains data on the timescale for each relationship. You can find more information about how relatioships between units work in the <a class="reference internal" href="units.html#unit-related-unit"><span class="std std-ref">Unit: Related Unit</span></a> section of this handbook.</p>
 <p><strong>Fields</strong></p>
-<p>1   unit:id:admin
-2   unit:name
-3   unit:country
-4   unit:classification
-5   unit:other_names
-6   unit:first_cited_date
-7   unit:last_cited_date
-8   unit:first_cited_date_start
-9   unit:last_cited_date_open
-10  unit:related_unit
-11  unit:related_unit:name
-12  unit:related_unit:country
-13  unit:related_unit_class
-14  unit:related_unit_first_cited_date
-15  unit:related_unit_first_cited_date_start
-16  unit:related_unit_last_cited_date
-17  unit:related_unit_open</p>
+<ul class="simple">
+<li><p>unit:id:admin</p></li>
+<li><p>unit:name</p></li>
+<li><p>unit:country</p></li>
+<li><p>unit:classification</p></li>
+<li><p>unit:other_names</p></li>
+<li><p>unit:first_cited_date</p></li>
+<li><p>unit:last_cited_date</p></li>
+<li><p>unit:first_cited_date_start</p></li>
+<li><p>unit:last_cited_date_open</p></li>
+<li><p>unit:related_unit</p></li>
+<li><p>unit:related_unit:name</p></li>
+<li><p>unit:related_unit:country</p></li>
+<li><p>unit:related_unit_class</p></li>
+<li><p>unit:related_unit_first_cited_date</p></li>
+<li><p>unit:related_unit_first_cited_date_start</p></li>
+<li><p>unit:related_unit_last_cited_date</p></li>
+<li><p>unit:related_unit_open</p></li>
+</ul>
 </div>
 <div class="section" id="download-memberships">
 <h3>Download: Memberships<a class="headerlink" href="#download-memberships" title="Permalink to this headline">¶</a></h3>
 <p><strong>Description</strong></p>
 <p>The “Memberships” download contains data showing that the unit has been attached to internal/national joint operations, international peacekeeping operations, or other multi-unit efforts. These operational unit groupings exist in parallel to units’ positionings in the regular organizational structure as described in the “Parentage” download. You can find more information about how memberships work in the <a class="reference internal" href="units.html#unit-related-unit"><span class="std std-ref">Unit: Related Unit</span></a> section of this handbook.</p>
 <p><strong>Fields</strong></p>
-<p>1   unit:id:admin
-2   unit:name
-3   unit:country
-4   unit:classification
-5   unit:other_names
-6   unit:first_cited_date
-7   unit:last_cited_date
-8   unit:first_cited_date_start
-9   unit:last_cited_date_open
-10  unit:membership_id
-11  unit:related_unit
-12  unit:member_country
-13  unit:member_classification
-14  unit:related_unit_first_cited_date
-15  unit:related_unit_first_cited_date_start
-16  unit:related_unit_last_cited_date
-17  unit:related_unit_open</p>
+<ul class="simple">
+<li><p>unit:id:admin</p></li>
+<li><p>unit:name</p></li>
+<li><p>unit:country</p></li>
+<li><p>unit:classification</p></li>
+<li><p>unit:other_names</p></li>
+<li><p>unit:first_cited_date</p></li>
+<li><p>unit:last_cited_date</p></li>
+<li><p>unit:first_cited_date_start</p></li>
+<li><p>unit:last_cited_date_open</p></li>
+<li><p>unit:membership_id</p></li>
+<li><p>unit:related_unit</p></li>
+<li><p>unit:member_country</p></li>
+<li><p>unit:member_classification</p></li>
+<li><p>unit:related_unit_first_cited_date</p></li>
+<li><p>unit:related_unit_first_cited_date_start</p></li>
+<li><p>unit:related_unit_last_cited_date</p></li>
+<li><p>unit:related_unit_open</p></li>
+</ul>
 </div>
 <div class="section" id="download-areas-of-operation">
 <h3>Download: Areas of operation<a class="headerlink" href="#download-areas-of-operation" title="Permalink to this headline">¶</a></h3>
 <p><strong>Description</strong></p>
 <p>The “Areas of operation” download describes the geographical areas that units have either been assigned to or in which they have been observed operating within. The Research Handbook sections <a class="reference internal" href="units.html#unit-location-type"><span class="std std-ref">Unit: Location Type</span></a>, <a class="reference internal" href="units.html#unit-location"><span class="std std-ref">Unit: Location</span></a> and <a class="reference internal" href="locations.html#locations"><span class="std std-ref">Locations</span></a> describe the concept of an area of operation in more detail.</p>
 <p><strong>Fields</strong></p>
-<p>1   unit:id:admin
-2   unit:name
-3   unit:country
-4   unit:classification
-5   unit:other_names
-6   unit:first_cited_date
-7   unit:last_cited_date
-8   unit:first_cited_date_start
-9   unit:last_cited_date_open
-10  unit:area_ops_id
-11  unit:area_ops_name
-12  unit:area_ops_country
-13  unit:area_ops_feature_type
-14  unit:area_ops_admin_level
-15  unit:area_ops_admin_level_1_id
-16  unit:area_ops_admin_level_1_name
-17  unit:area_ops_admin_level_2_id
-18  unit:area_ops_admin_level_2_name</p>
+<ul class="simple">
+<li><p>unit:id:admin</p></li>
+<li><p>unit:name</p></li>
+<li><p>unit:country</p></li>
+<li><p>unit:classification</p></li>
+<li><p>unit:other_names</p></li>
+<li><p>unit:first_cited_date</p></li>
+<li><p>unit:last_cited_date</p></li>
+<li><p>unit:first_cited_date_start</p></li>
+<li><p>unit:last_cited_date_open</p></li>
+<li><p>unit:area_ops_id</p></li>
+<li><p>unit:area_ops_name</p></li>
+<li><p>unit:area_ops_country</p></li>
+<li><p>unit:area_ops_feature_type</p></li>
+<li><p>unit:area_ops_admin_level</p></li>
+<li><p>unit:area_ops_admin_level_1_id</p></li>
+<li><p>unit:area_ops_admin_level_1_name</p></li>
+<li><p>unit:area_ops_admin_level_2_id</p></li>
+<li><p>unit:area_ops_admin_level_2_name</p></li>
+</ul>
 </div>
 <div class="section" id="download-sites">
 <h3>Download: Sites<a class="headerlink" href="#download-sites" title="Permalink to this headline">¶</a></h3>
 <p><strong>Description</strong></p>
 <p>The “Sites” download describes the specific locations at which specific units have been observed. This download covers locations like infrastructure (such as police stations, barracks, airfields) and specific settlements. The Research Handbook sections <a class="reference internal" href="units.html#unit-location-type"><span class="std std-ref">Unit: Location Type</span></a>, <a class="reference internal" href="units.html#unit-location"><span class="std std-ref">Unit: Location</span></a> and <a class="reference internal" href="locations.html#locations"><span class="std std-ref">Locations</span></a> describe the concept of site in more detail.</p>
 <p><strong>Fields</strong></p>
-<p>1   unit:id:admin
-2   unit:name
-3   unit:country
-4   unit:classification
-5   unit:other_names
-6   unit:first_cited_date
-7   unit:last_cited_date
-8   unit:first_cited_date_start
-9   unit:last_cited_date_open
-10  unit:site_exact_location_id_latitude
-11  unit:site_exact_location_name_longitude
-12  unit:site_country
-13  unit:site_feature_type
-14  unit:site_admin_level
-15  unit:site_nearest_settlement_id
-16  unit:site_nearest_settlement_name
-17  unit:site_first_admin_area_id
-18  unit:site_first_admin_area_name</p>
+<ul class="simple">
+<li><p>unit:id:admin</p></li>
+<li><p>unit:name</p></li>
+<li><p>unit:country</p></li>
+<li><p>unit:classification</p></li>
+<li><p>unit:other_names</p></li>
+<li><p>unit:first_cited_date</p></li>
+<li><p>unit:last_cited_date</p></li>
+<li><p>unit:first_cited_date_start</p></li>
+<li><p>unit:last_cited_date_open</p></li>
+<li><p>unit:site_exact_location_id_latitude</p></li>
+<li><p>unit:site_exact_location_name_longitude</p></li>
+<li><p>unit:site_country</p></li>
+<li><p>unit:site_feature_type</p></li>
+<li><p>unit:site_admin_level</p></li>
+<li><p>unit:site_nearest_settlement_id</p></li>
+<li><p>unit:site_nearest_settlement_name</p></li>
+<li><p>unit:site_first_admin_area_id</p></li>
+<li><p>unit:site_first_admin_area_name</p></li>
+</ul>
 </div>
 <div class="section" id="download-personnel">
 <h3>Download: Personnel<a class="headerlink" href="#download-personnel" title="Permalink to this headline">¶</a></h3>
 <p><strong>Description</strong></p>
 <p>The “Personnel” download provides data on people holding command positions in specific units. The download is organized by the unit to which a person was posted. It contains data on the person’s posting (such as their role, rank, and title) in addition to any further biographical information (social media accounts, imagery of them, and so on). More information about how Security Force Monitor records data about persons is in the Research Handbook sections on <a class="reference internal" href="persons.html#persons"><span class="std std-ref">Persons</span></a> and <a class="reference internal" href="persons_extra.html#persons-extra"><span class="std std-ref">Persons Extra</span></a>.</p>
 <p><strong>Fields</strong></p>
-<p>1   unit:id:admin
-2   unit:name
-3   unit:country
-4   unit:classification
-5   unit:other_names
-6   unit:first_cited_date
-7   unit:last_cited_date
-8   unit:first_cited_date_start
-9   unit:last_cited_date_open
-10  person:admin:id
-11  person:name
-12  person:other_names
-13  person:country
-14  person_extra:date_of_birth
-15  person_extra:deceased_date
-16  person_extra:deceased
-17  person_extra:account_type
-18  person_extra:account_id
-19  person_extra:external_link_description
-20  person_extra:media_desc
-21  person_extra:notes:admin
-22  person:posting_role
-23  person:posting_rank
-24  person:posting_title
-25  person:posting_first_cited_date
-26  person:posting_first_cited_date:year
-27  person:posting_first_cited_date:month
-28  person:posting_first_cited_date:day
-29  person:posting_first_cited_date_start
-30  person:posting_first_cited_date_start_context
-31  person:posting_last_cited_date
-32  person:posting_last_cited_date:year
-33  person:posting_last_cited_date:month
-34  person:posting_last_cited_date:day
-35  person:posting_last_cited_date_end
-36  person:posting_last_cited_date_end_context</p>
+<ul class="simple">
+<li><p>unit:id:admin</p></li>
+<li><p>unit:name</p></li>
+<li><p>unit:country</p></li>
+<li><p>unit:classification</p></li>
+<li><p>unit:other_names</p></li>
+<li><p>unit:first_cited_date</p></li>
+<li><p>unit:last_cited_date</p></li>
+<li><p>unit:first_cited_date_start</p></li>
+<li><p>unit:last_cited_date_open</p></li>
+<li><p>person:admin:id</p></li>
+<li><p>person:name</p></li>
+<li><p>person:other_names</p></li>
+<li><p>person:country</p></li>
+<li><p>person_extra:date_of_birth</p></li>
+<li><p>person_extra:deceased_date</p></li>
+<li><p>person_extra:deceased</p></li>
+<li><p>person_extra:account_type</p></li>
+<li><p>person_extra:account_id</p></li>
+<li><p>person_extra:external_link_description</p></li>
+<li><p>person_extra:media_desc</p></li>
+<li><p>person_extra:notes:admin</p></li>
+<li><p>person:posting_role</p></li>
+<li><p>person:posting_rank</p></li>
+<li><p>person:posting_title</p></li>
+<li><p>person:posting_first_cited_date</p></li>
+<li><p>person:posting_first_cited_date:year</p></li>
+<li><p>person:posting_first_cited_date:month</p></li>
+<li><p>person:posting_first_cited_date:day</p></li>
+<li><p>person:posting_first_cited_date_start</p></li>
+<li><p>person:posting_first_cited_date_start_context</p></li>
+<li><p>person:posting_last_cited_date</p></li>
+<li><p>person:posting_last_cited_date:year</p></li>
+<li><p>person:posting_last_cited_date:month</p></li>
+<li><p>person:posting_last_cited_date:day</p></li>
+<li><p>person:posting_last_cited_date_end</p></li>
+<li><p>person:posting_last_cited_date_end_context</p></li>
+</ul>
 </div>
 <div class="section" id="download-sources">
 <h3>Download: Sources<a class="headerlink" href="#download-sources" title="Permalink to this headline">¶</a></h3>
 <p><strong>Description</strong></p>
 <p>The “Sources” download contains a list of all the sources used to evidence data on WhoWasInCommand. Unlike the other downloads, the content of the “Sources” download is not limited to a specific country: it’s everything referenced anywhere in WhoWasInCommand. To learn more about how Security Force Monitor uses sources, visit the sections of the Research Handbook about <a class="reference internal" href="data_integrity.html#data-integrity-measures"><span class="std std-ref">Data integrity measures</span></a> and <a class="reference internal" href="sources.html#sources"><span class="std std-ref">Sources</span></a>.</p>
 <p><strong>Fields</strong></p>
-<p>1   source:id:admin
-2   source:title
-3   source:type
-4   source:author
-5   source:publication_name
-6   source:publication_country
-7   source:published_timestamp
-8   source:created_timestamp
-9   source:uploaded_timestamp
-10  source:url
-11  source:access_point_id
-12  source:access_point_type
-13  source:access_point_trigger
-14  source:accessed_timestamp
-15  source:archive_url</p>
+<ul class="simple">
+<li><p>source:id:admin</p></li>
+<li><p>source:title</p></li>
+<li><p>source:type</p></li>
+<li><p>source:author</p></li>
+<li><p>source:publication_name</p></li>
+<li><p>source:publication_country</p></li>
+<li><p>source:published_timestamp</p></li>
+<li><p>source:created_timestamp</p></li>
+<li><p>source:uploaded_timestamp</p></li>
+<li><p>source:url</p></li>
+<li><p>source:access_point_id</p></li>
+<li><p>source:access_point_type</p></li>
+<li><p>source:access_point_trigger</p></li>
+<li><p>source:accessed_timestamp</p></li>
+<li><p>source:archive_url</p></li>
+</ul>
 </div>
 </div>
 </div>

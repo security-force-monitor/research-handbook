@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFM Research Handbook \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-06 16:39+0100\n"
+"POT-Creation-Date: 2022-05-06 17:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,35 +19,35 @@ msgstr ""
 #: ../../source/index.rst:4
 #: ../../source/index.rst:4
 #: 
-#: f707304f2b0f4a78a22f375dfb58c69d
+#: e051a0df78f34305afecbad83daafe00
 msgid "Introduction"
 msgstr ""
 
 #: ../../source/index.rst:10
 #: ../../source/index.rst:10
 #: 
-#: 5ef0b801b53b4b4ba5f423a735ab42c3
+#: c8da33449adc42118438806fdb52c1b3
 msgid "Methodology"
 msgstr ""
 
 #: ../../source/index.rst:17
 #: ../../source/index.rst:17
 #: 
-#: 017d6cf2efe24ac6b78c50d8ba255237
+#: a08c76fc119146209a51c022368e9d2d
 msgid "Countries"
 msgstr ""
 
 #: ../../source/index.rst:23
 #: ../../source/index.rst:23
 #: 
-#: d36c124b89d143dfb617cd0d8522b3ed
+#: fc4c846bea6946428ae92f7d062f4c14
 msgid "Data Model"
 msgstr ""
 
 #: ../../source/index.rst:36
 #: ../../source/index.rst:36
 #: 
-#: 3e60f16742c243e09f54d640bc7925ce
+#: 7f5d635b393347efac11e2e7e18045af
 msgid "WhoWasInCommand"
 msgstr ""
 
