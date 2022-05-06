@@ -15,15 +15,15 @@ https://whowasincommand.com/en/download
 
 The Security Force Monitor data model is a directed graph containing attriutes about units, persons, locations as they change across time. This is quite complicated and does not easily translate into a single file that is straightforward to understand and use without guidance. To get around this and provide a way to provide raw data directly to users, we offer seven different reports drawn from the data on a specific country:
 
--  **Basic**: a list of all the units in that country
--  **Parentage**: units organized into a hierarchy
--  **Memberships**: units that are part of operations that may fall outside the regular chain of command
--  **Areas of operation**: geographical distribution of units' operational areas
--  **Sites**: specific locations
--  **Personnel**: list of command personnel
--  **Sources**: sources used to evidence the data
+-  **Basic**: a list of all the units in that country.
+-  **Parentage**: units organized into a hierarchy.
+-  **Memberships**: units that are part of operations that may fall outside the regular chain of command.
+-  **Areas of operation**: geographical distribution of units' operational areas.
+-  **Sites**: specific locations.
+-  **Personnel**: list of command personnel.
+-  **Sources**: sources used to evidence the data.
 
-A full description of each downloadable slice of data is available in the sections below. It is important to note that none of the download contain the field-level sourcing that is a key part of Security Force Monitor's work (see :ref:`Data integrity measures` for more information). The reason for this is technical (discussed `here <https://github.com/security-force-monitor/sfm-cms/issues/661#issuecomment-635450705>`__ on the code repository for the software that powers WhoWasInCommand.
+A full description of each downloadable slice of data is available in the sections below. It is important to note that none of the download contain the field-level sourcing that is a key part of Security Force Monitor's work (see the Research Handbook section on :ref:`Data integrity measures` for more information). The reason for this is technical (discussed `here <https://github.com/security-force-monitor/sfm-cms/issues/661#issuecomment-635450705>`__) on the code repository for the software that powers WhoWasInCommand.
 
 How to download
 ---------------
@@ -47,7 +47,7 @@ Then, use the next dropdown menu to choose the country about which you want to d
 
 Optionally, tick the checkbox to include Confidence Scores in the downloaded report. Read the page on :ref:`Confidence scores` for more information about this data integrity measure. As mentioned above, downloads do not currently include field-level sourcing.
 
-Finally, click "Download" and a file containing the report will be downloaded to your computer. To help you identify the report, its filename is created using this simple template: ``[report_type]_-[country]_[YYYY-MM-DD].csv"``
+Finally, click "Download" and a file containing the report will be downloaded to your computer. To help you identify the report, its filename is created using this simple template: ``[report_type]_[country]_[YYYY-MM-DD].csv"``
 
 Contents of each download
 -------------------------
@@ -61,18 +61,18 @@ Download: Basic
 
 The "Basic" download contains a list of distinct units in the dataset, along with force branch, aliases, earliest and latest observation dates for each unit.
 
-**Field**
+**Fields**
 
-1   unit:id:admin
-2   unit:name
-3   unit:country
-4   unit:classification
-5   unit:other_names
-6   unit:first_cited_date
-7   unit:last_cited_date
-8   unit:first_cited_date_start
-9   unit:last_cited_date_open
-``
+-  unit:id:admin
+-  unit:name
+-  unit:country
+-  unit:classification
+-  unit:other_names
+-  unit:first_cited_date
+-  unit:last_cited_date
+-  unit:first_cited_date_start
+-  unit:last_cited_date_open
+
 
 Download: Parentage
 ^^^^^^^^^^^^^^^^^^^
@@ -83,23 +83,23 @@ The "Parentage" download contains data that describes how units fit into the org
 
 **Fields**
 
-1   unit:id:admin
-2   unit:name
-3   unit:country
-4   unit:classification
-5   unit:other_names
-6   unit:first_cited_date
-7   unit:last_cited_date
-8   unit:first_cited_date_start
-9   unit:last_cited_date_open
-10  unit:related_unit
-11  unit:related_unit:name
-12  unit:related_unit:country
-13  unit:related_unit_class
-14  unit:related_unit_first_cited_date
-15  unit:related_unit_first_cited_date_start
-16  unit:related_unit_last_cited_date
-17  unit:related_unit_open
+-  unit:id:admin
+-  unit:name
+-  unit:country
+-  unit:classification
+-  unit:other_names
+-  unit:first_cited_date
+-  unit:last_cited_date
+-  unit:first_cited_date_start
+-  unit:last_cited_date_open
+-  unit:related_unit
+-  unit:related_unit:name
+-  unit:related_unit:country
+-  unit:related_unit_class
+-  unit:related_unit_first_cited_date
+-  unit:related_unit_first_cited_date_start
+-  unit:related_unit_last_cited_date
+-  unit:related_unit_open
 
 Download: Memberships
 ^^^^^^^^^^^^^^^^^^^^^
@@ -110,23 +110,23 @@ The "Memberships" download contains data showing that the unit has been attached
 
 **Fields**
 
-1   unit:id:admin
-2   unit:name
-3   unit:country
-4   unit:classification
-5   unit:other_names
-6   unit:first_cited_date
-7   unit:last_cited_date
-8   unit:first_cited_date_start
-9   unit:last_cited_date_open
-10  unit:membership_id
-11  unit:related_unit
-12  unit:member_country
-13  unit:member_classification
-14  unit:related_unit_first_cited_date
-15  unit:related_unit_first_cited_date_start
-16  unit:related_unit_last_cited_date
-17  unit:related_unit_open
+-  unit:id:admin
+-  unit:name
+-  unit:country
+-  unit:classification
+-  unit:other_names
+-  unit:first_cited_date
+-  unit:last_cited_date
+-  unit:first_cited_date_start
+-  unit:last_cited_date_open
+-  unit:membership_id
+-  unit:related_unit
+-  unit:member_country
+-  unit:member_classification
+-  unit:related_unit_first_cited_date
+-  unit:related_unit_first_cited_date_start
+-  unit:related_unit_last_cited_date
+-  unit:related_unit_open
 
 Download: Areas of operation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -137,24 +137,24 @@ The "Areas of operation" download describes the geographical areas that units ha
 
 **Fields**
 
-1   unit:id:admin
-2   unit:name
-3   unit:country
-4   unit:classification
-5   unit:other_names
-6   unit:first_cited_date
-7   unit:last_cited_date
-8   unit:first_cited_date_start
-9   unit:last_cited_date_open
-10  unit:area_ops_id
-11  unit:area_ops_name
-12  unit:area_ops_country
-13  unit:area_ops_feature_type
-14  unit:area_ops_admin_level
-15  unit:area_ops_admin_level_1_id
-16  unit:area_ops_admin_level_1_name
-17  unit:area_ops_admin_level_2_id
-18  unit:area_ops_admin_level_2_name
+-  unit:id:admin
+-  unit:name
+-  unit:country
+-  unit:classification
+-  unit:other_names
+-  unit:first_cited_date
+-  unit:last_cited_date
+-  unit:first_cited_date_start
+-  unit:last_cited_date_open
+-  unit:area_ops_id
+-  unit:area_ops_name
+-  unit:area_ops_country
+-  unit:area_ops_feature_type
+-  unit:area_ops_admin_level
+-  unit:area_ops_admin_level_1_id
+-  unit:area_ops_admin_level_1_name
+-  unit:area_ops_admin_level_2_id
+-  unit:area_ops_admin_level_2_name
 
 Download: Sites
 ^^^^^^^^^^^^^^^
@@ -165,24 +165,24 @@ The "Sites" download describes the specific locations at which specific units ha
 
 **Fields**
 
-1   unit:id:admin
-2   unit:name
-3   unit:country
-4   unit:classification
-5   unit:other_names
-6   unit:first_cited_date
-7   unit:last_cited_date
-8   unit:first_cited_date_start
-9   unit:last_cited_date_open
-10  unit:site_exact_location_id_latitude
-11  unit:site_exact_location_name_longitude
-12  unit:site_country
-13  unit:site_feature_type
-14  unit:site_admin_level
-15  unit:site_nearest_settlement_id
-16  unit:site_nearest_settlement_name
-17  unit:site_first_admin_area_id
-18  unit:site_first_admin_area_name
+-  unit:id:admin
+-  unit:name
+-  unit:country
+-  unit:classification
+-  unit:other_names
+-  unit:first_cited_date
+-  unit:last_cited_date
+-  unit:first_cited_date_start
+-  unit:last_cited_date_open
+-  unit:site_exact_location_id_latitude
+-  unit:site_exact_location_name_longitude
+-  unit:site_country
+-  unit:site_feature_type
+-  unit:site_admin_level
+-  unit:site_nearest_settlement_id
+-  unit:site_nearest_settlement_name
+-  unit:site_first_admin_area_id
+-  unit:site_first_admin_area_name
 
 
 Download: Personnel
@@ -194,42 +194,42 @@ The "Personnel" download provides data on people holding command positions in sp
 
 **Fields**
 
-1   unit:id:admin
-2   unit:name
-3   unit:country
-4   unit:classification
-5   unit:other_names
-6   unit:first_cited_date
-7   unit:last_cited_date
-8   unit:first_cited_date_start
-9   unit:last_cited_date_open
-10  person:admin:id
-11  person:name
-12  person:other_names
-13  person:country
-14  person_extra:date_of_birth
-15  person_extra:deceased_date
-16  person_extra:deceased
-17  person_extra:account_type
-18  person_extra:account_id
-19  person_extra:external_link_description
-20  person_extra:media_desc
-21  person_extra:notes:admin
-22  person:posting_role
-23  person:posting_rank
-24  person:posting_title
-25  person:posting_first_cited_date
-26  person:posting_first_cited_date:year
-27  person:posting_first_cited_date:month
-28  person:posting_first_cited_date:day
-29  person:posting_first_cited_date_start
-30  person:posting_first_cited_date_start_context
-31  person:posting_last_cited_date
-32  person:posting_last_cited_date:year
-33  person:posting_last_cited_date:month
-34  person:posting_last_cited_date:day
-35  person:posting_last_cited_date_end
-36  person:posting_last_cited_date_end_context
+-  unit:id:admin
+-  unit:name
+-  unit:country
+-  unit:classification
+-  unit:other_names
+-  unit:first_cited_date
+-  unit:last_cited_date
+-  unit:first_cited_date_start
+-  unit:last_cited_date_open
+-  person:admin:id
+-  person:name
+-  person:other_names
+-  person:country
+-  person_extra:date_of_birth
+-  person_extra:deceased_date
+-  person_extra:deceased
+-  person_extra:account_type
+-  person_extra:account_id
+-  person_extra:external_link_description
+-  person_extra:media_desc
+-  person_extra:notes:admin
+-  person:posting_role
+-  person:posting_rank
+-  person:posting_title
+-  person:posting_first_cited_date
+-  person:posting_first_cited_date:year
+-  person:posting_first_cited_date:month
+-  person:posting_first_cited_date:day
+-  person:posting_first_cited_date_start
+-  person:posting_first_cited_date_start_context
+-  person:posting_last_cited_date
+-  person:posting_last_cited_date:year
+-  person:posting_last_cited_date:month
+-  person:posting_last_cited_date:day
+-  person:posting_last_cited_date_end
+-  person:posting_last_cited_date_end_context
 
 Download: Sources
 ^^^^^^^^^^^^^^^^^
@@ -240,18 +240,18 @@ The "Sources" download contains a list of all the sources used to evidence data 
 
 **Fields**
 
-1   source:id:admin
-2   source:title
-3   source:type
-4   source:author
-5   source:publication_name
-6   source:publication_country
-7   source:published_timestamp
-8   source:created_timestamp
-9   source:uploaded_timestamp
-10  source:url
-11  source:access_point_id
-12  source:access_point_type
-13  source:access_point_trigger
-14  source:accessed_timestamp
-15  source:archive_url
+-  source:id:admin
+-  source:title
+-  source:type
+-  source:author
+-  source:publication_name
+-  source:publication_country
+-  source:published_timestamp
+-  source:created_timestamp
+-  source:uploaded_timestamp
+-  source:url
+-  source:access_point_id
+-  source:access_point_type
+-  source:access_point_trigger
+-  source:accessed_timestamp
+-  source:archive_url
