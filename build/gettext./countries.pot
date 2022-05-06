@@ -1,0 +1,823 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Security Force Monitor
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-06 16:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/countries.rst:2
+#: 8044707b4d12422da450f3e25acb7982
+msgid "Countries"
+msgstr ""
+
+#: ../../source/countries.rst:4
+#: 9a59cb025e8b4d18b242867e65858e22
+msgid "WhoWasInCommand.com currently hosts data on the below countries."
+msgstr ""
+
+#: ../../source/countries.rst:7
+#: 2e5a0b4b55204a2c862cacad45146b48
+msgid "Bangladesh"
+msgstr ""
+
+#: ../../source/countries.rst:10
+#: 1d15e26ac8e14479873494bb1c6e366f
+msgid "Bangladesh: Overview of Coverage"
+msgstr ""
+
+#: ../../source/countries.rst:12
+#: 45f2da2c1cb6443fb3b9c09dbf87c18d
+msgid "The Security Force Monitor’s current dataset is focused on the structure of police in Bangladesh. Additional research (detailed below) will focus on other elements of the security forces of Bangladesh."
+msgstr ""
+
+#: ../../source/countries.rst:15
+#: ea051da9c4d6481d825baacdd69cfa46
+msgid "Bangladesh: Administrative Division"
+msgstr ""
+
+#: ../../source/countries.rst:17
+#: 623b963d42a74044be4fc2339417f87d
+msgid "Bangladesh is divided into 8 Divisions which are further divided into 64 Districts and then 491 Upazilas."
+msgstr ""
+
+#: ../../source/countries.rst:20
+#: a0fb1cd3e7d4458080d0b439ba9e52db
+msgid "Bangladesh: Police"
+msgstr ""
+
+#: ../../source/countries.rst:22
+#: 362e86cf7000490782804698f64f96e8
+msgid "The Bangladesh Police is the national police force of Bangladesh, overseeing all branches of the police. The Bangladesh is divided into the Special Branch, Criminal Investigation Department, Rapid Action Battalions, and Ranges (which oversee police forces across large geographic areas and are further divided into District Police, Circles and Police Stations) and an Armed Police Battalion. Specialized branches of the Bangladesh Police include the Highway Police, Industrial Police and Railway Police. Additionally, the Bangladesh Police has several Metropolitan Police forces for the major cities of Barisal, Chittagong, Dhaka (the capital), Khulna, Rajshahi, and Sylhet. Each Metropolitan Police is further divided into Divisions, Zones and Police Stations."
+msgstr ""
+
+#: ../../source/countries.rst:25
+#: 7ffccf8c0cff416981d6730d7538caf9
+msgid "Bangladesh: Outstanding Areas for Further Research"
+msgstr ""
+
+#: ../../source/countries.rst:27
+#: 7acf12cdd10449d2afeeb76c7f6a11b1
+msgid "Detailing commanders of Bangladesh Police across various units and branches."
+msgstr ""
+
+#: ../../source/countries.rst:28
+#: 221d852dd2e04945b8a515ff1306e0d7
+msgid "Identifying locations and areas of operations through time of Bangladesh Police units."
+msgstr ""
+
+#: ../../source/countries.rst:29
+#: 151c10fa44134341b85cc9236b94e080
+msgid "Building command hierarchy of the armed forces of Bangladesh and identifying location and area of operations of various units."
+msgstr ""
+
+#: ../../source/countries.rst:30
+#: 1b08b2ac8b334eed9151ac71d39f9c3d
+msgid "Investigating other priorities as guided by partners concerned about the human rights practices of the security forces of Bangladesh."
+msgstr ""
+
+#: ../../source/countries.rst:33
+#: 172e2910480f4949b024ab9a5b5297b3
+msgid "Egypt"
+msgstr ""
+
+#: ../../source/countries.rst:36
+#: b907750980254ae3ae80879cd091d0c8
+msgid "Egypt: Overview of Coverage"
+msgstr ""
+
+#: ../../source/countries.rst:38
+#: 4073575d1a644e608d3bfcabe1289ff2
+msgid "The Security Force Monitor’s current dataset is a “snapshot” of the structure of the police in Egypt as of September 2016 and military forces in 2011. Additional research on Egypt is dependent on funding and priorities of partners concerned about the human rights practices of the security forces of Egypt."
+msgstr ""
+
+#: ../../source/countries.rst:41
+#: 4a10275d129145d7bbcfac8048b12e32
+msgid "Egypt: General Background on Security Forces"
+msgstr ""
+
+#: ../../source/countries.rst:43
+#: 927f10bab1ed4d7e855bab98f0f8af85
+msgid "Egypt has security forces with different responsibilities for internal security. Crime fighting is the prime responsibility of the General Investigations Police. The Central Security Forces (CSF) are tasked with policing public events and demonstrations, but may also be used in other internal security operations."
+msgstr ""
+
+#: ../../source/countries.rst:46
+#: 35c6edfaf71046bf9349917d268abc66
+msgid "Egypt: Administrative Division"
+msgstr ""
+
+#: ../../source/countries.rst:48
+#: 2ed80a20c2914ef6823331a6edc43e3e
+msgid "Administratively, Egypt is broken up into 27 governorates each of which is headed by a governor who is appointed by the president. The number of governorates has varied over time, with several governorates being created and then disbanded in recent years."
+msgstr ""
+
+#: ../../source/countries.rst:51
+#: 61c91c729fe44b15b733e9f4a345a07a
+msgid "Egypt: Security Forces"
+msgstr ""
+
+#: ../../source/countries.rst:53
+#: 06954a8fb44f494f815ab8f722f151de
+msgid "**Police (General Investigations Police)**"
+msgstr ""
+
+#: ../../source/countries.rst:55
+#: aff32747b34742f09dbcfd0035fbf5f9
+msgid "The General Investigations Police is the national police force of Egypt. The President of Egypt is the supreme commander of the police, which are housed inside of the Ministry of Interior. Police in each governorate are under the command of the Security Directorate of that governorate (headed by a Security Director) who in turn reports to the Governor. Organizationally, most police operate from one of the approximately 1700 Police Stations. Central Security Forces"
+msgstr ""
+
+#: ../../source/countries.rst:58
+#: db97c5817222462992fb764c2c7c712a
+msgid "The Central Security Forces (CSF) is a specialized force focused on “anti-riot” activities, meaning they are generally deployed to police protests or other public gatherings. The CSF sits inside of the Ministry of Interior."
+msgstr ""
+
+#: ../../source/countries.rst:60
+#: 9f688c1c71f0438bb8c8658c7ef0c618
+msgid "**Egyptian Armed Forces**"
+msgstr ""
+
+#: ../../source/countries.rst:62
+#: 51065840789e4dab9034fca8d5359ab3
+msgid "The Egyptian military, particularly the army, plays a key role in politics and general security affairs. There are four major branches of the military, the Army, the Air Force, Air Defense Force and the Navy, all of which fall under the Ministry of Defense. Operationally, the main formations of the army are the Field Armies and Military Zones. Smaller units that report up to the relevant Field Armies or Military Zones are Divisions, Brigades and Battalions."
+msgstr ""
+
+#: ../../source/countries.rst:65
+#: 49da306e45214ccfb72ef1ff68cc1593
+msgid "Egypt: Outstanding Areas for Further Research"
+msgstr ""
+
+#: ../../source/countries.rst:67
+#: 13cb3b9fd2344c85904b0a38a50b9e46
+msgid "Expanding the command structure of the General Investigations Police, Central Security Forces and Egyptian military through time."
+msgstr ""
+
+#: ../../source/countries.rst:68
+#: e3a4cbf4efff45649a054d1f41df7daf
+msgid "Detailing commanders of the General Investigations Police, Central Security Forces and Egyptian military across various units through time."
+msgstr ""
+
+#: ../../source/countries.rst:69
+#: 5d1bd8fe88ef441eae607b34345969cf
+msgid "Investigating other priorities as guided by partners concerned about the human rights practices of the security forces of Egypt."
+msgstr ""
+
+#: ../../source/countries.rst:72
+#: 5a25326532e445bb9d46cf1d8012186d
+msgid "Mexico"
+msgstr ""
+
+#: ../../source/countries.rst:75
+#: 3e2bf2c464c7442ea34599e55dbf7dcb
+msgid "Mexico: Overview of Coverage"
+msgstr ""
+
+#: ../../source/countries.rst:77
+#: ff6f83044a344ee888aa64efb22f7e99
+msgid "The Security Force Monitor’s current dataset comprehensively covers the command structure, locations and areas of operation of the Mexican armed forces from roughly 2006 to 2018. The Monitor has extensive data on commanders, though some smaller units have gaps. Finally our data includes a “snapshot” of the command structure and locations of Policía Federal units as of June 2016. Additional research (detailed below) will focus on other elements of the security forces of Mexico."
+msgstr ""
+
+#: ../../source/countries.rst:80
+#: 5b132db8e2ed4ce9a5c7dac370168547
+msgid "Mexico: General Background on Security Forces"
+msgstr ""
+
+#: ../../source/countries.rst:82
+#: 853160cd22f54480bfa5e81e91fde5da
+msgid "Mexico has several layers of security forces. Crime fighting generally falls to local, state and federal police forces, each with their own chain of command. Specialized agencies within or independent to these police forces are also involved in crime fighting. Additionally, the armed forces of Mexico have been increasingly involved in internal security operations."
+msgstr ""
+
+#: ../../source/countries.rst:85
+#: 5aaa1216d0d24469a13d2eb12d4c394f
+msgid "Mexico: Administrative Division"
+msgstr ""
+
+#: ../../source/countries.rst:87
+#: 374ec70f625f4909812d36e7fa1d3e28
+msgid "Mexico has a federal structure. There are 31 states as well as a federal entity of Mexico City. Each state is subdivided into municipios of which there are 2,456. Mexico: Security Forces"
+msgstr ""
+
+#: ../../source/countries.rst:90
+#: ../../source/countries.rst:180
+#: ../../source/countries.rst:272
+#: ../../source/countries.rst:342
+#: 25088e2b893c48deafb7cba335828854
+#: 326220a34ca74cfa9f39cf7d23c8c2c7
+#: 6065575aa19e41a5958da17886f7e21f
+#: c6c83371651f41ac99b42472cd656567
+msgid "**Police**"
+msgstr ""
+
+#: ../../source/countries.rst:92
+#: 9b394ab1ea264c779bcad6ec5f98a8e9
+msgid "Mexico has federal, state and municipio (municipal) police forces as well as a separate police for the federal capital. At the federal and state level police forces are generally divided by role and command structure into policía preventiva (preventive police) in charge of maintaining order and usually under the command of the Secretaría de Seguridad Pública (Ministry of Public Security) and policía judicial (judicial police) usually under the command of the state Procuraduría General de Justicia (Attorney General)."
+msgstr ""
+
+#: ../../source/countries.rst:94
+#: 13fc96a5f20548f3bea9f78674383e11
+msgid "The size and structure of Policías Municipales (municipal police) can vary widely. Generally, they are under the command of the Presidente Municipal (municipal president, also informally referred to as the Alcalde or mayor) of the municipio which they operate. Not every municipio has a police force, however. Some states in Mexico are dissolving their municipal police forces in favor of newly created state-level forces while other states are establishing new state-level forces which control existing municipal police forces."
+msgstr ""
+
+#: ../../source/countries.rst:96
+#: ee78a0070063414ea4a02b6bad777fed
+msgid "**Mexican Armed Forces/Military**"
+msgstr ""
+
+#: ../../source/countries.rst:98
+#: 14677eebd1674079a46902ce43b47856
+msgid "The President of Mexico is the Commander-in-Chief of the Mexican Armed Forces, which are divided into the Army and Air Force under the command of the Secretaría de la Defensa Nacional (SEDENA) and the Navy and Marines under the command of the Secretaría de Marina (SEMAR). SEDENA also includes the Special Forces, and Military Police. SEMAR contains its own infantry and air forces as well. Both SEDENA and SEMAR include an Estado Mayor (General Staff) that play an active role in the chain of command between the secretary and operational units. Army"
+msgstr ""
+
+#: ../../source/countries.rst:101
+#: e3f098ba6b1d4f8dad723ec6916b148b
+msgid "The Mexican Army is broken up into several Regiones Militares (Military Regions) which usually cover several states and oversee Zonas Militares (Military Zones) which usually operate within one state or in portions of two or more states. Below the Zonas Militares are smaller units: Batallones de Infantería (Infantry Battalions), Regimientos de Caballería Motorizado (Motorized Cavalry Regiments), Regimientos de Artillería (Artillery Regiments), Guarniciones Militares (Military Garrisons), and several other groupings, all of which are generally under the command of a Zona Militar."
+msgstr ""
+
+#: ../../source/countries.rst:103
+#: 406844b1cf104a34875e9240d1d9cfe0
+msgid "**Air Force**"
+msgstr ""
+
+#: ../../source/countries.rst:105
+#: d9d8d10c0a094a9f8ed715667293e5ad
+msgid "The Mexican Air Force is also divided into geographic Regiones Aéreas which command Bases Aéreas. Bases Aéreas in turn command Escuadrones Aéreos."
+msgstr ""
+
+#: ../../source/countries.rst:107
+#: 7b875f8b75e54198a49b79898f0572d6
+msgid "**Navy/Marines**"
+msgstr ""
+
+#: ../../source/countries.rst:109
+#: d185d4219b45457dab3d1a02aa86a0e6
+msgid "Similar to the Army, the SEMAR is broken into several Regiones Navales (Naval Regions) which command Zonas Navales (Naval Zones). SEMAR also includes two Fuerzas Navales (Naval Forces). The Navy has been very active in internal security operations, mainly through the deployment of the marines, which are generally grouped into Brigadas de Infanteria de Marina (Marine Brigades) and smaller Batallones de Infantería de Marina (Marine Battalions). Since 2007 the command structure of the marines has been restructured several, but currently marine units are generally under the command of a Zona Naval or Región Naval."
+msgstr ""
+
+#: ../../source/countries.rst:112
+#: ffddf9a11c9b4249a72525c6185768cd
+msgid "Mexico: Outstanding Areas for Further Research"
+msgstr ""
+
+#: ../../source/countries.rst:114
+#: 2c998b2af2544d2a97ac4daaef8cb364
+msgid "Expanding the command structure of the Policía Federal through time."
+msgstr ""
+
+#: ../../source/countries.rst:115
+#: ad41a26c52874a3f885111e9af3c906c
+msgid "Detailing command structures, locations and areas of operations for state and municipal police forces in various states of Mexico through time."
+msgstr ""
+
+#: ../../source/countries.rst:116
+#: a7be3099d6d2420da3b03c298477a558
+msgid "Identifying additional details on individual units and personnel as needed to fill any gaps in the records of units and commanders of the armed forces of Mexico during the timeframe of 2006 to 2018."
+msgstr ""
+
+#: ../../source/countries.rst:117
+#: a2ac90dece5844a4a35696d3e86c19d1
+msgid "Investigating other priorities as guided by partners concerned about the human rights practices of the security forces of Mexico."
+msgstr ""
+
+#: ../../source/countries.rst:120
+#: 6e5fbd4697e44426bbb4a40b7eca7442
+msgid "Myanmar"
+msgstr ""
+
+#: ../../source/countries.rst:123
+#: 65cf37d9e30744969d7a870e17004bae
+msgid "Myanmar:Overview of Coverage"
+msgstr ""
+
+#: ../../source/countries.rst:125
+#: c896ffca548540009b40795b121c5d75
+msgid "The Security Force Monitor’s current dataset is focused on the army structure, location and area of operations from 2000 to 2018. Additional research (detailed below) will focus on additional elements of the security forces of Myanmar. **General Background on Security Forces**"
+msgstr ""
+
+#: ../../source/countries.rst:128
+#: 555fd8ef476e4ef2a19775e82ce150e1
+msgid "The Tatmadaw, or armed forces of Myanmar, play a central role in internal security and politics. The military has directly ruled Myanmar and remains outside of civilian oversight or command. Within the Tatmadaw the army is the dominant branch. The Tatmadaw is one of the most opaque militaries in the world, with little information on its structure or operations coming directly from the military itself."
+msgstr ""
+
+#: ../../source/countries.rst:131
+#: 8c772d9dcc4c4aeda92bd5d2f981d7e1
+msgid "Myanmar: Administrative Division"
+msgstr ""
+
+#: ../../source/countries.rst:133
+#: 708993302a5b49bab9bc29bea21c2610
+msgid "Myanmar is divided into Regions and States, a capital “Union Territory” and also has several Self-Administered Zones. Some of these administrative boundaries are divided into Districts which are further divided into Townships."
+msgstr ""
+
+#: ../../source/countries.rst:136
+#: 7b4049e372fc46dca42a290a8ae9fe5d
+msgid "Myanmar: Security Forces"
+msgstr ""
+
+#: ../../source/countries.rst:138
+#: ca77375619b94ea2a86decbfe437c27f
+msgid "**Tatmadaw/Armed Forces/Military**"
+msgstr ""
+
+#: ../../source/countries.rst:140
+#: ee7e653d0eba4802a82ca3dfb4af4f63
+msgid "The Commander-in-Chief of the Tatmadaw is at the apex of the chain of command with a Deputy Commander-in-Chief of Defence Services directly below this position, who also concurrently serves as the head of the army."
+msgstr ""
+
+#: ../../source/countries.rst:142
+#: f39cfb4df81c4db38dcf6569dde7e21a
+msgid "**Tatmadaw-Kyi/Army**"
+msgstr ""
+
+#: ../../source/countries.rst:144
+#: 6bc7a0a82a42463f8f8ce5c6fb1c3fd0
+msgid "As of 2009 the Commander-in-Chief of the Tatmadaw is at the apex of the chain of command, the military does not come under the command of civilian political leaders of Myanmar. Underneath the Commander-in-Chief is the Deputy Commander-in-Chief of Defence Services who concurrently serves as the head of the army. In the army’s chain of command below the Deputy Commander-in-Chief of Defence Services is the General Staff Office (also referenced as the General Staff) which commands the six Bureaus of Special Operations (BSO). Each BSO commands one or more Regional Military Commands (RMC) which oversee army operations in one or more state, region or union territory. Below RMCs in the army hierarchy are Military Operations Commands (which generally command ten battalions), Regional Operations Commands (which generally command four battalions), and Tactical Operations Commands (which generally command three battalions). The main units of the army are Light Infantry Battalions and Infantry Battalions."
+msgstr ""
+
+#: ../../source/countries.rst:146
+#: 1ff174243da2486a9360cec6a9f9e0cd
+msgid "Light Infantry Divisions are regularly deployed for operations around the country and from 1990 to at least 2009 followed a separate chain of command, reporting directly to the Chief of Staff of the army (who heads the General Staff Office)."
+msgstr ""
+
+#: ../../source/countries.rst:148
+#: 135a7fb95fb54a52ab2ff152bc4cc4f7
+msgid "As of 2009 artillery formations were generally under a separate chain of command, with Artillery Battalions under the command of Artillery Divisions. The chain of command from Artillery Divisions to the rest of the military is currently unclear, however, they eventually fall under the Deputy Commander-in-Chief of Defence Services, who in turn is under the command of the Commander-in-Chief, as does the rest of the military of Myanmar."
+msgstr ""
+
+#: ../../source/countries.rst:151
+#: 4a1a22ec23ea4a4a9bf4ffefcd8b1907
+msgid "Myanmar: Outstanding Areas for Further Research"
+msgstr ""
+
+#: ../../source/countries.rst:153
+#: 7e36bb70a6d64d36bfc3eb9a2ee49132
+msgid "Investigating the command structure of other branches of the military as well as the police, border guards and other internal security forces."
+msgstr ""
+
+#: ../../source/countries.rst:154
+#: 2daef5bd3d4245b89dcef4154106a64a
+msgid "Expanding and deepening information on the command structure of artillery units."
+msgstr ""
+
+#: ../../source/countries.rst:155
+#: 8f9fdf87396b4d45b9820e3bfb1329f2
+msgid "Detailing commanders of the various units of the security forces."
+msgstr ""
+
+#: ../../source/countries.rst:156
+#: 7b19f575c0874f78a5975b71d731af58
+msgid "Investigating other priorities as guided by partners concerned about the human rights practices of the security forces of Myanmar."
+msgstr ""
+
+#: ../../source/countries.rst:159
+#: 0fe6504fa0424bef8db7142f5082b4ba
+msgid "Nigeria"
+msgstr ""
+
+#: ../../source/countries.rst:162
+#: d67d3189585d4c8e81700793b3cbc5c0
+msgid "Nigeria: Overview of Coverage"
+msgstr ""
+
+#: ../../source/countries.rst:164
+#: 7e4b13489349435f9280a528cd31198e
+msgid "The Security Force Monitor’s current dataset comprehensively covers the Nigerian armed forces and the Nigeria Police Force in the states of Abia, Adamawa, Akwa Ibom, Anambra, Enugu, Kano, Katsina, Lagos, Ogun, Plateau, Rivers and Yobe from roughly 2008 to 2018. Additional research (detailed below) will focus on other elements of the security forces of Nigeria."
+msgstr ""
+
+#: ../../source/countries.rst:167
+#: 9c42f497fc024297bf34336b12dd506b
+msgid "Nigeria: General Background on Security Forces"
+msgstr ""
+
+#: ../../source/countries.rst:169
+#: ba0e760ae36e4e7798ae17d342be3826
+msgid "Nigeria has security forces with different responsibilities for internal security. Crime fighting is the prime responsibility of the Nigeria Police Force. The State Security Service focuses on threats to national security. The Nigerian Armed Forces, comprising the Nigerian Air Force, Nigerian Army and Nigerian Navy, are also very active in internal security operations, particularly against Boko Haram. The Nigerian Army is generally the branch most closely involved in internal security operations. Security forces in Nigeria are generally national in character with the President of Nigeria as the commander-in-chief of the respective forces."
+msgstr ""
+
+#: ../../source/countries.rst:172
+#: 747b251ec8354b2cbdd0b99e6e846b02
+msgid "Nigeria: Administrative Division of Nigeria"
+msgstr ""
+
+#: ../../source/countries.rst:174
+#: a2d6b1a5aacc4e24be4260899f6bfa52
+msgid "Administratively, Nigeria has a federal structure with 36 states and a Federal Capital Territory (FCT). Each state and the FCT is broken up into Local Government Areas (LGA). There are 776 LGAs throughout the country."
+msgstr ""
+
+#: ../../source/countries.rst:178
+#: 5ba653d48702429ebc898d9b6b059031
+msgid "Nigeria: Security Forces"
+msgstr ""
+
+#: ../../source/countries.rst:182
+#: 2b3bd856c0f34080bd774fa2e061de1d
+msgid "The Nigeria Police Force (NPF) is the national police force of Nigeria. The NPF is under control of the president and headed by the Inspector General of Police (IGP) who is appointed by the President. The command structure flows from the IGP at Force Headquarters through Zonal Police Commands, each of which oversee police operations in at least two states and/or the Federal Capital Territory (FCT). Each State and the FCT has a Police Command headed by a Commissioner of Police who commands police operations in the state or FCT. Each Police Command also has a Criminal Investigation Department and a Special Anti Robbery Squad (the command structure for Special Anti Robbery Squad units has changed multiple times). Police Commands are divided into several Police Area Commands which are under the command of the Police Command. Police Area Commands are further divided into Police Divisions, which usually headed by a Chief Superintendent of Police and often referred to by their title, Divisional Police Officer. Police Divisions can also be under the direct command of their respective Police Command. Police Divisions in turn command the smaller formation of Police Stations which in turn command Police Posts. The smallest formation of the NPF is the Village Police Post which can be commanded by either a Police Post or Police Division, depending on the structure of the police formations in that particular area."
+msgstr ""
+
+#: ../../source/countries.rst:184
+#: ed69a73964644a5ba53ae4be0360427c
+msgid "Additionally, the Police Mobile Force (PMF, MOPOL or Mobile Police), are the riot police of the Nigerian Police Force, and report directly to Force Headquarters. The PMF is broken up into squadrons with each state and the FCT having at least one squadron. Department of State Security or State Security Service"
+msgstr ""
+
+#: ../../source/countries.rst:187
+#: ee9e4554794e4044a4dcd2ff13a4ca15
+msgid "The Department of State Security or State Security Service (DSS or SSS) is responsible for maintaining internal order and operates nationwide. The SSS is broken up into state commands headed by a Director of Security (commonly referred to as Director). The state commands are then under the command of the Director General of the SSS. The state commands may be further divided into branches covering each local government area of a state or the FCT. **Nigerian Armed Forces/Military**"
+msgstr ""
+
+#: ../../source/countries.rst:190
+#: 1d774cbfbed847b38c247b0dc7ef6496
+msgid "The President of Nigeria is the Commander-in-Chief of the Nigerian Armed Forces, and generally commands the forces through the Chief of Defense Staff who heads Defence Headquarters. The Minister of Defence is not in the chain of command, but provides administrative support to the military."
+msgstr ""
+
+#: ../../source/countries.rst:192
+#: ef068a627b81432dbc410fc72f445c1f
+msgid "The Nigerian Armed Forces is broken up into independent branches - Nigerian Army (NA), Nigerian Navy (NN) and Nigerian Air Force (NAF). The army is the largest branch in terms of personnel and plays the major role in internal security. The head of each branch of the Armed Forces reports to the Chief of Defence Staff/Defence Headquarters."
+msgstr ""
+
+#: ../../source/countries.rst:194
+#: eac03385e4ee4fde9b94fbdcd88e4605
+msgid "**Nigerian Army**"
+msgstr ""
+
+#: ../../source/countries.rst:196
+#: d1b6fb54937141438a583f2b72aa2ae3
+msgid "The Army is under the command of the Chief of Army Staff who reports to the Chief of Defence Staff."
+msgstr ""
+
+#: ../../source/countries.rst:198
+#: f4dd89c23268479a8e18f71b5b92b7ef
+msgid "Operationally the Nigerian Army is organized into Divisions (a division is about 10,000 soldiers), the 1 Mechanised Division, 2 Mechanised Division, 3 Armoured Division, 81 Division, 82 Division, 7 Division, 8 Task Force Division and 6 Division. There is also an independent brigade, the Guards Brigade, charged with protecting the president and the Federal Capital Territory which reports directly to the President."
+msgstr ""
+
+#: ../../source/countries.rst:200
+#: 2b249074cde34c4dbbc11ed54fc8a90f
+msgid "Each Division has several Brigades under its command and also has support units including and also has support units including an Engineering Division (or a Division of Engineers), a Signals Division (despite their name these formations are much smaller than 10,000 soldiers) and a Garrison unit. Each Brigade generally has three battalions or artillery regiments under its command as well as a Garrison unit. (The deployment of forces to the north east to battle Boko Haram has complicated the picture somewhat)."
+msgstr ""
+
+#: ../../source/countries.rst:202
+#: 73fd7c43da5c4b369e77c17314a98b60
+msgid "**Nigerian Navy**"
+msgstr ""
+
+#: ../../source/countries.rst:204
+#: d86626344b824fb18d781841a4aa8b03
+msgid ".The Navy is under the command of the Chief of Naval Staff who reports to the Chief of Defence Staff."
+msgstr ""
+
+#: ../../source/countries.rst:206
+#: f8f5648921ca47e49dd8a43fb19d69cc
+msgid "Operationally the Nigerian Navy is divided into the Western, Eastern and Central Naval Commands, each headed by a Flag Officer Commanding."
+msgstr ""
+
+#: ../../source/countries.rst:208
+#: 189811e803f0441f94afdd7de8d22d79
+msgid "**Nigerian Air Force**"
+msgstr ""
+
+#: ../../source/countries.rst:210
+#: fb39b00574834ac9b8487e6c45fef678
+msgid "The Air Force under the command of the Chief of Air Staff who, in turn, reports to the Chief of Defence Staff."
+msgstr ""
+
+#: ../../source/countries.rst:212
+#: 08f2d3a2b0c54637bcb4d339022102ce
+msgid "Operationally, the Nigerian Air Force is divided into several operational commands - Tactical Air Command, Mobility Command, Training Command, Logistics Command - which report to the Chief of Air Staff. Joint Task Forces"
+msgstr ""
+
+#: ../../source/countries.rst:215
+#: 0f9308d5eeae4e9bb8bbe6d482c1a10d
+msgid "Several Joint Task Forces (JTFs) operate and have operated throughout Nigeria. The mission profile and makeup of these JTFs have varied, though they generally include a police and army component. Most JTFs appear to have been commanded by army officers."
+msgstr ""
+
+#: ../../source/countries.rst:218
+#: 293ede6af27a41209936ea8b900931ab
+msgid "Nigeria: Outstanding Areas for Further Reearch"
+msgstr ""
+
+#: ../../source/countries.rst:220
+#: 280b239ade934671b3b144cb69c2d616
+msgid "Inclusion of additional details on units and commanders for Nigeria Police Force units in the Federal Capital Territory and the following states: Bauchi, Bayelsa, Benue, Borno, Cross River, Delta, Ebonyi, Edo, Ekiti, Gombe, Imo, Jigawa, Kaduna, Kebbi, Kogi, Kwara, Nasarawa, Niger, Ondo, Osun, Oyo, Sokoto, Taraba, Zamfara."
+msgstr ""
+
+#: ../../source/countries.rst:221
+#: 4de4252e6a39436789e285092f633d4b
+msgid "Identifying additional details on individual units and personnel as needed to fill any gaps in the records of units and commanders of the armed forces of Nigeria during the timeframe of 2008 to 2018."
+msgstr ""
+
+#: ../../source/countries.rst:222
+#: 2b319145b5f843819fd27b023493507d
+msgid "Investigating other priorities as guided by partners concerned about the human rights practices of the security forces of Nigeria."
+msgstr ""
+
+#: ../../source/countries.rst:225
+#: 88fef5c5392943ddad74541bfb9b186e
+msgid "Philippines"
+msgstr ""
+
+#: ../../source/countries.rst:228
+#: 29dad46ee9174d98a2ab8b5284771330
+msgid "Philippines: Overview of Coverage"
+msgstr ""
+
+#: ../../source/countries.rst:230
+#: 41c6a57887e74a8185f7a1d6316fe19d
+msgid "The Security Force Monitor’s current dataset is a “snapshot” of the structure of the Philippine National Police as of January 2018. Additional research (detailed below) will focus on other elements of the security forces of the Philippines."
+msgstr ""
+
+#: ../../source/countries.rst:233
+#: a875a6580ce14f5ab866361bd4903ee4
+msgid "Philippines: Administrative Division"
+msgstr ""
+
+#: ../../source/countries.rst:235
+#: 51f1de3d652040e8a39ef12e717c4112
+msgid "The Philippines is divided into regions, provinces, independent cities, municipalities and barangays. Security Forces of the Philippines"
+msgstr ""
+
+#: ../../source/countries.rst:239
+#: a86bb785d7904539b9ee617e38472ef4
+msgid "Philippines: Security Forces"
+msgstr ""
+
+#: ../../source/countries.rst:241
+#: d44d86c207284e94bea5db72e8eaab70
+msgid "**Philippine National Police**"
+msgstr ""
+
+#: ../../source/countries.rst:243
+#: 2fe388061e4e42ceb9d0eab4a150987e
+msgid "The Philippine National Police (PNP) is national police force of the Philippines, established through the merging of precursor organizations and transfer of personnel and roles from other security agencies in December 1990."
+msgstr ""
+
+#: ../../source/countries.rst:245
+#: 372b9e0746714a5d9c1ca726dc7ae567
+msgid "The PNP is headed by a Chief of Police who is assisted by a Deputy Chief for Operations and a Deputy Chief for Administration. The basic hierarchical structure since the establishment of the PNP has been: regional offices commanded by a regional director, then provincial offices commanded by a provincial director (which can be subdivided into police districts commanded by a district director) and finally at the city or municipal level police stations commanded by a chief of police."
+msgstr ""
+
+#: ../../source/countries.rst:248
+#: ad66d73078204d5d8d66084b777bdf59
+msgid "Philippines: Outstanding Areas for Further Research"
+msgstr ""
+
+#: ../../source/countries.rst:250
+#: bd35f72b0ca44398b0a56bbd560e037f
+msgid "Expanding the command structure of the Philippine National Police through time."
+msgstr ""
+
+#: ../../source/countries.rst:251
+#: 26cd51fdb5ac406ca4f554fb3db3b02a
+msgid "Detailing commanders of Philippine National Police across various units and branches."
+msgstr ""
+
+#: ../../source/countries.rst:252
+#: f61b304b0a4148f892832ac412772c6f
+msgid "Identifying locations and areas of operations through time for units of the Philippine National Police."
+msgstr ""
+
+#: ../../source/countries.rst:253
+#: 0b61c90d89ce458f809556e6d323da79
+msgid "Building command hierarchy of the armed forces of the Philippines and identifying location and area of operations of various units."
+msgstr ""
+
+#: ../../source/countries.rst:254
+#: 7d2c6957b8ba412e86e6b7eda6471345
+msgid "Investigating other priorities as guided by partners concerned about the human rights practices of the security forces of the Philippines."
+msgstr ""
+
+#: ../../source/countries.rst:257
+#: a0b93e5a026b4fdbb60563cd710ce765
+msgid "Rwanda"
+msgstr ""
+
+#: ../../source/countries.rst:260
+#: 15883c0db65e4082b7e41067232dd09a
+msgid "Rwanda: Overview of Coverage"
+msgstr ""
+
+#: ../../source/countries.rst:262
+#: 40b16a9ce33b44cf9d8d64dd4eb8ec21
+msgid "The Security Force Monitor’s current dataset is a “snapshot” of the structure of the Rwanda National Police as of 2017. Additional research (detailed below) will focus on other elements of the security forces of Rwanda."
+msgstr ""
+
+#: ../../source/countries.rst:265
+#: b1f29869be204cb395418dd5653c93ce
+msgid "Rwanda: Administrative Division"
+msgstr ""
+
+#: ../../source/countries.rst:267
+#: af706821ec2e400cbbd68978302565af
+msgid "Rwanda is divided into provinces, which are further subdivided into districts, sectors and cells."
+msgstr ""
+
+#: ../../source/countries.rst:270
+#: 7b513681f24e4482a688380671ce4323
+msgid "Rwanda: Security Forces"
+msgstr ""
+
+#: ../../source/countries.rst:274
+#: 704271e5006c486384c14fbc36de83eb
+msgid "The Inspector General of Police commands the Rwanda National Police which is divided operationally into and Police Regions which are further divided into Police Districts, Police Stations, Police Posts."
+msgstr ""
+
+#: ../../source/countries.rst:277
+#: 2eb4351648034fdaafc19c433bd5450b
+msgid "Rwanda: Outstanding Areas for Further Research"
+msgstr ""
+
+#: ../../source/countries.rst:279
+#: 6cb0ed2856ee48b384d8b7ba95894a48
+msgid "Expanding the command structure of the Rwanda National Police through time."
+msgstr ""
+
+#: ../../source/countries.rst:280
+#: 71b52402ecee4b5aa6dc8089937f93ef
+msgid "Detailing commanders of Rwanda National Police across various units and branches."
+msgstr ""
+
+#: ../../source/countries.rst:281
+#: 9640546bdbe845368b2b343ac7a0014a
+msgid "Identifying locations and areas of operations through time for units of the Rwanda National Police."
+msgstr ""
+
+#: ../../source/countries.rst:282
+#: 6ec82cc316b74e42acf0fb19bde08a99
+msgid "Building command hierarchy of the armed forces of Rwanda and identifying location and area of operations of various units."
+msgstr ""
+
+#: ../../source/countries.rst:283
+#: 3e4e396278064d4194ee681b77945814
+msgid "Investigating other priorities as guided by partners concerned about the human rights practices of the security forces of Rwanda."
+msgstr ""
+
+#: ../../source/countries.rst:286
+#: a9a97ca49b91428ca731d9e9f3ddb12e
+msgid "Saudi Arabia"
+msgstr ""
+
+#: ../../source/countries.rst:289
+#: 918f4b0ddd864f138656c29f4218bfd4
+msgid "Saudi Arabia: Overview of Coverage"
+msgstr ""
+
+#: ../../source/countries.rst:291
+#: 9fc9523532dc4d0099dcc815521e3936
+msgid "The Security Force Monitor’s current dataset is a “snapshot” of the structure of the armed forces of Saudi Arabia as of 2009. Additional research (detailed below) will focus on other elements of the security forces of Saudi Arabia."
+msgstr ""
+
+#: ../../source/countries.rst:294
+#: 57cf4f262b5d4917b34f44d6251f6d53
+msgid "Saudi Arabia: Administrative Division"
+msgstr ""
+
+#: ../../source/countries.rst:296
+#: cbdf6dc3f1e64a888e4e85e989b11154
+msgid "Saudi Arabia is divided into 13 regions with further subdivisions of governorates and then sub-governorates."
+msgstr ""
+
+#: ../../source/countries.rst:299
+#: 0e5cd50b775648a09316edac1d169d80
+msgid "Saudi Arabia: Security Forces"
+msgstr ""
+
+#: ../../source/countries.rst:301
+#: 3f95e7db351c4356968bb61f80228ead
+msgid "**Saudi Arabian National Guard**"
+msgstr ""
+
+#: ../../source/countries.rst:303
+#: b7d67caa505c486290a6939d0e8c75b0
+msgid "As of 2009 the King of Saudi Arabia exercised direct control over the Saudi Arabia National Guard (SANG). SANG is divided into two regional commands which command Brigades, as well as independent Brigades which report directly to SANG headquarters. Brigades commanded several Battalions. Additionally there were several independent battalions."
+msgstr ""
+
+#: ../../source/countries.rst:305
+#: 3611c0e9ec4b4c0fa82f5bd6818de863
+msgid "**Military**"
+msgstr ""
+
+#: ../../source/countries.rst:307
+#: 629c6833b2464188825b5ad6492e841a
+msgid "As of 2009 the King of Saudi Arabia was the commander in chief of the armed forces. The chain of command went from the King through the Ministry of Defense and Aviation to the Chief of General Staff who commanded the four branches of the military: the Royal Saudi Land Forces (army), Royal Saudi Air Force, Royal Saudi Navy and Royal Saudi Air Defense Force."
+msgstr ""
+
+#: ../../source/countries.rst:309
+#: c998c0441c74484baf053bbf810bbff2
+msgid "**Royal Saudi Air Force**"
+msgstr ""
+
+#: ../../source/countries.rst:311
+#: b19153fe044d4e489ff5838adf53c6de
+msgid "As of 2009 the air force was divided into Wings which command Squadrons."
+msgstr ""
+
+#: ../../source/countries.rst:313
+#: e85f8211ae1a4b5696edbff7886e5878
+msgid "**Royal Saudi Navy**"
+msgstr ""
+
+#: ../../source/countries.rst:315
+#: db6cdd11e5fb4b4f8a770a10982e4a77
+msgid "As of 2009 the navy was divided into two fleets - the Western Fleet and Eastern Fleet."
+msgstr ""
+
+#: ../../source/countries.rst:318
+#: de997bb56b6a489580e0edaba85c073d
+msgid "Saudi Arabia: Outstanding Areas for Further Research"
+msgstr ""
+
+#: ../../source/countries.rst:320
+#: 9c8aaab5fc94481ebf17a601927594b9
+msgid "Expanding the command structure of the armed forces and SANG through time."
+msgstr ""
+
+#: ../../source/countries.rst:321
+#: 4820230ccd674cbca5571a7edd5d3689
+msgid "Detailing commanders of the various units of the armed forces and SANG through time."
+msgstr ""
+
+#: ../../source/countries.rst:322
+#: be8ba53fccd44cb5a5c368e484b1ae84
+msgid "Identifying locations and areas of operations through time for units of the armed forces and SANG through time."
+msgstr ""
+
+#: ../../source/countries.rst:323
+#: 202942164d574a4ea49bb656d97708f6
+msgid "Building command hierarchy of internal security forces of Saudi Arabia and identifying location and area of operations of various units."
+msgstr ""
+
+#: ../../source/countries.rst:324
+#: 21c9e302069f496d91e07f16419470ea
+msgid "Investigating other priorities as guided by partners concerned about the human rights practices of the security forces of Saudi Arabia."
+msgstr ""
+
+#: ../../source/countries.rst:327
+#: d6e892defa4a4fb7a8cfd4121ae2c212
+msgid "Uganda"
+msgstr ""
+
+#: ../../source/countries.rst:330
+#: b2f768734dec40748f113bdb920131ec
+msgid "Uganda: Overview of Coverage"
+msgstr ""
+
+#: ../../source/countries.rst:332
+#: 68144ef73dd545b6957c7b85edf46a4b
+msgid "The Security Force Monitor’s current dataset is a “snapshot” of the structure of the Uganda Police Force as of September 2016. Additional research (detailed below) will focus on other elements of the security forces of Uganda."
+msgstr ""
+
+#: ../../source/countries.rst:335
+#: 9e934846c84a4329b0673aca9666afa4
+msgid "Uganda: Administrative Division"
+msgstr ""
+
+#: ../../source/countries.rst:337
+#: 00a611fe52244fad97173275d61a4334
+msgid "Uganda is divided into four regions which are further subdivided into 111 districts."
+msgstr ""
+
+#: ../../source/countries.rst:340
+#: a7644b3a8b734bf6be7769861466d32c
+msgid "Uganda: Security Forces"
+msgstr ""
+
+#: ../../source/countries.rst:344
+#: 018a0595ffec47b8a27f53636f28bccc
+msgid "The Inspector General of Police commands the Uganda Police Force which is divided into Directorates at the headquarters level and operationally into and Police Regions which are further divided into Police Districts, Police Stations, Police Posts and Police Booths."
+msgstr ""
+
+#: ../../source/countries.rst:347
+#: e4212a2601944951a7813df49d91cc83
+msgid "Uganda: Outstanding Areas for Further Research"
+msgstr ""
+
+#: ../../source/countries.rst:349
+#: 441785902e244af38c8e239a0e111c1b
+msgid "Expanding the command structure of the Uganda Police Force through time."
+msgstr ""
+
+#: ../../source/countries.rst:350
+#: ccc5a50bc7b84a129b7f15bebf1be457
+msgid "Detailing commanders of the Uganda Police Force across various units and branches."
+msgstr ""
+
+#: ../../source/countries.rst:351
+#: 54b776cb6b664ab88f082dc35dc94345
+msgid "Identifying locations and areas of operations through time of Uganda Police Force units."
+msgstr ""
+
+#: ../../source/countries.rst:352
+#: 76e1422c802f44cdacffcf3a2c85b6d4
+msgid "Building command hierarchy of the armed forces of Uganda and identifying location and area of operations of various units."
+msgstr ""
+
+#: ../../source/countries.rst:353
+#: 5a34fa85d4274344bad08670d2745f5a
+msgid "Investigating other priorities as guided by partners concerned about the human rights practices of the security forces of Uganda."
+msgstr ""

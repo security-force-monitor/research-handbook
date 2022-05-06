@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Security Force Monitor
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-06 16:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/methodology.rst:2
+#: 1aeb2c4b772744e49337d715bbad797e
+msgid "Research methodology"
+msgstr ""
+
+#: ../../source/methodology.rst:4
+#: 02b832473765492ba3ce9c4cae2da996
+msgid "Security Force Monitor follows a four phase process when researching the security forces of a country."
+msgstr ""
+
+#: ../../source/methodology.rst:7
+#: dc1c8f2c1eae47518bb583f2a2e6dd71
+msgid "Phase 1: Scope out sources"
+msgstr ""
+
+#: ../../source/methodology.rst:9
+#: d5e27e2f9f0f4345b0c5895a066e3875
+msgid "**General sources**"
+msgstr ""
+
+#: ../../source/methodology.rst:11
+#: f156699cdcde4ac291475dbf39331896
+msgid "Security Force Monitor collects data about the :doc:`persons` and :doc:`units` that comprise security forces, along with allegations of human rights abuses made against security forces. This data is carefully collected from a variety of sources, generally online. These include:"
+msgstr ""
+
+#: ../../source/methodology.rst:13
+#: d4510122376a440585964b953a97422a
+msgid "Laws of the country;"
+msgstr ""
+
+#: ../../source/methodology.rst:14
+#: d6cfaa109f524339907328565a097276
+msgid "Official government media;"
+msgstr ""
+
+#: ../../source/methodology.rst:15
+#: e30de73a6b834d278541eff8cbd97a9d
+msgid "Press releases from the relevant ministries of the country (Information, Defense, Interior, and others);"
+msgstr ""
+
+#: ../../source/methodology.rst:16
+#: 2e26226de7f04e04aeb17799f7fe8702
+msgid "Security force newsletters;"
+msgstr ""
+
+#: ../../source/methodology.rst:17
+#: a617f664b0c44c688e53cc6090fcdbb5
+msgid "Social media pages for security services or government agencies;"
+msgstr ""
+
+#: ../../source/methodology.rst:18
+#: 4c9ce4f6cf0d48cdb42b12ba861bd965
+msgid "Statistics and data agencies;"
+msgstr ""
+
+#: ../../source/methodology.rst:19
+#: a0efe3d018284de8883d31435cff30f6
+msgid "Local government websites;"
+msgstr ""
+
+#: ../../source/methodology.rst:20
+#: 744a2e50112f4736bfe654cbf2ce1fe8
+msgid "Human rights commissions;"
+msgstr ""
+
+#: ../../source/methodology.rst:21
+#: 3e6cf414d18a476eaf4cbe243a0603e5
+msgid "Third country government publications and other documents;"
+msgstr ""
+
+#: ../../source/methodology.rst:22
+#: ef05cae70e134b56bd5cc3f854153e73
+msgid "United Nations publications and other documents;"
+msgstr ""
+
+#: ../../source/methodology.rst:23
+#: f7373307d4474d2289fbe53fdc8bbb8d
+msgid "Local news reportage;"
+msgstr ""
+
+#: ../../source/methodology.rst:24
+#: 3b416a5875474ff8b11923a44ef492e5
+msgid "Civil society and human rights reporting;"
+msgstr ""
+
+#: ../../source/methodology.rst:25
+#: 9fb5a33a4beb4d698a024bab18d501f3
+msgid "Academic research; and,"
+msgstr ""
+
+#: ../../source/methodology.rst:26
+#: b37f6773e15442d6845d2ed0409d3713
+msgid "Other country specific sources."
+msgstr ""
+
+#: ../../source/methodology.rst:28
+#: 3225ab24e6ea470a90456032dd3eed72
+msgid "The Monitor also identifies non-digital resources such as monographs, scholarly literature, biographies and other materials about security services. The existence and availability of these type of sources vary widely from country to country."
+msgstr ""
+
+#: ../../source/methodology.rst:30
+#: d596893521544b5daddb057c1067fa22
+msgid "**State administrative structures and geography**"
+msgstr ""
+
+#: ../../source/methodology.rst:32
+#: c0d6f03f8c694aedbd446bdf113b5e76
+msgid "Security Force Monitor researchers familiarize themselves with the country’s governance and administrative structures, gaining understanding about the levels of government (for example: local, regional, state, national) and their connection to different security forces. In examining this we also flag where there might be major changes in the structure of government, such as those that may accompany a constitutional referendum or a peace process. These affect how the Monitor will represent data on security forces over time."
+msgstr ""
+
+#: ../../source/methodology.rst:34
+#: 48afff7729954f7792ec496a39636e1b
+msgid "Examining the administrative geography of a country provides important context for the structure and operations of the security forces. This part of the scoping process also gives us insight into how much of a country’s administrative geography is represented in online gazetteers (like `OpenStreetMap <https://nominatim.openstreetmap.org/>`__ or `GeoNames <https://www.geonames.org>`__) that the Monitor uses in its analysis."
+msgstr ""
+
+#: ../../source/methodology.rst:36
+#: 9d78138d658c4d1d8754cb622e5f4457
+msgid "**Potential high value datasets**"
+msgstr ""
+
+#: ../../source/methodology.rst:38
+#: 5aa3a519895b49d199c41a6c2080845a
+msgid "During this first phase, researchers also identify sources that could be turned into large, high value datasets for the Monitor. These are sources that contain a sufficiently large amount or complex type of data that technical help is necessary to extract it in a timely way; doing the work “by hand” is possible, but would be slow and error prone. These high value data extraction tasks use techniques such as web-scraping, scripted parsing and geospatial analysis. An example of these types of sources are the `Internet Archive snapshots the official webpage of the Mexican Army and Air Force <https://web.archive.org/web/20050908175401/http://www.sedena.gob.mx/ejercito/comandancias/index.html>`__ (and child pages) going back more than a decade which outline the top level structures of the Mexican army and its commanding officers."
+msgstr ""
+
+#: ../../source/methodology.rst:41
+#: 9d94ea25025f4f718aa0db79d33cdd82
+msgid "Phase 2: Write a Country Guide"
+msgstr ""
+
+#: ../../source/methodology.rst:43
+#: a35e1b26c1a04f09afcc263a744e688c
+msgid "The sources gathered during our scoping phase are used to write a Country Guide to assist with further research."
+msgstr ""
+
+#: ../../source/methodology.rst:45
+#: ae1bbc3ed8904e1c97e31aa949394805
+msgid "The Guide begins as a general overview of the structures of security services of a country. It gives researchers a general framework to help organize and prioritize research, by giving an estimate of the scale of the work: number of installations, units, persons that need to be researchers in detail."
+msgstr ""
+
+#: ../../source/methodology.rst:47
+#: bfdac1ac7caf46a3aedc1645cac97b31
+msgid "For example, the Monitor's scoping research on Nigeria revealed that by law every state and the federal territory has a Police Command. By extension this means since 1996 (when the last states of Nigeria were created) there have been 37 Police Commands. Statistics from the Nigeria Police Force show that between 2007 and 2012 most Police Commands were in charge of 2 to 3 Police Area Commands (though some heavily populated states have more, with Lagos having the most at 8). These statistics also show that on average each state and the federal capital territory had 30 Police Divisions, which by law are generally under the command of a Police Area Command. Thus, from a few initial sources a Monitor researcher can have a general sense of the structure of the police and a useful metric to compare the Monitor’s dataset against."
+msgstr ""
+
+#: ../../source/methodology.rst:49
+#: e517d972b6e546cb92b96ba26a989eff
+msgid "Further, a list of keywords and sources is created for researchers as well - these serve as leads for researchers to follow."
+msgstr ""
+
+#: ../../source/methodology.rst:51
+#: d068b2cac64b44d3a41841ef218ca348
+msgid "This Country Guide is updated as new details on the security forces are discovered through the course of the Monitor's work."
+msgstr ""
+
+#: ../../source/methodology.rst:54
+#: e6d92e32652a4f3eb7a4da4a702d7474
+msgid "Phase 3: Conduct detailed research"
+msgstr ""
+
+#: ../../source/methodology.rst:56
+#: 7fe786627602407d862b9a95fd4ae883
+msgid "Researchers use the initial keywords and sources to begin a “deep dive” into the security forces."
+msgstr ""
+
+#: ../../source/methodology.rst:58
+#: 0b7bc9a8727e4580876adfbcb13c3c16
+msgid "Anything relating to the types of information the Monitor collects is entered into the Monitor’s database. The Data Model section of this Research Handbook gives detailed guidance to Monitor researchers about the types of data to take from sources and how it should be entered."
+msgstr ""
+
+#: ../../source/methodology.rst:60
+#: 21c324fba3594e55be5e20ebbbf23de0
+msgid "Additionally, data from this research is used to update the Country Guide to provide greater granular detail on the security forces of a country or to update sections as needed. New sources and keywords discovered during research are added to the existing guide as well."
+msgstr ""
+
+#: ../../source/methodology.rst:62
+#: b3aca1661e8c43b98d5d4bf86b8a9d4a
+msgid "As the Monitor builds its database on the security forces of a country, new information is cross-referenced to further evidence data, discover gaps, or identify mistakes. There are three key questions Monitor researchers ask themselves whenever they review information in a source:"
+msgstr ""
+
+#: ../../source/methodology.rst:64
+#: 20ce51d7147342ca8c90dfca431536ff
+msgid "\"Does this make sense given what is detailed about the security forces from other sources?\""
+msgstr ""
+
+#: ../../source/methodology.rst:65
+#: 01ec7077ea4b4bfd9b8dc389e16e61d0
+msgid "\"Is it possible this source is correct and our other sources are incorrect?\""
+msgstr ""
+
+#: ../../source/methodology.rst:66
+#: db200e566938454bb60bebdae12bad27
+msgid "\"Do I have enough information to accept or reject what this source says?\""
+msgstr ""
+
+#: ../../source/methodology.rst:68
+#: cb048b31496f406aa8accb82cf8fcf67
+msgid "The Country Guide acts as a framework for researchers to understand the security forces and to help a researcher answer these questions. Data entered into the Monitor’s databases are progressively updated as new information is found. Throughout, researchers take a number of quality assurance steps to validate the data against the standards set out in the Data Model section"
+msgstr ""
+
+#: ../../source/methodology.rst:71
+#: d82cea86b7514b0c9f9dd867cc664f68
+msgid "Phase 4: Publish data"
+msgstr ""
+
+#: ../../source/methodology.rst:73
+#: 2d6da61ce7e04ca7942b7aeef117c0be
+msgid "Researchers will publish data online when confident that the main branches and overall structure of a country’s security forces are adequately covered. Data is published online on the Monitor’s platform: `WhoWasInCommand.com <https://whowasincommand.com/>`__."
+msgstr ""

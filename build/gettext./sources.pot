@@ -1,0 +1,1266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Security Force Monitor
+# This file is distributed under the same license as the SFM Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-06 16:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/sources.rst:2
+#: b1c998a0e4cc42fc885ed0e5c4db27e4
+msgid "Sources"
+msgstr ""
+
+#: ../../source/sources.rst:5
+#: 0bdfd440aac94831927e97427f1033d5
+msgid "What are sources?"
+msgstr ""
+
+#: ../../source/sources.rst:7
+#: 97a17cffb17e4b678ccec2486ae4e764
+msgid "Security Force Monitor collects data about the persons and units that comprise security forces, along with allegations of human rights abuses made against security forces. This data is carefully collected from a variety of sources, generally online. These include:"
+msgstr ""
+
+#: ../../source/sources.rst:9
+#: 643c8443a1a3401bba7eb6868fe89ae5
+msgid "Laws of the country;"
+msgstr ""
+
+#: ../../source/sources.rst:10
+#: 45b85a1553d14f9799990155b915f7dc
+msgid "Official government media;"
+msgstr ""
+
+#: ../../source/sources.rst:11
+#: 93ebd12aefe14ca1bb19696496c18932
+msgid "Press releases from the relevant ministries of the country (Information, Defense, Interior, and others);"
+msgstr ""
+
+#: ../../source/sources.rst:12
+#: 7b0912d04a25439fb18d9954794b2284
+msgid "Security force newsletters;"
+msgstr ""
+
+#: ../../source/sources.rst:13
+#: 2ff12effb19d4a8895dc9b9546fca820
+msgid "Social media pages for security services or government agencies;"
+msgstr ""
+
+#: ../../source/sources.rst:14
+#: 218dc3c698aa41288b03d080574e8b8d
+msgid "Other social media and messaging services;"
+msgstr ""
+
+#: ../../source/sources.rst:15
+#: e2bdf63ae1a74c5aada5a4281d13ac80
+msgid "Statistics and data agencies;"
+msgstr ""
+
+#: ../../source/sources.rst:16
+#: 3e6c1e349c3845cca03fedeca2166c9b
+msgid "Local government websites;"
+msgstr ""
+
+#: ../../source/sources.rst:17
+#: 64fd426e9caf40d5b3f846b11330b7ca
+msgid "Human rights commissions;"
+msgstr ""
+
+#: ../../source/sources.rst:18
+#: f2c721ff788f4c2f8909642c188c479b
+msgid "Third country government publications and other documents;"
+msgstr ""
+
+#: ../../source/sources.rst:19
+#: 13c20d3c3583446b88e3898458f3218e
+msgid "United Nations publications and other documents;"
+msgstr ""
+
+#: ../../source/sources.rst:20
+#: 606c73ef4bda44ffa3d9a87dc1dbf558
+msgid "Local news reportage;"
+msgstr ""
+
+#: ../../source/sources.rst:21
+#: 34fd0984d9ff426b8fedcea1079c752d
+msgid "Civil society and human rights reporting;"
+msgstr ""
+
+#: ../../source/sources.rst:22
+#: 51c9d1b08d344b27b18fd7e835b30fa7
+msgid "Academic research; and,"
+msgstr ""
+
+#: ../../source/sources.rst:23
+#: 6a87d50fe34e4e5abe44ac6b92cc7538
+msgid "Other country-specific sources."
+msgstr ""
+
+#: ../../source/sources.rst:25
+#: f2d9c9d54ba24987a306bed83bf32d79
+msgid "We also identify non-digital resources such as monographs, scholarly literature, biographies and other materials about security services. The existence and availability of these type of sources vary widely from country to country."
+msgstr ""
+
+#: ../../source/sources.rst:27
+#: 5491ddc08aed4971ad9209c65178505a
+msgid "Sources can also be published in a range of different media forms, not only text. Other media forms may include maps, images, audio recordings, video, social media posts, messages send through messaging services. We have designed the data capture format for sources to be flexible enough to accomodate a wide range of different media."
+msgstr ""
+
+#: ../../source/sources.rst:29
+#: ad971588096f430aa89c86f6168e6ef8
+msgid "A spreadsheet containing all the fields used by Security Force Monitor can be found in the section called :ref:`Sample Data Entry Sheets`."
+msgstr ""
+
+#: ../../source/sources.rst:32
+#: eb6fb98dfd3b4e719704a7a175032978
+msgid "Sources and Access Points"
+msgstr ""
+
+#: ../../source/sources.rst:34
+#: ce09b274a36446dda589f300a3e9ead5
+msgid "When we choose to use a source as evidence for a data point, we create a spreadsheet or database entry for it. This entry includes the data required to identify the source: title, publication date, URL, name of publication and so on."
+msgstr ""
+
+#: ../../source/sources.rst:36
+#: 66caeb02933e406b806597f897de4585
+msgid "However, a source can have multiple \"access points\". An access point directs us to a particular part of a source as evidence for a data point - it's much like a citation in an academic paper. This could be material from a specific page in the source; it could also be a specific archive snapshot of a page, as the content of a webpage can sometimes change over time even though its basic identifying data will not. In this way, a single source can have multiple access points."
+msgstr ""
+
+#: ../../source/sources.rst:38
+#: ca7c1e704bdb4d4ba18ad577b58d2d78
+msgid "There are six ways that an access point can be \"carved out\" of a specific source, taking in account the source's media type:"
+msgstr ""
+
+#: ../../source/sources.rst:40
+#: ../../source/sources.rst:445
+#: 4d5dc6af913749f3b00ea032a44305cd
+#: 1987eb6db0e344058e2f9e81924a74ac
+msgid "``archive``: an archive snapshot of the source contains different content from the source, or from other snapshots."
+msgstr ""
+
+#: ../../source/sources.rst:41
+#: ../../source/sources.rst:446
+#: afc6892fd2064375a9b482ab5f3aa22c
+#: 18d8b7466cb04a68baf59292805ae089
+msgid "``page``: a page or range of page in a document source like a book or report."
+msgstr ""
+
+#: ../../source/sources.rst:42
+#: ../../source/sources.rst:447
+#: 9677cd85eafd4fe9af53f3fc4390f5fb
+#: ad56f838ceaf464f99ea4200445db386
+msgid "``line``: a line or range of lines in a line-numbered document like an interview transcript."
+msgstr ""
+
+#: ../../source/sources.rst:43
+#: ../../source/sources.rst:448
+#: b5c60a01f3294902b22d8a73b1c5449f
+#: 4e3b25d10a724248b377dcfee062b93f
+msgid "``clip``: a passage from a video or audio source, comprising a start time and a stop time."
+msgstr ""
+
+#: ../../source/sources.rst:44
+#: ../../source/sources.rst:449
+#: f762f3ddcf034a5cb0edb9aec5abf76c
+#: 95bbec4f284c4cf482a3f6107a9bcd37
+msgid "``frame``: a single capture point from a video."
+msgstr ""
+
+#: ../../source/sources.rst:45
+#: ../../source/sources.rst:450
+#: 51114a81300c43a9a0e58c735c361b3d
+#: 56beaad1d4f0463ea3f1657cf94be962
+msgid "``still``: an image captured from a video or interactive resource which does not correspond to a specific frame."
+msgstr ""
+
+#: ../../source/sources.rst:47
+#: 0610aa67679341768e0b0e678a48b152
+msgid "Here are some examples of how access points based on archives and pages work in practice:"
+msgstr ""
+
+#: ../../source/sources.rst:49
+#: f012a90c4e3040d2ad94d9f3ae4d1fe0
+msgid "*Access points based on differences between archive snapshots*: The website of the Bangladesh Police used to publish a page describing the subordinate units of \"Dhaka Range\". Although this page is no longer live it has been captured in the Internet Archive at various points in time between 2013 and 2018. An assessment of the snapshots shows that though the title, publisher and URL don't change, there are important differences in the content of the webpage. `A 2013 snapshot <https://web.archive.org/web/20180105142913/http://www.police.gov.bd/content.php?id=142>`__ contains details of 18 district police subdivisions that are subordinate to Dhaka Range, but a `2018 one <https://web.archive.org/web/20130904092442/http://www.police.gov.bd:80/content.php?id=142>`__ states there are only 14. This may indicate that some subdivisions of the Dhaka Range were disbanded or placed under a different command structure. In this case, although the details of the source remain the same we have created two access points for it: the first is for the 2013 archive snapshot, the second for the 2018 one."
+msgstr ""
+
+#: ../../source/sources.rst:51
+#: f5bc71ce82424b7598db4a81a137b83b
+msgid "*Access points based on page number*: in the 2015 report `Stars on their shoulders. Blood on their hands. War crimes committed by the Nigerian military <https://www.amnesty.org/en/documents/afr44/1657/2015/en/>`__ Human Rights Watch made a large number of allegations against the Nigerian Army. The report is 133 pages long. We have used information from specific pages to evidence specific data points about units, persons and incidents. For example, we use information on page 11 as evidence of the ``Person: Name`` field for \"John A. H. Ewansiha\"; material from page 24 supplements what we know about the ``Unit: Name`` for \"Civilian Joint Task Force\". In total, we have created 13 access points for this single source."
+msgstr ""
+
+#: ../../source/sources.rst:53
+#: 5720a6d6e3d441989a4bd8967c37fb0c
+msgid "Access points are a flexible concept that enable us to specify precisely the material that we have used to evidence data point."
+msgstr ""
+
+#: ../../source/sources.rst:56
+#: 4f5ff4e54e1644588b39d5a94d5af830
+msgid "Source: Research Comments"
+msgstr ""
+
+#: ../../source/sources.rst:58
+#: ../../source/sources.rst:93
+#: ../../source/sources.rst:120
+#: ../../source/sources.rst:149
+#: ../../source/sources.rst:185
+#: ../../source/sources.rst:212
+#: ../../source/sources.rst:239
+#: ../../source/sources.rst:270
+#: ../../source/sources.rst:301
+#: ../../source/sources.rst:330
+#: ../../source/sources.rst:361
+#: ../../source/sources.rst:392
+#: ../../source/sources.rst:419
+#: ../../source/sources.rst:457
+#: ../../source/sources.rst:494
+#: ../../source/sources.rst:527
+#: ../../source/sources.rst:562
+#: ../../source/sources.rst:589
+#: ../../source/sources.rst:619
+#: ea870c7f70294f1483c072f34162909a
+#: f2467e9920134356ba1d59ec4dd2a856
+#: b3dab7ced6794389b3c1a1b539a8d410
+#: c4393af2029040f6912ff91eb5779deb
+#: a022e53e264a41cd8da305fdecd111df
+#: 962550023685459f95c7b3db15b068d7
+#: 5c503f615cb44be0afbd9dfac993292d
+#: 6bc24658a337472d8b56cc6e7ee9934a
+#: 00a4c19ce80846c6b6b9a5a2214473b2
+#: 72251c00a04a42edb04ebd1a3f8a6d57
+#: 457b67c53928485aa41a2102e3818e9f
+#: 457f7dcbc271498d98dc1b79a010eb67
+#: 9012f3e801b24942851acdd575e2d19e
+#: 17522f4c45414c6381564499143927a7
+#: c26a6cbf736d48828c0dc9be61d0cb34
+#: 2c0023a08562499b887cd9bf6e7cd463
+#: 8f26e0e9e1ba418b969923c8256277df
+#: 14689b994f4a4ba5b5523a8363f1e01e
+#: 2ea66d680b714c8b898f7d1f628cbd08
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/sources.rst:60
+#: ba012ff793bb40bea31989eff29c1030
+msgid "Observations specific to the process of reviewing data in this row, including fixes, refinements and other suggestions."
+msgstr ""
+
+#: ../../source/sources.rst:62
+#: ../../source/sources.rst:97
+#: ../../source/sources.rst:124
+#: ../../source/sources.rst:153
+#: ../../source/sources.rst:189
+#: ../../source/sources.rst:216
+#: ../../source/sources.rst:243
+#: ../../source/sources.rst:274
+#: ../../source/sources.rst:305
+#: ../../source/sources.rst:334
+#: ../../source/sources.rst:365
+#: ../../source/sources.rst:396
+#: ../../source/sources.rst:423
+#: ../../source/sources.rst:461
+#: ../../source/sources.rst:498
+#: ../../source/sources.rst:531
+#: ../../source/sources.rst:566
+#: ../../source/sources.rst:593
+#: ../../source/sources.rst:623
+#: a2d54fb0299f41d0a70d8bd2e95d2829
+#: ecdbcc2fae764dd090604eefc57ea53a
+#: 4dae2c380826432c941ab17740f8cf39
+#: a3d5e0a297354766882969d5c7675963
+#: c6296c0b05644264988ef57cc35c66a7
+#: 32b3437a19d54d15ba94f8a5fe6e27a8
+#: a7b001789f92463cb2e1a2ebe94c295c
+#: 2c4f3f87eed245f58f10585d1055bb29
+#: a2471105f2d845608943f2f7245f56b8
+#: 39ae50d2710a47f7b6dfa171725bcf3c
+#: 082fded3a91b4f90a5fa284ba9bc47bf
+#: 31be22dc5c674236bea527c00925c6fa
+#: b8f98489e9ed437d9f821fd61b51ee81
+#: 1dbe353de14447eea5d92f04c2441c90
+#: 11fc8448eb5146868d1de14ca57f3bfa
+#: 71056d753b0d489fb0be3bc43ae10c49
+#: 080e64f996144ab6877477b01f7c2bb4
+#: dda34ed33a5c421e9bcc2aba1d9291b7
+#: c5a15a7d6b304ef8a31326ecf38afe55
+msgid "**Type of field**"
+msgstr ""
+
+#: ../../source/sources.rst:64
+#: ../../source/sources.rst:155
+#: ../../source/sources.rst:218
+#: ../../source/sources.rst:245
+#: ../../source/sources.rst:625
+#: 09ceecea6c1541e0a24ddda4afe06645
+#: b6c956f35b1f4b229b196a669d031ddc
+#: 3befa571a4fb435a9d8f0167022eb102
+#: 684d66f114c645ed89bf0369f2118912
+#: b7ae3c918d83499c97c131c7d39b9f90
+msgid "Text and numbers"
+msgstr ""
+
+#: ../../source/sources.rst:66
+#: ../../source/sources.rst:101
+#: ../../source/sources.rst:128
+#: ../../source/sources.rst:157
+#: ../../source/sources.rst:193
+#: ../../source/sources.rst:220
+#: ../../source/sources.rst:247
+#: ../../source/sources.rst:278
+#: ../../source/sources.rst:309
+#: ../../source/sources.rst:338
+#: ../../source/sources.rst:369
+#: ../../source/sources.rst:400
+#: ../../source/sources.rst:427
+#: ../../source/sources.rst:465
+#: ../../source/sources.rst:502
+#: ../../source/sources.rst:535
+#: ../../source/sources.rst:570
+#: ../../source/sources.rst:597
+#: ../../source/sources.rst:627
+#: 00009580e41d49afa41d32803a66a4ea
+#: 34907c2adfce49f1983df61a647b9627
+#: 90372b69a2dd4574be85bbf952ef4dd0
+#: 37a3dbfcb48d45d59c392681c05e0c37
+#: d433086166d5429e87d6d642765a93fe
+#: 0a42f0f21a0f47e887dc0b911573f027
+#: 946d73ce6d64451ba3ed563cb4a833ea
+#: 1752b3de73264ce3b34dac80bc925a61
+#: 790d478bd5bd40d89ec05ee175527592
+#: 8146a9abb83e4d578a1f7e725e47c12b
+#: 18e6f92e59534a968cb73ea62da446d4
+#: 32a344d53b3242db95f6cbd6bb005351
+#: 65e5f675630e403b93e975b827f67aac
+#: 773584fd803647ecb0abadce9a1a0e63
+#: 862d04df5b8847079b632749774b565e
+#: f3d4c23a11f64f648160825e23bb5d2c
+#: 77e1ed9b54d446dda5a9abe92544dec5
+#: efeba40cc0c24f938c5dd5b6807acb5d
+#: f71444e41a774836a906261ff6c50c89
+msgid "**Example of use**"
+msgstr ""
+
+#: ../../source/sources.rst:68
+#: 5bd69a6535194b67a5110db7e43f5f6e
+msgid "``Source need archiving``, ``How to extract full publication timestamp from post?``, ``Source should not be published because permission has not been given by the resource owner``"
+msgstr ""
+
+#: ../../source/sources.rst:70
+#: ../../source/sources.rst:105
+#: ../../source/sources.rst:132
+#: ../../source/sources.rst:161
+#: ../../source/sources.rst:197
+#: ../../source/sources.rst:224
+#: ../../source/sources.rst:251
+#: ../../source/sources.rst:282
+#: ../../source/sources.rst:313
+#: ../../source/sources.rst:342
+#: ../../source/sources.rst:373
+#: ../../source/sources.rst:404
+#: ../../source/sources.rst:431
+#: ../../source/sources.rst:469
+#: ../../source/sources.rst:506
+#: ../../source/sources.rst:539
+#: ../../source/sources.rst:574
+#: ../../source/sources.rst:601
+#: ../../source/sources.rst:631
+#: da69f4a3d3b343c9ad0a618412f584d5
+#: 105c8124660a40eaa8c09453c8449e78
+#: 5678f0df64d54d58b2f44370c9ebeb75
+#: 8ebf7fa64aed426fabf2f89de18af580
+#: 1dc46608b9424204a056ed5e0b6f8301
+#: e940c8b08dba497db7a56e260df073b7
+#: 19dba7562d6940a9b370f3294b82976f
+#: 3681b0845b4c44bb9d4daf9149dea6b8
+#: 2451d5bd7c4b4832ae95f7bb04928af4
+#: dc92323743ff4a999d5f8ca804ad1970
+#: ad51839079224a7fadfabad9e253c843
+#: 0dc0dbf38a4640a1ba4669ac7c4b4ffd
+#: 78b0d5ef72e9494dafecb7a20aecf430
+#: 8ca6b25bb50a4f06a7567bfa24ea5d56
+#: 1e785dbd84f64e309ac4fba52a13d78d
+#: 486f54b5095c4153970bc16fda2b14cc
+#: ddc9da774ac3434491c7e56ebd278f64
+#: 7168d6eb21854c3786423d0f1d3e9346
+#: 410c850aec7c4cf3baa6465259b72e40
+msgid "**Spreadsheet column name**"
+msgstr ""
+
+#: ../../source/sources.rst:72
+#: b67b40f854144a79973e7588062e594f
+msgid "``source:comments:admin``"
+msgstr ""
+
+#: ../../source/sources.rst:74
+#: ../../source/sources.rst:109
+#: ../../source/sources.rst:138
+#: ../../source/sources.rst:165
+#: ../../source/sources.rst:201
+#: ../../source/sources.rst:228
+#: ../../source/sources.rst:255
+#: ../../source/sources.rst:286
+#: ../../source/sources.rst:317
+#: ../../source/sources.rst:346
+#: ../../source/sources.rst:377
+#: ../../source/sources.rst:408
+#: ../../source/sources.rst:435
+#: ../../source/sources.rst:473
+#: ../../source/sources.rst:510
+#: ../../source/sources.rst:543
+#: ../../source/sources.rst:578
+#: ../../source/sources.rst:605
+#: ../../source/sources.rst:635
+#: a054291a3cec4e5da11379502124f48c
+#: 4a5e7c7b3ca5416ba62eea075f71ab7c
+#: 1bc6b43d1b0b4444abaa11ec7ace03c7
+#: 71c642dfe2f9403ca943d3da8bcc0b05
+#: 54c63837614e42e1bf169d4f4ebf780d
+#: c5a3f36516fb4172b8253d064a1c35ee
+#: 10d78f2daa1b464d95e36e8823d94558
+#: 552e96d8d0334e6db162619a86a7d067
+#: aab4be7265104ebd901308473c370cac
+#: 14d6033f58e94066b924472ee9f1535a
+#: 624490f4d4304f15bd00836986d7d001
+#: aa505adc4ead4258afd5eda4d96b43de
+#: e35f16db07e0422ab592f9d85714a9f4
+#: 2b4f7065db624a83bd3146393f46ef91
+#: 99e24e2790254a7d8ebf6a601facfaad
+#: df4cc998c7594ebfbfcd57b5ac0fc05b
+#: 1498e5b8b94545fdaafcf3b3a5cb2e9d
+#: 0ef23ab428b74c0bb4b210abe8b41d51
+#: fbcab5264fa84f3b96c9ee4d16cad67d
+msgid "**Shortcode**"
+msgstr ""
+
+#: ../../source/sources.rst:76
+#: 177a767def664883ac8d8bd4a47aa027
+msgid "``s_c_a``"
+msgstr ""
+
+#: ../../source/sources.rst:78
+#: d53f400e27254c2b8e250ad6dc5c16a8
+msgid "**Sources**"
+msgstr ""
+
+#: ../../source/sources.rst:80
+#: ../../source/sources.rst:84
+#: 5772da3984114e13833550d6eab67866
+#: d28d611bb2f3451ea58c530175b2f9a0
+msgid "No"
+msgstr ""
+
+#: ../../source/sources.rst:82
+#: 0c21cb3bff8249beb670f4844a5c49b7
+msgid "**Confidence**"
+msgstr ""
+
+#: ../../source/sources.rst:86
+#: ../../source/sources.rst:113
+#: ../../source/sources.rst:142
+#: ../../source/sources.rst:169
+#: ../../source/sources.rst:205
+#: ../../source/sources.rst:232
+#: ../../source/sources.rst:259
+#: ../../source/sources.rst:290
+#: ../../source/sources.rst:321
+#: ../../source/sources.rst:350
+#: ../../source/sources.rst:381
+#: ../../source/sources.rst:412
+#: ../../source/sources.rst:439
+#: ../../source/sources.rst:477
+#: ../../source/sources.rst:514
+#: ../../source/sources.rst:547
+#: ../../source/sources.rst:582
+#: ../../source/sources.rst:609
+#: ../../source/sources.rst:639
+#: 8af001a87d6a443e840a1e32b087cc8a
+#: cf9e18af5bc246c094c9ea34e034f615
+#: 28b4723e00b64d5f92c67dd5c520cc09
+#: 7479fac3e66d4422924b080bf01fb0c4
+#: c852c0e636af45429ec4b8708a70e84d
+#: 02645e0309ce44e18940bc6aa02574d9
+#: 6717f8ed87854d4ab0b38762e001f72b
+#: 94c51e33474241569feb60fd2bfd4fee
+#: bab41180a8aa46d287b1033d5a80a788
+#: ee5ada2878cf40cb8897bd5b4c6fa07a
+#: 0cb46f6eb86b4983a66e24f54fa17958
+#: 19b7d6f98f164fff9087ef888fa49cc9
+#: a83a7edaa33140099259968ec65a5e92
+#: 61448ab5bae34b81a50b2a44a715f660
+#: d4528d44b70044d7ad671e3afc87e509
+#: 60a8e1b2bda3490894236149bdad3f2c
+#: e9812023e79b4f8eb0f003cbd568f5d0
+#: 9ba60fdcb4074a10a0f92797fe0cf858
+#: e70e512b3850457d88a004b620afeb06
+msgid "**Guidance on use**"
+msgstr ""
+
+#: ../../source/sources.rst:88
+#: 0977c3ecda6e49ab9366349c58ef9534
+msgid "This is an adminstrative field specific to data created in spreadsheets. Staff Researchers use it to pass on feedback about the data in the row. This may included changes needs to specific fields, references to sources that the owner of the row might look at, and other observations that can improve the quality of the data. Data in this field are not intended for publication."
+msgstr ""
+
+#: ../../source/sources.rst:91
+#: 266f560116644c6ba75272e59697d4e7
+msgid "Source: Restricted"
+msgstr ""
+
+#: ../../source/sources.rst:95
+#: fd769a460277422b8a4818aa85767b31
+msgid "Field indicating that the source should not be published on WhoWasInCommand, or distributed in any public product."
+msgstr ""
+
+#: ../../source/sources.rst:99
+#: 1c02d4de274c4450a889f23fe260daaf
+msgid "Number, single entry"
+msgstr ""
+
+#: ../../source/sources.rst:103
+#: 68ae60adc00c4cd8869a7082db96bed0
+msgid "``1``"
+msgstr ""
+
+#: ../../source/sources.rst:107
+#: 8794e04ca6bb4dd4a3e8dfbc85f5034a
+msgid "``source:restricted:admin``"
+msgstr ""
+
+#: ../../source/sources.rst:111
+#: a9f6d0b26d9747a4b015975ef878dc51
+msgid "``s_r_a``"
+msgstr ""
+
+#: ../../source/sources.rst:115
+#: 6fbe964720fd4257aba75370abfd9425
+msgid "If a source should not be published on WhoWasInCommand, or distributed in any public form, the Staff Analyst can indicate this by placing a ``1`` in the ``Source: Restricted`` field. The reasons for restricted publication of a source should be recorded in ``Source: Research Comments``."
+msgstr ""
+
+#: ../../source/sources.rst:118
+#: 624fc2378d0e4cb39d278f0bf49237eb
+msgid "Source: External Archive"
+msgstr ""
+
+#: ../../source/sources.rst:122
+#: a196cf7892334aaebceeda943d345edb
+msgid "A set of fields recording where a copy of the source can be found in external archives"
+msgstr ""
+
+#: ../../source/sources.rst:126
+#: d3eb17f9cfab49a1a7d4be8c763421a1
+msgid "Test and numbers"
+msgstr ""
+
+#: ../../source/sources.rst:130
+#: 81830766ccff4c74aa5d12a77bad9eed
+msgid "``0E94AE36DA6FF03992A57FDDBDF4728B609D0D7FE6EB019FA9F1B9B5B540D835``"
+msgstr ""
+
+#: ../../source/sources.rst:134
+#: 5912f1c529a74b0b9ee06502bbfb806f
+msgid "Presently, the two available field refer to an archive that provides a separate SHA256 hash of both the source's content and its metadata. These are laballed:"
+msgstr ""
+
+#: ../../source/sources.rst:136
+#: fe0fee9b811943cf8f63b2b261a8d114
+msgid "``source:external_archive_sha_content:admin`` and ``source:external_archive_sha_meta:admin``"
+msgstr ""
+
+#: ../../source/sources.rst:140
+#: fa07004580bd4ea48807362070572d59
+msgid "``s_eac_a`` and ``s_eam_a``"
+msgstr ""
+
+#: ../../source/sources.rst:144
+#: c2d4e79f8db147c39cc973078fec76cb
+msgid "This is a dynamic field designed to enable interlinking between sources recorded in the format used by Security Force Monitor, and those in use in other collections."
+msgstr ""
+
+#: ../../source/sources.rst:147
+#: 26d27a22c43b4977807e74f4f62fa43c
+msgid "Source: Access Point Unique Identifier"
+msgstr ""
+
+#: ../../source/sources.rst:151
+#: a86581159f744c119d42e15e4947474f
+msgid "A unique 32 character code assigned to each access point."
+msgstr ""
+
+#: ../../source/sources.rst:159
+#: 2cb14ae4a10b411d940730a3a9e791dc
+msgid "``1c03ec21-0fae-4243-9de6-686568afc2b8``"
+msgstr ""
+
+#: ../../source/sources.rst:163
+#: e45a4e0978304840ba9cc4020a8a8537
+msgid "``source:access_point_id:admin``"
+msgstr ""
+
+#: ../../source/sources.rst:167
+#: 558247c8a741485aae11c3a7a9c17c96
+msgid "``s_id_a``"
+msgstr ""
+
+#: ../../source/sources.rst:171
+#: ../../source/sources.rst:641
+#: d66c0b701add43d281eb3192692fed4c
+#: 9d16956695fb489498a3bbff3e4d167f
+msgid "This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs can be created easily using either installable or online tools, for example:"
+msgstr ""
+
+#: ../../source/sources.rst:173
+#: 77c765b8ae484956a9ee26cccc0e5af1
+msgid "Linux and OSX users: ``uuidgen`` command line tool."
+msgstr ""
+
+#: ../../source/sources.rst:174
+#: ../../source/sources.rst:644
+#: 82dc9bebe0d74152b993cd3b6a0f33f7
+#: 82bda8e89163410aaadfb6631a737813
+msgid "On the web: `UUID Generator<https://www.uuidgenerator.net/version>`__."
+msgstr ""
+
+#: ../../source/sources.rst:176
+#: 1588fd3ca0d6403aa799c7f1cf1f1d63
+msgid "The field is administrative, providing a reliable way to differentiate between different access points."
+msgstr ""
+
+#: ../../source/sources.rst:178
+#: 8cbcce6169264785823c049c20d03e2e
+msgid "When a new access point is created directly in WhoWasInCommand, the platform automatically creates a UUID for that access point and stores it in this field. If a new accesspoint is created in a spreadsheet, the Staff Researcher must generate a unique identifying number for that person and copy it into the field ``source:access_point_id:admin`` for that specific access point. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID."
+msgstr ""
+
+#: ../../source/sources.rst:180
+#: d8f3d81f5abb4463a2fa811dd8e4ab97
+msgid "Bulk updates made to WhoWasInCommand.com by spreadsheet import are based on the values in this field. For example, changes made in the row ``a407be6a-28e6-4237-b4e9-307f27b1202e`` in the spreadsheet will be applied to the access point with that UUID in WhoWasInCommand."
+msgstr ""
+
+#: ../../source/sources.rst:183
+#: 789f0d71faff45c68fa671e0f506666e
+msgid "Source: Type"
+msgstr ""
+
+#: ../../source/sources.rst:187
+#: f2e4b2b161b64635929e926961a20efc
+msgid "Description of the media type of the source, such as \"document\", \"video\" or \"image\"."
+msgstr ""
+
+#: ../../source/sources.rst:191
+#: 1971e04f854a44c5ac8031383dcd0b12
+msgid "Text and numbers, controlled, single entry"
+msgstr ""
+
+#: ../../source/sources.rst:195
+#: 4c7c0f6f5eda4517af7907e9cf6d6e4b
+msgid "``document``, ``video``, ``message``, ``tweet``, ``post``"
+msgstr ""
+
+#: ../../source/sources.rst:199
+#: c18935b035ee48d3bdb704d4e0c7fbf7
+msgid "``source:type``"
+msgstr ""
+
+#: ../../source/sources.rst:203
+#: 950e95f2140948ad98a130bbe77aac38
+msgid "``s_ty``"
+msgstr ""
+
+#: ../../source/sources.rst:207
+#: 0548f1fb3f6f4366afe4bb401ea49613
+msgid "Use this field to capture data about the source's basic media type. The choice of values is defined in a controlled vocabulary."
+msgstr ""
+
+#: ../../source/sources.rst:210
+#: dc92a9478d204ddaa2af1b96f3cb5671
+msgid "Source: Title"
+msgstr ""
+
+#: ../../source/sources.rst:214
+#: f2667ed796da418a96e4b417e4cf28bc
+msgid "The name of the source, as stated on the source."
+msgstr ""
+
+#: ../../source/sources.rst:222
+#: 3d9eed58fb8f4d5a896efe1008d2c2b0
+msgid "``Stars on their shoulders. Blood on their hands. War crimes committed by the Nigerian military``"
+msgstr ""
+
+#: ../../source/sources.rst:226
+#: 2a69dc3fc77b4014b86d56f964d08678
+msgid "``source:title``"
+msgstr ""
+
+#: ../../source/sources.rst:230
+#: a1274194402149adb86d79a765c4b5dd
+msgid "``s_t``"
+msgstr ""
+
+#: ../../source/sources.rst:234
+#: 9198fa22f0554f7d8e766a4fc19de87b
+msgid "Copy the exact title of the source as stated on the source itself. Where the title has multiple parts, such as a subtitle, also include that."
+msgstr ""
+
+#: ../../source/sources.rst:237
+#: 97afa6d97fe04b9b9651fbf64669aea9
+msgid "Source: Author"
+msgstr ""
+
+#: ../../source/sources.rst:241
+#: 2e5db0867cc94dff808fd156afb2a1ac
+msgid "The name(s) of the person(s) who authored, or otherwise created, the source."
+msgstr ""
+
+#: ../../source/sources.rst:249
+#: d927c4ad457e4c7caded3e40e2c45411
+msgid "``Osa Okhomina``, ``Tom Moses``, ``Tony Wilson; Tom Longley``"
+msgstr ""
+
+#: ../../source/sources.rst:253
+#: 0119595cb33740f2bc6406805dfc59fe
+msgid "``source:author``"
+msgstr ""
+
+#: ../../source/sources.rst:257
+#: 5e298550350542599006049b473e3fb0
+msgid "``s_a``"
+msgstr ""
+
+#: ../../source/sources.rst:261
+#: 212e57cd832543638fd3ec62796b4ec6
+msgid "Use this field to record the given name and surnames of the persons who authored or otherwise created the source. Typically, this will be a byline containing one or more persons. Where more than one person is credited as the author/creator, use a semi-colon to separate the names."
+msgstr ""
+
+#: ../../source/sources.rst:263
+#: fa723868161c4c0dadaaf9eaf7b29a2c
+msgid "If the source is a social media post, and the real name of the author/creator cannot be found, record the social media account identity."
+msgstr ""
+
+#: ../../source/sources.rst:265
+#: 3a655e543eec4eb3960400d6577df964
+msgid "Where the author/creator is an organization (e.g. ``Press Association``, ``Reuters and agencies``) do not enter this in ``Source: Author`` - this information will likely be included in ``Source: Publication Name``."
+msgstr ""
+
+#: ../../source/sources.rst:268
+#: 38500d5c66f34660be00fb2c5162bbd1
+msgid "Source: Source URL"
+msgstr ""
+
+#: ../../source/sources.rst:272
+#: 250cf9d9703f494988498b244b3f98c2
+msgid "The first and original public online location of the source."
+msgstr ""
+
+#: ../../source/sources.rst:276
+#: ../../source/sources.rst:500
+#: 6e3676599f044067a635c449c4d9877a
+#: 1a366f5641714984a4be5ede34c615b5
+msgid "URL"
+msgstr ""
+
+#: ../../source/sources.rst:280
+#: 271c677a1772412299890d6c97ff0b59
+msgid "``https://www.amnesty.org/en/documents/afr44/1657/2015/en/``"
+msgstr ""
+
+#: ../../source/sources.rst:284
+#: 483f2fa83be9406fb8d96b39f7f1b8cf
+msgid "``source:url``"
+msgstr ""
+
+#: ../../source/sources.rst:288
+#: 480ee38c72be4cd0a088f1266045dce8
+msgid "``s_u``"
+msgstr ""
+
+#: ../../source/sources.rst:292
+#: 7386d8cb7fcf4453a6b2e4ec896bd5fe
+msgid "The URL included here must be for the first and original public online location of the source."
+msgstr ""
+
+#: ../../source/sources.rst:294
+#: 0b80910734ba4ffeae16e2e89d3751b6
+msgid "Where possible, if a source is republished through a content sharing or syndication system, attempt to find the original location."
+msgstr ""
+
+#: ../../source/sources.rst:296
+#: d390cc6fd7a841d0acd5a130ccbc1d58
+msgid "If you are accessing the source through a restricted or subscription-only gateway (such as LexisNexis or ProQuest), attempt to find the original public URL for a source rather than the URL generated by the gateway service."
+msgstr ""
+
+#: ../../source/sources.rst:299
+#: cc0df33d077841ddb1e7231434e78d74
+msgid "Source: Creation Date and Time"
+msgstr ""
+
+#: ../../source/sources.rst:303
+#: 97242c93170d43c49c87986e4d431aa1
+msgid "Date and time that the source was created."
+msgstr ""
+
+#: ../../source/sources.rst:307
+#: ../../source/sources.rst:336
+#: ../../source/sources.rst:367
+#: 85b984a391284d44b4516cfe3218b55f
+#: c8cc8feb42d645988efe7e5e4c965228
+#: ddbaf3f954c44339ad4796fbc428efbd
+msgid "ISO 8601 timestamp, full or partial, UTC timezone (``YYYY-MM-DDThh:mm:ssZ``)"
+msgstr ""
+
+#: ../../source/sources.rst:311
+#: ../../source/sources.rst:340
+#: ../../source/sources.rst:371
+#: 3f50fbdee44a41ec915717137ba91605
+#: 306a082f6e51478cb98fc84d824662e5
+#: 3d9fe8084ac14b5c9f8f94d34cbd6c87
+msgid "``2019-11-29T10:25:45Z``, ``2019``, ``2010-11-29``"
+msgstr ""
+
+#: ../../source/sources.rst:315
+#: 16969ab04f5b4faaa9790bf66719a9cb
+msgid "``source:created_timestamp``"
+msgstr ""
+
+#: ../../source/sources.rst:319
+#: eaf6ce51539c47839abbe10c89369fcd
+msgid "``s_ct``"
+msgstr ""
+
+#: ../../source/sources.rst:323
+#: 37c0b2f117ea4a30a337f0a83e8ce066
+msgid "Where available, record the date and time that the source was created. The field accepts full or partial values: at its simplest this is to the year, at its most comprehensive it can be to the second. A creation timestamp may not be available for a source - if this is the case, leave this field blank."
+msgstr ""
+
+#: ../../source/sources.rst:325
+#: ../../source/sources.rst:356
+#: ../../source/sources.rst:387
+#: 1b07989911b94df4875cbccc10417155
+#: bcea94c69add4a8aaa32f8a81d3fa3d5
+#: 7f482deffc2a47ac9cb4389b14226123
+msgid "Where the timezone is indicated, convert the timestamp to UTC."
+msgstr ""
+
+#: ../../source/sources.rst:328
+#: 75c8d9470a474d7f939204b1cd1352ef
+msgid "Source: Upload Date and Time"
+msgstr ""
+
+#: ../../source/sources.rst:332
+#: e6429f1611894caa981c0fd5eb8899ba
+msgid "Date and time that the source was uploaded to the online platform or service on which it is hosted."
+msgstr ""
+
+#: ../../source/sources.rst:344
+#: 860da8c2c5364b12a84c45fdf2d66475
+msgid "``source:uploaded_timestamp``"
+msgstr ""
+
+#: ../../source/sources.rst:348
+#: d91e2c62b764482993d099a22abcc2d5
+msgid "``s_ut``"
+msgstr ""
+
+#: ../../source/sources.rst:352
+#: 97be28e88d6547c5bf866629038177ec
+msgid "Where available, record the date and time that the source was uploaded to the online platform or service on which it is hosted. This may different from the date of creation or publication. Upload timestamp information may not be available for source - if this is the case, leave the field blank."
+msgstr ""
+
+#: ../../source/sources.rst:354
+#: ../../source/sources.rst:385
+#: 865bb80e189542a6a6849d0b7b345340
+#: 08b46b4e7fe2434388260ab832841438
+msgid "The field accepts full or partial values: at its simplest this is to the year, at its most comprehensive it can be to the second."
+msgstr ""
+
+#: ../../source/sources.rst:359
+#: a3e887f17c0143019a3df111a4387c01
+msgid "Source: Publication Date and Time"
+msgstr ""
+
+#: ../../source/sources.rst:363
+#: a13edcb4214144b2ae916eb9dc811f75
+msgid "Date and time that the source was published on the online platform or service on which it is hosted."
+msgstr ""
+
+#: ../../source/sources.rst:375
+#: f7514379fd784103a873062df4ec932f
+msgid "``source:published_timestamp``"
+msgstr ""
+
+#: ../../source/sources.rst:379
+#: ../../source/sources.rst:607
+#: bb4d2892717f4f6882c6ed2e12dc7437
+#: fafbaa5b6b1b4704969b5dde8221b9c5
+msgid "``s_pt``"
+msgstr ""
+
+#: ../../source/sources.rst:383
+#: 5052b95f6ce14a3280d31353bc7efc60
+msgid "Where available, record the date and time that the source was published to the online platform or service on which it is hosted. This may different from the date of creation or upload. Although a timestamp for creation and upload dates and times may not be available, it is very likely that at least a publication date will be available for a source. Where a publication date is not available for a source, the timestamp of the earliest snapshot of the source in the Internet Archive should be recorded here."
+msgstr ""
+
+#: ../../source/sources.rst:390
+#: eec089eeee2e442890fff1565632e0e3
+msgid "Source: Access Date and Time"
+msgstr ""
+
+#: ../../source/sources.rst:394
+#: da0787389453458aa4112477a52ae133
+msgid "Full date on which the Staff Reseacher looked at the source or its access points."
+msgstr ""
+
+#: ../../source/sources.rst:398
+#: 864b3d04eeee459ab0201b846e26bd8a
+msgid "Date (YYYY-MM-DD)"
+msgstr ""
+
+#: ../../source/sources.rst:402
+#: b221e8dc76124bd0b58ea6443314ce8a
+msgid "``2019-02-20``"
+msgstr ""
+
+#: ../../source/sources.rst:406
+#: 96395331993142aa91395d2928b1883c
+msgid "``source:access_point_access_date``"
+msgstr ""
+
+#: ../../source/sources.rst:410
+#: f1ac2a24d8b94a2792ef1e21c585bcda
+msgid "``s_apad``"
+msgstr ""
+
+#: ../../source/sources.rst:414
+#: df258f932ddd4423ad2714cdc1bc1b03
+msgid "When a Staff Researcher accesses an access point, they should record the full, exact date in this field. This data is a useful part of quality assurance processes, enabling us to re-visit sources at set points in time to assess whether they have been updated."
+msgstr ""
+
+#: ../../source/sources.rst:417
+#: 60810913d7ba4abdbb7958eab160a46f
+msgid "Source: Access Point Type"
+msgstr ""
+
+#: ../../source/sources.rst:421
+#: d255eaa009b6467d857646ea5ed514e1
+msgid "The method by which an access point to a source has been created, such as by page or archive snapshot"
+msgstr ""
+
+#: ../../source/sources.rst:425
+#: 3b8a40a6a4514eebae80c67592feccd8
+msgid "Text, controlled, single entry"
+msgstr ""
+
+#: ../../source/sources.rst:429
+#: 8a94c5af47134e8fbc9dc42ea103c28a
+msgid "``pages``, ``frame``, ``clip``, ``archive``"
+msgstr ""
+
+#: ../../source/sources.rst:433
+#: ../../source/sources.rst:471
+#: c421c5cc95fc4566ae6aa512ad089f93
+#: 994fa18b7fc84aab86bec41b7a4c5fc6
+msgid "``source:access_point_trigger``"
+msgstr ""
+
+#: ../../source/sources.rst:437
+#: 44e33cb7a19c4f8f91b7657569a59369
+msgid "``s_apt``"
+msgstr ""
+
+#: ../../source/sources.rst:441
+#: eaa2b2300d3d4bbab65c3da0faa0d0c7
+msgid "A source has at least one access point, but may have many. For example, if a source is a document we may draw information from a number of different pages (or ranges of pages). For each page or range of pages, we would create a new access point to the source. The field ``Source: Access Point Type`` tells us what method we have used to create the access point - in this case ``page``. The number of the page or page range will be recorded in the field ``Source: Access Point Trigger``."
+msgstr ""
+
+#: ../../source/sources.rst:443
+#: 566224841b5e443b88bdf86d950c6772
+msgid "Currently, there are six methods for creating an access point:"
+msgstr ""
+
+#: ../../source/sources.rst:452
+#: e3e23b8e8278434880f7eb3761b47eb2
+msgid "The range of access point types may extend as different media forms become available."
+msgstr ""
+
+#: ../../source/sources.rst:455
+#: d857ca9c7a9c4e92a36a47990bff023b
+msgid "Source: Access Point Trigger"
+msgstr ""
+
+#: ../../source/sources.rst:459
+#: d37af325f4ea43dcbc53628e4ef9a801
+msgid "Number or number range describing where in a source to find the exact content that comprises the access point."
+msgstr ""
+
+#: ../../source/sources.rst:463
+#: 38011116504c443e9dc3ac0e430a1e1c
+msgid "Number, number range"
+msgstr ""
+
+#: ../../source/sources.rst:467
+#: 3cbe8f6361314f9ba913e989358602b0
+msgid "``11``, ``11-12``, ``11,13``, ``11,13,14-19``, ``1:31-1:40``"
+msgstr ""
+
+#: ../../source/sources.rst:475
+#: ff15fcd228674022a47bd6fbd4e9eff4
+msgid "``s_aptr``"
+msgstr ""
+
+#: ../../source/sources.rst:479
+#: b2c498306e484b0b8660f08f9db544b2
+msgid "This field is used to specify the exact content within a source that defines the access point. For example, if we want to create an access point at page 4 of a source then we would set the value in ``Source: Access Point Type`` to ``page`` and enter ``4`` in ``Source: Access Point Trigger``. As noted in the documention for ``Source: Access Point Type`` there are six ways to create an access point. These are listed below, along with the data type and format rquired to specify the exact content of the access point:"
+msgstr ""
+
+#: ../../source/sources.rst:481
+#: fd5c838660f84a12a9bb9cbabacb0a97
+msgid "``archive``: duplicate the value in ``Source: Access Point Archive URL``"
+msgstr ""
+
+#: ../../source/sources.rst:482
+#: 838dc3f2b63e44e8ba0a7008c65c6983
+msgid "``page``: Single page (``1``), single range of pages (``1-2``), combination of page and page ranges (``1,2-3,4,5-8``)"
+msgstr ""
+
+#: ../../source/sources.rst:483
+#: 9fd762ab4ff44e5b80c6444c0a0770ad
+msgid "``line``: Single line (``200``), single range of lines (``200-230``), combination of line and line ranges (``200-230,236,240-250``)"
+msgstr ""
+
+#: ../../source/sources.rst:484
+#: fcf49adfbd0e470b9f9778e80a5766d7
+msgid "``clip``: Single range containing start and end time in the format ``hh:mm:ss`` (``00:01:20-00:01:24``)"
+msgstr ""
+
+#: ../../source/sources.rst:485
+#: 52735f3358ab4925b161c66cc40bdf75
+msgid "``frame``: a single capture point from a video in ``hh:mm:ss`` format (``00:01:20``)"
+msgstr ""
+
+#: ../../source/sources.rst:486
+#: 4bb438457899434584bac051c5d5cb5c
+msgid "``still``: a direct link to SFM's hosting library to an image captured from a video or interactive resource for which we do no have a specific time frame. For example, a ``still`` would be the appropriate type of access point to create to enable us to use as evidence multiple views of an online database that didn't provide permalinks for queries."
+msgstr ""
+
+#: ../../source/sources.rst:488
+#: dec5a84a9dc1422ba0d45fee56a137f6
+msgid "The range of access point triggers may extend as different media forms become available."
+msgstr ""
+
+#: ../../source/sources.rst:492
+#: 40bf90e5565a465393d597ad9487fc2c
+msgid "Source: Access Point Archive URL"
+msgstr ""
+
+#: ../../source/sources.rst:496
+#: 5f77ce960eea4d4488c908d4033a7591
+msgid "URL of a snapshot of the source captured by the Internet Archive and hosted on its Wayback Machine."
+msgstr ""
+
+#: ../../source/sources.rst:504
+#: 347be031eb964d8397ff41480fb4b614
+msgid "``https://web.archive.org/web/20150703120013/http://www.amnesty.org/en/documents/AFR44/043/2012/en/``"
+msgstr ""
+
+#: ../../source/sources.rst:508
+#: 88b2896dc69343a893dae4104e33e75b
+msgid "``source:archive_url``"
+msgstr ""
+
+#: ../../source/sources.rst:512
+#: d4ddf11d50dd4e94b9fb065ee0105a47
+msgid "``s_au``"
+msgstr ""
+
+#: ../../source/sources.rst:516
+#: 5617016901d24c888f3aab37a7b768bd
+msgid "A source becomes usable by Staff Researchers when it has an access point. After entering the source's basic details (like ``Source: Title``), the researcher then creates the first access point by specifying an Internet Archive snapshot to use for that source. If the source is not already archived in the Internet Archive, the research must create a new snapshot to use as the access point. Where snapshots for the source already exist in the Internet Archive, the Staff Researcher should find the snapshot that is earliest in time."
+msgstr ""
+
+#: ../../source/sources.rst:518
+#: 5745768f45c4495fadc7b5c61a8f0251
+msgid "In the majority of cases, this will suffice. However, in some cases, we may need to specify more than one Internet Archive snapshot for the same source. The common reason for this is that the source content changes, but the basic details of the source do not. A good example of this is this (dead) URL published by the *Secretaría de la Defensa Nacional* in Mexico: ``http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``. It lists the commanders of Mexico's miltary garrisons, and we have included reference to this in our data. The title, initial publication date, publication and basic URL did not change: however, the content did. In each of 24 different captures made by the Internet Archive, the list of commanders is different. In this case, we have a single source with 24 access points: each access point refers to a specific version of that source containing the exact information that we relied upon to create the data."
+msgstr ""
+
+#: ../../source/sources.rst:520
+#: 7c7dd0f570c244ed9380e5e79fcfc872
+msgid "The example above also illustrates an important point: sometimes a source is only available in an archived form, because its original source URL is no longer online. There are many reasons a link many no longer be live, and this problem is known as \"linkrot\". In these cases, the Staff Researcher can fill in ``Source: URL`` with a portion of the Internet Archive URL printed after the timestamp:"
+msgstr ""
+
+#: ../../source/sources.rst:522
+#: 53e1a83942124ae8a60d32c447bf41d0
+msgid "``https://web.archive.org/web/20040208204841/http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``"
+msgstr ""
+
+#: ../../source/sources.rst:525
+#: 01078fb224404d1a9d55d6a83c6d40a6
+msgid "Source: Access Point Archive Timestamp"
+msgstr ""
+
+#: ../../source/sources.rst:529
+#: 78a33d0c002545c4ae38839f3f65af3f
+msgid "Timestamp of the Internet Archive snapshot used to create an access point."
+msgstr ""
+
+#: ../../source/sources.rst:533
+#: b8084a97c11d463f870ce4909f8d7bcb
+msgid "Date (YYYY-MM-DDTHH:MM:SS)"
+msgstr ""
+
+#: ../../source/sources.rst:537
+#: ../../source/sources.rst:555
+#: b32eac37f30c447e8fa5aa902326de4e
+#: 4f2ec0d2808943708a385e49a5f068a8
+msgid "``2004-02-08T20:48:41``"
+msgstr ""
+
+#: ../../source/sources.rst:541
+#: 06bb4e4f40e845f9a811e661601b680e
+msgid "``source:access_point_archive_timestamp``"
+msgstr ""
+
+#: ../../source/sources.rst:545
+#: e04d8e6f23ae46c5b714a07c22ae8078
+msgid "``s_apat``"
+msgstr ""
+
+#: ../../source/sources.rst:549
+#: bbd6a98b57f34ec1b9a91bf2e73eddcf
+msgid "Every snapshot made by the Internet Archive contains a timestamp of the time (GMT/UTC) when that snapshot was created. The timestamp is contained in the URL and looks like this:"
+msgstr ""
+
+#: ../../source/sources.rst:551
+#: 2d5149de689a4f22864e3694697c58aa
+msgid "``20040208204841``"
+msgstr ""
+
+#: ../../source/sources.rst:553
+#: 99a55be7f3c242b084a626245eaf5243
+msgid "We extract this part of the URL and reformat it to something more human readable (an ISO 8601 format):"
+msgstr ""
+
+#: ../../source/sources.rst:557
+#: 3bdbd6781b9744ad84af62a46d1c7d6f
+msgid "The timestamp is a useful quality assurance filter, and is used in the WhoWasInCommand data entry tools as a visual aid to differentiate between access points."
+msgstr ""
+
+#: ../../source/sources.rst:560
+#: 10b94594c8b34dcb92c29297ca600648
+msgid "Source: Publication Country"
+msgstr ""
+
+#: ../../source/sources.rst:564
+#: d5146ba39c5b43619d72e7ec900fdfbf
+msgid "Country in which the publication or publishing organization of the source is based."
+msgstr ""
+
+#: ../../source/sources.rst:568
+#: e5d74a149953407d9bd91f0d99c96c47
+msgid "Text, controlled vocabulary"
+msgstr ""
+
+#: ../../source/sources.rst:572
+#: a7711b1332474baa88ca934023a0349a
+msgid "``United States``, ``Nigeria``"
+msgstr ""
+
+#: ../../source/sources.rst:576
+#: d48e81c301ca48d19964b8e3a81dcba6
+msgid "``source:publication_country``"
+msgstr ""
+
+#: ../../source/sources.rst:580
+#: d5adf721b4cb43dab096487aa1e30024
+msgid "``s_c``"
+msgstr ""
+
+#: ../../source/sources.rst:584
+#: c7733aeb142a48fd9af08a289a452242
+msgid "Values for this field are the English language full names of countries contained in the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__)."
+msgstr ""
+
+#: ../../source/sources.rst:587
+#: 2040c11068e641a4b071f81ef62457bf
+msgid "Source: Publication Name"
+msgstr ""
+
+#: ../../source/sources.rst:591
+#: 37f936721d514b0a836ff17722958598
+msgid "The name of the publication, or publishing organization, of the source."
+msgstr ""
+
+#: ../../source/sources.rst:595
+#: 5f00582ca2fc4a3b9d02744269f11b38
+msgid "Text"
+msgstr ""
+
+#: ../../source/sources.rst:599
+#: 8ac5385cb3424ed99ab21fbda5ca707a
+msgid "``Amnesty International``, ``Secretaría de la Defensa Nacional``, ``Daily Independent``, ``The Irrawady``"
+msgstr ""
+
+#: ../../source/sources.rst:603
+#: 1ac7355795ed4f02a9cd67860f26609e
+msgid "``source:publication_title``"
+msgstr ""
+
+#: ../../source/sources.rst:611
+#: 5945fd32bd374aa5bf29e94ec900c95e
+msgid "This field can cover two sorts of publication:"
+msgstr ""
+
+#: ../../source/sources.rst:613
+#: 2ed4fbbe417f491f83ddcfae8be925ee
+msgid "The publication in which the source appears, which could be a newspaper, journal or a book."
+msgstr ""
+
+#: ../../source/sources.rst:614
+#: b307f1af0f6945dcb2292612c98210a2
+msgid "Absent a specific publication, include the name of the publishing organization, such as the government organization responsible for a web-page."
+msgstr ""
+
+#: ../../source/sources.rst:617
+#: 06d8f54da92a4d2da3ba790cc411c938
+msgid "Source: Publication Unique Identifier"
+msgstr ""
+
+#: ../../source/sources.rst:621
+#: 59e78170c56340838ddfec647084f23a
+msgid "A unique 32 chracter code assigned to each publication from which sources are drawn."
+msgstr ""
+
+#: ../../source/sources.rst:629
+#: f37bd2cb3520442e8f5fd02170be7eee
+msgid "``2190a9b4-8163-47a6-8461-3157f68c3ba3``"
+msgstr ""
+
+#: ../../source/sources.rst:633
+#: 12be9534386f4f77a937a07411a4c517
+msgid "``source:publication_id:admin``"
+msgstr ""
+
+#: ../../source/sources.rst:637
+#: ac3dbc2e77cd45c2a9dedc004d51a110
+msgid "``s_pid_a``"
+msgstr ""
+
+#: ../../source/sources.rst:643
+#: f357d238489347c897e2dd113809dbc7
+msgid "Linux and OSX users: `uuidgen` command line tool."
+msgstr ""
+
+#: ../../source/sources.rst:646
+#: 2b41257d171d40adb3b93ba296bb16f2
+msgid "The field is administrative, providing a reliable way to differentiate between different publications (which in some cases may have the same name)."
+msgstr ""
+
+#: ../../source/sources.rst:648
+#: 88e5082955ea4dbe821a225bf9d2a2e4
+msgid "When a new publication is created directly in WhoWasInCommand, the platform automatically creates a UUID for that source and stores it in this field. If a new publication is created in a spreadsheet, the Staff Researcher must generate a unique identifying number for that publication and copy it into the field ``publication:id:admin`` for every row associated with that specific publication. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID."
+msgstr ""

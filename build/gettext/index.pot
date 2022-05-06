@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, Security Force Monitor
+# Copyright (C) 2022, Security Force Monitor
 # This file is distributed under the same license as the SFM Research Handbook package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFM Research Handbook \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-16 14:28+0100\n"
+"POT-Creation-Date: 2022-05-06 16:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,35 +19,35 @@ msgstr ""
 #: ../../source/index.rst:4
 #: ../../source/index.rst:4
 #: 
-#: 3592d9ce142e4914bbdc33297f425f2d
+#: f707304f2b0f4a78a22f375dfb58c69d
 msgid "Introduction"
 msgstr ""
 
 #: ../../source/index.rst:10
 #: ../../source/index.rst:10
 #: 
-#: 5b6f6bc57210443f8de5074dd9447b51
+#: 5ef0b801b53b4b4ba5f423a735ab42c3
 msgid "Methodology"
 msgstr ""
 
 #: ../../source/index.rst:17
 #: ../../source/index.rst:17
 #: 
-#: 0ec9033eaddb4704a829571bc0755e45
+#: 017d6cf2efe24ac6b78c50d8ba255237
 msgid "Countries"
 msgstr ""
 
 #: ../../source/index.rst:23
 #: ../../source/index.rst:23
 #: 
-#: 4a286ef3e24943928d77e62534a31a67
+#: d36c124b89d143dfb617cd0d8522b3ed
 msgid "Data Model"
 msgstr ""
 
 #: ../../source/index.rst:36
 #: ../../source/index.rst:36
 #: 
-#: 0a3c88918efc491890aa9f323ed21d39
+#: 3e60f16742c243e09f54d640bc7925ce
 msgid "WhoWasInCommand"
 msgstr ""
 
