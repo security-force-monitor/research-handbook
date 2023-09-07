@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFM Research Handbook \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-06 16:39+0100\n"
+"POT-Creation-Date: 2023-09-07 14:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,42 +48,42 @@ msgstr ""
 
 #: ../../source/downloads.rst:18
 #: d7fa5cd82c3448dba05663278a580205
-msgid "**Basic**: a list of all the units in that country"
+msgid "**Basic**: a list of all the units in that country."
 msgstr ""
 
 #: ../../source/downloads.rst:19
 #: b825d3243c2c42be8e66c5ed43ddb5f6
-msgid "**Parentage**: units organized into a hierarchy"
+msgid "**Parentage**: units organized into a hierarchy."
 msgstr ""
 
 #: ../../source/downloads.rst:20
 #: 7379fe99eef94b03b6d7a929ed2b85d4
-msgid "**Memberships**: units that are part of operations that may fall outside the regular chain of command"
+msgid "**Memberships**: units that are part of operations that may fall outside the regular chain of command."
 msgstr ""
 
 #: ../../source/downloads.rst:21
 #: 464bd27c238a4d3d97337b81ed94f058
-msgid "**Areas of operation**: geographical distribution of units' operational areas"
+msgid "**Areas of operation**: geographical distribution of units' operational areas."
 msgstr ""
 
 #: ../../source/downloads.rst:22
 #: 24487317b19842848b800435111fb3c8
-msgid "**Sites**: specific locations"
+msgid "**Sites**: specific locations."
 msgstr ""
 
 #: ../../source/downloads.rst:23
 #: 76923b469c844aa4bc9b918d01028b93
-msgid "**Personnel**: list of command personnel"
+msgid "**Personnel**: list of command personnel."
 msgstr ""
 
 #: ../../source/downloads.rst:24
 #: 0a58a66298224d32a0d005f2672985e3
-msgid "**Sources**: sources used to evidence the data"
+msgid "**Sources**: sources used to evidence the data."
 msgstr ""
 
 #: ../../source/downloads.rst:26
 #: 1bd91f614f8e476fbb96837604da84ad
-msgid "A full description of each downloadable slice of data is available in the sections below. It is important to note that none of the download contain the field-level sourcing that is a key part of Security Force Monitor's work (see :ref:`Data integrity measures` for more information). The reason for this is technical (discussed `here <https://github.com/security-force-monitor/sfm-cms/issues/661#issuecomment-635450705>`__ on the code repository for the software that powers WhoWasInCommand."
+msgid "A full description of each downloadable slice of data is available in the sections below. It is important to note that none of the download contain the field-level sourcing that is a key part of Security Force Monitor's work (see the Research Handbook section on :ref:`Data integrity measures` for more information). The reason for this is technical (discussed `here <https://github.com/security-force-monitor/sfm-cms/issues/661#issuecomment-635450705>`__) on the code repository for the software that powers WhoWasInCommand."
 msgstr ""
 
 #: ../../source/downloads.rst:29
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../../source/downloads.rst:50
 #: 87197ad722604b64b0708b3244266524
-msgid "Finally, click \"Download\" and a file containing the report will be downloaded to your computer. To help you identify the report, its filename is created using this simple template: ``[report_type]_-[country]_[YYYY-MM-DD].csv\"``"
+msgid "Finally, click \"Download\" and a file containing the report will be downloaded to your computer. To help you identify the report, its filename is created using this simple template: ``[report_type]_[country]_[YYYY-MM-DD].csv\"``"
 msgstr ""
 
 #: ../../source/downloads.rst:53
@@ -145,11 +145,11 @@ msgstr ""
 #: ../../source/downloads.rst:237
 #: 631aa3db734b4c628fc7b98c48fd53f1
 #: 6e3d56858aba46c7bc00ebb5726034f7
-#: b5da3c27a5054db58347ecd99c841be3
-#: 13768321f42346e2a855442039bc4a2a
-#: 5275358b4ea84c7c9c40672d3e16f23c
-#: a3d55539e199411f8a6da517eb8e1577
-#: 70bca7ef44904d4088e48d7d19ee8dab
+#: 6e3d56858aba46c7bc00ebb5726034f7
+#: 6e3d56858aba46c7bc00ebb5726034f7
+#: 6e3d56858aba46c7bc00ebb5726034f7
+#: 6e3d56858aba46c7bc00ebb5726034f7
+#: 6e3d56858aba46c7bc00ebb5726034f7
 msgid "**Description**"
 msgstr ""
 
@@ -159,13 +159,155 @@ msgid "The \"Basic\" download contains a list of distinct units in the dataset, 
 msgstr ""
 
 #: ../../source/downloads.rst:64
-#: f3fce72eb65548f8b134a075fc966e43
-msgid "**Field**"
+#: ../../source/downloads.rst:84
+#: ../../source/downloads.rst:111
+#: ../../source/downloads.rst:138
+#: ../../source/downloads.rst:166
+#: ../../source/downloads.rst:195
+#: ../../source/downloads.rst:241
+#: 646005fa44114bac8d457eea7ec785d8
+#: 646005fa44114bac8d457eea7ec785d8
+#: 646005fa44114bac8d457eea7ec785d8
+#: 646005fa44114bac8d457eea7ec785d8
+#: 646005fa44114bac8d457eea7ec785d8
+#: 646005fa44114bac8d457eea7ec785d8
+#: 646005fa44114bac8d457eea7ec785d8
+msgid "**Fields**"
 msgstr ""
 
 #: ../../source/downloads.rst:66
-#: be54f47173454c9bbf7e2662c8af9c26
-msgid "1   unit:id:admin 2   unit:name 3   unit:country 4   unit:classification 5   unit:other_names 6   unit:first_cited_date 7   unit:last_cited_date 8   unit:first_cited_date_start 9   unit:last_cited_date_open ``"
+#: ../../source/downloads.rst:86
+#: ../../source/downloads.rst:113
+#: ../../source/downloads.rst:140
+#: ../../source/downloads.rst:168
+#: ../../source/downloads.rst:197
+#: 4b468a74105a42b2bf7e445c00c36300
+#: bb33ff346d9e407b9f1aee0cda55f768
+#: 015dbef2bef945bd8d8e86abf59453c8
+#: 6e61bddc6b714bb797b770a89fcc4771
+#: c834ce22e2f143599a04f12c032ece01
+#: 6242222a5f264f1ba9537dc43016e89d
+msgid "unit:id:admin"
+msgstr ""
+
+#: ../../source/downloads.rst:67
+#: ../../source/downloads.rst:87
+#: ../../source/downloads.rst:114
+#: ../../source/downloads.rst:141
+#: ../../source/downloads.rst:169
+#: ../../source/downloads.rst:198
+#: b532300e3292452f875cab50b0cfea14
+#: c6b96e711dea4fe69893863877e07d06
+#: 554ec028f0864231ba999cfd74e27a3d
+#: 1a0fa5c4c3e642288a00b3b9724a44ea
+#: 4e0623a27fe240a48b54153868d6711b
+#: 6b6b613574b04a209c0bc9f94279385d
+msgid "unit:name"
+msgstr ""
+
+#: ../../source/downloads.rst:68
+#: ../../source/downloads.rst:88
+#: ../../source/downloads.rst:115
+#: ../../source/downloads.rst:142
+#: ../../source/downloads.rst:170
+#: ../../source/downloads.rst:199
+#: 79ac23fd00af4cf09f644e2476fed7a7
+#: 7593f99fb22c4acdb560bf94f8a7aa72
+#: b48d85c9ff754041853f11b0edfe2e8f
+#: 9d77028f702d4aa2acd863e9f510f9b3
+#: ab11128c12094a6596667ada8dbbdcf2
+#: 2a6b643c7fe84556bfd4a74241990838
+msgid "unit:country"
+msgstr ""
+
+#: ../../source/downloads.rst:69
+#: ../../source/downloads.rst:89
+#: ../../source/downloads.rst:116
+#: ../../source/downloads.rst:143
+#: ../../source/downloads.rst:171
+#: ../../source/downloads.rst:200
+#: 24487317b19842848b800435111fb3c8
+#: 24487317b19842848b800435111fb3c8
+#: 24487317b19842848b800435111fb3c8
+#: 24487317b19842848b800435111fb3c8
+#: 24487317b19842848b800435111fb3c8
+#: 24487317b19842848b800435111fb3c8
+msgid "unit:classification"
+msgstr ""
+
+#: ../../source/downloads.rst:70
+#: ../../source/downloads.rst:90
+#: ../../source/downloads.rst:117
+#: ../../source/downloads.rst:144
+#: ../../source/downloads.rst:172
+#: ../../source/downloads.rst:201
+#: 17ef437d95194486bd4b63fb26733d17
+#: b9349f00a1ac4b7ba4b50d00456a028d
+#: 02f3d70479644d67814ad2465c07ae25
+#: b967f2a65ae34214bc88c008e1d7c571
+#: da46c375879842b0b0f7ce97d50da31d
+#: a39ebbbde7b94599ba114c33bb1bdfdf
+msgid "unit:other_names"
+msgstr ""
+
+#: ../../source/downloads.rst:71
+#: ../../source/downloads.rst:91
+#: ../../source/downloads.rst:118
+#: ../../source/downloads.rst:145
+#: ../../source/downloads.rst:173
+#: ../../source/downloads.rst:202
+#: 48932deb606440778d359026b06353e4
+#: a18e829a55e34838a9b09eb655fa93b8
+#: 16e7238924bc44bc810fe0a9b6624eb9
+#: 11549439b45f43ec9eb92c44233b24e6
+#: 4563b3a8e5ce4947afef79f2d5ced52f
+#: d640f709110b43888085c8dad1dbba6a
+msgid "unit:first_cited_date"
+msgstr ""
+
+#: ../../source/downloads.rst:72
+#: ../../source/downloads.rst:92
+#: ../../source/downloads.rst:119
+#: ../../source/downloads.rst:146
+#: ../../source/downloads.rst:174
+#: ../../source/downloads.rst:203
+#: 1c1371611cad462589b5247466525ea5
+#: 749b7e1060454c66a7bc66e5a1149e0a
+#: 9d07c1ded52a45ae9f0fcbd27ba580fb
+#: 7c685b0730e7458fbc398905031f9952
+#: ddaba397097d44199b4efa85b21913bf
+#: dff99f9fd99545b48205c5d99a223bfd
+msgid "unit:last_cited_date"
+msgstr ""
+
+#: ../../source/downloads.rst:73
+#: ../../source/downloads.rst:93
+#: ../../source/downloads.rst:120
+#: ../../source/downloads.rst:147
+#: ../../source/downloads.rst:175
+#: ../../source/downloads.rst:204
+#: 2bb5e5ac47504703bcf2c4f3606cfd85
+#: c5de9e045e844deea18bfed0398af9d1
+#: 3255f5416833431e958c24b0c71cb27d
+#: 81af876bc3c1453e95eb2e23d153db96
+#: e805a6dd8a714ac18e8367f1bfe15d64
+#: 0343ef7dcb544bca96f8f6027b2a9687
+msgid "unit:first_cited_date_start"
+msgstr ""
+
+#: ../../source/downloads.rst:74
+#: ../../source/downloads.rst:94
+#: ../../source/downloads.rst:121
+#: ../../source/downloads.rst:148
+#: ../../source/downloads.rst:176
+#: ../../source/downloads.rst:205
+#: 05c44658a413476d965908f26968b6eb
+#: fbaebec7710c49da9f30d8b4098885ce
+#: 528baaac8edd4d29a3f02a2566901250
+#: 5fd229577ba74928b7416c099dd873ee
+#: d629f91d5579402c92308e258dd49b49
+#: 93e1231e64954f20a1092a570515468b
+msgid "unit:last_cited_date_open"
 msgstr ""
 
 #: ../../source/downloads.rst:78
@@ -178,24 +320,54 @@ msgstr ""
 msgid "The \"Parentage\" download contains data that describes how units fit into the organizational structure of the security and defence forces of the specified country. Each row contains a child-parent (``unit:name`` - ``unit:related_unit``) relationship inside the orgaizational hierarchy. Each row also contains data on the timescale for each relationship. You can find more information about how relatioships between units work in the :ref:`Unit: Related Unit` section of this handbook."
 msgstr ""
 
-#: ../../source/downloads.rst:84
-#: ../../source/downloads.rst:111
-#: ../../source/downloads.rst:138
-#: ../../source/downloads.rst:166
-#: ../../source/downloads.rst:195
-#: ../../source/downloads.rst:241
-#: 646005fa44114bac8d457eea7ec785d8
-#: ac76d75ca4a74e7b882fee9c1165ec79
-#: 3346cb2f11c64449a0779453995e1acc
-#: dd4f41260a80453dad2a085f7b25a2fb
-#: 6ea39114e2cb4f0f8ce31486c2cfea51
-#: 799c1768a9864ad487f14f24334f1f36
-msgid "**Fields**"
+#: ../../source/downloads.rst:95
+#: ../../source/downloads.rst:123
+#: 6dbb705831a74eedb3d33bcb7b3807aa
+#: 149e8402d4204b758aac86dd575efe4a
+msgid "unit:related_unit"
 msgstr ""
 
-#: ../../source/downloads.rst:86
-#: f78b474e55de49268d8cff6a109b8f08
-msgid "1   unit:id:admin 2   unit:name 3   unit:country 4   unit:classification 5   unit:other_names 6   unit:first_cited_date 7   unit:last_cited_date 8   unit:first_cited_date_start 9   unit:last_cited_date_open 10  unit:related_unit 11  unit:related_unit:name 12  unit:related_unit:country 13  unit:related_unit_class 14  unit:related_unit_first_cited_date 15  unit:related_unit_first_cited_date_start 16  unit:related_unit_last_cited_date 17  unit:related_unit_open"
+#: ../../source/downloads.rst:96
+#: d2195ded9a114f4492094de5bc1a07dd
+msgid "unit:related_unit:name"
+msgstr ""
+
+#: ../../source/downloads.rst:97
+#: a271705038d347a2af0647cb9cbcefae
+msgid "unit:related_unit:country"
+msgstr ""
+
+#: ../../source/downloads.rst:98
+#: a0b9f81213f04554961bb9c27754f561
+msgid "unit:related_unit_class"
+msgstr ""
+
+#: ../../source/downloads.rst:99
+#: ../../source/downloads.rst:126
+#: 9dd2ebeb28b143afa4e8ef96bcb0a8f8
+#: 24515b65050a4e078ec2d16309bfb075
+msgid "unit:related_unit_first_cited_date"
+msgstr ""
+
+#: ../../source/downloads.rst:100
+#: ../../source/downloads.rst:127
+#: d37f0c96cdcf4402a69944f9a0e83ca9
+#: e83667f726a74004ab4f33430bc2d78f
+msgid "unit:related_unit_first_cited_date_start"
+msgstr ""
+
+#: ../../source/downloads.rst:101
+#: ../../source/downloads.rst:128
+#: 4793029db48b4b2c9a141c72096936e0
+#: 41cb967ea5d345039476de8cde8473b8
+msgid "unit:related_unit_last_cited_date"
+msgstr ""
+
+#: ../../source/downloads.rst:102
+#: ../../source/downloads.rst:129
+#: cf3cbfc8e6a74cf6a76ad8817b201ee4
+#: a36c76489ba9418288c47730a3929f97
+msgid "unit:related_unit_open"
 msgstr ""
 
 #: ../../source/downloads.rst:105
@@ -208,9 +380,19 @@ msgstr ""
 msgid "The \"Memberships\" download contains data showing that the unit has been attached to internal/national joint operations, international peacekeeping operations, or other multi-unit efforts. These operational unit groupings exist in parallel to units' positionings in the regular organizational structure as described in the \"Parentage\" download. You can find more information about how memberships work in the :ref:`Unit: Related Unit` section of this handbook."
 msgstr ""
 
-#: ../../source/downloads.rst:113
-#: 44ac62bfc30b48a98eeef26fc59b88fb
-msgid "1   unit:id:admin 2   unit:name 3   unit:country 4   unit:classification 5   unit:other_names 6   unit:first_cited_date 7   unit:last_cited_date 8   unit:first_cited_date_start 9   unit:last_cited_date_open 10  unit:membership_id 11  unit:related_unit 12  unit:member_country 13  unit:member_classification 14  unit:related_unit_first_cited_date 15  unit:related_unit_first_cited_date_start 16  unit:related_unit_last_cited_date 17  unit:related_unit_open"
+#: ../../source/downloads.rst:122
+#: 72d5025b66074c128422f2b34a011e8d
+msgid "unit:membership_id"
+msgstr ""
+
+#: ../../source/downloads.rst:124
+#: 9038fda4d50f45b29bf5fdb620a11f52
+msgid "unit:member_country"
+msgstr ""
+
+#: ../../source/downloads.rst:125
+#: 1565a37862444202a109256fcc9147fe
+msgid "unit:member_classification"
 msgstr ""
 
 #: ../../source/downloads.rst:132
@@ -223,9 +405,49 @@ msgstr ""
 msgid "The \"Areas of operation\" download describes the geographical areas that units have either been assigned to or in which they have been observed operating within. The Research Handbook sections :ref:`Unit: Location Type`, :ref:`Unit: Location` and :ref:`Locations` describe the concept of an area of operation in more detail."
 msgstr ""
 
-#: ../../source/downloads.rst:140
-#: f388adf29d994248949e86577f224397
-msgid "1   unit:id:admin 2   unit:name 3   unit:country 4   unit:classification 5   unit:other_names 6   unit:first_cited_date 7   unit:last_cited_date 8   unit:first_cited_date_start 9   unit:last_cited_date_open 10  unit:area_ops_id 11  unit:area_ops_name 12  unit:area_ops_country 13  unit:area_ops_feature_type 14  unit:area_ops_admin_level 15  unit:area_ops_admin_level_1_id 16  unit:area_ops_admin_level_1_name 17  unit:area_ops_admin_level_2_id 18  unit:area_ops_admin_level_2_name"
+#: ../../source/downloads.rst:149
+#: 59ae736d23af4f8a8e3c83521455c364
+msgid "unit:area_ops_id"
+msgstr ""
+
+#: ../../source/downloads.rst:150
+#: c3864d88fad54f7d807cdcbe67cc2bfe
+msgid "unit:area_ops_name"
+msgstr ""
+
+#: ../../source/downloads.rst:151
+#: e27ae82e590d405f9581c28ef81e2174
+msgid "unit:area_ops_country"
+msgstr ""
+
+#: ../../source/downloads.rst:152
+#: 6c0b37b13f8241a1aa2d894f813d5e67
+msgid "unit:area_ops_feature_type"
+msgstr ""
+
+#: ../../source/downloads.rst:153
+#: afc1573264e24020aa62fc580c6a671b
+msgid "unit:area_ops_admin_level"
+msgstr ""
+
+#: ../../source/downloads.rst:154
+#: 0cf912dc12034301b38e731a825392b5
+msgid "unit:area_ops_admin_level_1_id"
+msgstr ""
+
+#: ../../source/downloads.rst:155
+#: a1f63e09b6154f428a90b1022bcf6cd5
+msgid "unit:area_ops_admin_level_1_name"
+msgstr ""
+
+#: ../../source/downloads.rst:156
+#: a634fdaef8a844c9a4d52a313c1fe65f
+msgid "unit:area_ops_admin_level_2_id"
+msgstr ""
+
+#: ../../source/downloads.rst:157
+#: 4b9a05613df04928a47ddfea48b2ba6e
+msgid "unit:area_ops_admin_level_2_name"
 msgstr ""
 
 #: ../../source/downloads.rst:160
@@ -238,9 +460,49 @@ msgstr ""
 msgid "The \"Sites\" download describes the specific locations at which specific units have been observed. This download covers locations like infrastructure (such as police stations, barracks, airfields) and specific settlements. The Research Handbook sections :ref:`Unit: Location Type`, :ref:`Unit: Location` and :ref:`Locations` describe the concept of site in more detail."
 msgstr ""
 
-#: ../../source/downloads.rst:168
-#: fb0a17d5f4274eefa7de2b77de1272b9
-msgid "1   unit:id:admin 2   unit:name 3   unit:country 4   unit:classification 5   unit:other_names 6   unit:first_cited_date 7   unit:last_cited_date 8   unit:first_cited_date_start 9   unit:last_cited_date_open 10  unit:site_exact_location_id_latitude 11  unit:site_exact_location_name_longitude 12  unit:site_country 13  unit:site_feature_type 14  unit:site_admin_level 15  unit:site_nearest_settlement_id 16  unit:site_nearest_settlement_name 17  unit:site_first_admin_area_id 18  unit:site_first_admin_area_name"
+#: ../../source/downloads.rst:177
+#: 46d699beb2a7463aa4085e16253a776f
+msgid "unit:site_exact_location_id_latitude"
+msgstr ""
+
+#: ../../source/downloads.rst:178
+#: 0adf90f914614445b80c45c2e22fa8b1
+msgid "unit:site_exact_location_name_longitude"
+msgstr ""
+
+#: ../../source/downloads.rst:179
+#: 3c47bf3729634d84a64d8a65676f08ed
+msgid "unit:site_country"
+msgstr ""
+
+#: ../../source/downloads.rst:180
+#: 32a9981737c24f54bf5e1c0af75cc2b2
+msgid "unit:site_feature_type"
+msgstr ""
+
+#: ../../source/downloads.rst:181
+#: 63934d45af584ee9aecaab2cd6fdc7e8
+msgid "unit:site_admin_level"
+msgstr ""
+
+#: ../../source/downloads.rst:182
+#: 75017df90ae84eecb8a9728478868496
+msgid "unit:site_nearest_settlement_id"
+msgstr ""
+
+#: ../../source/downloads.rst:183
+#: 5842959ca6cc41bd863eb4123d598e96
+msgid "unit:site_nearest_settlement_name"
+msgstr ""
+
+#: ../../source/downloads.rst:184
+#: 045c4993eb5f4cfab4aceab4a3c0b844
+msgid "unit:site_first_admin_area_id"
+msgstr ""
+
+#: ../../source/downloads.rst:185
+#: dc662f4e55bb465f9f5899fdb3b06617
+msgid "unit:site_first_admin_area_name"
 msgstr ""
 
 #: ../../source/downloads.rst:189
@@ -253,9 +515,139 @@ msgstr ""
 msgid "The \"Personnel\" download provides data on people holding command positions in specific units. The download is organized by the unit to which a person was posted. It contains data on the person's posting (such as their role, rank, and title) in addition to any further biographical information (social media accounts, imagery of them, and so on). More information about how Security Force Monitor records data about persons is in the Research Handbook sections on :ref:`Persons` and :ref:`Persons Extra`."
 msgstr ""
 
-#: ../../source/downloads.rst:197
-#: 8caf796bc715424da5edae2921bb12a2
-msgid "1   unit:id:admin 2   unit:name 3   unit:country 4   unit:classification 5   unit:other_names 6   unit:first_cited_date 7   unit:last_cited_date 8   unit:first_cited_date_start 9   unit:last_cited_date_open 10  person:admin:id 11  person:name 12  person:other_names 13  person:country 14  person_extra:date_of_birth 15  person_extra:deceased_date 16  person_extra:deceased 17  person_extra:account_type 18  person_extra:account_id 19  person_extra:external_link_description 20  person_extra:media_desc 21  person_extra:notes:admin 22  person:posting_role 23  person:posting_rank 24  person:posting_title 25  person:posting_first_cited_date 26  person:posting_first_cited_date:year 27  person:posting_first_cited_date:month 28  person:posting_first_cited_date:day 29  person:posting_first_cited_date_start 30  person:posting_first_cited_date_start_context 31  person:posting_last_cited_date 32  person:posting_last_cited_date:year 33  person:posting_last_cited_date:month 34  person:posting_last_cited_date:day 35  person:posting_last_cited_date_end 36  person:posting_last_cited_date_end_context"
+#: ../../source/downloads.rst:206
+#: 5370b9bbe11d4bb78ea80e7be21a07f1
+msgid "person:admin:id"
+msgstr ""
+
+#: ../../source/downloads.rst:207
+#: 02eb5f5a83e14ff396637e37040540f1
+msgid "person:name"
+msgstr ""
+
+#: ../../source/downloads.rst:208
+#: 363b080bab03442f8b980f732f1c586f
+msgid "person:other_names"
+msgstr ""
+
+#: ../../source/downloads.rst:209
+#: 6608e44c26754a87a0bb01ba998d3f17
+msgid "person:country"
+msgstr ""
+
+#: ../../source/downloads.rst:210
+#: cca3e83f1d4c4879a26acf050bf0e328
+msgid "person_extra:date_of_birth"
+msgstr ""
+
+#: ../../source/downloads.rst:211
+#: d79a9d72f2e24d9cb4e6a94282b65c47
+msgid "person_extra:deceased_date"
+msgstr ""
+
+#: ../../source/downloads.rst:212
+#: 2104ad12896c4617a704eb8e7c78b391
+msgid "person_extra:deceased"
+msgstr ""
+
+#: ../../source/downloads.rst:213
+#: 06e2c458e49f4436a51948e3b7ecddd2
+msgid "person_extra:account_type"
+msgstr ""
+
+#: ../../source/downloads.rst:214
+#: 4336fde11e134088b271b4cc086ddab0
+msgid "person_extra:account_id"
+msgstr ""
+
+#: ../../source/downloads.rst:215
+#: 09cf088196a944f69217fd1c2f83708a
+msgid "person_extra:external_link_description"
+msgstr ""
+
+#: ../../source/downloads.rst:216
+#: dba1247406994ff791e4a63aa76a1d02
+msgid "person_extra:media_desc"
+msgstr ""
+
+#: ../../source/downloads.rst:217
+#: c45ce1c584ca4bdf9f962630156f268b
+msgid "person_extra:notes:admin"
+msgstr ""
+
+#: ../../source/downloads.rst:218
+#: e23ff685433d4b969bec2fdec3f6ee78
+msgid "person:posting_role"
+msgstr ""
+
+#: ../../source/downloads.rst:219
+#: 9306ac20877b4231ab2f51eca0405c8a
+msgid "person:posting_rank"
+msgstr ""
+
+#: ../../source/downloads.rst:220
+#: affbf4f1d5a24f27aa37d88d9e41892f
+msgid "person:posting_title"
+msgstr ""
+
+#: ../../source/downloads.rst:221
+#: c0709c8454f4451db1ada2481b33fbb6
+msgid "person:posting_first_cited_date"
+msgstr ""
+
+#: ../../source/downloads.rst:222
+#: b2c8e07dfa3b417ba563022dea4f34d6
+msgid "person:posting_first_cited_date:year"
+msgstr ""
+
+#: ../../source/downloads.rst:223
+#: 210cb2874aed4885ae2333fa6fd05596
+msgid "person:posting_first_cited_date:month"
+msgstr ""
+
+#: ../../source/downloads.rst:224
+#: e32175e3c7cc4a408a996fc204bd5fed
+msgid "person:posting_first_cited_date:day"
+msgstr ""
+
+#: ../../source/downloads.rst:225
+#: 6d869915d51c478091ee7cebdc8154da
+msgid "person:posting_first_cited_date_start"
+msgstr ""
+
+#: ../../source/downloads.rst:226
+#: 4ae89bface2a48e28c844e9579628231
+msgid "person:posting_first_cited_date_start_context"
+msgstr ""
+
+#: ../../source/downloads.rst:227
+#: 351fd862231640f284f6416219bb2b41
+msgid "person:posting_last_cited_date"
+msgstr ""
+
+#: ../../source/downloads.rst:228
+#: 9e6e8237a0ed45d392dcf11fa184e4a7
+msgid "person:posting_last_cited_date:year"
+msgstr ""
+
+#: ../../source/downloads.rst:229
+#: 27a493e4a3d94319a41d2471cadd9dc0
+msgid "person:posting_last_cited_date:month"
+msgstr ""
+
+#: ../../source/downloads.rst:230
+#: 0b36e78092f043678a7f61fb58a23d0f
+msgid "person:posting_last_cited_date:day"
+msgstr ""
+
+#: ../../source/downloads.rst:231
+#: 9d9ebbd3cebe4f65885bd3826df82494
+msgid "person:posting_last_cited_date_end"
+msgstr ""
+
+#: ../../source/downloads.rst:232
+#: 720127937c534dd2a4a42225e8f4611e
+msgid "person:posting_last_cited_date_end_context"
 msgstr ""
 
 #: ../../source/downloads.rst:235
@@ -269,6 +661,76 @@ msgid "The \"Sources\" download contains a list of all the sources used to evide
 msgstr ""
 
 #: ../../source/downloads.rst:243
-#: 90464b6ac8534ea7846565b1fa94a04a
-msgid "1   source:id:admin 2   source:title 3   source:type 4   source:author 5   source:publication_name 6   source:publication_country 7   source:published_timestamp 8   source:created_timestamp 9   source:uploaded_timestamp 10  source:url 11  source:access_point_id 12  source:access_point_type 13  source:access_point_trigger 14  source:accessed_timestamp 15  source:archive_url"
+#: 511d1db2a29944b3bd080e421d682b2b
+msgid "source:id:admin"
+msgstr ""
+
+#: ../../source/downloads.rst:244
+#: 0a11670991324dc98a387f91029978c0
+msgid "source:title"
+msgstr ""
+
+#: ../../source/downloads.rst:245
+#: 5b3ecfdcb40546d9b185d02fdcf2574e
+msgid "source:type"
+msgstr ""
+
+#: ../../source/downloads.rst:246
+#: 752382ec733c4779a7d985d828840e4f
+msgid "source:author"
+msgstr ""
+
+#: ../../source/downloads.rst:247
+#: ac4ff9f6924c4c1fb740bdf9ed2105f2
+msgid "source:publication_name"
+msgstr ""
+
+#: ../../source/downloads.rst:248
+#: 59de8ffe70a643e9a06029d3499cf8b3
+msgid "source:publication_country"
+msgstr ""
+
+#: ../../source/downloads.rst:249
+#: ab0a43e90cf24c4c9a16b9c7a5e2e101
+msgid "source:published_timestamp"
+msgstr ""
+
+#: ../../source/downloads.rst:250
+#: c0f117685e244bd6ac8bb512c715404b
+msgid "source:created_timestamp"
+msgstr ""
+
+#: ../../source/downloads.rst:251
+#: 27a41ae3f1924ff79911475ea0ef3abe
+msgid "source:uploaded_timestamp"
+msgstr ""
+
+#: ../../source/downloads.rst:252
+#: 89aaa54116a1457497bf37a7db99aa87
+msgid "source:url"
+msgstr ""
+
+#: ../../source/downloads.rst:253
+#: 515de37617b94ac88bb6e8d698423ca1
+msgid "source:access_point_id"
+msgstr ""
+
+#: ../../source/downloads.rst:254
+#: 15eb9699ed53425da78c03d0caf55e93
+msgid "source:access_point_type"
+msgstr ""
+
+#: ../../source/downloads.rst:255
+#: 48fbcb020db547139840c0307f5cf471
+msgid "source:access_point_trigger"
+msgstr ""
+
+#: ../../source/downloads.rst:256
+#: 0a58a66298224d32a0d005f2672985e3
+msgid "source:accessed_timestamp"
+msgstr ""
+
+#: ../../source/downloads.rst:257
+#: bf592c73451845eb9ad4655ec0b2f92e
+msgid "source:archive_url"
 msgstr ""
