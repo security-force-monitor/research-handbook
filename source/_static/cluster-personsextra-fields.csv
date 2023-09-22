@@ -1,0 +1,16 @@
+Attribute label	Attribute name	Status	Data type	Conformed name
+`Person Extra Data: Unique Identifier`_	``::extra:id``	required	uuid-string	:claim/about-entity:id
+`Person Extra Data: Claim Citation Identifier`_	``::extra:claim:citation:id``	required	strings<->uuids	:claim/citation:ids
+`Person Extra Data: Person Unique Identifier`_	``::extra:person:id``	required	string	Not yet implemented
+`Person Extra Data: Person Gender`_	``::extra:gender``	optional	string	Not yet implemented
+`Person Extra Data: Date of Birth`_	``::extra:date_of_birth``	optional	timestamp	Not yet implemented
+`Person Extra Data: Deceased?`_	``::extra:is_deceased``	optional	bool	Not yet implemented
+`Person Extra Data: Date of Death`_	``::extra:date_of_death``	optional	timestamp	Not yet implemented
+`Person Extra Data: Account Type`_	``::extra:account_type``	optional	string	Not yet implemented
+`Person Extra Data: Account Identifier`_	``::extra:account_identifier``	optional	string	Not yet implemented
+`Person Extra Data: External Link Description`_	``::extra:external_link_description``	optional	string	Not yet implemented
+`Person Extra Data: Media Description`_	``::extra:external_media_description``	optional	string	Not yet implemented
+`Person Extra Data: Notes`_	``::extra:notes``	optional	string	Not yet implemented
+`Person Extra Data: Research Comments`_	``::extra:claim:comment``	optional	string	:meta/comment
+`Person Extra Data: Research Owner`_	``::extra:claim:researcher``	optional	string	:meta/reseacher
+`Person Extra Data: Research Status`_	``::extra:claim:status``	optional	status	:meta/status

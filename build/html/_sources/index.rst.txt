@@ -1,44 +1,38 @@
-Security Force Monitor: Research Handbook
-=========================================
+Security Force Monitor: Research Handbook (draft overhaul)
+==========================================================
 
 .. toctree::
-   :caption: Introduction
-   :maxdepth: 1
+   :caption: Units
+   :maxdepth: 2
 
-   overview
-
-.. toctree::
-   :caption: Methodology
-   :maxdepth: 1
-
-   methodology
-   tutorials
-
-.. toctree::
-   :caption: Countries
-   :maxdepth: 1
-
-   countries
-
-.. toctree::
-   :caption: Data Model
-   :maxdepth: 1
-
-   datamodel
-   data_integrity
    units
+   units_identity
+   units_relations
+   units_positionings
+
+.. toctree::
+   :caption: Persons
+   :maxdepth: 2
+
    persons
+   persons_identity
+   persons_postings
+   persons_extra
+
+.. toctree::
+   :caption: Incidents
+   :maxdepth: 2
+
+   incidents
+   incidents_attributes
+
+..   datamodel
+   data_integrity
+   relations
+   persons
+   positionings
    persons_extra
    incidents
    locations
+   citations
    sources
-
-.. toctree::
-   :caption: WhoWasInCommand
-   :maxdepth: 1
-
-   generalfunctions
-   unitrec
-   personsrec
-   incidentrec
-   downloads

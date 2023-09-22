@@ -1,0 +1,15 @@
+Attribute label	Attribute name	Status	Data type	Conformed name
+`Person Identity: Unique Identifier`_	``::person:id``	required	uuid-string	:claim/about-entity:id
+`Person Identity: Claim Citation Identifier`_	``::person:claim:citation:id``	required	strings<->uuids	:claim/citation:ids
+`Person Identity: Name`_	``::person:name``	optional	string	:assertion/person:name
+`Person Identity: Other Names`_	``::person:other_names``	optional	cell-list	:assertion/person:other-names
+`Person Identity: Country`_	``::person:country``	optional	country-iso-string	:assertion/country
+`Person Identity: Earliest Precise Date`_	``::person:date-range-precise:first``	optional	string-date<->timestamp	:range-precise/first
+`Person Identity: Latest Precise Date`_	``::person:date-range-precise:last``	optional	string-date<->timestamp	:range-precise/last
+`Person Identity: Earliest Imprecise Date`_	``::person:date-range-imprecise:first``	optional	string-date<->timestamp	:range-imprecise/first
+`Person Identity: Latest Imprecise Date`_	``::person:date-range-imprecise:last``	optional	string-date<->timestamp	:range-imprecise/last
+`Person Identity: Date range is a Start Date`_	``::person:date-range:starting?``	optional	YN<->bool	:range/starting?
+`Person Identity: Date range is an End Date`_	``::person:date-range:ending?``	optional	YN<->bool	:range/ending/
+`Person Identity: Research Comments`_	``::person:claim:comment``	optional	string	:meta/comment
+`Person Identity: Research Owner`_	``::person:claim:researcher``	optional	string	:meta/researcher
+`Person Identity: Research Status`_	``::person:claim:status``	optional	status	:meta/status
