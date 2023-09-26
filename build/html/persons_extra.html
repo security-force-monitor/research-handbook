@@ -358,6 +358,115 @@
 <li><p>Conformed name: a standardized name that simplifies attribute use in SFM databases</p></li>
 </ul>
 </div></blockquote>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Attribute label</p></th>
+<th class="head"><p>Attribute name</p></th>
+<th class="head"><p>Status</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Conformed name</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="#person-extra-data-unique-identifier">Person Extra Data: Unique Identifier</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:id</span></code></p></td>
+<td><p>required</p></td>
+<td><p>uuid-string</p></td>
+<td><p>:claim/about-entity:id</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#person-extra-data-claim-citation-identifier">Person Extra Data: Claim Citation Identifier</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:claim:citation:id</span></code></p></td>
+<td><p>required</p></td>
+<td><p>strings&lt;-&gt;uuids</p></td>
+<td><p>:claim/citation:ids</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#person-extra-data-person-unique-identifier">Person Extra Data: Person Unique Identifier</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:person:id</span></code></p></td>
+<td><p>required</p></td>
+<td><p>string</p></td>
+<td><p>Not yet implemented</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#person-extra-data-person-gender">Person Extra Data: Person Gender</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:gender</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string</p></td>
+<td><p>Not yet implemented</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#person-extra-data-date-of-birth">Person Extra Data: Date of Birth</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:date_of_birth</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>timestamp</p></td>
+<td><p>Not yet implemented</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#person-extra-data-deceased">Person Extra Data: Deceased?</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:is_deceased</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>bool</p></td>
+<td><p>Not yet implemented</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#person-extra-data-date-of-death">Person Extra Data: Date of Death</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:date_of_death</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>timestamp</p></td>
+<td><p>Not yet implemented</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#person-extra-data-account-type">Person Extra Data: Account Type</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:account_type</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string</p></td>
+<td><p>Not yet implemented</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#person-extra-data-account-identifier">Person Extra Data: Account Identifier</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:account_identifier</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string</p></td>
+<td><p>Not yet implemented</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#person-extra-data-external-link-description">Person Extra Data: External Link Description</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:external_link_description</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string</p></td>
+<td><p>Not yet implemented</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#person-extra-data-media-description">Person Extra Data: Media Description</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:external_media_description</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string</p></td>
+<td><p>Not yet implemented</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#person-extra-data-notes">Person Extra Data: Notes</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:notes</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string</p></td>
+<td><p>Not yet implemented</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#person-extra-data-research-comments">Person Extra Data: Research Comments</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:claim:comment</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string</p></td>
+<td><p>:meta/comment</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#person-extra-data-research-owner">Person Extra Data: Research Owner</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:claim:researcher</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string</p></td>
+<td><p>:meta/reseacher</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#person-extra-data-research-status">Person Extra Data: Research Status</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::extra:claim:status</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>status</p></td>
+<td><p>:meta/status</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="person-extra-data-details-of-claim-attributes">
 <h2>Person Extra Data: Details of claim attributes<a class="headerlink" href="#person-extra-data-details-of-claim-attributes" title="Permalink to this headline">¶</a></h2>

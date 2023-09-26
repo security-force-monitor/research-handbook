@@ -22,7 +22,7 @@ The table below summarises the following dimensions of Unit Identity claims:
  - Conformed name: a standardized name that simplifies attribute use in SFM databases
 
 .. csv-table::
-   :file: _static/cluster-personsextra-attributes.csv
+   :file: _static/cluster-personsextra-fields.csv
    :header-rows: 1
    :delim: tab
 
