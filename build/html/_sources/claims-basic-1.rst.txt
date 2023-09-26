@@ -49,12 +49,15 @@ We can begin to express these claims more economically by using a set of standar
 
 We can refine this further. In our system, claims have a range of different subjects: claims about the identity of a person, claims about a particular posting that a person has, claims about a unit’s identity or its relationships with others, and so on. Based on the type of information we’re pulling out from a source, we determine the type of claim that the source is making. So, data about a person’s name is a “Person Identity” claim type. 
 
+
 .. csv-table::
    :file: _static/example-claim-as-table-A.csv
    :header-rows: 1
    :delim: tab
 
+
 The data about the unit to which the person is posted is a “Person Posting” claim type: 
+
 
 .. csv-table::
    :file: _static/example-claim-as-table-B.csv

@@ -384,7 +384,60 @@
 <li><p>“Source of claim: ”Shan Herald Agency for News, 10 September 2012.</p></li>
 </ul>
 <p>We can refine this further. In our system, claims have a range of different subjects: claims about the identity of a person, claims about a particular posting that a person has, claims about a unit’s identity or its relationships with others, and so on. Based on the type of information we’re pulling out from a source, we determine the type of claim that the source is making. So, data about a person’s name is a “Person Identity” claim type.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Claim type</p></th>
+<th class="head"><p>Person Identity</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Person Name</p></td>
+<td><p>Aung Soe</p></td>
+</tr>
+<tr class="row-odd"><td><p>Date of claim</p></td>
+<td><p>September 2012</p></td>
+</tr>
+<tr class="row-even"><td><p>Source of claim</p></td>
+<td><p>Shan Herald Agency for News, 10 September 2012</p></td>
+</tr>
+</tbody>
+</table>
 <p>The data about the unit to which the person is posted is a “Person Posting” claim type:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Claim type</p></th>
+<th class="head"><p>Person Posting</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Person Name</p></td>
+<td><p>Aung Soe</p></td>
+</tr>
+<tr class="row-odd"><td><p>Unit Name</p></td>
+<td><p>Northeastern Region Command</p></td>
+</tr>
+<tr class="row-even"><td><p>Person Role</p></td>
+<td><p>Commander</p></td>
+</tr>
+<tr class="row-odd"><td><p>Person Rank</p></td>
+<td><p>Brig Gen</p></td>
+</tr>
+<tr class="row-even"><td><p>Date of claim</p></td>
+<td><p>September 2012</p></td>
+</tr>
+<tr class="row-odd"><td><p>Source of claim</p></td>
+<td><p>Shan Herald Agency for News, 10 September 2012</p></td>
+</tr>
+</tbody>
+</table>
 <p>From this point, we add shorter fieldnames to the claim to make it conform with the various data models we use. For example, a “Person Posting” claim type may include data about a person’s rank, role or title whilst posted to a unit, along with precise (or imprecise) dates for which this data are valid.</p>
 <p>We also add additional data about the claim itself, such as an identifier, that allows it to be managed in our technical systems. We also transform how the source is expressed, substituting the text for a specific identity number that cites the page, paragraph, line number (amongst others) in the source. The “look” of claim begins to change a bit, but this simply depends on the tool that is used to manage it. For example, here’s how this claim looks as a row in a spreadsheet:</p>
 <table class="docutils align-default">
