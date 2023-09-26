@@ -13,7 +13,6 @@ This is a draft claim type not yet formally implemented in the SFM data model.
 Person Extra Data: Summary of claim attributes 
 **********************************************
 
-
 The table below summarises the following dimensions of Unit Identity claims:
 
  - Attribute label: a human readable label for the attribute
