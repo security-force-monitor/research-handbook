@@ -6,6 +6,7 @@ Security Force Monitor: Research Handbook (draft overhaul)
    :maxdepth: 2
 
    claims-basic-1
+   how-dates-work
 
 .. toctree::
    :caption: Units

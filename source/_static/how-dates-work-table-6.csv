@@ -1,0 +1,7 @@
+Attribute label	Attribute name	Value
+:ref:`Person Posting: Person Identifier`	``::posting:person:id``	Mya Tun Oo
+:ref:`Person Posting: Unit Identifier`	``::posting:unit:id``	6 Bureau of Special Operations
+:ref:`Person Posting: Earliest Precise Date`	``::posting:date-range-precise:first``	2014-09-08
+:ref:`Person Posting: Latest Precise Date`	``::posting:date-range-precise:last``	2014-09-08
+:ref:`Person Posting: Date Range is a Start Date`	``::posting:date-range:starting?``	Y
+:ref:`Person Posting: Date Range is an End Date`	``::posting:date-range:ending?``	N

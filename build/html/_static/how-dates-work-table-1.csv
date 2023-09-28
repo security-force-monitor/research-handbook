@@ -1,0 +1,7 @@
+Attribute label	Attribute name
+:ref:`Unit Relation: Earliest Precise Date`	``::relation:date-range-precise:first``
+:ref:`Unit Relation: Latest Precise Date`	``::relation:date-range-precise:last``
+:ref:`Unit Relation: Earliest Imprecise Date`	``::relation:date-range-imprecise:first``
+:ref:`Unit Relation: Latest Imprecise Date`	``::relation:date-range-imprecise:last``
+:ref:`Unit Relation: Date Range is a Start Date`	``::relation:date-range:starting?``
+:ref:`Unit Relation: Date Range is an End Date`	``::relation:date-range:ending?``
