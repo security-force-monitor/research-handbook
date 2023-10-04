@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'SFM Research Handbook'
+project = 'Security Force Monitor: Research Handbook'
 copyright = '2017-2023, Security Force Monitor'
 author = 'Security Force Monitor'
 

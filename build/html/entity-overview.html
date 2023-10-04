@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Research methodology &mdash; Security Force Monitor: Research Handbook  documentation</title>
+  <title>Our general data model &mdash; Security Force Monitor: Research Handbook  documentation</title>
   
 
   
@@ -37,7 +37,9 @@
 
     
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="What is a claim?" href="claims-basic-1.html" />
+    <link rel="prev" title="Security Force Monitor: Research Handbook (draft overhaul)" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -82,8 +84,9 @@
               
             
             
-              <p class="caption"><span class="caption-text">Claim-based Systems for Human Rights Research</span></p>
-<ul>
+              <p class="caption"><span class="caption-text">Our approach</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Our general data model</a></li>
 <li class="toctree-l1"><a class="reference internal" href="claims-basic-1.html">What is a claim?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="how-dates-work.html">Claims with dates</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="how-dates-work.html#finding-dates-in-sources">Finding dates in sources</a></li>
@@ -318,13 +321,13 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Research methodology</li>
+      <li>Our general data model</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="_sources/methodology.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/entity-overview.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -332,68 +335,37 @@
   </ul>
 
   
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="claims-basic-1.html" class="btn btn-neutral float-right" title="What is a claim?" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Security Force Monitor: Research Handbook (draft overhaul)" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="research-methodology">
-<h1>Research methodology<a class="headerlink" href="#research-methodology" title="Permalink to this headline">¶</a></h1>
-<p>Security Force Monitor follows a four phase process when researching the security forces of a country.</p>
-<div class="section" id="phase-1-scope-out-sources">
-<h2>Phase 1: Scope out sources<a class="headerlink" href="#phase-1-scope-out-sources" title="Permalink to this headline">¶</a></h2>
-<p><strong>General sources</strong></p>
-<p>Security Force Monitor collects data about the <a class="reference internal" href="persons.html"><span class="doc">Persons</span></a> and <a class="reference internal" href="units.html"><span class="doc">Units</span></a> that comprise security forces, along with allegations of human rights abuses made against security forces. This data is carefully collected from a variety of sources, generally online. These include:</p>
+  <div class="section" id="our-general-data-model">
+<h1>Our general data model<a class="headerlink" href="#our-general-data-model" title="Permalink to this headline">¶</a></h1>
+<p>Security Force Monitor investigates security and defence forces around the world, reconstructing their organisational structure, command personnel and chain of command, geographic footprint, and allegations of their involvement in committing human rights violations and violations of international criminal law. Further, we research the training and assistance that security and defence units have received from external security actors like the United States of America, the European Union, the United Nations, and through bilateral agreements with other states. All our information is drawn from sources that are nearly all online and in the public domain.</p>
+<div class="figure align-center" style="width: 100%">
+<a class="reference internal image-reference" href="_images/sfm_general_data_model.png"><img alt="Chart from the Security Force Monitor Research Handbook that describes the Monitor's general data model, including the main entities it collects informations about." src="_images/sfm_general_data_model.png" style="width: 95%;" /></a>
+</div>
+<p>We use the general data model described in the above illustration to structure and organize the information we collect during the course of our research. It describes relationships between different “entities”, which are logical groupings of data about a specific subject. For example, the “relation” entity is where we store data about the relationships between two different units;  culmulatively, all the records  of the “relation” entity type describe the hierarchical organizational structure that adopted by most security forces.</p>
+<p>Other sections of this Research Handbook expand on each of the entities and the relationships between these entities, including:</p>
 <ul class="simple">
-<li><p>Laws of the country;</p></li>
-<li><p>Official government media;</p></li>
-<li><p>Press releases from the relevant ministries of the country (Information, Defense, Interior, and others);</p></li>
-<li><p>Security force newsletters;</p></li>
-<li><p>Social media pages for security services or government agencies;</p></li>
-<li><p>Statistics and data agencies;</p></li>
-<li><p>Local government websites;</p></li>
-<li><p>Human rights commissions;</p></li>
-<li><p>Third country government publications and other documents;</p></li>
-<li><p>United Nations publications and other documents;</p></li>
-<li><p>Local news reportage;</p></li>
-<li><p>Civil society and human rights reporting;</p></li>
-<li><p>Academic research; and,</p></li>
-<li><p>Other country specific sources.</p></li>
+<li><p>A full description of each entity;</p></li>
+<li><p>The overall data structure and attributes we use for each entity;</p></li>
+<li><p>Examples on the types of data we enter into each attribute; and,</p></li>
+<li><p>Guidance on how we fill out each field and why.</p></li>
 </ul>
-<p>The Monitor also identifies non-digital resources such as monographs, scholarly literature, biographies and other materials about security services. The existence and availability of these type of sources vary widely from country to country.</p>
-<p><strong>State administrative structures and geography</strong></p>
-<p>Security Force Monitor researchers familiarize themselves with the country’s governance and administrative structures, gaining understanding about the levels of government (for example: local, regional, state, national) and their connection to different security forces. In examining this we also flag where there might be major changes in the structure of government, such as those that may accompany a constitutional referendum or a peace process. These affect how the Monitor will represent data on security forces over time.</p>
-<p>Examining the administrative geography of a country provides important context for the structure and operations of the security forces. This part of the scoping process also gives us insight into how much of a country’s administrative geography is represented in online gazetteers (like <a class="reference external" href="https://nominatim.openstreetmap.org/">OpenStreetMap</a> or <a class="reference external" href="https://www.geonames.org">GeoNames</a>) that the Monitor uses in its analysis.</p>
-<p><strong>Potential high value datasets</strong></p>
-<p>During this first phase, researchers also identify sources that could be turned into large, high value datasets for the Monitor. These are sources that contain a sufficiently large amount or complex type of data that technical help is necessary to extract it in a timely way; doing the work “by hand” is possible, but would be slow and error prone. These high value data extraction tasks use techniques such as web-scraping, scripted parsing and geospatial analysis. An example of these types of sources are the <a class="reference external" href="https://web.archive.org/web/20050908175401/http://www.sedena.gob.mx/ejercito/comandancias/index.html">Internet Archive snapshots the official webpage of the Mexican Army and Air Force</a> (and child pages) going back more than a decade which outline the top level structures of the Mexican army and its commanding officers.</p>
-</div>
-<div class="section" id="phase-2-write-a-country-guide">
-<h2>Phase 2: Write a Country Guide<a class="headerlink" href="#phase-2-write-a-country-guide" title="Permalink to this headline">¶</a></h2>
-<p>The sources gathered during our scoping phase are used to write a Country Guide to assist with further research.</p>
-<p>The Guide begins as a general overview of the structures of security services of a country. It gives researchers a general framework to help organize and prioritize research, by giving an estimate of the scale of the work: number of installations, units, persons that need to be researchers in detail.</p>
-<blockquote>
-<div><p>For example, the Monitor’s scoping research on Nigeria revealed that by law every state and the federal territory has a Police Command. By extension this means since 1996 (when the last states of Nigeria were created) there have been 37 Police Commands. Statistics from the Nigeria Police Force show that between 2007 and 2012 most Police Commands were in charge of 2 to 3 Police Area Commands (though some heavily populated states have more, with Lagos having the most at 8). These statistics also show that on average each state and the federal capital territory had 30 Police Divisions, which by law are generally under the command of a Police Area Command. Thus, from a few initial sources a Monitor researcher can have a general sense of the structure of the police and a useful metric to compare the Monitor’s dataset against.</p>
-</div></blockquote>
-<p>Further, a list of keywords and sources is created for researchers as well - these serve as leads for researchers to follow.</p>
-<p>This Country Guide is updated as new details on the security forces are discovered through the course of the Monitor’s work.</p>
-</div>
-<div class="section" id="phase-3-conduct-detailed-research">
-<h2>Phase 3: Conduct detailed research<a class="headerlink" href="#phase-3-conduct-detailed-research" title="Permalink to this headline">¶</a></h2>
-<p>Researchers use the initial keywords and sources to begin a “deep dive” into the security forces.</p>
-<p>Anything relating to the types of information the Monitor collects is entered into the Monitor’s database. The Data Model section of this Research Handbook gives detailed guidance to Monitor researchers about the types of data to take from sources and how it should be entered.</p>
-<p>Additionally, data from this research is used to update the Country Guide to provide greater granular detail on the security forces of a country or to update sections as needed. New sources and keywords discovered during research are added to the existing guide as well.</p>
-<p>As the Monitor builds its database on the security forces of a country, new information is cross-referenced to further evidence data, discover gaps, or identify mistakes. There are three key questions Monitor researchers ask themselves whenever they review information in a source:</p>
-<ul class="simple">
-<li><p>“Does this make sense given what is detailed about the security forces from other sources?”</p></li>
-<li><p>“Is it possible this source is correct and our other sources are incorrect?”</p></li>
-<li><p>“Do I have enough information to accept or reject what this source says?”</p></li>
-</ul>
-<p>The Country Guide acts as a framework for researchers to understand the security forces and to help a researcher answer these questions. Data entered into the Monitor’s databases are progressively updated as new information is found. Throughout, researchers take a number of quality assurance steps to validate the data against the standards set out in the Data Model section</p>
-</div>
-<div class="section" id="phase-4-publish-data">
-<h2>Phase 4: Publish data<a class="headerlink" href="#phase-4-publish-data" title="Permalink to this headline">¶</a></h2>
-<p>Researchers will publish data online when confident that the main branches and overall structure of a country’s security forces are adequately covered. Data is published online on the Monitor’s platform: <a class="reference external" href="https://whowasincommand.com/">WhoWasInCommand.com</a>.</p>
-</div>
+<p>The diagram above also highlights the special place that “sources” and “claims” hold in our research approach. Security Force Monitor uses a claim-based approach to the creation of data. A claim is an assertion of information evidenced by a source. Throughout our work, all specific pieces of information about any entity are kept together with the specific source from which they were drawn.</p>
+<p>This approach enables complete transparency about the origins of data, and is a powerful data integrity measure. All the data that comprise each record about each entity type are drawn from an aggregation of claims. This is discussed in much greater detail in the <a class="reference internal" href="claims-basic-1.html#what-is-a-claim"><span class="std std-ref">What is a claim?</span></a> section of this Research Handbook.</p>
+<p>Finally, the general data model guides the construction of the technologies we have built to capture, store and analyse data.</p>
 </div>
 
 
@@ -401,6 +373,10 @@
            
           </div>
           <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="claims-basic-1.html" class="btn btn-neutral float-right" title="What is a claim?" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Security Force Monitor: Research Handbook (draft overhaul)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
 
   <hr/>
 

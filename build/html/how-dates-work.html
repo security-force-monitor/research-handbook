@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>How do dates work in Security Force Monitor’s data? &mdash; SFM Research Handbook  documentation</title>
+  <title>Claims with dates &mdash; Security Force Monitor: Research Handbook  documentation</title>
   
 
   
@@ -53,7 +53,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> SFM Research Handbook
+            <a href="index.html" class="icon icon-home"> Security Force Monitor: Research Handbook
           
 
           
@@ -84,10 +84,11 @@
               
             
             
-              <p class="caption"><span class="caption-text">Claim-based Systems for Human Rights Research</span></p>
+              <p class="caption"><span class="caption-text">Our approach</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="entity-overview.html">Our General Data Model</a></li>
 <li class="toctree-l1"><a class="reference internal" href="claims-basic-1.html">What is a claim?</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">How do dates work in Security Force Monitor’s data?</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Claims with dates</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#finding-dates-in-sources">Finding dates in sources</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#capturing-dates-in-claims">Capturing dates in claims</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#assigning-hard-start-and-hard-end-dates">Assigning hard start and hard end dates</a></li>
@@ -287,7 +288,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">SFM Research Handbook</a>
+          <a href="index.html">Security Force Monitor: Research Handbook</a>
         
       </nav>
 
@@ -320,7 +321,7 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>How do dates work in Security Force Monitor’s data?</li>
+      <li>Claims with dates</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -348,20 +349,27 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="how-do-dates-work-in-security-force-monitors-data">
-<h1>How do dates work in Security Force Monitor’s data?<a class="headerlink" href="#how-do-dates-work-in-security-force-monitors-data" title="Permalink to this headline">¶</a></h1>
-<p>All claims may have a date or date range for which the information asserted in the claim is valid. When claims are grouped together to tell us more about, for example, a person’s posting to a specific unit, this means we can see the duration of a posting. Similarly, we can see how long a unit might have been operating in a particular location, or the time period for which a unit was subordinate to another. Making claims “timebound” in this manner creates the basis for analysis of the data that doesn’t extend beyond what is supported by the sources that we use.</p>
+  <div class="section" id="claims-with-dates">
+<h1>Claims with dates<a class="headerlink" href="#claims-with-dates" title="Permalink to this headline">¶</a></h1>
+<div class="admonition-example admonition">
+<p class="admonition-title">Example</p>
+<p>On 4 March 2018, Tatmadaw soldiers entered into areas under KNU control in Lu Thaw Township to build a road. Light Infantry Battalions (LIB) #20, #351, #439 and #598 (Strategic Operations Command (SOC) #2, Southern Command Headquarters (SCH)) built a road from Ler Muh Plaw to Moh Kyoh Hkoh. Infantry Battalions (IB) #60, #53, #48 and #350 (SOC #3, SCH) also started building a road from Hsa Law Kyoh to Paw Nah Kyoh under the supervision of SOC #3 commander Yang Pyay.</p>
+<p><a class="reference external" href="https://khrg.org/2019/01/18-63-s1/hpapun-situation-update-tatmadaw-road-construction-activities-results-skirmishes">Hpapun Situation Update: Tatmadaw road construction activities results in skirmishes with the KNLA and displacement in Lu Thaw Township</a></p>
+</div>
+<p>This is a straightforward example of a source that provides a date alongside claims about various units of the Myanmar army. On 4 March 2018, the source claims at least eight different light infantry or infantry brigades were present at locations in Lu Thaw Township (also known as Hpapun Township) in Myanmar. There is also information about the organizational structure and command personnel, which can also be dated.</p>
+<p>All claims may have a date or date range for which the information asserted in the claim is valid. When claims are grouped together to tell us more about, for example, a person’s posting to a specific unit, this means we can construct a timeline of a posting. Similarly, we can see how long a unit might have been operating in a particular location, or the time period for which a unit was subordinate to another.</p>
+<p>Making claims “timebound” in this manner creates the basis for analysis of the data that doesn’t extend beyond what is supported by the sources that we use.</p>
 <div class="section" id="finding-dates-in-sources">
 <h2>Finding dates in sources<a class="headerlink" href="#finding-dates-in-sources" title="Permalink to this headline">¶</a></h2>
 <p>Sources contain dates that have different levels of “granularity”, for example:</p>
 <ul class="simple">
-<li><p>A single specific date: 20 June 2023</p></li>
+<li><p>A single specific date, like in the example above: 20 June 2023</p></li>
 <li><p>A specific date range: 20 June 2023 to 30 June 2023</p></li>
 <li><p>A less granular but specific range: “June 2023” or “2023”</p></li>
 <li><p>A relative date: “a fortnight earlier than 20 June 2023”: which can be reduced to a specific date, which in this example is  “6 June 2023”. If the source had said “a few weeks earlier than 20 June 2023”, we would not be able to calculate a specific date.</p></li>
 <li><p>A subjective date: “late June 2023”, “summer 2023” or “early winter 2022” which cannot be reduced to a specific date.</p></li>
 </ul>
-<p>Regardless of the granularity, for us to use a date in a claim it  must be possible for us to enclose fully the date expressed in the source within a part of a standard date format:</p>
+<p>Regardless of the granularity, for us to use a date in a claim it must be possible for us to enclose fully the date expressed in the source within a part of a standard date format:</p>
 <ul class="simple">
 <li><p>Year: “2023”</p></li>
 <li><p>Year and month: “June 2023”</p></li>
@@ -469,7 +477,7 @@
 </tr>
 </tbody>
 </table>
-<p>The table below shows how an  imprecise date of “2023” would be captured:</p>
+<p>The table below shows how an imprecise date of “2023” would be captured:</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -517,10 +525,10 @@
 <p>These claims are different from those which just observe, for example, that Lieutenant General Mya Tun Oo is posted as commander of 6 Bureau of Special Operations without specifying that he was promoted or appointed on that specific date.  In that case, it would only be possible to say that it was the earliest or latest amongst a number of dates claims about the posting, rather than the absolute start or end of the posting.</p>
 <p>These sort of absolute beginnings and ends can be used in different types of claims:</p>
 <ul class="simple">
-<li><p>Unit Identity claim type: A unit is first founded, or finally disbanded.</p></li>
-<li><p>Unit Relation claim type: A unit is first subordinated to a unit, or has that subordination severed.</p></li>
-<li><p>Unit Location claim type: A unit first establishes itself at a location, or permanently abandons a location.</p></li>
-<li><p>Person Posting: A person is first posted as commander of a specific unit, or promoted to a particular rank.</p></li>
+<li><p><a class="reference internal" href="units_identity.html#unit-identity"><span class="std std-ref">Unit Identity</span></a> claim type: A unit is first founded, or finally disbanded.</p></li>
+<li><p><span class="xref std std-ref">Unit Relation</span> claim type: A unit is first subordinated to a unit, or has that subordination severed.</p></li>
+<li><p><span class="xref std std-ref">Unit Positioning</span> claim type: A unit first establishes itself at a location, or permanently abandons a location.</p></li>
+<li><p><span class="xref std std-ref">Person Posting</span>: A person is first posted as commander of a specific unit, or promoted to a particular rank.</p></li>
 </ul>
 <p>Where we will assess that a source has the sort of information that makes a date categorical in this way, we clarify it using special fields. For example, the Person Posting claim type has the following fields:</p>
 <table class="docutils align-default">
@@ -556,11 +564,11 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><span class="xref std std-ref">Person Posting: Person Identifier</span></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="persons_postings.html#person-posting-person-unique-identifier"><span class="std std-ref">Person Posting: Person Unique Identifier</span></a></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">::posting:person:id</span></code></p></td>
 <td><p>Mya Tun Oo</p></td>
 </tr>
-<tr class="row-odd"><td><p><span class="xref std std-ref">Person Posting: Unit Identifier</span></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="persons_postings.html#person-posting-unit-unique-identifier"><span class="std std-ref">Person Posting: Unit Unique Identifier</span></a></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">::posting:unit:id</span></code></p></td>
 <td><p>6 Bureau of Special Operations</p></td>
 </tr>
@@ -603,8 +611,8 @@ To understand what information we have about a specific person, for example, we 
 <ul class="simple">
 <li><p>Claim A says a person was posted to Unit One on 12 March 2023</p></li>
 <li><p>Claim B says a person was posted to Unit One unit on 30 November 2023</p></li>
+<li><p>The posting has an inferred date range between 13 March 2023 and 29 November 2023</p></li>
 </ul>
-<p>0 The posting has an inferred date range between 13 March 2023 and 29 November 2023</p>
 <p>In these cases the Researcher can choose to keep the timeline intact and include inferred date range. In which case, the posting is “continuous”. The researcher can also choose to sever the timeline, and remove the inferred date range, creating a separate, “contiguous” posting. We have written an extended practice guide to help Researchers make decisions about whether a timeline is continuous or not.</p>
 <p>The concepts of precise and imprecise dates, and hard start and end dates, are also reflected in the construction of timelines.</p>
 </div>

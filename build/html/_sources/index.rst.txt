@@ -2,9 +2,10 @@ Security Force Monitor: Research Handbook (draft overhaul)
 ==========================================================
 
 .. toctree::
-   :caption: Claim-based Systems for Human Rights Research
+   :caption: Our approach
    :maxdepth: 2
-
+   
+   entity-overview
    claims-basic-1
    how-dates-work
 
