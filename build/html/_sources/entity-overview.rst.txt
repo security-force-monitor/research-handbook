@@ -1,7 +1,7 @@
 Our general data model
 ######################
 
-Security Force Monitor investigates security and defence forces around the world, reconstructing their organisational structure, command personnel and chain of command, geographic footprint, and allegations of their involvement in committing human rights violations and violations of international criminal law. Further, we research the training and assistance that security and defence units have received from external security actors like the United States of America, the European Union, the United Nations, and through bilateral agreements with other states. All our information is drawn from sources that are nearly all online and in the public domain.
+Security Force Monitor investigates the conduct of security and defence forces around the world. We reconstruct their organisational structure, command personnel and chain of command, geographic footprint, and allegations of their involvement in committing human rights violations and violations of international criminal law. Further, we research the training and assistance that security and defence units have received from external security actors like the United States of America, the European Union, the United Nations, and through bilateral agreements with other states. All our information is drawn from sources that are nearly all online and in the public domain.
 
 .. figure:: _static/sfm_general_data_model.png
    :width: 95%
