@@ -1,5 +1,5 @@
-Unit Positionings
-#################
+Unit Positioning
+################
 
 The "Unit Positioning" (or just "positioning") type of claim describes the geographic footprint of a specific unit. This includes the areas of operation of a unit, as well as physical infrastructure like posts, bases and camps.
 

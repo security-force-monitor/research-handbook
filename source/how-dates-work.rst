@@ -169,6 +169,18 @@ This mechanism allows us to use the available evidence to allow relationships be
 - Claim B says a person was posted to Unit One unit on 30 November 2023
 - The posting has an inferred date range between 13 March 2023 and 29 November 2023
 
-In these cases the Researcher can choose to keep the timeline intact and include inferred date range. In which case, the posting is “continuous”. The researcher can also choose to sever the timeline, and remove the inferred date range, creating a separate, “contiguous” posting. We have written an extended practice guide to help Researchers make decisions about whether a timeline is continuous or not.
+In these cases the Researcher can choose to keep the timeline intact and include an inferred date range. In which case, the posting is “continuous”. 
+
+The researcher can also choose to sever the timeline, and remove the inferred date range, creating a separate, “contiguous” posting. 
 
 The concepts of precise and imprecise dates, and hard start and end dates, are also reflected in the construction of timelines.
+
+.. note::
+
+   Our article :ref:`Fragmentation in timelines` provides extended guidance to help researchers decisions about whether a timeline is continuous or not. 
+
+
+
+
+
+

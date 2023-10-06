@@ -1,0 +1,16 @@
+Attribute label	Attribute name	Status	Data type	Conformed name
+`Source: Unique Identifier`_	``::source/id``	required	uuid	None
+`Source: Type`_	``::source/type``	optional	list	None
+`Source: Title`_	``::source/title``	optional	string	None
+`Source: Author`_	``::source/author``	optional	string	None
+`Source: Creation Timestamp`_	``::source/created-at``	optional	timestamp	None
+`Source: Upload Timestamp`_	``::source/uploaded-at``	optional	timestamp	None
+`Source: URL`_	``::source/url``	optional	string	None
+`Source: Publication Timestamp`_	``::source/published-at``	optional	timestamp	None
+`Source: Accessed Timestamp`_	``::sources/accessed-at``	optional	timestamp	None
+`Source: Publication Unique Identifier`_	``::source/publication:id``	optional	uuid	None
+`Source: Acquisition Search Engine`_	``::source/acquired-engine``	optional	list	None
+`Source: Acquisition Search Term`_	``::source/acquired-term``	optional	string	None
+`Source: Acquisition Search Timestamp`_	``::source/acquired-timestamp``	optional	timestamp	None
+`Source: Research Comments`_	``::source/comments``	optional	string	None
+`Source: Restricted`_	``::source/restricted``	optional	string	None

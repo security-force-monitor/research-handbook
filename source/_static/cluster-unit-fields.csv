@@ -1,16 +1,16 @@
 Attribute label	Attribute name	Status	Data type	Conformed name
-`Unit: Unique Identifier`_	``::unit:id``	required	uuid-string	``:claim/about-entity:id``
-`Unit: Claim Citation Identifier`_	``::unit:claim:citation:id``	required	strings<->uuids	``:claim/citation:ids``
-`Unit: Name`_	``::unit:name``	optional	single-string	``:assertion/unit:name``
-`Unit: Other Names`_	``::unit:other_names``	optional	cell-list	``:assertion/unit:other-names``
-`Unit: Classification`_	``::unit:classifications``	optional	cell-list	``:assertion/unit:classifications``
-`Unit: Country`_	``::unit:country``	optional	country-iso-strong	``:assertion/country``
-`Unit: Date Range is a Start Date`_	``::unit:date-range:starting?``	optional	YN<->bool	``:range/starting?``
-`Unit: Date Range is an Ending Date`_	``::unit:date-range:ending?``	optional	YN<->bool	``:range/ending?``
-`Unit: Earliest Precise Date`_	``::unit:date-range-precise:first``	optional	string-date<->timestamp	``:range-precise/first``
-`Unit: Latest Precise Date`_	``::unit:date-range-precise:last``	optional	string-date<->timestamp	``:range-precise/last``
-`Unit: Earliest Imprecise Date`_	``::unit:date-range-imprecise:first``	optional	string-date<->timestamp	``:range-imprecise/first``
-`Unit: Latest Imprecise Date`_	``::unit:date-range-imprecise:last``	optional	string-date<->timestamp	``:range-imprecise/last``
-`Unit: Research Comments`_	``::unit:claim:comment``	optional	string-date<->timestamp	``:meta/comment``
-`Unit: Research Owner`_	``::unit:claim:researcher``	optional	string-date<->timestamp	``:meta/researcher``
-`Unit: Research Status`_	``::unit:claim:status``	optional	status	``:meta/status``
+`Unit Identity: Unique Identifier`_	``::unit:id``	required	uuid-string	``:claim/about-entity:id``
+`Unit Identity: Claim Citation Identifier`_	``::unit:claim:citation:id``	required	strings<->uuids	``:claim/citation:ids``
+`Unit Identity: Name`_	``::unit:name``	optional	single-string	``:assertion/unit:name``
+`Unit Identity: Other Names`_	``::unit:other_names``	optional	cell-list	``:assertion/unit:other-names``
+`Unit Identity: Classification`_	``::unit:classifications``	optional	cell-list	``:assertion/unit:classifications``
+`Unit Identity: Country`_	``::unit:country``	optional	country-iso-strong	``:assertion/country``
+`Unit Identity: Date Range is a Start Date`_	``::unit:date-range:starting?``	optional	YN<->bool	``:range/starting?``
+`Unit Identity: Date Range is an Ending Date`_	``::unit:date-range:ending?``	optional	YN<->bool	``:range/ending?``
+`Unit Identity: Earliest Precise Date`_	``::unit:date-range-precise:first``	optional	string-date<->timestamp	``:range-precise/first``
+`Unit Identity: Latest Precise Date`_	``::unit:date-range-precise:last``	optional	string-date<->timestamp	``:range-precise/last``
+`Unit Identity: Earliest Imprecise Date`_	``::unit:date-range-imprecise:first``	optional	string-date<->timestamp	``:range-imprecise/first``
+`Unit Identity: Latest Imprecise Date`_	``::unit:date-range-imprecise:last``	optional	string-date<->timestamp	``:range-imprecise/last``
+`Unit Identity: Research Comments`_	``::unit:claim:comment``	optional	string-date<->timestamp	``:meta/comment``
+`Unit Identity: Research Owner`_	``::unit:claim:researcher``	optional	string-date<->timestamp	``:meta/researcher``
+`Unit Identity: Research Status`_	``::unit:claim:status``	optional	status	``:meta/status``

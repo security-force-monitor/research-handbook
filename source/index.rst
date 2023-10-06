@@ -8,6 +8,17 @@ Security Force Monitor: Research Handbook (draft overhaul)
    entity-overview
    claims-basic-1
    how-dates-work
+   timeline-continual-contiguous
+   unknown-unnamed-units
+
+.. toctree::
+   :caption: Sources and citations
+   :maxdepth: 2
+
+   source-citation-overview
+   source-source-specific
+   source-citation-specific
+   source-publication-specific
 
 .. toctree::
    :caption: Units

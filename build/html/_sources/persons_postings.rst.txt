@@ -1,5 +1,5 @@
-Person Postings
-###############
+Person Posting
+##############
 
 The "Person Posting" claim type holds information about a person's career in the security forces. It first defines a relationships between a person and a unit, and can be used to further describe the role the person has in the unit ("command", "administrative", etc), the rank they hold at the time of the posting, and any additional titles they may hold at the time of a posting. A person usually has a single posting at any one time, but may have multiple overlapping postings. 
 

@@ -117,6 +117,6 @@ After creation, a claim is then aggregated with others into a record about a per
 The most useful things to read next are:
 
 - How are claims aggregated into records?
-- How do dates work in Security Force Monitor’s data?
+- :ref:`Claims with dates`: an article explaining the basics of how Security Force Monitor constructs dates and timelines
 - What are the rules for entering specific types of data?
 - How do Locations work in Security Force Monitor’s data?

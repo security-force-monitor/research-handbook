@@ -1,0 +1,6 @@
+Attribute label	Attribute name	Status	Data type	Conformed name
+`Publication: Unique Identifier`_	``::publication/id``	required	uuid	None
+`Publication: Name`_	``::publication/name``	optional	string	None
+`Publication: Level of State Control`_	``::publication/state-control``	optional	list	None
+`Publication: Country`_	``::publication/country``	optional	list	None
+`Publication: Research Comments`_	``::publication/comments``	optional	string	None

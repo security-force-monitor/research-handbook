@@ -1,5 +1,5 @@
-Unit Relations
-##############
+Unit Relation
+#############
 
 The "Unit Relation" (or just "Relation") claim type describes the relationships between units and the position of a unit in a hierarchical structure of a branch of the security and defence forces of a specific country. "Unit Relation" claims also describe clusters of units, such as those found in joint operations or international peacekeeping missions.
 

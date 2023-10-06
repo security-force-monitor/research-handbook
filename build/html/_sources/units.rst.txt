@@ -1,5 +1,5 @@
-Units
-#####
+Overview: Units
+###############
 
 What are units?
 ***************
@@ -8,6 +8,6 @@ Units are official state or state-sanctioned organizations responsible for the i
 
 Data about units are described by three claim types:
 
-- Unit Identity: the existence and identity of the unit, such as its names, aliases, branch, dates of foundation and dissolution.
-- Unit Relation: the unit's position in the hierarchy of a security force, as well as their memberships in joint operations or international peacekeeping missions.
-- Unit Positioning: geographic footprint including the unit's areas of operation and physical infrastructure like posts, bases and camps.
+- :ref:`Unit Identity`: the existence and identity of the unit, such as its names, aliases, branch, dates of foundation and dissolution.
+- :ref:`Unit Relation`: the unit's position in the hierarchy of a security force, as well as their memberships in joint operations or international peacekeeping missions.
+- :ref:`Unit Positioning`: geographic footprint including the unit's areas of operation and physical infrastructure like posts, bases and camps.

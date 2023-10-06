@@ -23,6 +23,6 @@ Other sections of this Research Handbook expand on each of the entities and the 
 
 The diagram above also highlights the special place that "sources" and "claims" hold in our research approach. Security Force Monitor uses a claim-based approach to the creation of data. A claim is an assertion of information evidenced by a source. Throughout our work, all specific pieces of information about any entity are kept together with the specific source from which they were drawn.
 
-This approach enables complete transparency about the origins of data, and is a powerful data integrity measure. All the data that comprise each record about each entity type are drawn from an aggregation of claims. This is discussed in much greater detail in the :ref:`What is a claim?` section of this Research Handbook. 
+This approach enables complete transparency about the origins of data, and is a powerful data integrity measure. All the data that comprise each record about each entity type are drawn from an aggregation of claims. This is discussed in much greater detail in the ":ref:`What is a claim?`" section of this Research Handbook. 
 
-Finally, the general data model guides the construction of the technologies we have built to capture, store and analyse data.
+Finally, the general data model guides the construction of the tools and technologies we have built to capture, store and analyse data. 

@@ -1,0 +1,11 @@
+Attribute label	Attribute name	Status	Data type	Conformed name
+`Citation: Unique Identifier`_	``:citation/id``	required	string-uuid	None
+`Citation: Source Unique Identifier`_	``:citation/source:id``	optional	string-uuids	None
+`Citation: Researcher Comments`_	``:citation/comments``	optional	string	None
+`Citation: Type`_	``:citation/type``	optional	from list	None
+`Citation: Trigger`_	``:citation/trigger``	optional	string	None
+`Citation: Accessed Timestamp`_	``:citation/accessed-at``	optional	timestamp	None
+`Citation: Archive URL`_	``:citation/archive-url``	optional	string-url	None
+`Citation: Archive Timestamp`_	``:citation/archived-at``	optional	timestamp	None
+`Citation: External Archive Content Hash`_	``:citation/external-archive:sha-content``	optional	string	None
+`Citation: External Archive Metadata Hash`_	``:citation/external-archive:sha-meta``	optional	string	None
