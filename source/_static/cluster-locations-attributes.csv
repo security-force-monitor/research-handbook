@@ -1,0 +1,24 @@
+Attribute label	Attribute name	Status	Data type	Conformed name
+`Location: Unique Identifier`_	``::location/id``	Required	String	Not assigned
+`Location: Researcher Comments`_	``::location/comments``	Optional	String	Not assigned
+`Location: Unique Human-Readable Identifier`_	``::location/humane-id``	Optional	String	Not assigned
+`Location: Origin Object Name`_	``::location/name``	Required	String	Not assigned
+`Location: Origin Object Identifier`_	``::location/foreign-id``	Optional	String	Not assigned
+`Location: Geometry Type`_	``::location/geo-type``	Required	List	Not assigned
+`Location: Origin`_	``::location/origin``	Required	String	Not assigned
+`Location: Country`_	``::location/country``	Optional	String	Not assigned
+`Location: Citation`_	``::location/citation-id``	Optional	String	Not assigned
+`Location: Admin Level`_	``::location/admin-level``	Optional	Integer	Not assigned
+`Location: Admin Level 10`_	``::location/admin-level-10``	Optional	String	Not assigned
+`Location: Admin Level 9`_	``::location/admin-level-9``	Optional	String	Not assigned
+`Location: Admin Level 8`_	``::location/admin-level-8``	Optional	String	Not assigned
+`Location: Admin Level 7`_	``::location/admin-level-7``	Optional	String	Not assigned
+`Location: Admin Level 6`_	``::location/admin-level-6``	Optional	String	Not assigned
+`Location: Admin Level 5`_	``::location/admin-level-5``	Optional	String	Not assigned
+`Location: Admin Level 4`_	``::location/admin-level-4``	Optional	String	Not assigned
+`Location: Admin Level 3`_	``::location/admin-level-3``	Optional	String	Not assigned
+`Location: Admin Level 2`_	``::location/admin-level-2``	Optional	String	Not assigned
+`Location: First Check Timestamp`_	``::location/first-check-time``	Optional	String	Not assigned
+`Location: Most Recent Check Timestamp`_	``::location/last-check-time``	Optional	String	Not assigned
+`Location: Attic Date`_	``::location/as-of-date``	Optional	String	Not assigned
+`Location: Notes`_	``::location/notes``	Optional	String	Not assigned

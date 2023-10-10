@@ -6,7 +6,7 @@ Person Identity
 Person Identity: Summary of claim attributes 
 *****************************************
 
-The table below summarises the following dimensions of Unit Identity claims:
+The table below summarises the following dimensions of Person Identity claims:
 
  - Attribute label: a human readable label for the attribute
  - Attribute name: a unique machine-readable name for the attribute, used during data capture

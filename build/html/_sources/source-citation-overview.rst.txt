@@ -10,7 +10,7 @@ To reflect this important difference the data model treats sources and citations
 
 - :ref:`Source`: Attributes about the source, such as its title, date of publication, URL
 - :ref:`Citation`: Attribute about the specific part of a source, like the page number, archive version, and research comments about that citation. 
-- :ref:`Publication: Attributes about the organizations that publish the sources we use, such as their name and country, such as ``British Broadcasting Corporation`` or ``Amnesty International``.
+- :ref:`Publication`: Attributes about the organizations that publish the sources we use, such as their name and country, such as ``British Broadcasting Corporation`` or ``Amnesty International``.
 
 In the remainder of this article, we look at where our sources come from, and provide more detail about the logic of creating citations from sources.
 

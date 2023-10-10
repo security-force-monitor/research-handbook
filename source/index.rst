@@ -21,6 +21,14 @@ Security Force Monitor: Research Handbook (draft overhaul)
    source-publication-specific
 
 .. toctree::
+   :caption: Locations
+   :maxdepth: 2
+
+   locations-overview
+   locations-specific
+   location-sample-json
+
+.. toctree::
    :caption: Units
    :maxdepth: 2
 

@@ -134,7 +134,7 @@ Guidance on use
 
 This experimental attribute is designed to enable the analysis of the data we hold that is derived from both state sources.
 
-In this attribute, we store information about the publication which is drawn from the research of `State Media Monitor <https://statemediamonitor.com/>` into the degree of state control over a publication. There are seven categories in State Media Monitor's `typology <https://statemediamonitor.com/typology/>`:
+In this attribute, we store information about the publication which is drawn from the research of `State Media Monitor <https://statemediamonitor.com/>`_ into the degree of state control over a publication. There are seven categories in State Media Monitor's `typology <https://statemediamonitor.com/typology/>`_:
 
 - ``SC``: State Controlled Media
 - ``CaPu``: Captured Public/State Managed Media
@@ -176,7 +176,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this attribute are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__. Sometimes, this attribute is  difficult to populate as the country of establishment of a publication can be obscure. 
+Values for this attribute are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`_ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_. Sometimes, this attribute is  difficult to populate as the country of establishment of a publication can be obscure. 
 
 
 Publication: Research Comments
