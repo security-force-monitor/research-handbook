@@ -183,6 +183,8 @@ The type of relationship between units is determined by setting the value in `Un
  - ``child`` to define a hierarchic relationship. The unit specified in `Unit Relation: Related Unit Identifier`_ is the parent of the unit in `Unit Relation: Unit Identifier`_.
  - ``member`` to define a membership relationship. The unit specified in `Unit Relation: Unit Identifier`_ is a member of the unit noted in `Unit Relation: Related Unit Identifier`_.
 
+In some cases, we are aware that a unit exist because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of "Unnamed" and "Unknown" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`.
+
 
 Unit Relation: Type of Relation
 ===============================
@@ -268,38 +270,32 @@ Units have a ``Command`` relationship when the related parent unit can order the
 Unit Relation: Earliest Precise Date
 ====================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Unit Relation: Latest Precise Date
 ==================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Unit Relation: Earliest Imprecise Date
 ======================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Unit Relation: Latest Imprecise Date
 ====================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Unit Relation: Date Range is a Start Date
 =========================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Unit Relation: Date Range is an End Date
 =======================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Unit Relation: Research Comments
 ================================

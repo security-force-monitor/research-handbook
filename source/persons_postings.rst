@@ -276,38 +276,32 @@ In most cases, the value placed in this attribute is taken verbatim from the sou
 Person Posting: Earliest Precise Date
 =====================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Person Posting: Latest Precise Date
 ===================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Person Posting: Earliest Imprecise Date
 =======================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Person Posting: Latest Imprecise Date
 =====================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Person Posting: Date range is a Start Date
 ==========================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Person Posting: Date range is an End Date
 =========================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Person Posting: Research Comments
 ==================================

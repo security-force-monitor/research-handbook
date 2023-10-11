@@ -241,38 +241,32 @@ This field should not be used for anything that matches the name or alias of a u
 Unit Positioning: Earliest Precise Date
 =======================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Unit Positioning: Latest Precise Date
 =====================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Unit Positioning: Earliest Imprecise Date
 =========================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Unit Positioning: Latest Imprecise Date
 =======================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Unit Positioning: Date Range is a Start Date
 ============================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Unit Positioning: Date Range is an End Date
 ===========================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Unit Positioning: Research Comments
 ===================================

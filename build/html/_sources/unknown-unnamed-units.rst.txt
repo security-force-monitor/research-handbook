@@ -1,6 +1,7 @@
 Unknown and unnamed units
 #########################
 
+
 The Monitor regularly encounters ambiguity in sourcing which it has sought to highlight and resolve through the creation of units with "Unknown" or "Unnamed" in the :ref:`Unit Identity: Name` attribute. The methodology behind how we make these decisions is laid out below:
 
 1. For "Unknown" units the Monitor will have sources for the overall hierarchical structure of a branch of the security forces, laying out how units should relate to one another up the organizational structure. However, the Monitor often will find claims about a unit which indicate where it should be in the chain of command, but do themselves source claims of the unit's direct parent. In this case the Monitor creates a record for a unit with "Unknown" in the :ref:`Unit Identity: Name` and "Placeholder" for the :ref:`Unit Identity: Classification` field.

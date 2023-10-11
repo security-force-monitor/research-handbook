@@ -203,38 +203,32 @@ Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, whic
 Person Identity: Earliest Precise Date
 ======================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Person Identity: Latest Precise Date
 ====================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Person Identity: Earliest Imprecise Date
 ========================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Person Identity: Latest Imprecise Date
 ======================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Person Identity: Date range is a Start Date
 ===========================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Person Identity: Date range is an End Date
 ==========================================
 
-.. note::
-   To Do.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 Person Identity: Research Comments
 ==================================
