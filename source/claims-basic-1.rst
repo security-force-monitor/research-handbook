@@ -112,11 +112,4 @@ And here’s how the raw data looks in a database tool:
 
 The claim-based approach favors types of research - like that of Security Force Monitor - that involve the construct of a dataset from a wide range of different sources. In practice, this type of research means pulling data from thousands of different sources. The claim system keeps every single piece of data together with a citation of the specific source that evidence it, providing complete evidential transparency. It gives a two-way view showing all the sources that we have used to make a record about a specific person or unit, and also all the bits of data we have taken from specific sources (and exactly where in that source). It also affords us a fine degree of control over which specific pieces of data are used in any analysis. For example, we can exclude or include specific data points that have only official sources, or are only pulled  from specific publications. 
 
-After creation, a claim is then aggregated with others into a record about a person, unit or other entity in the data model. In the present example, the data would be pulled together with other data about the person called “Aung Soe” - this could be other names that the person has used, units they were posted to, or incidents they have been involved in. These “aggregates” are then used in a wider analysis of the organization structure, history of commanders of a unit, and - perhaps most importantly - the construction of a command chain. 
-
-The most useful things to read next are:
-
-- How are claims aggregated into records?
-- :ref:`Claims with dates`: an article explaining the basics of how Security Force Monitor constructs dates and timelines
-- What are the rules for entering specific types of data?
-- How do Locations work in Security Force Monitor’s data?
+After creation, a claim is then aggregated with others into a record about a person, unit or other entity in the data model. In the present example, the data would be pulled together with other data about the person called “Aung Soe” - this could be other names that the person has used, units they were posted to, or incidents they have been involved in. These “aggregates” are then used in a wider analysis of the organization structure, history of commanders of a unit, and - perhaps most importantly - the construction of a command chain.
