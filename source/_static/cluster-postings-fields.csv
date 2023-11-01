@@ -1,0 +1,17 @@
+Attribute label	Attribute name	Status	Data type	Conformed name
+`Person Posting: Unique Identifier`_	``::posting:id``	required	uuid-string	:claim/about-entity:id
+`Person Posting: Claim Citation Identifier`_	``::posting:claim:citation:id``	required	strings<->uuids	:claim/citation:ids
+`Person Posting: Unit Unique Identifier`_	``::posting:unit:id``	optional	uuid-string	:assertion/posting:unit:id
+`Person Posting: Person Unique Identifier`_	``::posting:person:id``	optional	uuid-string	:assertion/posting:person:id
+`Person Posting: Role`_	``::posting:role``	optional	string	:assertion/posting:role
+`Person Posting: Title`_	``::posting:title``	optional	string	:assertion/posting:title
+`Person Posting: Rank`_	``::posting:rank``	optional	string	:assertion/posting:rank
+`Person Posting: Earliest Precise Date`_	``::posting:date-range-precise:first``	optional	string-date<->timestamp	:range-precise/first
+`Person Posting: Latest Precise Date`_	``::posting:date-range-precise:last``	optional	string-date<->timestamp	:range-precise/last
+`Person Posting: Earliest Imprecise Date`_	``::posting:date-range-imprecise:first``	optional	string-date<->timestamp	:range-imprecise/first
+`Person Posting: Latest Imprecise Date`_	``::posting:date-range-imprecise:last``	optional	string-date<->timestamp	:range-imprecise/last
+`Person Posting: Date range is a Start Date`_	``::posting:date-range:starting?``	optional	YN<->bool	:range/starting?
+`Person Posting: Date range is an End Date`_	``::posting:date-range:ending?``	optional	YN<->bool	:range/ending?
+`Person Posting: Research Comments`_	``::posting:claim:comment``	optional	string	:meta/comment
+`Person Posting: Research Owner`_	``::posting:claim:researcher``	optional	string	:meta/reseacher
+`Person Posting: Research Status`_	``::posting:claim:status``	optional	status	:meta/status

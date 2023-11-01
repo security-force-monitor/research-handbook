@@ -1,0 +1,3 @@
+Attribute label	Attribute name
+:ref:`Person Posting: Date Range is a Start Date`	``::posting:date-range:starting?``
+:ref:`Person Posting: Date Range is an End Date`	``::posting:date-range:ending?``

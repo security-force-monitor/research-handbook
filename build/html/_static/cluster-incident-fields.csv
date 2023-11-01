@@ -1,0 +1,19 @@
+Attribute label	Attribute name	Status	Data type	Conformed name
+`Incident: Unique Identifier`_	``::incident:id``	required	string-uuid	:claim/about-entity:id
+`Incident: Claim Citation Identifier`_	``::incident:claim:citation:id``	required	strings<->uuids	:claim/citation:ids
+`Incident: Earliest Precise Date`_	``::incident:date-range-precise:first``	optional	string-date<->timestamp	:range-precise/first
+`Incident: Latest Precise Date`_	``::incident:date-range-precise:last``	optional	string-date<->timestamp	:range-precise/last
+`Incident: Earliest Imprecise Date`_	``::incident:date-range-imprecise:first``	optional	string-date<->timestamp	:range-imprecise/first
+`Incident: Latest Imprecise Date`_	``::incident:date-range-imprecise:last``	optional	string-date<->timestamp	:range-imprecise/last
+`Incident: Date range is a Start Date`_	``::incident:date-range:starting?``	optional	YN<->bool	:range/starting?
+`Incident: Date range is an End Date`_	``::incident:date-range:ending?``	optional	YN<->bool	:range/ending?
+`Incident: Location`_	``::incident:location:id``	optional	strings<->uuids	:assertion/incident:location:id
+`Incident: Location Description`_	``::incident:location:description``	optional	string	:assertion/incident:location:description
+`Incident: Violation Type`_	``::incident:violation:types``	optional	string	:assertion/incident:violation:types
+`Incident: Violation Description`_	``::incident:violation:description``	optional	string	:assertion/incident:violation:description
+`Incident: Perpetrator Person Unique Identifier`_	``::incident:perpetrator:person:ids``	optional	strings<->uuids	:assertion/incident:perpetrator:ids
+`Incident: Perpetrator Unit Unique Identifier`_	``::incident:perpetrator:units:ids``	optional	strings<->uuids	:assertion/incident:perpetrator:ids
+`Incident: Perpetrator Classification`_	``::incident:perpetrator:classifications``	optional	string	:assertion/incident:perpetrator:classification
+`Incident: Research Comments`_	``::incident:claim:comment``	optional	string	:meta/comment
+`Incident: Research Owner`_	``::incident:claim:researcher``	optional	string	:meta/reseacher
+`Incident: Research Status`_	``::incident:claim:status``	optional	status	:meta/status

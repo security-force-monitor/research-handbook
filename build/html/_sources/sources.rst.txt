@@ -35,7 +35,7 @@ When we choose to use a source as evidence for a data point, we create a spreads
 
 However, a source can have multiple "access points". An access point directs us to a particular part of a source as evidence for a data point - it's much like a citation in an academic paper. This could be material from a specific page in the source; it could also be a specific archive snapshot of a page, as the content of a webpage can sometimes change over time even though its basic identifying data will not. In this way, a single source can have multiple access points.
 
-There are six ways that an access point can be "carved out" of a specific source, taking in account the source's media type:
+There are seven ways that an access point can be "carved out" of a specific source, taking in account the source's media type:
 
 - ``archive``: an archive snapshot of the source contains different content from the source, or from other snapshots.
 - ``page``: a page or range of page in a document source like a book or report.
@@ -43,6 +43,7 @@ There are six ways that an access point can be "carved out" of a specific source
 - ``clip``: a passage from a video or audio source, comprising a start time and a stop time.
 - ``frame``: a single capture point from a video.
 - ``still``: an image captured from a video or interactive resource which does not correspond to a specific frame.
+- ``paragraph``: where a document is numbered throughout, such as in United Nations Security Council documents, paragraphs can be used as access point triggers.
 
 Here are some examples of how access points based on archives and pages work in practice:
 

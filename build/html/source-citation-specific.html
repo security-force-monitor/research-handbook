@@ -1,0 +1,865 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Citation &mdash; Security Force Monitor: Research Handbook  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Publication" href="source-publication-specific.html" />
+    <link rel="prev" title="Source" href="source-source-specific.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: black" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Security Force Monitor: Research Handbook
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Our approach</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="entity-overview.html">Our general data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="claims-basic-1.html">What is a claim?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="how-dates-work.html">Claims with dates</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="how-dates-work.html#finding-dates-in-sources">Finding dates in sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="how-dates-work.html#capturing-dates-in-claims">Capturing dates in claims</a></li>
+<li class="toctree-l2"><a class="reference internal" href="how-dates-work.html#assigning-hard-start-and-hard-end-dates">Assigning hard start and hard end dates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="how-dates-work.html#from-dates-to-timelines">From dates to timelines</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="timeline-continual-contiguous.html">Fragmentation in timelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="unknown-unnamed-units.html">Unknown and unnamed units</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Sources and citations</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="source-citation-overview.html">Overview: Sources and citations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-overview.html#what-are-sources">What are sources?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-overview.html#the-sources-for-sources">The sources for sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-overview.html#citing-a-source">Citing a source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-overview.html#citation-examples">Citation examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="source-source-specific.html">Source</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="source-source-specific.html#source-summary-of-attributes">Source: Summary of attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-source-specific.html#source-details-of-attributes">Source: Details of attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-unique-identifier">Source: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-type">Source: Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-title">Source: Title</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-author">Source: Author</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-creation-timestamp">Source: Creation Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-upload-timestamp">Source: Upload Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-url">Source: URL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-publication-timestamp">Source: Publication Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-accessed-timestamp">Source: Accessed Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-publication-unique-identifier">Source: Publication Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-acquisition-search-engine">Source: Acquisition Search Engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-acquisition-search-term">Source: Acquisition Search Term</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-acquisition-search-timestamp">Source: Acquisition Search Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-research-comments">Source: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-restricted">Source: Restricted</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Citation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#citation-summary-of-attributes">Citation: Summary of attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#citation-details-of-attributes">Citation: Details of attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#citation-unique-identifier">Citation: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#citation-source-unique-identifier">Citation: Source Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#citation-researcher-comments">Citation: Researcher Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#citation-type">Citation: Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#citation-trigger">Citation: Trigger</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#citation-accessed-timestamp">Citation: Accessed Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#citation-archive-url">Citation: Archive URL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#citation-archive-timestamp">Citation: Archive Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#citation-external-archive-content-hash">Citation: External Archive Content Hash</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#citation-external-archive-metadata-hash">Citation: External Archive Metadata Hash</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="source-publication-specific.html">Publication</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="source-publication-specific.html#source-summary-of-attributes">Source: Summary of attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-publication-specific.html#source-details-of-attributes">Source: Details of attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-unique-identifier">Publication: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-name">Publication: Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-level-of-state-control">Publication: Level of State Control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-country">Publication: Country</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-research-comments">Publication: Research Comments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Units</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="units.html">Overview: Units</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units.html#what-are-units">What are units?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="units_identity.html">Unit Identity</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units_identity.html#unit-identity-summary-of-claim-attributes">Unit Identity: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_identity.html#unit-identity-details-of-claim-attributes">Unit Identity: details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-unique-identifier">Unit Identity: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-claim-citation-identifier">Unit Identity: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-name">Unit Identity: Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-other-names">Unit Identity: Other Names</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-classification">Unit Identity: Classification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-country">Unit Identity: Country</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-date-range-is-a-start-date">Unit Identity: Date Range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-date-range-is-an-ending-date">Unit Identity: Date Range is an Ending Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-earliest-precise-date">Unit Identity: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-latest-precise-date">Unit Identity: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-earliest-imprecise-date">Unit Identity: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-latest-imprecise-date">Unit Identity: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-research-comments">Unit Identity: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-research-owner">Unit Identity: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-research-status">Unit Identity: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="units_relations.html">Unit Relation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units_relations.html#unit-relation-summary-of-claim-attributes">Unit Relation: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_relations.html#unit-relation-details-of-claim-attributes">Unit Relation: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-relation-identifier">Unit Relation: Relation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-claim-citation-identifier">Unit Relation: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-unit-identifier">Unit Relation: Unit Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-related-unit-identifier">Unit Relation: Related Unit Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-type-of-relation">Unit Relation: Type of Relation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-relation-classification">Unit Relation: Relation Classification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-earliest-precise-date">Unit Relation: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-latest-precise-date">Unit Relation: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-earliest-imprecise-date">Unit Relation: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-latest-imprecise-date">Unit Relation: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-date-range-is-a-start-date">Unit Relation: Date Range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-date-range-is-an-end-date">Unit Relation: Date Range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-research-comments">Unit Relation: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-research-owner">Unit Relation: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-research-status">Unit Relation: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="units_positionings.html">Unit Positioning</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units_positionings.html#unit-positioning-summary-of-claim-attributes">Unit Positioning: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_positionings.html#unit-positioning-details-of-claim-attributes">Unit Positioning: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-positioning-identifier">Unit Positioning: Positioning Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-claim-citation-identifier">Unit Positioning: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-unit-identifier">Unit Positioning: Unit Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-location-identifier">Unit Positioning: Location Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-type-of-positioning">Unit Positioning: Type of Positioning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-base-name">Unit Positioning: Base Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-earliest-precise-date">Unit Positioning: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-latest-precise-date">Unit Positioning: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-earliest-imprecise-date">Unit Positioning: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-latest-imprecise-date">Unit Positioning: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-date-range-is-a-start-date">Unit Positioning: Date Range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-date-range-is-an-end-date">Unit Positioning: Date Range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-research-comments">Unit Positioning: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-research-owner">Unit Positioning: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-research-status">Unit Positioning: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Persons</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="persons.html">Overview: Persons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#what-are-persons">What are persons?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="persons_identity.html">Person Identity</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons_identity.html#person-identity-summary-of-claim-attributes">Person Identity: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_identity.html#person-identity-details-of-claim-attributes">Person Identity: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-unique-identifier">Person Identity: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-claim-citation-identifier">Person Identity: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-name">Person Identity: Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-other-names">Person Identity: Other Names</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-country">Person Identity: Country</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-earliest-precise-date">Person Identity: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-latest-precise-date">Person Identity: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-earliest-imprecise-date">Person Identity: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-latest-imprecise-date">Person Identity: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-date-range-is-a-start-date">Person Identity: Date range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-date-range-is-an-end-date">Person Identity: Date range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-research-comments">Person Identity: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-research-owner">Person Identity: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-research-status">Person Identity: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="persons_postings.html">Person Posting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons_postings.html#person-postings-summary-of-claim-attributes">Person Postings: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_postings.html#person-postings-details-of-claim-attributes">Person Postings: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-unique-identifier">Person Posting: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-claim-citation-identifier">Person Posting: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-unit-unique-identifier">Person Posting: Unit Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-person-unique-identifier">Person Posting: Person Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-role">Person Posting: Role</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-title">Person Posting: Title</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-rank">Person Posting: Rank</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-earliest-precise-date">Person Posting: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-latest-precise-date">Person Posting: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-earliest-imprecise-date">Person Posting: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-latest-imprecise-date">Person Posting: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-date-range-is-a-start-date">Person Posting: Date range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-date-range-is-an-end-date">Person Posting: Date range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-research-comments">Person Posting: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-research-owner">Person Posting: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-research-status">Person Posting: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="persons_extra.html">Person Extra Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-data-summary-of-claim-attributes">Person Extra Data: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-data-details-of-claim-attributes">Person Extra Data: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-unique-identifier">Person Extra Data: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-claim-citation-identifier">Person Extra Data: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-person-unique-identifier">Person Extra Data: Person Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-person-gender">Person Extra Data: Person Gender</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-date-of-birth">Person Extra Data: Date of Birth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-deceased">Person Extra Data: Deceased?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-date-of-death">Person Extra Data: Date of Death</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-account-type">Person Extra Data: Account Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-account-identifier">Person Extra Data: Account Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-external-link-description">Person Extra Data: External Link Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-media-description">Person Extra Data: Media Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-notes">Person Extra Data: Notes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-research-comments">Person Extra Data: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-research-owner">Person Extra Data: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-research-status">Person Extra Data: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Incidents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="incidents.html">Overview: incidents</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#what-are-incidents">What are incidents?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="incidents_attributes.html">Incident</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="incidents_attributes.html#incident-summary-of-claim-attributes">Incident: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents_attributes.html#incident-details-of-claim-attributes">Incident: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-unique-identifier">Incident: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-claim-citation-identifier">Incident: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-earliest-precise-date">Incident: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-latest-precise-date">Incident: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-earliest-imprecise-date">Incident: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-latest-imprecise-date">Incident: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-date-range-is-a-start-date">Incident: Date range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-date-range-is-an-end-date">Incident: Date range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-location">Incident: Location</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-location-description">Incident: Location Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-violation-type">Incident: Violation Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-violation-description">Incident: Violation Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-perpetrator-unit-unique-identifier">Incident: Perpetrator Unit Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-perpetrator-person-unique-identifier">Incident: Perpetrator Person Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-perpetrator-classification">Incident: Perpetrator Classification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-research-comments">Incident: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-research-owner">Incident: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-research-status">Incident: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Security Force Monitor: Research Handbook</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Citation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/source-citation-specific.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="source-publication-specific.html" class="btn btn-neutral float-right" title="Publication" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="source-source-specific.html" class="btn btn-neutral float-left" title="Source" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="citation">
+<h1>Citation<a class="headerlink" href="#citation" title="Permalink to this headline">¶</a></h1>
+<p>A citation directs us to a particular part of a source as evidence for a information a claim - it’s much like a citation in an academic paper. This could be material from a specific page in the source; it could also be a specific archive snapshot of a page, as the content of a webpage can sometimes change over time even though its basic identifying data will not. A single source can be cited in multiple ways, and - once created - a citation can be re-used to evidence any number of claims.</p>
+<div class="section" id="citation-summary-of-attributes">
+<h2>Citation: Summary of attributes<a class="headerlink" href="#citation-summary-of-attributes" title="Permalink to this headline">¶</a></h2>
+<p>The table below summarises the following dimensions of citations records:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Attribute label: a human readable label for the attribute</p></li>
+<li><p>Attribute name: a unique machine-readable name for the attribute, used during data capture</p></li>
+<li><p>Status: whether the attribute is optional or required in the record</p></li>
+<li><p>Data type: the sort of data that can be entered into the attribute</p></li>
+<li><p>Conformed name: a standardized name that simplifies attribute use in SFM databases</p></li>
+</ul>
+</div></blockquote>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Attribute label</p></th>
+<th class="head"><p>Attribute name</p></th>
+<th class="head"><p>Status</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Conformed name</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="#citation-unique-identifier">Citation: Unique Identifier</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:citation/id</span></code></p></td>
+<td><p>required</p></td>
+<td><p>string-uuid</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#citation-source-unique-identifier">Citation: Source Unique Identifier</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:citation/source:id</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string-uuids</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#citation-researcher-comments">Citation: Researcher Comments</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:citation/comments</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#citation-type">Citation: Type</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:citation/type</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>from list</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#citation-trigger">Citation: Trigger</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:citation/trigger</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#citation-accessed-timestamp">Citation: Accessed Timestamp</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:citation/accessed-at</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>timestamp</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#citation-archive-url">Citation: Archive URL</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:citation/archive-url</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string-url</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#citation-archive-timestamp">Citation: Archive Timestamp</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:citation/archived-at</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>timestamp</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#citation-external-archive-content-hash">Citation: External Archive Content Hash</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:citation/external-archive:sha-content</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#citation-external-archive-metadata-hash">Citation: External Archive Metadata Hash</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:citation/external-archive:sha-meta</span></code></p></td>
+<td><p>optional</p></td>
+<td><p>string</p></td>
+<td><p>None</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="citation-details-of-attributes">
+<h2>Citation: Details of attributes<a class="headerlink" href="#citation-details-of-attributes" title="Permalink to this headline">¶</a></h2>
+<p>This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.</p>
+<div class="section" id="citation-unique-identifier">
+<h3>Citation: Unique Identifier<a class="headerlink" href="#citation-unique-identifier" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="attribute-name">
+<h4>Attribute name<a class="headerlink" href="#attribute-name" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::citation/id</span></code></p>
+</div>
+<div class="section" id="description">
+<h4>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h4>
+<p>A unique 32 character code assigned to each citation.</p>
+</div>
+<div class="section" id="attribute-type">
+<h4>Attribute type<a class="headerlink" href="#attribute-type" title="Permalink to this headline">¶</a></h4>
+<p>String in UUID format.</p>
+</div>
+<div class="section" id="status">
+<h4>Status<a class="headerlink" href="#status" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is required.</p>
+</div>
+<div class="section" id="example-of-use">
+<h4>Example of use<a class="headerlink" href="#example-of-use" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">1c03ec21-0fae-4243-9de6-686568afc2b8</span></code></p>
+</div>
+<div class="section" id="guidance-on-use">
+<h4>Guidance on use<a class="headerlink" href="#guidance-on-use" title="Permalink to this headline">¶</a></h4>
+<p>This value is a Universally Unique Indentifier (UUID) generated using a computer program. Attributes such as <a class="reference internal" href="units_identity.html#unit-identity-claim-citation-identifier"><span class="std std-ref">Unit Identity: Claim Citation Identifier</span></a> draw from the values stored in this attribute.</p>
+</div>
+</div>
+<div class="section" id="citation-source-unique-identifier">
+<h3>Citation: Source Unique Identifier<a class="headerlink" href="#citation-source-unique-identifier" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id1">
+<h4>Attribute name<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::citation/source:id</span></code></p>
+</div>
+<div class="section" id="id2">
+<h4>Description<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<p>A unique 32 character code assigned to each sources in the dataset.</p>
+</div>
+<div class="section" id="id3">
+<h4>Attribute type<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<p>String in UUID format</p>
+</div>
+<div class="section" id="id4">
+<h4>Status<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is required.</p>
+</div>
+<div class="section" id="id5">
+<h4>Example of use<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">1c03ec21-0fae-4243-9de6-686568afc2b8</span></code></p>
+</div>
+<div class="section" id="id6">
+<h4>Guidance on use<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<p>This value is a Universally Unique Indentifier (UUID) generated using a computer program. Values in this field correspond to those used in the attribute <a class="reference internal" href="source-source-specific.html#source-unique-identifier"><span class="std std-ref">Source: Unique Identifier</span></a>.</p>
+</div>
+</div>
+<div class="section" id="citation-researcher-comments">
+<h3>Citation: Researcher Comments<a class="headerlink" href="#citation-researcher-comments" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id7">
+<h4>Attribute name<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::citation/comments</span></code></p>
+</div>
+<div class="section" id="id8">
+<h4>Description<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<p>Observations specific to the process of reviewing data in this citation, including fixes, refinements and other suggestions.</p>
+</div>
+<div class="section" id="id9">
+<h4>Attribute type<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h4>
+<p>String</p>
+</div>
+<div class="section" id="id10">
+<h4>Status<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is optional.</p>
+</div>
+<div class="section" id="id11">
+<h4>Example of use<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h4>
+<p><a href="#id12"><span class="problematic" id="id13">``</span></a>Citation page range is not accurate ``</p>
+</div>
+<div class="section" id="id14">
+<h4>Guidance on use<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h4>
+<p>Staff Researchers use this attribute to pass on feedback about the data about the citation. This may include the progress made in extracting information from the citation, references to sources that the researcher might look at, and other observations that can improve the quality of the data. Data in this attribute are not intended for publication.</p>
+</div>
+</div>
+<div class="section" id="citation-type">
+<h3>Citation: Type<a class="headerlink" href="#citation-type" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id15">
+<h4>Attribute name<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::citation/type</span></code></p>
+</div>
+<div class="section" id="id16">
+<h4>Description<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h4>
+<p>The method by which an access point to a source has been created, such as by page or archive snapshot</p>
+</div>
+<div class="section" id="id17">
+<h4>Attribute type<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h4>
+<p>Text, controlled, single entry</p>
+</div>
+<div class="section" id="id18">
+<h4>Status<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is optional.</p>
+</div>
+<div class="section" id="id19">
+<h4>Example of use<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">page</span></code>, <code class="docutils literal notranslate"><span class="pre">frame</span></code>, <code class="docutils literal notranslate"><span class="pre">clip</span></code>, <code class="docutils literal notranslate"><span class="pre">archive</span></code></p>
+</div>
+<div class="section" id="id20">
+<h4>Guidance on use<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h4>
+<p>A source has at least one access point, but may have many. For example, if a source is a document we may draw information from a number of different pages (or ranges of pages). For each page or range of pages, we would create a new access point to the source. The field <code class="docutils literal notranslate"><span class="pre">Source:</span> <span class="pre">Access</span> <span class="pre">Point</span> <span class="pre">Type</span></code> tells us what method we have used to create the access point - in this case <code class="docutils literal notranslate"><span class="pre">page</span></code>. The number of the page or page range will be recorded in a related attribute called <a class="reference internal" href="#citation-trigger">Citation: Trigger</a>.</p>
+<p>There are eight ways to “trigger” a citation of a specific source, taking in account the source’s media type:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">archive</span></code>: an archive snapshot of the source contains different content from the source, or from other snapshots.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">page</span></code>: a page or range of page in a document source like a book or report.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">line</span></code>: a line or range of lines in a line-numbered document like an interview transcript.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">clip</span></code>: a passage from a video or audio source, comprising a start time and a stop time.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">frame</span></code>: a single capture point in a video.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">still</span></code>: an image captured from a video or interactive resource which does not correspond to a specific frame.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">paragraph</span></code>: where a document is numbered throughout, such as in United Nations Security Council documents, paragraphs can be used as access point triggers.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cell</span></code>: the cell reference or range within a table of data</p></li>
+</ul>
+<p>As we seek to include different types of sources in our work, we anticipate updating this list of citation types.</p>
+</div>
+</div>
+<div class="section" id="citation-trigger">
+<h3>Citation: Trigger<a class="headerlink" href="#citation-trigger" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id21">
+<h4>Attribute name<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::citation/trigger</span></code></p>
+</div>
+<div class="section" id="id22">
+<h4>Description<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h4>
+<p>A set of different types of values that describe where in a source to find the exact content that comprises the citation.</p>
+</div>
+<div class="section" id="type-of-field">
+<h4>Type of field<a class="headerlink" href="#type-of-field" title="Permalink to this headline">¶</a></h4>
+<p>Number, number range</p>
+</div>
+<div class="section" id="id23">
+<h4>Status<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is optional.</p>
+</div>
+<div class="section" id="id24">
+<h4>Example of use<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">11</span></code>, <code class="docutils literal notranslate"><span class="pre">11-12</span></code>, <code class="docutils literal notranslate"><span class="pre">11,13</span></code>, <code class="docutils literal notranslate"><span class="pre">11,13,14-19</span></code>, <code class="docutils literal notranslate"><span class="pre">1:31-1:40</span></code>, <code class="docutils literal notranslate"><span class="pre">3(1)(c)</span></code>, <code class="docutils literal notranslate"><span class="pre">1.1.1-2.4.1`</span></code></p>
+</div>
+<div class="section" id="id25">
+<h4>Guidance on use<a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h4>
+<p>This field is used to specify the exact content within a source that defines the citation. For example, if we want to create an citation of page 4 of a source then we would set the value in <a class="reference internal" href="#citation-type">Citation: Type</a> to <code class="docutils literal notranslate"><span class="pre">page</span></code> and enter <code class="docutils literal notranslate"><span class="pre">4</span></code> in this attribute. As noted in the documention for <a class="reference internal" href="#citation-type">Citation: Type</a> there are eight ways to trigger a citation. These are listed below, along with the data type and format rquired to specify the exact content of the citation:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">archive</span></code>: Leave empty. The value in <a class="reference internal" href="#citation-archive-url">Citation: Archive URL</a> serves as the trigger for this citation type.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">page</span></code>: Single page (<code class="docutils literal notranslate"><span class="pre">1</span></code>), single range of pages (<code class="docutils literal notranslate"><span class="pre">1-2</span></code>), combination of page and page ranges (<code class="docutils literal notranslate"><span class="pre">1,2-3,4,5-8</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">line</span></code>: Single line (<code class="docutils literal notranslate"><span class="pre">200</span></code>), single range of lines (<code class="docutils literal notranslate"><span class="pre">200-230</span></code>), combination of line and line ranges (<code class="docutils literal notranslate"><span class="pre">200-230,236,240-250</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">clip</span></code>: Single range containing start and end time in the format <code class="docutils literal notranslate"><span class="pre">hh:mm:ss</span></code> (<code class="docutils literal notranslate"><span class="pre">00:01:20-00:01:24</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">frame</span></code>: A single capture point from a video in <code class="docutils literal notranslate"><span class="pre">hh:mm:ss</span></code> format (<code class="docutils literal notranslate"><span class="pre">00:01:20</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">still</span></code>: A direct link to SFM’s hosting library to an image captured from a video or interactive resource for which we do no have a specific time frame. For example, a <code class="docutils literal notranslate"><span class="pre">still</span></code> would be the appropriate type of citation to create to enable us to use as evidence multiple views of an online database that didn’t provide permalinks for queries.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">paragraph</span></code>: if a document has numbered paragraphs in any format (e.g. <code class="docutils literal notranslate"><span class="pre">3(1)(a)</span></code>), they can be captured here.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cell</span></code>: the grid reference (<code class="docutils literal notranslate"><span class="pre">C123</span></code>) of the cell, or cell range (<code class="docutils literal notranslate"><span class="pre">C123-C129</span></code>), containing the data used to evidence the claim.</p></li>
+</ul>
+<p>The range of access point triggers may extend as different media forms become available.</p>
+</div>
+</div>
+<div class="section" id="citation-accessed-timestamp">
+<h3>Citation: Accessed Timestamp<a class="headerlink" href="#citation-accessed-timestamp" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id26">
+<h4>Attribute name<a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::citation/accessed-at</span></code></p>
+</div>
+<div class="section" id="id27">
+<h4>Description<a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h4>
+<p>Full date on which the Staff Reseacher created this citation from the source.</p>
+</div>
+<div class="section" id="id28">
+<h4>Attribute type<a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h4>
+<p>Date formatted as``YYYY-MM-DD``</p>
+</div>
+<div class="section" id="id29">
+<h4>Status<a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is optional.</p>
+</div>
+<div class="section" id="id30">
+<h4>Example of use<a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">2022-02-20</span></code></p>
+</div>
+<div class="section" id="id31">
+<h4>Guidance on use<a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h4>
+<p>When a Staff Researcher accesses a source in order to create a citation, they should record the full, exact date in this attribute. This data is a useful part of quality assurance processes, enabling us to re-visit sources at set points in time to assess whether they have been updated. Recording an access date at the level of the citation also reflects that we may work on some sources for extended periods of time, or work on the same source at different points in time during our research.</p>
+</div>
+</div>
+<div class="section" id="citation-archive-url">
+<h3>Citation: Archive URL<a class="headerlink" href="#citation-archive-url" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id32">
+<h4>Attribute name<a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::citation/archive-url</span></code></p>
+</div>
+<div class="section" id="id33">
+<h4>Description<a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h4>
+<p>URL of a snapshot of the source captured by the Internet Archive and hosted on its Wayback Machine.</p>
+</div>
+<div class="section" id="id34">
+<h4>Attribute type<a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h4>
+<p>String formatted as URL</p>
+</div>
+<div class="section" id="id35">
+<h4>Status<a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is optional.</p>
+</div>
+<div class="section" id="id36">
+<h4>Example of use<a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">https://web.archive.org/web/20150703120013/http://www.amnesty.org/en/documents/AFR44/043/2012/en/</span></code></p>
+</div>
+<div class="section" id="id37">
+<h4>Guidance on use<a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h4>
+<p>A source becomes usable by Staff Researchers when it has an citation. After entering the source’s basic details (like <a class="reference internal" href="source-source-specific.html#source-title"><span class="std std-ref">Source: Title</span></a>), the researcher can create a first citation by specifying an Internet Archive snapshot to use. If the source is not already archived in the Internet Archive, the researcher should attempt to create a new snapshot to use as the citation. Where snapshots for the source already exist in the Internet Archive, the Staff Researcher should find the snapshot that is earliest in time.</p>
+<p>In the majority of cases, this will suffice. However, in some cases, we may need to specify more than one Internet Archive snapshot for the same source - each different snapshot creates a distinct citation. The common reason for this is that the source content changes, but the basic details of the source do not. A good example of this is this (dead) URL published by the <em>Secretaría de la Defensa Nacional</em> in Mexico: <code class="docutils literal notranslate"><span class="pre">http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm</span></code>. It lists the commanders of Mexico’s miltary garrisons, and we have included reference to this in our data about the Mexican army. The title, initial publication date, publication and basic URL did not change: however, over time the content did. In each of 24 different snapshots made by the Internet Archive, the list of commanders is different. In this case, we have a single source with 24 citations: each citations refers to a specific version of that source containing the exact information that we relied upon to create various claims.</p>
+<p>The example above also illustrates an important point: sometimes a source is only available in an archived form, because its original source URL is no longer online. There are many reasons a link many no longer be live, and this problem is known as “linkrot”. In these cases, the Staff Researcher can fill in <a class="reference internal" href="source-source-specific.html#source-url"><span class="std std-ref">Source: URL</span></a> with a portion of the Internet Archive URL printed after the timestamp. For example:</p>
+<ul class="simple">
+<li><p>Archive URL: <code class="docutils literal notranslate"><span class="pre">https://web.archive.org/web/20040208204841/http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm</span></code></p></li>
+<li><p>Original URL extracted from the Archive URL: <code class="docutils literal notranslate"><span class="pre">http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm`</span></code></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="citation-archive-timestamp">
+<h3>Citation: Archive Timestamp<a class="headerlink" href="#citation-archive-timestamp" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id38">
+<h4>Attribute name<a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::citation/archive-timestamp</span></code></p>
+</div>
+<div class="section" id="id39">
+<h4>Description<a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h4>
+<p>Timestamp of the Internet Archive snapshot that has been used to create a citation.</p>
+</div>
+<div class="section" id="id40">
+<h4>Attribute type<a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h4>
+<p>Date (YYYY-MM-DDTHH:MM:SSZ)</p>
+</div>
+<div class="section" id="id41">
+<h4>Status<a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is optional.</p>
+</div>
+<div class="section" id="id42">
+<h4>Example of use<a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">2004-02-08T20:48:41Z</span></code></p>
+</div>
+<div class="section" id="id43">
+<h4>Guidance on use<a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h4>
+<p>Every snapshot made by the Internet Archive contains a timestamp of the time (GMT/UTC) when that snapshot was created. The timestamp is contained in the URL and looks like this: <code class="docutils literal notranslate"><span class="pre">20040208204841</span></code></p>
+<p>We extract this part of the URL and reformat it to something more human readable (an ISO 8601 format): <code class="docutils literal notranslate"><span class="pre">2004-02-08T20:48:41Z</span></code></p>
+<p>The timestamp provides useful quality assurance data.</p>
+</div>
+</div>
+<div class="section" id="citation-external-archive-content-hash">
+<h3>Citation: External Archive Content Hash<a class="headerlink" href="#citation-external-archive-content-hash" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id44">
+<h4>Attribute name<a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::citation/external-archive:sha-content</span></code></p>
+</div>
+<div class="section" id="id45">
+<h4>Description<a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h4>
+<p>First of a pair of fields recording where a copy of the source can be found in external archives</p>
+</div>
+<div class="section" id="id46">
+<h4>Attribute type<a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h4>
+<p>String</p>
+</div>
+<div class="section" id="id47">
+<h4>Status<a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is optional.</p>
+</div>
+<div class="section" id="id48">
+<h4>Example of use<a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">0E94AE36DA6FF03992A57FDDBDF4728B609D0D7FE6EB019FA9F1B9B5B540D835</span></code></p>
+</div>
+<div class="section" id="id49">
+<h4>Guidance on use<a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h4>
+<p>This is a dynamic field designed to enable interlinking between sources recorded in the format used by Security Force Monitor, and those in use in other collections. This particular field contains an SHA hash of the specific content of a source captured through a scraping process.</p>
+</div>
+</div>
+<div class="section" id="citation-external-archive-metadata-hash">
+<h3>Citation: External Archive Metadata Hash<a class="headerlink" href="#citation-external-archive-metadata-hash" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id50">
+<h4>Attribute name<a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::citation/external-archive:sha-meta</span></code></p>
+</div>
+<div class="section" id="id51">
+<h4>Description<a class="headerlink" href="#id51" title="Permalink to this headline">¶</a></h4>
+<p>Second of a pair of fields recording where a copy of the source can be found in external archives</p>
+</div>
+<div class="section" id="id52">
+<h4>Attribute type<a class="headerlink" href="#id52" title="Permalink to this headline">¶</a></h4>
+<p>String</p>
+</div>
+<div class="section" id="id53">
+<h4>Status<a class="headerlink" href="#id53" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is optional.</p>
+</div>
+<div class="section" id="id54">
+<h4>Example of use<a class="headerlink" href="#id54" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">0E94AE36DA6FF03992A57FDDBDF4728B609D0D7FE6EB019FA9F1B9B5B540D835</span></code></p>
+</div>
+<div class="section" id="id55">
+<h4>Guidance on use<a class="headerlink" href="#id55" title="Permalink to this headline">¶</a></h4>
+<p>This is a dynamic field designed to enable interlinking between sources recorded in the format used by Security Force Monitor, and those in use in other collections. This particular field contains an SHA hash of the specific content of the metadata of a source captured through a scraping process.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="source-publication-specific.html" class="btn btn-neutral float-right" title="Publication" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="source-source-specific.html" class="btn btn-neutral float-left" title="Source" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2017-2023, Security Force Monitor.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+Citations
+#########
+
+Citations: Summary of attributes
+********************************
+
+
+.. csv-table::
+   :file: _static/cluster-source-citations.csv
+   :header-rows: 1
+   :delim: tab
+
+
+Citations: Details of attributes
+********************************
+
+
+Citation: Unique Identifier
+===========================
+
+Citation: Researcher Comments
+=============================
+
+Citation: Type
+==============
+
+Citation: Trigger
+=================
+
+Citation: Access Timestamp
+==========================
+
+Citation: Archive URL
+===========================
+
+Citation: Archive Timestamp
+===========================
+
+Citation: Source Unique Identifier
+==================================

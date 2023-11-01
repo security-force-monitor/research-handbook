@@ -1,0 +1,1384 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Locations &mdash; Security Force Monitor: Research Handbook  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Location: GeoJSON example" href="location-sample-json.html" />
+    <link rel="prev" title="Overview: Location" href="locations-overview.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: black" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Security Force Monitor: Research Handbook
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Our approach</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="entity-overview.html">Our general data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="claims-basic-1.html">What is a claim?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="how-dates-work.html">Claims with dates</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="how-dates-work.html#finding-dates-in-sources">Finding dates in sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="how-dates-work.html#capturing-dates-in-claims">Capturing dates in claims</a></li>
+<li class="toctree-l2"><a class="reference internal" href="how-dates-work.html#assigning-hard-start-and-hard-end-dates">Assigning hard start and hard end dates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="how-dates-work.html#from-dates-to-timelines">From dates to timelines</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="timeline-continual-contiguous.html">Fragmentation in timelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="unknown-unnamed-units.html">Unknown and unnamed units</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Sources and citations</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="source-citation-overview.html">Overview: Sources and citations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-overview.html#what-are-sources">What are sources?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-overview.html#the-sources-for-sources">The sources for sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-overview.html#citing-a-source">Citing a source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-overview.html#citation-examples">Citation examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="source-source-specific.html">Source</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="source-source-specific.html#source-summary-of-attributes">Source: Summary of attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-source-specific.html#source-details-of-attributes">Source: Details of attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-unique-identifier">Source: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-type">Source: Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-title">Source: Title</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-author">Source: Author</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-creation-timestamp">Source: Creation Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-upload-timestamp">Source: Upload Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-url">Source: URL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-publication-timestamp">Source: Publication Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-accessed-timestamp">Source: Accessed Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-publication-unique-identifier">Source: Publication Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-acquisition-search-engine">Source: Acquisition Search Engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-acquisition-search-term">Source: Acquisition Search Term</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-acquisition-search-timestamp">Source: Acquisition Search Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-research-comments">Source: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-restricted">Source: Restricted</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="source-citation-specific.html">Citation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-specific.html#citation-summary-of-attributes">Citation: Summary of attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-specific.html#citation-details-of-attributes">Citation: Details of attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-unique-identifier">Citation: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-source-unique-identifier">Citation: Source Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-researcher-comments">Citation: Researcher Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-type">Citation: Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-trigger">Citation: Trigger</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-accessed-timestamp">Citation: Accessed Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-archive-url">Citation: Archive URL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-archive-timestamp">Citation: Archive Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-external-archive-content-hash">Citation: External Archive Content Hash</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-external-archive-metadata-hash">Citation: External Archive Metadata Hash</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="source-publication-specific.html">Publication</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="source-publication-specific.html#source-summary-of-attributes">Source: Summary of attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-publication-specific.html#source-details-of-attributes">Source: Details of attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-unique-identifier">Publication: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-name">Publication: Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-level-of-state-control">Publication: Level of State Control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-country">Publication: Country</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-research-comments">Publication: Research Comments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Locations</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="locations-overview.html">Overview: Location</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="locations-overview.html#what-are-locations">What are Locations?</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Locations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#location-summary-of-attributes">Location: Summary of attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#location-details-of-attributes">Location: Details of attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#location-unique-identifier">Location: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-researcher-comments">Location: Researcher Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-unique-human-readable-identifier">Location: Unique Human-Readable Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-origin-object-name">Location: Origin Object Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-origin-object-identifier">Location: Origin Object Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-geometry-type">Location: Geometry Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-origin">Location: Origin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-country">Location: Country</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-citation">Location: Citation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-admin-level">Location: Admin Level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-admin-level-10">Location: Admin Level 10</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-admin-level-9">Location: Admin Level 9</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-admin-level-8">Location: Admin Level 8</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-admin-level-7">Location: Admin Level 7</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-admin-level-6">Location: Admin Level 6</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-admin-level-5">Location: Admin Level 5</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-admin-level-4">Location: Admin Level 4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-admin-level-3">Location: Admin Level 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-admin-level-2">Location: Admin Level 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-first-check-timestamp">Location: First Check Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-most-recent-check-timestamp">Location: Most Recent Check Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-attic-date">Location: Attic Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-notes">Location: Notes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="location-sample-json.html">Location: GeoJSON example</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Units</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="units.html">Overview: Units</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units.html#what-are-units">What are units?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="units_identity.html">Unit Identity</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units_identity.html#unit-identity-summary-of-claim-attributes">Unit Identity: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_identity.html#unit-identity-details-of-claim-attributes">Unit Identity: details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-unique-identifier">Unit Identity: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-claim-citation-identifier">Unit Identity: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-name">Unit Identity: Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-other-names">Unit Identity: Other Names</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-classification">Unit Identity: Classification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-country">Unit Identity: Country</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-date-range-is-a-start-date">Unit Identity: Date Range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-date-range-is-an-ending-date">Unit Identity: Date Range is an Ending Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-earliest-precise-date">Unit Identity: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-latest-precise-date">Unit Identity: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-earliest-imprecise-date">Unit Identity: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-latest-imprecise-date">Unit Identity: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-research-comments">Unit Identity: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-research-owner">Unit Identity: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-research-status">Unit Identity: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="units_relations.html">Unit Relation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units_relations.html#unit-relation-summary-of-claim-attributes">Unit Relation: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_relations.html#unit-relation-details-of-claim-attributes">Unit Relation: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-relation-identifier">Unit Relation: Relation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-claim-citation-identifier">Unit Relation: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-unit-identifier">Unit Relation: Unit Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-related-unit-identifier">Unit Relation: Related Unit Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-type-of-relation">Unit Relation: Type of Relation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-relation-classification">Unit Relation: Relation Classification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-earliest-precise-date">Unit Relation: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-latest-precise-date">Unit Relation: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-earliest-imprecise-date">Unit Relation: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-latest-imprecise-date">Unit Relation: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-date-range-is-a-start-date">Unit Relation: Date Range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-date-range-is-an-end-date">Unit Relation: Date Range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-research-comments">Unit Relation: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-research-owner">Unit Relation: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-research-status">Unit Relation: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="units_positionings.html">Unit Positioning</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units_positionings.html#unit-positioning-summary-of-claim-attributes">Unit Positioning: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_positionings.html#unit-positioning-details-of-claim-attributes">Unit Positioning: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-positioning-identifier">Unit Positioning: Positioning Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-claim-citation-identifier">Unit Positioning: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-unit-identifier">Unit Positioning: Unit Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-location-identifier">Unit Positioning: Location Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-type-of-positioning">Unit Positioning: Type of Positioning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-base-name">Unit Positioning: Base Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-earliest-precise-date">Unit Positioning: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-latest-precise-date">Unit Positioning: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-earliest-imprecise-date">Unit Positioning: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-latest-imprecise-date">Unit Positioning: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-date-range-is-a-start-date">Unit Positioning: Date Range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-date-range-is-an-end-date">Unit Positioning: Date Range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-research-comments">Unit Positioning: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-research-owner">Unit Positioning: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-research-status">Unit Positioning: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Persons</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="persons.html">Overview: Persons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#what-are-persons">What are persons?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="persons_identity.html">Person Identity</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons_identity.html#person-identity-summary-of-claim-attributes">Person Identity: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_identity.html#person-identity-details-of-claim-attributes">Person Identity: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-unique-identifier">Person Identity: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-claim-citation-identifier">Person Identity: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-name">Person Identity: Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-other-names">Person Identity: Other Names</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-country">Person Identity: Country</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-earliest-precise-date">Person Identity: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-latest-precise-date">Person Identity: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-earliest-imprecise-date">Person Identity: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-latest-imprecise-date">Person Identity: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-date-range-is-a-start-date">Person Identity: Date range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-date-range-is-an-end-date">Person Identity: Date range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-research-comments">Person Identity: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-research-owner">Person Identity: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-research-status">Person Identity: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="persons_postings.html">Person Posting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons_postings.html#person-postings-summary-of-claim-attributes">Person Postings: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_postings.html#person-postings-details-of-claim-attributes">Person Postings: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-unique-identifier">Person Posting: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-claim-citation-identifier">Person Posting: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-unit-unique-identifier">Person Posting: Unit Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-person-unique-identifier">Person Posting: Person Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-role">Person Posting: Role</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-title">Person Posting: Title</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-rank">Person Posting: Rank</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-earliest-precise-date">Person Posting: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-latest-precise-date">Person Posting: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-earliest-imprecise-date">Person Posting: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-latest-imprecise-date">Person Posting: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-date-range-is-a-start-date">Person Posting: Date range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-date-range-is-an-end-date">Person Posting: Date range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-research-comments">Person Posting: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-research-owner">Person Posting: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-research-status">Person Posting: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="persons_extra.html">Person Extra Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-data-summary-of-claim-attributes">Person Extra Data: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-data-details-of-claim-attributes">Person Extra Data: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-unique-identifier">Person Extra Data: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-claim-citation-identifier">Person Extra Data: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-person-unique-identifier">Person Extra Data: Person Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-person-gender">Person Extra Data: Person Gender</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-date-of-birth">Person Extra Data: Date of Birth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-deceased">Person Extra Data: Deceased?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-date-of-death">Person Extra Data: Date of Death</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-account-type">Person Extra Data: Account Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-account-identifier">Person Extra Data: Account Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-external-link-description">Person Extra Data: External Link Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-media-description">Person Extra Data: Media Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-notes">Person Extra Data: Notes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-research-comments">Person Extra Data: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-research-owner">Person Extra Data: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-research-status">Person Extra Data: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Incidents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="incidents.html">Overview: incidents</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#what-are-incidents">What are incidents?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="incidents_attributes.html">Incident</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="incidents_attributes.html#incident-summary-of-claim-attributes">Incident: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents_attributes.html#incident-details-of-claim-attributes">Incident: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-unique-identifier">Incident: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-claim-citation-identifier">Incident: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-earliest-precise-date">Incident: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-latest-precise-date">Incident: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-earliest-imprecise-date">Incident: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-latest-imprecise-date">Incident: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-date-range-is-a-start-date">Incident: Date range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-date-range-is-an-end-date">Incident: Date range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-location">Incident: Location</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-location-description">Incident: Location Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-violation-type">Incident: Violation Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-violation-description">Incident: Violation Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-perpetrator-unit-unique-identifier">Incident: Perpetrator Unit Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-perpetrator-person-unique-identifier">Incident: Perpetrator Person Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-perpetrator-classification">Incident: Perpetrator Classification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-research-comments">Incident: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-research-owner">Incident: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-research-status">Incident: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Trainings (Draft)</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="trainings-overview.html">Overview: Trainings (Draft)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trainings-specific.html">Trainings (Draft)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="trainings-specific.html#training-summary-of-claim-attributes">Training: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="trainings-specific.html#training-details-of-claim-attributes">Training: details of claim attributes</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">WhoWasInCommand</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="generalfunctions.html">Frequently Asked Questions about WhoWasInCommand</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#what-is-whowasincommand">What is WhoWasInCommand?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#how-do-i-find-what-i-m-looking-for">How do I find what I’m looking for?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#where-can-i-find-help-understanding-what-i-m-seeing-or-how-this-website-works">Where can I find help understanding what I’m seeing or how this website works?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#where-can-i-find-out-more-about-the-data-on-units-persons-and-incidents">Where can I find out more about the data on “units”, “persons” and “incidents”?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#how-can-i-see-all-the-units-for-a-particular-country">How can I see all the units for a particular country?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#why-does-whowasincommand-make-suggestions-to-me">Why does WhoWasInCommand make suggestions to me?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#how-do-i-see-the-sources-used-for-a-specific-datapoint">How do I see the sources used for a specific datapoint?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#what-are-those-little-numbered-circles-that-keep-appearing">What are those little numbered circles that keep appearing?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#why-do-some-dates-have-a-dotted-line-beneath-them-and-some-don-t">Why do some dates have a dotted line beneath them and some don’t?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalfunctions.html#the-command-chart-is-taking-a-looooong-time-to-load-is-there-a-problem">The command chart is taking a looooong time to load. Is there a problem?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="unitrec.html">Unit Records on WhoWasInCommand</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-title-area">Unit record: Title area</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-content-sidebar">Unit record: Content sidebar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-areas-of-operation">Unit record: Areas of Operation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-sites">Unit record: Sites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-memberships">Unit record: Memberships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-member-units">Unit record: Member units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-parent-units">Unit record: Parent units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-unit-subsidiaries">Unit record: Unit subsidiaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-unit-personnel">Unit record: Unit personnel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unitrec.html#unit-record-unit-incidents">Unit record: Unit incidents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="personsrec.html">Person records on WhoWasInCommand</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-title-area">Person record: Title area</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-content-sidebar">Person record: Content sidebar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-person-last-seen-as">Person record: Person “Last Seen As”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-person-memberships">Person record: Person memberships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-chain-of-command">Person record: Chain of command</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-superiors">Person record: Superiors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="personsrec.html#person-record-subordinates">Person record: Subordinates</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="incidentrec.html">Incident Records on WhoWasInCommand</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="incidentrec.html#incident-record-title-area">Incident record: Title area</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidentrec.html#incident-record-content-sidebar">Incident record: Content sidebar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidentrec.html#incident-record-location">Incident record: Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidentrec.html#incident-record-description">Incident record: Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidentrec.html#incident-record-perpetrator-units">Incident record: Perpetrator units</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="downloads.html">What data can I download from WhoWasInCommand?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="downloads.html#data-for-download">Data for download</a></li>
+<li class="toctree-l2"><a class="reference internal" href="downloads.html#how-to-download">How to download</a></li>
+<li class="toctree-l2"><a class="reference internal" href="downloads.html#contents-of-each-download">Contents of each download</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="downloads.html#download-basic">Download: Basic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="downloads.html#download-parentage">Download: Parentage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="downloads.html#download-memberships">Download: Memberships</a></li>
+<li class="toctree-l3"><a class="reference internal" href="downloads.html#download-areas-of-operation">Download: Areas of operation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="downloads.html#download-sites">Download: Sites</a></li>
+<li class="toctree-l3"><a class="reference internal" href="downloads.html#download-personnel">Download: Personnel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="downloads.html#download-sources">Download: Sources</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Security Force Monitor: Research Handbook</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Locations</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/locations-specific.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="location-sample-json.html" class="btn btn-neutral float-right" title="Location: GeoJSON example" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="locations-overview.html" class="btn btn-neutral float-left" title="Overview: Location" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="locations">
+<h1>Locations<a class="headerlink" href="#locations" title="Permalink to this headline">¶</a></h1>
+<p>Locations are unique places or positions. A named town or city can be a Location, as can an administrative area like a county, district or state. In fact, anything that be drawn on a map can be a Location: a specific point, a section of a road, a military line of control, and so on.</p>
+<div class="section" id="location-summary-of-attributes">
+<h2>Location: Summary of attributes<a class="headerlink" href="#location-summary-of-attributes" title="Permalink to this headline">¶</a></h2>
+<p>The table below summarises the following dimensions of Locations:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Attribute label: a human readable label for the attribute</p></li>
+<li><p>Attribute name: a unique machine-readable name for the attribute, used during data capture</p></li>
+<li><p>Status: whether the attribute is optional or required in a claim</p></li>
+<li><p>Data type: the sort of data that can be entered into the attribute</p></li>
+<li><p>Conformed name: a standardized name that simplifies attribute use in SFM databases</p></li>
+</ul>
+</div></blockquote>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Attribute label</p></th>
+<th class="head"><p>Attribute name</p></th>
+<th class="head"><p>Status</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Conformed name</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="#location-unique-identifier">Location: Unique Identifier</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/id</span></code></p></td>
+<td><p>Required</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#location-researcher-comments">Location: Researcher Comments</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/comments</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#location-unique-human-readable-identifier">Location: Unique Human-Readable Identifier</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/humane-id</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#location-origin-object-name">Location: Origin Object Name</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/name</span></code></p></td>
+<td><p>Required</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#location-origin-object-identifier">Location: Origin Object Identifier</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/foreign-id</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#location-geometry-type">Location: Geometry Type</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/geo-type</span></code></p></td>
+<td><p>Required</p></td>
+<td><p>List</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#location-origin">Location: Origin</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/origin</span></code></p></td>
+<td><p>Required</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#location-country">Location: Country</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/country</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#location-citation">Location: Citation</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/citation-id</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#location-admin-level">Location: Admin Level</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/admin-level</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>Integer</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#location-admin-level-10">Location: Admin Level 10</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-10</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#location-admin-level-9">Location: Admin Level 9</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-9</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#location-admin-level-8">Location: Admin Level 8</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-8</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#location-admin-level-7">Location: Admin Level 7</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-7</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#location-admin-level-6">Location: Admin Level 6</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-6</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#location-admin-level-5">Location: Admin Level 5</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-5</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#location-admin-level-4">Location: Admin Level 4</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-4</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#location-admin-level-3">Location: Admin Level 3</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-3</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#location-admin-level-2">Location: Admin Level 2</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-2</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#location-first-check-timestamp">Location: First Check Timestamp</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/first-check-time</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#location-most-recent-check-timestamp">Location: Most Recent Check Timestamp</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/last-check-time</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#location-attic-date">Location: Attic Date</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/as-of-date</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#location-notes">Location: Notes</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">::location/notes</span></code></p></td>
+<td><p>Optional</p></td>
+<td><p>String</p></td>
+<td><p>Not assigned</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="location-details-of-attributes">
+<h2>Location: Details of attributes<a class="headerlink" href="#location-details-of-attributes" title="Permalink to this headline">¶</a></h2>
+<p>This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use.</p>
+<div class="section" id="location-unique-identifier">
+<h3>Location: Unique Identifier<a class="headerlink" href="#location-unique-identifier" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="attribute-name">
+<h4>Attribute name<a class="headerlink" href="#attribute-name" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/id</span></code></p>
+</div>
+<div class="section" id="description">
+<h4>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h4>
+<p>A unique 36-character code assigned to each Location in the dataset.</p>
+</div>
+<div class="section" id="type-of-attribute">
+<h4>Type of attribute<a class="headerlink" href="#type-of-attribute" title="Permalink to this headline">¶</a></h4>
+<p>String</p>
+</div>
+<div class="section" id="status">
+<h4>Status<a class="headerlink" href="#status" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="example-of-use">
+<h4>Example of use<a class="headerlink" href="#example-of-use" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">5f55f3f1-ed83-4766-b26a-fd11bedc398c</span></code></p>
+</div>
+<div class="section" id="guidance-on-use">
+<h4>Guidance on use<a class="headerlink" href="#guidance-on-use" title="Permalink to this headline">¶</a></h4>
+<p>This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs must be created using either installable or online tools. Values stored in this attribute are referenced in attributes like <span class="xref std std-ref">Unit: Location</span>.</p>
+</div>
+</div>
+<div class="section" id="location-researcher-comments">
+<h3>Location: Researcher Comments<a class="headerlink" href="#location-researcher-comments" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id1">
+<h4>Attribute name<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/comments</span></code></p>
+</div>
+<div class="section" id="id2">
+<h4>Description<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<p>Observations specific to the process of reviewing data in this attribute, including fixes, refinements and other suggestions.</p>
+</div>
+<div class="section" id="id3">
+<h4>Type of attribute<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<p>Text</p>
+</div>
+<div class="section" id="id4">
+<h4>Status<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id5">
+<h4>Example of use<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">Location</span> <span class="pre">does</span> <span class="pre">not</span> <span class="pre">exist</span> <span class="pre">in</span> <span class="pre">OpenStreetMap</span> <span class="pre">-</span> <span class="pre">alternate</span> <span class="pre">source</span> <span class="pre">needed</span></code>, <code class="docutils literal notranslate"><span class="pre">Possible</span> <span class="pre">duplicate</span> <span class="pre">of</span> <span class="pre">Location</span> <span class="pre">1bbdfd2b-2d7c-4677-8e1f-8fa5b0367cfe</span></code>, <code class="docutils literal notranslate"><span class="pre">Reprocess</span> <span class="pre">to</span> <span class="pre">update</span> <span class="pre">geometry</span></code></p>
+</div>
+<div class="section" id="id6">
+<h4>Guidance on use<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<p>Staff Researchers use this attribute to pass on feedback about the data in the attribute. This may include specific data changes and other observations that can improve the quality of the data. Data in this attribute are not intended for publication. The workflow of Location datapoints is a little different from other entities within the SFM data model, in that it is a combination of manual work by Staff Researchers and automation by developers. The comments attribute is commonly used to flag places where developers may need to provide assistance. The comments attribute is common to all main entities and claim types in the SFM data model.</p>
+</div>
+</div>
+<div class="section" id="location-unique-human-readable-identifier">
+<h3>Location: Unique Human-Readable Identifier<a class="headerlink" href="#location-unique-human-readable-identifier" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id7">
+<h4>Attribute name<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/humane-id</span></code></p>
+</div>
+<div class="section" id="id8">
+<h4>Description<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<p>A human-readable unique identifier for each Location in the dataset.</p>
+</div>
+<div class="section" id="id9">
+<h4>Type of attribute<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h4>
+<p>String</p>
+</div>
+<div class="section" id="id10">
+<h4>Status<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is required.</p>
+</div>
+<div class="section" id="id11">
+<h4>Example of use<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">Ta'izz</span> <span class="pre">Governorate</span> <span class="pre">(osm,</span> <span class="pre">poly)</span> <span class="pre">5c35b342-0b5e-4648-86cd-7ad730d647fa</span></code></p>
+</div>
+<div class="section" id="id12">
+<h4>Guidance on use<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h4>
+<p>The values in <code class="docutils literal notranslate"><span class="pre">::location/humane-id</span></code> are a concatenation of four other values in the attribute of data. They provide a unique but human-readable key that can be included in Units and Incidents data to refer to a specific Location within the <code class="docutils literal notranslate"><span class="pre">Locations</span></code> dataset. The attribute is created by following the below format:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">location</span><span class="p">:</span><span class="n">name</span> <span class="p">(</span><span class="n">Location</span><span class="p">:</span><span class="n">origin</span><span class="p">,</span> <span class="n">Location</span><span class="p">:</span><span class="n">geotype</span><span class="p">)</span> <span class="n">Location</span><span class="p">:</span><span class="nb">id</span><span class="p">:</span><span class="n">admin</span>
+</pre></div>
+</div>
+<p>The value <code class="docutils literal notranslate"><span class="pre">Ta'izz</span> <span class="pre">Governorate</span> <span class="pre">(osm,</span> <span class="pre">poly)</span> <span class="pre">5c35b342-0b5e-4648-86cd-7ad730d647fa</span></code> tells us that the name of the place is <code class="docutils literal notranslate"><span class="pre">Ta'izz</span> <span class="pre">Governorate</span></code>, that it is a Location found in <code class="docutils literal notranslate"><span class="pre">osm</span></code> (short for “OpenStreetMap”) that it denotes an area (<code class="docutils literal notranslate"><span class="pre">poly</span></code>); the UUID provides the hard link to a specific attribute in the Location table.</p>
+<p>Values in <code class="docutils literal notranslate"><span class="pre">::location/humane-id</span></code> provide Staff Researchers with a legible way to reference a Location specifically when using spreadsheets to construct datasets. For example, when defining a <code class="docutils literal notranslate"><span class="pre">site</span></code> or <code class="docutils literal notranslate"><span class="pre">area</span> <span class="pre">of</span> <span class="pre">operations</span></code> i  <span class="xref std std-ref">Unit: Positioning</span> entity, a humane ID is used. The reason for this particular formulation is the need to balance readability with uniqueness. We could choose to use the UUID in <code class="docutils literal notranslate"><span class="pre">::location/id</span></code> as a way to reference Locations in other tables, but this would not give any easy-to-see indication about where the Location was, or what sort of Location it was. Similarly, the values in <code class="docutils literal notranslate"><span class="pre">::location/name</span></code> could be used as a reference to a Location, but these are not unique enough for us to be certain that we are referencing the correction Location. The format we have chosen balances these competing needs, giving the user a quick way to see the name of a Location, what type of object it is, where we got it from, along with its UUID.</p>
+</div>
+</div>
+<div class="section" id="location-origin-object-name">
+<h3>Location: Origin Object Name<a class="headerlink" href="#location-origin-object-name" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id13">
+<h4>Attribute name<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/name</span></code></p>
+</div>
+<div class="section" id="id14">
+<h4>Description<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h4>
+<p>The name of the Location as specified in the source of geospatial information from which it is taken.</p>
+</div>
+<div class="section" id="id15">
+<h4>Type of attribute<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h4>
+<p>String</p>
+</div>
+<div class="section" id="id16">
+<h4>Status<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h4>
+<p>THis attribute is required.</p>
+</div>
+<div class="section" id="id17">
+<h4>Example of use<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">`Ta'izz</span> <span class="pre">Governorate`</span></code></p>
+</div>
+<div class="section" id="id18">
+<h4>Guidance on use<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h4>
+<p>Locations are a combination of metadata entered by hand and other data obtained through use of automation tools. Locations are also derived from different data sources that may describe geographic objects in a variety of ways. The value in <code class="docutils literal notranslate"><span class="pre">::location/name</span></code> is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM’s own <code class="docutils literal notranslate"><span class="pre">name</span></code> attribute and place it in <code class="docutils literal notranslate"><span class="pre">::location/name</span></code>. Along with <code class="docutils literal notranslate"><span class="pre">::location/id</span></code> and <code class="docutils literal notranslate"><span class="pre">::location/geo-type</span></code>, <code class="docutils literal notranslate"><span class="pre">::location/name</span></code> is needed in order for automation tools toidentify the object within the geospatial data source. Where a Location is arbitrarily-defined, or is derived from a data source that does not provide a name, the Staff Researcher can provide one.</p>
+</div>
+</div>
+<div class="section" id="location-origin-object-identifier">
+<h3>Location: Origin Object Identifier<a class="headerlink" href="#location-origin-object-identifier" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id19">
+<h4>Attribute name<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/foreign-id</span></code></p>
+</div>
+<div class="section" id="id20">
+<h4>Description<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h4>
+<p>The identifier for the Location as specified in the source of geospatial information from which it is taken.</p>
+</div>
+<div class="section" id="id21">
+<h4>Type of attribute<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h4>
+<p>String</p>
+</div>
+<div class="section" id="id22">
+<h4>Status<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is optional.</p>
+</div>
+<div class="section" id="id23">
+<h4>Example of use<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">383895</span></code></p>
+</div>
+<div class="section" id="id24">
+<h4>Guidance on use<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h4>
+<p>Locations are a combination of metadata entered by hand and other data obtained through use of automation. Locations are also derived from different data sources that may describe geographic objects in a variety of ways. The value in <code class="docutils literal notranslate"><span class="pre">location:id</span></code> is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM’s <code class="docutils literal notranslate"><span class="pre">id</span></code> attribute and place it in the <code class="docutils literal notranslate"><span class="pre">::location/id</span></code> attribute. Along with <code class="docutils literal notranslate"><span class="pre">::location/name</span></code> and <code class="docutils literal notranslate"><span class="pre">::location/geo-type</span></code>, <code class="docutils literal notranslate"><span class="pre">::location/id</span></code> is needed in order for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily defined, or is derived from a data source that does not provide a ID number, the Staff Researcher can provide one.</p>
+</div>
+</div>
+<div class="section" id="location-geometry-type">
+<h3>Location: Geometry Type<a class="headerlink" href="#location-geometry-type" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id25">
+<h4>Attribute name<a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/geo-type</span></code></p>
+</div>
+<div class="section" id="id26">
+<h4>Description<a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h4>
+<p>The two-dimensional geometric primative of the Location, as defined in the source of geospatial information from which it is taken.</p>
+</div>
+<div class="section" id="id27">
+<h4>Type of attribute<a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h4>
+<p>Text</p>
+</div>
+<div class="section" id="id28">
+<h4>Status<a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is required.</p>
+</div>
+<div class="section" id="id29">
+<h4>Example of use<a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">point</span></code>, <code class="docutils literal notranslate"><span class="pre">poly</span></code></p>
+</div>
+<div class="section" id="id30">
+<h4>Guidance on use<a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h4>
+<p>This attribute used a controlled vocabulary to describe the type of geometry used to represent the Location on a map. The Staff Researcher can choose from the following three options?</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">point</span></code>: the Location is a single distinct point on a map, represented by a single pair of geographic coordinates.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">poly</span></code>: the Location is a closed area on a map, its boundary described by a sequence of geographic coordinates.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">line</span></code>: the Location is a line on a map, described by a sequence of geographic coordinates. A <code class="docutils literal notranslate"><span class="pre">line</span></code> may also be closed.</p></li>
+</ul>
+</div></blockquote>
+<p>The gazeteer used as the source of geometry may used different terminology to describe the Location. For example, in OpenStreetMap the boundaries of administrative areas (such as counties or states) <a class="reference external" href="https://wiki.openstreetmap.org/wiki/Relation">are described</a> using an object called a <code class="docutils literal notranslate"><span class="pre">relation</span></code>; although this can be a complex mix of different objects, for our purposes it is a <code class="docutils literal notranslate"><span class="pre">poly</span></code> because it describes an area.</p>
+<p>Along with the values in <code class="docutils literal notranslate"><span class="pre">::location/name</span></code>, <code class="docutils literal notranslate"><span class="pre">::location/origin</span></code> and <code class="docutils literal notranslate"><span class="pre">::location/id</span></code> the value entered in <code class="docutils literal notranslate"><span class="pre">::location/geo-type</span></code> becomes part of the Location’s “humane id”, a human-readable unique identifier that acts as a reference for a Location when it is used in other parts of the data model (such as when defining a “site” in the <span class="xref std std-ref">Units</span> data,for example).</p>
+</div>
+</div>
+<div class="section" id="location-origin">
+<h3>Location: Origin<a class="headerlink" href="#location-origin" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id31">
+<h4>Attribute name<a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/origin</span></code></p>
+</div>
+<div class="section" id="id32">
+<h4>Description<a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h4>
+<p>The geospatial information source that provides information about this Location.</p>
+</div>
+<div class="section" id="id33">
+<h4>Type of attribute<a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h4>
+<p>String</p>
+</div>
+<div class="section" id="id34">
+<h4>Status<a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is required.</p>
+</div>
+<div class="section" id="id35">
+<h4>Example of use<a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">osm</span></code>, <code class="docutils literal notranslate"><span class="pre">sfm</span></code>, <code class="docutils literal notranslate"><span class="pre">hdx</span></code>, <code class="docutils literal notranslate"><span class="pre">mimu</span></code>, <code class="docutils literal notranslate"><span class="pre">khrg</span></code></p>
+</div>
+<div class="section" id="id36">
+<h4>Guidance on use<a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h4>
+<p>SFM uses a combination of manual data entry and automated processes to manage Location information. The values in <code class="docutils literal notranslate"><span class="pre">location:origin</span></code> identify where automation tools should go to obtain spatial information about an object. For example, if the value <code class="docutils literal notranslate"><span class="pre">osm</span></code> is entered in <code class="docutils literal notranslate"><span class="pre">location:origin</span></code> this indicates that the automation tool should query OpenStreetMap in order to obtain spatial information about a Location. If <code class="docutils literal notranslate"><span class="pre">osm</span></code> were set, then the values in <code class="docutils literal notranslate"><span class="pre">location:name</span></code> and <code class="docutils literal notranslate"><span class="pre">location:id</span></code> would correspond to the object name and ID number in OpenStreetMap. Locations can be derived from comprehensive online services, as well as other sources like locally-held <code class="docutils literal notranslate"><span class="pre">.shp</span></code> or <code class="docutils literal notranslate"><span class="pre">.kml</span></code> files. The number of origins is unlimited.</p>
+</div>
+</div>
+<div class="section" id="location-country">
+<h3>Location: Country<a class="headerlink" href="#location-country" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id37">
+<h4>Attribute name<a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/country</span></code></p>
+</div>
+<div class="section" id="id38">
+<h4>Description<a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h4>
+<p>Country in which the Location is situated.</p>
+</div>
+<div class="section" id="id39">
+<h4>Type of attribute<a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h4>
+<p>Text, controlled vocabulary</p>
+</div>
+<div class="section" id="id40">
+<h4>Status<a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is optional.</p>
+</div>
+<div class="section" id="id41">
+<h4>Example of use<a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">ye</span></code>, <code class="docutils literal notranslate"><span class="pre">ng</span></code>, <code class="docutils literal notranslate"><span class="pre">mm</span></code></p>
+</div>
+<div class="section" id="id42">
+<h4>Guidance on use<a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h4>
+<p>Values for this attribute are the ISO 3166-1 alpha-2 country codes, which can be found (<a class="reference external" href="https://www.iso.org/obp/ui/#search/code/">on the ISO website</a> and on <a class="reference external" href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements">Wikipedia</a>). This attribute is entered manually by the Staff Researcher and acts as a simple cross-check on the automatically-populted values in <code class="docutils literal notranslate"><span class="pre">location/admin-level-2</span></code>.</p>
+</div>
+</div>
+<div class="section" id="location-citation">
+<h3>Location: Citation<a class="headerlink" href="#location-citation" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id43">
+<h4>Attribute name<a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/citation-id</span></code></p>
+</div>
+<div class="section" id="id44">
+<h4>Description<a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h4>
+<p>The UUID of the citation in the source that provides information about the Location.</p>
+</div>
+<div class="section" id="id45">
+<h4>Type of attribute<a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h4>
+<p>String</p>
+</div>
+<div class="section" id="id46">
+<h4>Status<a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h4>
+<p>This attribute is optional.</p>
+</div>
+<div class="section" id="id47">
+<h4>Example of use<a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">20248d51-6efe-4150-a5b6-4211fd83365d</span></code></p>
+</div>
+<div class="section" id="id48">
+<h4>Guidance on use<a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h4>
+<p>SFM uses a number of different sources of geographical information. These include OpenStreetMap, data provided by the United Nations through the Humanitarian Data Exchange or the Myanmar Information Management Unit, and Locations that are arbitrarily defined during research. Staff Researchers should use the <code class="docutils literal notranslate"><span class="pre">::location/citation-id</span></code> attribute to make note of exactly which dataset has been used as a source of this Location. The UUID will reference an entry in the <a class="reference internal" href="source-citation-specific.html#citation"><span class="std std-ref">Citation</span></a> dataset. In this way, the <code class="docutils literal notranslate"><span class="pre">::location/source</span></code> attribute serves a different purpose to <code class="docutils literal notranslate"><span class="pre">::location/origin</span></code>.</p>
+</div>
+</div>
+<div class="section" id="location-admin-level">
+<h3>Location: Admin Level<a class="headerlink" href="#location-admin-level" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id49">
+<h4>Attribute name<a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/admin-level</span></code></p>
+</div>
+<div class="section" id="id50">
+<h4>Description<a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h4>
+<p>The administrative level of the Location described in the attribute, if defined in the source of geographical information from which the Location is derived.</p>
+</div>
+<div class="section" id="id51">
+<h4>Type of attribute<a class="headerlink" href="#id51" title="Permalink to this headline">¶</a></h4>
+<p>Numbers; programatically created.</p>
+</div>
+<div class="section" id="id52">
+<h4>Status<a class="headerlink" href="#id52" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id53">
+<h4>Example of use<a class="headerlink" href="#id53" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">2</span></code></p>
+</div>
+<div class="section" id="id54">
+<h4>Guidance on use<a class="headerlink" href="#id54" title="Permalink to this headline">¶</a></h4>
+<p>In every country, places are organized hierarchically based on their political significance, population and other factors. This feature passes into geographical information systems. At the top of the hierarchy rests the international boundary and capital city of a country; beneath this, there are sub-national divisions like states or provinces, and regional capitals, followed by districts, counties, municipalities, towns, suburbs, wards and so on. Different countries have different ways of describing these political and administrative divisions, but they are largely hierarchical and can be cross-compared. Knowing the level(s) at which a Location sits in the overall hierarchy provides us with a useful way to group and understand Locations; it can tell us important things about political and administrative authority, governance and elections, as well as security force jurisdictions and organizational structures.</p>
+<p>The attribute <code class="docutils literal notranslate"><span class="pre">::location:admin-level</span></code> is drawn from OpenStreetMap, which has a <a class="reference external" href="https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative">comprehensive table</a> that matches the divisions that exist in every state to a single ranking scheme from <code class="docutils literal notranslate"><span class="pre">2</span></code> (international border) to <code class="docutils literal notranslate"><span class="pre">10</span></code> (small villages and communities). Some countries have defined a level <code class="docutils literal notranslate"><span class="pre">11</span></code> division, but we do not use this. Not all levels are present in every country: for example, Mexico does not define a level 3 administrative area.</p>
+<p>The data in <code class="docutils literal notranslate"><span class="pre">location:admin-level</span></code> and the other “admin_level” attributes are automatically populated using a script that queries the OSM Overpass API. The Staff Researcher does not do this manually.</p>
+</div>
+</div>
+<div class="section" id="location-admin-level-10">
+<h3>Location: Admin Level 10<a class="headerlink" href="#location-admin-level-10" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id55">
+<h4>Attribute name<a class="headerlink" href="#id55" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-10</span></code></p>
+</div>
+<div class="section" id="id56">
+<h4>Description<a class="headerlink" href="#id56" title="Permalink to this headline">¶</a></h4>
+<p>The administrative level 10 Location within which the present Location is wholly situated.</p>
+</div>
+<div class="section" id="id57">
+<h4>Type of attribute<a class="headerlink" href="#id57" title="Permalink to this headline">¶</a></h4>
+<p>String; programatically generated.</p>
+</div>
+<div class="section" id="id58">
+<h4>Status<a class="headerlink" href="#id58" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id59">
+<h4>Example of use<a class="headerlink" href="#id59" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">Zone</span> <span class="pre">13</span> <span class="pre">(osm,</span> <span class="pre">poly)</span> <span class="pre">b858ac31-9e46-4818-b70a-572756d60012</span></code>, a <em>barangay zone</em> <a class="reference external" href="https://www.openstreetmap.org/relation/11378938">in the Philippines</a>.</p>
+</div>
+<div class="section" id="id60">
+<h4>Guidance on use<a class="headerlink" href="#id60" title="Permalink to this headline">¶</a></h4>
+<p>This attribute contains the human-readable idenfifier (<code class="docutils literal notranslate"><span class="pre">::location/humane-id</span></code>) of the level 10 adminstrative area in which the current Location is situated. Level 10 is a extrenely small adminstrative division, and is rarely specified in freely available geospatial information sources.</p>
+<p>The <a class="reference external" href="https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative">schema used by OpenStreetMap</a>, for example, includes <em>quartiers</em> (Belgium), <em>asumid</em> (subdistricts of Talinn, Estonia) and <em>الحي</em> (neighbourhoods of Damascus, Syria) in the list of types of level 10 administrative area.</p>
+<p>This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.</p>
+</div>
+</div>
+<div class="section" id="location-admin-level-9">
+<h3>Location: Admin Level 9<a class="headerlink" href="#location-admin-level-9" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id61">
+<h4>Attribute name<a class="headerlink" href="#id61" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-9</span></code></p>
+</div>
+<div class="section" id="id62">
+<h4>Description<a class="headerlink" href="#id62" title="Permalink to this headline">¶</a></h4>
+<p>The administrative level 9 Location within which the present Location is wholly situated.</p>
+</div>
+<div class="section" id="id63">
+<h4>Type of attribute<a class="headerlink" href="#id63" title="Permalink to this headline">¶</a></h4>
+<p>String; programatically generated.</p>
+</div>
+<div class="section" id="id64">
+<h4>Status<a class="headerlink" href="#id64" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id65">
+<h4>Example of use<a class="headerlink" href="#id65" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">Zone</span> <span class="pre">13</span> <span class="pre">(osm,</span> <span class="pre">poly)</span> <span class="pre">b858ac31-9e46-4818-b70a-572756d60012</span></code>, a <em>barangay zone</em> <a class="reference external" href="https://www.openstreetmap.org/relation/11378938">in the Philippines</a>.</p>
+</div>
+<div class="section" id="id66">
+<h4>Guidance on use<a class="headerlink" href="#id66" title="Permalink to this headline">¶</a></h4>
+<p>This attribute contains the human-readable idenfifier (<code class="docutils literal notranslate"><span class="pre">::location/humane-id</span></code>) of the level 9 adminstrative area in which the current Location is situated. Level 9 is a extrenely small adminstrative division, and is rarely specified in freely available geospatial information sources.</p>
+<p>The <a class="reference external" href="https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative">schema used by OpenStreetMap</a>, for example, includes <em>arangay zones</em> (Philippines), <em>Sectores y Barrios de 1° nivel</em> (Venezuela) and <em>မြို့နယ်</em> (townships in Myanmar) in the list of types of level 9 administrative area.</p>
+<p>This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.</p>
+</div>
+</div>
+<div class="section" id="location-admin-level-8">
+<h3>Location: Admin Level 8<a class="headerlink" href="#location-admin-level-8" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id67">
+<h4>Attribute name<a class="headerlink" href="#id67" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-8</span></code></p>
+</div>
+<div class="section" id="id68">
+<h4>Description<a class="headerlink" href="#id68" title="Permalink to this headline">¶</a></h4>
+<p>The administrative level 8 Location within which the present Location is wholly situated.</p>
+</div>
+<div class="section" id="id69">
+<h4>Type of attribute<a class="headerlink" href="#id69" title="Permalink to this headline">¶</a></h4>
+<p>String; programatically generated.</p>
+</div>
+<div class="section" id="id70">
+<h4>Status<a class="headerlink" href="#id70" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id71">
+<h4>Example of use<a class="headerlink" href="#id71" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">Ermita</span> <span class="pre">(osm,</span> <span class="pre">poly)</span> <span class="pre">9989ba43-3b03-473a-8226-511a8eb82c3d</span></code>, an <a class="reference external" href="https://www.openstreetmap.org/relation/103706#map=15/14.5852/120.9821">administrative district of Manila</a> in the Philippines.</p>
+</div>
+<div class="section" id="id72">
+<h4>Guidance on use<a class="headerlink" href="#id72" title="Permalink to this headline">¶</a></h4>
+<p>This attribute contains the human-readable idenfifier (<code class="docutils literal notranslate"><span class="pre">::location/humane-id</span></code>) of the level 8 adminstrative area in which the current Location is situated. Level 9 is a relatively small adminstrative division, and may not be commonly found in freely available geospatial information sources.</p>
+<p>The <a class="reference external" href="https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative">schema used by OpenStreetMap</a>, for example, includes <em>city corporations</em> (Bangladesh), <em>cantons</em> (Chad) and <em>kebele</em> (Ethiopia) in the list of types of level 8 administrative area.</p>
+<p>This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.</p>
+</div>
+</div>
+<div class="section" id="location-admin-level-7">
+<h3>Location: Admin Level 7<a class="headerlink" href="#location-admin-level-7" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id73">
+<h4>Attribute name<a class="headerlink" href="#id73" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-7</span></code></p>
+</div>
+<div class="section" id="id74">
+<h4>Description<a class="headerlink" href="#id74" title="Permalink to this headline">¶</a></h4>
+<p>The administrative level 7 Location within which the present Location is wholly situated.</p>
+</div>
+<div class="section" id="id75">
+<h4>Type of attribute<a class="headerlink" href="#id75" title="Permalink to this headline">¶</a></h4>
+<p>String; programatically generated.</p>
+</div>
+<div class="section" id="id76">
+<h4>Status<a class="headerlink" href="#id76" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id77">
+<h4>Example of use<a class="headerlink" href="#id77" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">Wuse</span> <span class="pre">II</span> <span class="pre">(osm,</span> <span class="pre">poly)</span> <span class="pre">111f698a-421e-4fc8-9ace-c0aa62b461b5</span></code></p>
+</div>
+<div class="section" id="id78">
+<h4>Guidance on use<a class="headerlink" href="#id78" title="Permalink to this headline">¶</a></h4>
+<p>This attribute contains the human-readable idenfifier (<code class="docutils literal notranslate"><span class="pre">::location/humane-id</span></code>) of the level 7 adminstrative area in which the current Location is situated. Level 7 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.</p>
+<p>The <a class="reference external" href="https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative">schema used by OpenStreetMap</a>, for example, includes <em>sous-préfectures</em> (Chad), <em>arrondissements</em> (in the cities of Ouagadougou and Bobo Dioulasso, Burkina Faso) and <em>microrregiões</em> (micro-regions in Brazil) in the list of types of level 7 administrative area.</p>
+<p>This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.</p>
+</div>
+</div>
+<div class="section" id="location-admin-level-6">
+<h3>Location: Admin Level 6<a class="headerlink" href="#location-admin-level-6" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id79">
+<h4>Attribute name<a class="headerlink" href="#id79" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-6</span></code></p>
+</div>
+<div class="section" id="id80">
+<h4>Description<a class="headerlink" href="#id80" title="Permalink to this headline">¶</a></h4>
+<p>The administrative level 6 Location within which the present Location is wholly situated.</p>
+</div>
+<div class="section" id="id81">
+<h4>Type of attribute<a class="headerlink" href="#id81" title="Permalink to this headline">¶</a></h4>
+<p>String; programatically generated.</p>
+</div>
+<div class="section" id="id82">
+<h4>Status<a class="headerlink" href="#id82" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id83">
+<h4>Example of use<a class="headerlink" href="#id83" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">Arbinda</span> <span class="pre">(osm,</span> <span class="pre">poly)</span> <span class="pre">659c231e-eb1e-4c46-a710-b7663ef9f2e0</span></code>, a <em>commune rurale</em> <a class="reference external" href="https://www.openstreetmap.org/relation/6199315">in Burkina Faso</a>.</p>
+</div>
+<div class="section" id="id84">
+<h4>Guidance on use<a class="headerlink" href="#id84" title="Permalink to this headline">¶</a></h4>
+<p>This attribute contains the human-readable idenfifier (<code class="docutils literal notranslate"><span class="pre">::location/humane-id</span></code>) of the level 6 adminstrative area in which the current Location is situated. Level 6 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.</p>
+<p>The <a class="reference external" href="https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative">schema used by OpenStreetMap</a>, for example, includes <em>départments</em> (Chad), <em>municipios</em> (Mexico) and local government areas (Nigeria) in the list of types of level 6 administrative area.</p>
+<p>This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.</p>
+</div>
+</div>
+<div class="section" id="location-admin-level-5">
+<h3>Location: Admin Level 5<a class="headerlink" href="#location-admin-level-5" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id85">
+<h4>Attribute name<a class="headerlink" href="#id85" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-5</span></code></p>
+</div>
+<div class="section" id="id86">
+<h4>Description<a class="headerlink" href="#id86" title="Permalink to this headline">¶</a></h4>
+<p>The administrative level 5 Location within which the present Location is wholly situated.</p>
+</div>
+<div class="section" id="id87">
+<h4>Type of attribute<a class="headerlink" href="#id87" title="Permalink to this headline">¶</a></h4>
+<p>String; programatically generated.</p>
+</div>
+<div class="section" id="id88">
+<h4>Status<a class="headerlink" href="#id88" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id89">
+<h4>Example of use<a class="headerlink" href="#id89" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">Seti</span> <span class="pre">(osm,</span> <span class="pre">poly)</span> <span class="pre">64a4dd09-36d4-4455-bd07-a77addc91946</span></code>, a <a class="reference external" href="https://www.openstreetmap.org/relation/4583223">zone in Nepal</a>.</p>
+</div>
+<div class="section" id="id90">
+<h4>Guidance on use<a class="headerlink" href="#id90" title="Permalink to this headline">¶</a></h4>
+<p>This attribute contains the human-readable idenfifier (<code class="docutils literal notranslate"><span class="pre">::location/humane-id</span></code>) of the level 5 adminstrative area in which the current Location is situated. Level 5 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.</p>
+<p>The <a class="reference external" href="https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative">schema used by OpenStreetMap</a>, for example, includes the <em>préfecture</em> (Togo), <em>Provincial legislative districts</em> (Philippines) and regions (Côte d’Ivoire) in the list of types of level 5 administrative area.</p>
+<p>This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.</p>
+</div>
+</div>
+<div class="section" id="location-admin-level-4">
+<h3>Location: Admin Level 4<a class="headerlink" href="#location-admin-level-4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id91">
+<h4>Attribute name<a class="headerlink" href="#id91" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-4</span></code></p>
+</div>
+<div class="section" id="id92">
+<h4>Description<a class="headerlink" href="#id92" title="Permalink to this headline">¶</a></h4>
+<p>The administrative level 4 Location within which the present Location is wholly situated.</p>
+</div>
+<div class="section" id="id93">
+<h4>Type of attribute<a class="headerlink" href="#id93" title="Permalink to this headline">¶</a></h4>
+<p>String; programatically generated.</p>
+</div>
+<div class="section" id="id94">
+<h4>Status<a class="headerlink" href="#id94" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id95">
+<h4>Example of use<a class="headerlink" href="#id95" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">Gombe</span> <span class="pre">(osm,</span> <span class="pre">poly)</span> <span class="pre">06791bb5-c39d-4a32-a05b-f3945c4f83ea</span></code>, a <a class="reference external" href="https://www.openstreetmap.org/relation/3720422">state in Nigeria</a>.</p>
+</div>
+<div class="section" id="id96">
+<h4>Guidance on use<a class="headerlink" href="#id96" title="Permalink to this headline">¶</a></h4>
+<p>This attribute contains the human-readable idenfifier (<code class="docutils literal notranslate"><span class="pre">::location/humane-id</span></code>) of the level 4 adminstrative area in which the current Location is situated. Level 4 areas are commonly found in freely available geospatial information sources such as OpenStreetMap, and are usually the largest sub-national administrative areas.</p>
+<p>The <a class="reference external" href="https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative">schema used by OpenStreetMap</a>, for example, includes provinces (Philippines), states (Nigeria) and <em>régions</em> (Mali) in the list of types of level 4 administrative area.</p>
+<p>This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.</p>
+</div>
+</div>
+<div class="section" id="location-admin-level-3">
+<h3>Location: Admin Level 3<a class="headerlink" href="#location-admin-level-3" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id97">
+<h4>Attribute name<a class="headerlink" href="#id97" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-3</span></code></p>
+</div>
+<div class="section" id="id98">
+<h4>Description<a class="headerlink" href="#id98" title="Permalink to this headline">¶</a></h4>
+<p>The administrative level 3 Location within which the present Location is wholly situated.</p>
+</div>
+<div class="section" id="id99">
+<h4>Type of attribute<a class="headerlink" href="#id99" title="Permalink to this headline">¶</a></h4>
+<p>String; programatically generated.</p>
+</div>
+<div class="section" id="id100">
+<h4>Status<a class="headerlink" href="#id100" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id101">
+<h4>Example of use<a class="headerlink" href="#id101" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">Central</span> <span class="pre">Visayas</span> <span class="pre">(osm,</span> <span class="pre">poly)</span> <span class="pre">81848978-3998-48bf-87a7-bd1888912aee</span></code>, <a class="reference external" href="https://www.openstreetmap.org/relation/3625910">a region of the Philippines</a>.</p>
+</div>
+<div class="section" id="id102">
+<h4>Guidance on use<a class="headerlink" href="#id102" title="Permalink to this headline">¶</a></h4>
+<p>This attribute contains the human-readable idenfifier (<code class="docutils literal notranslate"><span class="pre">::location/humane-id</span></code>) of the level 3 adminstrative area in which the current Location is situated. Where defined, level 3 administrative areas are commonly found in freely available geospatial information sources such as OpenStreetMap.</p>
+<p>The <a class="reference external" href="https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative">schema used by OpenStreetMap</a>, for example, includes regions (Philippines) in the list of types of level 3 administrative area.</p>
+<p>This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.</p>
+</div>
+</div>
+<div class="section" id="location-admin-level-2">
+<h3>Location: Admin Level 2<a class="headerlink" href="#location-admin-level-2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id103">
+<h4>Attribute name<a class="headerlink" href="#id103" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/admin-level-2</span></code></p>
+</div>
+<div class="section" id="id104">
+<h4>Description<a class="headerlink" href="#id104" title="Permalink to this headline">¶</a></h4>
+<p>The administrative level 2 Location - the international state boundary - within which the present Location is wholly situated.</p>
+</div>
+<div class="section" id="id105">
+<h4>Type of attribute<a class="headerlink" href="#id105" title="Permalink to this headline">¶</a></h4>
+<p>String; programatically generated.</p>
+</div>
+<div class="section" id="id106">
+<h4>Status<a class="headerlink" href="#id106" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id107">
+<h4>Example of use<a class="headerlink" href="#id107" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">Mali</span> <span class="pre">(osm,</span> <span class="pre">poly)</span> <span class="pre">8e7b492e-5346-4f43-91a0-55c1f3419468</span></code>, <code class="docutils literal notranslate"><span class="pre">Sudan</span> <span class="pre">(osm,</span> <span class="pre">poly)</span> <span class="pre">7117df90-1e52-4726-806a-8e422a0511c6</span></code></p>
+</div>
+<div class="section" id="id108">
+<h4>Guidance on use<a class="headerlink" href="#id108" title="Permalink to this headline">¶</a></h4>
+<p>This attribute contains the human-readable identifier (<code class="docutils literal notranslate"><span class="pre">::location/humane-id</span></code>) of the international boundary of a state, also known within the OpenStreetMap schema of administrative areas as a level 2 boundary. This attribute is programatically generated using a geospatial query; the Staff Researcher does not enter this manually.</p>
+</div>
+</div>
+<div class="section" id="location-first-check-timestamp">
+<h3>Location: First Check Timestamp<a class="headerlink" href="#location-first-check-timestamp" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id109">
+<h4>Attribute name<a class="headerlink" href="#id109" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/first-check-time</span></code></p>
+</div>
+<div class="section" id="id110">
+<h4>Description<a class="headerlink" href="#id110" title="Permalink to this headline">¶</a></h4>
+<p>Timestamp of the first time that metadata and geometry for this Location was obtained programatically from OpenStreetMap Overpass API.</p>
+</div>
+<div class="section" id="id111">
+<h4>Type of attribute<a class="headerlink" href="#id111" title="Permalink to this headline">¶</a></h4>
+<p>Datetime; programatically generated.</p>
+</div>
+<div class="section" id="id112">
+<h4>Guidance on use<a class="headerlink" href="#id112" title="Permalink to this headline">¶</a></h4>
+<p>After Staff Researchers have entered the minimum metadata for a Location, we use a script to obtain further information about that object from OpenStreetMap’s Overpass API. Overpass gives us the full set of metadata tags for the Location (such as its name in local languages, its last date of update and so on) as well as the geometry that we use to plot the Location on a map. As Location objects can change over time, we keep a record of the date and time at which we first obtained the extended metadata from OSM, as well as the most recent.</p>
+<p>This is a programmatically generated attribute; the Staff Researcher should not enter this directly.</p>
+</div>
+</div>
+<div class="section" id="location-most-recent-check-timestamp">
+<h3>Location: Most Recent Check Timestamp<a class="headerlink" href="#location-most-recent-check-timestamp" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id113">
+<h4>Attribute name<a class="headerlink" href="#id113" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/last-check-time</span></code></p>
+</div>
+<div class="section" id="id114">
+<h4>Description<a class="headerlink" href="#id114" title="Permalink to this headline">¶</a></h4>
+<p>Timestamp of the most recent time that metadata and geometry for this Location was obtained programatically from OpenStreetMap Overpass API.</p>
+</div>
+<div class="section" id="id115">
+<h4>Type of attribute<a class="headerlink" href="#id115" title="Permalink to this headline">¶</a></h4>
+<p>Datetime; programatically generated.</p>
+</div>
+<div class="section" id="id116">
+<h4>Status<a class="headerlink" href="#id116" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id117">
+<h4>Example of use<a class="headerlink" href="#id117" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">2021-02-15T20:33:02Z</span></code></p>
+</div>
+<div class="section" id="id118">
+<h4>Guidance on use<a class="headerlink" href="#id118" title="Permalink to this headline">¶</a></h4>
+<p>After Staff Researchers have entered the minimum metadata for a Location, we use a script to obtain further information about that object from OpenStreetMap’s Overpass API. Overpass gives us the full set of metadata tags for the Location (such as its name in local languages, its last date of update and so on) as well as the geometry that we use to plot the Location on a map. As Location objects can change over time, we keep a record of the date and time at which we first obtained the extended metadata from OSM, as well as the most recent.</p>
+<p>This is a programmatically generated attribute; the Staff Researcher should not enter this directly.</p>
+</div>
+</div>
+<div class="section" id="location-attic-date">
+<h3>Location: Attic Date<a class="headerlink" href="#location-attic-date" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id119">
+<h4>Attribute name<a class="headerlink" href="#id119" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/as-of-date</span></code></p>
+</div>
+<div class="section" id="id120">
+<h4>Description<a class="headerlink" href="#id120" title="Permalink to this headline">¶</a></h4>
+<p>The date and time of the old version of an OpenStreetMap item that we want to retrieve.</p>
+</div>
+<div class="section" id="id121">
+<h4>Type of attribute<a class="headerlink" href="#id121" title="Permalink to this headline">¶</a></h4>
+<p>Datetime</p>
+</div>
+<div class="section" id="id122">
+<h4>Status<a class="headerlink" href="#id122" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id123">
+<h4>Example of use<a class="headerlink" href="#id123" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">2009-03-24T07:50:06Z</span></code></p>
+</div>
+<div class="section" id="id124">
+<h4>Guidance on use<a class="headerlink" href="#id124" title="Permalink to this headline">¶</a></h4>
+<p>OpenStreetMap is created by its users and every update to any object on the map is recorded and stored. This means you can see the history of an object, and that changes to the map can be observed, discussed and reverted if necessary. The version history of a map object is also important for SFM research, because it may give us a way to access earlier representations of administrative geography. Borders and boundaries change all the time, and these changes are often reflected in the map’s history. It also means that we can protect the integrity of our own data by indicating that the Location is based on an OpenStreetMap object <em>as it was</em> at a particular date and time.</p>
+<p>The feature of OpenStreetMap that enables this is the repository of <a class="reference external" href="https://wiki.openstreetmap.org/wiki/Attic_Data">attic data</a>, and it can be queried using the Overpass API (directly or by using the SFM <code class="docutils literal notranslate"><span class="pre">geo</span></code> tool). The value the Staff Researcher enters into <code class="docutils literal notranslate"><span class="pre">location:as_of_date</span></code> must correspond a value listed in the version history of an object. This information is accessible by selecting “View history” on any OSM object, followed by “Download XML”. Here is <a class="reference external" href="https://www.openstreetmap.org/api/0.6/relation/103706/history">an example of the attic data for Ermita</a>, a level 9 administrative area in then Philippines.</p>
+</div>
+</div>
+<div class="section" id="location-notes">
+<h3>Location: Notes<a class="headerlink" href="#location-notes" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id125">
+<h4>Attribute name<a class="headerlink" href="#id125" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">::location/notes</span></code></p>
+</div>
+<div class="section" id="id126">
+<h4>Description<a class="headerlink" href="#id126" title="Permalink to this headline">¶</a></h4>
+<p>Analysis, commentary and notes about the Location that do not fit into the data structure.</p>
+</div>
+<div class="section" id="id127">
+<h4>Type of attribute<a class="headerlink" href="#id127" title="Permalink to this headline">¶</a></h4>
+<p>String</p>
+</div>
+<div class="section" id="id128">
+<h4>Status<a class="headerlink" href="#id128" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id129">
+<h4>Example of use<a class="headerlink" href="#id129" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">Sources</span> <span class="pre">show</span> <span class="pre">Location</span> <span class="pre">is</span> <span class="pre">within</span> <span class="pre">the</span> <span class="pre">forested</span> <span class="pre">areas</span> <span class="pre">between</span> <span class="pre">two</span> <span class="pre">villages</span> <span class="pre">and</span> <span class="pre">is</span> <span class="pre">derived</span> <span class="pre">through</span> <span class="pre">geolocation</span> <span class="pre">and</span> <span class="pre">image</span> <span class="pre">analysis</span> <span class="pre">of</span> <span class="pre">source</span> <span class="pre">eeb13cf1-7b98-4075-a09b-530146d2ee37</span></code></p>
+</div>
+<div class="section" id="id130">
+<h4>Guidance on use<a class="headerlink" href="#id130" title="Permalink to this headline">¶</a></h4>
+<p>We use this attribute to record information about the Location that is likely to provide useful context, additional information that does not fit into the data structure, and notes about how decisions were made about which data to include. Any sources used should be referenced directly inside the attribute. Notes are intended to be published.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="location-sample-json.html" class="btn btn-neutral float-right" title="Location: GeoJSON example" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="locations-overview.html" class="btn btn-neutral float-left" title="Overview: Location" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2017-2023, Security Force Monitor.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

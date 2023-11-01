@@ -1,0 +1,16 @@
+Attribute label	Attribute name	Status	Data type	Conformed name
+`Unit Positioning: Positioning Identifier`_	``::positioning:id``	required	uuid-string	``:claim/about-entity:id``
+`Unit Positioning: Claim Citation Identifier`_	``::positioning:claim:citation:id``	required	strings<->uuids	``:claim/citation:ids``
+`Unit Positioning: Unit Identifier`_ 	``::positioning:unit:id``	optional	uuid-string	``:assertion/positioning:unit:id``
+`Unit Positioning: Location Identifier`_	``::positioning:location:id``	optional	uuid-string	``:assertion/positioning:location:id``
+`Unit Positioning: Type of Positioning`_	``::positioning:type``	optional	string	``:assertion/positioning:type``
+`Unit Positioning: Base Name`_	``::positioning:base_name``	optional	string	``:assertion/positioning:base-name``
+`Unit Positioning: Earliest Precise Date`_	``::positioning:date-range-precise:first``	optional	string-date<->timestamp	``:range-precise/first``
+`Unit Positioning: Latest Precise Date`_	``::positioning:date-range-precise:last``	optional	string-date<->timestamp	``:range-precise/last``
+`Unit Positioning: Earliest Imprecise Date`_	``::positioning:date-range-imprecise:first``	optional	string-date<->timestamp	``:range-imprecise/first``
+`Unit Positioning: Latest Imprecise Date`_	``::positioning:date-range-imprecise:last``	optional	string-date<->timestamp	``:range-imprecise/last``
+`Unit Positioning: Date Range is a Start Date`_	``::positioning:date-range:starting?``	optional	YN<->bool	``:range/starting?``
+`Unit Positioning: Date Range is an End Date`_	``::positioning:date-range:ending?``	optional	YN<->bool	``:range/ending?``
+`Unit Positioning: Research Comments`_	``::positioning:claim:comment``	optional	string	``:meta/comment``
+`Unit Positioning: Research Owner`_	``::positioning:claim:researcher``	optional	string	``:meta/researcher``
+`Unit Positioning: Research Status`_	``::positioning:claim:status``	optional	status	``:meta/status``

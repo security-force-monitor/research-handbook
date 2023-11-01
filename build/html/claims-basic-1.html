@@ -1,0 +1,695 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>What is a claim? &mdash; Security Force Monitor: Research Handbook  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Claims with dates" href="how-dates-work.html" />
+    <link rel="prev" title="Our general data model" href="entity-overview.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: black" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Security Force Monitor: Research Handbook
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Our approach</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="entity-overview.html">Our general data model</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">What is a claim?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="how-dates-work.html">Claims with dates</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="how-dates-work.html#finding-dates-in-sources">Finding dates in sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="how-dates-work.html#capturing-dates-in-claims">Capturing dates in claims</a></li>
+<li class="toctree-l2"><a class="reference internal" href="how-dates-work.html#assigning-hard-start-and-hard-end-dates">Assigning hard start and hard end dates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="how-dates-work.html#from-dates-to-timelines">From dates to timelines</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="timeline-continual-contiguous.html">Fragmentation in timelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="unknown-unnamed-units.html">Unknown and unnamed units</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Sources and citations</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="source-citation-overview.html">Overview: Sources and citations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-overview.html#what-are-sources">What are sources?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-overview.html#the-sources-for-sources">The sources for sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-overview.html#citing-a-source">Citing a source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-overview.html#citation-examples">Citation examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="source-source-specific.html">Source</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="source-source-specific.html#source-summary-of-attributes">Source: Summary of attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-source-specific.html#source-details-of-attributes">Source: Details of attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-unique-identifier">Source: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-type">Source: Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-title">Source: Title</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-author">Source: Author</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-creation-timestamp">Source: Creation Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-upload-timestamp">Source: Upload Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-url">Source: URL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-publication-timestamp">Source: Publication Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-accessed-timestamp">Source: Accessed Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-publication-unique-identifier">Source: Publication Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-acquisition-search-engine">Source: Acquisition Search Engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-acquisition-search-term">Source: Acquisition Search Term</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-acquisition-search-timestamp">Source: Acquisition Search Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-research-comments">Source: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-source-specific.html#source-restricted">Source: Restricted</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="source-citation-specific.html">Citation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-specific.html#citation-summary-of-attributes">Citation: Summary of attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-citation-specific.html#citation-details-of-attributes">Citation: Details of attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-unique-identifier">Citation: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-source-unique-identifier">Citation: Source Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-researcher-comments">Citation: Researcher Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-type">Citation: Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-trigger">Citation: Trigger</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-accessed-timestamp">Citation: Accessed Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-archive-url">Citation: Archive URL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-archive-timestamp">Citation: Archive Timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-external-archive-content-hash">Citation: External Archive Content Hash</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-citation-specific.html#citation-external-archive-metadata-hash">Citation: External Archive Metadata Hash</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="source-publication-specific.html">Publication</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="source-publication-specific.html#source-summary-of-attributes">Source: Summary of attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="source-publication-specific.html#source-details-of-attributes">Source: Details of attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-unique-identifier">Publication: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-name">Publication: Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-level-of-state-control">Publication: Level of State Control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-country">Publication: Country</a></li>
+<li class="toctree-l3"><a class="reference internal" href="source-publication-specific.html#publication-research-comments">Publication: Research Comments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Locations</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="locations-overview.html">Overview: Location</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="locations-overview.html#what-are-locations">What are Locations?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="locations-specific.html">Locations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="locations-specific.html#location-summary-of-attributes">Location: Summary of attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="locations-specific.html#location-details-of-attributes">Location: Details of attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-research-status">Location: Research Status</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-research-comments">Location: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-unique-identifier">Location: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-human-readable-unique-identifier">Location: Human-Readable Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-object-name">Location: Object Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-object-identifier">Location: Object Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-object-geometry-type">Location: Object Geometry Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-origin">Location: Origin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-source">Location: Source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-country">Location: Country</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-admin-level">Location: Admin Level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-admin-level-10">Location: Admin Level 10</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-admin-level-9">Location: Admin Level 9</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-admin-level-8">Location: Admin Level 8</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-admin-level-7">Location: Admin Level 7</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-admin-level-6">Location: Admin Level 6</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-admin-level-5">Location: Admin Level 5</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-admin-level-4">Location: Admin Level 4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-admin-level-3">Location: Admin Level 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-admin-level-2">Location: Admin Level 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-notes">Location: Notes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-first-check-time">Location: First Check Time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-last-check-time">Location: Last Check Time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-error">Location: Error</a></li>
+<li class="toctree-l3"><a class="reference internal" href="locations-specific.html#location-as-of-date">Location: “As of” Date</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Units</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="units.html">Overview: Units</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units.html#what-are-units">What are units?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="units_identity.html">Unit Identity</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units_identity.html#unit-identity-summary-of-claim-attributes">Unit Identity: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_identity.html#unit-identity-details-of-claim-attributes">Unit Identity: details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-unique-identifier">Unit Identity: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-claim-citation-identifier">Unit Identity: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-name">Unit Identity: Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-other-names">Unit Identity: Other Names</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-classification">Unit Identity: Classification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-country">Unit Identity: Country</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-date-range-is-a-start-date">Unit Identity: Date Range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-date-range-is-an-ending-date">Unit Identity: Date Range is an Ending Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-earliest-precise-date">Unit Identity: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-latest-precise-date">Unit Identity: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-earliest-imprecise-date">Unit Identity: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-latest-imprecise-date">Unit Identity: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-research-comments">Unit Identity: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-research-owner">Unit Identity: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_identity.html#unit-identity-research-status">Unit Identity: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="units_relations.html">Unit Relation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units_relations.html#unit-relation-summary-of-claim-attributes">Unit Relation: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_relations.html#unit-relation-details-of-claim-attributes">Unit Relation: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-relation-identifier">Unit Relation: Relation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-claim-citation-identifier">Unit Relation: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-unit-identifier">Unit Relation: Unit Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-related-unit-identifier">Unit Relation: Related Unit Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-type-of-relation">Unit Relation: Type of Relation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-relation-classification">Unit Relation: Relation Classification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-earliest-precise-date">Unit Relation: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-latest-precise-date">Unit Relation: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-earliest-imprecise-date">Unit Relation: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-latest-imprecise-date">Unit Relation: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-date-range-is-a-start-date">Unit Relation: Date Range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-date-range-is-an-end-date">Unit Relation: Date Range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-research-comments">Unit Relation: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-research-owner">Unit Relation: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_relations.html#unit-relation-research-status">Unit Relation: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="units_positionings.html">Unit Positioning</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units_positionings.html#unit-positioning-summary-of-claim-attributes">Unit Positioning: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_positionings.html#unit-positioning-details-of-claim-attributes">Unit Positioning: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-positioning-identifier">Unit Positioning: Positioning Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-claim-citation-identifier">Unit Positioning: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-unit-identifier">Unit Positioning: Unit Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-location-identifier">Unit Positioning: Location Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-type-of-positioning">Unit Positioning: Type of Positioning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-base-name">Unit Positioning: Base Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-earliest-precise-date">Unit Positioning: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-latest-precise-date">Unit Positioning: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-earliest-imprecise-date">Unit Positioning: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-latest-imprecise-date">Unit Positioning: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-date-range-is-a-start-date">Unit Positioning: Date Range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-date-range-is-an-end-date">Unit Positioning: Date Range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-research-comments">Unit Positioning: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-research-owner">Unit Positioning: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="units_positionings.html#unit-positioning-research-status">Unit Positioning: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Persons</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="persons.html">Overview: Persons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons.html#what-are-persons">What are persons?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="persons_identity.html">Person Identity</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons_identity.html#person-identity-summary-of-claim-attributes">Person Identity: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_identity.html#person-identity-details-of-claim-attributes">Person Identity: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-unique-identifier">Person Identity: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-claim-citation-identifier">Person Identity: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-name">Person Identity: Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-other-names">Person Identity: Other Names</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-country">Person Identity: Country</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-earliest-precise-date">Person Identity: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-latest-precise-date">Person Identity: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-earliest-imprecise-date">Person Identity: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-latest-imprecise-date">Person Identity: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-date-range-is-a-start-date">Person Identity: Date range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-date-range-is-an-end-date">Person Identity: Date range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-research-comments">Person Identity: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-research-owner">Person Identity: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_identity.html#person-identity-research-status">Person Identity: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="persons_postings.html">Person Posting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons_postings.html#person-postings-summary-of-claim-attributes">Person Postings: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_postings.html#person-postings-details-of-claim-attributes">Person Postings: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-unique-identifier">Person Posting: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-claim-citation-identifier">Person Posting: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-unit-unique-identifier">Person Posting: Unit Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-person-unique-identifier">Person Posting: Person Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-role">Person Posting: Role</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-title">Person Posting: Title</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-rank">Person Posting: Rank</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-earliest-precise-date">Person Posting: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-latest-precise-date">Person Posting: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-earliest-imprecise-date">Person Posting: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-latest-imprecise-date">Person Posting: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-date-range-is-a-start-date">Person Posting: Date range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-date-range-is-an-end-date">Person Posting: Date range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-research-comments">Person Posting: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-research-owner">Person Posting: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_postings.html#person-posting-research-status">Person Posting: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="persons_extra.html">Person Extra Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-data-summary-of-claim-attributes">Person Extra Data: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="persons_extra.html#person-extra-data-details-of-claim-attributes">Person Extra Data: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-unique-identifier">Person Extra Data: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-claim-citation-identifier">Person Extra Data: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-person-unique-identifier">Person Extra Data: Person Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-person-gender">Person Extra Data: Person Gender</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-date-of-birth">Person Extra Data: Date of Birth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-deceased">Person Extra Data: Deceased?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-date-of-death">Person Extra Data: Date of Death</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-account-type">Person Extra Data: Account Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-account-identifier">Person Extra Data: Account Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-external-link-description">Person Extra Data: External Link Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-media-description">Person Extra Data: Media Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-notes">Person Extra Data: Notes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-research-comments">Person Extra Data: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-research-owner">Person Extra Data: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="persons_extra.html#person-extra-data-research-status">Person Extra Data: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Incidents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="incidents.html">Overview: incidents</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="incidents.html#what-are-incidents">What are incidents?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="incidents_attributes.html">Incident</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="incidents_attributes.html#incident-summary-of-claim-attributes">Incident: Summary of claim attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="incidents_attributes.html#incident-details-of-claim-attributes">Incident: Details of claim attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-unique-identifier">Incident: Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-claim-citation-identifier">Incident: Claim Citation Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-earliest-precise-date">Incident: Earliest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-latest-precise-date">Incident: Latest Precise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-earliest-imprecise-date">Incident: Earliest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-latest-imprecise-date">Incident: Latest Imprecise Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-date-range-is-a-start-date">Incident: Date range is a Start Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-date-range-is-an-end-date">Incident: Date range is an End Date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-location">Incident: Location</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-location-description">Incident: Location Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-violation-type">Incident: Violation Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-violation-description">Incident: Violation Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-perpetrator-unit-unique-identifier">Incident: Perpetrator Unit Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-perpetrator-person-unique-identifier">Incident: Perpetrator Person Unique Identifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-perpetrator-classification">Incident: Perpetrator Classification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-research-comments">Incident: Research Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-research-owner">Incident: Research Owner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="incidents_attributes.html#incident-research-status">Incident: Research Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Security Force Monitor: Research Handbook</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>What is a claim?</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/claims-basic-1.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="how-dates-work.html" class="btn btn-neutral float-right" title="Claims with dates" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="entity-overview.html" class="btn btn-neutral float-left" title="Our general data model" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="what-is-a-claim">
+<h1>What is a claim?<a class="headerlink" href="#what-is-a-claim" title="Permalink to this headline">¶</a></h1>
+<p>A claim is an assertion of information evidenced by a source.</p>
+<p>The Monitor creates data from publicly available, mostly digital sources. We read and assess each source and turn the data we find in them into claims. Claims keep a piece of data together with the source from which it is derived, and may also tell us the time period for which the data  is valid.</p>
+<p>For example here is an excerpt from the news story <a class="reference external" href="https://www.bnionline.net/en/shan-herald-agency-for-news/item/13685-reshuffles-in-the-military-war-goes-on-.html">“Reshuffles in the military, war goes on”, published by the Shan Herald Agency for News (on the Burma News International website) on 10 September 2012</a>:</p>
+<div class="admonition-example admonition">
+<p class="admonition-title">Example</p>
+<p>Not only the government, but the military has been busy shuffling its commanders since the beginning of September, according to a source close to the War Office on Friday.</p>
+<p>At least 5 regional commanders and a number of Bureau of Special Operations (BSO) chiefs and division commanders have been moved to new jobs. They include:</p>
+<ul class="simple">
+<li><p>Maj Gen Zeya Aung - Commander, Northern Region Command-to-Minister, Railway Transport</p></li>
+<li><p>Brig Gen Aung Kyaw Zaw - Commander, Northeastern Region Command-to-Commander, Southern Region Command</p></li>
+</ul>
+<p>Their former commands were taken over by Central Eastern Region Command Commander Brig Gen Tun Tun Naung and head of the armed forces technical school Brig Gen Aung Soe respectively.</p>
+</div>
+<p>This source contains a mix of data that tells us something about the units of the Myanmar military and the people that hold positions in those units. The story contains data about the names of four persons:</p>
+<ul class="simple">
+<li><p>Zeya Aung</p></li>
+<li><p>Aung Kyaw Zaw</p></li>
+<li><p>Tun Tun Naun</p></li>
+<li><p>Aung Soe</p></li>
+</ul>
+<p>If we add information about their ranks, we can turn this data into a set of claims:</p>
+<ul class="simple">
+<li><p>The Shan Herald Agency for News claims that since the beginning of September 2012 a person called Zeya Aung had the rank of Maj Gen</p></li>
+<li><p>The Shan Herald Agency for News claims that since the beginning of September 2012 a person called Aung Kyaw Zaw had the rank of Brig Gen</p></li>
+<li><p>The Shan Herald Agency for News claims that at the beginning of September 2012 a person called Tun Tn Naun had the rank of Brig Gen</p></li>
+<li><p>The Shan Herald Agency for News claims that since the beginning of September 2012 a person called Aung Soe had the rank of Brig Gen</p></li>
+</ul>
+<p>The source contains further claims about the military units to which each person has been posted. For example, the source now makes four claims about the person called “Aung Soe”:</p>
+<ul class="simple">
+<li><p>The Shan Herald Agency for News claims that at the beginning of September 2012 a person called Aung Soe has been a commander in the military.</p></li>
+<li><p>The Shan Herald Agency for News claims that since the beginning of September 2012 a person called Aung Soe had the rank of Brig Gen.</p></li>
+<li><p>The Shan Herald Agency for News claims that since the beginning of September 2012 a person called Aung Soe was head of a unit called the Armed Forces Technical School</p></li>
+<li><p>The Shan Herald Agency for News claims that since the beginning of September 2012 a person called Aung Soe became commander of a unit called the Northeastern Region Command</p></li>
+</ul>
+<p>We can begin to express these claims more economically by using a set of standard fields. For example, we store the claimed name of a person in a field called “Person Name”, for example, to store their name:</p>
+<ul class="simple">
+<li><p>“Person Name” “Aung Soe”</p></li>
+<li><p>“Date of claim”: “September 2012”</p></li>
+<li><p>“Source of claim: ”Shan Herald Agency for News, 10 September 2012.</p></li>
+</ul>
+<p>We can refine this further. In our system, claims have a range of different subjects: claims about the identity of a person, claims about a particular posting that a person has, claims about a unit’s identity or its relationships with others, and so on. Based on the type of information we’re pulling out from a source, we determine the type of claim that the source is making. So, data about a person’s name is a “Person Identity” claim type.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Claim type</p></th>
+<th class="head"><p>Person Identity</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Person Name</p></td>
+<td><p>Aung Soe</p></td>
+</tr>
+<tr class="row-odd"><td><p>Date of claim</p></td>
+<td><p>September 2012</p></td>
+</tr>
+<tr class="row-even"><td><p>Source of claim</p></td>
+<td><p>Shan Herald Agency for News, 10 September 2012</p></td>
+</tr>
+</tbody>
+</table>
+<p>The data about the unit to which the person is posted is a “Person Posting” claim type:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Claim type</p></th>
+<th class="head"><p>Person Posting</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Person Name</p></td>
+<td><p>Aung Soe</p></td>
+</tr>
+<tr class="row-odd"><td><p>Unit Name</p></td>
+<td><p>Northeastern Region Command</p></td>
+</tr>
+<tr class="row-even"><td><p>Person Role</p></td>
+<td><p>Commander</p></td>
+</tr>
+<tr class="row-odd"><td><p>Person Rank</p></td>
+<td><p>Brig Gen</p></td>
+</tr>
+<tr class="row-even"><td><p>Date of claim</p></td>
+<td><p>September 2012</p></td>
+</tr>
+<tr class="row-odd"><td><p>Source of claim</p></td>
+<td><p>Shan Herald Agency for News, 10 September 2012</p></td>
+</tr>
+</tbody>
+</table>
+<p>From this point, we add shorter fieldnames to the claim to make it conform with the various data models we use. For example, a “Person Posting” claim type may include data about a person’s rank, role or title whilst posted to a unit, along with precise (or imprecise) dates for which this data are valid.</p>
+<p>We also add additional data about the claim itself, such as an identifier, that allows it to be managed in our technical systems. We also transform how the source is expressed, substituting the text for a specific identity number that cites the page, paragraph, line number (amongst others) in the source. The “look” of claim begins to change a bit, but this simply depends on the tool that is used to manage it. For example, here’s how this claim looks as a row in a spreadsheet:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>:posting:id</p></th>
+<th class="head"><p>:posting:person:id</p></th>
+<th class="head"><p>:posting:unit:id</p></th>
+<th class="head"><p>:posting:role</p></th>
+<th class="head"><p>:posting:rank</p></th>
+<th class="head"><p>:posting:date-range:starting?</p></th>
+<th class="head"><p>:posting:date-range:ending?</p></th>
+<th class="head"><p>:posting:claim:researcher</p></th>
+<th class="head"><p>:posting:claim:status</p></th>
+<th class="head"><p>:posting:claim:citation:id</p></th>
+<th class="head"><p>:posting:date-range-precise:first</p></th>
+<th class="head"><p>:posting:date-range-precise:last</p></th>
+<th class="head"><p>:posting:date-range-imprecise:first</p></th>
+<th class="head"><p>:posting:date-range-imprecise:last</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>09a8dc6f-8f69-49cd-87f0-1eb996fb25db</p></td>
+<td><p>bcce8f1d-8336-466c-be8e-c6074f96cde4</p></td>
+<td><p>dfe9a709-1a80-4bce-8040-68c6502b4f3e</p></td>
+<td><p>Commander</p></td>
+<td><p>Brigadier General</p></td>
+<td><p>Y</p></td>
+<td></td>
+<td><p>TW</p></td>
+<td><p>3</p></td>
+<td><p>9f01b1c1-563f-4b40-a534-b91c7e1a5062</p></td>
+<td></td>
+<td></td>
+<td><p>2012-09-01</p></td>
+<td><p>2012-09-30</p></td>
+</tr>
+</tbody>
+</table>
+<p>And here’s how the raw data looks in a database tool:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>{:range-imprecise/first 1346457600000,
+ :entity/updated-at 1695045627318,
+ :meta/sheet-name :persons,
+ :range/starting? true,
+ :meta/extracted-by :sfm.data.formats.sheet.v1x/cluster:person:posting,
+ :entity/short-link &quot;4c9cbf32&quot;,
+ :meta/status &quot;3&quot;,
+ :meta/researcher &quot;TW&quot;,
+ :entity/name &quot;claim-4c9cbf32&quot;,
+ :claim/citation:ids [#uuid &quot;9f01b1c1-563f-4b40-a534-b91c7e1a5062&quot;],
+ :assertion/posting:unit:id
+ #uuid &quot;dfe9a709-1a80-4bce-8040-68c6502b4f3e&quot;,
+ :entity/type :claim,
+ :entity/id #uuid &quot;4c9cbf32-6de6-517b-8e44-e308fd27ad4c&quot;,
+ :claim/citation:refs [{:db/id 17592186130203}],
+ :assertion/posting:person:id
+ #uuid &quot;bcce8f1d-8336-466c-be8e-c6074f96cde4&quot;,
+ :assertion/posting:rank &quot;Brigadier General&quot;,
+ :range-imprecise/last 1348963200000,
+ :meta/latest-row-number 114,
+ :entity/spec :sfm.data.formats.records.claims.v1/claim,
+ :db/id 17592186095955,
+ :assertion/posting:role &quot;Commander&quot;,
+ :claim/type :sfm.data.formats.records.claims.v1/posting,
+ :claim/about-entity:id #uuid &quot;09a8dc6f-8f69-49cd-87f0-1eb996fb25db&quot;,
+ :entity/created-at 1695045627318,
+ :meta/spreadsheet-id &quot;1PB3JNxpeCPlSy0GsJnElSiEPedfTzZuXk3AFHvrR58Y&quot;,
+ :range/starting-context &quot;Appointed&quot;}
+</pre></div>
+</div>
+<p>The claim-based approach favors types of research - like that of Security Force Monitor - that involve the construct of a dataset from a wide range of different sources. In practice, this type of research means pulling data from thousands of different sources. The claim system keeps every single piece of data together with a citation of the specific source that evidence it, providing complete evidential transparency. It gives a two-way view showing all the sources that we have used to make a record about a specific person or unit, and also all the bits of data we have taken from specific sources (and exactly where in that source). It also affords us a fine degree of control over which specific pieces of data are used in any analysis. For example, we can exclude or include specific data points that have only official sources, or are only pulled  from specific publications.</p>
+<p>After creation, a claim is then aggregated with others into a record about a person, unit or other entity in the data model. In the present example, the data would be pulled together with other data about the person called “Aung Soe” - this could be other names that the person has used, units they were posted to, or incidents they have been involved in. These “aggregates” are then used in a wider analysis of the organization structure, history of commanders of a unit, and - perhaps most importantly - the construction of a command chain.</p>
+<p>The most useful things to read next are:</p>
+<ul class="simple">
+<li><p>How are claims aggregated into records?</p></li>
+<li><p><a class="reference internal" href="how-dates-work.html#claims-with-dates"><span class="std std-ref">Claims with dates</span></a>: an article explaining the basics of how Security Force Monitor constructs dates and timelines</p></li>
+<li><p>What are the rules for entering specific types of data?</p></li>
+<li><p>How do Locations work in Security Force Monitor’s data?</p></li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="how-dates-work.html" class="btn btn-neutral float-right" title="Claims with dates" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="entity-overview.html" class="btn btn-neutral float-left" title="Our general data model" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2017-2023, Security Force Monitor.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

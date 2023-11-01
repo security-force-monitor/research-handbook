@@ -1,0 +1,25 @@
+Attribute label	Attribute name	Status	Data type	Conformed name
+Training: Unique Identifier	training:id	required	uuid	Not assigned
+Training: Claim Citation Identifier	training:claim:citation:id	required	uuid	Not assigned
+Training: Training Group	training:training-group	optional	string	Not assigned
+Training: Country Name from Source	training:country-original	optional	string	Not assigned
+Training: Country from Source	training:country	optional	string	Not assigned
+Training: Program	training:program	optional	string	Not assigned
+Training: Course Title	training:course-title	optional	string	Not assigned
+Training: Unit Delivering Training	training:delivery-unit-name	optional	string	Not assigned
+Training: Unit Recieving Training	training:recipient-unit-name	optional	string	Not assigned
+Training: Precise Start Date	training:date-range-precise:first	optional	timestamp	Not assigned
+Training: Precise End date	training:date-range-precise:last	optional	timestamp	Not assigned
+Training: Imprecise Start Date	training:date-range-imprecise:first	optional	timestamp	Not assigned
+Training: Imprecise End Date	training:date-range-imprecise:last	optional	timestamp	Not assigned
+Training: Start Date from Source	training:date-original:first	optional	timestamp	Not assigned
+Training: End Date from Source	training:date-original:last	optional	timestamp	Not assigned
+Training: Training Location from Source	training:location-original	optional	string	Not assigned
+Training: Number of Personnel Trained	training:quantity	optional	string	Not assigned
+Training: Total Cost of Training	training:total-cost	optional	string	Not assigned
+Training: URL of Source	training:source-url	optional	string	Not assigned
+Training: Date First Seen	training:date-first-seen	optional	timestamp	Not assigned
+Training: Date Scraped	training:date-scraped	optional	timestamp	Not assigned
+Training: Research Comments	training:claim:comment	optional	string	Not assigned
+Training: Research Owner	training:claim:researcher	optional	string	Not assigned
+Training: Research Status	training:claim:status	optional	status	Not assigned

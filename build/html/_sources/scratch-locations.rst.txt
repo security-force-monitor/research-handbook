@@ -1,0 +1,76 @@
+Location: Research Comments
+===========================
+
+
+
+
+Location: Unique Identifier
+===========================
+
+
+
+Location: Human-Readable Unique Identifier
+==========================================
+
+
+
+Location: Object Name
+=====================
+
+
+
+Location: Object Identifier
+===========================
+
+
+
+Location: Object Geometry Type
+==============================
+
+
+
+Location: Origin
+================
+
+
+
+Location: Source
+================
+
+
+
+Location: Country
+=================
+
+
+
+Location: Admin Level
+=====================
+
+
+
+Location: Admin Level 10
+========================
+
+A
+
+
+
+Location: Notes
+===============
+
+
+
+Location: First Check Time
+==========================
+
+
+
+Location: Last Check Time
+=========================
+
+
+Location: "As of" Date
+======================
+
+

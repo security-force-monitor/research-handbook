@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'SFM Research Handbook'
-copyright = '2022, Security Force Monitor'
+project = 'Security Force Monitor: Research Handbook'
+copyright = '2017-2023, Security Force Monitor'
 author = 'Security Force Monitor'
 
 # The full version, including alpha/beta/rc tags
@@ -79,7 +79,7 @@ html_theme_options = {
     # Toc options
     'collapse_navigation': False,
     'sticky_navigation': True,
-    'navigation_depth': 2,
+    'navigation_depth': 3,
     'includehidden': True,
     'titles_only': False
 }
