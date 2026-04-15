@@ -18,8 +18,6 @@ There is a vast amount of public information on security forces around the world
 
 The Security Force Monitor aims to solve this problem and aid those working to make police, military and other security forces accountable. The Monitor analyzes and compiles public information to provide data on: the command hierarchy, location, areas of operation, commanders and the other linkages between units – all tracked through time. The Monitor’s mission and technical offerings have been developed to serve, and in consultation with, a wide range of civil society efforts.
 
-The Security Force Monitor is a project of the `Columbia Law School Human Rights Institute <http://www.law.columbia.edu/human-rights-institute>`__.
-
 `More information about Security Force Monitor <https://securityforcemonitor.org>`__ can be found on our organizational website.
 
 This Research Handbook is a guide to investigating the structure, personnel, infrastructure, operations and connections to human rights abuses of security forces around the world. It provides detailed information about the methods, data and tools used by Security Force Monitor to do this. This Research Handbook is a work-in-progress and is updated during the course of the work of Security Force Monitor. 
