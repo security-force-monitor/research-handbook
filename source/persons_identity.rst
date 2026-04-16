@@ -1,12 +1,12 @@
-Person Identity
-###############
+Person
+######
 
-"Person Identity" is a claim type describing basic identifying information about a person, such as their name and aliases. Claims of this type are grouped together with :ref:`Person Posting` (describing ranks and positiongs in different units) and a draft claim type called :ref:`Person Extra Data` (extended biographical information) claims, which creates a fuller dataset on the person's career in the security and defence forces
+"Person" is a claim type describing basic identifying information about a person: their name, aliases and associated time ranges with them. Claims of this type are grouped together with :ref:`Person Posting` (describing postings to different units) which tracks the person's career. There are also several fields in development to capture other aspects about persons.
 
-Person Identity: Summary of claim attributes 
+Person: Summary of claim attributes 
 *****************************************
 
-The table below summarises the following dimensions of Person Identity claims:
+The table below summarises the following dimensions of Person claims:
 
  - Attribute label: a human readable label for the attribute
  - Attribute name: a unique machine-readable name for the attribute, used during data capture
@@ -20,13 +20,13 @@ The table below summarises the following dimensions of Person Identity claims:
    :delim: tab
 
 
-Person Identity: Details of claim attributes
+Person: Details of claim attributes
 ********************************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use.
 
 
-Person Identity: Unique Identifier
+Person: Unique Identifier
 ==================================
 
 Attribute name
@@ -67,7 +67,7 @@ The attribute is administrative, providing a reliable way to differentiate betwe
 The Staff Researcher must generate a unique identifying number for that person and add it to every claim associated with that specific person. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID. As the data are ingested into database systems, claims that share the same UUID in ``::unit:id`` will be aggregated to create a single record for that person.
 
 
-Person Identity: Claim Citation Identifier
+Person: Claim Citation Identifier
 ==========================================
 
 Attribute name
@@ -100,7 +100,7 @@ Guidance on use
 
 All claims require a citation, which is a reference to a specific part of a source (for example a page or paragraph reference). The page on citations provides more information about this evidentiary mechanism.
 
-Person Identity: Name
+Person: Name
 =====================
 
 Attribute name
@@ -131,9 +131,9 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Different sources will spell the name of a person in different ways, so we choose a name to be a canonical entry for that person. Whenever possible, the canonical entry will contain the most complicated or complete version of a person's name, even if it has the smallest number of citations. For example ``Magaji Musa Majia'a`` will be used instead of ``Magaji Majiaa``. Other names will be placed in the `Person Identity: Other Names`_ attribute. Titles, roles, honorifics and other attributes that are more correctly linked to a person's posting in a unit are recorded in `Person Posting`_ claims.
+Different sources will spell the name of a person in different ways, so we choose a name to be a canonical entry for that person. Whenever possible, the canonical entry will contain the most complicated or complete version of a person's name, even if it has the smallest number of citations. For example ``Magaji Musa Majia'a`` will be used instead of ``Magaji Majiaa``. Other names will be placed in the `Person: Other Names`_ attribute. Titles, roles, honorifics and other attributes that are more correctly linked to a person's posting in a unit are recorded in `Person Posting`_ claims.
 
-Person Identity: Other Names
+Person: Other Names
 ============================
 
 Attribute name
@@ -165,9 +165,9 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Different sources will spell a person's name in different ways. We choose and record a canonical version of a person's name in the `Person Identity: Name` field. All other spellings that we have found are treated as aliases and stored in this field. Titles, roles, honorifics and other attributes that are more correctly linked to a person's posting in a unit are recorded in `Person Posting`_ claims.
+Different sources will spell a person's name in different ways. We choose and record a canonical version of a person's name in the `Person: Name` field. All other spellings that we have found are treated as aliases and stored in this field. Titles, roles, honorifics and other attributes that are more correctly linked to a person's posting in a unit are recorded in `Person Posting`_ claims.
 
-Person Identity: Country
+Person: Country
 ========================
 
 Attribute name
@@ -198,39 +198,39 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__. This field does not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if ``1 Batallón de Infantería`` is located in Juarez, Mexico, the unit will be assigned a value of ``mx`` in the field `Unit Identity: Country`_. Any person who is a member of that unit will be assigned a value of ``mx`` in the field `Person Identity: Country`_ as well. A person may have multiple entries for `Person Identity: Country`_ where our research shows they or a unit they are a member of is deployed to different countries.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__. This field does not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if ``1 Batallón de Infantería`` is located in Juarez, Mexico, the unit will be assigned a value of ``mx`` in the field `Unit Identity: Country`_. Any person who is a member of that unit will be assigned a value of ``mx`` in the field `Person: Country`_ as well. A person may have multiple entries for `Person: Country`_ where our research shows they or a unit they are a member of is deployed to different countries.
 
-Person Identity: Earliest Precise Date
+Person: Earliest Precise Date
 ======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Identity: Latest Precise Date
+Person: Latest Precise Date
 ====================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Identity: Earliest Imprecise Date
+Person: Earliest Imprecise Date
 ========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Identity: Latest Imprecise Date
+Person: Latest Imprecise Date
 ======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Identity: Date range is a Start Date
+Person: Date range is a Start Date
 ===========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Identity: Date range is an End Date
+Person: Date range is an End Date
 ==========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Identity: Research Comments
+Person: Research Comments
 ==================================
 
 Attribute name
@@ -263,7 +263,7 @@ Guidance on use
 
 Staff Researchers use this attribute to exchange feedback about the data in the claim. This may included changes needed, references to sources that the owner of the claim might look at, and other observations that can improve the quality of the data. Data stored in this attribute are not intended for publication. The comments attribute is common to all claim types in the SFM data model.
 
-Person Identity: Research Owner
+Person: Research Owner
 ===============================
 
 Attribute name
@@ -296,7 +296,7 @@ Guidance on use
 
 This attribute allows researchers keep track of claims they have created. It  may be used for arbitrary grouping and tagging of specific sets of claims if needed. This type of attribute is common to all types of claim in the SFM data model.
 
-Person Identity: Research Status
+Person: Research Status
 ================================
 
 Attribute name
