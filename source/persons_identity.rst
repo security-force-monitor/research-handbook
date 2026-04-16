@@ -26,6 +26,47 @@ Person: Details of claim attributes
 This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use.
 
 
+type:claim
+==================================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``::type:claim``
+
+Description
+~~~~~~~~~~~
+
+A field that defines what type of claim is being made.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``person``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs can be created easily using either installable or online tools, for example:
+
+- Linux and OSX users: `uuidgen` command line tool.
+- On the web: `UUID Generator <https://www.uuidgenerator.net/version>`_.
+
+The attribute is administrative, providing a reliable way to differentiate between different persons. 
+
+The Staff Researcher must generate a unique identifying number for that person and add it to every claim associated with that specific person. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID. As the data are ingested into database systems, claims that share the same UUID in ``::unit:id`` will be aggregated to create a single record for that person.
+
+
 Person: Unique Identifier
 ==================================
 
