@@ -57,14 +57,41 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs can be created easily using either installable or online tools, for example:
+Entering ``person`` defines the claim and establishes the fields to be used in further data entry about a person.
 
-- Linux and OSX users: `uuidgen` command line tool.
-- On the web: `UUID Generator <https://www.uuidgenerator.net/version>`_.
 
-The attribute is administrative, providing a reliable way to differentiate between different persons. 
+status:meta
+==================================
 
-The Staff Researcher must generate a unique identifying number for that person and add it to every claim associated with that specific person. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID. As the data are ingested into database systems, claims that share the same UUID in ``::unit:id`` will be aggregated to create a single record for that person.
+Attribute name
+~~~~~~~~~~~~~~
+
+``::status:meta``
+
+Description
+~~~~~~~~~~~
+
+A field that classifies the data in the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``accepted``, ``conflict``, ``work_needed``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Claims are "accepted" when all of the data can be entered in accordance with the guidance of this handbook. The "conflict" flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. Finally, if the data cannot be correctly entered or no citations can establish whether a claim should be flagged as "accepted" or "conflict" then the flag "work_needed" should be used. This allows the researcher to either fix the mal-formed data or conduct additional research.
 
 
 Person: Unique Identifier
