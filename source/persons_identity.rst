@@ -205,7 +205,7 @@ about_entity:name:qa
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code assigned to each entity in the dataset.
+Field that provides human readible name for entity.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -220,26 +220,21 @@ This attribute is optional.
 Example of use
 ~~~~~~~~~~~~~~
 
-``521ebf18-f161-4ac9-8c72-5a246efa0458``
+``Ye Win Oo``, ``510 Light Infantry Battalion in Nansang Township``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID 
+This field provides a human readable counterpart to the ``about_entity:ref:claim``. This field can be manually added by a researcher or automatically populated by the system after import. For a ``person`` best practice is to use the ``name:annotation`` in this field.
 
 
-Person: Name
+name:annotation
 =====================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::person:name``
 
 Description
 ~~~~~~~~~~~
 
-Full name of the person, including given, patronym and surnames.
+Fullest name of the person as evidenced by citations. This may include a given name, surname, middle name(s), as well as other names depending on the specific context.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -254,12 +249,17 @@ This attribute is optional.
 Example of use
 ~~~~~~~~~~~~~~
 
-``Magaji Musa Majia'a``
+``Zeyar Aung``, ``Myo Moe Aung‡``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Different sources will spell the name of a person in different ways, so we choose a name to be a canonical entry for that person. Whenever possible, the canonical entry will contain the most complicated or complete version of a person's name, even if it has the smallest number of citations. For example ``Magaji Musa Majia'a`` will be used instead of ``Magaji Majiaa``. Other names will be placed in the `Person: Other Names`_ attribute. Titles, roles, honorifics and other attributes that are more correctly linked to a person's posting in a unit are recorded in `Person Posting`_ claims.
+For a ``person`` this field only used if the citation evidences the fullest name of a person, which is defined as the name with the highest number of characters. Ranks, titles, or positions held should not be entered in this field as they are captured in other fields.
+
+As with all annotation fields this is the singular display name for the entity. Thus this field can be dynamic and change with ongoing research. For example, a researcher investigating Myanmar may first come across citation ``9f01b1c1-563f-4b40-a534-b91c7e1a5062`` for the ``person`` of ``Zeya Aung`` (which has nine characters) which would be entered in ``name:annotation``. Next they may come across another citation ``4c0aaa5d-a147-4f1c-91d8-46d005be1a04`` that evidences the same person, but gives a name of ``Zayar Aung`` (with 10 characters). This longer which would be entered in ``name:annotation``, and ``Zeya Aung`` in the previous entry tied to citation ``9f01b1c1-563f-4b40-a534-b91c7e1a5062`` would be cleared. Finally, the researcher may come across citation ``c0b4b224-6432-45a5-854d-148d76af0ffa`` which would evidence the name of ``Zeyar Aung`` (with 10 characters). As there are two names, both with 10 characters each, the researcher would use the agreement of the name starting with "Zeya" to evidence ``Zeyar Aung`` as the ``name:annotation``, and ``Zeyar Aung`` in the previous entry tied to citation ``4c0aaa5d-a147-4f1c-91d8-46d005be1a04`` would be cleared
+
+When there are two persons who may be the same person, but citations have not confirmed they are the same person, the symbol ‡ can be applied after the last character in their ``name:annotation`` to help visually identify them in their display name. A corresponding ``public_notes:meta`` should be entered to explain why the symbol ‡ has been used.
+
 
 Person: Other Names
 ============================
