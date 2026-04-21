@@ -147,12 +147,12 @@ citation:refs:claim
 Description
 ~~~~~~~~~~~
 
-Field for citation(s) evidencing the claim.
+Field unique 32 character code assigned to citation(s) evidencing the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text string
+String in UUID format
 
 Status
 ~~~~~~
@@ -167,62 +167,16 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the UUID for each citation, found in the ``source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Indentifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
 
 
-Person: Unique Identifier
+about_entity:ref:claim
 ==================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::person:id``
-
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code assigned to each person in the dataset.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String in UUID format
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``a848de4e-ebeb-49d6-9099-7e68ca3b57fc``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs can be created easily using either installable or online tools, for example:
-
-- Linux and OSX users: `uuidgen` command line tool.
-- On the web: `UUID Generator <https://www.uuidgenerator.net/version>`_.
-
-The attribute is administrative, providing a reliable way to differentiate between different persons. 
-
-The Staff Researcher must generate a unique identifying number for that person and add it to every claim associated with that specific person. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID. As the data are ingested into database systems, claims that share the same UUID in ``::unit:id`` will be aggregated to create a single record for that person.
-
-
-Person: Claim Citation Identifier
-==========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::person:claim:citation:id``
-
-Description
-~~~~~~~~~~~
-
-A unique 32 character code of a citation from a source that evidences the other attribute(s) in this claim.
+A unique 32 character code assigned to each entity in the dataset.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -237,12 +191,42 @@ This attribute is required.
 Example of use
 ~~~~~~~~~~~~~~
 
-``16d013b5-7073-4446-b22b-46b0edb25632``
+``521ebf18-f161-4ac9-8c72-5a246efa0458``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-All claims require a citation, which is a reference to a specific part of a source (for example a page or paragraph reference). The page on citations provides more information about this evidentiary mechanism.
+Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
+
+
+about_entity:name:qa
+==================================
+
+Description
+~~~~~~~~~~~
+
+A unique 32 character code assigned to each entity in the dataset.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``521ebf18-f161-4ac9-8c72-5a246efa0458``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID 
+
 
 Person: Name
 =====================
