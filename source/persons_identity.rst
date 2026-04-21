@@ -8,8 +8,7 @@ Person: Summary of claim attributes
 
 The table below summarises the following dimensions of Person claims:
 
- - Attribute label: a human readable label for the attribute
- - Attribute name: a unique machine-readable name for the attribute, used during data capture
+ - Attribute label: a unique machine-readable name for the attribute, used during data capture
  - Status: whether the attribute is optional or required in a claim
  - Data type: the sort of data that can be entered into the field
  - Conformed name: a standardized name that simplifies attribute use in SFM databases
@@ -28,11 +27,6 @@ This section contains further information about each attribute, including descri
 
 type:claim
 ==================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::type:claim``
 
 Description
 ~~~~~~~~~~~
@@ -63,11 +57,6 @@ Entering ``person`` defines the claim and establishes the fields to be used in f
 status:meta
 ==================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::status:meta``
-
 Description
 ~~~~~~~~~~~
 
@@ -91,7 +80,65 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Claims are "accepted" when all of the data can be entered in accordance with the guidance of this handbook. The "conflict" flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. Finally, if the data cannot be correctly entered or no citations can establish whether a claim should be flagged as "accepted" or "conflict" then the flag "work_needed" should be used. This allows the researcher to either fix the mal-formed data or conduct additional research.
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. Finally, if the data cannot be correctly entered or no citations can establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used. This allows the researcher to either fix the issue or conduct additional research.
+
+
+researcher:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field for initials or other identifer of researcher who last entered data for the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``TW``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked. 
+
+
+internal_comments:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+A field for temporary comments or notes for the researcher or research team working on the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Come back to this to determine date for claim``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they sh
 
 
 Person: Unique Identifier
