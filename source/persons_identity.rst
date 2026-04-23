@@ -297,13 +297,8 @@ Any name for a person used in the citation should be entered in this field. Whil
 Ranks, titles, or positions held should not be entered in this field as they are captured in other fields.
 
 
-Person: Country
+country:annotation
 ========================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::person:country``
 
 Description
 ~~~~~~~~~~~
@@ -323,12 +318,12 @@ This attribute is optional.
 Example of use
 ~~~~~~~~~~~~~~
 
-``mx``
+``mx``, ``ph``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__. This field does not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if ``1 Batallón de Infantería`` is located in Juarez, Mexico, the unit will be assigned a value of ``mx`` in the field `Unit Identity: Country`_. Any person who is a member of that unit will be assigned a value of ``mx`` in the field `Person: Country`_ as well. A person may have multiple entries for `Person: Country`_ where our research shows they or a unit they are a member of is deployed to different countries.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`__. This field does not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if ``1 Batallón de Infantería`` is located in Juarez, Mexico, the unit will be assigned a value of ``mx`` in the field `Unit Identity: Country`_. Any person who is a member of that unit will be assigned a value of ``mx`` in the field `Person: Country`_ as well. A person may have multiple entries for `Person: Country`_ where our research shows they or a unit they are a member of is deployed to different countries.
 
 Person: Earliest Precise Date
 ======================================
