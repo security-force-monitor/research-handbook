@@ -303,7 +303,7 @@ country:annotation
 Description
 ~~~~~~~~~~~
 
-Country where a unit that a person is a member of is located.
+Country person is associated with for grouping claims.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -323,141 +323,75 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`__. This field does not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if ``1 Batallón de Infantería`` is located in Juarez, Mexico, the unit will be assigned a value of ``mx`` in the field `Unit Identity: Country`_. Any person who is a member of that unit will be assigned a value of ``mx`` in the field `Person: Country`_ as well. A person may have multiple entries for `Person: Country`_ where our research shows they or a unit they are a member of is deployed to different countries.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). This field is used to aid grouping persons into datasets related to specific countries and does not denote the citizenship or country of origin of a person. The specific country code should be choosen based on any related `posting` the `person` holds, or any other contextual information from citations about the `person`.
 
-Person: Earliest Precise Date
+first_precise:range
 ======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person: Latest Precise Date
+last_precise:range
 ====================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person: Earliest Imprecise Date
+first_imprecise:range
 ========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person: Latest Imprecise Date
+last_imprecise:range
 ======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person: Date range is a Start Date
+starting:range
 ===========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person: Date range is an End Date
+ending:range
 ==========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person: Research Comments
-==================================
 
-Attribute name
-~~~~~~~~~~~~~~
+starting_context:range
+==========================================
 
-``::person:claim:comments``
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+ending_context:range
+==========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+public_notes:meta
+============================
 
 Description
 ~~~~~~~~~~~
 
-Observations specific to the process of reviewing data in this claims, including fixes, refinements and other suggestions.
+Additional context or details about the claim for a public audience.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text
+String
 
 Status
 ~~~~~~
 
 This attribute is optional.
 
-Example of use
-~~~~~~~~~~~~~~
-
-``Parent person missing``, ``Possible duplicate - merge?``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to exchange feedback about the data in the claim. This may included changes needed, references to sources that the owner of the claim might look at, and other observations that can improve the quality of the data. Data stored in this attribute are not intended for publication. The comments attribute is common to all claim types in the SFM data model.
-
-Person: Research Owner
-===============================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::person:claim:reseacher``
-
-Description
-~~~~~~~~~~~
-
-Initials of Staff Reseacher who first created the person.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Text
-
-Status
-~~~~~~
-
-This attribute is optional.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``TL``, ``TW``, ``MM``,``NP``
+``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred "last week". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute allows researchers keep track of claims they have created. It  may be used for arbitrary grouping and tagging of specific sets of claims if needed. This type of attribute is common to all types of claim in the SFM data model.
-
-Person: Research Status
-================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``:person:claim:status``
-
-Description
-~~~~~~~~~~~
-
-The place of a claim in the research workflow.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Number range from 0 to 3
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``1``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to indicate where a claim stands in the research workflow between the first cut of a claim, review by other researchers, and final readiness for use in analysis or for publication. The values to be used in this attribute are taken from the below list:
-
-- ``X``: Claim should be deleted.
-- ``0``: First commit. This claim has just been added and needs review.
-- ``1``: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the `Unit Identity: Research Comments`_ attribute.
-- ``2``: Fixes made. The owner of this data has addressed the reviewer's comments.
-- ``3``: Clean. A final check has been made by a reviewer, and this claim can be used in analysis and can be published.
-
-This type of attribute is common to all claims in the SFM data model.
+This field should be used whenever any claim requires additional explanation or otherwise is not clearly and directly stated in the citation. In the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determinef the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. As that range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation, the researcher should explain how those dates were identified as the dates evidenced by the citation.
