@@ -1,7 +1,7 @@
 Posting
 ##############
 
-The ``posting`` claim type holds information about a person's career. It first defines a relationships between a ``person`` and a ``unit``, and can be used to further describe the role the person has in the unit ("Commander", "Chief of Staff", etc), the rank they hold at the time of the posting, and any additional titles they may hold at the time of a posting. A person usually has a single posting at any one time, but may have multiple overlapping postings. 
+The ``posting`` claim type holds information about a person's career. It first defines a relationships between a ``person`` and a ``unit``, and can be used to further describe the role the person has in the unit ("Commander", "Chief of Staff", etc), the rank they hold at the time of the posting, and any title they may hold at the time of a posting. A person usually has a single posting at any one time, but can have multiple overlapping postings. 
 
 Person Postings: Summary of claim attributes 
 ********************************************
@@ -9,10 +9,9 @@ Person Postings: Summary of claim attributes
 The table below summarises the following dimensions of Unit Posting claims:
 
  - Attribute label: a human readable label for the attribute
- - Attribute name: a unique machine-readable name for the attribute, used during data capture
  - Status: whether the attribute is optional or required in a claim
  - Data type: the sort of data that can be entered into the field
- - Conformed name: a standardized name that simplifies attribute use in SFM databases
+
 
 .. csv-table::
    :file: _static/cluster-postings-fields.csv
@@ -27,10 +26,6 @@ This section contains further information about each attribute, including descri
 Person Posting: Unique Identifier
 =================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::posting:id``
 
 Description
 ~~~~~~~~~~~
