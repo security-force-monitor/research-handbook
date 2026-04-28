@@ -446,139 +446,79 @@ In most cases, the value placed in this attribute is taken verbatim from the sou
 
     For example, we would enter ``Brigadier General`` rather than ``Brigadier-General``.
 
-Person Posting: Earliest Precise Date
-=====================================
+first_precise:range
+======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Posting: Latest Precise Date
-===================================
+
+last_precise:range
+====================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Posting: Earliest Imprecise Date
-=======================================
+
+first_imprecise:range
+========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Posting: Latest Imprecise Date
-=====================================
+
+last_imprecise:range
+======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Posting: Date range is a Start Date
+
+starting:range
+===========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+ending:range
 ==========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Posting: Date range is an End Date
-=========================================
+
+starting_context:range
+==========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Posting: Research Comments
-==================================
 
-Attribute name
-~~~~~~~~~~~~~~
+ending_context:range
+==========================================
 
-``::posting:claim:comments``
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+public_notes:meta
+============================
 
 Description
 ~~~~~~~~~~~
 
-Observations specific to the process of reviewing data in this claims, including fixes, refinements and other suggestions.
+Additional context or details about the claim for a public audience.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text
+String
 
 Status
 ~~~~~~
 
 This attribute is optional.
 
-Example of use
-~~~~~~~~~~~~~~
-
-``Parent person missing``, ``Possible duplicate - merge?``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to exchange feedback about the data in the claim. This may included changes needed, references to sources that the owner of the claim might look at, and other observations that can improve the quality of the data. Data stored in this attribute are not intended for publication. The comments attribute is common to all claim types in the SFM data model.
-
-Person Posting: Research Owner
-==============================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::posting:claim:reseacher``
-
-Description
-~~~~~~~~~~~
-
-Initials of Staff Reseacher who first created the person.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Text
-
-Status
-~~~~~~
-
-This attribute is optional.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``TL``, ``TW``, ``MM``, ``NP``
+``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred "last week". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute allows researchers keep track of claims they have created. It  may be used for arbitrary grouping and tagging of specific sets of claims if needed. This type of attribute is common to all types of claim in the SFM data model.
-
-Person Posting: Research Status
-================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``:posting:claim:status``
-
-Description
-~~~~~~~~~~~
-
-The place of a claim in the research workflow.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Number range from 0 to 3
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``1``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to indicate where a claim stands in the research workflow between the first cut of a claim, review by other researchers, and final readiness for use in analysis or for publication. The values to be used in this attribute are taken from the below list:
-
-- ``X``: Claim should be deleted.
-- ``0``: First commit. This ciaim has just been added and needs review.
-- ``1``: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the `Person Posting: Research Comments`_ attribute.
-- ``2``: Fixes made. The owner of this data has addressed the reviewer's comments.
-- ``3``: Clean. A final check has been made by a reviewer, and this claim can be used in analysis and can be published.
-
-This type of attribute is common to all claims in the SFM data model.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
