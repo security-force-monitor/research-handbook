@@ -397,7 +397,7 @@ Guidance on use
 This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
 
 
-person:gender:assertion [draft field]
+person:gender:assertion
 ================================
 
 Description
@@ -413,7 +413,7 @@ Open list, single choice
 Status
 ~~~~~~
 
-This attribute is optional.
+This is a draft field, to be finalized.
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -429,3 +429,89 @@ Echoing the definition used in the `FOAF standard<http://xmlns.com/foaf/spec/#te
 
 Where the sources contain no textual indication about the person's gender, the attribute should be left blank.
 
+
+person:account_type:assertion
+===============================
+
+Description
+~~~~~~~~~~~
+
+The name of an online platform or service on which the person holds an account.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This is a draft field, to be finalized.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``facebook``, ``telegram``, ``youtube``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to record the name of the online platform of service on which a person holds an account. The name is chosen from a list of available platforms and services, which will be updated as required. Where a person has more than one account, on the same or different platforms, a new claim should be created.
+
+person:account_id:assertion
+=====================================
+
+Description
+~~~~~~~~~~~
+
+The account name used by the person on a specific online platform or service.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This is a draft field, to be finalized.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``CapitaineIb226`` (on X)
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to record the account name held by the person on a specific online platform or service. Where a person has more than one account, on the same or different platforms, a new claim should be created.
+
+
+
+person:media_description:annotation
+====================================
+
+Description
+~~~~~~~~~~~
+
+Short textual description of material found in a media resource that provides information about a how person looks or sounds.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This is a draft field, to be finalized.
+
+Example of use
+~~~~~~~~~~~~~~
+
+"Face and shoulders of Bosco Ntaganda, in military uniform with hat, tie and lapels, backed by two other men in combat fatigues armed with rifles. Taken at a news conference in January 2009."
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to store a brief description of the content of external. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the person.
