@@ -3,10 +3,10 @@ Posting
 
 The ``posting`` claim type holds information about a person's career. It first defines a relationships between a ``person`` and a ``unit``, and can be used to further describe the role the person has in the unit ("Commander", "Chief of Staff", etc), the rank they hold at the time of the posting, and any title they may hold at the time of a posting. A person usually has a single posting at any one time, but can have multiple overlapping postings. 
 
-Person Postings: Summary of claim attributes 
+Posting: Summary of claim attributes 
 ********************************************
 
-The table below summarises the following dimensions of Unit Posting claims:
+The table below summarises the following dimensions of Posting claims:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
@@ -18,7 +18,7 @@ The table below summarises the following dimensions of Unit Posting claims:
    :header-rows: 1
    :delim: tab
 
-Person Postings: Details of claim attributes
+Posting: Details of claim attributes
 ********************************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use.
