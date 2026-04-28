@@ -230,19 +230,18 @@ Guidance on use
 This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
 
 
-Person Posting: Unique Identifier
-=================================
-
+posting:person:refs:assertion
+========================================
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code assigned to each posting in the dataset.
+The unique 32 character code assigned to a person posted to a unit.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format
+String in UUID format, selected from existing person records
 
 Status
 ~~~~~~
@@ -257,55 +256,40 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs can be created easily using either installable or online tools, for example:
+This is the Universally Unique Indentifier (UUID) of the person who is being posted to a unit. A record for the person must already exist in the dataset. 
 
-- Linux and OSX users: `uuidgen` command line tool.
-- On the web: `UUID Generator <https://www.uuidgenerator.net/version>`_.
 
-The attribute is administrative, providing a reliable way to differentiate between different persons. 
-
-The Staff Researcher must generate a unique identifying number for that posting and add it to every claim associated with that specific person. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID. As the data are ingested into database systems, claims that share the same UUID in ``::posting:id`` will be aggregated to create a single record for that posting.
-
-Person Posting: Claim Citation Identifier
-=========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::posting:claim:citation:id``
+posting:person:names:qa
+========================================
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code of a citation from a source that evidences the other attribute(s) in this claim.
+Name of person posted to a unit.
 
 Attribute type
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
-String in UUID format
+Text string
 
 Status
 ~~~~~~
 
-This attribute is required.
+This attribute is optional
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``16d013b5-7073-4446-b22b-46b0edb25632``
+``Hla Min``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-All claims require a citation, which is a reference to a specific part of a source (for example a page or paragraph reference). The page on citations provides more information about this evidentiary mechanism.
+This is human readible name for the ``person`` with the ``posting`` to the ``unit``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``person``.
 
-Person Posting: Unit Unique Identifier
+
+posting:unit:refs:assertion
 ======================================
-
-ttribute name
-~~~~~~~~~~~~~~
-
-``::posting:unit:id``
 
 Description
 ~~~~~~~~~~~
@@ -335,38 +319,7 @@ This is the Universally Unique Indentifier (UUID) of the unit who is being poste
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Person Posting: Person Unique Identifier
-========================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::posting:person:id``
-
-Description
-~~~~~~~~~~~
-
-The unique 32 character code assigned to a person posted to a unit.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String in UUID format, selected from existing person records
-
-Status
-~~~~~~
-
-This attribute is required.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``a848de4e-ebeb-49d6-9099-7e68ca3b57fc``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This is the Universally Unique Indentifier (UUID) of the person who is being posted to a unit. A record for the person must already exist in the dataset. 
 
 Person Posting: Role
 ====================
