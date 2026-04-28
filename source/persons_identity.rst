@@ -395,3 +395,37 @@ Guidance on use
 ~~~~~~~~~~~~~~~
 
 This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
+
+
+person:gender:assertion [draft field]
+================================
+
+Description
+~~~~~~~~~~~
+
+Indicators of a person's sex or gender identity, as inferred from pronouns used in the text of available sources.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Open list, single choice
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Male``, ``Female``, ``Other``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to capture data about the gender of a person, as determined only by the pronouns ("her", "she", "his", "him", etc) used in any available textual sources about this person. We do not infer a person's gender from their name or images of them. 
+
+Echoing the definition used in the `FOAF standard<http://xmlns.com/foaf/spec/#term_gender>`, the `person:gender:assertion` attribute is not intended to capture the full range of possible biological, social and sexual associated with the word "gender". In the majority of cases the value recorded in this attribute will be ``male`` or ``female``. However, we have left this attribute open to include alternatives that are expressed within the available sources about a person.
+
+Where the sources contain no textual indication about the person's gender, the attribute should be left blank.
+
