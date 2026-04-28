@@ -320,14 +320,40 @@ Guidance on use
 ~~~~~~~~~~~~~~~
 
 
+posting:unit:names:qa
+======================================
 
-Person Posting: Role
-====================
+Description
+~~~~~~~~~~~
 
-Atttribute name
+The unique 32 character code assigned to a unit to which the person is posted.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String in UUID format, selected from existing unit records
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``a848de4e-ebeb-49d6-9099-7e68ca3b57fc``
+
+Guidance on use
 ~~~~~~~~~~~~~~~
 
-``::posting:role``
+This is the Universally Unique Indentifier (UUID) of the unit who is being posted to a unit. A record for the unit must already exist in the dataset. 
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+
+posting:roles:assertion
+====================
 
 Description
 ~~~~~~~~~~~
@@ -360,13 +386,9 @@ In nearly all cases, the value placed in this attribute is taken verbatim from t
 
 If a person is referred to as “the head”, “chief” or some other variation indicating that they are in charge of a unit, they should be regarded as the ``Commander`` for the purposes of entering a value in this attribute.
 
-Person Posting: Title
+
+posting:titles:assertion
 =====================
-
-Atttribute name
-~~~~~~~~~~~~~~~
-
-``::posting:title``
 
 Description
 ~~~~~~~~~~~
@@ -393,13 +415,9 @@ Guidance on use
 
 The range of titles will vary from country to country. For example, commanders of army divisions in Nigeria, who usually hold the rank of ``Major General`` also hold the title of ``General Officer Commanding``. The value placed in this attribute is taken verbatim from the source and not edited or standardized.
 
-Person Posting: Rank
+
+posting:ranks:assertion
 ====================
-
-Atttribute name
-~~~~~~~~~~~~~~~
-
-``::posting:rank``
 
 Description
 ~~~~~~~~~~~
