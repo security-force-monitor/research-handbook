@@ -1,11 +1,13 @@
 Incident
 ########
 
-The "Incident" claim type stores information about publicly-documented allegations of acts committed by state-controlled security forces that may violate human rights laws and standards, international criminal law and other sets of relevant norms. Incidents may include extrajudicial killings, rape, torture and other forms of violence. The Security Force Monitor does not make these allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors around the world.
+Incidents are publicly-documented allegations of acts committed by state-controlled security forces that may violate human rights laws and standards, international criminal law and other sets of relevant norms.
 
-The Security Force Monitor focuses its research on the structure, personnel and operations of security forces; we do not directly investigate specific allegations of human rights abuse in the way that Amnesty International or Human Rights Watch do. As such we consider all reports of human rights abuses as “alleged” in our documentation. This simply means these are claims that other organizations have made and which we are repeating without further verification. 
+Incidents may include extrajudicial killings, rape, torture and other forms of violence. Security Force Monitor does not make these allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors around the world.
 
-The Security Force Monitor does not make allegations against defense and security forces. Nothing in the Monitor’s work should be taken as the Monitor making an allegation against a unit or person. In our work we treat all claims of human rights violations as “alleged violations” to indicate that these are claims made by other organizations. The data that we publish does not attempt to demonstrate involvement of individuals or units in human rights abuses beyond that which other organizations have alleged.
+The Security Force Monitor does not make allegations against security forces. Nothing in the Monitor’s work should be taken as the Monitor making an allegation against a unit or person. In our work we treat all claims of human rights violations as “alleged” to indicate that these are claims that other organizations have structured into data without further verification.
+
+For each incident, we include a description of the incident from the organization making the allegation, and from this structure data for the alleged type of human rights violation(s), the alleged perpetrator(s), date range and location the alleged type of human rights violation occurred. The data that we publish does not attempt to demonstrate involvement of individuals or units in human rights abuses beyond that which other organizations have alleged.
 
 
 Incident: Summary of claim attributes
