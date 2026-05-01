@@ -239,32 +239,32 @@ This field provides a human readable counterpart to the ``about_entity:ref:claim
 
 
 
-Incident: Earliest Precise Date
+first_precise:range
 ===============================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Incident: Latest Precise Date
+last_precise:range
 =============================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Incident: Earliest Imprecise Date
+first_imprecise:range
 =================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Incident: Latest Imprecise Date
+last_imprecise:range
 ===============================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Incident: Date range is a Start Date
+starting:range
 ====================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Incident: Date range is an End Date
+ending:range
 ===================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
