@@ -341,6 +341,155 @@ Guidance on use
 This field is used to store information about the Location where an incident happened. The value included in this field must be taken from :ref:`Location: Location Identifier` attribute from the Location dataset. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
 
 
+incident:location:names:qa
+==================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``::incident:location``
+
+Description
+~~~~~~~~~~~~~~
+
+Human readable name for location.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Hpruso Township (osm, poly) fd51e411-0a21-439c-ba3b-b6aa787541d1``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+The best practice for this field is to use the ``location:humane_id:qa`` of the ``incident:location:refs:assertion``.
+
+
+incident:violation:types:assertion
+========================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``::incident:violation_type``
+
+Description
+~~~~~~~~~~~
+
+Type of alleged violation of human rights law, international humanitarian law or other relevant laws committed during the incident.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text, multiple entry, controlled vocabulary
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Torture; Violations of the Right to Life``, ``Intentionally directing attacks against the civilian population``
+
+Guidance for use
+~~~~~~~~~~~~~~~~
+
+In `Incident: Violation Type`_, a value is taken "as is" from the source, without change. If the source states "torture", we transcribe this without further analysis. This is because the Monitor does not make specific direct allegations, but reports verbatim the allegations made by the source.
+
+
+incident:violation:descriptions:assertion
+===============================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``::incident:violation_description``
+
+Description
+~~~~~~~~~~~
+
+A description of the incident.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Example of use
+~~~~~~~~~~~~~~
+
+    According to Amnesty International: "Usman Modu, a 26-year-old scrap metal dealer from Maiduguri, spent almost two and a half years in Giwa barracks. He was arrested in April 2012 in Gwange, Maiduguri, during a screening operation after a Boko Haram attack. All the people who left the mosque were gathered together: the elderly and children were allowed to go home. The men were brought before a “pointer”, who pointed at him and 17 other men. He was first taken to a JTF station called NEPA and then to Giwa Barracks. “One by one we were brought in front of an armoured tank. I never saw anything. People said there was someone inside. When I went up, soldiers said I should go left. They started beating me. One soldier beat me with his gun and I fell down. They tied my hands behind my back and beat me. Then told me to go inside the car. I don't know why I was chosen. I was surprised, I don't know what I have done.” The military released Usman with 41 others in November 2014. The 17 men arrested with Usman all died in military custody."
+
+Guidance for use
+~~~~~~~~~~~~~~~~
+
+In this attribute we record a direct quotation from the civil society, governmental or other source that describes the incident. When an incident has more than one report tied to it, start the quotation as below:
+
+    According to X organization, “Description of incident”. According to Y organization, “Description of incident”.
+
+
+incident:perpetrator:refs:assertion
+============================================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``::incident:perpetrator:unit:ids``
+
+Description
+~~~~~~~~~~~
+
+The UUID of the unit or person against which the allegation is made, selected from the dataset.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String, formatted as a UUID
+
+Example of use
+~~~~~~~~~~~~~~
+
+``a27d4e1f-7add-4302-ab2e-70c426cce519``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Where a source make an allegation against a specific unit or person, this attribute is used to store that entity's identifier. The unit or person must already exist in the dataset.
+
+
+incident:perpetrator:names:qa
+==================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``::incident:location``
+
+Description
+~~~~~~~~~~~~~~
+
+Human readable name for alleged unit or person perpetrator(s).
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Example of use
+~~~~~~~~~~~~~~
+
+``115 Light Infantry Battalion``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+The best practice for this field is to use the ``name:annotation`` of the unit or person.
+
+
+
+
 first_precise:range
 ===============================
 
@@ -375,119 +524,15 @@ Full guidance on rationale for and differences between precise and imprecise dat
 
 
 
-Incident: Violation Type
-========================
 
-Attribute name
-~~~~~~~~~~~~~~
 
-``::incident:violation_type``
 
-Description
-~~~~~~~~~~~
 
-Type of alleged violation of human rights law, international humanitarian law or other relevant laws committed during the incident.
 
-Attribute type
-~~~~~~~~~~~~~~
 
-Text, multiple entry, controlled vocabulary
 
-Example of use
-~~~~~~~~~~~~~~
 
-``Torture; Violations of the Right to Life``, ``Intentionally directing attacks against the civilian population``
 
-Guidance for use
-~~~~~~~~~~~~~~~~
-
-In `Incident: Violation Type`_, a value is taken "as is" from the source, without change. If the source states "torture", we transcribe this without further analysis. This is because the Monitor does not make specific direct allegations, but reports verbatim the allegations made by human rights organizations and other credible sources.
-
-Incident: Violation Description
-===============================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:violation_description``
-
-Description
-~~~~~~~~~~~
-
-A description of the incident.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String
-
-Example of use
-~~~~~~~~~~~~~~
-
-    According to Amnesty International: "Usman Modu, a 26-year-old scrap metal dealer from Maiduguri, spent almost two and a half years in Giwa barracks. He was arrested in April 2012 in Gwange, Maiduguri, during a screening operation after a Boko Haram attack. All the people who left the mosque were gathered together: the elderly and children were allowed to go home. The men were brought before a “pointer”, who pointed at him and 17 other men. He was first taken to a JTF station called NEPA and then to Giwa Barracks. “One by one we were brought in front of an armoured tank. I never saw anything. People said there was someone inside. When I went up, soldiers said I should go left. They started beating me. One soldier beat me with his gun and I fell down. They tied my hands behind my back and beat me. Then told me to go inside the car. I don't know why I was chosen. I was surprised, I don't know what I have done.” The military released Usman with 41 others in November 2014. The 17 men arrested with Usman all died in military custody."
-
-Guidance for use
-~~~~~~~~~~~~~~~~
-
-In this attribute we record a direct quotation from the civil society, governmental or other source that describes the incident. When an incident has more than one report tied to it, start the quotation as below:
-
-    According to X organization, “Description of incident”. According to Y organization, “Description of incident”.
-
-Incident: Perpetrator Unit Unique Identifier
-============================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:perpetrator:unit:ids``
-
-Description
-~~~~~~~~~~~
-
-The UUID of the unit against which the allegation is made, selected from the unit dataset.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String, formatted as a UUID
-
-Example of use
-~~~~~~~~~~~~~~
-
-``a27d4e1f-7add-4302-ab2e-70c426cce519``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Where a source make an allegation against a specific unit, this attribute is used to store that unit's identifier. The unit must already exist in the dataset.
-
-Incident: Perpetrator Person Unique Identifier
-===============================================
-
-AAttribute name
-~~~~~~~~~~~~~~
-
-``::incident:perpetrator:person:ids``
-
-Description
-~~~~~~~~~~~
-
-The UUID of the person against which the allegation is made, selected from the person dataset.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String, formatted as a UUID
-
-Example of use
-~~~~~~~~~~~~~~
-
-``a27d4e1f-7add-4302-ab2e-70c426cce519``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Where a source make an allegation against a specific person, this attribute is used to store that person's identifier. The person must already exist in the dataset.
 
 
 Incident: Perpetrator Classification
