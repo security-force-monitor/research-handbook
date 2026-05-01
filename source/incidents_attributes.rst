@@ -203,11 +203,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
-
-A ``person`` from one citation is never assumed to be the same ``person`` from another citation based on an exact or near match of their name. Instead the ``posting`` is used to determine whether two people with the same or similar names are the the same ``person``. For example, if a citation states "John Alfred Smith" was commander of "Police Station 1" and another states "John Smith" was the commander of "Police Station 1" they would be treated as the same person given the match of ``posting`` as well as their similar name. However, if one citation stated "John Alfred Smith" was the commander of "Police Station 2" they would not be treated as the same person as the "John Alfred Smith" who was commander of "Police Station 1" since there is no match of a ``posting``.
-
-Determining whether one person held multiple postings is based on some match of postings among different citations. For example, if one citation stated "John Alfred Smith" was commander of "Police Station 1" and another citation stated "J. Smith" was commander of "Police Station 3" there would be no match and these should be coded as two seperate people each with their own `about_entity:ref:claim`. If then a third citation stated that during the career of "John Smith" he was commander of "Police Station 1", "Police station 15" and "Police Station 3" then all of these would be treated as the same person given the match of at least one ``posting`` across all citations and the similar names of the person in each citation.
+Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For an ``incident`` this UUID distinguishes them from any other ``incident`` in the dataset.
 
 
 about_entity:name:qa
@@ -231,79 +227,17 @@ This attribute is optional.
 Example of use
 ~~~~~~~~~~~~~~
 
-``Ye Win Oo``, ``510 Light Infantry Battalion in Nansang Township``
+``Shot Dead in Hsipaw Township``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import. For a ``person`` best practice is to use the ``name:annotation`` in this field.
+This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
 
 
-Incident: Unique Identifier
-===========================
 
-Attribute name
-~~~~~~~~~~~~~~
 
-``::incident:name``
 
-Description
-~~~~~~~~~~~
-
-A unique 32 character code assigned to each incident in the dataset.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String
-
-Example of use
-~~~~~~~~~~~~~~
-
-``a407be6a-28e6-4237-b4e9-307f27b1202e``
-
-Guidance for use
-~~~~~~~~~~~~~~~~
-
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs can be created easily using either installable or online tools, for example:
-
-- Linux and OSX users: `uuidgen` command line tool.
-- On the web: `UUID Generator <https://www.uuidgenerator.net/version>`__.
-
-The field is administrative, providing a reliable way to differentiate between different incidents.
-
-Incident: Claim Citation Identifier
-===================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:claim:citation:id``
-
-Description
-~~~~~~~~~~~
-
-A unique 32 character code of a citation from a source that evidences the other attribute(s) in this claim.
-
-Atrribute type
-~~~~~~~~~~~~~
-
-String in UUID format
-
-Status
-~~~~~~
-
-This attribute is required.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``16d013b5-7073-4446-b22b-46b0edb25632``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-All claims require a citation, which is a reference to a specific part of a source (for example a page or paragraph reference). The page on citations provides more information about this evidentiary mechanism.
 
 Incident: Earliest Precise Date
 ===============================
@@ -589,76 +523,4 @@ Guidance on use
 
 Staff Researchers use this attribute to exchange feedback about the data in the claim. This may included changes needed, references to sources that the owner of the claim might look at, and other observations that can improve the quality of the data. Data stored in this attribute are not intended for publication. The comments attribute is common to all claim types in the SFM data model.
 
-Incident: Research Owner
-====================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:claim:researcher``
-
-Description
-~~~~~~~~~~~
-
-Initials of Staff Reseacher who first created the unit.
-
-Atrribute type
-~~~~~~~~~~~~~
-
-String
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``TL``, ``TW``, ``MM``, ``NP``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute allows researchers keep track of claims they have created. It  may be used for arbitrary grouping and tagging of specific sets of claims if needed. This type of attribute is common to all types of claim in the SFM data model.
-
-Incident: Research Status
-=====================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:claim:status``
-
-Description
-~~~~~~~~~~~
-
-The place of the claim in the research workflow.
-
-Atrribute type
-~~~~~~~~~~~~~
-
-String from controlled vocabulary.
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``1``, ``X``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to indicate where a claim stands in the research workflow between the first cut of a claim, review by other researchers, and final readiness for use in analysis or for publication. The values to be used in this attribute are taken from the below list:
-
-- ``X``: Claim should be deleted.
-- ``0``: First commit. This claim has just been added and needs review.
-- ``1``: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the `Incident: Research Comments`_ attribute.
-- ``2``: Fixes made. The owner of this data has addressed the reviewer's comments.
-- ``3``: Clean. A final check has been made by a reviewer, and this claim can be used in analysis and can be published.
-
-This type of attribute is common to all claims in the SFM data model.
