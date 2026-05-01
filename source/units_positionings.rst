@@ -3,7 +3,7 @@ Positioning
 
 The ``positioning`` claim describes the geographic footprint of a specific unit. This includes the site or base of a unit, as well as the areas of operation of a unit.
 
-Unit Positioning: Summary of claim attributes
+Positioning: Summary of claim attributes
 *********************************************
 
 The table below summarises the following dimensions of ``positioning`` claims:
