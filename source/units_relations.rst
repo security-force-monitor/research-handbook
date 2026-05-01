@@ -203,6 +203,7 @@ A ``person`` from one citation is never assumed to be the same ``person`` from a
 
 Determining whether one person held multiple postings is based on some match of postings among different citations. For example, if one citation stated "John Alfred Smith" was commander of "Police Station 1" and another citation stated "J. Smith" was commander of "Police Station 3" there would be no match and these should be coded as two seperate people each with their own `about_entity:ref:claim`. If then a third citation stated that during the career of "John Smith" he was commander of "Police Station 1", "Police station 15" and "Police Station 3" then all of these would be treated as the same person given the match of at least one ``posting`` across all citations and the similar names of the person in each citation.
 
+A ``relation`` should always be given the same UUID if there is an overlap or if the time-ranges of two or more citations fall within 1 day of each other. For example, XYZ.
 
 about_entity:name:qa
 ==================================
