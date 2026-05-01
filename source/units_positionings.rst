@@ -47,12 +47,12 @@ This attribute is required.
 Example of use
 ~~~~~~~~~~~~~~
 
-``person``
+``positioning``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``person`` defines the claim and establishes the fields to be used in further data entry about a person.
+Entering ``positioning`` defines the claim and establishes the fields to be used in further data entry about a positioning.
 
 
 status:meta
@@ -197,7 +197,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
+Every claim has an Universally Unique Indentifier (UUID) to distinguish it from any other claim. For a ``positioning`` this UUID distinguishes it from any other ``positioning`` in the dataset.
 
 A ``person`` from one citation is never assumed to be the same ``person`` from another citation based on an exact or near match of their name. Instead the ``posting`` is used to determine whether two people with the same or similar names are the the same ``person``. For example, if a citation states "John Alfred Smith" was commander of "Police Station 1" and another states "John Smith" was the commander of "Police Station 1" they would be treated as the same person given the match of ``posting`` as well as their similar name. However, if one citation stated "John Alfred Smith" was the commander of "Police Station 2" they would not be treated as the same person as the "John Alfred Smith" who was commander of "Police Station 1" since there is no match of a ``posting``.
 
