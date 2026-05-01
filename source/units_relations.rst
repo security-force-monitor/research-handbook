@@ -201,8 +201,6 @@ Every claim has an Universally Unique Indentifier (UUID) to distinguish it from 
 
 A ``person`` from one citation is never assumed to be the same ``person`` from another citation based on an exact or near match of their name. Instead the ``posting`` is used to determine whether two people with the same or similar names are the the same ``person``. For example, if a citation states "John Alfred Smith" was commander of "Police Station 1" and another states "John Smith" was the commander of "Police Station 1" they would be treated as the same person given the match of ``posting`` as well as their similar name. However, if one citation stated "John Alfred Smith" was the commander of "Police Station 2" they would not be treated as the same person as the "John Alfred Smith" who was commander of "Police Station 1" since there is no match of a ``posting``.
 
-Determining whether one person held multiple postings is based on some match of postings among different citations. For example, if one citation stated "John Alfred Smith" was commander of "Police Station 1" and another citation stated "J. Smith" was commander of "Police Station 3" there would be no match and these should be coded as two seperate people each with their own `about_entity:ref:claim`. If then a third citation stated that during the career of "John Smith" he was commander of "Police Station 1", "Police station 15" and "Police Station 3" then all of these would be treated as the same person given the match of at least one ``posting`` across all citations and the similar names of the person in each citation.
-
 A ``relation`` should always be given the same UUID if there is an overlap or if the time-ranges of two or more citations fall within 1 day of each other. For example, XYZ.
 
 about_entity:name:qa
@@ -226,91 +224,16 @@ This attribute is optional.
 Example of use
 ~~~~~~~~~~~~~~
 
-``Ye Win Oo``, ``510 Light Infantry Battalion in Nansang Township``
+``21 Military Operations Command  Northern Regional Military Command``, ``Unknown Tactical Operations Command (77 Light Infantry Division)  77 Light Infantry Division``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import. For a ``person`` best practice is to use the ``name:annotation`` in this field.
+This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
 
 
-Unit Relation: Relation Identifier
-==================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::relation:id``
-
-Description
-~~~~~~~~~~~
-
-A unique 32 character code assigned to each relation in the dataset.
-
-Atrribute type
-~~~~~~~~~~~~~~
-
-String in UUID format
-
-Status
-~~~~~~
-
-This attribute is required.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``a407be6a-28e6-4237-b4e9-307f27b1202e``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs must be created easily using either installable or online tools, for example:
-
-- Linux and OSX users: `uuidgen` command line tool.
-- On the web: `UUID Generator <https://www.uuidgenerator.net/version>`_.
-
-The field is administrative, providing a reliable way to differentiate between different entities in the SFM data model, in this case a unit relation entity.
-
-The Staff Researcher must generate a unique identifying number for that relationand copy it into the attribute ``::relation:id`` for every claim associated with that specific unit. As the data are ingested into database systems, claims that share the same UUID in ``::relation:id`` will be aggregated to create a single record for that relation.
-
-During research, particularly when using a spreadsheet, this is a manual, copy-and-paste step and is a potential source of error. The Staff Researcher must be careful never to re-use a UUID anywhere in this or other parts of the dataset.
-
-Unit Relation: Claim Citation Identifier
-========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::relation:claim:citation:id``
-
-Description
-~~~~~~~~~~~
-
-A unique 32 character code of a citation from a source that evidences the other attribute(s) in this claim.
-
-Atrribute type
-~~~~~~~~~~~~~~
-
-String in UUID format
-
-Status
-~~~~~~
-
-This attribute is required.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``16d013b5-7073-4446-b22b-46b0edb25632``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-All claims require a citation, which is a reference to a specific part of a source (for example a page or paragraph reference). The page on citations provides more information about this evidentiary mechanism.
-
-Unit Relation: Unit Identifier
-==============================
+relation:unit:refs:assertion
+============================
 
 Attribute name
 ~~~~~~~~~~~~~~
@@ -341,6 +264,7 @@ Guidance on use
 ~~~~~~~~~~~~~~~
 
 The UUID inputted into ``::relation:unit:id`` must correspond to the UUID of a unit that already exists within the Unit Identity attribute `Unit: Name`_. This attribute denotes one side of a relationship between units; the other is denoted in the attribute `Unit Relation: Related Unit Identifier`_. The nature of the relationship is clarified further using the `Unit Relation: Type of Relation`_ and `Unit Relation: Relation Classification`_ attributes.
+
 
 Unit Relation: Related Unit Identifier
 ======================================
