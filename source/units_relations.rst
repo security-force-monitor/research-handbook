@@ -1,7 +1,7 @@
 Relation
 ########
 
-The ``Relation`` claim type describes the relationships between units and the position of a unit in a hierarchical structure of a branch of the security and defence forces of a specific country. "Unit Relation" claims also describe clusters of units, such as those found in joint operations or international peacekeeping missions.
+The ``relation`` claim type describes how a ``unit`` relates to another ``unit``. This can be used to model a hierarchical "tree" where one ``unit`` is subordinate to another. A ``relation`` can also be used to model joint-task force or other multi-unit grouping where the grouping is comprised of members from multiple different units.
 
 Unit Relation: Summary of claim attributes
 ******************************************
@@ -47,12 +47,12 @@ This attribute is required.
 Example of use
 ~~~~~~~~~~~~~~
 
-``person``
+``relation``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``person`` defines the claim and establishes the fields to be used in further data entry about a person.
+Entering ``relation`` defines the claim and establishes the fields to be used in further data entry about a relation.
 
 
 status:meta
@@ -197,7 +197,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
+Every claim has an Universally Unique Indentifier (UUID) to distinguish it from any other claim. For a ``relation`` this UUID distinguishes them from any other ``relation`` in the dataset.
 
 A ``person`` from one citation is never assumed to be the same ``person`` from another citation based on an exact or near match of their name. Instead the ``posting`` is used to determine whether two people with the same or similar names are the the same ``person``. For example, if a citation states "John Alfred Smith" was commander of "Police Station 1" and another states "John Smith" was the commander of "Police Station 1" they would be treated as the same person given the match of ``posting`` as well as their similar name. However, if one citation stated "John Alfred Smith" was the commander of "Police Station 2" they would not be treated as the same person as the "John Alfred Smith" who was commander of "Police Station 1" since there is no match of a ``posting``.
 
