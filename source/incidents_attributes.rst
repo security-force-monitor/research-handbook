@@ -53,12 +53,12 @@ This attribute is required.
 Example of use
 ~~~~~~~~~~~~~~
 
-``person``
+``incident``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``person`` defines the claim and establishes the fields to be used in further data entry about a person.
+Entering ``incident`` defines the claim and establishes the fields to be used in further data entry about an incident.
 
 
 status:meta
