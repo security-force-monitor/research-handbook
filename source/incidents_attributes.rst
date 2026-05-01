@@ -488,6 +488,41 @@ Guidance on use
 The best practice for this field is to use the ``name:annotation`` of the unit or person.
 
 
+incident:perpetrator:classifications:assertion
+====================================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``::incident:perpetrator:classification``
+
+Description
+~~~~~~~~~~~
+
+General branch or tier of the security force alleged to have committed the act(s) described in the incident.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text and numbers, multiple entry, controlled vocabulary taken from ``Unit: Classification``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Army``, ``Ejército``, ``Police``, ``Military``, ``Military Police ; Joint Operation``
+
+Guidance for use
+~~~~~~~~~~~~~~~~
+
+Sometimes a source will report general information about the alleged perpetrators of an act. For example, rather than state a unit or a specific person the source might include something generic like “soldiers” or “police". In cases like these where we can't be more specific we use this field to record the branch or general classification of the force implicated in the incident.
+
+.. admonition:: Example
+
+    According to Amnesty International: "On 1 May 2012, around midnight, Nigerian soldiers arrested 37-year-old Dungus Ladan (not his real name), at his home in Maiduguri. Fatima, Dungus’ wife, told Amnesty International that the soldiers promised to just take him for an interrogation that should not last more than a few hours. When her husband did not return, she said, his father went on 3 May to Giwa barracks to check what had happened. Soldiers told him that Dungus had already been released. When he still did not return, the father went back again to the barracks, where soldiers told him that he should come back the next day to bail out his son. The following day, several relatives went together and gave the soldiers “what they could,” and the soldiers again promised to release Dungus that day. His wife said that the soldiers kept asking for money, and the family kept paying, but Dungus was never released. In February 2014, his father saw Dungus in the detention facility; they spoke briefly. Dungus said he had been framed by some people who owed him money and they arranged for him to be arrested and detained. Since then, his family has not seen him again; soldiers at Giwa barracks have told them he is not there."
+
+The only alleged perpetrators described in this alleged incident are "soldiers". The most appropriate term to enter in `Incident: Perpetrator Classification`_ to match this description which would be "military" because "soldiers" could refer to personnel of the Army, Navy or other armed services of a country.
+
+Entries used in in `Incident: Perpetrator Classification`_ correspond to the list in `Unit Identity: Classification`_.
 
 
 first_precise:range
@@ -534,69 +569,5 @@ Full guidance on rationale for and differences between precise and imprecise dat
 
 
 
-
-Incident: Perpetrator Classification
-====================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:perpetrator:classification``
-
-Description
-~~~~~~~~~~~
-
-General branch or tier of the security force alleged to have committed the act(s) described in the incident.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Text and numbers, multiple entry, controlled vocabulary taken from ``Unit: Classification``
-
-Example of use
-~~~~~~~~~~~~~~
-
-``Army``, ``Ejército``, ``Police``, ``Military``, ``Military Police ; Joint Operation``
-
-Guidance for use
-~~~~~~~~~~~~~~~~
-
-Sometimes a source will report general information about the alleged perpetrators of an act. For example, rather than state a unit or a specific person the source might include something generic like “soldiers” or “police". In cases like these where we can't be more specific we use this field to record the branch or general classification of the force implicated in the incident.
-
-.. admonition:: Example
-
-    According to Amnesty International: "On 1 May 2012, around midnight, Nigerian soldiers arrested 37-year-old Dungus Ladan (not his real name), at his home in Maiduguri. Fatima, Dungus’ wife, told Amnesty International that the soldiers promised to just take him for an interrogation that should not last more than a few hours. When her husband did not return, she said, his father went on 3 May to Giwa barracks to check what had happened. Soldiers told him that Dungus had already been released. When he still did not return, the father went back again to the barracks, where soldiers told him that he should come back the next day to bail out his son. The following day, several relatives went together and gave the soldiers “what they could,” and the soldiers again promised to release Dungus that day. His wife said that the soldiers kept asking for money, and the family kept paying, but Dungus was never released. In February 2014, his father saw Dungus in the detention facility; they spoke briefly. Dungus said he had been framed by some people who owed him money and they arranged for him to be arrested and detained. Since then, his family has not seen him again; soldiers at Giwa barracks have told them he is not there."
-
-The only alleged perpetrators described in this alleged incident are "soldiers". The most appropriate term to enter in `Incident: Perpetrator Classification`_ to match this description which would be "military" because "soldiers" could refer to personnel of the Army, Navy or other armed services of a country.
-
-Entries used in in `Incident: Perpetrator Classification`_ correspond to the list in `Unit Identity: Classification`_.
-
-Incident: Research Comments
-=======================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:claim:comment``
-
-Description
-~~~~~~~~~~~
-
-Observations specific to the process of reviewing data in this claim, including fixes, refinements and other suggestions.
-
-Atrribute type
-~~~~~~~~~~~~~
-
-String
-
-Example of use
-~~~~~~~~~~~~~~
-
-``Parent unit missing``, ``Geography needs attention``, ``Possible duplicate - merge?``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to exchange feedback about the data in the claim. This may included changes needed, references to sources that the owner of the claim might look at, and other observations that can improve the quality of the data. Data stored in this attribute are not intended for publication. The comments attribute is common to all claim types in the SFM data model.
 
 
