@@ -249,7 +249,7 @@ The unique 32 character code assigned to the unit about which a relationship is 
 Atrribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format
+String in UUID format, selected from existing unit records
 
 Status
 ~~~~~~
@@ -267,10 +267,109 @@ Guidance on use
 The UUID inputted into ``::positioning:unit:id`` must match the ``about_entity:ref:claim`` of a ``unit`` that already exists within the dataset.
 
 
+positioning:unit:names:qa
+=========================
+
+Description
+~~~~~~~~~~~
+
+Name of the unit with the positioning.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional
+
+Example of use
+~~~~~~~~~~~~~~
+
+``148 Infantry Battalion``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This is human readible name for the ``unit`` with the ``positioning``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``unit``.
 
 
-Unit Positioning: Location Identifier
-=====================================
+positioning:types:assertion
+===========================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``::positioning:type``
+
+Description
+~~~~~~~~~~~
+
+The type of location of a unit.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String selected from controlled list
+
+Status
+~~~~~~
+
+This attribute is optional
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field defines the relationship between a unit and a location. The Staff Researcher must choose one of the two options below:
+
+ - ``site``: the Locationdescribes a "site", such as a settlement or specific point, at which the unit has physical infrastructure like a station, camp, base, office or other facility.
+ - ``aoo``: the Location in describes an area, such as an administrative area, where the unit is known to have conducted operations or has terratorial jurisdiction.
+
+The type of Location may be different from the way that the Location is described. For example, a small geographic area like a suburb is a *geometric area* but it could be used to describe a "site" for a unit. Locations themselves are a mix of geographical primatives - points, lines and polygons. This is why :ref:`Locations` are defined independently of their relationship to Units and Incidents.
+
+
+positioning:base_names:assertion
+================================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``::positioning:base_name``
+
+Description
+~~~~~~~~~~~
+
+A base is a distinctively named building or complex - like a barracks or camp - where the unit is located.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Leopard Base``,  ``Bonny Camp``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+The `Unit Positioning: Base Name`_ attribute adds unit-specific context about a Location. This field is used to record data about units that are located in a distinctively-named building or complex which is not found in the fazeteer, or otherwise cannot be represented as a geographic datapoint.
+
+    For example, ``3 Battalion`` in Nigeria is cited as being based in the ``Lubanga Barracks`` in ``Enugu, Enugu State, Nigeria``.
+
+This field should not be used for anything that matches the name or alias of a unit. For example, ``North Sector Police Station`` should not be put in this field if the name of the unit is ``North Sector Police Station``.
+
+
+positioning:location:refs:assertion
+===================================
 
 Attribute name
 ~~~~~~~~~~~~~~
@@ -303,56 +402,18 @@ Guidance on use
 This attribute is used to store a reference to a location at which the unit has infrastructure, or has operated. The value included in this attributemust be selected from ``::location:id``. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
 
 
-Unit Positioning: Type of Positioning
-=====================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::positioning:type``
+positioning:location:names:qa
+=============================
 
 Description
 ~~~~~~~~~~~
 
-The type of Location of a unit.
+Name of the location.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String selected from controlled list
-
-Status
-~~~~~~
-
-This attribute is optional
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This field defines the relationship between a unit and a Location. The Staff Researcher must choose one of the two options below:
-
- - ``site``: the Locationdescribes a "site", such as a settlement or specific point, at which the unit has physical infrastructure like a station, camp, base, office or other facility.
- - ``aoo``: the Location in describes an area, such as an administrative area, where the unit is known to have conducted operations or has terratorial jurisdiction.
-
-The type of Location may be different from the way that the Location is described. For example, a small geographic area like a suburb is a *geometric area* but it could be used to describe a "site" for a unit. Locations themselves are a mix of geographical primatives - points, lines and polygons. This is why :ref:`Locations` are defined independently of their relationship to Units and Incidents.
-
-Unit Positioning: Base Name
-===========================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::positioning:base_name``
-
-Description
-~~~~~~~~~~~
-
-A base is a distinctively named building or complex - like a barracks or camp - where the unit is located.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String
+Text string
 
 Status
 ~~~~~~
@@ -362,16 +423,13 @@ This attribute is optional
 Example of use
 ~~~~~~~~~~~~~~
 
-``Leopard Base``, ``Giwa Barracks``, ``Bonny Camp``
+``Hpruso Township (osm, poly) fd51e411-0a21-439c-ba3b-b6aa787541d1``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The `Unit Positioning: Base Name`_ attribute adds unit-specific context about a Location. This field is used to record data about units that are located in a distinctively-named building or complex.
+This is human readible name for the ``unit`` with the ``positioning``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``unit``.
 
-    For example, ``3 Battalion`` in Nigeria is cited as being based in the ``Lubanga Barracks`` in ``Enugu, Enugu State, Nigeria``.
-
-This field should not be used for anything that matches the name or alias of a unit. For example, ``North Sector Police Station`` should not be put in this field if the name of the unit is ``North Sector Police Station``.
 
 
 Unit Positioning: Earliest Precise Date
@@ -404,104 +462,4 @@ Unit Positioning: Date Range is an End Date
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Unit Positioning: Research Comments
-===================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::positioning:claim:comment``
-
-Description
-~~~~~~~~~~~
-
-Observations specific to the process of reviewing data in this claim, including fixes, refinements and other suggestions.
-
-Atrribute type
-~~~~~~~~~~~~~~
-
-String
-
-Example of use
-~~~~~~~~~~~~~~
-
-``Parent unit missing``, ``Geography needs attention``, ``Possible duplicate - merge?``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to exchange feedback about the data in the claim. This may included changes needed, references to sources that the owner of the claim might look at, and other observations that can improve the quality of the data. Data stored in this attribute are not intended for publication. The comments attribute is common to all claim types in the SFM data model.
-
-Unit Positioning: Research Owner
-================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::positioning:claim:researcher``
-
-Description
-~~~~~~~~~~~
-
-Initials of Staff Reseacher who created this claim about positioning.
-
-Atrribute type
-~~~~~~~~~~~~~~
-
-String
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``TL``, ``TW``, ``MM``, ``NP``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute allows researchers keep track of claims they have created. It  may be used for arbitrary grouping and tagging of specific sets of claims if needed. This type of attribute is common to all types of claim in the SFM data model.
-
-Unit Positioning: Research Status
-=================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::positioning:claim:status``
-
-Description
-~~~~~~~~~~~
-
-The place of the claim in the research workflow.
-
-Atrribute type
-~~~~~~~~~~~~~~
-
-String from controlled vocabulary.
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``1``, ``X``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to indicate where a claim stands in the research workflow between the first cut of a claim, review by other researchers, and final readiness for use in analysis or for publication. The values to be used in this attribute are taken from the below list:
-
-- ``X``: Claim should be deleted.
-- ``0``: First commit. This claim has just been added and needs review.
-- ``1``: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the `Unit Positioning: Research Comments`_ attribute.
-- ``2``: Fixes made. The owner of this data has addressed the reviewer's comments.
-- ``3``: Clean. A final check has been made by a reviewer, and this claim can be used in analysis and can be published.
-
-This type of attribute is common to all claims in the SFM data model.
