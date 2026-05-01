@@ -375,22 +375,17 @@ Units may have more than one classification. Usually this will be when a unit ca
 
 
 country:annotation
-=============
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:country``
+========================
 
 Description
 ~~~~~~~~~~~
 
-ISO 3166 two letter code for the country from  which a unit originates.
+Associated country of the unit used for grouping claims.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
-String from controlled vocabulary.
+Text, controlled vocabulary
 
 Status
 ~~~~~~
@@ -400,14 +395,12 @@ This attribute is optional.
 Example of use
 ~~~~~~~~~~~~~~
 
-``mx``, ``ug``, ``ng``
+``mx``, ``ph``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The `Unit Identity: Country` attribute identifies the country fromt which this unit originates. All entries in this attribute will be two-letter country codes taken from `ISO 3166 <https://www.iso.org/obp/ui/#search>`__. For example, a unit from Nigeria would have the code ``ng`` and a unit from Brazil would have the code ``br``
-
-A unit may only contain a single value in the `Unit Identity: Country`_ attribute. A unit's operations in another country are described using the `Unit Identity: Positioning`_ claim type.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). This field is used to aid grouping units into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be choosen based on any related ``positioning`` the ``unit`` holds, or any other contextual information from citations about the ``unit``.
 
 
 Unit Identity: Date Range is a Start Date
@@ -616,104 +609,4 @@ Guidance on use
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
-Unit Identity: Research Comments
-=======================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:claim:comment``
-
-Description
-~~~~~~~~~~~
-
-Observations specific to the process of reviewing data in this claim, including fixes, refinements and other suggestions.
-
-Atrribute type
-~~~~~~~~~~~~~~
-
-String
-
-Example of use
-~~~~~~~~~~~~~~
-
-``Parent unit missing``, ``Geography needs attention``, ``Possible duplicate - merge?``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to exchange feedback about the data in the claim. This may included changes needed, references to sources that the owner of the claim might look at, and other observations that can improve the quality of the data. Data stored in this attribute are not intended for publication. The comments attribute is common to all claim types in the SFM data model.
-
-Unit Identity: Research Owner
-====================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:claim:researcher``
-
-Description
-~~~~~~~~~~~
-
-Initials of Staff Reseacher who first created the unit.
-
-Atrribute type
-~~~~~~~~~~~~~~
-
-String
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``TL``, ``TW``, ``MM``, ``NP``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute allows researchers keep track of claims they have created. It  may be used for arbitrary grouping and tagging of specific sets of claims if needed. This type of attribute is common to all types of claim in the SFM data model.
-
-Unit Identity: Research Status
-=====================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:claim:status``
-
-Description
-~~~~~~~~~~~
-
-The place of the claim in the research workflow.
-
-Atrribute type
-~~~~~~~~~~~~~~
-
-String from controlled vocabulary.
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``1``, ``X``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to indicate where a claim stands in the research workflow between the first cut of a claim, review by other researchers, and final readiness for use in analysis or for publication. The values to be used in this attribute are taken from the below list:
-
-- ``X``: Claim should be deleted.
-- ``0``: First commit. This claim has just been added and needs review.
-- ``1``: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the `Unit Identity: Research Comments`_ attribute.
-- ``2``: Fixes made. The owner of this data has addressed the reviewer's comments.
-- ``3``: Clean. A final check has been made by a reviewer, and this claim can be used in analysis and can be published.
-
-This type of attribute is common to all claims in the SFM data model.
