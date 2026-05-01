@@ -235,8 +235,110 @@ Guidance on use
 This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
 
 
+country:annotation
+========================
+
+Description
+~~~~~~~~~~~
+
+Country person is associated with for grouping claims.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text, controlled vocabulary
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``mx``, ``ph``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). The specific country code should be choosen based on the ``incident:location:refs:assertion``.
 
 
+incident:location:descriptions:assertion
+==============================
+
+Attribute name
+~~~~~~~~~~~~~~
+``::incident:location_description``
+
+Description
+~~~~~~~~~~~~~~
+
+A textual descrition of a location which cannot be represented in data, copied directly from the citation.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Rikkos neighborhood``, ``Campo Militar Número 6-B``
+
+Guidance for use
+~~~~~~~~~~~~~~~~
+
+We use this attribute to record the location of an incident exactly as described in the source. Here is an example:
+
+.. admonition:: Example
+
+    "Stanley Adiele Uwakwe and Faka Tamunotonye Kalio were arrested on 10 May and brought to Old GRA detention centre in Port Harcourt. After several days, they were transferred to another police station, but officers there told relatives that the men were not in detention. Unofficially, relatives were informed that the men had been killed by the police."
+
+While they were detained at "Old GRA detention centre" the location of their killing is unclear. It is also not clear where they were located before they were disappeared - was it at the Old GRA or at the unnamed police station? Since we don’t know we’d leave the `Incident: Location Description`_ attribute blank.
+
+Here's another example of how to use this attribute.
+
+.. admonition:: Example
+
+    "And in yet a third case, Human Rights Watch interviewed three witnesses who saw soldiers shoot five men on the Customs Bridge in Maiduguri. One of the victims survived. He told Human Rights Watch that on the afternoon of July 28 soldiers entered a mosque where he was praying with four other men. The soldiers removed their robes, beat them, and marched them to their commander at the bridge. He described what happened next: The soldiers told us to lie down. Four of the soldiers opened fire on us. The commander was watching. I was lying on my side. They saw that some of us were moving and shot us again. I then lost consciousness. I regained consciousness in the night and dragged myself to an area in the dirt near Dandal Community Bank. I spent the night under a bus. In the morning an achaba [commercial motorcycle taxi] man who knew me took me to my house. My family called a doctor…. They removed four bullets from my body. A former Boko Haram member who witnessed the shootings at the Customs Bridge insisted to Human Rights Watch that the five men were not Boko Haram members. According to him, “The old man was holding prayer beads, and Boko Haram members don’t do that. The two youth wore T-shirts and the [other] two men wore long pants, not the short pants of Boko Haram.” The soldiers left the corpses on the bridge for three days."
+
+The location we would capture here would be  "the Customs Bridge",  while we would find the correct entry from the Locations dataset for``Maiduguri`` to capture in the `Incident: Location`_ attribute.
+
+A common issue is the separation of specific incidents contained within a single account of violations based on geography.
+
+Often a person is arrested and, for example, beaten at a specific site (and the account might include information about other victims being killed at the site of arrest). They are then transported to another site where they are detained and tortured. Moreover, the conditions during the transportation of detainees/prisoners may amount to violations of fundamental rights and often the narrator describes people dying while being transported.
+
+In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one ``incident`` and abuses committed or otherwise tied to site of detention a separate ``incident``.
+
+
+incident:location:refs:assertion
+==================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``::incident:location``
+
+Description
+~~~~~~~~~~~~~~
+
+The unique identifier of a location, drawn from the data on existing locations
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String, or string in UUID format
+
+Example of use
+~~~~~~~~~~~~~~
+
+``4d7d97a6-d85e-436b-9511-81e8d55ceff3``(the identifier for the location``Baga (osm, point) 4d7d97a6-d85e-436b-9511-81e8d55ceff3``)
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field is used to store information about the Location where an incident happened. The value included in this field must be taken from :ref:`Location: Location Identifier` attribute from the Location dataset. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
 
 
 first_precise:range
@@ -269,80 +371,9 @@ ending:range
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Incident: Location
-==================
 
-Attribute name
-~~~~~~~~~~~~~~
 
-``::incident:location``
 
-Description
-~~~~~~~~~~~~~~
-
-The unique identifier of a location, drawn from the data on existing locations
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String, or string in UUID format
-
-Example of use
-~~~~~~~~~~~~~~
-
-``4d7d97a6-d85e-436b-9511-81e8d55ceff3``(the identifier for the location``Baga (osm, point) 4d7d97a6-d85e-436b-9511-81e8d55ceff3``)
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This field is used to store information about the Location where an incident happened. The value included in this field must be taken from :ref:`Location: Location Identifier` attribute from the Location dataset. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
-
-Incident: Location Description
-==============================
-
-Attribute name
-~~~~~~~~~~~~~~
-``::incident:location_description``
-
-Description
-~~~~~~~~~~~~~~
-
-A description of the location where the source says the incident occurred.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String
-
-Example of use
-~~~~~~~~~~~~~~
-
-``Giwa Barracks``, ``Rikkos neighborhood``, ``Campo Militar Número 6-B``
-
-Guidance for use
-~~~~~~~~~~~~~~~~
-
-We use this attribute to record the location of an incident exactly as described in the source. Here is an example:
-
-.. admonition:: Example
-
-    "Stanley Adiele Uwakwe and Faka Tamunotonye Kalio were arrested on 10 May and brought to Old GRA detention centre in Port Harcourt. After several days, they were transferred to another police station, but officers there told relatives that the men were not in detention. Unofficially, relatives were informed that the men had been killed by the police."
-
-While they were detained at "Old GRA detention centre" the location of their killing is unclear. It is also not clear where they were located before they were disappeared - was it at the Old GRA or at the unnamed police station? Since we don’t know we’d leave the `Incident: Location Description`_ attribute blank.
-
-Here's another example of how to use this attribute.
-
-.. admonition:: Example
-
-    "And in yet a third case, Human Rights Watch interviewed three witnesses who saw soldiers shoot five men on the Customs Bridge in Maiduguri. One of the victims survived. He told Human Rights Watch that on the afternoon of July 28 soldiers entered a mosque where he was praying with four other men. The soldiers removed their robes, beat them, and marched them to their commander at the bridge. He described what happened next: The soldiers told us to lie down. Four of the soldiers opened fire on us. The commander was watching. I was lying on my side. They saw that some of us were moving and shot us again. I then lost consciousness. I regained consciousness in the night and dragged myself to an area in the dirt near Dandal Community Bank. I spent the night under a bus. In the morning an achaba [commercial motorcycle taxi] man who knew me took me to my house. My family called a doctor…. They removed four bullets from my body. A former Boko Haram member who witnessed the shootings at the Customs Bridge insisted to Human Rights Watch that the five men were not Boko Haram members. According to him, “The old man was holding prayer beads, and Boko Haram members don’t do that. The two youth wore T-shirts and the [other] two men wore long pants, not the short pants of Boko Haram.” The soldiers left the corpses on the bridge for three days."
-
-The location we would capture here would be  "the Customs Bridge",  while we would find the correct entry from the Locations dataset for``Maiduguri`` to capture in the `Incident: Location`_ attribute.
-
-A common issue is the separation of specific incidents contained within a single account of violations based on geography.
-
-Often a person is arrested and, for example, beaten at a specific site (and the account might include information about other victims being killed at the site of arrest). They are then transported to another site where they are detained and tortured. Moreover, the conditions during the transportation of detainees/prisoners may amount to violations of fundamental rights and often the narrator describes people dying while being transported.
-
-In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one ``incident`` and abuses committed or otherwise tied to site of detention a separate ``incident``.
 
 Incident: Violation Type
 ========================
