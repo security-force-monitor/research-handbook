@@ -24,20 +24,133 @@ Unit Identity: details of claim attributes
 
 This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.
 
-Unit Identity: Unique Identifier
-=======================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:id``
+type:claim
+==================================
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code assigned to each unit in the dataset. 
+A field that defines what type of claim is being made.
 
-Atrribute type
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``unit``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Entering ``unit`` defines the claim and establishes the fields to be used in further data entry about a unit
+.
+
+
+status:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+A field that classifies the data in the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``accepted``, ``conflict``, ``work_needed``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. Finally, if the data cannot be correctly entered or no citations can establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used. This allows the researcher to either fix the issue or conduct additional research.
+
+
+researcher:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field for initials or other identifer of researcher who last entered data for the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``TW``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked. 
+
+
+internal_comments:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+A field for temporary comments or notes for the researcher or research team working on the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Come back to this to determine date for claim``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood then that should be entered in the ``public_notes:meta`` field.
+
+
+citation:refs:claim
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field unique 32 character code assigned to citation(s) evidencing the claim.
+
+Attribute type
 ~~~~~~~~~~~~~~
 
 String in UUID format
@@ -50,27 +163,23 @@ This attribute is required.
 Example of use
 ~~~~~~~~~~~~~~
 
-``a407be6a-28e6-4237-b4e9-307f27b1202e``
+``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Indentifier (UUID) generated using a computer program.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Indentifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
 
-Unit Identity: Claim Citation Identifier
-========================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:claim:citation:id``
+about_entity:ref:claim
+==================================
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code of a citation from a source that evidences the other attribute(s) in this claim.
+A unique 32 character code assigned to each entity in the dataset.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
 String in UUID format
@@ -83,27 +192,54 @@ This attribute is required.
 Example of use
 ~~~~~~~~~~~~~~
 
-``16d013b5-7073-4446-b22b-46b0edb25632``
+``521ebf18-f161-4ac9-8c72-5a246efa0458``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-All claims require a citation, which is a reference to a specific part of a source (for example a page or paragraph reference). The page on citations provides more information about this evidentiary mechanism.
+Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``unit`` this UUID distinguishes them from any other ``unit`` in the dataset. This UUID is used in other fields to tie a ``unit`` to a ``positioning``, ``relation``, ``posting``, or ``incident``.
 
-Unit Identity: Name
-===================
+If a unit undergoes a change in name, that unit should be treated as a seperate, distinct unit and given its own UUID. For example, 25 Division of Syria.
 
-Attribute name
-~~~~~~~~~~~~~~
 
-``::unit:name``
+about_entity:name:qa
+==================================
 
 Description
 ~~~~~~~~~~~
 
-Canonical name of the unit.
+Field that provides human readible name for the claim.
 
-Atrribute type
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``510 Light Infantry Battalion``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field provides a human readable counterpart to the ``about_entity:ref:claim`` This field can be manually added by a researcher or automatically populated by the system after import. For a ``unit`` best practice is to use the ``name:annotation`` in this field.
+
+
+name:annotation
+=====================
+
+Description
+~~~~~~~~~~~
+
+Fullest name of the unit as evidenced by citations.
+
+Attribute type
 ~~~~~~~~~~~~~~
 
 String
@@ -159,20 +295,16 @@ In cases where multiple units have the same name the Monitor will distinguish th
 
 In some cases, we are aware that a unit exist because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of "Unnamed" and "Unknown" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`.
 
-Unit Identity: Other Names
-=================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:other_names``
+unit:names:assertion
+============================
 
 Description
 ~~~~~~~~~~~
 
-Other names for a unit, including aliases, alternative spellings and abbreviations.
+Any name given for a unit from citation.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
 String
@@ -180,26 +312,22 @@ String
 Status
 ~~~~~~
 
-This attribute is optional.
+This attribute is required.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-If ``3 Armoured Division`` is used as the canonical `Unit Identity: Name`_ of a unit, entries in the `Unit Identity: Other Names`_ field may include ``3 Div`` and ``Three Division``.
-
+``Deuxième RM``, ``GFSN``, ``IB-148``, ``IB (148)``, ``Infantry Battalion 148``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Different sources will spell a unit's name in different ways. We choose and record a canonical version of a unit's name in the `Unit Identity: Name`_ field. All other spellings that we have found are treated as aliases and stored in this field.
+Any name for a unit used in the citation should be entered in this field. While the ``name:annotation`` field is only used for a single, most complex value, this field is used for any name a citation uses for a unit. Thus this field serves to capture "aliases" of a unit, which also includes any typos or mispellings that may exist in the citation.
 
-Although we do not use ordinal indicators like ``2nd`` or ``10/o`` in the canonical name we choose for a unit, where a source uses an ordinal we record it as an alias.
+Ordinal indicators like "2nd" or "10/o" should be entered in this field.
 
-.. admonition:: Example
 
-    We find a version of the unit name ``3 Armoured Division`` that has an Ordinal indicator: ``10/o. Regimiento de Caballería Motorizado.`` We would record this in the `Unit Identity: Other Names`_ field.
-
-Unit Identity: Classification
+unit:classifications:assertion
 ====================
 
 Attribute name
@@ -210,7 +338,7 @@ Attribute name
 Description
 ~~~~~~~~~~~
 
-The branch or branches of the security services that the unit a part of or a general descriptor for the unit.
+A general descriptor for the unit, often matches a branch or branches of the unit.
 
 Atrribute type
 ~~~~~~~~~~~~~~
@@ -245,7 +373,8 @@ Units may have more than one classification. Usually this will be when a unit ca
 
     Units which are part of the army of a country may be coded as having a classification of ``Army`` as well as a classification of ``Military``, whereas units which are part of the navy of a country would have classifications of of ``Navy`` and ``Military``. For both the army and navy unit their respective classifications are correct, the army and the navy are part of the military. Critically, this enables the Monitor or users of the Monitor's data to properly analyze allegations against "soldiers" and "members of the army" in the country. In the case of "soldiers" this analysis should include every unit with the classification of ``Military`` while if there is greater specificity of "members of the army" would mean excluding any unit with the classification of ``Navy`` and focusing only on those units with a classification of ``Army.``
 
-Unit Identity: Country
+
+country:annotation
 =============
 
 Attribute name
