@@ -446,6 +446,7 @@ In most cases, the value placed in this attribute is taken verbatim from the sou
 
     For example, we would enter ``Brigadier General`` rather than ``Brigadier-General``.
 
+
 first_precise:range
 ======================================
 
