@@ -403,210 +403,82 @@ Guidance on use
 Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). This field is used to aid grouping units into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be choosen based on any related ``positioning`` the ``unit`` holds, or any other contextual information from citations about the ``unit``.
 
 
-Unit Identity: Date Range is a Start Date
-=========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:date-range:starting?``
-
-Description
-~~~~~~~~~~
-
-Indicates whether date range, whether precise or imprecise, is the date that a unit was established or founded.
-
-Attribute Type
-~~~~~~~~~~~~~~
-
-Boolean
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-
-Example of use
-~~~~~~~~~~~~~~
-
-`N`
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Full guidance on the use of this field can be found in the Handbook page :ref:`Claims with dates`.
-
-
-Unit Identity: Date Range is an Ending Date
-===========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:date-range:ending?``
-
-Description
-~~~~~~~~~~
-
-Indicates whether date range, whether precise or imprecise, is the date that a unit was disbanded, dissolved, merged or replaced.
-
-Attribute Type
-~~~~~~~~~~~~~~
-
-Boolean
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-`Y`
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
-
-Unit Identity: Earliest Precise Date
-====================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:date-range-precise:first``
-
-Description
-~~~~~~~~~~
-
-The earliest date in a precise date range for which the claim is valid
-
-Attribute Type
-~~~~~~~~~~~~~~
-
-Timestamp
-
-Status
-~~~~~~
-
-This attribute is optional
-
-Example of use
-~~~~~~~~~~~~~~
-
-``2022-01-22``
-
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
-
-
-Unit Identity: Latest Precise Date
-==================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:date-range-precise:last``
-
-Description
-~~~~~~~~~~
-
-The latest date in a precise date range for which the claim is valid
-
-Attribute Type
-~~~~~~~~~~~~~~
-
-Timestamp
-
-Status
-~~~~~~
-
-This attribute is optional
-
-Example of use
-~~~~~~~~~~~~~~
-
-``2022-01-22``
-
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
-
-
-Unit Identity: Earliest Imprecise Date
+first_precise:range
 ======================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:date-range-imprecise:first`
-
-Description
-~~~~~~~~~~
-
-The earliest date in an imprecise date range for which the claim is valid
-
-Attribute Type
-~~~~~~~~~~~~~~
-
-Timestamp
-
-Status
-~~~~~~
-
-This attribute is optional
-
-Example of use
-~~~~~~~~~~~~~~
-
-``2022-01-22``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
-Unit Identity: Latest Imprecise Date
+last_precise:range
 ====================================
 
-Attribute name
-~~~~~~~~~~~~~~
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-``::unit:date-range-imprecise:last``
+
+first_imprecise:range
+========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+last_imprecise:range
+======================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+starting:range
+===========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+ending:range
+==========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+starting_context:range
+==========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+ending_context:range
+==========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+public_notes:meta
+============================
 
 Description
-~~~~~~~~~~
+~~~~~~~~~~~
 
-The latest date in an imprecise date range for which the claim is valid
+Additional context or details about the claim for a public audience.
 
-Attribute Type
+Attribute type
 ~~~~~~~~~~~~~~
 
-Timestamp
+String
 
 Status
 ~~~~~~
 
-This attribute is optional
+This attribute is optional.
+
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``2022-01-22``
+``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred "last week". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
 
 
 
