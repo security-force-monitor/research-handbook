@@ -202,7 +202,7 @@ Determining whether one person held multiple postings is based on some match of 
 
 
 about_entity:name:qa
-==================================
+====================
 
 Description
 ~~~~~~~~~~~
@@ -231,7 +231,7 @@ This field provides a human readable counterpart to the ``about_entity:ref:claim
 
 
 posting:person:refs:assertion
-========================================
+=============================
 
 Description
 ~~~~~~~~~~~
