@@ -522,3 +522,32 @@ Guidance on use
 ~~~~~~~~~~~~~~~
 
 This attribute is used to store a brief description of the content of external. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the person.
+
+
+type:entity
+====================================
+
+Description
+~~~~~~~~~~~
+
+Specifies the type of entity.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This field is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``claim``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+For a ``person`` the only allowed entry for this field is ``claim``.
