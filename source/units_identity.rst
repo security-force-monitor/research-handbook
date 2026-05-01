@@ -1,7 +1,7 @@
-Unit Identity
-#############
+Unit
+####
 
-"Unit Identity" is a claim type that contains information about the existence and identity of the unit, such as its name, aliases, branch (or classification), the country in which is operates, and the duration of its existence. "Unit Identity" claims are grouped (or aggregated) together to create building blocks of the command chain of a branch of the security or defense forces. They are connected together with "Unit Relation" claims, resulting in a hierarchy of units.
+"Unit" is a claim type that contains information about the identity of the unit, such as its name, aliases, classification (or branch), the country in which is operates, and the duration of its existence. They are connected together with ``Relation`` claims, resulting in a hierarchy of units.
 
 Unit Identity: Summary of claim attributes 
 ******************************************
