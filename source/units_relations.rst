@@ -1,7 +1,7 @@
-Unit Relation
-#############
+Relation
+########
 
-The "Unit Relation" (or just "Relation") claim type describes the relationships between units and the position of a unit in a hierarchical structure of a branch of the security and defence forces of a specific country. "Unit Relation" claims also describe clusters of units, such as those found in joint operations or international peacekeeping missions.
+The ``Relation`` claim type describes the relationships between units and the position of a unit in a hierarchical structure of a branch of the security and defence forces of a specific country. "Unit Relation" claims also describe clusters of units, such as those found in joint operations or international peacekeeping missions.
 
 Unit Relation: Summary of claim attributes
 ******************************************
@@ -475,78 +475,63 @@ Units have a ``Command`` relationship when the related parent unit can order the
     Example: By law the Ministry of Defence in Nigeria provides administrative support to the Nigerian Army, establishing a relationship we could classify as ``Administrative``. The Standards Department of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could order the Department to take some sort of action. This technically means the Department is under the “command” of the Headquarters, but the Monitor would describe this relationship as ``Administrative`` because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
 
 
-Unit Relation: Earliest Precise Date
-====================================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
-
-Unit Relation: Latest Precise Date
-==================================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
-
-Unit Relation: Earliest Imprecise Date
+first_precise:range
 ======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Unit Relation: Latest Imprecise Date
+
+last_precise:range
 ====================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Unit Relation: Date Range is a Start Date
-=========================================
+
+first_imprecise:range
+========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Unit Relation: Date Range is an End Date
-=======================================
+
+last_imprecise:range
+======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Unit Relation: Research Comments
-================================
 
-Attribute name
-~~~~~~~~~~~~~~
+starting:range
+===========================================
 
-``::unit:claim:comment``
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+ending:range
+==========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+starting_context:range
+==========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+ending_context:range
+==========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+public_notes:meta
+============================
 
 Description
 ~~~~~~~~~~~
 
-Observations specific to the process of reviewing data in this claim, including fixes, refinements and other suggestions.
+Additional context or details about the claim for a public audience.
 
-Atrribute type
-~~~~~~~~~~~~~
-
-String
-
-Example of use
-~~~~~~~~~~~~~~
-
-``Parent unit missing``, ``Geography needs attention``, ``Possible duplicate - merge?``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to exchange feedback about the data in the claim. This may included changes needed, references to sources that the owner of the claim might look at, and other observations that can improve the quality of the data. Data stored in this attribute are not intended for publication. The comments attribute is common to all claim types in the SFM data model.
-
-Unit Relation: Research Owner
-=============================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:claim:researcher``
-
-Description
-~~~~~~~~~~~
-
-Initials of Staff Reseacher who first created the unit.
-
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
 String
@@ -556,53 +541,42 @@ Status
 
 This attribute is optional.
 
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``TL``, ``TW``, ``MM``, ``NP``
+``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred "last week". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute allows researchers keep track of claims they have created. It  may be used for arbitrary grouping and tagging of specific sets of claims if needed. This type of attribute is common to all types of claim in the SFM data model.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
 
-Unit Relation: Research Status
-==============================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:claim:status``
+type:entity
+====================================
 
 Description
 ~~~~~~~~~~~
 
-The place of the claim in the research workflow.
+Specifies the type of entity.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
-String from controlled vocabulary.
+Text, controlled vocabulary
 
 Status
 ~~~~~~
 
-This attribute is optional.
+This field is required.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``1``, ``X``
+``claim``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Staff Researchers use this attribute to indicate where a claim stands in the research workflow between the first cut of a claim, review by other researchers, and final readiness for use in analysis or for publication. The values to be used in this attribute are taken from the below list:
-
-- ``X``: Row should be deleted.
-- ``0``: First commit. This row of data has just been added and needs review.
-- ``1``: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the `Unit Relation: Research Comments`_ attribute.
-- ``2``: Fixes made. The owner of this data has addressed the reviewer's comments.
-- ``3``: Clean. A final check has been made by a reviewer, and this claim can be used in analysis and published.
-
-This type of attribute is common to all claims in the SFM data model.
+For a ``relation`` the only allowed entry for this field is ``claim``.
