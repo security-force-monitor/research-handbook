@@ -525,6 +525,64 @@ The only alleged perpetrators described in this alleged incident are "soldiers".
 Entries used in in `Incident: Perpetrator Classification`_ correspond to the list in `Unit Identity: Classification`_.
 
 
+incident:victim:refs:assertion
+==================================
+
+Description
+~~~~~~~~~~~
+
+A unique 32 character code assigned to each entity in the dataset.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String in UUID format
+
+Status
+~~~~~~
+
+This is a draft field.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``521ebf18-f161-4ac9-8c72-5a246efa0458``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
+
+
+incident:victim:names:qa
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field that provides human readible name for entity.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This is a draft field.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``John Smith``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field provides a human readable counterpart to the ``incident:victim:refs:assertion``. This field can be manually added by a researcher or automatically populated by the system after import. The best practice is to use the ``name:annotation`` in this field.
+
+
 first_precise:range
 ===============================
 
