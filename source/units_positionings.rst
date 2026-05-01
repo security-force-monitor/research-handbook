@@ -428,7 +428,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is human readible name for the ``unit`` with the ``positioning``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``unit``.
+The best practice for this field is to use the ``location:humane_id:qa`` of the ``incident:location:refs:assertion``.
 
 
 
