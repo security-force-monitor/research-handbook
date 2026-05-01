@@ -6,7 +6,7 @@ The ``positioning`` claim describes the geographic footprint of a specific unit.
 Unit Positioning: Summary of claim attributes
 *********************************************
 
-The table below summarises the following dimensions of Unit Positioning claims:
+The table below summarises the following dimensions of ``positioning`` claims:
 
  - Attribute label: a human readable label for the attribute
  - Attribute name: a unique machine-readable name for the attribute, used during data capture
@@ -20,7 +20,7 @@ The table below summarises the following dimensions of Unit Positioning claims:
    :delim: tab
 
 
-Unit Positioning: Details of claim attributes
+Positioning: Details of claim attributes
 *********************************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.
@@ -199,9 +199,9 @@ Guidance on use
 
 Every claim has an Universally Unique Indentifier (UUID) to distinguish it from any other claim. For a ``positioning`` this UUID distinguishes it from any other ``positioning`` in the dataset.
 
-A ``person`` from one citation is never assumed to be the same ``person`` from another citation based on an exact or near match of their name. Instead the ``posting`` is used to determine whether two people with the same or similar names are the the same ``person``. For example, if a citation states "John Alfred Smith" was commander of "Police Station 1" and another states "John Smith" was the commander of "Police Station 1" they would be treated as the same person given the match of ``posting`` as well as their similar name. However, if one citation stated "John Alfred Smith" was the commander of "Police Station 2" they would not be treated as the same person as the "John Alfred Smith" who was commander of "Police Station 1" since there is no match of a ``posting``.
+For each ``person`` their ``posting`` is always treated as a contingious, meaning it has the same UUID, unless citations establish it is non-contigious. For example, citations establish that on 2010-08-27 Hla Min stopped being commander of the Southern Regional Military Command and became commander of the 3 Bureau of Special Operations. One citation also evidences his being commander of the 3 Bureau of Special Operations on 2011-07-05 and another citation states he retired as commander of the 3 Bureau of Special Operations on 2015-08-10. All three of these claims are treated as evidencing the same ``posting``. In contrast, the 2011-07-05 citation also establishes that Hla Min once again became commander of the Southern Regional Military Command on a temporary basis as its commander was removed from the ``posting``. This ``posting`` as commander of the Southern Regional Military Command is treated as a seperate ``posting`` with a different UUID as the previous ``posting`` held on 2010-08-27.
 
-Determining whether one person held multiple postings is based on some match of postings among different citations. For example, if one citation stated "John Alfred Smith" was commander of "Police Station 1" and another citation stated "J. Smith" was commander of "Police Station 3" there would be no match and these should be coded as two seperate people each with their own `about_entity:ref:claim`. If then a third citation stated that during the career of "John Smith" he was commander of "Police Station 1", "Police station 15" and "Police Station 3" then all of these would be treated as the same person given the match of at least one ``posting`` across all citations and the similar names of the person in each citation.
+A ``positioning`` should always be given the same UUID if there is an overlap or if the time-ranges of two or more citations fall within 1 day of each other. For example, XYZ.
 
 
 about_entity:name:qa
