@@ -225,90 +225,15 @@ This attribute is optional.
 Example of use
 ~~~~~~~~~~~~~~
 
-``Ye Win Oo``, ``510 Light Infantry Battalion in Nansang Township``
+``510 Light Infantry Battalion in Nansang Township``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import. For a ``person`` best practice is to use the ``name:annotation`` in this field.
+This field provides a human readable counterpart to the ``about_entity:ref:claim``, and combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
 
 
-Unit Positioning: Positioning Identifier
-========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::positioning:id``
-
-Description
-~~~~~~~~~~~
-
-A unique 32 character code assigned to each Unit Positioning in the dataset. 
-
-Atrribute type
-~~~~~~~~~~~~~~
-
-String in UUID format
-
-Status
-~~~~~~
-
-This attribute is required.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``a407be6a-28e6-4237-b4e9-307f27b1202e``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs must be created easily using either installable or online tools, for example:
-
-- Linux and OSX users: `uuidgen` command line tool.
-- On the web: `UUID Generator <https://www.uuidgenerator.net/version>`_.
-
-The field is administrative, providing a reliable way to differentiate between different entities in the SFM data model, in this case the positioning entity.
-
-The Staff Researcher must generate a unique identifying number for that unit and copy it into the attribute ``::positioning:id`` for every claim associated with that specific unit. As the data are ingested into database systems, claims that share the same UUID in ``::positioning:id`` will be aggregated to create a single record for that unit.
-
-During research, particularly when using a spreadsheet, this is a manual, copy-and-paste step and is a potential source of error. The Staff Researcher must be careful never to re-use a UUID anywhere in this or other parts of the dataset.
-
-Unit Positioning: Claim Citation Identifier
-===========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::positioning:claim:citation:id``
-
-Description
-~~~~~~~~~~~
-
-A unique 32 character code of a citation from a source that evidences the other attribute(s) in this claim.
-
-Atrribute type
-~~~~~~~~~~~~~~
-
-String in UUID format
-
-Status
-~~~~~~
-
-This attribute is required.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``16d013b5-7073-4446-b22b-46b0edb25632``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-All claims require a citation, which is a reference to a specific part of a source (for example a page or paragraph reference). The page on citations provides more information about this evidentiary mechanism.
-
-Unit Positioning: Unit Identifier 
+positioning:unit:refs:assertion
 =================================
 
 Attribute name
@@ -339,7 +264,10 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The UUID inputted into ``::positioning:unit:id`` must correspond to the UUID of a unit that already exists within the dataset.
+The UUID inputted into ``::positioning:unit:id`` must match the ``about_entity:ref:claim`` of a ``unit`` that already exists within the dataset.
+
+
+
 
 Unit Positioning: Location Identifier
 =====================================
