@@ -535,7 +535,7 @@ Specifies the type of entity.
 Attribute type
 ~~~~~~~~~~~~~~
 
-String
+Text, controlled vocabulary
 
 Status
 ~~~~~~
