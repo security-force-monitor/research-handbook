@@ -199,14 +199,17 @@ Guidance on use
 
 Every claim has an Universally Unique Indentifier (UUID) to distinguish it from any other claim. For a ``relation`` this UUID distinguishes them from any other ``relation`` in the dataset.
 
-Every ``relation`` between the same two ``units`` is always treated as a contingious, meaning it has the same UUID, unless citations establish it should be treated as non-contigious. For example, XYZ
+Every ``relation`` between the same two ``units`` is always treated as a contingious, meaning it has the same UUID, unless citations establish it should be treated as non-contigious.
 
-EXAMPLE
+.. admonition:: Example
 
-Two or more ``relation`` claims should always be treated as contigious if there is an overlap in the time range of the two claims, or if the time-ranges of the claims fall within 1 day of each other. For example, XYZ.
+    EXAMPLE
 
-EXAMPLE
+Two or more ``relation`` claims should always be treated as contigious if there is an overlap in the time range of the two claims, or if the time-ranges of the claims fall within 1 day of each other.
 
+.. admonition:: Example
+
+    The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change ``relation`` to whatever regional command controls the area where it is operating. One claim puts in an area under ``Northeastern Regional Military Command`` from at least ``2016-03-10`` to at least ``2016-03-11``, and another citation pleaces in an area under ``Northeastern Regional Military Command`` on ``2016-03-12``. These two claims are coded as the same ``relation`` given that they fall within 1 day of each other.
 
 about_entity:name:qa
 ==================================
