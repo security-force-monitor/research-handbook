@@ -1,7 +1,7 @@
 Relation
 ########
 
-The ``relation`` claim type describes how a ``unit`` relates to another ``unit``. This can be used to model a hierarchical "tree" where one ``unit`` is subordinate to another. A ``relation`` can also be used to model joint-task force or other multi-unit grouping where the grouping is comprised of members from multiple different units.
+The ``relation`` claim type describes how a ``unit`` relates to another ``unit``. This can be used to model a hierarchical "tree" where one ``unit`` is subordinate to another, or it can also be used to model joint-task force or other multi-unit grouping where the grouping is comprised of members from multiple different units.
 
 Unit Relation: Summary of claim attributes
 ******************************************
