@@ -199,9 +199,10 @@ Guidance on use
 
 Every claim has an Universally Unique Indentifier (UUID) to distinguish it from any other claim. For a ``relation`` this UUID distinguishes them from any other ``relation`` in the dataset.
 
-A ``person`` from one citation is never assumed to be the same ``person`` from another citation based on an exact or near match of their name. Instead the ``posting`` is used to determine whether two people with the same or similar names are the the same ``person``. For example, if a citation states "John Alfred Smith" was commander of "Police Station 1" and another states "John Smith" was the commander of "Police Station 1" they would be treated as the same person given the match of ``posting`` as well as their similar name. However, if one citation stated "John Alfred Smith" was the commander of "Police Station 2" they would not be treated as the same person as the "John Alfred Smith" who was commander of "Police Station 1" since there is no match of a ``posting``.
+Every ``relation`` between the same two ``units`` is always treated as a contingious, meaning it has the same UUID, unless citations establish it should be treated as non-contigious. For example, XYZ
 
-A ``relation`` should always be given the same UUID if there is an overlap or if the time-ranges of two or more citations fall within 1 day of each other. For example, XYZ.
+Two or more ``relation`` claims should always be treated as contigious if there is an overlap in the time range of the two claims, or if the time-ranges of the claims fall within 1 day of each other. For example, XYZ.
+
 
 about_entity:name:qa
 ==================================
