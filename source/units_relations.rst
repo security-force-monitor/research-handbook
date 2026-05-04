@@ -201,7 +201,11 @@ Every claim has an Universally Unique Indentifier (UUID) to distinguish it from 
 
 Every ``relation`` between the same two ``units`` is always treated as a contingious, meaning it has the same UUID, unless citations establish it should be treated as non-contigious. For example, XYZ
 
+EXAMPLE
+
 Two or more ``relation`` claims should always be treated as contigious if there is an overlap in the time range of the two claims, or if the time-ranges of the claims fall within 1 day of each other. For example, XYZ.
+
+EXAMPLE
 
 
 about_entity:name:qa
