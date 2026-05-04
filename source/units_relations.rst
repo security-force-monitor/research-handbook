@@ -271,16 +271,89 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The UUID inputted into ``::relation:unit:id`` must correspond to the UUID of a unit that already exists within the Unit Identity attribute `Unit: Name`_. This attribute denotes one side of a relationship between units; the other is denoted in the attribute `Unit Relation: Related Unit Identifier`_. The nature of the relationship is clarified further using the `Unit Relation: Type of Relation`_ and `Unit Relation: Relation Classification`_ attributes.
+The ``about_entity:ref:claim`` UUID must be for a ``unit`` which already exists in the dataset. This attribute denotes one side of a relationship between units; the other is denoted in the attribute `Unit Relation: Related Unit Identifier`_. The nature of the relationship is clarified further using the `Unit Relation: Type of Relation`_ and `Unit Relation: Relation Classification`_ attributes.
 
 
-Unit Relation: Related Unit Identifier
+relation:unit:names:qa
+============================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``::relation:unit:id``
+
+Description
+~~~~~~~~~~~
+
+The unique 32 character code assigned to the unit about which a relationship is described in the claim.
+
+Atrribute type
+~~~~~~~~~~~~~~
+
+String in UUID format
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Groupement de Forces pour la Sécurisation du Nord``, ``Moriones Tondo Police Station 2``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field provides a human readable counterpart to the ``relation:unit:refs:assertion``. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the ``name:annotation`` of the ``unit``.
+
+
+relation:types:assertion
+===============================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``:assertion/relation:types``
+
+Description
+~~~~~~~~~~~
+
+The type of relationship that exists between two units.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String from controlled list
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``child-of``, ``member-of``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+We use this field to define the nature of the relationship between the unit that is the subject of the claim (as described in `Unit Relation: Unit Identifier`_) and the other unit described in `Unit Relation: Related Unit Identifier`_. There are only two values that can be used by the researcher in this attribute:
+
+ - ``child`` to define a hierarchic relationship. The unit specified in `Unit Relation: Related Unit Identifier`_ is the parent of the unit in `Unit Relation: Unit Identifier`_.
+ - ``member`` to define a membership relationship. The unit specified in `Unit Relation: Unit Identifier`_ is a member of the unit noted in `Unit Relation: Related Unit Identifier`_.
+
+The values included in this field are used to build the organizational structure of a branch of the security forces. This is discussed in more detail in the documentation for the attribute `Unit Relation: Related Unit Identifier`_.
+
+
+relation:related_unit:refs:assertion
 ======================================
 
 Attribute name
 ~~~~~~~~~~~~~~
 
-``::relation:related_unit:id``
+``:assertion/relation:related-unit:refs``
 
 Description
 ~~~~~~~~~~~
@@ -327,52 +400,47 @@ The type of relationship between units is determined by setting the value in `Un
 In some cases, we are aware that a unit exist because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of "Unnamed" and "Unknown" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`.
 
 
-Unit Relation: Type of Relation
-===============================
+relation:related_unit:names:qa
+==============================
 
 Attribute name
 ~~~~~~~~~~~~~~
 
-``::relation:type``
+n/a
 
 Description
 ~~~~~~~~~~~
 
-The type of relationship that exists between two units.
+The unique 32 character code assigned to the unit about which a relationship is described in the claim.
 
-Attribute type
+Atrribute type
 ~~~~~~~~~~~~~~
 
-String from controlled list
+String in UUID format
 
 Status
 ~~~~~~
 
-This attribute is optional
+This attribute is optional.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``child``, ``member``
+``Opération Tourbillon Vert 2``, ``99 Light Infantry Division``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-We use this field to define the nature of the relationship between the unit that is the subject of the claim (as described in `Unit Relation: Unit Identifier`_) and the other unit described in `Unit Relation: Related Unit Identifier`_. There are only two values that can be used by the researcher in this attribute:
+This field provides a human readable counterpart to the ``relation:related_unit:refs:assertion`` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the ``name:annotation`` of the ``unit``.
 
 
- - ``child`` to define a hierarchic relationship. The unit specified in `Unit Relation: Related Unit Identifier`_ is the parent of the unit in `Unit Relation: Unit Identifier`_.
- - ``member`` to define a membership relationship. The unit specified in `Unit Relation: Unit Identifier`_ is a member of the unit noted in `Unit Relation: Related Unit Identifier`_.
-
-The values included in this field are used to build the organizational structure of a branch of the security forces. This is discussed in more detail in the documentation for the attribute `Unit Relation: Related Unit Identifier`_.
-
-Unit Relation: Relation Classification
+relation:related_unit_classes:assertion
 ======================================
 
 Attribute name
 ~~~~~~~~~~~~~~
 
-``::relation:related_unit_class``
+``:assertion/relation:related-unit-classes``
 
 Description
 ~~~~~~~~~~~
@@ -382,17 +450,17 @@ Quality or nature of the relationshis that exists between two units.
 Attribute type
 ~~~~~~~~~~~~~~
 
-String, from controlled list
+String, from controlled list.
 
 Status
 ~~~~~~
 
-This attribute is optional
+This attribute is optional.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``Command``, ``Administrative``, ``Informal``
+``command``, ``administrative``, ``class``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
