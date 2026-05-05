@@ -33,7 +33,7 @@ When we have decided on what Location is actually described in the source, we us
 
 For example. if a source describes a place called "Potiskum" in Yobe State, Nigeria we can `look it up on OpenStreetMap <https://www.openstreetmap.org/node/255322295>`_. From this record, we can capture the Location's name, object ID number (``255322295``) and its geometry type ( a "node", which is a "point" for our purposes). We enter this basic data about the Location into the Location fieldset, generate a UUID for it (``41b3aec7-d88e-4ef1-a7d8-1b7fdf81a20c``), and create a "human readable" key that we can then use to reference this specific Location in other parts of the data model (``Potiskum (osm, point) 41b3aec7-d88e-4ef1-a7d8-1b7fdf81a20c``).
 
-We can then use additional tools to get more information directly from OpenStreetMap about this Location, including its geometry (in this case, a coordinate pair), additional metadata (such as a name in Arabic or other local languages), and the various adminstrative areas (like states, local government areas, wards) in which it is sited. This additional information enables us to plot the Location on a map, such as in the image below snapped from our our WhoWasInCommand platform.
+We can then use additional tools to get more information directly from OpenStreetMap about this Location, including its geometry (in this case, a coordinate pair), additional metadata (such as a name in Arabic or other local languages), and the various administrative areas (like states, local government areas, wards) in which it is sited. This additional information enables us to plot the Location on a map, such as in the image below snapped from our our WhoWasInCommand platform.
 
 
 .. figure:: _static/potiskum_location_example_1.png
