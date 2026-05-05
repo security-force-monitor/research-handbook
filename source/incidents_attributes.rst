@@ -26,6 +26,7 @@ The table below summarises the following dimensions of Incident claims:
    :header-rows: 1
    :delim: tab
 
+
 Incident: Details of claim attributes
 *************************************
 
