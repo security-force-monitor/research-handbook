@@ -42,6 +42,11 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+``:claim/type``
+
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -50,8 +55,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``unit`` defines the claim and establishes the fields to be used in further data entry about a unit
-.
+Entering ``unit`` defines the claim and establishes the fields to be used in further data entry about a unit.
 
 
 status:meta
@@ -72,10 +76,14 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+``:claim/statuses``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``accepted``, ``conflict``, ``work_needed``
+``accepted``, ``conflict``, ``work_needed``, "issue"
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -349,6 +357,10 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+``:assertion/unit:classifications``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -361,10 +373,6 @@ Guidance on use
 We use classifications to describe the basic nature of a specific unit and to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor's dataset. As alleged perpetrators are usually identified in general terms of "soldiers" and "police" this field is important as a first step to understand potential linkages between units, persons and incidents. `Unit Identity: Classification` values are useful supplements to those in the `Unit Relations`_ claim type in connecting different units together.
 
 The `Unit Identity: Classification`_ field will contain a mix of standard terms and country-specific terms used to describe security force branches. In choosing terms to include in the `Unit Identity: Classification`_ field we try to include terms that are used by country experts as well as those that are common terms. We also try to be economical and create as few, distinct terms as possible.
-
-.. admonition:: Example
-
-   A standard term we would apply to army units is ``Army``. The equivalent in Mexico would be ``Ejécito``. We would capture both terms in the `Unit Identity: Classification``_ field.
 
 Units may have more than one classification. Usually this will be when a unit can have both "generic" and "specific" classifications.
 
