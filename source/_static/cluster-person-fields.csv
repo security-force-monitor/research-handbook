@@ -18,8 +18,8 @@ Attribute label	Status	Data type	Key name
 `starting_context:range`  optional  string  ``:range/starting-context``
 `ending_context:range`  optional  string  ``:range/ending-context``
 `public_notes:meta`  optional  string  ``:meta/public-notes``
-`person:gender:assertion` draft  string  ``n/a``
-`person:account_type:assertion` draft  string  ``n/a``
-`person:account_id:assertion` draft  string  ``n/a``
-`person:media_description:annotation` draft  string  ``n/a``
+`person:gender:assertion` draft  string  Not yet implemented
+`person:account_type:assertion` draft  string  Not yet implemented
+`person:account_id:assertion` draft  string  Not yet implemented
+`person:media_description:annotation` draft  string  Not yet implemented
 `type:entity`  required  string  ``:entity/type``
