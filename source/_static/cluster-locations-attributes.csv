@@ -1,4 +1,4 @@
-Attribute , label , Status , Data type , Key name
+Attribute label , Status , Data type , Key name
 `status:meta` , required , string , ``:claim/statuses`` 
 `internal_comments:meta` , optional , string , ``:meta/internal-comments``
 `researcher:meta` , required , string , ``:meta/researchers``
