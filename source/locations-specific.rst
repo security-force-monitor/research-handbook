@@ -7,7 +7,7 @@ Locations are unique places or positions. A named town or city can be a Location
 Location: Summary of attributes
 *******************************
 
-The table below summarises the following dimensions of Locations:
+The table below summarizes the following dimensions of Locations:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
@@ -53,7 +53,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs must be created using either installable or online tools. Values stored in this attribute are referenced in attributes like :ref:`Unit: Location`.
+This value is a Universally Unique Identifier (UUID) generated using a computer program. UUIDs must be created using either installable or online tools. Values stored in this attribute are referenced in attributes like :ref:`Unit: Location`.
 
 
 Location: Researcher Comments
@@ -208,7 +208,7 @@ Attribute name
 Description
 ~~~~~~~~~~~
 
-The two-dimensional geometric primative of the Location, as defined in the source of geospatial information from which it is taken.
+The two-dimensional geometric primitive of the Location, as defined in the source of geospatial information from which it is taken.
 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
@@ -304,7 +304,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this attribute are the ISO 3166-1 alpha-2 country codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__). This attribute is entered manually by the Staff Researcher and acts as a simple cross-check on the automatically-populted values in ``location/admin-level-2``.
+Values for this attribute are the ISO 3166-1 alpha-2 country codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__). This attribute is entered manually by the Staff Researcher and acts as a simple cross-check on the automatically-populated values in ``location/admin-level-2``.
 
 
 Location: Citation
@@ -357,7 +357,7 @@ The administrative level of the Location described in the attribute, if defined 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-Numbers; programatically created.
+Numbers; programmatically created.
 
 Status
 ~~~~~~
@@ -392,7 +392,7 @@ The administrative level 10 Location within which the present Location is wholly
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programatically generated.
+String; programmatically generated.
 
 Status
 ~~~~~~
@@ -428,7 +428,7 @@ The administrative level 9 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programatically generated.
+String; programmatically generated.
 
 Status
 ~~~~~~
@@ -463,7 +463,7 @@ The administrative level 8 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programatically generated.
+String; programmatically generated.
 
 Status
 ~~~~~~
@@ -498,7 +498,7 @@ The administrative level 7 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programatically generated.
+String; programmatically generated.
 
 Status
 ~~~~~~
@@ -534,7 +534,7 @@ The administrative level 6 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programatically generated.
+String; programmatically generated.
 
 Status
 ~~~~~~
@@ -569,7 +569,7 @@ The administrative level 5 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programatically generated.
+String; programmatically generated.
 
 Status
 ~~~~~~
@@ -604,7 +604,7 @@ The administrative level 4 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programatically generated.
+String; programmatically generated.
 
 Status
 ~~~~~~
@@ -639,7 +639,7 @@ The administrative level 3 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programatically generated.
+String; programmatically generated.
 
 Status
 ~~~~~~
@@ -674,7 +674,7 @@ The administrative level 2 Location - the international state boundary - within 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programatically generated.
+String; programmatically generated.
 
 Status
 ~~~~~~
@@ -687,7 +687,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``::location/humane-id``) of the international boundary of a state, also known within the OpenStreetMap schema of administrative areas as a level 2 boundary. This attribute is programatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+This attribute contains the human-readable identifier (``::location/humane-id``) of the international boundary of a state, also known within the OpenStreetMap schema of administrative areas as a level 2 boundary. This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
 
 Location: First Check Timestamp
 ===============================
@@ -700,12 +700,12 @@ Attribute name
 Description
 ~~~~~~~~~~~
 
-Timestamp of the first time that metadata and geometry for this Location was obtained programatically from OpenStreetMap Overpass API.
+Timestamp of the first time that metadata and geometry for this Location was obtained programmatically from OpenStreetMap Overpass API.
 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-Datetime; programatically generated.
+Datetime; programmatically generated.
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -725,12 +725,12 @@ Attribute name
 Description
 ~~~~~~~~~~~
 
-Timestamp of the most recent time that metadata and geometry for this Location was obtained programatically from OpenStreetMap Overpass API.
+Timestamp of the most recent time that metadata and geometry for this Location was obtained programmatically from OpenStreetMap Overpass API.
 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-Datetime; programatically generated.
+Datetime; programmatically generated.
 
 Status
 ~~~~~~
