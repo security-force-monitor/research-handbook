@@ -1,6 +1,6 @@
 Attribute label	Status	Data type	Key name
-`type:claim` required string ``:claim/type``
-`status:meta` required string  ``:claim/statuses`` 
+`type:claim`  required  string  ``:claim/type``
+`status:meta`  required  string  ``:claim/statuses`` 
 `researcher:meta` required string  ``:meta/researchers``
 `internal_comments:meta`  optional  string  ``:meta/internal-comments``
 `citation:refs:claim`  required  strings<->uuids  ``:claim/citation:refs``
