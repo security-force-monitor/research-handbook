@@ -165,7 +165,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Indentifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
 
 
 about_entity:ref:claim
@@ -194,7 +194,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim has an Universally Unique Indentifier (UUID) to distinguish it from any other claim. For a ``posting`` this UUID distinguishes them from any other ``posting`` in the dataset. This allows a person to have contigious or non-contigous ``posting`` with the same ``unit``.
+Every claim has an Universally Unique Identifier (UUID) to distinguish it from any other claim. For a ``posting`` this UUID distinguishes them from any other ``posting`` in the dataset. This allows a person to have contigious or non-contigous ``posting`` with the same ``unit``.
 
 For each ``person`` their ``posting`` is always treated as a contingious, meaning it has the same UUID, unless citations establish it is non-contigious. For example, citations establish that on 2010-08-27 Hla Min stopped being commander of the Southern Regional Military Command and became commander of the 3 Bureau of Special Operations. One citation also evidences his being commander of the 3 Bureau of Special Operations on 2011-07-05 and another citation states he retired as commander of the 3 Bureau of Special Operations on 2015-08-10. All three of these claims are treated as evidencing the same ``posting``. In contrast, the 2011-07-05 citation also establishes that Hla Min once again became commander of the Southern Regional Military Command on a temporary basis as its commander was removed from the ``posting``. This ``posting`` as commander of the Southern Regional Military Command is treated as a seperate ``posting`` with a different UUID as the previous ``posting`` held on 2010-08-27.
 
@@ -256,7 +256,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is the Universally Unique Indentifier (UUID) of the person who is being posted to a unit. A record for the person must already exist in the dataset. 
+This is the Universally Unique Identifier (UUID) of the person who is being posted to a unit. A record for the person must already exist in the dataset. 
 
 
 posting:person:names:qa
@@ -314,7 +314,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is the Universally Unique Indentifier (UUID) of the unit who is being posted to a unit. A record for the unit must already exist in the dataset. 
+This is the Universally Unique Identifier (UUID) of the unit who is being posted to a unit. A record for the unit must already exist in the dataset. 
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -346,7 +346,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is the Universally Unique Indentifier (UUID) of the unit who is being posted to a unit. A record for the unit must already exist in the dataset. 
+This is the Universally Unique Identifier (UUID) of the unit who is being posted to a unit. A record for the unit must already exist in the dataset. 
 
 Guidance on use
 ~~~~~~~~~~~~~~~
