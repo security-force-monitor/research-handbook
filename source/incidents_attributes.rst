@@ -22,7 +22,7 @@ The table below summarizes the following dimensions of Incident claims:
 
 .. csv-table::
    :file: _static/cluster-incident-fields.csv
-
+   :header-rows: 1
 
 Incident: Details of claim attributes
 *************************************
