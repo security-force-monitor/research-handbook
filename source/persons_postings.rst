@@ -10,13 +10,13 @@ The table below summarises the following dimensions of Posting claims:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
- - Data type: the sort of data that can be entered into the field
+ - Data type: the sort of data that can be entered into the attribute
+ - Key name: a standardized name that simplifies attribute use in SFM databases
 
 
 .. csv-table::
    :file: _static/cluster-postings-fields.csv
    :header-rows: 1
-   :delim: tab
 
 Posting: Details of claim attributes
 ********************************************
