@@ -14,6 +14,6 @@ For each incident, we include a description of the incident from the organizatio
 
 Each incident is stored in a claim, so we may have numerous claims about the same incident. In these cases, each claim would share the same entity id (``about_entity:ref:claim``), but the rest of the fields would tied to the information contained in the specific citation.
 
-Data about incidents is captued in a single claim type:
+Data about incidents is captured in a single claim type:
 
 - :ref:`Incident`: date, location, description, types of alleged human rights violations and alleged perpetrator information.
