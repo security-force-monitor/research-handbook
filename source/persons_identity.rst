@@ -8,15 +8,14 @@ Person: Summary of claim attributes
 
 The table below summarises the following dimensions of Person claims:
 
- - Attribute label: a unique machine-readable name for the attribute, used during data capture
+ - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
- - Data type: the sort of data that can be entered into the field
- - Conformed name: a standardized name that simplifies attribute use in SFM databases
+ - Data type: the sort of data that can be entered into the attribute
+ - Key name: a standardized name that simplifies attribute use in SFM databases
 
 .. csv-table::
    :file: _static/cluster-person-fields.csv
    :header-rows: 1
-   :delim: tab
 
 
 Person: Details of claim attributes
