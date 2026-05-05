@@ -6,7 +6,7 @@ The ``posting`` claim type holds information about a person's career. It first d
 Posting: Summary of claim attributes 
 ********************************************
 
-The table below summarises the following dimensions of Posting claims:
+The table below summarizes the following dimensions of Posting claims:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
@@ -87,7 +87,7 @@ researcher:meta
 Description
 ~~~~~~~~~~~
 
-Field for initials or other identifer of researcher who last entered data for the claim.
+Field for initials or other identifier of researcher who last entered data for the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
