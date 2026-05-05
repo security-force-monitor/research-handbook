@@ -1,24 +1,34 @@
-Attribute label	Attribute name	Status	Data type	Conformed name
-`Location: Unique Identifier`_	``::location/id``	Required	String	Not assigned
-`Location: Researcher Comments`_	``::location/comments``	Optional	String	Not assigned
-`Location: Unique Human-Readable Identifier`_	``::location/humane-id``	Optional	String	Not assigned
-`Location: Origin Object Name`_	``::location/name``	Required	String	Not assigned
-`Location: Origin Object Identifier`_	``::location/foreign-id``	Optional	String	Not assigned
-`Location: Geometry Type`_	``::location/geo-type``	Required	List	Not assigned
-`Location: Origin`_	``::location/origin``	Required	String	Not assigned
-`Location: Country`_	``::location/country``	Optional	String	Not assigned
-`Location: Citation`_	``::location/citation-id``	Optional	String	Not assigned
-`Location: Admin Level`_	``::location/admin-level``	Optional	Integer	Not assigned
-`Location: Admin Level 10`_	``::location/admin-level-10``	Optional	String	Not assigned
-`Location: Admin Level 9`_	``::location/admin-level-9``	Optional	String	Not assigned
-`Location: Admin Level 8`_	``::location/admin-level-8``	Optional	String	Not assigned
-`Location: Admin Level 7`_	``::location/admin-level-7``	Optional	String	Not assigned
-`Location: Admin Level 6`_	``::location/admin-level-6``	Optional	String	Not assigned
-`Location: Admin Level 5`_	``::location/admin-level-5``	Optional	String	Not assigned
-`Location: Admin Level 4`_	``::location/admin-level-4``	Optional	String	Not assigned
-`Location: Admin Level 3`_	``::location/admin-level-3``	Optional	String	Not assigned
-`Location: Admin Level 2`_	``::location/admin-level-2``	Optional	String	Not assigned
-`Location: First Check Timestamp`_	``::location/first-check-time``	Optional	String	Not assigned
-`Location: Most Recent Check Timestamp`_	``::location/last-check-time``	Optional	String	Not assigned
-`Location: Attic Date`_	``::location/as-of-date``	Optional	String	Not assigned
-`Location: Notes`_	``::location/notes``	Optional	String	Not assigned
+Attribute label	Status	Data type	Key name
+`status:meta` required string  ``:claim/statuses`` 
+`internal_comments:meta`  optional  string  ``:meta/internal-comments``
+`researcher:meta` required string  ``:meta/researchers``
+`id:entity`  required  string<->uuid ``:entity/id``
+`location:humane_id:qa`  optional  string ``:annotation/name``
+`name:annotation`  required  string  ``:annotation/name``
+`origin_id:location`  required  string  ``:location/origin-id``
+`geo_type:qa`  optional  string  ``:location/geo-type``
+`origin:location`  required  string  ``:location/origin``
+`geometry:ref:entity`  required  string<->uuid  ``:location/geo-feature:ref``
+`citation:refs:claim`  optional  strings<->uuids  ``:claim/citation:refs``
+`country:annotation`  optional  string  ``:annotation/country``
+`location:explicit_parent:annotation`  optional  string  ``:annotation/location:explicit-parent``
+`first_precise:range`  optional string-date  ``:range-precise/first``
+`last_precise:range`  optional  string-date  ``:range-precise/last``
+`first_imprecise:range`  optional  string-date  ``:range-imprecise/first``
+`last_imprecise:range` optional  string-date  ``:range-imprecise/last``
+`starting:range` optional YN<->bool ``:range/starting?``
+`ending:range` optional YN<->bool ``:range/ending?``
+`starting_context:range`  optional  string  ``:range/starting-context``
+`ending_context:range`  optional  string  ``:range/ending-context``
+`location:admin_level:qa`  optional  string  ``n/a``
+`location:admin_level_10:qa`  optional  string  ``n/a``
+`location:admin_level_9:qa`  optional  string  ``n/a``
+`location:admin_level_8:qa`  optional  string  ``n/a``
+`location:admin_level_7:qa`  optional  string  ``n/a``
+`location:admin_level_6:qa`  optional  string  ``n/a``
+`location:admin_level_5:qa`  optional  string  ``n/a``
+`location:admin_level_4:qa`  optional  string  ``n/a``
+`location:admin_level_3:qa`  optional  string  ``n/a``
+`location:admin_level_2:qa`  optional  string  ``n/a``
+`public_notes:meta`  optional  string  ``:meta/public-notes``
+`type:entity`  required  string  ``:entity/type``
