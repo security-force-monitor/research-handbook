@@ -6,7 +6,7 @@ Person
 Person: Summary of claim attributes 
 *****************************************
 
-The table below summarises the following dimensions of Person claims:
+The table below summarizes the following dimensions of Person claims:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
@@ -88,7 +88,7 @@ researcher:meta
 Description
 ~~~~~~~~~~~
 
-Field for initials or other identifer of researcher who last entered data for the claim.
+Field for initials or other identifier of researcher who last entered data for the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
