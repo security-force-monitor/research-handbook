@@ -13,7 +13,7 @@ For each incident, we include a description of the incident from the organizatio
 Incident: Summary of claim attributes
 *************************************
 
-The table below summarises the following dimensions of Incident claims:
+The table below summarizes the following dimensions of Incident claims:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
@@ -94,7 +94,7 @@ researcher:meta
 Description
 ~~~~~~~~~~~
 
-Field for initials or other identifer of researcher who last entered data for the claim.
+Field for initials or other identifier of researcher who last entered data for the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -172,7 +172,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Indentifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
 
 about_entity:ref:claim
@@ -201,7 +201,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For an ``incident`` this UUID distinguishes them from any other ``incident`` in the dataset.
+Every entity has an Universally Unique Identifier (UUID) to distinguish it from any other entity. For an ``incident`` this UUID distinguishes them from any other ``incident`` in the dataset.
 
 
 about_entity:name:qa
@@ -210,7 +210,7 @@ about_entity:name:qa
 Description
 ~~~~~~~~~~~
 
-Field that provides human readible name for entity.
+Field that provides human readable name for entity.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -259,7 +259,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). The specific country code should be choosen based on the ``incident:location:refs:assertion``.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). The specific country code should be chosen based on the ``incident:location:refs:assertion``.
 
 
 incident:location:descriptions:assertion
@@ -272,7 +272,7 @@ Attribute name
 Description
 ~~~~~~~~~~~~~~
 
-A textual descrition of a location which cannot be represented in data, copied directly from the citation.
+A textual description of a location which cannot be represented in data, copied directly from the citation.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -549,7 +549,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
+Every entity has an Universally Unique Identifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
 
 
 incident:victim:names:qa
@@ -558,7 +558,7 @@ incident:victim:names:qa
 Description
 ~~~~~~~~~~~
 
-Field that provides human readible name for entity.
+Field that provides human readable name for entity.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -650,7 +650,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
 
 
 type:entity
