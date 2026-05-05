@@ -20,7 +20,7 @@ The table below summarizes the following dimensions of Incident claims:
  - Data type: the sort of data that can be entered into the attribute
  - Key name: a standardized name that simplifies attribute use in SFM databases
 
-.. csv-table:: Incidents
+.. csv-table::
    :file: _static/cluster-incident-fields.csv
 
 
