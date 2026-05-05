@@ -1,11 +1,11 @@
-Attribute label	Status	Data type	Key name
-`type:claim` required string ``:claim/type``
-`status:meta` required string  ``:claim/statuses`` 
-`researcher:meta` required string  ``:meta/researchers``
-`internal_comments:meta`  optional  string  ``:meta/internal-comments``
-`citation:refs:claim`  required  strings<->uuids  ``:claim/citation:refs``
-`about_entity:ref:claim`  required  uuid-string  ``:claim/about-entity:ref``
-`about_entity:name:qa`  optional  string  ``:claim/about-entity:ref``
+Attribute label , Status , Data type , Key name
+`type:claim` , required , string , ``:claim/type``
+`status:meta` , required , string , ``:claim/statuses`` 
+`researcher:meta` , required , string , ``:meta/researchers``
+`internal_comments:meta` , optional , string , ``:meta/internal-comments``
+`citation:refs:claim` , required , strings<->uuids , ``:claim/citation:refs``
+`about_entity:ref:claim` , required , string<->uuid , ``:claim/about-entity:ref``
+`about_entity:name:qa` , optional , string , ``:claim/about-entity:ref``
 `relation:unit:refs:assertion`  required  uuid-string  ``:assertion/relation:unit:refs``
 `relation:unit:names:qa`  optional  string  ``:assertion/relation:unit:refs``
 `relation:types:assertion`  required  string  ``:assertion/relation:types``
@@ -20,5 +20,5 @@ Attribute label	Status	Data type	Key name
 `ending:range` required YN<->bool ``:range/ending?``
 `starting_context:range`  optional  string  ``:range/starting-context``
 `ending_context:range`  optional  string  ``:range/ending-context``
-`public_notes:meta`  optional  string  ``:meta/public-notes``
-`type:entity`  required  string  ``:entity/type``
+`public_notes:meta` , optional  string  ``:meta/public-notes``
+`type:entity` , required , string , ``:entity/type``
