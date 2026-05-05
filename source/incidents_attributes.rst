@@ -282,7 +282,7 @@ String
 Example of use
 ~~~~~~~~~~~~~~
 
-``Rikkos neighborhood``, ``Campo Militar Número 6-B``
+``gold mining site``
 
 Guidance for use
 ~~~~~~~~~~~~~~~~
@@ -291,23 +291,9 @@ We use this attribute to record the location of an incident exactly as described
 
 .. admonition:: Example
 
-    "Stanley Adiele Uwakwe and Faka Tamunotonye Kalio were arrested on 10 May and brought to Old GRA detention centre in Port Harcourt. After several days, they were transferred to another police station, but officers there told relatives that the men were not in detention. Unofficially, relatives were informed that the men had been killed by the police."
+    "According to Karen Human Rights Group: "On March 18th 2017, a C--- villager named U D---, was shot and killed by Tatmadaw soldiers from LIB #589 at a gold mining site in Shwegyin Township. The leaders of the Tatmadaw and the gold mining company each provided one million kyat (US $736) to the victim’s family as compensation."
 
-While they were detained at "Old GRA detention centre" the location of their killing is unclear. It is also not clear where they were located before they were disappeared - was it at the Old GRA or at the unnamed police station? Since we don’t know we’d leave the `Incident: Location Description`_ attribute blank.
-
-Here's another example of how to use this attribute.
-
-.. admonition:: Example
-
-    "And in yet a third case, Human Rights Watch interviewed three witnesses who saw soldiers shoot five men on the Customs Bridge in Maiduguri. One of the victims survived. He told Human Rights Watch that on the afternoon of July 28 soldiers entered a mosque where he was praying with four other men. The soldiers removed their robes, beat them, and marched them to their commander at the bridge. He described what happened next: The soldiers told us to lie down. Four of the soldiers opened fire on us. The commander was watching. I was lying on my side. They saw that some of us were moving and shot us again. I then lost consciousness. I regained consciousness in the night and dragged myself to an area in the dirt near Dandal Community Bank. I spent the night under a bus. In the morning an achaba [commercial motorcycle taxi] man who knew me took me to my house. My family called a doctor…. They removed four bullets from my body. A former Boko Haram member who witnessed the shootings at the Customs Bridge insisted to Human Rights Watch that the five men were not Boko Haram members. According to him, “The old man was holding prayer beads, and Boko Haram members don’t do that. The two youth wore T-shirts and the [other] two men wore long pants, not the short pants of Boko Haram.” The soldiers left the corpses on the bridge for three days."
-
-The location we would capture here would be  "the Customs Bridge",  while we would find the correct entry from the Locations dataset for``Maiduguri`` to capture in the `Incident: Location`_ attribute.
-
-A common issue is the separation of specific incidents contained within a single account of violations based on geography.
-
-Often a person is arrested and, for example, beaten at a specific site (and the account might include information about other victims being killed at the site of arrest). They are then transported to another site where they are detained and tortured. Moreover, the conditions during the transportation of detainees/prisoners may amount to violations of fundamental rights and often the narrator describes people dying while being transported.
-
-In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one ``incident`` and abuses committed or otherwise tied to site of detention a separate ``incident``.
+While geographic data can be found for Shwegyin Township, the location of the "gold mining site" cannot be determined and geolocated based on this description. Because of this it is entered into the ``incident:location:descriptions:assertion`` field.
 
 
 incident:location:refs:assertion
