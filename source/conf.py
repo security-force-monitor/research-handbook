@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Security Force Monitor: Research Handbook'
-copyright = '2017-2023, Security Force Monitor'
+copyright = '2017-2027, Security Force Monitor'
 author = 'Security Force Monitor'
 
 # The full version, including alpha/beta/rc tags

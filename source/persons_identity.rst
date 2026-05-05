@@ -1,15 +1,14 @@
-Person Identity
-###############
+Person
+######
 
-"Person Identity" is a claim type describing basic identifying information about a person, such as their name and aliases. Claims of this type are grouped together with :ref:`Person Posting` (describing ranks and positiongs in different units) and a draft claim type called :ref:`Person Extra Data` (extended biographical information) claims, which creates a fuller dataset on the person's career in the security and defence forces
+"Person" is a claim type describing basic identifying information about a person: their name, aliases and associated time ranges with them. Claims of this type are grouped together with :ref:`Person Posting` (describing postings to different units) which tracks the person's career. There are also several fields in development to capture other aspects about persons.
 
-Person Identity: Summary of claim attributes 
+Person: Summary of claim attributes 
 *****************************************
 
-The table below summarises the following dimensions of Person Identity claims:
+The table below summarises the following dimensions of Person claims:
 
- - Attribute label: a human readable label for the attribute
- - Attribute name: a unique machine-readable name for the attribute, used during data capture
+ - Attribute label: a unique machine-readable name for the attribute, used during data capture
  - Status: whether the attribute is optional or required in a claim
  - Data type: the sort of data that can be entered into the field
  - Conformed name: a standardized name that simplifies attribute use in SFM databases
@@ -20,29 +19,111 @@ The table below summarises the following dimensions of Person Identity claims:
    :delim: tab
 
 
-Person Identity: Details of claim attributes
+Person: Details of claim attributes
 ********************************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use.
 
 
-Person Identity: Unique Identifier
+type:claim
 ==================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::person:id``
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code assigned to each person in the dataset.
+A field that defines what type of claim is being made.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``person``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Entering ``person`` defines the claim and establishes the fields to be used in further data entry about a person.
+
+
+status:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+A field that classifies the data in the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``accepted``, ``conflict``, ``work_needed``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. Finally, if the data cannot be correctly entered or no citations can establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used. This allows the researcher to either fix the issue or conduct additional research.
+
+
+researcher:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field for initials or other identifer of researcher who last entered data for the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``TW``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked. 
+
+
+internal_comments:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+A field for temporary comments or notes for the researcher or research team working on the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
 
 Status
 ~~~~~~
@@ -52,33 +133,21 @@ This attribute is optional.
 Example of use
 ~~~~~~~~~~~~~~
 
-``a848de4e-ebeb-49d6-9099-7e68ca3b57fc``
+``Come back to this to determine date for claim``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs can be created easily using either installable or online tools, for example:
-
-- Linux and OSX users: `uuidgen` command line tool.
-- On the web: `UUID Generator <https://www.uuidgenerator.net/version>`_.
-
-The attribute is administrative, providing a reliable way to differentiate between different persons. 
-
-The Staff Researcher must generate a unique identifying number for that person and add it to every claim associated with that specific person. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID. As the data are ingested into database systems, claims that share the same UUID in ``::unit:id`` will be aggregated to create a single record for that person.
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood then that should be entered in the ``public_notes:meta`` field.
 
 
-Person Identity: Claim Citation Identifier
-==========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::person:claim:citation:id``
+citation:refs:claim
+==================================
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code of a citation from a source that evidences the other attribute(s) in this claim.
+Field unique 32 character code assigned to citation(s) evidencing the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -93,25 +162,83 @@ This attribute is required.
 Example of use
 ~~~~~~~~~~~~~~
 
-``16d013b5-7073-4446-b22b-46b0edb25632``
+``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-All claims require a citation, which is a reference to a specific part of a source (for example a page or paragraph reference). The page on citations provides more information about this evidentiary mechanism.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Indentifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
 
-Person Identity: Name
-=====================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::person:name``
+about_entity:ref:claim
+==================================
 
 Description
 ~~~~~~~~~~~
 
-Full name of the person, including given, patronym and surnames.
+A unique 32 character code assigned to each entity in the dataset.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String in UUID format
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``521ebf18-f161-4ac9-8c72-5a246efa0458``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
+
+A ``person`` from one citation is never assumed to be the same ``person`` from another citation based on an exact or near match of their name. Instead the ``posting`` is used to determine whether two people with the same or similar names are the the same ``person``. For example, if a citation states "John Alfred Smith" was commander of "Police Station 1" and another states "John Smith" was the commander of "Police Station 1" they would be treated as the same person given the match of ``posting`` as well as their similar name. However, if one citation stated "John Alfred Smith" was the commander of "Police Station 2" they would not be treated as the same person as the "John Alfred Smith" who was commander of "Police Station 1" since there is no match of a ``posting``.
+
+Determining whether one person held multiple postings is based on some match of postings among different citations. For example, if one citation stated "John Alfred Smith" was commander of "Police Station 1" and another citation stated "J. Smith" was commander of "Police Station 3" there would be no match and these should be coded as two seperate people each with their own `about_entity:ref:claim`. If then a third citation stated that during the career of "John Smith" he was commander of "Police Station 1", "Police station 15" and "Police Station 3" then all of these would be treated as the same person given the match of at least one ``posting`` across all citations and the similar names of the person in each citation.
+
+
+about_entity:name:qa
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field that provides human readible name for entity.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Ye Win Oo``, ``510 Light Infantry Battalion in Nansang Township``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import. For a ``person`` best practice is to use the ``name:annotation`` in this field.
+
+
+name:annotation
+=====================
+
+Description
+~~~~~~~~~~~
+
+Fullest name of the person as evidenced by citations. This may include a given name, surname, middle name(s), as well as other names depending on the specific context.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -126,25 +253,25 @@ This attribute is optional.
 Example of use
 ~~~~~~~~~~~~~~
 
-``Magaji Musa Majia'a``
+``Zeyar Aung``, ``Myo Moe Aung‡``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Different sources will spell the name of a person in different ways, so we choose a name to be a canonical entry for that person. Whenever possible, the canonical entry will contain the most complicated or complete version of a person's name, even if it has the smallest number of citations. For example ``Magaji Musa Majia'a`` will be used instead of ``Magaji Majiaa``. Other names will be placed in the `Person Identity: Other Names`_ attribute. Titles, roles, honorifics and other attributes that are more correctly linked to a person's posting in a unit are recorded in `Person Posting`_ claims.
+As with all annotation fields this field is the singular display name for the entity. For a ``person`` this field only used if the citation evidences the fullest name of a person, which is defined as the name with the highest number of characters. Ranks, titles, or positions held should not be entered in this field as they are captured in other fields.
 
-Person Identity: Other Names
+This field can be dynamic and change with ongoing research. For example, a researcher investigating Myanmar may first come across citation ``9f01b1c1-563f-4b40-a534-b91c7e1a5062`` for the ``person`` of ``Zeya Aung`` (a name which has nine characters). This would be entered in ``name:annotation``. Next they may come across another citation ``4c0aaa5d-a147-4f1c-91d8-46d005be1a04`` that evidences the same person, but gives a name of ``Zayar Aung`` (with 10 characters). This longer which would be entered in ``name:annotation``, and ``Zeya Aung`` in the previous entry tied to citation ``9f01b1c1-563f-4b40-a534-b91c7e1a5062`` would be cleared. Finally, the researcher may come across citation ``c0b4b224-6432-45a5-854d-148d76af0ffa`` which would evidence the name of ``Zeyar Aung`` (with 10 characters). As there are two names, both with 10 characters each, the researcher would use the agreement of the name starting with "Zeya" to evidence ``Zeyar Aung`` as the ``name:annotation``, and ``Zeyar Aung`` in the previous entry tied to citation ``4c0aaa5d-a147-4f1c-91d8-46d005be1a04`` would be cleared.
+
+When there are two persons who may be the same person, but citations have not confirmed they are the same person, the symbol ‡ can be applied after the last character in their ``name:annotation`` to help visually identify them in their display name. A corresponding ``public_notes:meta`` should be entered to explain why the symbol ‡ has been used.
+
+
+person:names:assertion
 ============================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::person:other_names``
 
 Description
 ~~~~~~~~~~~
 
-Other names used to identify a person.
+Any name given for person from citation.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -154,7 +281,7 @@ String
 Status
 ~~~~~~
 
-This attribute is optional.
+This attribute is required.
 
 
 Example of use
@@ -165,20 +292,18 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Different sources will spell a person's name in different ways. We choose and record a canonical version of a person's name in the `Person Identity: Name` field. All other spellings that we have found are treated as aliases and stored in this field. Titles, roles, honorifics and other attributes that are more correctly linked to a person's posting in a unit are recorded in `Person Posting`_ claims.
+Any name for a person used in the citation should be entered in this field. While the ``name:annotation`` field is only used for a single, most complex value, this field is used for any name a citation uses for a person. Thus this field serves to capture "aliases" of a person, which also includes any typos or mispellings that may exist in the citation.
 
-Person Identity: Country
+Ranks, titles, or positions held should not be entered in this field as they are captured in other fields.
+
+
+country:annotation
 ========================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::person:country``
 
 Description
 ~~~~~~~~~~~
 
-Country where a unit that a person is a member of is located.
+Country person is associated with for grouping claims.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -193,146 +318,236 @@ This attribute is optional.
 Example of use
 ~~~~~~~~~~~~~~
 
-``mx``
+``mx``, ``ph``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__. This field does not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if ``1 Batallón de Infantería`` is located in Juarez, Mexico, the unit will be assigned a value of ``mx`` in the field `Unit Identity: Country`_. Any person who is a member of that unit will be assigned a value of ``mx`` in the field `Person Identity: Country`_ as well. A person may have multiple entries for `Person Identity: Country`_ where our research shows they or a unit they are a member of is deployed to different countries.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). This field is used to aid grouping persons into datasets related to specific countries and does not denote the citizenship or country of origin of a person. The specific country code should be choosen based on any related `posting` the `person` holds, or any other contextual information from citations about the `person`.
 
-Person Identity: Earliest Precise Date
+
+first_precise:range
 ======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Identity: Latest Precise Date
+
+last_precise:range
 ====================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Identity: Earliest Imprecise Date
+
+first_imprecise:range
 ========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Identity: Latest Imprecise Date
+
+last_imprecise:range
 ======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Identity: Date range is a Start Date
+
+starting:range
 ===========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Identity: Date range is an End Date
+
+ending:range
 ==========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Identity: Research Comments
-==================================
 
-Attribute name
-~~~~~~~~~~~~~~
+starting_context:range
+==========================================
 
-``::person:claim:comments``
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+ending_context:range
+==========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+public_notes:meta
+============================
 
 Description
 ~~~~~~~~~~~
 
-Observations specific to the process of reviewing data in this claims, including fixes, refinements and other suggestions.
+Additional context or details about the claim for a public audience.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text
+String
 
 Status
 ~~~~~~
 
 This attribute is optional.
 
-Example of use
-~~~~~~~~~~~~~~
-
-``Parent person missing``, ``Possible duplicate - merge?``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to exchange feedback about the data in the claim. This may included changes needed, references to sources that the owner of the claim might look at, and other observations that can improve the quality of the data. Data stored in this attribute are not intended for publication. The comments attribute is common to all claim types in the SFM data model.
-
-Person Identity: Research Owner
-===============================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::person:claim:reseacher``
-
-Description
-~~~~~~~~~~~
-
-Initials of Staff Reseacher who first created the person.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Text
-
-Status
-~~~~~~
-
-This attribute is optional.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``TL``, ``TW``, ``MM``,``NP``
+``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred "last week". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute allows researchers keep track of claims they have created. It  may be used for arbitrary grouping and tagging of specific sets of claims if needed. This type of attribute is common to all types of claim in the SFM data model.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
 
-Person Identity: Research Status
+
+person:gender:assertion
 ================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``:person:claim:status``
-
 Description
 ~~~~~~~~~~~
 
-The place of a claim in the research workflow.
+Indicators of a person's sex or gender identity, as inferred from pronouns used in the text of available sources.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-Number range from 0 to 3
+Open list, single choice
 
 Status
 ~~~~~~
 
-This attribute is optional.
+This is a draft field, to be finalized.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``1``
+``Male``, ``Female``, ``Other``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Staff Researchers use this attribute to indicate where a claim stands in the research workflow between the first cut of a claim, review by other researchers, and final readiness for use in analysis or for publication. The values to be used in this attribute are taken from the below list:
+This attribute is used to capture data about the gender of a person, as determined only by the pronouns ("her", "she", "his", "him", etc) used in any available textual sources about this person. We do not infer a person's gender from their name or images of them. 
 
-- ``X``: Claim should be deleted.
-- ``0``: First commit. This claim has just been added and needs review.
-- ``1``: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the `Unit Identity: Research Comments`_ attribute.
-- ``2``: Fixes made. The owner of this data has addressed the reviewer's comments.
-- ``3``: Clean. A final check has been made by a reviewer, and this claim can be used in analysis and can be published.
+Echoing the definition used in the `FOAF standard<http://xmlns.com/foaf/spec/#term_gender>`, the `person:gender:assertion` attribute is not intended to capture the full range of possible biological, social and sexual associated with the word "gender". In the majority of cases the value recorded in this attribute will be ``male`` or ``female``. However, we have left this attribute open to include alternatives that are expressed within the available sources about a person.
 
-This type of attribute is common to all claims in the SFM data model.
+Where the sources contain no textual indication about the person's gender, the attribute should be left blank.
+
+
+person:account_type:assertion
+===============================
+
+Description
+~~~~~~~~~~~
+
+The name of an online platform or service on which the person holds an account.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This is a draft field, to be finalized.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``facebook``, ``telegram``, ``youtube``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to record the name of the online platform of service on which a person holds an account. The name is chosen from a list of available platforms and services, which will be updated as required. Where a person has more than one account, on the same or different platforms, a new claim should be created.
+
+person:account_id:assertion
+=====================================
+
+Description
+~~~~~~~~~~~
+
+The account name used by the person on a specific online platform or service.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This is a draft field, to be finalized.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``CapitaineIb226`` (on X)
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to record the account name held by the person on a specific online platform or service. Where a person has more than one account, on the same or different platforms, a new claim should be created.
+
+
+
+person:media_description:annotation
+====================================
+
+Description
+~~~~~~~~~~~
+
+Short textual description of material found in a media resource that provides information about a how person looks or sounds.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This is a draft field, to be finalized.
+
+Example of use
+~~~~~~~~~~~~~~
+
+"Face and shoulders of Bosco Ntaganda, in military uniform with hat, tie and lapels, backed by two other men in combat fatigues armed with rifles. Taken at a news conference in January 2009."
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to store a brief description of the content of external. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the person.
+
+
+type:entity
+====================================
+
+Description
+~~~~~~~~~~~
+
+Specifies the type of entity.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text, controlled vocabulary
+
+Status
+~~~~~~
+
+This field is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``claim``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+For a ``person`` the only allowed entry for this field is ``claim``.

@@ -1,46 +1,247 @@
-Person Posting
+Posting
 ##############
 
-The "Person Posting" claim type holds information about a person's career in the security forces. It first defines a relationships between a person and a unit, and can be used to further describe the role the person has in the unit ("command", "administrative", etc), the rank they hold at the time of the posting, and any additional titles they may hold at the time of a posting. A person usually has a single posting at any one time, but may have multiple overlapping postings. 
+The ``posting`` claim type holds information about a person's career. It first defines a relationships between a ``person`` and a ``unit``, and can be used to further describe the role the person has in the unit ("Commander", "Chief of Staff", etc), the rank they hold at the time of the posting, and any title they may hold at the time of a posting. A person usually has a single posting at any one time, but can have multiple overlapping postings. 
 
-Person Postings: Summary of claim attributes 
+Posting: Summary of claim attributes 
 ********************************************
 
-The table below summarises the following dimensions of Unit Posting claims:
+The table below summarises the following dimensions of Posting claims:
 
  - Attribute label: a human readable label for the attribute
- - Attribute name: a unique machine-readable name for the attribute, used during data capture
  - Status: whether the attribute is optional or required in a claim
  - Data type: the sort of data that can be entered into the field
- - Conformed name: a standardized name that simplifies attribute use in SFM databases
+
 
 .. csv-table::
    :file: _static/cluster-postings-fields.csv
    :header-rows: 1
    :delim: tab
 
-Person Postings: Details of claim attributes
+Posting: Details of claim attributes
 ********************************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use.
 
-Person Posting: Unique Identifier
-=================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::posting:id``
+type:claim
+==================================
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code assigned to each posting in the dataset.
+A field that defines what type of claim is being made.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``posting``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Entering `posting`` defines the claim and establishes the fields to be used in further data entry about a posting.
+
+
+status:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+A field that classifies the data in the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``accepted``, ``conflict``, ``work_needed``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. Finally, if the data cannot be correctly entered or no citations can establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used. This allows the researcher to either fix the issue or conduct additional research.
+
+
+researcher:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field for initials or other identifer of researcher who last entered data for the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``TW``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked. 
+
+
+internal_comments:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+A field for temporary comments or notes for the researcher or research team working on the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Come back to this to determine date for claim``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood then that should be entered in the ``public_notes:meta`` field.
+
+
+citation:refs:claim
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field unique 32 character code assigned to citation(s) evidencing the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
 String in UUID format
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Indentifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
+
+
+about_entity:ref:claim
+==================================
+
+Description
+~~~~~~~~~~~
+
+A unique 32 character code assigned to each entity in the dataset.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String in UUID format
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``a3cb9b5e-316d-4af7-ac2b-87399df067e2``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every claim has an Universally Unique Indentifier (UUID) to distinguish it from any other claim. For a ``posting`` this UUID distinguishes them from any other ``posting`` in the dataset. This allows a person to have contigious or non-contigous ``posting`` with the same ``unit``.
+
+For each ``person`` their ``posting`` is always treated as a contingious, meaning it has the same UUID, unless citations establish it is non-contigious. For example, citations establish that on 2010-08-27 Hla Min stopped being commander of the Southern Regional Military Command and became commander of the 3 Bureau of Special Operations. One citation also evidences his being commander of the 3 Bureau of Special Operations on 2011-07-05 and another citation states he retired as commander of the 3 Bureau of Special Operations on 2015-08-10. All three of these claims are treated as evidencing the same ``posting``. In contrast, the 2011-07-05 citation also establishes that Hla Min once again became commander of the Southern Regional Military Command on a temporary basis as its commander was removed from the ``posting``. This ``posting`` as commander of the Southern Regional Military Command is treated as a seperate ``posting`` with a different UUID as the previous ``posting`` held on 2010-08-27.
+
+Determining whether one person held multiple postings is based on some match of postings among different citations. For example, if one citation stated "John Alfred Smith" was commander of "Police Station 1" and another citation stated "J. Smith" was commander of "Police Station 3" there would be no match and these should be coded as two seperate people each with their own ``about_entity:ref:claim``. If then a third citation stated that during the career of "John Smith" he was commander of "Police Station 1", "Police station 15" and "Police Station 3" then all of these would be treated as the same person given the match of at least one ``posting`` across all citations and the similar names of the person in each citation.
+
+
+about_entity:name:qa
+====================
+
+Description
+~~~~~~~~~~~
+
+Field that provides human readible name for entity.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Ni Lin Aung Major General Triangle Regional Military Command``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
+
+
+posting:person:refs:assertion
+=============================
+
+Description
+~~~~~~~~~~~
+
+The unique 32 character code assigned to a person posted to a unit.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String in UUID format, selected from existing person records
 
 Status
 ~~~~~~
@@ -55,55 +256,40 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs can be created easily using either installable or online tools, for example:
+This is the Universally Unique Indentifier (UUID) of the person who is being posted to a unit. A record for the person must already exist in the dataset. 
 
-- Linux and OSX users: `uuidgen` command line tool.
-- On the web: `UUID Generator <https://www.uuidgenerator.net/version>`_.
 
-The attribute is administrative, providing a reliable way to differentiate between different persons. 
-
-The Staff Researcher must generate a unique identifying number for that posting and add it to every claim associated with that specific person. This manual, copy-and-paste step is a potential source of error and the Staff Researcher must be careful not to re-use a UUID. As the data are ingested into database systems, claims that share the same UUID in ``::posting:id`` will be aggregated to create a single record for that posting.
-
-Person Posting: Claim Citation Identifier
-=========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::posting:claim:citation:id``
+posting:person:names:qa
+========================================
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code of a citation from a source that evidences the other attribute(s) in this claim.
+Name of person posted to a unit.
 
 Attribute type
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
-String in UUID format
+Text string
 
 Status
 ~~~~~~
 
-This attribute is required.
+This attribute is optional
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``16d013b5-7073-4446-b22b-46b0edb25632``
+``Hla Min``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-All claims require a citation, which is a reference to a specific part of a source (for example a page or paragraph reference). The page on citations provides more information about this evidentiary mechanism.
+This is human readible name for the ``person`` with the ``posting`` to the ``unit``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``person``.
 
-Person Posting: Unit Unique Identifier
+
+posting:unit:refs:assertion
 ======================================
-
-ttribute name
-~~~~~~~~~~~~~~
-
-``::posting:unit:id``
 
 Description
 ~~~~~~~~~~~
@@ -133,23 +319,19 @@ This is the Universally Unique Indentifier (UUID) of the unit who is being poste
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Person Posting: Person Unique Identifier
-========================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::posting:person:id``
+posting:unit:names:qa
+======================================
 
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code assigned to a person posted to a unit.
+The unique 32 character code assigned to a unit to which the person is posted.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format, selected from existing person records
+String in UUID format, selected from existing unit records
 
 Status
 ~~~~~~
@@ -164,15 +346,14 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is the Universally Unique Indentifier (UUID) of the person who is being posted to a unit. A record for the person must already exist in the dataset. 
+This is the Universally Unique Indentifier (UUID) of the unit who is being posted to a unit. A record for the unit must already exist in the dataset. 
 
-Person Posting: Role
-====================
-
-Atttribute name
+Guidance on use
 ~~~~~~~~~~~~~~~
 
-``::posting:role``
+
+posting:roles:assertion
+====================
 
 Description
 ~~~~~~~~~~~
@@ -205,13 +386,9 @@ In nearly all cases, the value placed in this attribute is taken verbatim from t
 
 If a person is referred to as “the head”, “chief” or some other variation indicating that they are in charge of a unit, they should be regarded as the ``Commander`` for the purposes of entering a value in this attribute.
 
-Person Posting: Title
+
+posting:titles:assertion
 =====================
-
-Atttribute name
-~~~~~~~~~~~~~~~
-
-``::posting:title``
 
 Description
 ~~~~~~~~~~~
@@ -238,13 +415,9 @@ Guidance on use
 
 The range of titles will vary from country to country. For example, commanders of army divisions in Nigeria, who usually hold the rank of ``Major General`` also hold the title of ``General Officer Commanding``. The value placed in this attribute is taken verbatim from the source and not edited or standardized.
 
-Person Posting: Rank
+
+posting:ranks:assertion
 ====================
-
-Atttribute name
-~~~~~~~~~~~~~~~
-
-``::posting:rank``
 
 Description
 ~~~~~~~~~~~
@@ -273,139 +446,109 @@ In most cases, the value placed in this attribute is taken verbatim from the sou
 
     For example, we would enter ``Brigadier General`` rather than ``Brigadier-General``.
 
-Person Posting: Earliest Precise Date
-=====================================
+
+first_precise:range
+======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Posting: Latest Precise Date
-===================================
+
+last_precise:range
+====================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Posting: Earliest Imprecise Date
-=======================================
+
+first_imprecise:range
+========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Posting: Latest Imprecise Date
-=====================================
+
+last_imprecise:range
+======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Posting: Date range is a Start Date
+
+starting:range
+===========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+ending:range
 ==========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Posting: Date range is an End Date
-=========================================
+
+starting_context:range
+==========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Person Posting: Research Comments
-==================================
 
-Attribute name
-~~~~~~~~~~~~~~
+ending_context:range
+==========================================
 
-``::posting:claim:comments``
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+public_notes:meta
+============================
 
 Description
 ~~~~~~~~~~~
 
-Observations specific to the process of reviewing data in this claims, including fixes, refinements and other suggestions.
+Additional context or details about the claim for a public audience.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text
+String
 
 Status
 ~~~~~~
 
 This attribute is optional.
 
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``Parent person missing``, ``Possible duplicate - merge?``
+``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred "last week". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Staff Researchers use this attribute to exchange feedback about the data in the claim. This may included changes needed, references to sources that the owner of the claim might look at, and other observations that can improve the quality of the data. Data stored in this attribute are not intended for publication. The comments attribute is common to all claim types in the SFM data model.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
 
-Person Posting: Research Owner
-==============================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::posting:claim:reseacher``
+type:entity
+====================================
 
 Description
 ~~~~~~~~~~~
 
-Initials of Staff Reseacher who first created the person.
+Specifies the type of entity.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text
+Text, controlled vocabulary
 
 Status
 ~~~~~~
 
-This attribute is optional.
+This field is required.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``TL``, ``TW``, ``MM``, ``NP``
+``claim``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute allows researchers keep track of claims they have created. It  may be used for arbitrary grouping and tagging of specific sets of claims if needed. This type of attribute is common to all types of claim in the SFM data model.
-
-Person Posting: Research Status
-================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``:posting:claim:status``
-
-Description
-~~~~~~~~~~~
-
-The place of a claim in the research workflow.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Number range from 0 to 3
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``1``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to indicate where a claim stands in the research workflow between the first cut of a claim, review by other researchers, and final readiness for use in analysis or for publication. The values to be used in this attribute are taken from the below list:
-
-- ``X``: Claim should be deleted.
-- ``0``: First commit. This ciaim has just been added and needs review.
-- ``1``: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the `Person Posting: Research Comments`_ attribute.
-- ``2``: Fixes made. The owner of this data has addressed the reviewer's comments.
-- ``3``: Clean. A final check has been made by a reviewer, and this claim can be used in analysis and can be published.
-
-This type of attribute is common to all claims in the SFM data model.
+For a ``posting`` the only allowed entry for this field is ``claim``.

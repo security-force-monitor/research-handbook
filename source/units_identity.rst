@@ -1,7 +1,7 @@
-Unit Identity
-#############
+Unit
+####
 
-"Unit Identity" is a claim type that contains information about the existence and identity of the unit, such as its name, aliases, branch (or classification), the country in which is operates, and the duration of its existence. "Unit Identity" claims are grouped (or aggregated) together to create building blocks of the command chain of a branch of the security or defense forces. They are connected together with "Unit Relation" claims, resulting in a hierarchy of units.
+"Unit" is a claim type that contains information about the identity of the unit, such as its name, aliases, classification (or branch), the country in which is operates, and the duration of its existence. They are connected together with ``Relation`` claims, resulting in a hierarchy of units.
 
 Unit Identity: Summary of claim attributes 
 ******************************************
@@ -24,20 +24,133 @@ Unit Identity: details of claim attributes
 
 This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.
 
-Unit Identity: Unique Identifier
-=======================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:id``
+type:claim
+==================================
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code assigned to each unit in the dataset. 
+A field that defines what type of claim is being made.
 
-Atrribute type
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``unit``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Entering ``unit`` defines the claim and establishes the fields to be used in further data entry about a unit
+.
+
+
+status:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+A field that classifies the data in the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``accepted``, ``conflict``, ``work_needed``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. Finally, if the data cannot be correctly entered or no citations can establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used. This allows the researcher to either fix the issue or conduct additional research.
+
+
+researcher:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field for initials or other identifer of researcher who last entered data for the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``TW``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked. 
+
+
+internal_comments:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+A field for temporary comments or notes for the researcher or research team working on the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Come back to this to determine date for claim``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood then that should be entered in the ``public_notes:meta`` field.
+
+
+citation:refs:claim
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field unique 32 character code assigned to citation(s) evidencing the claim.
+
+Attribute type
 ~~~~~~~~~~~~~~
 
 String in UUID format
@@ -50,27 +163,23 @@ This attribute is required.
 Example of use
 ~~~~~~~~~~~~~~
 
-``a407be6a-28e6-4237-b4e9-307f27b1202e``
+``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Indentifier (UUID) generated using a computer program.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Indentifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
 
-Unit Identity: Claim Citation Identifier
-========================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:claim:citation:id``
+about_entity:ref:claim
+==================================
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code of a citation from a source that evidences the other attribute(s) in this claim.
+A unique 32 character code assigned to each entity in the dataset.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
 String in UUID format
@@ -83,27 +192,54 @@ This attribute is required.
 Example of use
 ~~~~~~~~~~~~~~
 
-``16d013b5-7073-4446-b22b-46b0edb25632``
+``521ebf18-f161-4ac9-8c72-5a246efa0458``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-All claims require a citation, which is a reference to a specific part of a source (for example a page or paragraph reference). The page on citations provides more information about this evidentiary mechanism.
+Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``unit`` this UUID distinguishes them from any other ``unit`` in the dataset. This UUID is used in other fields to tie a ``unit`` to a ``positioning``, ``relation``, ``posting``, or ``incident``.
 
-Unit Identity: Name
-===================
+If a unit undergoes a change in name, that unit should be treated as a seperate, distinct unit and given its own UUID. For example, 25 Division of Syria.
 
-Attribute name
-~~~~~~~~~~~~~~
 
-``::unit:name``
+about_entity:name:qa
+==================================
 
 Description
 ~~~~~~~~~~~
 
-Canonical name of the unit.
+Field that provides human readible name for the claim.
 
-Atrribute type
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``510 Light Infantry Battalion``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field provides a human readable counterpart to the ``about_entity:ref:claim`` This field can be manually added by a researcher or automatically populated by the system after import. For a ``unit`` best practice is to use the ``name:annotation`` in this field.
+
+
+name:annotation
+=====================
+
+Description
+~~~~~~~~~~~
+
+Fullest name of the unit as evidenced by citations.
+
+Attribute type
 ~~~~~~~~~~~~~~
 
 String
@@ -159,20 +295,16 @@ In cases where multiple units have the same name the Monitor will distinguish th
 
 In some cases, we are aware that a unit exist because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of "Unnamed" and "Unknown" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`.
 
-Unit Identity: Other Names
-=================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:other_names``
+unit:names:assertion
+============================
 
 Description
 ~~~~~~~~~~~
 
-Other names for a unit, including aliases, alternative spellings and abbreviations.
+Any name given for a unit from citation.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
 String
@@ -180,26 +312,22 @@ String
 Status
 ~~~~~~
 
-This attribute is optional.
+This attribute is required.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-If ``3 Armoured Division`` is used as the canonical `Unit Identity: Name`_ of a unit, entries in the `Unit Identity: Other Names`_ field may include ``3 Div`` and ``Three Division``.
-
+``Deuxième RM``, ``GFSN``, ``IB-148``, ``IB (148)``, ``Infantry Battalion 148``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Different sources will spell a unit's name in different ways. We choose and record a canonical version of a unit's name in the `Unit Identity: Name`_ field. All other spellings that we have found are treated as aliases and stored in this field.
+Any name for a unit used in the citation should be entered in this field. While the ``name:annotation`` field is only used for a single, most complex value, this field is used for any name a citation uses for a unit. Thus this field serves to capture "aliases" of a unit, which also includes any typos or mispellings that may exist in the citation.
 
-Although we do not use ordinal indicators like ``2nd`` or ``10/o`` in the canonical name we choose for a unit, where a source uses an ordinal we record it as an alias.
+Ordinal indicators like "2nd" or "10/o" should be entered in this field.
 
-.. admonition:: Example
 
-    We find a version of the unit name ``3 Armoured Division`` that has an Ordinal indicator: ``10/o. Regimiento de Caballería Motorizado.`` We would record this in the `Unit Identity: Other Names`_ field.
-
-Unit Identity: Classification
+unit:classifications:assertion
 ====================
 
 Attribute name
@@ -210,7 +338,7 @@ Attribute name
 Description
 ~~~~~~~~~~~
 
-The branch or branches of the security services that the unit a part of or a general descriptor for the unit.
+A general descriptor for the unit, often matches a branch or branches of the unit.
 
 Atrribute type
 ~~~~~~~~~~~~~~
@@ -245,23 +373,19 @@ Units may have more than one classification. Usually this will be when a unit ca
 
     Units which are part of the army of a country may be coded as having a classification of ``Army`` as well as a classification of ``Military``, whereas units which are part of the navy of a country would have classifications of of ``Navy`` and ``Military``. For both the army and navy unit their respective classifications are correct, the army and the navy are part of the military. Critically, this enables the Monitor or users of the Monitor's data to properly analyze allegations against "soldiers" and "members of the army" in the country. In the case of "soldiers" this analysis should include every unit with the classification of ``Military`` while if there is greater specificity of "members of the army" would mean excluding any unit with the classification of ``Navy`` and focusing only on those units with a classification of ``Army.``
 
-Unit Identity: Country
-=============
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:country``
+country:annotation
+========================
 
 Description
 ~~~~~~~~~~~
 
-ISO 3166 two letter code for the country from  which a unit originates.
+Associated country of the unit used for grouping claims.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
-String from controlled vocabulary.
+Text, controlled vocabulary
 
 Status
 ~~~~~~
@@ -271,264 +395,71 @@ This attribute is optional.
 Example of use
 ~~~~~~~~~~~~~~
 
-``mx``, ``ug``, ``ng``
+``mx``, ``ph``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The `Unit Identity: Country` attribute identifies the country fromt which this unit originates. All entries in this attribute will be two-letter country codes taken from `ISO 3166 <https://www.iso.org/obp/ui/#search>`__. For example, a unit from Nigeria would have the code ``ng`` and a unit from Brazil would have the code ``br``
-
-A unit may only contain a single value in the `Unit Identity: Country`_ attribute. A unit's operations in another country are described using the `Unit Identity: Positioning`_ claim type.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). This field is used to aid grouping units into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be choosen based on any related ``positioning`` the ``unit`` holds, or any other contextual information from citations about the ``unit``.
 
 
-Unit Identity: Date Range is a Start Date
-=========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:date-range:starting?``
-
-Description
-~~~~~~~~~~
-
-Indicates whether date range, whether precise or imprecise, is the date that a unit was established or founded.
-
-Attribute Type
-~~~~~~~~~~~~~~
-
-Boolean
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-
-Example of use
-~~~~~~~~~~~~~~
-
-`N`
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Full guidance on the use of this field can be found in the Handbook page :ref:`Claims with dates`.
-
-
-Unit Identity: Date Range is an Ending Date
-===========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:date-range:ending?``
-
-Description
-~~~~~~~~~~
-
-Indicates whether date range, whether precise or imprecise, is the date that a unit was disbanded, dissolved, merged or replaced.
-
-Attribute Type
-~~~~~~~~~~~~~~
-
-Boolean
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-`Y`
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
-
-Unit Identity: Earliest Precise Date
-====================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:date-range-precise:first``
-
-Description
-~~~~~~~~~~
-
-The earliest date in a precise date range for which the claim is valid
-
-Attribute Type
-~~~~~~~~~~~~~~
-
-Timestamp
-
-Status
-~~~~~~
-
-This attribute is optional
-
-Example of use
-~~~~~~~~~~~~~~
-
-``2022-01-22``
-
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
-
-
-Unit Identity: Latest Precise Date
-==================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:date-range-precise:last``
-
-Description
-~~~~~~~~~~
-
-The latest date in a precise date range for which the claim is valid
-
-Attribute Type
-~~~~~~~~~~~~~~
-
-Timestamp
-
-Status
-~~~~~~
-
-This attribute is optional
-
-Example of use
-~~~~~~~~~~~~~~
-
-``2022-01-22``
-
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
-
-
-Unit Identity: Earliest Imprecise Date
+first_precise:range
 ======================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:date-range-imprecise:first`
-
-Description
-~~~~~~~~~~
-
-The earliest date in an imprecise date range for which the claim is valid
-
-Attribute Type
-~~~~~~~~~~~~~~
-
-Timestamp
-
-Status
-~~~~~~
-
-This attribute is optional
-
-Example of use
-~~~~~~~~~~~~~~
-
-``2022-01-22``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
-Unit Identity: Latest Imprecise Date
+last_precise:range
 ====================================
 
-Attribute name
-~~~~~~~~~~~~~~
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-``::unit:date-range-imprecise:last``
 
-Description
-~~~~~~~~~~
-
-The latest date in an imprecise date range for which the claim is valid
-
-Attribute Type
-~~~~~~~~~~~~~~
-
-Timestamp
-
-Status
-~~~~~~
-
-This attribute is optional
-
-Example of use
-~~~~~~~~~~~~~~
-
-``2022-01-22``
-
-Guidance on use
-~~~~~~~~~~~~~~~
+first_imprecise:range
+========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
-Unit Identity: Research Comments
-=======================
+last_imprecise:range
+======================================
 
-Attribute name
-~~~~~~~~~~~~~~
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-``::unit:claim:comment``
 
-Description
-~~~~~~~~~~~
+starting:range
+===========================================
 
-Observations specific to the process of reviewing data in this claim, including fixes, refinements and other suggestions.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Atrribute type
-~~~~~~~~~~~~~~
 
-String
+ending:range
+==========================================
 
-Example of use
-~~~~~~~~~~~~~~
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-``Parent unit missing``, ``Geography needs attention``, ``Possible duplicate - merge?``
 
-Guidance on use
-~~~~~~~~~~~~~~~
+starting_context:range
+==========================================
 
-Staff Researchers use this attribute to exchange feedback about the data in the claim. This may included changes needed, references to sources that the owner of the claim might look at, and other observations that can improve the quality of the data. Data stored in this attribute are not intended for publication. The comments attribute is common to all claim types in the SFM data model.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Unit Identity: Research Owner
-====================
 
-Attribute name
-~~~~~~~~~~~~~~
+ending_context:range
+==========================================
 
-``::unit:claim:researcher``
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+public_notes:meta
+============================
 
 Description
 ~~~~~~~~~~~
 
-Initials of Staff Reseacher who first created the unit.
+Additional context or details about the claim for a public audience.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
 String
@@ -538,53 +469,42 @@ Status
 
 This attribute is optional.
 
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``TL``, ``TW``, ``MM``, ``NP``
+``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred "last week". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute allows researchers keep track of claims they have created. It  may be used for arbitrary grouping and tagging of specific sets of claims if needed. This type of attribute is common to all types of claim in the SFM data model.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
 
-Unit Identity: Research Status
-=====================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:claim:status``
+type:entity
+====================================
 
 Description
 ~~~~~~~~~~~
 
-The place of the claim in the research workflow.
+Specifies the type of entity.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
-String from controlled vocabulary.
+Text, controlled vocabulary
 
 Status
 ~~~~~~
 
-This attribute is optional.
+This field is required.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``1``, ``X``
+``claim``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Staff Researchers use this attribute to indicate where a claim stands in the research workflow between the first cut of a claim, review by other researchers, and final readiness for use in analysis or for publication. The values to be used in this attribute are taken from the below list:
-
-- ``X``: Claim should be deleted.
-- ``0``: First commit. This claim has just been added and needs review.
-- ``1``: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the `Unit Identity: Research Comments`_ attribute.
-- ``2``: Fixes made. The owner of this data has addressed the reviewer's comments.
-- ``3``: Clean. A final check has been made by a reviewer, and this claim can be used in analysis and can be published.
-
-This type of attribute is common to all claims in the SFM data model.
+For a ``unit`` the only allowed entry for this field is ``claim``.

@@ -1,16 +1,22 @@
-Attribute label	Attribute name	Status	Data type	Conformed name
-`Unit Identity: Unique Identifier`_	``::unit:id``	required	uuid-string	``:claim/about-entity:id``
-`Unit Identity: Claim Citation Identifier`_	``::unit:claim:citation:id``	required	strings<->uuids	``:claim/citation:ids``
-`Unit Identity: Name`_	``::unit:name``	optional	single-string	``:assertion/unit:name``
-`Unit Identity: Other Names`_	``::unit:other_names``	optional	cell-list	``:assertion/unit:other-names``
-`Unit Identity: Classification`_	``::unit:classifications``	optional	cell-list	``:assertion/unit:classifications``
-`Unit Identity: Country`_	``::unit:country``	optional	country-iso-strong	``:assertion/country``
-`Unit Identity: Date Range is a Start Date`_	``::unit:date-range:starting?``	optional	YN<->bool	``:range/starting?``
-`Unit Identity: Date Range is an Ending Date`_	``::unit:date-range:ending?``	optional	YN<->bool	``:range/ending?``
-`Unit Identity: Earliest Precise Date`_	``::unit:date-range-precise:first``	optional	string-date<->timestamp	``:range-precise/first``
-`Unit Identity: Latest Precise Date`_	``::unit:date-range-precise:last``	optional	string-date<->timestamp	``:range-precise/last``
-`Unit Identity: Earliest Imprecise Date`_	``::unit:date-range-imprecise:first``	optional	string-date<->timestamp	``:range-imprecise/first``
-`Unit Identity: Latest Imprecise Date`_	``::unit:date-range-imprecise:last``	optional	string-date<->timestamp	``:range-imprecise/last``
-`Unit Identity: Research Comments`_	``::unit:claim:comment``	optional	string-date<->timestamp	``:meta/comment``
-`Unit Identity: Research Owner`_	``::unit:claim:researcher``	optional	string-date<->timestamp	``:meta/researcher``
-`Unit Identity: Research Status`_	``::unit:claim:status``	optional	status	``:meta/status``
+Attribute label	Status	Data type	Key name
+`type:claim` required string ``:claim/type``
+`status:meta` required string  ``:claim/statuses`` 
+`researcher:meta` required string  ``:meta/researchers``
+`internal_comments:meta`  optional  string  ``:meta/internal-comments``
+`citation:refs:claim`  required  strings<->uuids  ``:claim/citation:refs``
+`about_entity:ref:claim`  required  string<->uuid  ``:claim/about-entity:ref``
+`about_entity:name:qa`  optional  string  ``:claim/about-entity:ref``
+`name:annotation`  optional  string  ``:annotation/name``
+`unit:names:assertion` required  string  ``:assertion/unit:names``
+`unit:classifications:assertion`  optional	cell-list  ``:assertion/unit:classifications``
+`country:annotation`  required  country-iso-string  ``:annotation/country``
+`first_precise:range`  optional string-date  ``:range-precise/first``
+`last_precise:range`  optional  string-date  ``:range-precise/last``
+`first_imprecise:range`  optional  string-date  ``:range-imprecise/first``
+`last_imprecise:range` optional  string-date  ``:range-imprecise/last``
+`starting:range` required YN<->bool ``:range/starting?``
+`ending:range` required YN<->bool ``:range/ending?``
+`starting_context:range`  optional  string  ``:range/starting-context``
+`ending_context:range`  optional  string  ``:range/ending-context``
+`public_notes:meta`  optional  string  ``:meta/public-notes``
+`type:entity`  required  string  ``:entity/type``

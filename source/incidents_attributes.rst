@@ -1,9 +1,13 @@
 Incident
 ########
 
-The "Incident" claim type stores information about publicly-documented allegations of acts committed by state-controlled security forces that may violate human rights laws and standards, international criminal law and other sets of relevant norms. Incidents may include extrajudicial killings, rape, torture and other forms of violence. Security Force Monitor does not make these allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors around the world.
+Incidents are publicly-documented allegations of acts committed by state-controlled security forces that may violate human rights laws and standards, international criminal law and other sets of relevant norms.
 
-The Security Force Monitor focuses its research on the structure, personnel and operations of security forces; we do not directly investigate specific allegations of human rights abuse in the way that Amnesty International or Human Rights Watch do. As such we consider all reports of human rights abuses as “alleged” in our documentation. This simply means these are claims that other organizations have made and which we are repeating without further verification. The Security Force Monitor does not make allegations against security forces and the data that we publish does not attempt to demonstrate involvement of individuals or units in human rights abuses beyond that which other organizations have alleged.
+Incidents may include extrajudicial killings, rape, torture and other forms of violence. Security Force Monitor does not make these allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors around the world.
+
+The Security Force Monitor does not make allegations against security forces. Nothing in the Monitor’s work should be taken as the Monitor making an allegation against a unit or person. In our work we treat all claims of human rights violations as “alleged” to indicate that these are claims that other organizations have structured into data without further verification.
+
+For each incident, we include a description of the incident from the organization making the allegation, and from this structure data for the alleged type of human rights violation(s), the alleged perpetrator(s), date range and location the alleged type of human rights violation occurred. The data that we publish does not attempt to demonstrate involvement of individuals or units in human rights abuses beyond that which other organizations have alleged.
 
 
 Incident: Summary of claim attributes
@@ -27,54 +31,133 @@ Incident: Details of claim attributes
 
 This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.
 
-Incident: Unique Identifier
-===========================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:name``
+type:claim
+==================================
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code assigned to each incident in the dataset.
+A field that defines what type of claim is being made.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``a407be6a-28e6-4237-b4e9-307f27b1202e``
+``incident``
 
-Guidance for use
-~~~~~~~~~~~~~~~~
+Guidance on use
+~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs can be created easily using either installable or online tools, for example:
+Entering ``incident`` defines the claim and establishes the fields to be used in further data entry about an incident.
 
-- Linux and OSX users: `uuidgen` command line tool.
-- On the web: `UUID Generator <https://www.uuidgenerator.net/version>`__.
 
-The field is administrative, providing a reliable way to differentiate between different incidents.
-
-Incident: Claim Citation Identifier
-===================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:claim:citation:id``
+status:meta
+==================================
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code of a citation from a source that evidences the other attribute(s) in this claim.
+A field that classifies the data in the claim.
 
-Atrribute type
-~~~~~~~~~~~~~
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``accepted``, ``conflict``, ``work_needed``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. Finally, if the data cannot be correctly entered or no citations can establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used. This allows the researcher to either fix the issue or conduct additional research.
+
+
+researcher:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field for initials or other identifer of researcher who last entered data for the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``TW``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked. 
+
+
+internal_comments:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+A field for temporary comments or notes for the researcher or research team working on the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Come back to this to determine date for claim``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood then that should be entered in the ``public_notes:meta`` field.
+
+
+citation:refs:claim
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field unique 32 character code assigned to citation(s) evidencing the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
 
 String in UUID format
 
@@ -86,44 +169,150 @@ This attribute is required.
 Example of use
 ~~~~~~~~~~~~~~
 
-``16d013b5-7073-4446-b22b-46b0edb25632``
+``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-All claims require a citation, which is a reference to a specific part of a source (for example a page or paragraph reference). The page on citations provides more information about this evidentiary mechanism.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Indentifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
 
-Incident: Earliest Precise Date
-===============================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+about_entity:ref:claim
+==================================
 
-Incident: Latest Precise Date
-=============================
+Description
+~~~~~~~~~~~
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+A unique 32 character code assigned to each entity in the dataset.
 
-Incident: Earliest Imprecise Date
-=================================
+Attribute type
+~~~~~~~~~~~~~~
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+String in UUID format
 
-Incident: Latest Imprecise Date
-===============================
+Status
+~~~~~~
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+This attribute is required.
 
-Incident: Date range is a Start Date
-====================================
+Example of use
+~~~~~~~~~~~~~~
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+``521ebf18-f161-4ac9-8c72-5a246efa0458``
 
-Incident: Date range is an End Date
-===================================
+Guidance on use
+~~~~~~~~~~~~~~~
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For an ``incident`` this UUID distinguishes them from any other ``incident`` in the dataset.
 
-Incident: Location
+
+about_entity:name:qa
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field that provides human readible name for entity.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Shot Dead in Hsipaw Township``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
+
+
+country:annotation
+========================
+
+Description
+~~~~~~~~~~~
+
+Country person is associated with for grouping claims.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text, controlled vocabulary
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``mx``, ``ph``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). The specific country code should be choosen based on the ``incident:location:refs:assertion``.
+
+
+incident:location:descriptions:assertion
+==============================
+
+Attribute name
+~~~~~~~~~~~~~~
+``::incident:location_description``
+
+Description
+~~~~~~~~~~~~~~
+
+A textual descrition of a location which cannot be represented in data, copied directly from the citation.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Rikkos neighborhood``, ``Campo Militar Número 6-B``
+
+Guidance for use
+~~~~~~~~~~~~~~~~
+
+We use this attribute to record the location of an incident exactly as described in the source. Here is an example:
+
+.. admonition:: Example
+
+    "Stanley Adiele Uwakwe and Faka Tamunotonye Kalio were arrested on 10 May and brought to Old GRA detention centre in Port Harcourt. After several days, they were transferred to another police station, but officers there told relatives that the men were not in detention. Unofficially, relatives were informed that the men had been killed by the police."
+
+While they were detained at "Old GRA detention centre" the location of their killing is unclear. It is also not clear where they were located before they were disappeared - was it at the Old GRA or at the unnamed police station? Since we don’t know we’d leave the `Incident: Location Description`_ attribute blank.
+
+Here's another example of how to use this attribute.
+
+.. admonition:: Example
+
+    "And in yet a third case, Human Rights Watch interviewed three witnesses who saw soldiers shoot five men on the Customs Bridge in Maiduguri. One of the victims survived. He told Human Rights Watch that on the afternoon of July 28 soldiers entered a mosque where he was praying with four other men. The soldiers removed their robes, beat them, and marched them to their commander at the bridge. He described what happened next: The soldiers told us to lie down. Four of the soldiers opened fire on us. The commander was watching. I was lying on my side. They saw that some of us were moving and shot us again. I then lost consciousness. I regained consciousness in the night and dragged myself to an area in the dirt near Dandal Community Bank. I spent the night under a bus. In the morning an achaba [commercial motorcycle taxi] man who knew me took me to my house. My family called a doctor…. They removed four bullets from my body. A former Boko Haram member who witnessed the shootings at the Customs Bridge insisted to Human Rights Watch that the five men were not Boko Haram members. According to him, “The old man was holding prayer beads, and Boko Haram members don’t do that. The two youth wore T-shirts and the [other] two men wore long pants, not the short pants of Boko Haram.” The soldiers left the corpses on the bridge for three days."
+
+The location we would capture here would be  "the Customs Bridge",  while we would find the correct entry from the Locations dataset for``Maiduguri`` to capture in the `Incident: Location`_ attribute.
+
+A common issue is the separation of specific incidents contained within a single account of violations based on geography.
+
+Often a person is arrested and, for example, beaten at a specific site (and the account might include information about other victims being killed at the site of arrest). They are then transported to another site where they are detained and tortured. Moreover, the conditions during the transportation of detainees/prisoners may amount to violations of fundamental rights and often the narrator describes people dying while being transported.
+
+In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one ``incident`` and abuses committed or otherwise tied to site of detention a separate ``incident``.
+
+
+incident:location:refs:assertion
 ==================
 
 Attribute name
@@ -151,17 +340,19 @@ Guidance on use
 
 This field is used to store information about the Location where an incident happened. The value included in this field must be taken from :ref:`Location: Location Identifier` attribute from the Location dataset. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
 
-Incident: Location Description
-==============================
+
+incident:location:names:qa
+==================
 
 Attribute name
 ~~~~~~~~~~~~~~
-``::incident:location_description``
+
+``::incident:location``
 
 Description
 ~~~~~~~~~~~~~~
 
-A description of the location where the source says the incident occurred.
+Human readable name for location.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -171,34 +362,15 @@ String
 Example of use
 ~~~~~~~~~~~~~~
 
-``Giwa Barracks``, ``Rikkos neighborhood``, ``Campo Militar Número 6-B``
+``Hpruso Township (osm, poly) fd51e411-0a21-439c-ba3b-b6aa787541d1``
 
-Guidance for use
-~~~~~~~~~~~~~~~~
+Guidance on use
+~~~~~~~~~~~~~~~
 
-We use this attribute to record the location of an incident exactly as described in the source. Here is an example:
+The best practice for this field is to use the ``location:humane_id:qa`` of the ``incident:location:refs:assertion``.
 
-.. admonition:: Example
 
-    "Stanley Adiele Uwakwe and Faka Tamunotonye Kalio were arrested on 10 May and brought to Old GRA detention centre in Port Harcourt. After several days, they were transferred to another police station, but officers there told relatives that the men were not in detention. Unofficially, relatives were informed that the men had been killed by the police."
-
-While they were detained at "Old GRA detention centre" the location of their killing is unclear. It is also not clear where they were located before they were disappeared - was it at the Old GRA or at the unnamed police station? Since we don’t know we’d leave the `Incident: Location Description`_ attribute blank.
-
-Here's another example of how to use this attribute.
-
-.. admonition:: Example
-
-    "And in yet a third case, Human Rights Watch interviewed three witnesses who saw soldiers shoot five men on the Customs Bridge in Maiduguri. One of the victims survived. He told Human Rights Watch that on the afternoon of July 28 soldiers entered a mosque where he was praying with four other men. The soldiers removed their robes, beat them, and marched them to their commander at the bridge. He described what happened next: The soldiers told us to lie down. Four of the soldiers opened fire on us. The commander was watching. I was lying on my side. They saw that some of us were moving and shot us again. I then lost consciousness. I regained consciousness in the night and dragged myself to an area in the dirt near Dandal Community Bank. I spent the night under a bus. In the morning an achaba [commercial motorcycle taxi] man who knew me took me to my house. My family called a doctor…. They removed four bullets from my body. A former Boko Haram member who witnessed the shootings at the Customs Bridge insisted to Human Rights Watch that the five men were not Boko Haram members. According to him, “The old man was holding prayer beads, and Boko Haram members don’t do that. The two youth wore T-shirts and the [other] two men wore long pants, not the short pants of Boko Haram.” The soldiers left the corpses on the bridge for three days."
-
-The location we would capture here would be  "the Customs Bridge",  while we would find the correct entry from the Locations dataset for``Maiduguri`` to capture in the `Incident: Location`_ attribute.
-
-A common issue is the separation of specific incidents contained within a single account of violations based on geography.
-
-Often a person is arrested and, for example, beaten at a specific site (and the account might include information about other victims being killed at the site of arrest). They are then transported to another site where they are detained and tortured. Moreover, the conditions during the transportation of detainees/prisoners may amount to violations of fundamental rights and often the narrator describes people dying while being transported.
-
-In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one ``incident`` and abuses committed or otherwise tied to site of detention a separate ``incident``.
-
-Incident: Violation Type
+incident:violation:types:assertion
 ========================
 
 Attribute name
@@ -224,9 +396,10 @@ Example of use
 Guidance for use
 ~~~~~~~~~~~~~~~~
 
-In `Incident: Violation Type`_, a value is taken "as is" from the source, without change. If the source states "torture", we transcribe this without further analysis. This is because the Monitor does not make specific direct allegations, but reports verbatim the allegations made by human rights organizations and other credible sources.
+In `Incident: Violation Type`_, a value is taken "as is" from the source, without change. If the source states "torture", we transcribe this without further analysis. This is because the Monitor does not make specific direct allegations, but reports verbatim the allegations made by the source.
 
-Incident: Violation Description
+
+incident:violation:descriptions:assertion
 ===============================
 
 Attribute name
@@ -256,7 +429,8 @@ In this attribute we record a direct quotation from the civil society, governmen
 
     According to X organization, “Description of incident”. According to Y organization, “Description of incident”.
 
-Incident: Perpetrator Unit Unique Identifier
+
+incident:perpetrator:refs:assertion
 ============================================
 
 Attribute name
@@ -267,7 +441,7 @@ Attribute name
 Description
 ~~~~~~~~~~~
 
-The UUID of the unit against which the allegation is made, selected from the unit dataset.
+The UUID of the unit or person against which the allegation is made, selected from the dataset.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -282,38 +456,39 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Where a source make an allegation against a specific unit, this attribute is used to store that unit's identifier. The unit must already exist in the dataset.
+Where a source make an allegation against a specific unit or person, this attribute is used to store that entity's identifier. The unit or person must already exist in the dataset.
 
-Incident: Perpetrator Person Unique Identifier
-===============================================
 
-AAttribute name
+incident:perpetrator:names:qa
+==================
+
+Attribute name
 ~~~~~~~~~~~~~~
 
-``::incident:perpetrator:person:ids``
+``::incident:location``
 
 Description
-~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
-The UUID of the person against which the allegation is made, selected from the person dataset.
+Human readable name for alleged unit or person perpetrator(s).
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String, formatted as a UUID
+String
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``a27d4e1f-7add-4302-ab2e-70c426cce519``
+``115 Light Infantry Battalion``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Where a source make an allegation against a specific person, this attribute is used to store that person's identifier. The person must already exist in the dataset.
+The best practice for this field is to use the ``name:annotation`` of the unit or person.
 
 
-Incident: Perpetrator Classification
+incident:perpetrator:classifications:assertion
 ====================================
 
 Attribute name
@@ -349,49 +524,117 @@ The only alleged perpetrators described in this alleged incident are "soldiers".
 
 Entries used in in `Incident: Perpetrator Classification`_ correspond to the list in `Unit Identity: Classification`_.
 
-Incident: Research Comments
-=======================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:claim:comment``
+incident:victim:refs:assertion
+==================================
 
 Description
 ~~~~~~~~~~~
 
-Observations specific to the process of reviewing data in this claim, including fixes, refinements and other suggestions.
+A unique 32 character code assigned to each entity in the dataset.
 
-Atrribute type
-~~~~~~~~~~~~~
+Attribute type
+~~~~~~~~~~~~~~
 
-String
+String in UUID format
+
+Status
+~~~~~~
+
+This is a draft field.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``Parent unit missing``, ``Geography needs attention``, ``Possible duplicate - merge?``
+``521ebf18-f161-4ac9-8c72-5a246efa0458``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Staff Researchers use this attribute to exchange feedback about the data in the claim. This may included changes needed, references to sources that the owner of the claim might look at, and other observations that can improve the quality of the data. Data stored in this attribute are not intended for publication. The comments attribute is common to all claim types in the SFM data model.
+Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
 
-Incident: Research Owner
-====================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:claim:researcher``
+incident:victim:names:qa
+==================================
 
 Description
 ~~~~~~~~~~~
 
-Initials of Staff Reseacher who first created the unit.
+Field that provides human readible name for entity.
 
-Atrribute type
-~~~~~~~~~~~~~
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This is a draft field.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``John Smith``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field provides a human readable counterpart to the ``incident:victim:refs:assertion``. This field can be manually added by a researcher or automatically populated by the system after import. The best practice is to use the ``name:annotation`` in this field.
+
+
+first_precise:range
+===============================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+last_precise:range
+=============================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+first_imprecise:range
+=================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+last_imprecise:range
+===============================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+starting:range
+====================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+ending:range
+===================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+starting_context:range
+==========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+ending_context:range
+==========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+public_notes:meta
+============================
+
+Description
+~~~~~~~~~~~
+
+Additional context or details about the claim for a public audience.
+
+Attribute type
+~~~~~~~~~~~~~~
 
 String
 
@@ -400,53 +643,42 @@ Status
 
 This attribute is optional.
 
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``TL``, ``TW``, ``MM``, ``NP``
+``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred "last week". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute allows researchers keep track of claims they have created. It  may be used for arbitrary grouping and tagging of specific sets of claims if needed. This type of attribute is common to all types of claim in the SFM data model.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
 
-Incident: Research Status
-=====================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:claim:status``
+type:entity
+====================================
 
 Description
 ~~~~~~~~~~~
 
-The place of the claim in the research workflow.
+Specifies the type of entity.
 
-Atrribute type
-~~~~~~~~~~~~~
+Attribute type
+~~~~~~~~~~~~~~
 
-String from controlled vocabulary.
+Text, controlled vocabulary
 
 Status
 ~~~~~~
 
-This attribute is optional.
+This field is required.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``1``, ``X``
+``claim``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Staff Researchers use this attribute to indicate where a claim stands in the research workflow between the first cut of a claim, review by other researchers, and final readiness for use in analysis or for publication. The values to be used in this attribute are taken from the below list:
-
-- ``X``: Claim should be deleted.
-- ``0``: First commit. This claim has just been added and needs review.
-- ``1``: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the `Incident: Research Comments`_ attribute.
-- ``2``: Fixes made. The owner of this data has addressed the reviewer's comments.
-- ``3``: Clean. A final check has been made by a reviewer, and this claim can be used in analysis and can be published.
-
-This type of attribute is common to all claims in the SFM data model.
+For an ``incident`` the only allowed entry for this field is ``claim``.

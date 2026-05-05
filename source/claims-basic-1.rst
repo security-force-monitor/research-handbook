@@ -1,9 +1,9 @@
 What is a claim?
 ################
 
-A claim is an assertion of information evidenced by a source. 
+A claim is an assertion of information evidenced by a citation from a source. A citation can be a news article, page(s) from an NGO report, specific clips from a video, or any other type of text, image or video.
 
-The Monitor creates data from publicly available, mostly digital sources. We read and assess each source and turn the data we find in them into claims. Claims keep a piece of data together with the source from which it is derived, and may also tell us the time period for which the data  is valid. 
+The Monitor creates data from publicly available, mostly digital sources. We read and assess each source and turn the data we find in them into claims. Claims keep a piece of data together with the citation and source from which it is derived, and may also tell us the time period for which the data is valid. 
 
 For example here is an excerpt from the news story `"Reshuffles in the military, war goes on”, published by the Shan Herald Agency for News (on the Burma News International website) on 10 September 2012 <https://www.bnionline.net/en/shan-herald-agency-for-news/item/13685-reshuffles-in-the-military-war-goes-on-.html>`_:
 

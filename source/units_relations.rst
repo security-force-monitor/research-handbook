@@ -1,7 +1,7 @@
-Unit Relation
-#############
+Relation
+########
 
-The "Unit Relation" (or just "Relation") claim type describes the relationships between units and the position of a unit in a hierarchical structure of a branch of the security and defence forces of a specific country. "Unit Relation" claims also describe clusters of units, such as those found in joint operations or international peacekeeping missions.
+The ``relation`` claim type describes how a ``unit`` relates to another ``unit``. This can be used to model a hierarchical "tree" where one ``unit`` is subordinate to another, or it can also be used to model joint-task force or other multi-unit grouping where the grouping is comprised of members from multiple different units.
 
 Unit Relation: Summary of claim attributes
 ******************************************
@@ -25,20 +25,132 @@ Unit Relation: Details of claim attributes
 
 This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.
 
-Unit Relation: Relation Identifier
+
+type:claim
 ==================================
 
-Attribute name
+Description
+~~~~~~~~~~~
+
+A field that defines what type of claim is being made.
+
+Attribute type
 ~~~~~~~~~~~~~~
 
-``::relation:id``
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``relation``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Entering ``relation`` defines the claim and establishes the fields to be used in further data entry about a relation.
+
+
+status:meta
+==================================
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code assigned to each relation in the dataset.
+A field that classifies the data in the claim.
 
-Atrribute type
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``accepted``, ``conflict``, ``work_needed``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. Finally, if the data cannot be correctly entered or no citations can establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used. This allows the researcher to either fix the issue or conduct additional research.
+
+
+researcher:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field for initials or other identifer of researcher who last entered data for the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``TW``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked. 
+
+
+internal_comments:meta
+==================================
+
+Description
+~~~~~~~~~~~
+
+A field for temporary comments or notes for the researcher or research team working on the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Come back to this to determine date for claim``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood then that should be entered in the ``public_notes:meta`` field.
+
+
+citation:refs:claim
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field unique 32 character code assigned to citation(s) evidencing the claim.
+
+Attribute type
 ~~~~~~~~~~~~~~
 
 String in UUID format
@@ -51,36 +163,23 @@ This attribute is required.
 Example of use
 ~~~~~~~~~~~~~~
 
-``a407be6a-28e6-4237-b4e9-307f27b1202e``
+``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. UUIDs must be created easily using either installable or online tools, for example:
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Indentifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
 
-- Linux and OSX users: `uuidgen` command line tool.
-- On the web: `UUID Generator <https://www.uuidgenerator.net/version>`_.
 
-The field is administrative, providing a reliable way to differentiate between different entities in the SFM data model, in this case a unit relation entity.
-
-The Staff Researcher must generate a unique identifying number for that relationand copy it into the attribute ``::relation:id`` for every claim associated with that specific unit. As the data are ingested into database systems, claims that share the same UUID in ``::relation:id`` will be aggregated to create a single record for that relation.
-
-During research, particularly when using a spreadsheet, this is a manual, copy-and-paste step and is a potential source of error. The Staff Researcher must be careful never to re-use a UUID anywhere in this or other parts of the dataset.
-
-Unit Relation: Claim Citation Identifier
-========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::relation:claim:citation:id``
+about_entity:ref:claim
+==================================
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code of a citation from a source that evidences the other attribute(s) in this claim.
+A unique 32 character code assigned to each entity in the dataset.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
 String in UUID format
@@ -93,15 +192,56 @@ This attribute is required.
 Example of use
 ~~~~~~~~~~~~~~
 
-``16d013b5-7073-4446-b22b-46b0edb25632``
+``521ebf18-f161-4ac9-8c72-5a246efa0458``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-All claims require a citation, which is a reference to a specific part of a source (for example a page or paragraph reference). The page on citations provides more information about this evidentiary mechanism.
+Every claim has an Universally Unique Indentifier (UUID) to distinguish it from any other claim. For a ``relation`` this UUID distinguishes them from any other ``relation`` in the dataset.
 
-Unit Relation: Unit Identifier
-==============================
+Every ``relation`` between the same two ``units`` is always treated as a contingious, meaning it has the same UUID, unless citations establish it should be treated as non-contigious.
+
+.. admonition:: Example
+
+    EXAMPLE
+
+Two or more ``relation`` claims should always be treated as contigious if there is an overlap in the time range of the two claims, or if the time-ranges of the claims fall within 1 day of each other.
+
+.. admonition:: Example
+
+    The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change ``relation`` to whatever regional command controls the area where it is operating. One claim puts in an area under ``Northeastern Regional Military Command`` from at least ``2016-03-10`` to at least ``2016-03-11``, and another citation pleaces in an area under ``Northeastern Regional Military Command`` on ``2016-03-12``. These two claims are coded as the same ``relation`` given that they fall within 1 day of each other.
+
+about_entity:name:qa
+==================================
+
+Description
+~~~~~~~~~~~
+
+Field that provides human readible name for entity.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``21 Military Operations Command  Northern Regional Military Command``, ``Unknown Tactical Operations Command (77 Light Infantry Division)  77 Light Infantry Division``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
+
+
+relation:unit:refs:assertion
+============================
 
 Attribute name
 ~~~~~~~~~~~~~~
@@ -131,15 +271,89 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The UUID inputted into ``::relation:unit:id`` must correspond to the UUID of a unit that already exists within the Unit Identity attribute `Unit: Name`_. This attribute denotes one side of a relationship between units; the other is denoted in the attribute `Unit Relation: Related Unit Identifier`_. The nature of the relationship is clarified further using the `Unit Relation: Type of Relation`_ and `Unit Relation: Relation Classification`_ attributes.
+The ``about_entity:ref:claim`` UUID must be for a ``unit`` which already exists in the dataset. This attribute denotes one side of a relationship between units; the other is denoted in the attribute `Unit Relation: Related Unit Identifier`_. The nature of the relationship is clarified further using the `Unit Relation: Type of Relation`_ and `Unit Relation: Relation Classification`_ attributes.
 
-Unit Relation: Related Unit Identifier
+
+relation:unit:names:qa
+============================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``::relation:unit:id``
+
+Description
+~~~~~~~~~~~
+
+The unique 32 character code assigned to the unit about which a relationship is described in the claim.
+
+Atrribute type
+~~~~~~~~~~~~~~
+
+String in UUID format
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Groupement de Forces pour la Sécurisation du Nord``, ``Moriones Tondo Police Station 2``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field provides a human readable counterpart to the ``relation:unit:refs:assertion``. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the ``name:annotation`` of the ``unit``.
+
+
+relation:types:assertion
+===============================
+
+Attribute name
+~~~~~~~~~~~~~~
+
+``:assertion/relation:types``
+
+Description
+~~~~~~~~~~~
+
+The type of relationship that exists between two units.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String from controlled list
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``child-of``, ``member-of``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+We use this field to define the nature of the relationship between the unit that is the subject of the claim (as described in `Unit Relation: Unit Identifier`_) and the other unit described in `Unit Relation: Related Unit Identifier`_. There are only two values that can be used by the researcher in this attribute:
+
+ - ``child`` to define a hierarchic relationship. The unit specified in `Unit Relation: Related Unit Identifier`_ is the parent of the unit in `Unit Relation: Unit Identifier`_.
+ - ``member`` to define a membership relationship. The unit specified in `Unit Relation: Unit Identifier`_ is a member of the unit noted in `Unit Relation: Related Unit Identifier`_.
+
+The values included in this field are used to build the organizational structure of a branch of the security forces. This is discussed in more detail in the documentation for the attribute `Unit Relation: Related Unit Identifier`_.
+
+
+relation:related_unit:refs:assertion
 ======================================
 
 Attribute name
 ~~~~~~~~~~~~~~
 
-``::relation:related_unit:id``
+``:assertion/relation:related-unit:refs``
 
 Description
 ~~~~~~~~~~~
@@ -186,52 +400,47 @@ The type of relationship between units is determined by setting the value in `Un
 In some cases, we are aware that a unit exist because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of "Unnamed" and "Unknown" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`.
 
 
-Unit Relation: Type of Relation
-===============================
+relation:related_unit:names:qa
+==============================
 
 Attribute name
 ~~~~~~~~~~~~~~
 
-``::relation:type``
+n/a
 
 Description
 ~~~~~~~~~~~
 
-The type of relationship that exists between two units.
+The unique 32 character code assigned to the unit about which a relationship is described in the claim.
 
-Attribute type
+Atrribute type
 ~~~~~~~~~~~~~~
 
-String from controlled list
+String in UUID format
 
 Status
 ~~~~~~
 
-This attribute is optional
+This attribute is optional.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``child``, ``member``
+``Opération Tourbillon Vert 2``, ``99 Light Infantry Division``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-We use this field to define the nature of the relationship between the unit that is the subject of the claim (as described in `Unit Relation: Unit Identifier`_) and the other unit described in `Unit Relation: Related Unit Identifier`_. There are only two values that can be used by the researcher in this attribute:
+This field provides a human readable counterpart to the ``relation:related_unit:refs:assertion`` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the ``name:annotation`` of the ``unit``.
 
 
- - ``child`` to define a hierarchic relationship. The unit specified in `Unit Relation: Related Unit Identifier`_ is the parent of the unit in `Unit Relation: Unit Identifier`_.
- - ``member`` to define a membership relationship. The unit specified in `Unit Relation: Unit Identifier`_ is a member of the unit noted in `Unit Relation: Related Unit Identifier`_.
-
-The values included in this field are used to build the organizational structure of a branch of the security forces. This is discussed in more detail in the documentation for the attribute `Unit Relation: Related Unit Identifier`_.
-
-Unit Relation: Relation Classification
+relation:related_unit_classes:assertion
 ======================================
 
 Attribute name
 ~~~~~~~~~~~~~~
 
-``::relation:related_unit_class``
+``:assertion/relation:related-unit-classes``
 
 Description
 ~~~~~~~~~~~
@@ -241,17 +450,17 @@ Quality or nature of the relationshis that exists between two units.
 Attribute type
 ~~~~~~~~~~~~~~
 
-String, from controlled list
+String, from controlled list.
 
 Status
 ~~~~~~
 
-This attribute is optional
+This attribute is optional.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``Command``, ``Administrative``, ``Informal``
+``command``, ``administrative``, ``class``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -267,78 +476,63 @@ Units have a ``Command`` relationship when the related parent unit can order the
     Example: By law the Ministry of Defence in Nigeria provides administrative support to the Nigerian Army, establishing a relationship we could classify as ``Administrative``. The Standards Department of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could order the Department to take some sort of action. This technically means the Department is under the “command” of the Headquarters, but the Monitor would describe this relationship as ``Administrative`` because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
 
 
-Unit Relation: Earliest Precise Date
-====================================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
-
-Unit Relation: Latest Precise Date
-==================================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
-
-Unit Relation: Earliest Imprecise Date
+first_precise:range
 ======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Unit Relation: Latest Imprecise Date
+
+last_precise:range
 ====================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Unit Relation: Date Range is a Start Date
-=========================================
+
+first_imprecise:range
+========================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Unit Relation: Date Range is an End Date
-=======================================
+
+last_imprecise:range
+======================================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-Unit Relation: Research Comments
-================================
 
-Attribute name
-~~~~~~~~~~~~~~
+starting:range
+===========================================
 
-``::unit:claim:comment``
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+ending:range
+==========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+starting_context:range
+==========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+ending_context:range
+==========================================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+public_notes:meta
+============================
 
 Description
 ~~~~~~~~~~~
 
-Observations specific to the process of reviewing data in this claim, including fixes, refinements and other suggestions.
+Additional context or details about the claim for a public audience.
 
-Atrribute type
-~~~~~~~~~~~~~
-
-String
-
-Example of use
-~~~~~~~~~~~~~~
-
-``Parent unit missing``, ``Geography needs attention``, ``Possible duplicate - merge?``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to exchange feedback about the data in the claim. This may included changes needed, references to sources that the owner of the claim might look at, and other observations that can improve the quality of the data. Data stored in this attribute are not intended for publication. The comments attribute is common to all claim types in the SFM data model.
-
-Unit Relation: Research Owner
-=============================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:claim:researcher``
-
-Description
-~~~~~~~~~~~
-
-Initials of Staff Reseacher who first created the unit.
-
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
 String
@@ -348,53 +542,42 @@ Status
 
 This attribute is optional.
 
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``TL``, ``TW``, ``MM``, ``NP``
+``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred "last week". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute allows researchers keep track of claims they have created. It  may be used for arbitrary grouping and tagging of specific sets of claims if needed. This type of attribute is common to all types of claim in the SFM data model.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
 
-Unit Relation: Research Status
-==============================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:claim:status``
+type:entity
+====================================
 
 Description
 ~~~~~~~~~~~
 
-The place of the claim in the research workflow.
+Specifies the type of entity.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
-String from controlled vocabulary.
+Text, controlled vocabulary
 
 Status
 ~~~~~~
 
-This attribute is optional.
+This field is required.
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``1``, ``X``
+``claim``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Staff Researchers use this attribute to indicate where a claim stands in the research workflow between the first cut of a claim, review by other researchers, and final readiness for use in analysis or for publication. The values to be used in this attribute are taken from the below list:
-
-- ``X``: Row should be deleted.
-- ``0``: First commit. This row of data has just been added and needs review.
-- ``1``: Fixes needed. A reviewer has made comments that need to be addressed, which will be recorded in the `Unit Relation: Research Comments`_ attribute.
-- ``2``: Fixes made. The owner of this data has addressed the reviewer's comments.
-- ``3``: Clean. A final check has been made by a reviewer, and this claim can be used in analysis and published.
-
-This type of attribute is common to all claims in the SFM data model.
+For a ``relation`` the only allowed entry for this field is ``claim``.

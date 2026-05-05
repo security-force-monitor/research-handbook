@@ -1,19 +1,29 @@
-Attribute label	Attribute name	Status	Data type	Conformed name
-`Incident: Unique Identifier`_	``::incident:id``	required	string-uuid	:claim/about-entity:id
-`Incident: Claim Citation Identifier`_	``::incident:claim:citation:id``	required	strings<->uuids	:claim/citation:ids
-`Incident: Earliest Precise Date`_	``::incident:date-range-precise:first``	optional	string-date<->timestamp	:range-precise/first
-`Incident: Latest Precise Date`_	``::incident:date-range-precise:last``	optional	string-date<->timestamp	:range-precise/last
-`Incident: Earliest Imprecise Date`_	``::incident:date-range-imprecise:first``	optional	string-date<->timestamp	:range-imprecise/first
-`Incident: Latest Imprecise Date`_	``::incident:date-range-imprecise:last``	optional	string-date<->timestamp	:range-imprecise/last
-`Incident: Date range is a Start Date`_	``::incident:date-range:starting?``	optional	YN<->bool	:range/starting?
-`Incident: Date range is an End Date`_	``::incident:date-range:ending?``	optional	YN<->bool	:range/ending?
-`Incident: Location`_	``::incident:location:id``	optional	strings<->uuids	:assertion/incident:location:id
-`Incident: Location Description`_	``::incident:location:description``	optional	string	:assertion/incident:location:description
-`Incident: Violation Type`_	``::incident:violation:types``	optional	string	:assertion/incident:violation:types
-`Incident: Violation Description`_	``::incident:violation:description``	optional	string	:assertion/incident:violation:description
-`Incident: Perpetrator Person Unique Identifier`_	``::incident:perpetrator:person:ids``	optional	strings<->uuids	:assertion/incident:perpetrator:ids
-`Incident: Perpetrator Unit Unique Identifier`_	``::incident:perpetrator:units:ids``	optional	strings<->uuids	:assertion/incident:perpetrator:ids
-`Incident: Perpetrator Classification`_	``::incident:perpetrator:classifications``	optional	string	:assertion/incident:perpetrator:classification
-`Incident: Research Comments`_	``::incident:claim:comment``	optional	string	:meta/comment
-`Incident: Research Owner`_	``::incident:claim:researcher``	optional	string	:meta/reseacher
-`Incident: Research Status`_	``::incident:claim:status``	optional	status	:meta/status
+Attribute label	Status	Data type	Key name
+`type:claim` required string ``:claim/type``
+`status:meta` required string  ``:claim/statuses`` 
+`researcher:meta` required string  ``:meta/researchers``
+`internal_comments:meta`  optional  string  ``:meta/internal-comments``
+`citation:refs:claim`  required  strings<->uuids  ``:claim/citation:refs``
+`about_entity:ref:claim`  required  string<->uuid  ``:claim/about-entity:ref``
+`about_entity:name:qa`  optional  string  ``:claim/about-entity:ref`` 
+`country:annotation`  required  string  ``:annotation/country``
+`incident:location:descriptions:assertion`  optional  string  ``:assertion/incident:location:descriptions``
+`incident:location:refs:assertion`  required  string<->uuid  ``:assertion/incident:location:refs``
+`incident:location:names:qa`  optional  string  ``:assertion/incident:location:refs``  
+`incident:violation:types:assertion`  required  string  ``:assertion/incident:violation:types``
+`incident:violation:descriptions:assertion`  required  string  ``:assertion/incident:violation:descriptions``
+`incident:perpetrator:refs:assertion`  optional  strings<->uuids  ``:assertion/incident:perpetrator:refs``  
+`incident:perpetrator:names:qa`  optional  strings  ``:assertion/incident:perpetrator:refs``    
+`incident:perpetrator:classifications:assertion`  optional  strings  ``:assertion/incident:perpetrator:classifications``
+`incident:victim:refs:assertion`  draft  strings<->uuids  ``:assertion/incident:victim:refs``
+`incident:victim:names:qa`  draft  strings  ``:assertion/incident:victim:refs``  
+`first_precise:range`  optional string-date  ``:range-precise/first``
+`last_precise:range`  optional  string-date  ``:range-precise/last``
+`first_imprecise:range`  optional  string-date  ``:range-imprecise/first``
+`last_imprecise:range` optional  string-date  ``:range-imprecise/last``
+`starting:range` required YN<->bool ``:range/starting?``
+`ending:range` required YN<->bool ``:range/ending?``
+`starting_context:range`  optional  string  ``:range/starting-context``
+`ending_context:range`  optional  string  ``:range/ending-context``
+`public_notes:meta`  optional  string  ``:meta/public-notes``
+`type:entity`  required  string  ``:entity/type``

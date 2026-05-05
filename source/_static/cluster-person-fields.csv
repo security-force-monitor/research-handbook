@@ -1,15 +1,25 @@
-Attribute label	Attribute name	Status	Data type	Conformed name
-`Person Identity: Unique Identifier`_	``::person:id``	required	uuid-string	:claim/about-entity:id
-`Person Identity: Claim Citation Identifier`_	``::person:claim:citation:id``	required	strings<->uuids	:claim/citation:ids
-`Person Identity: Name`_	``::person:name``	optional	string	:assertion/person:name
-`Person Identity: Other Names`_	``::person:other_names``	optional	cell-list	:assertion/person:other-names
-`Person Identity: Country`_	``::person:country``	optional	country-iso-string	:assertion/country
-`Person Identity: Earliest Precise Date`_	``::person:date-range-precise:first``	optional	string-date<->timestamp	:range-precise/first
-`Person Identity: Latest Precise Date`_	``::person:date-range-precise:last``	optional	string-date<->timestamp	:range-precise/last
-`Person Identity: Earliest Imprecise Date`_	``::person:date-range-imprecise:first``	optional	string-date<->timestamp	:range-imprecise/first
-`Person Identity: Latest Imprecise Date`_	``::person:date-range-imprecise:last``	optional	string-date<->timestamp	:range-imprecise/last
-`Person Identity: Date range is a Start Date`_	``::person:date-range:starting?``	optional	YN<->bool	:range/starting?
-`Person Identity: Date range is an End Date`_	``::person:date-range:ending?``	optional	YN<->bool	:range/ending/
-`Person Identity: Research Comments`_	``::person:claim:comment``	optional	string	:meta/comment
-`Person Identity: Research Owner`_	``::person:claim:researcher``	optional	string	:meta/researcher
-`Person Identity: Research Status`_	``::person:claim:status``	optional	status	:meta/status
+Attribute label	Status	Data type	Key name
+`type:claim` required string ``:claim/type``
+`status:meta` required string  ``:claim/statuses`` 
+`researcher:meta` required string  ``:meta/researchers``
+`internal_comments:meta`  optional  string  ``:meta/internal-comments``
+`citation:refs:claim`  required  strings<->uuids  ``:claim/citation:refs``
+`about_entity:ref:claim`  required  string<->uuid  ``:claim/about-entity:ref``
+`about_entity:name:qa`  optional  string  ``:claim/about-entity:ref``
+`name:annotation`  optional  string  ``:annotation/name``
+`person:names:assertion` required  string  ``:assertion/person:names``
+`country:annotation`  required  country-iso-string  ``:annotation/country``
+`first_precise:range`  optional string-date  ``:range-precise/first``
+`last_precise:range`  optional  string-date  ``:range-precise/last``
+`first_imprecise:range`  optional  string-date  ``:range-imprecise/first``
+`last_imprecise:range` optional  string-date  ``:range-imprecise/last``
+`starting:range` required YN<->bool ``:range/starting?``
+`ending:range` required YN<->bool ``:range/ending?``
+`starting_context:range`  optional  string  ``:range/starting-context``
+`ending_context:range`  optional  string  ``:range/ending-context``
+`public_notes:meta`  optional  string  ``:meta/public-notes``
+`person:gender:assertion` draft  string  Not yet implemented
+`person:account_type:assertion` draft  string  Not yet implemented
+`person:account_id:assertion` draft  string  Not yet implemented
+`person:media_description:annotation` draft  string  Not yet implemented
+`type:entity`  required  string  ``:entity/type``
