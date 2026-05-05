@@ -6,12 +6,12 @@ Attribute label , Status , Data type , Key name
 `citation:refs:claim` , required , strings<->uuids , ``:claim/citation:refs``
 `about_entity:ref:claim` , required , string<->uuid , ``:claim/about-entity:ref``
 `about_entity:name:qa` , optional , string , ``:claim/about-entity:ref``
-`relation:unit:refs:assertion`  required  uuid-string  ``:assertion/relation:unit:refs``
-`relation:unit:names:qa`  optional  string  ``:assertion/relation:unit:refs``
-`relation:types:assertion`  required  string  ``:assertion/relation:types``
-`relation:related_unit:refs:assertion`  required  string<->uuid  ``:assertion/relation:related-unit:refs``
-`relation:related_unit:names:qa`  optional  string  ``:assertion/relation:related-unit:refs``
-`relation:related_unit_classes:assertion`  optional  string  ``:assertion/relation:related-unit-classes``
+`relation:unit:refs:assertion` , required , uuid-string , ``:assertion/relation:unit:refs``
+`relation:unit:names:qa` , optional , string , ``:assertion/relation:unit:refs``
+`relation:types:assertion` , required , string , ``:assertion/relation:types``
+`relation:related_unit:refs:assertion` , required , string<->uuid , ``:assertion/relation:related-unit:refs``
+`relation:related_unit:names:qa` , optional , string , ``:assertion/relation:related-unit:refs``
+`relation:related_unit_classes:assertion` , optional , string , ``:assertion/relation:related-unit-classes``
 `first_precise:range` , optional , string-date , ``:range-precise/first``
 `last_precise:range` , optional , string-date , ``:range-precise/last``
 `first_imprecise:range` , optional , string-date , ``:range-imprecise/first``
