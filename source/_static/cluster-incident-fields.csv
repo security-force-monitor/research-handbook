@@ -24,6 +24,6 @@ Attribute label , Status , Data type , Key name
 `starting:range` , required , YN<->bool , ``:range/starting?``
 `ending:range` , required , YN<->bool , ``:range/ending?``
 `starting_context:range` , optional , string , ``:range/starting-context``
-`ending_context:range` , optional , string  ``:range/ending-context``
+`ending_context:range` , optional , string , ``:range/ending-context``
 `public_notes:meta` , optional , string , ``:meta/public-notes``
 `type:entity` , required , string , ``:entity/type``
