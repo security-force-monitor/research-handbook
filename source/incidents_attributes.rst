@@ -1,5 +1,5 @@
-Incident
-########
+Incidents
+#########
 
 Incidents are publicly-documented allegations of acts committed by state-controlled security forces that may violate human rights laws and standards, international criminal law and other sets of relevant norms.
 
@@ -20,10 +20,8 @@ The table below summarises the following dimensions of Incident claims:
  - Data type: the sort of data that can be entered into the attribute
  - Key name: a standardized name that simplifies attribute use in SFM databases
 
-.. csv-table::
+.. csv-table:: Incidents
    :file: _static/cluster-incident-fields.csv
-   :header-rows: 1
-   :delim: comma
 
 
 Incident: Details of claim attributes
