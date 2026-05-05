@@ -12,13 +12,13 @@ Attribute label , Status , Data type , Key name
 `relation:related_unit:refs:assertion`  required  string<->uuid  ``:assertion/relation:related-unit:refs``
 `relation:related_unit:names:qa`  optional  string  ``:assertion/relation:related-unit:refs``
 `relation:related_unit_classes:assertion`  optional  string  ``:assertion/relation:related-unit-classes``
-`first_precise:range`  optional string-date  ``:range-precise/first``
-`last_precise:range`  optional  string-date  ``:range-precise/last``
-`first_imprecise:range`  optional  string-date  ``:range-imprecise/first``
-`last_imprecise:range` optional  string-date  ``:range-imprecise/last``
-`starting:range` required YN<->bool ``:range/starting?``
-`ending:range` required YN<->bool ``:range/ending?``
-`starting_context:range`  optional  string  ``:range/starting-context``
-`ending_context:range`  optional  string  ``:range/ending-context``
-`public_notes:meta` , optional  string  ``:meta/public-notes``
+`first_precise:range` , optional , string-date , ``:range-precise/first``
+`last_precise:range` , optional , string-date , ``:range-precise/last``
+`first_imprecise:range` , optional , string-date , ``:range-imprecise/first``
+`last_imprecise:range` , optional , string-date , ``:range-imprecise/last``
+`starting:range` , required , YN<->bool , ``:range/starting?``
+`ending:range` , required , YN<->bool , ``:range/ending?``
+`starting_context:range` , optional , string , ``:range/starting-context``
+`ending_context:range` , optional , string , ``:range/ending-context``
+`public_notes:meta` , optional , string , ``:meta/public-notes``
 `type:entity` , required , string , ``:entity/type``
