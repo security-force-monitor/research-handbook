@@ -1,12 +1,12 @@
 Unit
 ####
 
-"Unit" is a claim type that contains information about the identity of the unit, such as its name, aliases, classification (or branch), the country in which is operates, and the duration of its existence. They are connected together with ``Relation`` claims, resulting in a hierarchy of units.
+"Unit" is a claim type that contains information about the identity of the unit, such as its name, aliases, classification, the country in which is operates, and the duration of its existence. They are connected together with ``Relation`` claims, resulting in a hierarchy of units.
 
 Unit Identity: Summary of claim attributes 
 ******************************************
 
-The table below summarises the following dimensions of Unit Identity claims:
+The table below summarizes the following dimensions of ``unit`` claims:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
@@ -18,14 +18,14 @@ The table below summarises the following dimensions of Unit Identity claims:
    :header-rows: 1
 
 
-Unit Identity: details of claim attributes
-******************************************
+Unit: details of claim attributes
+*********************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.
 
 
 type:claim
-==================================
+==========
 
 Description
 ~~~~~~~~~~~
@@ -50,16 +50,16 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``unit``
+``unit``, ``positioning``, ``relation``, ``person``, ``posting``, ``incident``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``unit`` defines the claim and establishes the fields to be used in further data entry about a unit.
+Entering ``unit`` defines the claim and defines the relevant fields to be used in further data entry about a unit. For quality assurance purposes, entering ``unit`` should create an error if there is any entry for fields tied to other claim types, such as ``positioning`` or ``relation``.
 
 
 status:meta
-==================================
+===========
 
 Description
 ~~~~~~~~~~~
@@ -83,21 +83,21 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``accepted``, ``conflict``, ``work_needed``, "issue"
+``accepted``, ``conflict``, ``work_needed``, ``issue``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. Finally, if the data cannot be correctly entered or no citations can establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used. This allows the researcher to either fix the issue or conduct additional research.
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
 
 researcher:meta
-==================================
+===============
 
 Description
 ~~~~~~~~~~~
 
-Field for initials or other identifer of researcher who last entered data for the claim.
+Field for initials or other identifier of researcher who last entered data for the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -109,10 +109,14 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+``:meta/internal-comments``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``TW``
+``TW``, ``Jane_Doe``, 
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -121,7 +125,7 @@ Every researcher should use this field to mark the claims that they have entered
 
 
 internal_comments:meta
-==================================
+======================
 
 Description
 ~~~~~~~~~~~
@@ -138,6 +142,10 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+``:meta/internal-comments``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -150,7 +158,7 @@ Researchers may use this field to make temporary notes or leave temporary commen
 
 
 citation:refs:claim
-==================================
+===================
 
 Description
 ~~~~~~~~~~~
