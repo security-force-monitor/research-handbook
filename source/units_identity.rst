@@ -342,6 +342,8 @@ In cases where multiple units have the same name the Monitor will distinguish th
 
 In some cases, we are aware that a unit exist because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of "Unnamed" and "Unknown" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`.
 
+TO DO: Name standardization needs citations
+
 
 unit:names:assertion
 ====================
