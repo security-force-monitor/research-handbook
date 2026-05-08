@@ -55,7 +55,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``person`` defines the claim and defines the relevant fields to be used in further data entry about a unit. For quality assurance purposes, entering ``person`` should create an error if there is any entry for fields tied to other claim types, such as ``posting``.
+Entering ``person`` defines the claim and defines the relevant fields to be used in further data entry about a ``person``. For quality assurance purposes, entering ``person`` should create an error if there is any entry for fields tied to other claim types, such as ``posting``.
 
 
 status:meta
