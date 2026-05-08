@@ -25,7 +25,7 @@ This section contains further information about each attribute, including descri
 
 
 type:claim
-==================================
+==========
 
 Description
 ~~~~~~~~~~~
@@ -42,19 +42,24 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:claim/type``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``relation``
+``unit``, ``positioning``, ``relation``, ``person``, ``posting``, ``incident``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``relation`` defines the claim and establishes the fields to be used in further data entry about a relation.
+Entering ``positioning`` defines the claim and defines the relevant fields to be used in further data entry about a unit. For quality assurance purposes, entering ``positioning`` should create an error if there is any entry for fields tied to other claim types, such as ``unit`` or ``relation``.
 
 
 status:meta
-==================================
+===========
 
 Description
 ~~~~~~~~~~~
@@ -71,24 +76,35 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:claim/statuses``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``accepted``, ``conflict``, ``work_needed``
+``accepted``, ``conflict``, ``work_needed``, ``issue``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. Finally, if the data cannot be correctly entered or no citations can establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used. This allows the researcher to either fix the issue or conduct additional research.
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. A ``public_notes:meta`` should always accompany any ``conflict`` claim.
+
+.. admonition:: Example
+
+    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish a general numbering practices of the army which provides further evidence that no such battalion exists. The ``unit`` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with ``status:meta`` of the ``conflict``, and have the status fully explained in a ``public_notes:meta``.
+
+If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
 
 researcher:meta
-==================================
+===============
 
 Description
 ~~~~~~~~~~~
 
-Field for initials or other identifer of researcher who last entered data for the claim.
+Field for initials or other identifier of researcher who last entered data for the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -100,10 +116,15 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:meta/internal-comments``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``TW``
+``TW``, ``Jane_Doe``, ``G1`` 
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -112,7 +133,7 @@ Every researcher should use this field to mark the claims that they have entered
 
 
 internal_comments:meta
-==================================
+======================
 
 Description
 ~~~~~~~~~~~
@@ -129,6 +150,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:meta/internal-comments``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -137,11 +163,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood then that should be entered in the ``public_notes:meta`` field.
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the ``public_notes:meta`` field.
 
 
 citation:refs:claim
-==================================
+===================
 
 Description
 ~~~~~~~~~~~
@@ -158,6 +184,11 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:claim/citation:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -166,11 +197,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Indentifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
 
 about_entity:ref:claim
-==================================
+======================
 
 Description
 ~~~~~~~~~~~
@@ -186,6 +217,11 @@ Status
 ~~~~~~
 
 This attribute is required.
+
+Key name
+~~~~~~~~
+
+``:claim/about-entity:ref``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -209,6 +245,7 @@ Two or more ``relation`` claims should always be treated as contigious if there 
 
     The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change ``relation`` to whatever regional command controls the area where it is operating. One claim puts in an area under ``Northeastern Regional Military Command`` from at least ``2016-03-10`` to at least ``2016-03-11``, and another citation pleaces in an area under ``Northeastern Regional Military Command`` on ``2016-03-12``. These two claims are coded as the same ``relation`` given that they fall within 1 day of each other.
 
+
 about_entity:name:qa
 ==================================
 
@@ -226,6 +263,11 @@ Status
 ~~~~~~
 
 This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:claim/about-entity:ref``
 
 Example of use
 ~~~~~~~~~~~~~~
