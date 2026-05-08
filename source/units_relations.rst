@@ -475,55 +475,55 @@ Units have a ``Command`` relationship when the related parent unit can order the
 
 
 first_precise:range
-======================================
+===================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 last_precise:range
-====================================
+==================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 first_imprecise:range
-========================================
+=====================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 last_imprecise:range
-======================================
+====================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 starting:range
-===========================================
+==============
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 ending:range
-==========================================
+============
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 starting_context:range
-==========================================
+======================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 ending_context:range
-==========================================
+====================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 public_notes:meta
-============================
+=================
 
 Description
 ~~~~~~~~~~~
@@ -540,6 +540,10 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:meta/public-notes``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -549,11 +553,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
 
 
 type:entity
-====================================
+===========
 
 Description
 ~~~~~~~~~~~
@@ -563,12 +567,17 @@ Specifies the type of entity.
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text, controlled vocabulary
+Text, controlled vocabulary.
 
 Status
 ~~~~~~
 
 This field is required.
+
+Key name
+~~~~~~~~
+
+``:entity/type``
 
 Example of use
 ~~~~~~~~~~~~~~
