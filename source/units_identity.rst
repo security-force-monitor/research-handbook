@@ -1,7 +1,7 @@
 Unit
 ####
 
-A ``unit`` claim type contains information about the identity of the unit, such as its name, aliases, classification, the country in which is operates, and the duration of its existence.
+A ``unit`` claim type contains information about the identity of the unit, such as its name, aliases, classification, the country in which it operates, and the duration of its existence.
 
 Unit Identity: Summary of claim attributes 
 ******************************************
@@ -45,7 +45,6 @@ This attribute is required.
 Key name
 ~~~~~~~~
 ``:claim/type``
-
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -92,7 +91,7 @@ Claims are marked ``accepted`` when all of the data can be entered in accordance
 
 .. admonition:: Example
 
-    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish a general numbering schemea of the army which provides further evidence that no such battalion exists. The ``unit`` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with ``status:meta`` of the ``conflict``, and have the status fully explained in a ``public_notes:meta``.
+    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish a general numbering practices of the army which provides further evidence that no such battalion exists. The ``unit`` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with ``status:meta`` of the ``conflict``, and have the status fully explained in a ``public_notes:meta``.
 
 If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
@@ -160,7 +159,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood then that should be entered in the ``public_notes:meta`` field.
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the ``public_notes:meta`` field.
 
 
 citation:refs:claim
@@ -181,23 +180,23 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+``:claim/citation:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
 ``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``
 
-Key name
-~~~~~~~~
-``:claim/citation:refs``
-
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
 
 about_entity:ref:claim
-==================================
+======================
 
 Description
 ~~~~~~~~~~~
@@ -214,6 +213,10 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+``:claim/about-entity:ref``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -222,18 +225,23 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``unit`` this UUID distinguishes them from any other ``unit`` in the dataset. This UUID is used in other fields to tie a ``unit`` to a ``positioning``, ``relation``, ``posting``, or ``incident``.
+Every entity has an Universally Unique Identifier (UUID) to distinguish it from any other entity. For a ``unit`` this UUID distinguishes them from any other ``unit`` in the dataset. This UUID is used in other fields to tie a ``unit`` to a ``positioning``, ``relation``, ``posting``, or ``incident``.
 
-If a unit undergoes a change in name, that unit should be treated as a seperate, distinct unit and given its own UUID. For example, 25 Division of Syria.
+If a unit undergoes a change in name, that unit should be treated as a separate, distinct unit and given its own UUID.
+
+
+.. admonition:: Example
+
+    A citation establishes that a ``unit``, named the ``Tiger Forces`` in Syria were renamed the ``25 Anti-Terrorism Division`` in 2019. The division continued to serve with the same general functions as before, and contiued to be commanded by the same person. However, because a citation clearly evidenced that there had been a change in the name of the ``unit``, the ``25 Anti-Terrorism Division`` should be treated as a distinct ``unit`` with a separate ``about_entity:ref:claim`` from the ``Tiger Forces``.
 
 
 about_entity:name:qa
-==================================
+====================
 
 Description
 ~~~~~~~~~~~
 
-Field that provides human readible name for the claim.
+Field that provides human readable name for the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -244,6 +252,10 @@ Status
 ~~~~~~
 
 This attribute is optional.
+
+Key name
+~~~~~~~~
+``:claim/about-entity:ref``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -257,7 +269,7 @@ This field provides a human readable counterpart to the ``about_entity:ref:claim
 
 
 name:annotation
-=====================
+===============
 
 Description
 ~~~~~~~~~~~
@@ -273,6 +285,10 @@ Status
 ~~~~~~
 
 This attribute is optional.
+
+Key name
+~~~~~~~~
+``:annotation/name``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -297,8 +313,6 @@ Additionally, wherever possible, we will choose the most complete and complex ve
 
 .. admonition:: Examples
 
-
-
     Example C: ``3 Armoured Division`` would be the entry, rather than the more informal ``3 Division`` (which may have more citations).
 
 The Monitor does not use ordinal indicators like ``1st`` or ``3rd`` in the name of an Unit. Instead these will be listed in the `Unit Identity: Other Names`_ field.
@@ -322,7 +336,7 @@ In some cases, we are aware that a unit exist because of what sources tell us ab
 
 
 unit:names:assertion
-============================
+====================
 
 Description
 ~~~~~~~~~~~
@@ -339,6 +353,10 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+``:assertion/unit:names``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -347,18 +365,13 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Any name for a unit used in the citation should be entered in this field. While the ``name:annotation`` field is only used for a single, most complex value, this field is used for any name a citation uses for a unit. Thus this field serves to capture "aliases" of a unit, which also includes any typos or mispellings that may exist in the citation.
+Any name for a unit used in the citation should be entered in this field. While the ``name:annotation`` field is only used for a single, most complex value, this field is used for any name a citation uses for a unit. Thus this field serves to capture "aliases" of a unit, which also includes any typos or misspellings that may exist in the citation.
 
 Ordinal indicators like "2nd" or "10/o" should be entered in this field.
 
 
 unit:classifications:assertion
-====================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::unit:classifications``
+==============================
 
 Description
 ~~~~~~~~~~~
@@ -388,7 +401,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-We use classifications to describe the basic nature of a specific unit and to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor's dataset. As alleged perpetrators are usually identified in general terms of "soldiers" and "police" this field is important as a first step to understand potential linkages between units, persons and incidents. `Unit Identity: Classification` values are useful supplements to those in the `Unit Relations`_ claim type in connecting different units together.
+We use classifications to describe the basic nature of a specific unit and to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor's dataset. As alleged perpetrators are usually identified in general terms of "soldiers" and "police" this field is important as a first step to understand potential linkages between a ``unit``, ``person`` and ``incident``. `Unit Identity: Classification` values are useful supplements to those in the `Unit Relations`_ claim type in connecting different units together.
 
 The `Unit Identity: Classification`_ field will contain a mix of standard terms and country-specific terms used to describe security force branches. In choosing terms to include in the `Unit Identity: Classification`_ field we try to include terms that are used by country experts as well as those that are common terms. We also try to be economical and create as few, distinct terms as possible.
 
@@ -400,7 +413,7 @@ Units may have more than one classification. Usually this will be when a unit ca
 
 
 country:annotation
-========================
+==================
 
 Description
 ~~~~~~~~~~~
@@ -416,6 +429,10 @@ Status
 ~~~~~~
 
 This attribute is optional.
+
+Key name
+~~~~~~~~
+``:annotation/country``
 
 Example of use
 ~~~~~~~~~~~~~~
