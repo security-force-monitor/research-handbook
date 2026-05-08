@@ -1,12 +1,12 @@
 Posting
-##############
+#######
 
 The ``posting`` claim type holds information about a person's career. It first defines a relationships between a ``person`` and a ``unit``, and can be used to further describe the role the person has in the unit ("Commander", "Chief of Staff", etc.), the rank they hold at the time of the posting, and any title they may hold at the time of a posting. Usually a ``person`` has a single ``posting`` at any one time. However, there are cases where one ``person`` holds multiple, simaltaneous ``postings``. In rare instances a ``person`` may hold one ``posting`` which commands another ``posting`` they also hold.
 
 
 
 Posting: Summary of claim attributes 
-********************************************
+************************************
 
 The table below summarizes the following dimensions of Posting claims:
 
@@ -21,12 +21,12 @@ The table below summarizes the following dimensions of Posting claims:
    :header-rows: 1
 
 Posting: Details of claim attributes
-********************************************
+************************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use.
 
 type:claim
-==================================
+==========
 
 Description
 ~~~~~~~~~~~
@@ -43,15 +43,20 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:claim/type``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``posting``
+``unit``, ``positioning``, ``relation``, ``person``, ``posting``, ``incident``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering `posting`` defines the claim and establishes the fields to be used in further data entry about a posting.
+Entering ``posting`` defines the claim and defines the relevant fields to be used in further data entry about a ``posting``. For quality assurance purposes, entering ``posting`` should create an error if there is any entry for fields tied to other claim types, such as ``person``.
 
 
 status:meta
