@@ -1,12 +1,12 @@
 Positioning
 ###########
 
-The ``positioning`` claim describes the geographic footprint of a specific unit. This includes the site or base of a unit, as well as the areas of operation of a unit.
+The ``positioning`` claim describes the geographic footprint of a specific unit. This includes the site or base of a unit, as well as the ``areas of operation of a unit.
 
 Positioning: Summary of claim attributes
 *********************************************
 
-The table below summarises the following dimensions of ``positioning`` claims:
+The table below summarizes the following dimensions of ``positioning`` claims:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
@@ -251,7 +251,7 @@ TO DO: Positionings should "go down" the hierarchy to lower level administrative
 
 
 about_entity:name:qa
-==================================
+====================
 
 Description
 ~~~~~~~~~~~
@@ -268,6 +268,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:claim/about-entity:ref``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -280,12 +285,7 @@ This field provides a human readable counterpart to the ``about_entity:ref:claim
 
 
 positioning:unit:refs:assertion
-=================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::positioning:unit:id``
+===============================
 
 Description
 ~~~~~~~~~~~
@@ -302,6 +302,11 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:assertion/positioning:unit:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -310,7 +315,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The UUID inputted into ``::positioning:unit:id`` must match the ``about_entity:ref:claim`` of a ``unit`` that already exists within the dataset.
+The UUID inputted into ``positioning:unit:refs:assertion`` must match the ``about_entity:ref:claim`` of a ``unit`` that already exists within the dataset.
 
 
 positioning:unit:names:qa
@@ -331,6 +336,11 @@ Status
 
 This attribute is optional
 
+Key name
+~~~~~~~~
+
+``:assertion/positioning:unit:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -344,11 +354,6 @@ This is human readible name for the ``unit`` with the ``positioning``. The field
 
 positioning:types:assertion
 ===========================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::positioning:type``
 
 Description
 ~~~~~~~~~~~
@@ -364,6 +369,16 @@ Status
 ~~~~~~
 
 This attribute is optional
+
+Key name
+~~~~~~~~
+
+``:assertion/positioning:types``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``site``, ``aoo``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -381,11 +396,6 @@ TO DO: Positioning should be largest possible area that matches the name given i
 positioning:base_names:assertion
 ================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::positioning:base_name``
-
 Description
 ~~~~~~~~~~~
 
@@ -400,6 +410,12 @@ Status
 ~~~~~~
 
 This attribute is optional
+
+Key name
+~~~~~~~~
+
+``:assertion/positioning:base-names``
+
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -419,11 +435,6 @@ This field should not be used for anything that matches the name or alias of a u
 positioning:location:refs:assertion
 ===================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::positioning:location:id``
-
 Description
 ~~~~~~~~~~~
 
@@ -438,6 +449,11 @@ Status
 ~~~~~~
 
 This attribute is optional
+
+Key name
+~~~~~~~~
+
+``:assertion/positioning:location:refs``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -468,6 +484,11 @@ Status
 
 This attribute is optional
 
+Key name
+~~~~~~~~
+
+``:assertion/positioning:location:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -476,7 +497,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The best practice for this field is to use the ``location:humane_id:qa`` of the ``incident:location:refs:assertion``.
+The best practice for this field is to use the ``location:humane_id:qa`` of the ``positioning:location:refs:assertion``.
 
 
 first_precise:range
