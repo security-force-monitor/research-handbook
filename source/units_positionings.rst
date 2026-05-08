@@ -371,6 +371,8 @@ This field defines the relationship between a unit and a location. The Staff Res
 
 The type of Location may be different from the way that the Location is described. For example, a small geographic area like a suburb is a *geometric area* but it could be used to describe a "site" for a unit. Locations themselves are a mix of geographical primatives - points, lines and polygons. This is why :ref:`Locations` are defined independently of their relationship to Units and Incidents.
 
+TO DO: Positioning should be largest possible area that matches the name given in the claim
+
 
 positioning:base_names:assertion
 ================================
