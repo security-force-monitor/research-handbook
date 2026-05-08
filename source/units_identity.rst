@@ -44,6 +44,7 @@ This attribute is required.
 
 Key name
 ~~~~~~~~
+
 ``:claim/type``
 
 Example of use
@@ -77,6 +78,7 @@ This attribute is required.
 
 Key name
 ~~~~~~~~
+
 ``:claim/statuses``
 
 Example of use
@@ -116,6 +118,7 @@ This attribute is required.
 
 Key name
 ~~~~~~~~
+
 ``:meta/internal-comments``
 
 Example of use
@@ -149,6 +152,7 @@ This attribute is optional.
 
 Key name
 ~~~~~~~~
+
 ``:meta/internal-comments``
 
 Example of use
@@ -182,6 +186,7 @@ This attribute is required.
 
 Key name
 ~~~~~~~~
+
 ``:claim/citation:refs``
 
 Example of use
@@ -215,6 +220,7 @@ This attribute is required.
 
 Key name
 ~~~~~~~~
+
 ``:claim/about-entity:ref``
 
 Example of use
@@ -255,6 +261,7 @@ This attribute is optional.
 
 Key name
 ~~~~~~~~
+
 ``:claim/about-entity:ref``
 
 Example of use
@@ -288,6 +295,7 @@ This attribute is optional.
 
 Key name
 ~~~~~~~~
+
 ``:annotation/name``
 
 Example of use
@@ -355,6 +363,7 @@ This attribute is required.
 
 Key name
 ~~~~~~~~
+
 ``:assertion/unit:names``
 
 Example of use
@@ -381,7 +390,7 @@ A general descriptor for the unit, often matches a branch or branches of the uni
 Atrribute type
 ~~~~~~~~~~~~~~
 
-String
+Text, controlled vocabulary.
 
 Status
 ~~~~~~
@@ -390,6 +399,7 @@ This attribute is optional.
 
 Key name
 ~~~~~~~~
+
 ``:assertion/unit:classifications``
 
 Example of use
@@ -423,7 +433,7 @@ Associated country of the unit used for grouping claims.
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text, controlled vocabulary
+Text, controlled vocabulary.
 
 Status
 ~~~~~~
@@ -432,6 +442,7 @@ This attribute is optional.
 
 Key name
 ~~~~~~~~
+
 ``:annotation/country``
 
 Example of use
@@ -446,55 +457,55 @@ Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, whic
 
 
 first_precise:range
-======================================
+===================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 last_precise:range
-====================================
+==================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 first_imprecise:range
-========================================
+=====================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 last_imprecise:range
-======================================
+====================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 starting:range
-===========================================
+==============
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 ending:range
-==========================================
+============
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 starting_context:range
-==========================================
+======================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 ending_context:range
-==========================================
+====================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 public_notes:meta
-============================
+=================
 
 Description
 ~~~~~~~~~~~
@@ -511,6 +522,10 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:meta/public-notes``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -524,7 +539,7 @@ This field should be used whenever any claim requires additional explanation bec
 
 
 type:entity
-====================================
+===========
 
 Description
 ~~~~~~~~~~~
@@ -534,12 +549,17 @@ Specifies the type of entity.
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text, controlled vocabulary
+Text, controlled vocabulary.
 
 Status
 ~~~~~~
 
 This field is required.
+
+Key name
+~~~~~~~~
+
+``:entity/type``
 
 Example of use
 ~~~~~~~~~~~~~~
