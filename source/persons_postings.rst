@@ -60,7 +60,7 @@ Entering ``posting`` defines the claim and defines the relevant fields to be use
 
 
 status:meta
-==================================
+===========
 
 Description
 ~~~~~~~~~~~
@@ -77,19 +77,26 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:claim/statuses``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``accepted``, ``conflict``, ``work_needed``
+``accepted``, ``conflict``, ``work_needed``, ``issue``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. Finally, if the data cannot be correctly entered or no citations can establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used. This allows the researcher to either fix the issue or conduct additional research.
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. A ``public_notes:meta`` should always accompany any ``conflict`` claim.
+
+If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
 
 researcher:meta
-==================================
+===============
 
 Description
 ~~~~~~~~~~~
@@ -106,10 +113,15 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:meta/internal-comments``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``TW``
+``TW``, ``Jane_Doe``, ``G1`` 
 
 Guidance on use
 ~~~~~~~~~~~~~~~
