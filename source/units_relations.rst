@@ -3,8 +3,8 @@ Relation
 
 The ``relation`` claim type describes how a ``unit`` relates to another ``unit``. This can be used to model a hierarchical "tree" where one ``unit`` is subordinate to another, or it can also be used to model joint-task force or other multi-unit grouping where the grouping is comprised of members from multiple different units.
 
-Unit Relation: Summary of claim attributes
-******************************************
+Relation: Summary of claim attributes
+*************************************
 
 The table below summarises the following dimensions of Unit Relation claims:
 
@@ -18,8 +18,8 @@ The table below summarises the following dimensions of Unit Relation claims:
    :header-rows: 1
 
 
-Unit Relation: Details of claim attributes
-******************************************
+Relation: Details of claim attributes
+*************************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.
 
@@ -247,7 +247,7 @@ Two or more ``relation`` claims should always be treated as contigious if there 
 
 
 about_entity:name:qa
-==================================
+====================
 
 Description
 ~~~~~~~~~~~
@@ -298,6 +298,11 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:assertion/relation:unit:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -310,7 +315,7 @@ The ``about_entity:ref:claim`` UUID must be for a ``unit`` which already exists 
 
 
 relation:unit:names:qa
-============================
+======================
 
 Description
 ~~~~~~~~~~~
@@ -327,6 +332,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:assertion/relation:unit:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -339,7 +349,7 @@ This field provides a human readable counterpart to the ``relation:unit:refs:ass
 
 
 relation:types:assertion
-===============================
+========================
 
 Description
 ~~~~~~~~~~~
@@ -349,12 +359,17 @@ The type of relationship that exists between two units.
 Attribute type
 ~~~~~~~~~~~~~~
 
-String from controlled list
+String from controlled list.
 
 Status
 ~~~~~~
 
 This attribute is required.
+
+Key name
+~~~~~~~~
+
+``:assertion/relation:types``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -373,7 +388,7 @@ The values included in this field are used to build the organizational structure
 
 
 relation:related_unit:refs:assertion
-======================================
+====================================
 
 Description
 ~~~~~~~~~~~
@@ -389,6 +404,11 @@ Status
 ~~~~~~
 
 This attribute is required.
+
+Key name
+~~~~~~~~
+
+``:assertion/relation:related-unit:refs``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -438,6 +458,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:assertion/relation:related-unit:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -450,7 +475,7 @@ This field provides a human readable counterpart to the ``relation:related_unit:
 
 
 relation:related_unit_classes:assertion
-======================================
+=======================================
 
 Description
 ~~~~~~~~~~~
@@ -466,6 +491,11 @@ Status
 ~~~~~~
 
 This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:assertion/relation:related-unit-classes``
 
 Example of use
 ~~~~~~~~~~~~~~
