@@ -6,7 +6,7 @@ The ``relation`` claim type describes how a ``unit`` relates to another ``unit``
 Relation: Summary of claim attributes
 *************************************
 
-The table below summarises the following dimensions of Unit Relation claims:
+The table below summarizes the following dimensions of Unit Relation claims:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
@@ -226,24 +226,24 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``521ebf18-f161-4ac9-8c72-5a246efa0458``
+``0ab0e3c3-4bd6-4607-8cc5-1cfce9502c57``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim has an Universally Unique Indentifier (UUID) to distinguish it from any other claim. For a ``relation`` this UUID distinguishes them from any other ``relation`` in the dataset.
+Every claim has a Universally Unique Identifier (UUID) to distinguish it from any other claim. For a ``relation`` this UUID distinguishes them from any other ``relation`` in the dataset.
 
-Every ``relation`` between the same two ``units`` is always treated as a contingious, meaning it has the same UUID, unless citations establish it should be treated as non-contigious.
-
-.. admonition:: Example
-
-    EXAMPLE
-
-Two or more ``relation`` claims should always be treated as contigious if there is an overlap in the time range of the two claims, or if the time-ranges of the claims fall within 1 day of each other.
+Every ``relation`` between the same two ``units`` is always treated as a contiguous, meaning it has the same UUID, unless citations establish it should be treated as non-contiguous.
 
 .. admonition:: Example
 
-    The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change ``relation`` to whatever regional command controls the area where it is operating. One claim puts in an area under ``Northeastern Regional Military Command`` from at least ``2016-03-10`` to at least ``2016-03-11``, and another citation pleaces in an area under ``Northeastern Regional Military Command`` on ``2016-03-12``. These two claims are coded as the same ``relation`` given that they fall within 1 day of each other.
+    TO DO
+
+Two or more ``relation`` claims should always be treated as contiguous if there is an overlap in the time range of the two claims, or if the time-ranges of the claims fall within 1 day of each other.
+
+.. admonition:: Example
+
+    The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change ``relation`` to whatever regional command controls the area where it is operating. One claim puts in an area under ``Northeastern Regional Military Command`` from at least ``2016-03-10`` to at least ``2016-03-11``, which establishes a ``relation`` between the division and the regional command for the same time-range. Another citation places the division in an area under ``Northeastern Regional Military Command`` on ``2016-03-12``, which again establishes a ``relation`` between the division and the regional command for the same time-range. These two claims are coded as the same ``relation`` given that they fall within 1 day of each other.
 
 
 about_entity:name:qa
@@ -252,7 +252,7 @@ about_entity:name:qa
 Description
 ~~~~~~~~~~~
 
-Field that provides human readible name for entity.
+Field that provides human readable name for entity.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -288,7 +288,7 @@ Description
 
 The unique 32 character code assigned to the unit about which a relationship is described in the claim.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
 String in UUID format
@@ -322,7 +322,7 @@ Description
 
 The unique 32 character code assigned to the unit about which a relationship is described in the claim.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
 String in UUID format
@@ -448,10 +448,10 @@ Description
 
 The unique 32 character code assigned to the unit about which a relationship is described in the claim.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format
+String in UUID format.
 
 Status
 ~~~~~~
@@ -471,7 +471,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the ``relation:related_unit:refs:assertion`` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the ``name:annotation`` of the ``unit``.
+This field provides a human readable counterpart to the ``relation:related_unit:refs:assertion`` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the ``name:annotation`` of the ``unit`` in the ``relation:related_unit:refs:assertion`` field.
 
 
 relation:related_unit_classes:assertion
@@ -480,7 +480,7 @@ relation:related_unit_classes:assertion
 Description
 ~~~~~~~~~~~
 
-Quality or nature of the relationshis that exists between two units.
+Quality or nature of the relationship that exists between two units.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -629,4 +629,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For a ``relation`` the only allowed entry for this field is ``claim``.
+For a ``relation`` the only entry allowed for this field is ``claim``.
