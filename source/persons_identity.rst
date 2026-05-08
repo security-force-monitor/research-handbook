@@ -4,7 +4,7 @@ Person
 "Person" is a claim type describing basic identifying information about a person: their name, aliases and associated time ranges with them. Claims of this type are grouped together with :ref:`Person Posting` (describing postings to different units) which tracks the person's career. There are also several fields in development to capture other aspects about persons.
 
 Person: Summary of claim attributes 
-*****************************************
+***********************************
 
 The table below summarizes the following dimensions of Person claims:
 
@@ -19,13 +19,13 @@ The table below summarizes the following dimensions of Person claims:
 
 
 Person: Details of claim attributes
-********************************************
+***********************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use.
 
 
 type:claim
-==================================
+==========
 
 Description
 ~~~~~~~~~~~
@@ -42,19 +42,24 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:claim/type``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``person``
+``unit``, ``positioning``, ``relation``, ``person``, ``posting``, ``incident``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``person`` defines the claim and establishes the fields to be used in further data entry about a person.
+Entering ``person`` defines the claim and defines the relevant fields to be used in further data entry about a unit. For quality assurance purposes, entering ``person`` should create an error if there is any entry for fields tied to other claim types, such as ``posting``.
 
 
 status:meta
-==================================
+===========
 
 Description
 ~~~~~~~~~~~
@@ -71,19 +76,26 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:claim/statuses``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``accepted``, ``conflict``, ``work_needed``
+``accepted``, ``conflict``, ``work_needed``, ``issue``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. For example, XYZ. Finally, if the data cannot be correctly entered or no citations can establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used. This allows the researcher to either fix the issue or conduct additional research.
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. A ``public_notes:meta`` should always accompany any ``conflict`` claim.
+
+If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
 
 researcher:meta
-==================================
+===============
 
 Description
 ~~~~~~~~~~~
@@ -100,10 +112,15 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:meta/internal-comments``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``TW``
+``TW``, ``Jane_Doe``, ``G1`` 
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -112,7 +129,7 @@ Every researcher should use this field to mark the claims that they have entered
 
 
 internal_comments:meta
-==================================
+======================
 
 Description
 ~~~~~~~~~~~
@@ -129,6 +146,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:meta/internal-comments``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -137,11 +159,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood then that should be entered in the ``public_notes:meta`` field.
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the ``public_notes:meta`` field.
 
 
 citation:refs:claim
-==================================
+===================
 
 Description
 ~~~~~~~~~~~
@@ -158,6 +180,11 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:claim/citation:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -166,11 +193,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Indentifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
 
 about_entity:ref:claim
-==================================
+======================
 
 Description
 ~~~~~~~~~~~
@@ -187,6 +214,11 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:claim/about-entity:ref``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -195,15 +227,15 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has an Universally Unique Indentifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
+Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
 
-A ``person`` from one citation is never assumed to be the same ``person`` from another citation based on an exact or near match of their name. Instead the ``posting`` is used to determine whether two people with the same or similar names are the the same ``person``. For example, if a citation states "John Alfred Smith" was commander of "Police Station 1" and another states "John Smith" was the commander of "Police Station 1" they would be treated as the same person given the match of ``posting`` as well as their similar name. However, if one citation stated "John Alfred Smith" was the commander of "Police Station 2" they would not be treated as the same person as the "John Alfred Smith" who was commander of "Police Station 1" since there is no match of a ``posting``.
+A ``person`` from one citation is never assumed to be the same ``person`` from another citation based on an exact or near match of their name. Instead the ``posting`` is used to determine whether two people with the same or similar names are the same ``person``. For example, if a citation states "John Alfred Smith" was commander of "Police Station 1" and another states "John Smith" was the commander of "Police Station 1" they would be treated as the same person given the match of ``posting`` as well as their similar name. However, if one citation stated "John Alfred Smith" was the commander of "Police Station 2" they would not be treated as the same person as the "John Alfred Smith" who was commander of "Police Station 1" since there is no match of a ``posting``.
 
-Determining whether one person held multiple postings is based on some match of postings among different citations. For example, if one citation stated "John Alfred Smith" was commander of "Police Station 1" and another citation stated "J. Smith" was commander of "Police Station 3" there would be no match and these should be coded as two seperate people each with their own `about_entity:ref:claim`. If then a third citation stated that during the career of "John Smith" he was commander of "Police Station 1", "Police station 15" and "Police Station 3" then all of these would be treated as the same person given the match of at least one ``posting`` across all citations and the similar names of the person in each citation.
+Determining whether one person held multiple postings is based on some match of postings among different citations. For example, if one citation stated "John Alfred Smith" was commander of "Police Station 1" and another citation stated "J. Smith" was commander of "Police Station 3" there would be no match and these should be coded as two separate people each with their own `about_entity:ref:claim`. If then a third citation stated that during the career of "John Smith" he was commander of "Police Station 1", "Police station 15" and "Police Station 3" then all of these would be treated as the same person given the match of at least one ``posting`` across all citations and the similar names of the person in each citation.
 
 
 about_entity:name:qa
-==================================
+====================
 
 Description
 ~~~~~~~~~~~
