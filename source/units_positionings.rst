@@ -245,6 +245,10 @@ A ``positioning`` should always be given the same UUID if there is an overlap or
 
     Citations establish that the ``502 Light Infantry Battalion`` is part of a mobile formation which is deployed around Myanmar for operations, and because of this ``positioning`` claims should not be treated as contiguous. However, there are two different claims that the ``502 Light Infantry Battalion`` has a ``positioning`` ``site`` of ``Mantong Township``, one claim on ``2013-04-19`` and the other on ``2013-04-20``. Because these two claims are within a day of each other, they are coded as part of the same ``positioning`` giving the ``502 Light Infantry Battalion`` a ``positioning`` ``site`` of ``Mantong Township`` from at least ``2013-04-19`` to at least ``2013-04-20``. Another claim giving the ``502 Light Infantry Battalion`` a ``positioning`` ``site`` of ``Mantong Township`` on ``2014-04-20`` is coded as a separate, non-contiguous positioning because of the citations stating that the battalion is part of a mobile formation which is deployed around Myanmar for operations.
 
+TO DO: Positionings should be inherited by parent units - same with classifications
+
+TO DO: Positionings should "go down" the hierarchy to lower level administrative boundaries - ie region/state to township
+
 
 about_entity:name:qa
 ==================================
