@@ -241,11 +241,6 @@ This field provides a human readable counterpart to the ``about_entity:ref:claim
 relation:unit:refs:assertion
 ============================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::relation:unit:id``
-
 Description
 ~~~~~~~~~~~
 
@@ -275,11 +270,6 @@ The ``about_entity:ref:claim`` UUID must be for a ``unit`` which already exists 
 relation:unit:names:qa
 ============================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::relation:unit:id``
-
 Description
 ~~~~~~~~~~~
 
@@ -308,11 +298,6 @@ This field provides a human readable counterpart to the ``relation:unit:refs:ass
 
 relation:types:assertion
 ===============================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``:assertion/relation:types``
 
 Description
 ~~~~~~~~~~~
@@ -347,11 +332,6 @@ The values included in this field are used to build the organizational structure
 
 relation:related_unit:refs:assertion
 ======================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``:assertion/relation:related-unit:refs``
 
 Description
 ~~~~~~~~~~~
@@ -401,11 +381,6 @@ In some cases, we are aware that a unit exist because of what sources tell us ab
 relation:related_unit:names:qa
 ==============================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-n/a
-
 Description
 ~~~~~~~~~~~
 
@@ -434,11 +409,6 @@ This field provides a human readable counterpart to the ``relation:related_unit:
 
 relation:related_unit_classes:assertion
 ======================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``:assertion/relation:related-unit-classes``
 
 Description
 ~~~~~~~~~~~
