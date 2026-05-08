@@ -568,49 +568,55 @@ This field provides a human readable counterpart to the ``incident:victim:refs:a
 
 
 first_precise:range
-===============================
+===================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
 
 last_precise:range
-=============================
+==================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
 
 first_imprecise:range
-=================================
+=====================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
 
 last_imprecise:range
-===============================
+====================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
 
 starting:range
-====================================
+==============
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
 
 ending:range
-===================================
+============
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
+
 starting_context:range
-==========================================
+======================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 ending_context:range
-==========================================
+====================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 public_notes:meta
-============================
+=================
 
 Description
 ~~~~~~~~~~~
@@ -627,6 +633,10 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:meta/public-notes``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -640,7 +650,7 @@ This field should be used whenever any claim requires additional explanation bec
 
 
 type:entity
-====================================
+===========
 
 Description
 ~~~~~~~~~~~
@@ -650,12 +660,17 @@ Specifies the type of entity.
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text, controlled vocabulary
+Text, controlled vocabulary.
 
 Status
 ~~~~~~
 
 This field is required.
+
+Key name
+~~~~~~~~
+
+``:entity/type``
 
 Example of use
 ~~~~~~~~~~~~~~
