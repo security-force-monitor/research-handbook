@@ -164,7 +164,7 @@ Researchers may use this field to make temporary notes or leave temporary commen
 
 
 citation:refs:claim
-==================================
+===================
 
 Description
 ~~~~~~~~~~~
@@ -181,6 +181,11 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:claim/citation:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -189,7 +194,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon seperated.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
 
 about_entity:ref:claim
