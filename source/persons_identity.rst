@@ -424,6 +424,147 @@ ending_context:range
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
+person:genders:assertion
+========================
+
+Description
+~~~~~~~~~~~
+
+Indicators of a person's sex or gender identity, as inferred from pronouns used in the text of available sources.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Open list, single choice.
+
+Status
+~~~~~~
+
+This is a draft field, to be finalized.
+
+Key name
+~~~~~~~~
+
+``:assertion/person:genders``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Male``, ``Female``, ``Other``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to capture data about the gender of a person, as determined only by the pronouns ("her", "she", "his", "him", etc.) used in any available textual sources about this person. We do not infer a person's gender from their name or images of them. 
+
+Echoing the definition used in the `FOAF standard<http://xmlns.com/foaf/spec/#term_gender>`, the `person:genders:assertion` attribute is not intended to capture the full range of possible biological, social and sexual associated with the word "gender". This attribute open to include alternatives that are expressed within the available sources about a person.
+
+Where the sources contain no textual indication about the person's gender, the attribute should be left blank.
+
+
+person:account_type:assertion
+===============================
+
+Description
+~~~~~~~~~~~
+
+The name of an online platform or service on which the person holds an account.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Open list, single choice.
+
+Status
+~~~~~~
+
+This is a draft field, to be finalized.
+
+
+Key name
+~~~~~~~~
+
+``:assertion/person:account-type``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``facebook``, ``telegram``, ``youtube``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to record the name of the online platform of service on which a person holds an account. The name is chosen from a list of available platforms and services, which will be updated as required. Where a person has more than one account, on the same or different platforms, a new claim should be created.
+
+
+person:account_id:assertion
+=====================================
+
+Description
+~~~~~~~~~~~
+
+The account name used by the person on a specific online platform or service.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This is a draft field, to be finalized.
+
+Key name
+~~~~~~~~
+
+``:assertion/person:account-id``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``CapitaineIb226`` (on X)
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to record the account name held by the person on a specific online platform or service. Where a person has more than one account, on the same or different platforms, a new claim should be created.
+
+
+person:media_description:annotation
+====================================
+
+Description
+~~~~~~~~~~~
+
+Short textual description of material found in a media resource that provides information about a how person looks or sounds.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This is a draft field, to be finalized.
+
+Key name
+~~~~~~~~
+
+``:annotation/person:media-description``
+
+Example of use
+~~~~~~~~~~~~~~
+
+"Face and shoulders of Bosco Ntaganda, in military uniform with hat, tie and lapels, backed by two other men in combat fatigues armed with rifles. Taken at a news conference in January 2009."
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to store a brief description of the content of external. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the person.
+
+
 public_notes:meta
 =================
 
@@ -456,126 +597,6 @@ Guidance on use
 ~~~~~~~~~~~~~~~
 
 This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
-
-
-person:gender:assertion
-================================
-
-Description
-~~~~~~~~~~~
-
-Indicators of a person's sex or gender identity, as inferred from pronouns used in the text of available sources.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Open list, single choice
-
-Status
-~~~~~~
-
-This is a draft field, to be finalized.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``Male``, ``Female``, ``Other``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute is used to capture data about the gender of a person, as determined only by the pronouns ("her", "she", "his", "him", etc) used in any available textual sources about this person. We do not infer a person's gender from their name or images of them. 
-
-Echoing the definition used in the `FOAF standard<http://xmlns.com/foaf/spec/#term_gender>`, the `person:gender:assertion` attribute is not intended to capture the full range of possible biological, social and sexual associated with the word "gender". In the majority of cases the value recorded in this attribute will be ``male`` or ``female``. However, we have left this attribute open to include alternatives that are expressed within the available sources about a person.
-
-Where the sources contain no textual indication about the person's gender, the attribute should be left blank.
-
-
-person:account_type:assertion
-===============================
-
-Description
-~~~~~~~~~~~
-
-The name of an online platform or service on which the person holds an account.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String
-
-Status
-~~~~~~
-
-This is a draft field, to be finalized.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``facebook``, ``telegram``, ``youtube``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute is used to record the name of the online platform of service on which a person holds an account. The name is chosen from a list of available platforms and services, which will be updated as required. Where a person has more than one account, on the same or different platforms, a new claim should be created.
-
-person:account_id:assertion
-=====================================
-
-Description
-~~~~~~~~~~~
-
-The account name used by the person on a specific online platform or service.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String
-
-Status
-~~~~~~
-
-This is a draft field, to be finalized.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``CapitaineIb226`` (on X)
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute is used to record the account name held by the person on a specific online platform or service. Where a person has more than one account, on the same or different platforms, a new claim should be created.
-
-
-
-person:media_description:annotation
-====================================
-
-Description
-~~~~~~~~~~~
-
-Short textual description of material found in a media resource that provides information about a how person looks or sounds.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String
-
-Status
-~~~~~~
-
-This is a draft field, to be finalized.
-
-Example of use
-~~~~~~~~~~~~~~
-
-"Face and shoulders of Bosco Ntaganda, in military uniform with hat, tie and lapels, backed by two other men in combat fatigues armed with rifles. Taken at a news conference in January 2009."
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute is used to store a brief description of the content of external. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the person.
 
 
 type:entity
