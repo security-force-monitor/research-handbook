@@ -442,6 +442,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:meta/public-notes``
+
 Example of use
 ~~~~~~~~~~~~~~
 
