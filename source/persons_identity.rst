@@ -286,6 +286,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:annotation/name``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -294,11 +299,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-As with all annotation fields this field is the singular display name for the entity. For a ``person`` this field only used if the citation evidences the fullest name of a person, which is defined as the name with the highest number of characters. Ranks, titles, or positions held should not be entered in this field as they are captured in other fields.
+As with all annotation fields, this field is the singular display name for the entity. For a ``person`` this field is only used if the citation evidences the fullest name of a person, which is defined as the name with the highest number of characters. Ranks, titles, or positions held should not be entered in this field as they are captured in other fields.
 
-This field can be dynamic and change with ongoing research. For example, a researcher investigating Myanmar may first come across citation ``9f01b1c1-563f-4b40-a534-b91c7e1a5062`` for the ``person`` of ``Zeya Aung`` (a name which has nine characters). This would be entered in ``name:annotation``. Next they may come across another citation ``4c0aaa5d-a147-4f1c-91d8-46d005be1a04`` that evidences the same person, but gives a name of ``Zayar Aung`` (with 10 characters). This longer which would be entered in ``name:annotation``, and ``Zeya Aung`` in the previous entry tied to citation ``9f01b1c1-563f-4b40-a534-b91c7e1a5062`` would be cleared. Finally, the researcher may come across citation ``c0b4b224-6432-45a5-854d-148d76af0ffa`` which would evidence the name of ``Zeyar Aung`` (with 10 characters). As there are two names, both with 10 characters each, the researcher would use the agreement of the name starting with "Zeya" to evidence ``Zeyar Aung`` as the ``name:annotation``, and ``Zeyar Aung`` in the previous entry tied to citation ``4c0aaa5d-a147-4f1c-91d8-46d005be1a04`` would be cleared.
+This field can be dynamic and change with ongoing research. For example, a researcher investigating Myanmar may first come across citation ``9f01b1c1-563f-4b40-a534-b91c7e1a5062`` for the ``person`` of ``Zeya Aung`` (a name which has nine characters). This would be entered in ``name:annotation``. Next, they may come across another citation ``4c0aaa5d-a147-4f1c-91d8-46d005be1a04`` that evidences the same person but gives a name of ``Zayar Aung`` (with 10 characters). This longer which would be entered in ``name:annotation``, and ``Zeya Aung`` in the previous entry tied to citation ``9f01b1c1-563f-4b40-a534-b91c7e1a5062`` would be cleared. Finally, the researcher may come across citation ``c0b4b224-6432-45a5-854d-148d76af0ffa`` which would evidence the name of ``Zeyar Aung`` (with 10 characters). As there are two names, both with 10 characters each, the researcher would use the agreement of the name starting with "Zeya" to evidence ``Zeyar Aung`` as the ``name:annotation``, and ``Zeyar Aung`` in the previous entry tied to citation ``4c0aaa5d-a147-4f1c-91d8-46d005be1a04`` would be cleared.
 
-When there are two persons who may be the same person, but citations have not confirmed they are the same person, the symbol ‡ can be applied after the last character in their ``name:annotation`` to help visually identify them in their display name. A corresponding ``public_notes:meta`` should be entered to explain why the symbol ‡ has been used.
+Occasionally there are two ``persons`` who may be the same ``person`` due to a near or exact match of names, and lack of any conflicting information (such as ``postings``, dates of birth or death, or any other career or biographical information), but no citations have been found to confirm they are the same ``person``. In these cases the symbol ‡ can be applied after the last character in their ``name:annotation`` to help visually identify them in their display name. A corresponding ``public_notes:meta`` should be entered to explain why the symbol ‡ has been used.
 
 
 person:names:assertion
