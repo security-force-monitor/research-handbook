@@ -269,7 +269,7 @@ This field provides a human readable counterpart to the ``about_entity:ref:claim
 
 
 name:annotation
-=====================
+===============
 
 Description
 ~~~~~~~~~~~
@@ -307,7 +307,7 @@ Occasionally there are two ``persons`` who may be the same ``person`` due to a n
 
 
 person:names:assertion
-============================
+======================
 
 Description
 ~~~~~~~~~~~
@@ -324,6 +324,10 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:annotation/name``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -333,13 +337,13 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Any name for a person used in the citation should be entered in this field. While the ``name:annotation`` field is only used for a single, most complex value, this field is used for any name a citation uses for a person. Thus this field serves to capture "aliases" of a person, which also includes any typos or mispellings that may exist in the citation.
+Any name for a person used in the citation should be entered in this field. While the ``name:annotation`` field is only used for a single, most complex value, this field is used for any name a citation uses for a person. Thus, this field serves to capture "aliases" of a person, which also includes any typos or misspellings that may exist in the citation.
 
 Ranks, titles, or positions held should not be entered in this field as they are captured in other fields.
 
 
 country:annotation
-========================
+==================
 
 Description
 ~~~~~~~~~~~
@@ -356,6 +360,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:annotation/country``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -364,59 +373,59 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). This field is used to aid grouping persons into datasets related to specific countries and does not denote the citizenship or country of origin of a person. The specific country code should be choosen based on any related `posting` the `person` holds, or any other contextual information from citations about the `person`.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). This field is used to aid grouping persons into datasets related to specific countries and does not denote the citizenship or country of origin of a person. The specific country code should be chosen based on any related `posting` the `person` holds, or any other contextual information from citations about the `person`.
 
 
 first_precise:range
-======================================
+===================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 last_precise:range
-====================================
+==================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 first_imprecise:range
-========================================
+=====================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 last_imprecise:range
-======================================
+====================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 starting:range
-===========================================
+==============
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 ending:range
-==========================================
+============
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 starting_context:range
-==========================================
+======================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 ending_context:range
-==========================================
+====================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
 
 public_notes:meta
-============================
+=================
 
 Description
 ~~~~~~~~~~~
@@ -432,7 +441,6 @@ Status
 ~~~~~~
 
 This attribute is optional.
-
 
 Example of use
 ~~~~~~~~~~~~~~
