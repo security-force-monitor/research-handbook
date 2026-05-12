@@ -99,7 +99,7 @@ Claims are marked ``accepted`` when all of the data can be entered in accordance
 
 
 researcher:meta
-==================================
+===============
 
 Description
 ~~~~~~~~~~~
@@ -116,10 +116,15 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:meta/internal-comments``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``TW``
+``TW``, ``Jane_Doe``, ``G1`` 
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -128,7 +133,7 @@ Every researcher should use this field to mark the claims that they have entered
 
 
 internal_comments:meta
-==================================
+======================
 
 Description
 ~~~~~~~~~~~
@@ -145,6 +150,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:meta/internal-comments``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -153,11 +163,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood then that should be entered in the ``public_notes:meta`` field.
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the ``public_notes:meta`` field.
 
 
 citation:refs:claim
-==================================
+===================
 
 Description
 ~~~~~~~~~~~
@@ -174,6 +184,11 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:claim/citation:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -186,7 +201,7 @@ Every claim must have at least one citation to evidence the data in the claim. W
 
 
 about_entity:ref:claim
-==================================
+======================
 
 Description
 ~~~~~~~~~~~
@@ -203,6 +218,11 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:claim/about-entity:ref``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -211,11 +231,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has an Universally Unique Identifier (UUID) to distinguish it from any other entity. For an ``incident`` this UUID distinguishes them from any other ``incident`` in the dataset.
+Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For an ``incident`` this UUID distinguishes them from any other ``incident`` in the dataset.
 
 
 about_entity:name:qa
-==================================
+====================
 
 Description
 ~~~~~~~~~~~
@@ -231,6 +251,11 @@ Status
 ~~~~~~
 
 This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:claim/about-entity:ref``
 
 Example of use
 ~~~~~~~~~~~~~~
