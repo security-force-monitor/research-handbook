@@ -240,7 +240,7 @@ about_entity:name:qa
 Description
 ~~~~~~~~~~~
 
-Field that provides human readible name for entity.
+Field that provides human readable name for entity.
 
 Attribute type
 ~~~~~~~~~~~~~~
