@@ -31,7 +31,7 @@ This section contains further information about each attribute, including descri
 
 
 type:claim
-==================================
+==========
 
 Description
 ~~~~~~~~~~~
@@ -48,10 +48,15 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:claim/type``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``incident``
+``unit``, ``positioning``, ``relation``, ``person``, ``posting``, ``incident``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
