@@ -287,6 +287,11 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:assertion/posting:person:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -295,7 +300,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is the Universally Unique Identifier (UUID) of the person who is being posted to a unit. A record for the person must already exist in the dataset. 
+This is the Universally Unique Identifier (UUID) of the ``person`` who is being posted to a ``unit``. A record for the ``person`` must already exist in the dataset. 
 
 
 posting:person:names:qa
@@ -316,6 +321,11 @@ Status
 
 This attribute is optional
 
+Key name
+~~~~~~~~
+
+``:assertion/posting:person:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -324,7 +334,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is human readable name for the ``person`` with the ``posting`` to the ``unit``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``person``.
+This is a human readable name for the ``person`` with the ``posting`` to the ``unit``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``person``.
 
 
 posting:unit:refs:assertion
@@ -345,6 +355,11 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:assertion/posting:unit:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -353,10 +368,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is the Universally Unique Identifier (UUID) of the unit who is being posted to a unit. A record for the unit must already exist in the dataset. 
-
-Guidance on use
-~~~~~~~~~~~~~~~
+This is the Universally Unique Identifier (UUID) of the ``unit`` to which the ``person`` is posted. A record for the ``unit`` must already exist in the dataset. 
 
 
 posting:unit:names:qa
@@ -365,30 +377,32 @@ posting:unit:names:qa
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code assigned to a unit to which the person is posted.
+Name of unit which has the posted person.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format, selected from existing unit records
+Text string
 
 Status
 ~~~~~~
 
-This attribute is required.
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:assertion/posting:unit:refs``
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``a848de4e-ebeb-49d6-9099-7e68ca3b57fc``
+``Moriones Tondo Police Station 2``, ``Northeastern Regional Military Command``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is the Universally Unique Identifier (UUID) of the unit who is being posted to a unit. A record for the unit must already exist in the dataset. 
-
-Guidance on use
-~~~~~~~~~~~~~~~
+This is a human readable name for the ``unit`` where the ``person`` has a ``posting``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``unit``.
 
 
 posting:roles:assertion
@@ -409,10 +423,15 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:assertion/posting:roles``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``Commander``
+``Commander``, ``Chief of Staff``, ``Second in Command``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -444,6 +463,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:assertion/posting:titles``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -472,6 +496,11 @@ Status
 ~~~~~~
 
 This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:assertion/posting:ranks``
 
 Example of use
 ~~~~~~~~~~~~~~
