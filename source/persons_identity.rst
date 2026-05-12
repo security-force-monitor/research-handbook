@@ -579,7 +579,7 @@ This attribute is used to store a brief description of the content of external. 
 
 
 type:entity
-====================================
+===========
 
 Description
 ~~~~~~~~~~~
@@ -589,12 +589,17 @@ Specifies the type of entity.
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text, controlled vocabulary
+Text, controlled vocabulary.
 
 Status
 ~~~~~~
 
 This field is required.
+
+Key name
+~~~~~~~~
+
+``:entity/type``
 
 Example of use
 ~~~~~~~~~~~~~~
