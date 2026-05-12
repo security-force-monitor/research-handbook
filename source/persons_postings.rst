@@ -1,7 +1,7 @@
 Posting
 #######
 
-The ``posting`` claim type holds information about a person's career. It first defines a relationships between a ``person`` and a ``unit``, and can be used to further describe the role the person has in the unit ("Commander", "Chief of Staff", etc.), the rank they hold at the time of the posting, and any title they may hold at the time of a posting. Usually a ``person`` has a single ``posting`` at any one time. However, there are cases where one ``person`` holds multiple, simaltaneous ``postings``. In rare instances a ``person`` may hold one ``posting`` which commands another ``posting`` they also hold.
+The ``posting`` claim type holds information about a person's career. It first defines a relationships between a ``person`` and a ``unit``, and can be used to further describe the role the person has in the unit ("Commander", "Chief of Staff", etc.), the rank they hold at the time of the posting, and any title they may hold at the time of a posting. Usually a ``person`` has a single ``posting`` at any one time. However, there are cases where one ``person`` holds multiple ``postings`` simultaneously. In rare instances a ``person`` may hold one ``posting`` which commands a ``posting`` they also hold, effectively making them their own superior.
 
 
 
@@ -241,7 +241,7 @@ about_entity:name:qa
 Description
 ~~~~~~~~~~~
 
-Field that provides human readible name for entity.
+Field that provides human readable name for entity.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -252,6 +252,11 @@ Status
 ~~~~~~
 
 This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:claim/about-entity:ref``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -319,7 +324,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is human readible name for the ``person`` with the ``posting`` to the ``unit``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``person``.
+This is human readable name for the ``person`` with the ``posting`` to the ``unit``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``person``.
 
 
 posting:unit:refs:assertion
