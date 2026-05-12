@@ -252,10 +252,15 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:claim/about-entity:ref``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``Ye Win Oo``, ``510 Light Infantry Battalion in Nansang Township``
+``Ye Win Oo``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
