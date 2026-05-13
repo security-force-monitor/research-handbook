@@ -269,22 +269,27 @@ This field provides a human readable counterpart to the ``about_entity:ref:claim
 
 
 country:annotation
-========================
+==================
 
 Description
 ~~~~~~~~~~~
 
-Country person is associated with for grouping claims.
+Associated country of the unit used for grouping claims.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text, controlled vocabulary
+Text, controlled vocabulary.
 
 Status
 ~~~~~~
 
 This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:annotation/country``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -298,11 +303,7 @@ Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, whic
 
 
 incident:location:descriptions:assertion
-==============================
-
-Attribute name
-~~~~~~~~~~~~~~
-``::incident:location_description``
+========================================
 
 Description
 ~~~~~~~~~~~~~~
@@ -334,11 +335,6 @@ While geographic data can be found for Shwegyin Township, the location of the "g
 incident:location:refs:assertion
 ==================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:location``
-
 Description
 ~~~~~~~~~~~~~~
 
@@ -362,11 +358,6 @@ This field is used to store information about the Location where an incident hap
 
 incident:location:names:qa
 ==================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:location``
 
 Description
 ~~~~~~~~~~~~~~
@@ -392,11 +383,6 @@ The best practice for this field is to use the ``location:humane_id:qa`` of the 
 incident:violation:types:assertion
 ========================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:violation_type``
-
 Description
 ~~~~~~~~~~~
 
@@ -420,11 +406,6 @@ In `Incident: Violation Type`_, a value is taken "as is" from the source, withou
 
 incident:violation:descriptions:assertion
 ===============================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:violation_description``
 
 Description
 ~~~~~~~~~~~
@@ -452,11 +433,6 @@ In this attribute we record a direct quotation from the civil society, governmen
 incident:perpetrator:refs:assertion
 ============================================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:perpetrator:unit:ids``
-
 Description
 ~~~~~~~~~~~
 
@@ -481,11 +457,6 @@ Where a source make an allegation against a specific unit or person, this attrib
 incident:perpetrator:names:qa
 ==================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:location``
-
 Description
 ~~~~~~~~~~~~~~
 
@@ -509,11 +480,6 @@ The best practice for this field is to use the ``name:annotation`` of the unit o
 
 incident:perpetrator:classifications:assertion
 ====================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::incident:perpetrator:classification``
 
 Description
 ~~~~~~~~~~~
