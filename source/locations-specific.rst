@@ -134,7 +134,7 @@ citation:refs:claim
 Description
 ~~~~~~~~~~~
 
-Field unique 32 character code assigned to citation(s) evidencing the claim.
+Field unique 32 character code assigned to citation(s) evidencing the location.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -144,7 +144,7 @@ String in UUID format
 Status
 ~~~~~~
 
-This attribute is required.
+This attribute is optional.
 
 Key name
 ~~~~~~~~
@@ -159,16 +159,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
+Locations are drawn from an external gazeeter or geographic databse, and because of this they do not require a citation. However, best practice is to include a citation whenever possible. When two or more citations are needed to evidence a location then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
 
-Location: Unique Identifier
-===========================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/id``
+id:entity
+=========
 
 Description
 ~~~~~~~~~~~
@@ -178,10 +173,17 @@ A unique 36-character code assigned to each Location in the dataset.
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String
+String in UUID format
 
 Status
 ~~~~~~
+
+This attribute is required.
+
+Key name
+~~~~~~~~
+
+``:entity/id``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -194,45 +196,8 @@ Guidance on use
 This value is a Universally Unique Identifier (UUID) generated using a computer program. UUIDs must be created using either installable or online tools. Values stored in this attribute are referenced in attributes like :ref:`Unit: Location`.
 
 
-Location: Researcher Comments
-=============================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/comments``
-
-Description
-~~~~~~~~~~~
-
-Observations specific to the process of reviewing data in this attribute, including fixes, refinements and other suggestions.
-
-Type of attribute
-~~~~~~~~~~~~~~~~~
-
-Text
-
-Status
-~~~~~~
-
-Example of use
-~~~~~~~~~~~~~~
-
-``Location does not exist in OpenStreetMap - alternate source needed``, ``Possible duplicate of Location 1bbdfd2b-2d7c-4677-8e1f-8fa5b0367cfe``, ``Reprocess to update geometry``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to pass on feedback about the data in the attribute. This may include specific data changes and other observations that can improve the quality of the data. Data in this attribute are not intended for publication. The workflow of Location datapoints is a little different from other entities within the SFM data model, in that it is a combination of manual work by Staff Researchers and automation by developers. The comments attribute is commonly used to flag places where developers may need to provide assistance. The comments attribute is common to all main entities and claim types in the SFM data model.
-
-
-Location: Unique Human-Readable Identifier
-==========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/humane-id``
+location:humane_id:qa
+=====================
 
 Description
 ~~~~~~~~~~~
@@ -247,7 +212,12 @@ String
 Status
 ~~~~~~
 
-This attribute is required.
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:annotation/name``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -268,13 +238,8 @@ The value ``Ta'izz Governorate (osm, poly) 5c35b342-0b5e-4648-86cd-7ad730d647fa`
 Values in ``::location/humane-id`` provide Staff Researchers with a legible way to reference a Location specifically when using spreadsheets to construct datasets. For example, when defining a ``site`` or ``area of operations`` i  :ref:`Unit: Positioning` entity, a humane ID is used. The reason for this particular formulation is the need to balance readability with uniqueness. We could choose to use the UUID in ``::location/id`` as a way to reference Locations in other tables, but this would not give any easy-to-see indication about where the Location was, or what sort of Location it was. Similarly, the values in ``::location/name`` could be used as a reference to a Location, but these are not unique enough for us to be certain that we are referencing the correction Location. The format we have chosen balances these competing needs, giving the user a quick way to see the name of a Location, what type of object it is, where we got it from, along with its UUID.
 
 
-Location: Origin Object Name
-============================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/name``
+name:annotation
+===============
 
 Description
 ~~~~~~~~~~~
@@ -289,7 +254,12 @@ String
 Status
 ~~~~~~
 
-THis attribute is required.
+This attribute is required.
+
+Key name
+~~~~~~~~
+
+``:annotation/name``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -302,13 +272,8 @@ Guidance on use
 Locations are a combination of metadata entered by hand and other data obtained through use of automation tools. Locations are also derived from different data sources that may describe geographic objects in a variety of ways. The value in ``::location/name`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's own ``name`` attribute and place it in ``::location/name``. Along with ``::location/id`` and ``::location/geo-type``, ``::location/name`` is needed in order for automation tools toidentify the object within the geospatial data source. Where a Location is arbitrarily-defined, or is derived from a data source that does not provide a name, the Staff Researcher can provide one.
 
 
-Location: Origin Object Identifier
-==================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/foreign-id``
+origin_id:location
+==================
 
 Description
 ~~~~~~~~~~~
@@ -323,7 +288,12 @@ String
 Status
 ~~~~~~
 
-This attribute is optional.
+This attribute is required.
+
+Key name
+~~~~~~~~
+
+``:location/origin-id``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -335,13 +305,9 @@ Guidance on use
 
 Locations are a combination of metadata entered by hand and other data obtained through use of automation. Locations are also derived from different data sources that may describe geographic objects in a variety of ways. The value in ``location:id`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's ``id`` attribute and place it in the ``::location/id`` attribute. Along with ``::location/name`` and ``::location/geo-type``, ``::location/id`` is needed in order for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily defined, or is derived from a data source that does not provide a ID number, the Staff Researcher can provide one.
 
-Location: Geometry Type
-=======================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/geo-type``
+geo_type:qa
+===========
 
 Description
 ~~~~~~~~~~~
@@ -356,7 +322,12 @@ Text
 Status
 ~~~~~~
 
-This attribute is required.
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:location/geo-type``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -376,13 +347,9 @@ The gazeteer used as the source of geometry may used different terminology to de
 
 Along with the values in ``::location/name``, ``::location/origin`` and ``::location/id`` the value entered in ``::location/geo-type`` becomes part of the Location's "humane id", a human-readable unique identifier that acts as a reference for a Location when it is used in other parts of the data model (such as when defining a "site" in the :ref:`Units` data,for example).
 
-Location: Origin
-================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/origin``
+origin:location
+===============
 
 Description
 ~~~~~~~~~~~
@@ -399,6 +366,10 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:location/origin``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -410,13 +381,41 @@ Guidance on use
 
 SFM uses a combination of manual data entry and automated processes to manage Location information. The values in ``location:origin`` identify where automation tools should go to obtain spatial information about an object. For example, if the value ``osm`` is entered in ``location:origin`` this indicates that the automation tool should query OpenStreetMap in order to obtain spatial information about a Location. If ``osm`` were set, then the values in ``location:name`` and ``location:id`` would correspond to the object name and ID number in OpenStreetMap. Locations can be derived from comprehensive online services, as well as other sources like locally-held ``.shp`` or ``.kml`` files. The number of origins is unlimited.
 
-Location: Country
-=================
 
-Attribute name
+geometry:ref:entity
+===================
+
+Description
+~~~~~~~~~~~
+
+The unique id generated by importer for the geojson for this Location.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Key name
+~~~~~~~~
+
+``:location/geo-feature:ref``
+
+Example of use
 ~~~~~~~~~~~~~~
 
-``::location/country``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+
+
+country:annotation
+==================
 
 Description
 ~~~~~~~~~~~
@@ -431,8 +430,12 @@ Text, controlled vocabulary
 Status
 ~~~~~~
 
-This attribute is optional.
+This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:annotation/country``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -443,40 +446,6 @@ Guidance on use
 ~~~~~~~~~~~~~~~
 
 Values for this attribute are the ISO 3166-1 alpha-2 country codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__). This attribute is entered manually by the Staff Researcher and acts as a simple cross-check on the automatically-populated values in ``location/admin-level-2``.
-
-
-Location: Citation
-==================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/citation-id``
-
-Description
-~~~~~~~~~~~
-
-The UUID of the citation in the source that provides information about the Location.
-
-Type of attribute
-~~~~~~~~~~~~~~~~~
-
-String
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``20248d51-6efe-4150-a5b6-4211fd83365d``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-SFM uses a number of different sources of geographical information. These include OpenStreetMap, data provided by the United Nations through the Humanitarian Data Exchange or the Myanmar Information Management Unit, and Locations that are arbitrarily defined during research. Staff Researchers should use the ``::location/citation-id`` attribute to make note of exactly which dataset has been used as a source of this Location. The UUID will reference an entry in the :ref:`Citation` dataset. In this way, the ``::location/source`` attribute serves a different purpose to ``::location/origin``.
 
 
 Location: Admin Level
