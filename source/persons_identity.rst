@@ -115,7 +115,7 @@ This attribute is required.
 Key name
 ~~~~~~~~
 
-``:meta/internal-comments``
+``:meta/researchers``
 
 Example of use
 ~~~~~~~~~~~~~~
