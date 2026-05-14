@@ -1,7 +1,7 @@
 Locations
 #########
 
-Locations are unique places or positions. A named town or city can be a Location, as can an administrative area like a county, district or state. In fact, anything that be drawn on a map can be a Location: a specific point, a section of a road, a military line of control, and so on.
+Locations are unique places or positions. A named town or city can be a Location, as can an administrative area like a county, district or governorate. In fact, anything that be drawn on a map can be a Location: a specific point, a section of a road, a military line of control, and so on.
 
 
 Location: Summary of attributes
