@@ -24,6 +24,144 @@ Location: Details of attributes
 This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use.
 
 
+status:meta
+===========
+
+Description
+~~~~~~~~~~~
+
+A field that classifies the data.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:claim/statuses``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``accepted``, ``conflict``, ``work_needed``, ``issue``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Data are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever there is a conflicts with another location and a review shows it to be the incorrect or false location. A ``public_notes:meta`` should always accompany any ``conflict`` flag.
+
+If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if it cannot be established whether a location should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
+
+
+researcher:meta
+===============
+
+Description
+~~~~~~~~~~~
+
+Field for initials or other identifier of researcher who last entered data for the location.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Key name
+~~~~~~~~
+
+``:meta/researchers``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``TW``, ``Jane_Doe``, ``G1`` 
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked. 
+
+
+internal_comments:meta
+======================
+
+Description
+~~~~~~~~~~~
+
+A field for temporary comments or notes for the researcher or research team working on the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:meta/internal-comments``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Come back to this to determine date for claim``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the ``public_notes:meta`` field.
+
+
+citation:refs:claim
+===================
+
+Description
+~~~~~~~~~~~
+
+Field unique 32 character code assigned to citation(s) evidencing the claim.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String in UUID format
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Key name
+~~~~~~~~
+
+``:claim/citation:refs``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
+
+
 Location: Unique Identifier
 ===========================
 
