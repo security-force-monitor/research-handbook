@@ -315,6 +315,15 @@ Attribute type
 
 String
 
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+``:assertion/incident:location:descriptions``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -333,7 +342,7 @@ While geographic data can be found for Shwegyin Township, the location of the "g
 
 
 incident:location:refs:assertion
-==================
+================================
 
 Description
 ~~~~~~~~~~~~~~
@@ -344,6 +353,18 @@ Attribute type
 ~~~~~~~~~~~~~~
 
 String, or string in UUID format
+
+String
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Key name
+~~~~~~~~
+
+``:assertion/incident:location:refs``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -357,7 +378,7 @@ This field is used to store information about the Location where an incident hap
 
 
 incident:location:names:qa
-==================
+==========================
 
 Description
 ~~~~~~~~~~~~~~
@@ -368,6 +389,16 @@ Attribute type
 ~~~~~~~~~~~~~~
 
 String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:assertion/incident:location:refs``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -381,7 +412,7 @@ The best practice for this field is to use the ``location:humane_id:qa`` of the 
 
 
 incident:violation:types:assertion
-========================
+==================================
 
 Description
 ~~~~~~~~~~~
@@ -391,7 +422,17 @@ Type of alleged violation of human rights law, international humanitarian law or
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text, multiple entry, controlled vocabulary
+Text, multiple entry
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:assertion/incident:violation:types``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -405,7 +446,7 @@ In `Incident: Violation Type`_, a value is taken "as is" from the source, withou
 
 
 incident:violation:descriptions:assertion
-===============================
+=========================================
 
 Description
 ~~~~~~~~~~~
@@ -416,6 +457,16 @@ Attribute type
 ~~~~~~~~~~~~~~
 
 String
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Key name
+~~~~~~~~
+
+``assertion/incident:violation:descriptions``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -431,7 +482,7 @@ In this attribute we record a direct quotation from the civil society, governmen
 
 
 incident:perpetrator:refs:assertion
-============================================
+===================================
 
 Description
 ~~~~~~~~~~~
@@ -442,6 +493,16 @@ Attribute type
 ~~~~~~~~~~~~~~
 
 String, formatted as a UUID
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:assertion/incident:perpetrator:refs``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -455,7 +516,7 @@ Where a source make an allegation against a specific unit or person, this attrib
 
 
 incident:perpetrator:names:qa
-==================
+=============================
 
 Description
 ~~~~~~~~~~~~~~
@@ -466,6 +527,16 @@ Attribute type
 ~~~~~~~~~~~~~~
 
 String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:assertion/incident:perpetrator:refs``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -479,7 +550,7 @@ The best practice for this field is to use the ``name:annotation`` of the unit o
 
 
 incident:perpetrator:classifications:assertion
-====================================
+==============================================
 
 Description
 ~~~~~~~~~~~
@@ -489,7 +560,17 @@ General branch or tier of the security force alleged to have committed the act(s
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text and numbers, multiple entry, controlled vocabulary taken from ``Unit: Classification``
+Text, multiple entry, controlled vocabulary taken from ``unit:classifications:assertion``
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:assertion/incident:perpetrator:classifications``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -511,7 +592,7 @@ Entries used in in `Incident: Perpetrator Classification`_ correspond to the lis
 
 
 incident:victim:refs:assertion
-==================================
+==============================
 
 Description
 ~~~~~~~~~~~
@@ -528,6 +609,11 @@ Status
 
 This is a draft field.
 
+Key name
+~~~~~~~~
+
+``:assertion/incident:victim:refs``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -536,11 +622,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has an Universally Unique Identifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
+Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
 
 
 incident:victim:names:qa
-==================================
+========================
 
 Description
 ~~~~~~~~~~~
@@ -556,6 +642,11 @@ Status
 ~~~~~~
 
 This is a draft field.
+
+Key name
+~~~~~~~~
+
+``:assertion/incident:victim:refs``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -647,7 +738,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. In the "Example of Use" above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result, the researcher should explain how that date range was evidenced by the citation.
 
 
 type:entity
@@ -681,4 +772,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For an ``incident`` the only allowed entry for this field is ``claim``.
+For an ``incident`` the only entry allowed for this field is ``claim``.
