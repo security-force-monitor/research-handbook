@@ -976,4 +976,69 @@ Guidance on use
 This attribute contains the human-readable identifier (``::location/humane-id``) of the international boundary of a state, also known within the OpenStreetMap schema of administrative areas as a level 2 boundary. This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
 
 
+public_notes:meta
+=================
 
+Description
+~~~~~~~~~~~
+
+Additional context or details about the claim for a public audience.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:meta/public-notes``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred "last week". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
+
+
+type:entity
+===========
+
+Description
+~~~~~~~~~~~
+
+Specifies the type of entity.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text, controlled vocabulary.
+
+Status
+~~~~~~
+
+This field is required.
+
+Key name
+~~~~~~~~
+
+``:entity/type``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``claim``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+For a ``location`` the only allowed entry for this field is ``location``.
