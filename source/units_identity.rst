@@ -238,7 +238,7 @@ If a unit undergoes a change in name, that unit should be treated as a separate,
 
 .. admonition:: Example
 
-    A citation establishes that a ``unit``, named the ``Tiger Forces`` in Syria were renamed the ``25 Anti-Terrorism Division`` in 2019. The division continued to serve with the same general functions as before, and contiued to be commanded by the same person. However, because a citation clearly evidenced that there had been a change in the name of the ``unit``, the ``25 Anti-Terrorism Division`` should be treated as a distinct ``unit`` with a separate ``about_entity:ref:claim`` from the ``Tiger Forces``.
+    A citation establishes that a ``unit``, named the ``Tiger Forces`` in Syria were renamed the ``25 Anti-Terrorism Division`` in 2019. The division continued to serve with the same general functions as before, and continued to be commanded by the same person. However, because a citation clearly evidenced that there had been a change in the name of the ``unit``, the ``25 Anti-Terrorism Division`` should be treated as a distinct ``unit`` with a separate ``about_entity:ref:claim`` from the ``Tiger Forces``.
 
 
 about_entity:name:qa
@@ -306,7 +306,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-As different sources will spell a unit's name in different ways the Security Force Monitor works to create a single canonical version of a unit's name based on sources and standardized to match the overall structure of and reporting about the security forces:
+The Security Force Monitor works to create a single canonical version of a unit's name based on citations and standardized to match the overall structure of and reporting about the security forces:
 
 .. admonition:: Examples
 
@@ -325,7 +325,7 @@ Additionally, wherever possible, we will choose the most complete and complex ve
 
 The Monitor does not use ordinal indicators like ``1st`` or ``3rd`` in the name of an Unit. Instead these will be listed in the `Unit Identity: Other Names`_ field.
 
-The Monitor uses the name in the official (local) language of the country where appropriate and/or possible.
+The Monitor uses the name in the official or most commonly used language of the country where appropriate and/or possible.
 
 .. admonition:: Examples
    
@@ -340,7 +340,7 @@ In cases where multiple units have the same name the Monitor will distinguish th
   Example E: There are multiple "Central Police Station" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance ``Central Police Station (Awka, Anambra State).``\ In Myanmar there have been different units through time both the name Central Regional Military Command. To distinguish them the Monitor added information on when the unit came into existence to the name: ``Central Regional Military Command (post 199)``.
 
 
-In some cases, we are aware that a unit exist because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of "Unnamed" and "Unknown" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`.
+In some cases, we are aware that a unit exists because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of "Unnamed" and "Unknown" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`.
 
 TO DO: Name standardization needs citations
 
@@ -376,9 +376,9 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Any name for a unit used in the citation should be entered in this field. While the ``name:annotation`` field is only used for a single, most complex value, this field is used for any name a citation uses for a unit. Thus this field serves to capture "aliases" of a unit, which also includes any typos or misspellings that may exist in the citation.
+Any name for a unit used in the citation should be entered in this field. While the ``name:annotation`` field is only used for a single, most complex value, this field is used for any name a citation uses for a unit. Thus, this field serves to capture "aliases" of a unit, which also includes any typos or misspellings from the citation.
 
-Ordinal indicators like "2nd" or "10/o" should be entered in this field.
+Ordinal indicators, such as "2nd" or "10/o", should be entered in this field.
 
 
 unit:classifications:assertion
@@ -389,7 +389,7 @@ Description
 
 A general descriptor for the unit, often matches a branch or branches of the unit.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
 Text, controlled vocabulary.
@@ -458,7 +458,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). This field is used to aid grouping units into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be choosen based on any related ``positioning`` the ``unit`` holds, or any other contextual information from citations about the ``unit``.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). This field is used to aid grouping units into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based on any related ``positioning`` the ``unit`` holds, or any other contextual information from citations about the ``unit``.
 
 
 first_precise:range
@@ -540,7 +540,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. In the "Example of Use" above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result, the researcher should explain how that date range was evidenced by the citation.
 
 
 type:entity
