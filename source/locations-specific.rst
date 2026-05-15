@@ -479,13 +479,56 @@ Guidance on use
 ~~~~~~~~~~~~~~~
 
 
-Location: Admin Level
+first_precise:range
+===================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+last_precise:range
+==================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+first_imprecise:range
 =====================
 
-Attribute name
-~~~~~~~~~~~~~~
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
 
-``::location/admin-level``
+
+last_imprecise:range
+====================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+starting:range
+==============
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+ending:range
+============
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+starting_context:range
+======================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+ending_context:range
+====================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+location:admin_level:qa
+=======================
 
 Description
 ~~~~~~~~~~~
@@ -495,10 +538,17 @@ The administrative level of the Location described in the attribute, if defined 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-Numbers; programmatically created.
+String
 
 Status
 ~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``n/a``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -514,13 +564,9 @@ The attribute ``::location:admin-level`` is drawn from OpenStreetMap, which has 
 
 The data in ``location:admin-level`` and the other "admin_level" attributes are automatically populated using a script that queries the OSM Overpass API. The Staff Researcher does not do this manually.
 
-Location: Admin Level 10
-========================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/admin-level-10``
+location:admin_level_10:qa
+==========================
 
 Description
 ~~~~~~~~~~~
@@ -530,10 +576,17 @@ The administrative level 10 Location within which the present Location is wholly
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programmatically generated.
+String
 
 Status
 ~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``n/a``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -550,8 +603,8 @@ The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:bound
 This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
 
 
-Location: Admin Level 9
-=======================
+location:admin_level_9:qa
+=========================
 
 Attribute name
 ~~~~~~~~~~~~~~
@@ -566,10 +619,17 @@ The administrative level 9 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programmatically generated.
+String
 
 Status
 ~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``n/a``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -585,13 +645,9 @@ The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:bound
 
 This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
 
-Location: Admin Level 8
-=======================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/admin-level-8``
+location:admin_level_8:qa
+=========================
 
 Description
 ~~~~~~~~~~~
@@ -601,10 +657,17 @@ The administrative level 8 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programmatically generated.
+String
 
 Status
 ~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``n/a``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -620,13 +683,9 @@ The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:bound
 
 This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
 
-Location: Admin Level 7
-=======================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/admin-level-7``
+location:admin_level_7:qa
+=========================
 
 Description
 ~~~~~~~~~~~
@@ -636,10 +695,17 @@ The administrative level 7 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programmatically generated.
+String
 
 Status
 ~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``n/a``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -656,13 +722,8 @@ The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:bound
 This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
 
 
-Location: Admin Level 6
-=======================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/admin-level-6``
+location:admin_level_6:qa
+=========================
 
 Description
 ~~~~~~~~~~~
@@ -672,10 +733,17 @@ The administrative level 6 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programmatically generated.
+String
 
 Status
 ~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``n/a``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -691,13 +759,9 @@ The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:bound
 
 This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
 
-Location: Admin Level 5
-=======================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/admin-level-5``
+location:admin_level_5:qa
+=========================
 
 Description
 ~~~~~~~~~~~
@@ -707,10 +771,17 @@ The administrative level 5 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programmatically generated.
+String
 
 Status
 ~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``n/a``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -726,13 +797,9 @@ The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:bound
 
 This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
 
-Location: Admin Level 4
-=======================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/admin-level-4``
+location:admin_level_4:qa
+=========================
 
 Description
 ~~~~~~~~~~~
@@ -742,10 +809,17 @@ The administrative level 4 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programmatically generated.
+String
 
 Status
 ~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``n/a``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -761,13 +835,9 @@ The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:bound
 
 This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
 
-Location: Admin Level 3
-=======================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/admin-level-3``
+location:admin_level_3:qa
+=========================
 
 Description
 ~~~~~~~~~~~
@@ -777,10 +847,17 @@ The administrative level 3 Location within which the present Location is wholly 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programmatically generated.
+String
 
 Status
 ~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``n/a``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -796,13 +873,9 @@ The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:bound
 
 This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
 
-Location: Admin Level 2
-=======================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/admin-level-2``
+location:admin_level_2:qa
+=========================
 
 Description
 ~~~~~~~~~~~
@@ -812,10 +885,17 @@ The administrative level 2 Location - the international state boundary - within 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String; programmatically generated.
+String
 
 Status
 ~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``n/a``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -827,110 +907,14 @@ Guidance on use
 
 This attribute contains the human-readable identifier (``::location/humane-id``) of the international boundary of a state, also known within the OpenStreetMap schema of administrative areas as a level 2 boundary. This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
 
-Location: First Check Timestamp
-===============================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/first-check-time``
+location:admin_level_1:qa
+=========================
 
 Description
 ~~~~~~~~~~~
 
-Timestamp of the first time that metadata and geometry for this Location was obtained programmatically from OpenStreetMap Overpass API.
-
-Type of attribute
-~~~~~~~~~~~~~~~~~
-
-Datetime; programmatically generated.
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-After Staff Researchers have entered the minimum metadata for a Location, we use a script to obtain further information about that object from OpenStreetMap's Overpass API. Overpass gives us the full set of metadata tags for the Location (such as its name in local languages, its last date of update and so on) as well as the geometry that we use to plot the Location on a map. As Location objects can change over time, we keep a record of the date and time at which we first obtained the extended metadata from OSM, as well as the most recent.
-
-This is a programmatically generated attribute; the Staff Researcher should not enter this directly.
-
-Location: Most Recent Check Timestamp
-=====================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/last-check-time``
-
-Description
-~~~~~~~~~~~
-
-Timestamp of the most recent time that metadata and geometry for this Location was obtained programmatically from OpenStreetMap Overpass API.
-
-Type of attribute
-~~~~~~~~~~~~~~~~~
-
-Datetime; programmatically generated.
-
-Status
-~~~~~~
-
-Example of use
-~~~~~~~~~~~~~~
-
-``2021-02-15T20:33:02Z``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-After Staff Researchers have entered the minimum metadata for a Location, we use a script to obtain further information about that object from OpenStreetMap's Overpass API. Overpass gives us the full set of metadata tags for the Location (such as its name in local languages, its last date of update and so on) as well as the geometry that we use to plot the Location on a map. As Location objects can change over time, we keep a record of the date and time at which we first obtained the extended metadata from OSM, as well as the most recent.
-
-This is a programmatically generated attribute; the Staff Researcher should not enter this directly.
-
-
-Location: Attic Date
-====================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/as-of-date``
-
-Description
-~~~~~~~~~~~
-
-The date and time of the old version of an OpenStreetMap item that we want to retrieve.
-
-Type of attribute
-~~~~~~~~~~~~~~~~~
-
-Datetime
-
-Status
-~~~~~~
-
-Example of use
-~~~~~~~~~~~~~~
-
-``2009-03-24T07:50:06Z``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-OpenStreetMap is created by its users and every update to any object on the map is recorded and stored. This means you can see the history of an object, and that changes to the map can be observed, discussed and reverted if necessary. The version history of a map object is also important for SFM research, because it may give us a way to access earlier representations of administrative geography. Borders and boundaries change all the time, and these changes are often reflected in the map's history. It also means that we can protect the integrity of our own data by indicating that the Location is based on an OpenStreetMap object *as it was* at a particular date and time. 
-
-The feature of OpenStreetMap that enables this is the repository of `attic data <https://wiki.openstreetmap.org/wiki/Attic_Data>`__, and it can be queried using the Overpass API (directly or by using the SFM ``geo`` tool). The value the Staff Researcher enters into ``location:as_of_date`` must correspond a value listed in the version history of an object. This information is accessible by selecting "View history" on any OSM object, followed by "Download XML". Here is `an example of the attic data for Ermita <https://www.openstreetmap.org/api/0.6/relation/103706/history>`__, a level 9 administrative area in then Philippines.
-
-Location: Notes
-===============
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/notes``
-
-Description
-~~~~~~~~~~~
-
-Analysis, commentary and notes about the Location that do not fit into the data structure.
+The administrative level 2 Location - the international state boundary - within which the present Location is wholly situated.
 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
@@ -940,12 +924,56 @@ String
 Status
 ~~~~~~
 
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``n/a``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``Sources show Location is within the forested areas between two villages and is derived through geolocation and image analysis of source eeb13cf1-7b98-4075-a09b-530146d2ee37``
+``Mali (osm, poly) 8e7b492e-5346-4f43-91a0-55c1f3419468``, ``Sudan (osm, poly) 7117df90-1e52-4726-806a-8e422a0511c6``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-We use this attribute to record information about the Location that is likely to provide useful context, additional information that does not fit into the data structure, and notes about how decisions were made about which data to include. Any sources used should be referenced directly inside the attribute. Notes are intended to be published.
+This attribute contains the human-readable identifier (``::location/humane-id``) of the international boundary of a state, also known within the OpenStreetMap schema of administrative areas as a level 2 boundary. This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+
+
+location:admin_level_0:qa
+=========================
+
+Description
+~~~~~~~~~~~
+
+The administrative level 2 Location - the international state boundary - within which the present Location is wholly situated.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``n/a``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Mali (osm, poly) 8e7b492e-5346-4f43-91a0-55c1f3419468``, ``Sudan (osm, poly) 7117df90-1e52-4726-806a-8e422a0511c6``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute contains the human-readable identifier (``::location/humane-id``) of the international boundary of a state, also known within the OpenStreetMap schema of administrative areas as a level 2 boundary. This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+
+
+
