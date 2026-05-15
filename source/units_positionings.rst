@@ -1,7 +1,7 @@
 Positioning
 ###########
 
-The ``positioning`` claim describes the geographic footprint of a specific unit. This includes the site or base of a unit, as well as the ``areas of operation of a unit.
+The ``positioning`` claim describes the geographic footprint of a specific unit. This includes the ``site`` or base of a unit, as well as the areas of operation (``aoo``) of a ``unit``.
 
 Positioning: Summary of claim attributes
 ****************************************
@@ -55,7 +55,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``positioning`` defines the claim and defines the relevant fields to be used in further data entry about a ``positioning``. For quality assurance purposes, entering ``positioning`` should create an error if there is any entry for fields tied to other claim types, such as ``unit`` or ``relation``.
+Entering ``positioning`` defines the claim and defines the relevant fields to be used in further data entry about a ``positioning``. For quality assurance purposes, entering ``positioning`` should create an error if there is any entry for fields tied to other types of claims, such as ``unit`` or ``relation``.
 
 
 status:meta
@@ -93,7 +93,7 @@ Claims are marked ``accepted`` when all of the data can be entered in accordance
 
 .. admonition:: Example
 
-    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish a general numbering practices of the army which provides further evidence that no such battalion exists. The ``unit`` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with ``status:meta`` of the ``conflict``, and have the status fully explained in a ``public_notes:meta``.
+    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish the general practice for  numbering army units which provides further evidence that no such battalion exists. The ``unit`` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with ``status:meta`` of the ``conflict``, and have the status fully explained in a ``public_notes:meta``.
 
 If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
@@ -256,7 +256,7 @@ about_entity:name:qa
 Description
 ~~~~~~~~~~~
 
-Field that provides human readible name for entity.
+Field that provides human readable name for entity.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -292,7 +292,7 @@ Description
 
 The unique 32 character code assigned to the unit about which a relationship is described in the claim.
 
-Atrribute type
+Attribute type
 ~~~~~~~~~~~~~~
 
 String in UUID format, selected from existing unit records
@@ -349,7 +349,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is human readible name for the ``unit`` with the ``positioning``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``unit``.
+This is human readable name for the ``unit`` with the ``positioning``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``unit``.
 
 
 positioning:types:assertion
@@ -386,7 +386,7 @@ Guidance on use
 This field defines the relationship between a unit and a location. The Staff Researcher must choose one of the two options below:
 
  - ``site``: the Locationdescribes a "site", such as a settlement or specific point, at which the unit has physical infrastructure like a station, camp, base, office or other facility.
- - ``aoo``: the Location in describes an area, such as an administrative area, where the unit is known to have conducted operations or has terratorial jurisdiction.
+ - ``aoo``: the Location in describes an area, such as an administrative area, where the unit is known to have conducted operations or has territorial jurisdiction.
 
 The type of Location may be different from the way that the Location is described. For example, a small geographic area like a suburb is a *geometric area* but it could be used to describe a "site" for a unit. Locations themselves are a mix of geographical primatives - points, lines and polygons. This is why :ref:`Locations` are defined independently of their relationship to Units and Incidents.
 
@@ -425,7 +425,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The `Unit Positioning: Base Name`_ attribute adds unit-specific context about a Location. This field is used to record data about units that are located in a distinctively-named building or complex which is not found in the fazeteer, or otherwise cannot be represented as a geographic datapoint.
+The `Unit Positioning: Base Name`_ attribute adds unit-specific context about a Location. This field is used to record data about units that are located in a distinctively-named building or complex which is not found in the gazeteer, or otherwise cannot be represented as a geographic datapoint.
 
     For example, ``3 Battalion`` in Nigeria is cited as being based in the ``Lubanga Barracks`` in ``Enugu, Enugu State, Nigeria``.
 
@@ -438,12 +438,12 @@ positioning:location:refs:assertion
 Description
 ~~~~~~~~~~~
 
-Unique 32 character identifier  of a Location where the unit has a "site" or "area of operations".
+Unique 32 character identifier of a Location where the unit has a "site" or "area of operations".
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format, selected from ``::location:id``
+String in UUID format, selected from ``id:entity`` in locations sheet
 
 Status
 ~~~~~~
@@ -463,7 +463,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute is used to store a reference to a location at which the unit has infrastructure, or has operated. The value included in this attributemust be selected from ``::location:id``. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
+This attribute is used to store a reference to a location at which the unit has infrastructure, or has operated. The value included in this attribute must be selected from ``::location:id``. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
 
 
 positioning:location:names:qa
@@ -579,7 +579,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. In the "Example of Use" above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
 
 
 type:entity
@@ -613,4 +613,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For a ``positioning`` the only allowed entry for this field is ``claim``.
+For a ``positioning`` the only entry allowed for this field is ``claim``.
