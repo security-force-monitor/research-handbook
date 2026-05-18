@@ -252,7 +252,7 @@ Field that provides human readable name for the claim.
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text string
+Text string.
 
 Status
 ~~~~~~
@@ -286,7 +286,7 @@ Fullest name of the unit as evidenced by citations.
 Attribute type
 ~~~~~~~~~~~~~~
 
-String
+Text string.
 
 Status
 ~~~~~~
@@ -306,22 +306,32 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The Security Force Monitor works to create a single canonical version of a unit's name based on citations and standardized to match the overall structure of and reporting about the security forces:
+The Security Force Monitor strives to create a single canonical version of a unit's name that is based on citations, highlights differences between peer units, and makes the data easier for a general audience to understand. Similar to a ``person``, wherever possible we will choose the most complex version of a unit’s name that can be evidenced by a citation.
 
-.. admonition:: Examples
+.. admonition::
 
-    Example A: ``Police Divisions`` are a class of police units in Nigeria. There are over 1000 units of this type nationwide. However, each individual ``Police Division`` may not have a citation for their formal name such as ``Lagos Police Division``, but only have a citation (or numerous citations) for the less formal ``Lagos Division``. The Monitor would list the name of the unit as ``Lagos Police Division`` and the claim would include a comment about the methodology behind that choice. The less formal ``Lagos Division`` name would be entered in the `Unit Identity: Other Names`_ field.
+    ``3 Armoured Division`` would be the entry for ``name:annotation``, rather than the shorter ``3 Division`` (which may have more citations) would only be used in ``
+unit:names:assertion``.
 
-    
-    Example B: Army units of a country may follow a naming convention of a number and then name of unit: e.g. ``3 Battalion`` or ``25 Brigade``. There may be a unit of which we only have citations for a variation on that: e.g. ``Fourth Battalion``. In this case, the Monitor would list the name of the unit as ``4 Battalion`` with a note about the methodology behind that choice. The ``Fourth Battalion`` name variant would be entered in a claim about `Unit Identity: Other Names`_.
+Units have several unique charectaristics that require additional and unit specific methodological guidance. Units in security forces are arranged in hierarchies and share similiar names with their peer units. However, while citations may establish general guidance for how units of a certain type should be named, each individual unit may not have citations evidencing the "complete" or "canonical" name of the unit.
 
-Standardizations don't have specific sources, so we have created a specific source to use in these cases. Where a value in `Unit Identity: Name`_ has been standardized, a citation with the following title will be associated with it: "Name standardized in accordance with Security Force Monitor research".
+.. admonition:: Example
 
-Additionally, wherever possible, we will choose the most complete and complex version of a unit’s name that can be evidenced by a source:
+    ``Police Divisions`` are a class of police units in Nigeria established by law. There are over 1000 units of this type nationwide. However, each individual ``Police Division`` may not have a citation for their full, formal name. For example, a citation references the ``Achall Division`` police unit in Anambra State. There is no citation for the fuller, more formal ``Achalla Police Division``. In this case, and similar cases, the Monitor would create a claim with ``Achalla Police Division`` in the ``name:annotation`` with citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``. This citation was created to specifically note the name for the unit has been created by the Monitor. Best practice is to also include any citations that provide contextual information for the standardized name, as well as a ``public_notes:meta``.
 
-.. admonition:: Examples
+As many units do have standardized names, the Monitor follows several "stylistic" naming conventions for the ``name:annotation`` field.
 
-    Example C: ``3 Armoured Division`` would be the entry, rather than the more informal ``3 Division`` (which may have more citations).
+Convention: The Monitor always standardizes the ``name:annotation`` to include numerials rather than spelling out numerials.
+
+.. admonition:: Example
+
+    Army units of a country may follow a naming convention of a number and then name of unit: e.g. ``3 Battalion`` or ``25 Brigade``. There may be a unit of which we only have citations for a variation on that: e.g. ``Fourth Battalion``. In this case, the Monitor would list the name of the unit as ``4 Battalion`` with a note about the methodology behind that choice.
+
+Convention: List the numerial in any ``name:annotation`` before any textual element of the name of the unit. This is done because the number of the unit is often the most distinguishing feature of a name.
+
+.. admonition:: Example
+
+    Most English language sources for Myanmar Army units reference the name of the unit and then the number, for example ``Light Infantry Battalion 510``. If there was no citation for ``510 Light Infantry Battalion`` the Monitor would create a claim with ``510 Light Infantry Battalion`` in the ``name:annotation`` with citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``.
 
 The Monitor does not use ordinal indicators like ``1st`` or ``3rd`` in the name of an Unit. Instead these will be listed in the `Unit Identity: Other Names`_ field.
 
