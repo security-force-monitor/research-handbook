@@ -3,6 +3,19 @@ Positioning
 
 The ``positioning`` claim describes the geographic footprint of a specific unit. This includes the ``site`` or base of a unit, as well as the areas of operation (``aoo``) of a ``unit``.
 
+Every ``positioning`` should be "pushed up" to parent units or the ``relation:related_unit:refs:assertion`` units, which have a ``relation`` that overlaps any ``positioning`` claim for any subordinate ``unit``.
+
+.. admonition:: Example
+
+    The Myanmar Army contains ten light infantry divisions which control battalions. A citation references the ``79 Infantry Battalion`` operating in ``Lashio Township`` on ``2020-04-24``, giving that battalion a ``positioning`` for ``Lashio Township`` on ``2020-04-24``. Other citations establish a ``relation`` between the ``79 Infantry Battalion`` and the ``99 Light Infantry Division`` before and after the ``positioning`` of the battalion to ``Lashio Township``. In this case, a ``positioning`` claim for ``99 Light Infantry Division`` operating in ``Lashio Township`` on ``2020-04-24`` should be created. The claim would be evidenced by the original citation for the ``79 Infantry Battalion`` ``positioning`` in ``Lashio Township``, along with all of the citations evidencing the ``relation`` between the ``79 Infantry Battalion`` and the ``99 Light Infantry Division``. Best practice is to add a ``public_notes:meta`` to this claim as well to explain the connection for a general audience.
+
+Often citation will evidence a ``positioning`` claim for an administrative area that includes smaller administrative areas. In these cases the researcher should enter claims for all possible administrative areas to capture the full claim being made in the citation.
+
+.. admonition:: Example
+
+    Nigeria is divided into 36 states and a Federal Capital Territory. These are further divided into Local Government Areas. If a citation states a ``unit`` operates in Lagos State then claims should be entered for positionings of Lagos State as well as every Local Government Area within Lagos State.
+
+
 Positioning: Summary of claim attributes
 ****************************************
 
@@ -235,19 +248,11 @@ Every claim has a Universally Unique Identifier (UUID) to distinguish it from an
 
 Each ``positioning`` is always treated as a contiguous, meaning it has the same UUID, unless citations establish it is non-contiguous. 
 
-.. admonition:: Example
-
-    For example, citations establish that on 2010-08-27 Hla Min stopped being commander of the Southern Regional Military Command and became commander of the 3 Bureau of Special Operations. One citation also evidences his being commander of the 3 Bureau of Special Operations on 2011-07-05 and another citation states he retired as commander of the 3 Bureau of Special Operations on 2015-08-10. All three of these claims are treated as evidencing the same ``posting``. In contrast, the 2011-07-05 citation also establishes that Hla Min once again became commander of the Southern Regional Military Command on a temporary basis as its commander was removed from the ``posting``. This ``posting`` as commander of the Southern Regional Military Command is treated as a separate ``posting`` with a different UUID as the previous ``posting`` held on 2010-08-27.
-
 A ``positioning`` should always be given the same UUID if there is an overlap or if the time-ranges of two or more citations fall within 1 day of each other. 
 
 .. admonition:: Example
 
     Citations establish that the ``502 Light Infantry Battalion`` is part of a mobile formation which is deployed around Myanmar for operations, and because of this ``positioning`` claims should not be treated as contiguous. However, there are two different claims that the ``502 Light Infantry Battalion`` has a ``positioning`` ``site`` of ``Mantong Township``, one claim on ``2013-04-19`` and the other on ``2013-04-20``. Because these two claims are within a day of each other, they are coded as part of the same ``positioning`` giving the ``502 Light Infantry Battalion`` a ``positioning`` ``site`` of ``Mantong Township`` from at least ``2013-04-19`` to at least ``2013-04-20``. Another claim giving the ``502 Light Infantry Battalion`` a ``positioning`` ``site`` of ``Mantong Township`` on ``2014-04-20`` is coded as a separate, non-contiguous positioning because of the citations stating that the battalion is part of a mobile formation which is deployed around Myanmar for operations.
-
-TO DO: Positionings should be inherited by parent units - same with classifications
-
-TO DO: Positionings should "go down" the hierarchy to lower level administrative boundaries - ie region/state to township
 
 
 about_entity:name:qa
@@ -443,12 +448,12 @@ Unique 32 character identifier of a Location where the unit has a "site" or "are
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format, selected from ``id:entity`` in locations sheet
+String in UUID format, selected from ``id:entity`` in locations sheet.
 
 Status
 ~~~~~~
 
-This attribute is optional
+This attribute is optional.
 
 Key name
 ~~~~~~~~
@@ -467,12 +472,9 @@ This attribute is used to store a reference to a location at which the unit is b
 
 The ``:assertion/positioning:location:refs`` should always be the location covering the largest possible area. 
 
-
 .. admonition:: Example
 
     In Myanmar there is a region of Magway, which contains Magway District. The district contains Magway Township, and the township contains the city of Magway. If a unit is described as being based in "Magway" the ``site`` used in data entry should be Magway Region.
-
-The parent unit should always cinlude the 
 
 
 positioning:location:names:qa
