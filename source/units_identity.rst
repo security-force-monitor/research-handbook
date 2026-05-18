@@ -419,9 +419,9 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-We use classifications to describe the basic nature of a specific unit and to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor's dataset. As alleged perpetrators are usually identified in general terms of "soldiers" and "police" this field is important as a first step to understand potential linkages between a ``unit``, ``person`` and ``incident``. `Unit Identity: Classification` values are useful supplements to those in the `Unit Relations`_ claim type in connecting different units together.
+We use classifications to describe the basic nature of a specific unit and to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor's dataset. As alleged perpetrators are usually identified in general terms of "soldiers" and "police" this field is important as a first step to understand potential linkages between a ``unit``, ``person`` and ``incident``.
 
-The `Unit Identity: Classification`_ field will contain a mix of standard terms and country-specific terms used to describe security force branches. In choosing terms to include in the `Unit Identity: Classification`_ field we try to include terms that are used by country experts as well as those that are common terms. We also try to be economical and create as few, distinct terms as possible.
+The ``:assertion/unit:classifications`` field will contain a mix of standard terms and country-specific terms used to describe security force branches. In choosing terms to include in the ``:assertion/unit:classifications`` field we try to include terms that are used by country experts as well as those that are common terms that would be meaningful to a general audience. We also try to be economical and create as few, distinct terms as possible.
 
 Units may have more than one classification. Usually this will be when a unit can have both "generic" and "specific" classifications.
 
@@ -429,8 +429,13 @@ Units may have more than one classification. Usually this will be when a unit ca
 
     Units which are part of the army of a country may be coded as having a classification of ``Army`` as well as a classification of ``Military``, whereas units which are part of the navy of a country would have classifications of of ``Navy`` and ``Military``. For both the army and navy unit their respective classifications are correct, the army and the navy are part of the military. Critically, this enables the Monitor or users of the Monitor's data to properly analyze allegations against "soldiers" and "members of the army" in the country. In the case of "soldiers" this analysis should include every unit with the classification of ``Military`` while if there is greater specificity of "members of the army" would mean excluding any unit with the classification of ``Navy`` and focusing only on those units with a classification of ``Army.``
 
+Every unit which has a "specific" classification should also have the "generic" classification as well.
 
-TO DO: Classifications should be inherited by parent units
+.. admonition:: Example
+
+    Units that have a ``Army`` classificaiton should also have a ``:assertion/unit:classifications`` of ``Military``.
+
+Classifications are "pushed up" to parent units or the ``relation:related_unit:refs:assertion`` units, meaning that a ``unit`` should have all of the ``:assertion/unit:classifications`` of any subordinate ``unit``. The ``unit`` representing the head of state or head of government which acts as commander-in-chief of the the armed forces would have a ``:assertion/unit:classifications`` of ``military``, among others.
 
 
 country:annotation
