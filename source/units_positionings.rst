@@ -385,12 +385,10 @@ Guidance on use
 
 This field defines the relationship between a unit and a location. The Staff Researcher must choose one of the two options below:
 
- - ``site``: the Locationdescribes a "site", such as a settlement or specific point, at which the unit has physical infrastructure like a station, camp, base, office or other facility.
+ - ``site``: the Location describes a "site", such as a settlement or specific point, at which the unit is based.
  - ``aoo``: the Location in describes an area, such as an administrative area, where the unit is known to have conducted operations or has territorial jurisdiction.
 
 The type of Location may be different from the way that the Location is described. For example, a small geographic area like a suburb is a *geometric area* but it could be used to describe a "site" for a unit. Locations themselves are a mix of geographical primatives - points, lines and polygons. This is why :ref:`Locations` are defined independently of their relationship to Units and Incidents.
-
-TO DO: Positioning should be largest possible area that matches the name given in the claim
 
 
 positioning:base_names:assertion
@@ -416,7 +414,6 @@ Key name
 
 ``:assertion/positioning:base-names``
 
-
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -425,9 +422,12 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The `Unit Positioning: Base Name`_ attribute adds unit-specific context about a Location. This field is used to record data about units that are located in a distinctively-named building or complex which is not found in the gazeteer, or otherwise cannot be represented as a geographic datapoint.
+The ``positioning:base_names:assertion`` attribute adds unit-specific context about a Location. This field is used to record data about units that are located in a distinctively-named building or complex which is not found in the gazeteer, or otherwise cannot be represented as a geographic datapoint.
 
-    For example, ``3 Battalion`` in Nigeria is cited as being based in the ``Lubanga Barracks`` in ``Enugu, Enugu State, Nigeria``.
+
+.. admonition:: Example
+
+    The ``3 Battalion`` in Nigeria is cited as being based in the ``Lubanga Barracks`` in ``Enugu, Enugu State, Nigeria``.
 
 This field should not be used for anything that matches the name or alias of a unit. For example, ``North Sector Police Station`` should not be put in this field if the name of the unit is ``North Sector Police Station``.
 
@@ -463,7 +463,16 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute is used to store a reference to a location at which the unit has infrastructure, or has operated. The value included in this attribute must be selected from ``::location:id``. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
+This attribute is used to store a reference to a location at which the unit is based, or has operated. The value included in this attribute must be selected from ``id:entity`` in the Locations sheet. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
+
+The ``:assertion/positioning:location:refs`` should always be the location covering the largest possible area. 
+
+
+.. admonition:: Example
+
+    In Myanmar there is a region of Magway, which contains Magway District. The district contains Magway Township, and the township contains the city of Magway. If a unit is described as being based in "Magway" the ``site`` used in data entry should be Magway Region.
+
+The parent unit should always cinlude the 
 
 
 positioning:location:names:qa
