@@ -286,7 +286,7 @@ relation:unit:refs:assertion
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code assigned to the unit about which a relationship is described in the claim.
+The unique 32 character code assigned to the unit with the relation which is the focus of the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -381,10 +381,14 @@ Guidance on use
 
 We use this field to define the nature of the relationship between the unit that is the subject of the claim (as described in ``relation:unit:refs:assertion``) and the other unit described in ``relation:related_unit:refs:assertion``. There are only two values that can be used by the researcher in this attribute:
 
- - ``child-of`` to define a hierarchic relationship. The unit specified in `Unit Relation: Related Unit Identifier`_ is the parent of the unit in `Unit Relation: Unit Identifier`_.
- - ``member-of`` to define a membership relationship. The unit specified in `Unit Relation: Unit Identifier`_ is a member of the unit noted in `Unit Relation: Related Unit Identifier`_.
+ - ``child-of`` to define a hierarchic relationship. The unit specified in ``relation:unit:refs:assertion`` is the parent of the unit in ``relation:related_unit:refs:assertion``.
+ - ``member-of`` to define a membership relationship. The unit specified in ``relation:unit:refs:assertion`` has some personnel who are members of the unit noted in ``relation:related_unit:refs:assertion``.
 
-The values included in this field are used to build the organizational structure of a branch of the security forces. This is discussed in more detail in the documentation for the attribute `Unit Relation: Related Unit Identifier`_.
+A ``member-of`` ``relation`` is used to capture instances where personnel of one unit become personnel of another unit, such as a joint task force or peacekeeping mission, that has a distinct chain of command and geographic footprint. This is important to capture in the data model as the personnel in joint task force or peacekeeping mission are no longer under the command of their "home" unit or at the minimum have an altered relation with their "home" chain of command.
+
+.. admonition:: Example
+
+    Many units of the Mexican Army sent personnel to serve as part of ``Operación Conjunta Chihuahua``, a joint task force which conducted operations in and around Ciudad Juárez in northern Mexico. While these personnel were serving as part of the operation they were part of the chain of command for that operation, and not their "home" unit which may have been across the country. Similarly, personnel of the "home" unit were not in a hierachical relation, or under the command of, ``Operación Conjunta Chihuahua``.
 
 
 relation:related_unit:refs:assertion
@@ -398,7 +402,7 @@ The unique 32 character code of the immediate superior or parent unit of the cur
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format
+String in UUID format.
 
 Status
 ~~~~~~
