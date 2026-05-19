@@ -416,7 +416,7 @@ The role a person plays in the unit, which is not immediate apparent their rank 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String
+Text string.
 
 Status
 ~~~~~~
@@ -440,9 +440,14 @@ The most common value we record in this attribute is ``Commander``.
 
 There are a variety of other roles a person can have including ``Second in Command``, ``Chief of Staff`` along with other less common entries. They will vary between countries.
 
-In nearly all cases, the value placed in this attribute is taken verbatim from the source. As a special note, heads of academic or other security force institutions will sometimes be referred to as the ``Commandant``. In these cases, ``Commandant`` should be recorded in the `Person Posting: Title`_ attribute , and their role should be recorded here as ``Commander``.
+In nearly all cases, the value placed in this attribute is taken verbatim from the source. ``Commander`` is coded as the person who is ultimately in charge of the unit. If a person is referred to as “the head”, “chief” or some other variation indicating that they are in charge of a unit, they should be regarded as the ``Commander`` for the purposes of entering a value in this attribute. Similarly, the president of a country should have their role recorded as ``Commander`` for the ``unit`` of the presidency. 
 
-If a person is referred to as “the head”, “chief” or some other variation indicating that they are in charge of a unit, they should be regarded as the ``Commander`` for the purposes of entering a value in this attribute.
+
+
+
+As a special note, heads of academic or other security force institutions will sometimes be referred to as the ``Commandant``. In these cases, ``Commandant`` should be recorded in the ``posting:titles:assertion`` attribute, and their role should be recorded here as ``Commander``.
+
+
 
 
 posting:titles:assertion
