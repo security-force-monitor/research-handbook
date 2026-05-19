@@ -352,7 +352,7 @@ The unique identifier of a location, drawn from the data on existing locations
 Attribute type
 ~~~~~~~~~~~~~~
 
-String, or string in UUID format
+String in UUID format
 
 String
 
@@ -374,7 +374,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field is used to store information about the Location where an incident happened. The value included in this field must be taken from :ref:`Location: Location Identifier` attribute from the Location dataset. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
+This field is used to store information about the Location where an incident happened. The value included in this field must be taken from ``id:entity`` attribute from the Location dataset. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
 
 
 incident:location:names:qa
@@ -442,7 +442,7 @@ Example of use
 Guidance for use
 ~~~~~~~~~~~~~~~~
 
-In `Incident: Violation Type`_, a value is taken "as is" from the source, without change. If the source states "torture", we transcribe this without further analysis. This is because the Monitor does not make specific direct allegations, but reports verbatim the allegations made by the source.
+In ``incident:violation:types:assertion``, a value is taken "as is" from the source, without change. If the source states "torture", we transcribe this without further analysis. This is because the Monitor does not make specific direct allegations, but reports verbatim the allegations made by the source.
 
 
 incident:violation:descriptions:assertion
@@ -480,6 +480,8 @@ In this attribute we record a direct quotation from the civil society, governmen
 
     According to X organization, “Description of incident”. According to Y organization, “Description of incident”.
 
+Best practice is for the ``incident:violation:descriptions:assertion`` to contain all of the information in the ``incident`` claim. This would allow any reader or researcher could read the ``incident:violation:descriptions:assertion`` and understand the entries in any field for the ``incident``.
+
 
 incident:perpetrator:refs:assertion
 ===================================
@@ -512,7 +514,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Where a source make an allegation against a specific unit or person, this attribute is used to store that entity's identifier. The unit or person must already exist in the dataset.
+Where a source make an allegation against a specific ``unit`` and/or ``person``, this attribute is used to store the ``about_entity:ref:claim`` of the ``unit`` and/or ``person``. The ``unit`` or ``person`` must already exist in the dataset. An ``incident`` can have multiple entries if multiple units and/or persons are alleged to be perpetrators.
 
 
 incident:perpetrator:names:qa
@@ -521,12 +523,12 @@ incident:perpetrator:names:qa
 Description
 ~~~~~~~~~~~~~~
 
-Human readable name for alleged unit or person perpetrator(s).
+Human readable name for alleged unit and/or person perpetrator(s).
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String
+Text string.
 
 Status
 ~~~~~~
@@ -546,7 +548,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The best practice for this field is to use the ``name:annotation`` of the unit or person.
+The best practice for this field is to use the ``name:annotation`` of the unit(s) and/or person(s).
 
 
 incident:perpetrator:classifications:assertion
@@ -580,15 +582,19 @@ Example of use
 Guidance for use
 ~~~~~~~~~~~~~~~~
 
-Sometimes a source will report general information about the alleged perpetrators of an act. For example, rather than state a unit or a specific person the source might include something generic like “soldiers” or “police". In cases like these where we can't be more specific we use this field to record the branch or general classification of the force implicated in the incident.
+Sometimes a source will report general information about the alleged perpetrators of an act. For example, rather than state a unit or a specific person the source might include something generic like “soldiers” or “police". In these cases we use the same methodology used assign a ``unit:classifications:assertion`` to assign a ``incident:perpetrator:classifications:assertion``. The list of possible entries used in ``incident:perpetrator:classifications:assertion`` is the same for ``unit:classifications:assertion``.
 
 .. admonition:: Example
 
     According to Amnesty International: "On 1 May 2012, around midnight, Nigerian soldiers arrested 37-year-old Dungus Ladan (not his real name), at his home in Maiduguri. Fatima, Dungus’ wife, told Amnesty International that the soldiers promised to just take him for an interrogation that should not last more than a few hours. When her husband did not return, she said, his father went on 3 May to Giwa barracks to check what had happened. Soldiers told him that Dungus had already been released. When he still did not return, the father went back again to the barracks, where soldiers told him that he should come back the next day to bail out his son. The following day, several relatives went together and gave the soldiers “what they could,” and the soldiers again promised to release Dungus that day. His wife said that the soldiers kept asking for money, and the family kept paying, but Dungus was never released. In February 2014, his father saw Dungus in the detention facility; they spoke briefly. Dungus said he had been framed by some people who owed him money and they arranged for him to be arrested and detained. Since then, his family has not seen him again; soldiers at Giwa barracks have told them he is not there."
 
-The only alleged perpetrators described in this alleged incident are "soldiers". The most appropriate term to enter in `Incident: Perpetrator Classification`_ to match this description which would be "military" because "soldiers" could refer to personnel of the Army, Navy or other armed services of a country.
+The only alleged perpetrators described in this alleged incident are "soldiers". The most appropriate term to enter in ``incident:perpetrator:classifications:assertion`` to match this description which would be "military" because "soldiers" could refer to personnel of the Army, Navy or other armed services of a country.
 
-Entries used in in `Incident: Perpetrator Classification`_ correspond to the list in `Unit Identity: Classification`_.
+An ``incident`` may have entries in both the ``incident:perpetrator:classifications:assertion`` and ``incident:perpetrator:refs:assertion`` fields.
+
+.. admonition:: Example
+
+    According to Amnesty International "On 27 August, Myanmar soldiers summarily executed scores of men and boys in Maung Nu [...]" and "The principal unit involved in the Maung Nu massacre was Light Infantry Battalion (LIB) No. 564 [...]". As both a specific unit, the ``564 Light Infantry Battalion``, and  "soldiers" are described as perpetrators the ``incident`` is coded with the ``about_entity:ref:claim`` of the ``564 Light Infantry Battalion`` in ``incident:perpetrator:refs:assertion`` and a ``incident:perpetrator:classifications:assertion`` of ``Military``.
 
 
 incident:victim:refs:assertion
@@ -622,7 +628,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For a ``person`` this UUID distinguishes them from any other ``person`` in the dataset. This UUID is used in other fields to tie a ``person`` to a ``posting`` or ``incident``.
+This draft field is to capture any ``person`` alleged to be a victim of the ``incident``. This ``person`` must already exist in the dataset.
 
 
 incident:victim:names:qa
@@ -705,6 +711,40 @@ ending_context:range
 ====================
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+
+
+category:violation_types:annotation
+===================================
+
+Description
+~~~~~~~~~~~
+
+Draft field to allow grouping or categorization of incidents based on alleged violations.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string.
+
+Status
+~~~~~~
+
+This is a draft field.
+
+Key name
+~~~~~~~~
+
+``:annotation/category:violation-types``
+
+Example of use
+~~~~~~~~~~~~~~
+
+This is a draft field.
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This draft field exists to allow for grouping or categorization of incidents based on alleged violations. The categoies themsleves can be determined and based on criteria established by the user of this data model.
 
 
 public_notes:meta
