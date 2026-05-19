@@ -173,7 +173,7 @@ A unique 36-character code assigned to each Location in the dataset.
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String in UUID format
+String in UUID format.
 
 Status
 ~~~~~~
@@ -193,7 +193,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Identifier (UUID) generated using a computer program. UUIDs must be created using either installable or online tools. Values stored in this attribute are referenced in attributes like :ref:`Unit: Location`.
+This value is a Universally Unique Identifier (UUID) generated using a computer program. Every location has a UUID to distinguish it from any other location. This field is used in data entry for ``incidents`` in ``incident:location:refs:assertion`` and ``positionings`` in ``positioning:location:refs:assertion``.
 
 
 location:humane_id:qa
@@ -207,7 +207,7 @@ A human-readable unique identifier for each Location in the dataset.
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String
+Text string.
 
 Status
 ~~~~~~
@@ -227,15 +227,13 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The values in ``::location/humane-id`` are a concatenation of four other values in the attribute of data. They provide a unique but human-readable key that can be included in Units and Incidents data to refer to a specific Location within the ``Locations`` dataset. The attribute is created by following the below format:
+The ``location:humane_id:qa`` should include other location fields that give a researcher a quick, human readable way to understand a location. Best practice is to include the ``name:annotation``, ``origin:location``, ``geo_type:qa`` and ``id:entity`` as this highlights the most important information while also creating a unique name due to the inclusion of ``id:entity``. SFM adopts this approach with ``location:humane_id:qa`` with entries in the field following the below format:
 
 ::
 
-  location:name (Location:origin, Location:geotype) Location:id:admin
+  ``name:annotation`` (``origin:location``, ``geo_type:qa``) ``id:entity``
 
 The value ``Ta'izz Governorate (osm, poly) 5c35b342-0b5e-4648-86cd-7ad730d647fa`` tells us that the name of the place is ``Ta'izz Governorate``, that it is a Location found in ``osm`` (short for "OpenStreetMap") that it denotes an area (``poly``); the UUID provides the hard link to a specific attribute in the Location table.
-
-Values in ``::location/humane-id`` provide Staff Researchers with a legible way to reference a Location specifically when using spreadsheets to construct datasets. For example, when defining a ``site`` or ``area of operations`` i  :ref:`Unit: Positioning` entity, a humane ID is used. The reason for this particular formulation is the need to balance readability with uniqueness. We could choose to use the UUID in ``::location/id`` as a way to reference Locations in other tables, but this would not give any easy-to-see indication about where the Location was, or what sort of Location it was. Similarly, the values in ``::location/name`` could be used as a reference to a Location, but these are not unique enough for us to be certain that we are referencing the correction Location. The format we have chosen balances these competing needs, giving the user a quick way to see the name of a Location, what type of object it is, where we got it from, along with its UUID.
 
 
 name:annotation
@@ -249,7 +247,7 @@ The name of the Location as specified in the source of geospatial information fr
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String
+Text string.
 
 Status
 ~~~~~~
@@ -269,7 +267,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are a combination of metadata entered by hand and other data obtained through use of automation tools. Locations are also derived from different data sources that may describe geographic objects in a variety of ways. The value in ``::location/name`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's own ``name`` attribute and place it in ``::location/name``. Along with ``::location/id`` and ``::location/geo-type``, ``::location/name`` is needed in order for automation tools toidentify the object within the geospatial data source. Where a Location is arbitrarily-defined, or is derived from a data source that does not provide a name, the Staff Researcher can provide one.
+The value in ``name:annotation`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's own "name" attribute and place it in ``name:annotation``. Along with ``origin_id:location`` and ``geo_type:qa``, ``name:annotation`` is needed in order for automation tools toidentify the object within the geospatial data source. Where a Location is arbitrarily-defined, or is derived from a data source that does not provide a name, the Staff Researcher can provide one.
 
 
 origin_id:location
@@ -303,7 +301,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are a combination of metadata entered by hand and other data obtained through use of automation. Locations are also derived from different data sources that may describe geographic objects in a variety of ways. The value in ``location:id`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's ``id`` attribute and place it in the ``::location/id`` attribute. Along with ``::location/name`` and ``::location/geo-type``, ``::location/id`` is needed in order for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily defined, or is derived from a data source that does not provide a ID number, the Staff Researcher can provide one.
+The value in ``origin_id:location`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's "id" attribute and place it in the ``origin_id:location`` attribute. Along with ``name:annotation`` and ``geo_type:qa``, ``origin_id:location`` is needed in order for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily defined, or is derived from a data source that does not provide a ID number, the Staff Researcher can provide one.
 
 
 geo_type:qa
@@ -332,20 +330,18 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``point``, ``poly``
+``point``, ``poly``, ``line``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute used a controlled vocabulary to describe the type of geometry used to represent the Location on a map. The Staff Researcher can choose from the following three options?
+This attribute used a controlled vocabulary to describe the type of geometry used to represent the Location on a map. The Staff Researcher can choose from the following three options:
 
  - ``point``: the Location is a single distinct point on a map, represented by a single pair of geographic coordinates.
  - ``poly``: the Location is a closed area on a map, its boundary described by a sequence of geographic coordinates.
  - ``line``: the Location is a line on a map, described by a sequence of geographic coordinates. A ``line`` may also be closed.
 
-The gazeteer used as the source of geometry may used different terminology to describe the Location. For example, in OpenStreetMap the boundaries of administrative areas (such as counties or states) `are described <https://wiki.openstreetmap.org/wiki/Relation>`_ using an object called a ``relation``; although this can be a complex mix of different objects, for our purposes it is a ``poly`` because it describes an area.
-
-Along with the values in ``::location/name``, ``::location/origin`` and ``::location/id`` the value entered in ``::location/geo-type`` becomes part of the Location's "humane id", a human-readable unique identifier that acts as a reference for a Location when it is used in other parts of the data model (such as when defining a "site" in the :ref:`Units` data,for example).
+The gazeteer used as the source of geometry may used different terminology to describe the Location. For example, in OpenStreetMap the boundaries of administrative areas (such as counties or states) `are described <https://wiki.openstreetmap.org/wiki/Relation>`_ using an object called a "relation"; although this can be a complex mix of different objects, for our purposes it is a ``poly`` because it describes an area.
 
 
 origin:location
@@ -379,7 +375,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-SFM uses a combination of manual data entry and automated processes to manage Location information. The values in ``location:origin`` identify where automation tools should go to obtain spatial information about an object. For example, if the value ``osm`` is entered in ``location:origin`` this indicates that the automation tool should query OpenStreetMap in order to obtain spatial information about a Location. If ``osm`` were set, then the values in ``location:name`` and ``location:id`` would correspond to the object name and ID number in OpenStreetMap. Locations can be derived from comprehensive online services, as well as other sources like locally-held ``.shp`` or ``.kml`` files. The number of origins is unlimited.
+The values in ``origin:location`` identify where automation tools should go to obtain spatial information about an object. For example, if the value ``osm`` is entered in ``origin:location`` this indicates that the automation tool should query OpenStreetMap in order to obtain spatial information about a Location. If ``osm`` were set, then the values in ``name:annotation`` and ``origin_id:location`` would correspond to the object name and ID number in OpenStreetMap. Locations can be derived from comprehensive online services, as well as other sources like locally-held ``.shp`` or ``.kml`` files. The number of origins is unlimited.
 
 
 geometry:ref:entity
@@ -408,10 +404,12 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
+``724f89db-98b3-5f5e-9947-7f50c049e5ea``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
+SFM's location database gives a seperate UUID for every geojson which must be matched to the location. This field enables the geographic data used to generate locations to be sepertate and connected to the values in the Locations sheet.
 
 
 country:annotation
@@ -445,7 +443,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this attribute are the ISO 3166-1 alpha-2 country codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`__). This attribute is entered manually by the Staff Researcher and acts as a simple cross-check on the automatically-populated values in ``location/admin-level-2``.
+Values for this attribute are the ISO 3166-1 alpha-2 country codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__).
 
 
 location:explicit_parent:annotation
@@ -454,7 +452,7 @@ location:explicit_parent:annotation
 Description
 ~~~~~~~~~~~
 
-The unique id generated by importer for the geojson for this Location.
+Manually entered 
 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
