@@ -452,7 +452,7 @@ location:explicit_parent:annotation
 Description
 ~~~~~~~~~~~
 
-Manually entered 
+Manually entered location which contains the location.
 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
@@ -472,9 +472,11 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
+``Ilocos Norte (psa, poly) ceffdf36-f14b-410c-9fde-4c39f5a87c7c``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
+If a geographic dataset does not establish whether locations are within one another, this field may be used to manually create the hierarchy between locations. The ``location:humane_id:qa`` should be used in this field.
 
 
 first_precise:range
@@ -556,11 +558,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-In every country, places are organized hierarchically based on their political significance, population and other factors. This feature passes into geographical information systems. At the top of the hierarchy rests the international boundary and capital city of a country; beneath this, there are sub-national divisions like states or provinces, and regional capitals, followed by districts, counties, municipalities, towns, suburbs, wards and so on. Different countries have different ways of describing these political and administrative divisions, but they are largely hierarchical and can be cross-compared. Knowing the level(s) at which a Location sits in the overall hierarchy provides us with a useful way to group and understand Locations; it can tell us important things about political and administrative authority, governance and elections, as well as security force jurisdictions and organizational structures. 
+In every country, places are organized hierarchically based on their administrative hierachy. This feature passes into geographical information systems. At the top of the hierarchy rests the international boundary and capital city of a country; beneath this, there are sub-national divisions like states or provinces, with their respective capitals, followed by smaller and smaller administrative divisions districts, counties, municipalities, towns, suburbs, wards and so on. Different countries have different ways of describing these political and administrative divisions, but they are largely hierarchical and can be cross-compared. Knowing the level(s) at which a Location sits in the overall hierarchy provides us with a useful way to group and understand Locations.
 
-The attribute ``::location:admin-level`` is drawn from OpenStreetMap, which has a `comprehensive table <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__ that matches the divisions that exist in every state to a single ranking scheme from ``2`` (international border) to ``10`` (small villages and communities). Some countries have defined a level ``11`` division, but we do not use this. Not all levels are present in every country: for example, Mexico does not define a level 3 administrative area.
+The attribute ``location:admin_level:qa`` is drawn from the geographic source, or if the source lacks its own hierarchy then OpenStreetMap, which has a `comprehensive table <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__ that matches the divisions that exist in every country.
 
-The data in ``location:admin-level`` and the other "admin_level" attributes are automatically populated using a script that queries the OSM Overpass API. The Staff Researcher does not do this manually.
+The data in ``location:admin_level:qa`` and the other "admin_level" attributes can be automatically populated using a script that queries the OSM Overpass API.
 
 
 location:admin_level_10:qa
@@ -589,25 +591,16 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``Zone 13 (osm, poly) b858ac31-9e46-4818-b70a-572756d60012``, a *barangay zone* `in the Philippines <https://www.openstreetmap.org/relation/11378938>`__.
+``Byaw Taw Wa Ward (osm, poly) 119ce62f-0caa-4c0d-bb30-d02f58364814``, a ward `in Myanmar <https://www.openstreetmap.org/relation/9957339>`__.
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``::location/humane-id``) of the level 10 adminstrative area in which the current Location is situated. Level 10 is a extrenely small adminstrative division, and is rarely specified in freely available geospatial information sources. 
-
-The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes *quartiers* (Belgium), *asumid* (subdistricts of Talinn, Estonia) and *الحي* (neighbourhoods of Damascus, Syria) in the list of types of level 10 administrative area.
-
-This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 10 adminstrative area in which the current Location is situated. Level 10 is a extrenely small adminstrative division, and is rarely specified in freely available geospatial information sources. 
 
 
 location:admin_level_9:qa
 =========================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::location/admin-level-9``
 
 Description
 ~~~~~~~~~~~
@@ -637,11 +630,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``::location/humane-id``) of the level 9 adminstrative area in which the current Location is situated. Level 9 is a extrenely small adminstrative division, and is rarely specified in freely available geospatial information sources. 
-
-The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes *arangay zones* (Philippines), *Sectores y Barrios de 1° nivel* (Venezuela) and *မြို့နယ်* (townships in Myanmar) in the list of types of level 9 administrative area.
-
-This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 9 adminstrative area in which the current Location is situated. Level 9 is a extrenely small adminstrative division, and is rarely specified in freely available geospatial information sources. 
 
 
 location:admin_level_8:qa
@@ -675,11 +664,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``::location/humane-id``) of the level 8 adminstrative area in which the current Location is situated. Level 9 is a relatively small adminstrative division, and may not be commonly found in freely available geospatial information sources.
-
-The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes *city corporations* (Bangladesh), *cantons* (Chad) and *kebele* (Ethiopia) in the list of types of level 8 administrative area.
-
-This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 8 adminstrative area in which the current Location is situated. Level 9 is a relatively small adminstrative division, and may not be commonly found in freely available geospatial information sources.
 
 
 location:admin_level_7:qa
@@ -713,11 +698,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``::location/humane-id``) of the level 7 adminstrative area in which the current Location is situated. Level 7 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
-
-The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes *sous-préfectures* (Chad), *arrondissements* (in the cities of Ouagadougou and Bobo Dioulasso, Burkina Faso) and *microrregiões* (micro-regions in Brazil) in the list of types of level 7 administrative area.
-
-This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 7 adminstrative area in which the current Location is situated. Level 7 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
 
 
 location:admin_level_6:qa
@@ -751,11 +732,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``::location/humane-id``) of the level 6 adminstrative area in which the current Location is situated. Level 6 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
-
-The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes *départments* (Chad), *municipios* (Mexico) and local government areas (Nigeria) in the list of types of level 6 administrative area.
-
-This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 6 adminstrative area in which the current Location is situated. Level 6 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
 
 
 location:admin_level_5:qa
@@ -789,11 +766,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``::location/humane-id``) of the level 5 adminstrative area in which the current Location is situated. Level 5 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
-
-The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes the *préfecture* (Togo), *Provincial legislative districts* (Philippines) and regions (Côte d'Ivoire) in the list of types of level 5 administrative area.
-
-This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 5 adminstrative area in which the current Location is situated. Level 5 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
 
 
 location:admin_level_4:qa
@@ -827,11 +800,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``::location/humane-id``) of the level 4 adminstrative area in which the current Location is situated. Level 4 areas are commonly found in freely available geospatial information sources such as OpenStreetMap, and are usually the largest sub-national administrative areas.
-
-The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes provinces (Philippines), states (Nigeria) and *régions* (Mali) in the list of types of level 4 administrative area.
-
-This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 4 adminstrative area in which the current Location is situated. Level 4 areas are commonly found in freely available geospatial information sources such as OpenStreetMap, and are usually the largest sub-national administrative areas.
 
 
 location:admin_level_3:qa
@@ -865,11 +834,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``::location/humane-id``) of the level 3 adminstrative area in which the current Location is situated. Where defined, level 3 administrative areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
-
-The `schema used by OpenStreetMap <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__, for example, includes regions (Philippines) in the list of types of level 3 administrative area.
-
-This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 3 adminstrative area in which the current Location is situated. Where defined, level 3 administrative areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
 
 
 location:admin_level_2:qa
@@ -878,7 +843,7 @@ location:admin_level_2:qa
 Description
 ~~~~~~~~~~~
 
-The administrative level 2 Location - the international state boundary - within which the present Location is wholly situated.
+The administrative level 2 Location within which the present Location is wholly situated.
 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
@@ -903,7 +868,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``::location/humane-id``) of the international boundary of a state, also known within the OpenStreetMap schema of administrative areas as a level 2 boundary. This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+This attribute contains the human-readable identifier (``location:humane_id:qa`) of the level 2 adminsirative level, which for the OpenStreetMap schema is the international boundary of a state.
 
 
 location:admin_level_1:qa
@@ -912,7 +877,7 @@ location:admin_level_1:qa
 Description
 ~~~~~~~~~~~
 
-The administrative level 2 Location - the international state boundary - within which the present Location is wholly situated.
+The administrative level 1 Location within which the present Location is wholly situated.
 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
@@ -932,12 +897,12 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``Mali (osm, poly) 8e7b492e-5346-4f43-91a0-55c1f3419468``, ``Sudan (osm, poly) 7117df90-1e52-4726-806a-8e422a0511c6``
+``Dodoma (ocha, poly) 8f9d115d-ef26-4d59-85a0-905cd9582adf``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``::location/humane-id``) of the international boundary of a state, also known within the OpenStreetMap schema of administrative areas as a level 2 boundary. This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 1 adminsirative level, which for the UN Office for the Coordination of Humanitarian Affairs (OCHA) is first major sub divisions of a country. 
 
 
 location:admin_level_0:qa
@@ -946,7 +911,7 @@ location:admin_level_0:qa
 Description
 ~~~~~~~~~~~
 
-The administrative level 2 Location - the international state boundary - within which the present Location is wholly situated.
+The administrative level 0 Location - the international state boundary for OCHA - within which the present Location is wholly situated.
 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
@@ -966,12 +931,12 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``Mali (osm, poly) 8e7b492e-5346-4f43-91a0-55c1f3419468``, ``Sudan (osm, poly) 7117df90-1e52-4726-806a-8e422a0511c6``
+``United Republic of Tanzania (ocha, poly) 6f08e803-b1d8-4b8f-899a-1e20c4174441``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``::location/humane-id``) of the international boundary of a state, also known within the OpenStreetMap schema of administrative areas as a level 2 boundary. This attribute is programmatically generated using a geospatial query; the Staff Researcher does not enter this manually.
+This attribute contains the human-readable identifier (``location:humane_id:qa``) of the international boundary of a country as defined in the UN Office for the Coordination of Humanitarian Affairs (OCHA) schema.
 
 
 public_notes:meta
