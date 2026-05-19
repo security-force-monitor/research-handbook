@@ -440,18 +440,17 @@ The most common value we record in this attribute is ``Commander``.
 
 There are a variety of other roles a person can have including ``Second in Command``, ``Chief of Staff`` along with other less common entries. They will vary between countries.
 
-In nearly all cases, the value placed in this attribute is taken verbatim from the source. ``Commander`` is coded as the person who is ultimately in charge of the unit. If a person is referred to as “the head”, “chief” or some other variation indicating that they are in charge of a unit, they should be regarded as the ``Commander`` for the purposes of entering a value in this attribute. Similarly, the president of a country should have their role recorded as ``Commander`` for the ``unit`` of the presidency. 
+In nearly all cases, the value placed in this attribute is taken verbatim from the source. ``Commander`` is coded as the person who is ultimately in charge of the unit. If a person is referred to as “the head”, “chief” or some other variation indicating that they are in charge of a unit, they should be regarded as the ``Commander`` for the purposes of entering a value in this attribute. Similarly, the head of government or head of state of a country should have their role recorded as ``Commander`` for their ``posting``.
 
+.. admonition:: Example
 
+    The ``Président de la transition`` of Burkina Faso is the head of state, along with the commander-in-chief of the security forces. In our data any person who has been the ``Président de la transition`` would have a posting to that ``unit`` with a ``posting:roles:assertion`` of ``Commander`` and a ``posting:titles:assertion`` of ``Président de la transition``.
 
-
-As a special note, heads of academic or other security force institutions will sometimes be referred to as the ``Commandant``. In these cases, ``Commandant`` should be recorded in the ``posting:titles:assertion`` attribute, and their role should be recorded here as ``Commander``.
-
-
+Similarly, heads of academic or other security force institutions will sometimes be referred to as the ``Commandant``. In these cases, ``Commandant`` should be recorded in the ``posting:titles:assertion`` attribute, and their ``posting:roles:assertion`` should be recorded here as ``Commander``.
 
 
 posting:titles:assertion
-=====================
+========================
 
 Description
 ~~~~~~~~~~~
@@ -461,7 +460,7 @@ A title held by a person that is separate from their rank or role.
 Attribute type
 ~~~~~~~~~~~~~~
 
-String
+Text string.
 
 Status
 ~~~~~~
@@ -485,17 +484,17 @@ The range of titles will vary from country to country. For example, commanders o
 
 
 posting:ranks:assertion
-====================
+=======================
 
 Description
 ~~~~~~~~~~~
 
-The official position of a person in the hierarchy of a security force.
+The official rank of a person in the of a security force.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String
+Text string.
 
 Status
 ~~~~~~
