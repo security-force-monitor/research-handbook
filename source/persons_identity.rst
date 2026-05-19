@@ -455,7 +455,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute is used to capture data about the gender of a person, as determined only by the pronouns ("her", "she", "his", "him", etc.) used in any available textual sources about this person. We do not infer a person's gender from their name or images of them. 
+This attribute is used to capture data about the gender of a person, as determined only by the pronouns ("her", "she", "his", "him", etc.) used in any available textual sources about this person. Data entry based on these pronouns is based on the coding of pronouns as "masculine" for ``male`` and "feminine" for ``female`` from (https://globalaffairs.ucdavis.edu/iae/graduate/language-tips/pronouns-and-gender). We do not infer a person's gender from their name or images of them. 
 
 Echoing the definition used in the `FOAF standard<http://xmlns.com/foaf/spec/#term_gender>`, the `person:genders:assertion` attribute is not intended to capture the full range of possible biological, social and sexual associated with the word "gender". This attribute open to include alternatives that are expressed within the available sources about a person.
 
@@ -463,7 +463,7 @@ Where the sources contain no textual indication about the person's gender, the a
 
 
 person:account_type:assertion
-===============================
+=============================
 
 Description
 ~~~~~~~~~~~
@@ -498,7 +498,7 @@ This attribute is used to record the name of the online platform of service on w
 
 
 person:account_id:assertion
-=====================================
+===========================
 
 Description
 ~~~~~~~~~~~
@@ -508,7 +508,7 @@ The account name used by the person on a specific online platform or service.
 Attribute type
 ~~~~~~~~~~~~~~
 
-String
+Text string
 
 Status
 ~~~~~~
@@ -562,7 +562,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute is used to store a brief description of the content of external. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the person.
+This attribute is used to store a brief description of the content of external media. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the person.
 
 
 public_notes:meta
