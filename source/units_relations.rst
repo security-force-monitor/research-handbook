@@ -291,7 +291,7 @@ The unique 32 character code assigned to the unit about which a relationship is 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format
+String in UUID format.
 
 Status
 ~~~~~~
@@ -311,7 +311,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The ``about_entity:ref:claim`` UUID must be for a ``unit`` which already exists in the dataset. This attribute denotes one side of a relationship between units; the other is denoted in the attribute `Unit Relation: Related Unit Identifier`_. The nature of the relationship is clarified further using the `Unit Relation: Type of Relation`_ and `Unit Relation: Relation Classification`_ attributes.
+The UUID used in ``relation:unit:refs:assertion`` must be for a ``unit`` which already exists in the dataset. The nature of the relationship is clarified further using the ``relation:types:assertion`` and ``relation:related_unit_classes:assertion`` fields.
 
 
 relation:unit:names:qa
