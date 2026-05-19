@@ -177,7 +177,7 @@ Field unique 32 character code assigned to citation(s) evidencing the claim.
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format
+String in UUID format.
 
 Status
 ~~~~~~
@@ -211,7 +211,7 @@ A unique 32 character code assigned to each entity in the dataset.
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format
+String in UUID format.
 
 Status
 ~~~~~~
@@ -257,7 +257,7 @@ Field that provides human readable name for entity.
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text string
+Text string.
 
 Status
 ~~~~~~
@@ -320,7 +320,7 @@ relation:unit:names:qa
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code assigned to the unit about which a relationship is described in the claim.
+The human readable name of the unit that is a child or member of another unit.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -379,10 +379,10 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-We use this field to define the nature of the relationship between the unit that is the subject of the claim (as described in `Unit Relation: Unit Identifier`_) and the other unit described in `Unit Relation: Related Unit Identifier`_. There are only two values that can be used by the researcher in this attribute:
+We use this field to define the nature of the relationship between the unit that is the subject of the claim (as described in ``relation:unit:refs:assertion``) and the other unit described in ``relation:related_unit:refs:assertion``. There are only two values that can be used by the researcher in this attribute:
 
- - ``child`` to define a hierarchic relationship. The unit specified in `Unit Relation: Related Unit Identifier`_ is the parent of the unit in `Unit Relation: Unit Identifier`_.
- - ``member`` to define a membership relationship. The unit specified in `Unit Relation: Unit Identifier`_ is a member of the unit noted in `Unit Relation: Related Unit Identifier`_.
+ - ``child-of`` to define a hierarchic relationship. The unit specified in `Unit Relation: Related Unit Identifier`_ is the parent of the unit in `Unit Relation: Unit Identifier`_.
+ - ``member-of`` to define a membership relationship. The unit specified in `Unit Relation: Unit Identifier`_ is a member of the unit noted in `Unit Relation: Related Unit Identifier`_.
 
 The values included in this field are used to build the organizational structure of a branch of the security forces. This is discussed in more detail in the documentation for the attribute `Unit Relation: Related Unit Identifier`_.
 
