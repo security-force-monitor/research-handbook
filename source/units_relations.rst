@@ -325,7 +325,7 @@ The human readable name of the unit that is a child or member of another unit.
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format
+Text string.
 
 Status
 ~~~~~~
@@ -422,26 +422,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The SFM data model includes two types of relationship between units: "Hierarchic", and "membership". 
-
-In most cases, `Unit Relation: Related Unit Identifier`_ contains the unique identifying code for the immediate parent of the unit described in `Unit Relation: Unit Identifier`_, creating a "hierarchic" relationship. "Hierarchic" relationships are time-bound parent-child relationships between two units that are part of the same branch of a security force. When the relationship is defined in this way, the unit linked to using `Unit Relation: Related Unit Identifier`_ is synonymous with  "parent unit" in that it describes a unit that is “above” and distinct and separate from the present unit in some way. It also exercises authority over its "child" unit(s). The aggregated upwards relationships between units form organizational structured and command chains. 
-
-Over time, a unit may have different parents. 
-
-    Example: In Nigeria the ``112 Task Force Battalion`` had the parent of ``7 Division Garrison`` between 12 November 2015 and 24 March 2016. The ``112 Task Force Battalion`` was then under the ``22 Task Force Brigade`` from 14 March 2017 to 26 October 2017.
-
-Units can also have multiple parent relationships at the same time. For example, sources could indicate a unit has a formal legal parent unit while at the same time a new security body established by decree can also directly order the unit to carry out operations, establishing a second parent relationship.
-
-"Membership" relationships indicate that a unit is member of or attached to internal/national joint operations, international peacekeeping operations, or other multi-unit efforts. Often when there is an "operation" or "joint task force", it may not have personnel of its own. Rather, personnel from a range of different units are assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the organizational chart. There are two circumstances in which it is appropriate to define a relationship as a "Membership". First, where multiple units operate as part of an “operation” focused on a specific mission. Second, where multiple units “lend” or otherwise deploy personnel who operate under the command of a force composition like a "Joint Task Force" or "Operation", which usually has a commander of its own.
-
-    Example: soldiers from ``1 Division`` are deployed to the northeast of Nigeria to operate under ``Operation BOYANA``. ``1 Division`` has a commander, but the soldiers as part of ``Operation BOYANA`` likely report to and take orders from the commander of ``Operation BOYANA``. When the soldiers are done with their rotation, after several months, they return to their “home unit” ``1 Division``. So while ``Operation BOYANA`` commands some soldiers who are part of ``1 Division`` it doesn’t technically command all of the soldiers of ``1 Division`` (otherwise it would be the parent unit).
-
-The type of relationship between units is determined by setting the value in `Unit Relation: Type of Relation``, which offers two options:
-
- - ``child`` to define a hierarchic relationship. The unit specified in `Unit Relation: Related Unit Identifier`_ is the parent of the unit in `Unit Relation: Unit Identifier`_.
- - ``member`` to define a membership relationship. The unit specified in `Unit Relation: Unit Identifier`_ is a member of the unit noted in `Unit Relation: Related Unit Identifier`_.
-
-In some cases, we are aware that a unit exist because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of "Unnamed" and "Unknown" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`.
+The UUID used in ``relation:related_unit:refs:assertion`` must be for a ``unit`` which already exists in the dataset. The nature of the relationship is clarified further using the ``relation:types:assertion`` and ``relation:related_unit_classes:assertion`` fields.
 
 
 relation:related_unit:names:qa
@@ -450,12 +431,12 @@ relation:related_unit:names:qa
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code assigned to the unit about which a relationship is described in the claim.
+The human readable name of the unit that is the "parent" of another unit or which has personnel serving within it as members drawn from another unit.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format.
+Text string.
 
 Status
 ~~~~~~
@@ -509,15 +490,19 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Units have a ``Command`` relationship when the related parent unit can order the unit to perform some operational activity. These cover both *de jure* and *de facto* relationships between units.
+Units have a ``command`` relationship when the related parent unit can order the unit to perform some operational activity. These cover both *de jure* and *de facto* relationships between units.
 
-``Informal`` relationships occur when there is a relationship outside of the legal or formal structure of security forces and where the exact nature of the relationship is unclear.
+The ``class`` entry in this field is exclusively used for modeling the different "classes" or "intakes" of security force training or academic insitutions.
 
-    Example: Lagos state in Nigeria has a security council which is a meeting of the governor, and the top commanders of police and military units in the state. The security council should be considered its own unit. By law a governor of a state is not in the chain of command for the military or police forces, but the security council membership establishes a relationship between the units and meetings often result in new approaches to security being taken, such as different deployments of police. In this case, we could make the determination that an informal relationship exists between the security council and the police and military units.
+.. admonition:: Example
 
-``Administrative`` relationships exist where a formal, non-command relationship exists between units, or where an administrative description is more accurate of the relationship between two units.
+    The ``Philippine Military Academy`` and ``Philippine National Police Academy`` enroll students every year into a formal academic program to train them as officers. These cohorts are organized into "classes" named after the year that they will graduate, such as "Class of 1998". To model this we create a ``unit`` ``Class of 1998 (Philippine National Police Academy)`` which has a ``relation`` with ``Philippine National Police Academy`` where ``relation:related_unit_classes:assertion`` is ``class``. The ``Defense Services Academy`` in Myanmar enroll students every year via cohorts organized into numbered "intakes", such as "Intake 30". Similar to the example above, we create ``Intake 30 (Defense Services Academy)`` which has a ``relation`` with ``Defense Services Academy`` where ``relation:related_unit_classes:assertion`` is ``class``.
 
-    Example: By law the Ministry of Defence in Nigeria provides administrative support to the Nigerian Army, establishing a relationship we could classify as ``Administrative``. The Standards Department of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could order the Department to take some sort of action. This technically means the Department is under the “command” of the Headquarters, but the Monitor would describe this relationship as ``Administrative`` because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
+``administrative`` relationships exist where a formal, non-command relationship exists between units, or where an administrative description is more accurate of the relationship between two units.
+
+.. admonition:: Example
+
+    By law the Ministry of Defence in Nigeria provides administrative support to the Nigerian Army, establishing a relationship we could classify as ``administrative``. The Standards Department of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could order the Department to take some sort of action. This technically means the Department is under the “command” of the Headquarters, but the Monitor would describe this relationship as ``administrative`` because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
 
 
 first_precise:range
