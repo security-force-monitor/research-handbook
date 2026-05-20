@@ -1,7 +1,7 @@
 Locations
 #########
 
-Locations are unique places or positions. A named town or city can be a Location, as can an administrative area like a county, district or governorate. In fact, anything that be drawn on a map can be a Location: a specific point, a section of a road, a military line of control, and so on.
+Locations are unique places or positions. A named town or city can be a Location, as can an administrative area like a county, district or governorate. In fact, anything that can be drawn on a map can be a Location: a specific point, a section of a road, a military line of control, and so on.
 
 
 Location: Summary of attributes
@@ -159,7 +159,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are drawn from an external gazeeter or geographic databse, and because of this they do not require a citation. However, best practice is to include a citation whenever possible. When two or more citations are needed to evidence a location then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
+Locations are drawn from an external gazeeter or geographic database, and because of this they do not require a citation. However, best practice is to include a citation whenever possible. When two or more citations are needed to evidence a location then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
 
 id:entity
@@ -262,12 +262,12 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-```Ta'izz Governorate```
+``Ta'izz Governorate``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The value in ``name:annotation`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's own "name" attribute and place it in ``name:annotation``. Along with ``origin_id:location`` and ``geo_type:qa``, ``name:annotation`` is needed in order for automation tools toidentify the object within the geospatial data source. Where a Location is arbitrarily-defined, or is derived from a data source that does not provide a name, the Staff Researcher can provide one.
+The value in ``name:annotation`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's own "name" attribute and place it in ``name:annotation``. Along with ``origin_id:location`` and ``geo_type:qa``, ``name:annotation`` is needed for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily-defined, or is derived from a data source that does not provide a name, the Staff Researcher can provide one.
 
 
 origin_id:location
@@ -409,7 +409,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-SFM's location database gives a seperate UUID for every geojson which must be matched to the location. This field enables the geographic data used to generate locations to be sepertate and connected to the values in the Locations sheet.
+SFM's location database gives a separate UUID for every geojson which must be matched to the location. This field enables the geographic data used to generate locations to be unique, and to connect these unique geojson to the data in the Locations sheet.
 
 
 country:annotation
@@ -558,7 +558,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-In every country, places are organized hierarchically based on their administrative hierachy. This feature passes into geographical information systems. At the top of the hierarchy rests the international boundary and capital city of a country; beneath this, there are sub-national divisions like states or provinces, with their respective capitals, followed by smaller and smaller administrative divisions districts, counties, municipalities, towns, suburbs, wards and so on. Different countries have different ways of describing these political and administrative divisions, but they are largely hierarchical and can be cross-compared. Knowing the level(s) at which a Location sits in the overall hierarchy provides us with a useful way to group and understand Locations.
+In every country, places are organized hierarchically based on their administrative hierarchy. This feature passes into geographical information systems. At the top of the hierarchy rests the international boundary and capital city of a country; beneath this, there are sub-national divisions like states or provinces, with their respective capitals, followed by smaller and smaller administrative divisions districts, counties, municipalities, towns, suburbs, wards and so on. Different countries have different ways of describing these political and administrative divisions, but they are largely hierarchical and can be cross-compared. Knowing the level(s) at which a Location sits in the overall hierarchy provides us with a useful way to group and understand Locations.
 
 The attribute ``location:admin_level:qa`` is drawn from the geographic source, or if the source lacks its own hierarchy then OpenStreetMap, which has a `comprehensive table <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__ that matches the divisions that exist in every country.
 
@@ -596,7 +596,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 10 adminstrative area in which the current Location is situated. Level 10 is a extrenely small adminstrative division, and is rarely specified in freely available geospatial information sources. 
+This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 10 administrative area in which the current Location is situated. Level 10 is an extremely small administrative division and is rarely specified in freely available geospatial information sources. 
 
 
 location:admin_level_9:qa
@@ -630,7 +630,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 9 adminstrative area in which the current Location is situated. Level 9 is a extrenely small adminstrative division, and is rarely specified in freely available geospatial information sources. 
+This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 9 administrative area in which the current Location is situated. Level 9 is an extremely small administrative division and is rarely specified in freely available geospatial information sources. 
 
 
 location:admin_level_8:qa
@@ -664,7 +664,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 8 adminstrative area in which the current Location is situated. Level 9 is a relatively small adminstrative division, and may not be commonly found in freely available geospatial information sources.
+This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 8 administrative area in which the current Location is situated. Level 8 is a relatively small administrative division, and may not be commonly found in freely available geospatial information sources.
 
 
 location:admin_level_7:qa
@@ -698,7 +698,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 7 adminstrative area in which the current Location is situated. Level 7 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
+This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 7 administrative area in which the current Location is situated. Level 7 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
 
 
 location:admin_level_6:qa
@@ -732,7 +732,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 6 adminstrative area in which the current Location is situated. Level 6 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
+This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 6 administrative area in which the current Location is situated. Level 6 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
 
 
 location:admin_level_5:qa
@@ -766,7 +766,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 5 adminstrative area in which the current Location is situated. Level 5 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
+This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 5 administrative area in which the current Location is situated. Level 5 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
 
 
 location:admin_level_4:qa
@@ -800,7 +800,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 4 adminstrative area in which the current Location is situated. Level 4 areas are commonly found in freely available geospatial information sources such as OpenStreetMap, and are usually the largest sub-national administrative areas.
+This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 4 administrative area in which the current Location is situated. Level 4 areas are commonly found in freely available geospatial information sources such as OpenStreetMap, and are usually the largest sub-national administrative areas.
 
 
 location:admin_level_3:qa
@@ -834,7 +834,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable idenfifier (``location:humane_id:qa``) of the level 3 adminstrative area in which the current Location is situated. Where defined, level 3 administrative areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
+This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 3 administrative area in which the current Location is situated. Where defined, level 3 administrative areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
 
 
 location:admin_level_2:qa
@@ -843,7 +843,7 @@ location:admin_level_2:qa
 Description
 ~~~~~~~~~~~
 
-The administrative level 2 Location within which the present Location is wholly situated.
+The administrative level 2 location within which the present Location is wholly situated.
 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
@@ -868,7 +868,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``location:humane_id:qa`) of the level 2 adminsirative level, which for the OpenStreetMap schema is the international boundary of a state.
+This attribute contains the human-readable identifier (``location:humane_id:qa`) of the level 2 administrative level, which for the OpenStreetMap schema is the international boundary of a country.
 
 
 location:admin_level_1:qa
@@ -902,7 +902,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 1 adminsirative level, which for the UN Office for the Coordination of Humanitarian Affairs (OCHA) is first major sub divisions of a country. 
+This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 1 administrative level. The UN Office for the Coordination of Humanitarian Affairs (OCHA) defines the level 1 administrative level as the highest sub national boundaries of a country (OSM generally uses level 4 for these sub national boundaries). 
 
 
 location:admin_level_0:qa
@@ -970,7 +970,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public auidence since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result, the researcher should explain how that date range was evidenced by the citation.
 
 
 type:entity
@@ -1004,4 +1004,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For a ``location`` the only allowed entry for this field is ``location``.
+For a ``location`` the only entry allowed for this field is ``location``.
