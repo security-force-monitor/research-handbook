@@ -237,13 +237,19 @@ Every ``relation`` between the same two ``units`` is always treated as a contigu
 
 .. admonition:: Example
 
-    TO DO
+    The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change ``relation`` to whatever regional military command controls the area where it is operating. One citation puts the division in an area under ``Northeastern Regional Military Command`` as of ``2016-11-13`` which establishes a ``relation`` between the division and the regional command for the same time-range. Another citation places the division in an area under ``Northeastern Regional Military Command`` on ``2016-12-05``. Even though the related units are the same, because citations establish the division is a mobile unit that can change ``relation`` these two claims are coded as separate, non-contiguous relations.
 
 Two or more ``relation`` claims should always be treated as contiguous if there is an overlap in the time range of the two claims, or if the time-ranges of the claims fall within 1 day of each other.
 
 .. admonition:: Example
 
-    The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change ``relation`` to whatever regional command controls the area where it is operating. One claim puts in an area under ``Northeastern Regional Military Command`` from at least ``2016-03-10`` to at least ``2016-03-11``, which establishes a ``relation`` between the division and the regional command for the same time-range. Another citation places the division in an area under ``Northeastern Regional Military Command`` on ``2016-03-12``, which again establishes a ``relation`` between the division and the regional command for the same time-range. These two claims are coded as the same ``relation`` given that they fall within 1 day of each other.
+    The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change ``relation`` to whatever regional military command controls the area where it is operating. One citation puts the division in an area under ``Northeastern Regional Military Command`` from at least ``2016-03-10`` to at least ``2016-03-11``, which establishes a ``relation`` between the division and the regional command for the same time-range. Another citation places the division in an area under ``Northeastern Regional Military Command`` on ``2016-03-12``, which again establishes a ``relation`` between the division and the regional command for the same time-range. These two claims are coded as the same ``relation`` given that they fall within 1 day of each other.
+
+A ``unit`` may have multiple, overlapping ``relations``.
+
+.. admonition:: Example
+
+    Citations establish that regional military commands in the Myanmar Army control units that operate in their area of operations. Citations establish through time that the ``290 Infantry Battalion`` is under command of the ``Northeastern Regional Military Command`` and also based in areas under ``Northeastern Regional Military Command`` through time. Combined these citations evidence a contiguous ``relation`` between the battalion and ultimately the ``Northeastern Regional Military Command``. Other citations, however, evidence the battalion also operated in areas controlled by different regional military commands. These establish additional ``relations`` for the battalion during the time ranges it was operating in areas under the ``Eastern Central Regional Military Command``, ``Northern Regional Military Command``, ``Southeastern Regional Military Command`` or ``Triangle Regional Military Command``.
 
 
 about_entity:name:qa
@@ -388,7 +394,7 @@ A ``member-of`` ``relation`` is used to capture instances where personnel of one
 
 .. admonition:: Example
 
-    Many units of the Mexican Army sent personnel to serve as part of ``Operación Conjunta Chihuahua``, a joint task force which conducted operations in and around Ciudad Juárez in northern Mexico. While these personnel were serving as part of the operation they were part of the chain of command for that operation, and not their "home" unit which may have been across the country. Similarly, personnel of the "home" unit were not in a hierachical relation, or under the command of, ``Operación Conjunta Chihuahua``.
+    Many units of the Mexican Army sent personnel to serve as part of ``Operación Conjunta Chihuahua``, a joint task force which conducted operations in and around Ciudad Juárez in northern Mexico. While these personnel were serving as part of the operation they were part of the chain of command for that operation, and not their "home" unit which may have been across the country. Similarly, personnel of the "home" unit were not in a hierarchical relation, or under the command of, ``Operación Conjunta Chihuahua``.
 
 
 relation:related_unit:refs:assertion
@@ -584,7 +590,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. In the "Example of Use" above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. In the "Example of Use" above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result, the researcher should explain how that date range was evidenced by the citation.
 
 
 type:entity
