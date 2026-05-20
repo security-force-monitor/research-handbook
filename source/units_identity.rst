@@ -427,15 +427,15 @@ Units may have more than one classification. Usually this will be when a unit ca
 
 .. admonition:: Example
 
-    Units which are part of the army of a country may be coded as having a classification of ``Army`` as well as a classification of ``Military``, whereas units which are part of the navy of a country would have classifications of of ``Navy`` and ``Military``. For both the army and navy unit their respective classifications are correct, the army and the navy are part of the military. Critically, this enables the Monitor or users of the Monitor's data to properly analyze allegations against "soldiers" and "members of the army" in the country. In the case of "soldiers" this analysis should include every unit with the classification of ``Military`` while if there is greater specificity of "members of the army" would mean excluding any unit with the classification of ``Navy`` and focusing only on those units with a classification of ``Army.``
+    Units which are part of the army of a country may be coded as having a classification of ``Army`` as well as a classification of ``Military``, whereas units which are part of the navy of a country would have classifications of ``Navy`` and ``Military``. For both the army and navy unit their respective classifications are correct, the army and the navy are part of the military. Critically, this enables the Monitor or users of the Monitor's data to properly analyze allegations against "soldiers" and "members of the army" in the country. In the case of "soldiers" this analysis should include every unit with the classification of ``Military`` while if there is greater specificity of "members of the army" would mean excluding any unit with the classification of ``Navy`` and focusing only on those units with a classification of ``Army.``
 
 Every unit which has a "specific" classification should also have the "generic" classification as well.
 
 .. admonition:: Example
 
-    Units that have a ``Army`` classificaiton should also have a ``:assertion/unit:classifications`` of ``Military``.
+    Units that have an ``Army`` classification should also have a ``:assertion/unit:classifications`` of ``Military``.
 
-Classifications are "pushed up" to parent units or the ``relation:related_unit:refs:assertion`` units, meaning that a ``unit`` should have all of the ``:assertion/unit:classifications`` of any subordinate ``unit``. The ``unit`` representing the head of state or head of government which acts as commander-in-chief of the the armed forces would have a ``:assertion/unit:classifications`` of ``military``, among others.
+Classifications are "pushed up" to parent units or the ``relation:related_unit:refs:assertion`` units, meaning that a ``unit`` should have all of the ``:assertion/unit:classifications`` of any subordinate ``unit``. The ``unit`` representing the head of state or head of government which acts as commander-in-chief of the armed forces would have a ``:assertion/unit:classifications`` of ``Military``, among others.
 
 
 country:annotation
