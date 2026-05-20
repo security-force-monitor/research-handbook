@@ -4,7 +4,7 @@ Overview: Persons
 What are persons?
 *****************
 
-A ``Person`` is a human being who is affiliated with or hold positions in a specific ``unit`` at a particular point in time.
+A ``Person`` is a human being who existed at some point in time. The Monitor structures data on persons affiliated with or holding positions in specific ``units`` of security forces at a particular point in time.
 
 Data about persons are captured in two claim types:
 
