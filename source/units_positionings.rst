@@ -320,7 +320,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The UUID inputted into ``positioning:unit:refs:assertion`` must match the ``about_entity:ref:claim`` of a ``unit`` that already exists within the dataset.
+The UUID entered into ``positioning:unit:refs:assertion`` must match the ``about_entity:ref:claim`` of a ``unit`` that already exists within the dataset.
 
 
 positioning:unit:names:qa
@@ -590,7 +590,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. In the "Example of Use" above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. In the "Example of Use" above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result, the researcher should explain how that date range was evidenced by the citation.
 
 
 type:entity
