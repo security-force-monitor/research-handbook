@@ -8,7 +8,7 @@ Documentation toolset
 
 - The text of the Research Handbook is written in `reStructuredText <https://docutils.sourceforge.io/rst.html>`_. Earlier versions were written in Markdown, and published on GitBook.
 - The `Sphinx Python Documentation Generator <https://www.sphinx-doc.org/en/master/>`_ turns this into nice webpages. Install with ``pip``.
-- The Research Handbook is hosted on `ReadTheDocs <https://readthedocs.org>`_, using a free account. This service is incredible, and we should give them money!
+- The Research Handbook is hosted on `ReadTheDocs <https://readthedocs.org>`_, using a free account.
 - The current translation toolkit is `Transifex <https://transifex.com>`_. Install the local client with ``pip``, and set up the right creds.
 - The whole thing is version controlled under git, and pushed to Github, which has a webhook to ReadTheDocs: changes pushed to the ``master`` branch of the repository will be automatically pushed to ReadTheDocs.
 
