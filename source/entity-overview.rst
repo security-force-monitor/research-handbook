@@ -12,12 +12,12 @@ Security Force Monitor investigates the conduct of security and defense forces a
    
    ..
 
-We use the general data model described in the above illustration to structure and organize the information we collect during the course of our research. It describes relationships between different "entities", which are logical groupings of data about a specific subject. For example, the "relation" entity is where we store data about the relationships between two different units; cumulatively, all the records of the "relation" entity type describe the hierarchical organizational structure that adopted by most security forces. 
+We use the general data model described in the above illustration to structure and organize the information we collect during the course of our research. It describes relationships between different "claims", which are logical groupings of data about a specific subject. For example, the "positioning" claim is where we store data about the geographic footprint of a unit, or the link between a unit and a location in time; cumulatively, all of the "positioning" claims describe the geographic presence of security forces across an entire country through time. 
 
-Other sections of this Research Handbook expand on each of the entities and the relationships between these entities, including:
+Other sections of this Research Handbook expand on each of the claims and the relationships between these claims, including:
 
-- A full description of each entity;
-- The overall data structure and attributes we use for each entity;
+- A full description of each claim type;
+- The overall data structure and attributes we use for each claim type;
 - Examples on the types of data we enter into each attribute; and,
 - Guidance on how we fill out each field and why. 
 
