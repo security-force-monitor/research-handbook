@@ -1,7 +1,7 @@
 Posting
 #######
 
-The ``posting`` claim type holds information about a person's career. It first defines a relationships between a ``person`` and a ``unit``, and can be used to further describe the role the person has in the unit ("Commander", "Chief of Staff", etc.), the rank they hold at the time of the posting, and any title they may hold at the time of a posting. Usually a ``person`` has a single ``posting`` at any one time. However, there are cases where one ``person`` holds multiple ``postings`` simultaneously. In rare instances a ``person`` may hold one ``posting`` which commands a ``posting`` they also hold, effectively making them their own superior.
+The ``posting`` claim type holds information about a person's career. It first defines a relationships between a ``person`` and a ``unit``, and can be used to further describe the role the person has in the unit ("Commander", "Chief of Staff", etc.), the rank they hold at the time of the posting, and any title they may hold at the time of a posting. Usually, a ``person`` has a single ``posting`` at any one time. However, there are cases where one ``person`` holds multiple ``postings`` simultaneously. In rare instances a ``person`` may hold one ``posting`` which commands a ``posting`` they also hold, effectively making them their own superior.
 
 
 
@@ -228,7 +228,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim has an Universally Unique Identifier (UUID) to distinguish it from any other claim. For a ``posting`` this UUID distinguishes them from any other ``posting`` in the dataset. This allows a person to have contiguous or non-contiguous ``posting`` with the same ``unit``.
+Every claim has a Universally Unique Identifier (UUID) to distinguish it from any other claim. For a ``posting`` this UUID distinguishes them from any other ``posting`` in the dataset. This allows a person to have contiguous or non-contiguous ``posting`` with the same ``unit``.
 
 For each ``person`` their ``posting`` is always treated as contiguous, meaning it has the same UUID, unless citations establish it is non-contiguous. For example, citations establish that on 2010-08-27 Hla Min stopped being commander of the Southern Regional Military Command and became commander of the 3 Bureau of Special Operations. One citation also evidences his being commander of the 3 Bureau of Special Operations on 2011-07-05 and another citation states he retired as commander of the 3 Bureau of Special Operations on 2015-08-10. All three of these claims are treated as evidencing the same ``posting``. In contrast, the 2011-07-05 citation also establishes that Hla Min once again became commander of the Southern Regional Military Command on a temporary basis as its commander was removed from the ``posting``. This ``posting`` as commander of the Southern Regional Military Command is treated as a separate ``posting`` with a different UUID as the previous ``posting`` held on 2010-08-27.
 
@@ -411,7 +411,7 @@ posting:roles:assertion
 Description
 ~~~~~~~~~~~
 
-The role a person plays in the unit, which is not immediate apparent their rank or title.
+The role a person plays in the unit.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -440,7 +440,7 @@ The most common value we record in this attribute is ``Commander``.
 
 There are a variety of other roles a person can have including ``Second in Command``, ``Chief of Staff`` along with other less common entries. They will vary between countries.
 
-In nearly all cases, the value placed in this attribute is taken verbatim from the source. ``Commander`` is coded as the person who is ultimately in charge of the unit. If a person is referred to as “the head”, “chief” or some other variation indicating that they are in charge of a unit, they should be regarded as the ``Commander`` for the purposes of entering a value in this attribute. Similarly, the head of government or head of state of a country should have their role recorded as ``Commander`` for their ``posting``.
+In nearly all cases, the value entered in this field is taken verbatim from the source. ``Commander`` is coded as the person who is ultimately in charge of the unit. If a person is referred to as “the head”, “chief” or some other variation indicating that they are in charge of a unit, they should be regarded as the ``Commander`` for the purposes of entering a value in this attribute. Similarly, the head of government or head of state of a country should have their role recorded as ``Commander`` for their ``posting``.
 
 .. admonition:: Example
 
@@ -455,7 +455,7 @@ posting:titles:assertion
 Description
 ~~~~~~~~~~~
 
-A title held by a person that is separate from their rank or role.
+A title held by a person that is separate from their rank.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -489,7 +489,7 @@ posting:ranks:assertion
 Description
 ~~~~~~~~~~~
 
-The official rank of a person in the of a security force.
+The official rank of a person.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -514,7 +514,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Ranks for security forces are usually established in law or policy, or listed on websites of security forces themselves. Best practice is find this citation first and then use this contextual citation for any other citation referencing a rank with an abbreviation, such as "Lt. Col." for Lieutenant Colonel. In some countries ranks are refenced with a dash "-" rather than a space between words. Generally SFM aims to avoid entering dashes or other additional punctuation into data, and thus would enter ``Brigadier General`` rather than ``Brigadier-General``.
+Ranks for security forces are usually established in law or policy or listed on websites of security forces themselves. Best practice is to find this citation first and then use this contextual citation for any other citation referencing a rank with an abbreviation, such as "Lt. Col." for Lieutenant Colonel. In some countries ranks are refenced with a dash "-" rather than a space between words. Generally, SFM aims to avoid entering dashes or other additional punctuation into data and thus would enter ``Brigadier General`` rather than ``Brigadier-General``.
 
 
 first_precise:range
@@ -596,7 +596,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result the researcher should explain how that date range was evidenced by the citation.
+This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. In the "Example of Use" above a citation published on 15 July 2019 refers to something happening "last week" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result, the researcher should explain how that date range was evidenced by the citation.
 
 
 type:entity
@@ -630,4 +630,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For a ``posting`` the only allowed entry for this field is ``claim``.
+For a ``posting`` the only entry allowed for this field is ``claim``.
