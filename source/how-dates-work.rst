@@ -13,7 +13,7 @@ Precise ranges mean all of the details of the claim were true for all dates in t
 
 .. admonition:: Example
 
-    A citation states that John Smith was appointed commander of the 1 Brigade on 2014-08-01. To structure this sentence into data we'd pull out multiple claims:
+    A citation states that John Smith was appointed commander of the 1 Brigade on 2014-08-01. To structure this sentence into data we'd pull out multiple claims: 
 ``unit`` with a ``name:annotation`` and ``unit:names:assertion`` of ``1 Brigade`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
 ``person`` with a ``name:annotation`` and ``person:names:assertion`` of ``John Smith`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
 ``posting`` of ``John Smith`` to ``1 Brigade`` with ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
