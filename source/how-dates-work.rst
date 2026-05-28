@@ -16,13 +16,13 @@ For a precise range all of the details of the claim are true for all dates in th
     A citation states that John Smith was appointed commander of the 1 Brigade on 2014-08-01. To structure this sentence into data we'd pull out multiple claims: 
     
     ``unit``
-    ``1 Brigade` in ``name:annotation`` and ``unit:names:assertion`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``1 Brigade` (entry for ``name:annotation`` and ``unit:names:assertion``) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     ``person``
-    ``John Smith`` in ``name:annotation`` and ``person:names:assertion`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``John Smith`` (entry for ``name:annotation`` and ``person:names:assertion``) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     ``posting``
-    ``John Smith`` to ``1 Brigade`` with ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
+    ``John Smith`` as part of ``1 Brigade`` has ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
 
 In the example above the citation clearly states that the ``posting`` starts on a specific date of ``2014-08-01``. However, it does not indicate that the ``person`` was born on that day or that the ``unit`` was created on that day. Thus, the ``starting:range`` for the ``person`` and ``unit`` is ``N``.
 
@@ -33,16 +33,16 @@ The date of publication of the citation is always an important consideration whe
     A citation published on 2023-11-05 states "Xavier Johnson, commander of the 9 Battalion, discussed recent operations with reporters today. Since Johnson became commander on November 1st there have been a steady tempo of operations throughout Southern District". This citation would evidence the following claims:
     
     ``unit``
-    ``9 Battalion`` in ``name:annotation`` and ``unit:names:assertion`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``9 Battalion`` (entry for ``name:annotation`` and ``unit:names:assertion``) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     ``positioning``
     ``9 Battalion`` in ``Southern District`` with ``positioning:types:assertion`` of ``aoo`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     ``person``
-    ``Xavier Johnson`` in ``name:annotation`` and ``person:names:assertion`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``Xavier Johnson`` (entry for ``name:annotation`` and ``person:names:assertion``) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     ``posting``
-    ``Xavier Johnson`` to ``9 Battalion`` with ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2023-11-011`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
+    ``Xavier Johnson`` as part of ``9 Battalion`` with ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2023-11-011`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
 
 In the example above the ``last_precise:range`` is established based on the the date of publciation of the citation, whereas the ``first_precise:range`` is explictly stated in the text of the citation.
 
@@ -71,7 +71,22 @@ Many times citations will be so ambigious that the true range of a claim may app
 Overlapping Precise and Imprecise ranges
 ****************************************
 
-Often citations have multiple time-bound claims which must be carefully identified to properly enter into the dataset.
+Often citations have a combination of precise and imprecise time-bound claims which must be carefully identified to properly enter into the dataset. When a claim has both a precise and imprecise range these must be entered so that there is a seamless date range that connects both ranges.
+
+.. admonition:: Example
+
+    A citation published on 2005-06-03 states: "Steven Wendell met with local officials at the 165 Battalion's headquarters today. Wendell, who as appointed as battalion commander last month addressed concerns about security for the coming election season."
+    
+    ``unit``
+    ``165 Battalion`` (entry for ``name:annotation`` and ``unit:names:assertion``) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31`` with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    
+    ``person``
+    ``Xavier Johnson`` (entry for ``name:annotation`` and ``person:names:assertion``) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    
+    ``posting``
+    ``Xavier Johnson`` as part of ``9 Battalion`` with ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2023-11-011`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
+
+
 
 .. admonition:: Example
 
