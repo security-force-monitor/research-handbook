@@ -15,11 +15,14 @@ For a precise range all of the details of the claim are true for all dates in th
 
     A citation states that John Smith was appointed commander of the 1 Brigade on 2014-08-01. To structure this sentence into data we'd pull out multiple claims: 
     
-    ``unit`` with a ``name:annotation`` and ``unit:names:assertion`` of ``1 Brigade`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``unit``
+    ``1 Brigade` in ``name:annotation`` and ``unit:names:assertion`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
-    ``person`` with a ``name:annotation`` and ``person:names:assertion`` of ``John Smith`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``person``
+    ``John Smith`` in ``name:annotation`` and ``person:names:assertion`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
-    ``posting`` of ``John Smith`` to ``1 Brigade`` with ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
+    ``posting``
+    ``John Smith`` to ``1 Brigade`` with ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
 
 In the example above the citation clearly states that the ``posting`` starts on a specific date of ``2014-08-01``. However, it does not indicate that the ``person`` was born on that day or that the ``unit`` was created on that day. Thus, the ``starting:range`` for the ``person`` and ``unit`` is ``N``.
 
@@ -29,13 +32,17 @@ The date of publication of the citation is always an important consideration whe
 
     A citation published on 2023-11-05 states "Xavier Johnson, commander of the 9 Battalion, discussed recent operations with reporters today. Since Johnson became commander on November 1st there have been a steady tempo of operations throughout Southern District". This citation would evidence the following claims:
     
-    ``unit`` with a ``name:annotation`` and ``unit:names:assertion`` of ``9 Battalion`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``unit``
+    ``9 Battalion`` in ``name:annotation`` and ``unit:names:assertion`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
-    ``positioning`` of ``9 Battalion`` in ``Southern District`` with ``positioning:types:assertion`` of ``aoo`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``positioning``
+    ``9 Battalion`` in ``Southern District`` with ``positioning:types:assertion`` of ``aoo`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
-    ``person`` with a ``name:annotation`` and ``person:names:assertion`` of ``Xavier Johnson`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``person``
+    ``Xavier Johnson`` in ``name:annotation`` and ``person:names:assertion`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
-    ``posting`` of ``Xavier Johnson`` to ``9 Battalion`` with ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2023-11-011`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
+    ``posting``
+    ``Xavier Johnson`` to ``9 Battalion`` with ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2023-11-011`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
 
 In the example above the ``last_precise:range`` is established based on the the date of publciation of the citation, whereas the ``first_precise:range`` is explictly stated in the text of the citation.
 
@@ -50,7 +57,7 @@ For an imprecise range the details of the claim were true for at least one date 
 
     A citation published on 2024-03-24 states "The 15 Regiment quickly responded to the attack on February 15th, conducting operations in several nearby areas, including Western, Upper, Lower and Central-South Governorates." The precise dates when the regiment was conducting these operations in any of the governorates is not clearly stated, however, we can establish an imprecise range for all of these positionings. For all of these positionings the ``first_imprecise:range`` would be ``2024-02-15`` and ``last_imprecise:range`` would be ``2024-03-24`` (the date of publication of the citation).
     
-    The above example illustrates an important aspect of coding dates as ranges as opposed to collasping data entry into a singular date values. An alternative data entry approach could have the ambigious time frame for the first date for these claims as ``February 2024``. Taking this approach creates a major problem for these types of imprecise claims by "streching" the time range of the data beyond what the underlying citation actually is claiming. Using ``February 2024`` means the claim is that the regiment could have been conducting operations in the four governorates *before* the attack on February 15th - this is contrary to what the citation is actually citing. Similarly, just a "fuzzy-date" approach would introduce errors for the last date which using "fuzzy-dates" could be entered as ``March 2024``. Taking that approach streches the claim beyond what the citation evidences as it projects into the future, after the citation was published. To avoid either scenario Security Force Monitor enters dates as a range with full YYYY-MM-DD values.
+The above example illustrates an important aspect of coding dates as ranges as opposed to collasping data entry into a singular date values. An alternative data entry approach could have the ambigious time frame for the first date for these claims as ``February 2024``. Taking this approach creates a major problem for these types of imprecise claims by "streching" the time range of the data beyond what the underlying citation actually is claiming. Using ``February 2024`` means the claim is that the regiment could have been conducting operations in the four governorates *before* the attack on February 15th - this is contrary to what the citation is actually citing. Similarly, just a "fuzzy-date" approach would introduce errors for the last date which using "fuzzy-dates" could be entered as ``March 2024``. Taking that approach streches the claim beyond what the citation evidences as it projects into the future, after the citation was published. To avoid either scenario Security Force Monitor enters dates as a range with full YYYY-MM-DD values.
 
 Many times citations will be so ambigious that the true range of a claim may appear impossible to capture.
 
