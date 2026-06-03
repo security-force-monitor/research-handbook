@@ -9,7 +9,7 @@ We structure all dates into ranges with a first and last date. The first date in
 Precise ranges
 **************
 
-For a precise range all of the details of the claim are true for all dates in the range. Precise ranges can be for a single day with the first and last dates being the same value.
+For a precise range all of the details of the claim are true for all dates in the range. A single day is a precise range with the first and last dates having the same date entered as a value in both ``first_precise:range`` and ``last_precise:range`` fields.
 
 .. admonition:: Example
 
@@ -44,7 +44,7 @@ The date of publication of the citation is always an important consideration whe
     ``posting``
     ``Xavier Johnson`` as part of ``9 Battalion`` with ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2023-11-011`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
 
-In the example above the ``last_precise:range`` is established based on the the date of publciation of the citation, whereas the ``first_precise:range`` is explictly stated in the text of the citation.
+In the example above the ``last_precise:range`` is established based on the date of publication of the citation, whereas the ``first_precise:range`` is explictly stated in the text of the citation.
 
 
 
@@ -57,7 +57,7 @@ For an imprecise range the details of the claim were true for at least one day i
 
     A citation published on 2024-03-24 states "The 15 Regiment quickly responded to the attack on February 15th, conducting operations in several nearby areas, including Western, Upper, Lower and Central-South Governorates." The precise dates when the regiment was conducting these operations in any of the governorates is not clearly stated, however, we can establish an imprecise range for all of these positionings. For all of these positionings the ``first_imprecise:range`` would be ``2024-02-15`` and ``last_imprecise:range`` would be ``2024-03-24`` (the date of publication of the citation).
     
-The above example illustrates an important aspect of coding dates as ranges as opposed to collasping data entry into a singular date values. An alternative approach  using "fuzzy dates" such as ``February 2024`` creates major problems for these types of imprecise claims by "streching" the time range of the data beyond what the underlying citation actually is claiming. Using a "fuzzy date" of ``February 2024`` would mean the regiment could have been conducting operations in the four governorates *before* the attack on February 15th - something the citation explictly does not evidence. Similarly, a "fuzzy-date" approach would introduce errors for the last date which using "fuzzy-dates" could be entered as ``March 2024``. Taking that approach streches the claim beyond what the citation evidences as it projects into the future, after the citation was published. To avoid either scenario Security Force Monitor enters dates as a range with full YYYY-MM-DD values.
+The above example illustrates an important aspect of coding dates as ranges as opposed to collapsing dates into a singular value with "fuzzy dates" such as ``February 2024``. Fuzzy dates create major problems for these types of imprecise claims by "stretching" the time range of the data beyond what the underlying citation actually is claiming. Using a "fuzzy date" of ``February 2024`` would mean the regiment could have been conducting operations in the four governorates *before* the attack on February 15th - something the citation explicitly does not evidence. Similarly, a "fuzzy-date" approach would introduce errors for the last date which using "fuzzy-dates" could be entered as ``March 2024``. Taking that approach stretches the claim beyond what the citation evidences as it projects into the future, after the citation was published. To avoid either scenario Security Force Monitor enters dates as a range with full YYYY-MM-DD values.
 
 Often citations will have claims which effectively translate to "at some point in time before this citation was published."
 
