@@ -75,7 +75,7 @@ Often citations have a combination of precise and imprecise time-bound claims wh
 
 .. admonition:: Example
 
-    A citation published on 2005-06-03 states: "Steven Wendell met with local officials at the 165 Battalion's headquarters today. Wendell, who as appointed as battalion commander last month addressed concerns about security for the coming election season."
+    A citation published on 2005-06-03 states: "Steven Wendell met with local officials at the 165 Battalion's headquarters today. Wendell, who was appointed as battalion commander last month, addressed concerns about security for the coming election season."
     
     ``unit``
     ``165 Battalion`` (entry for ``name:annotation`` and ``unit:names:assertion``) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31`` with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
