@@ -51,7 +51,7 @@ In the example above the ``last_precise:range`` is established based on the the 
 Imprecise ranges
 ****************
 
-For an imprecise range the details of the claim were true for at least one date in the range. Imprecise ranges give the ability to accurately capture the exact ambiguity with dates contained in any citation.
+For an imprecise range the details of the claim were true for at least one day in the range. Imprecise ranges give the ability to accurately capture ambiguity with dates in the data.
 
 .. admonition:: Example
 
