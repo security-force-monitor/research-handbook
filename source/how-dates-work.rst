@@ -1,9 +1,9 @@
 How Dates Work 
 ##############
 
-Dates, specifically time-bound claims, are the central focus of the Security Force Monitor's data and methodology. All claims in the Security Force Monitor dataset are time-bound. Sometimes citations clearly state the dates for claims that they make and the methodology for structuring these claims into time-bound data is simple. Often, however, citations contain ambigious claims about dates which need careful consideration to properly capture as data.
+Dates, specifically time-bound claims, are the central focus of the Security Force Monitor's data and methodology. All claims in the Security Force Monitor dataset are time-bound.
 
-We structure all dates into ranges with a first and last date. The first date in the range can be the "start" and the last date can be the "end" of the range. Often most This means even a single day, such as 5 May 2025 would be entered with a first date of 2025-05-05 and a last date of 2025-05-05. All dates should be entered in the YYYY-MM-DD format.
+We structure all dates into ranges with a first and last date. The first date in the range can be the "start" and the last date can be the "end" of the range. Even a single day, such as 5 May 2025 would be entered with a first date of 2025-05-05 and a last date of 2025-05-05. All dates should be entered in the YYYY-MM-DD format.
 
 
 Precise ranges
