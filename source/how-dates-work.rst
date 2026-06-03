@@ -16,7 +16,7 @@ For a precise range all of the details of the claim are true for all dates in th
     A citation states that John Smith was appointed commander of the 1 Brigade on 2014-08-01. To structure this sentence into data we'd pull out multiple claims: 
     
     ``unit``
-    ``1 Brigade` (entry for ``name:annotation`` and ``unit:names:assertion``) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``1 Brigade`` (entry for ``name:annotation`` and ``unit:names:assertion``) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     ``person``
     ``John Smith`` (entry for ``name:annotation`` and ``person:names:assertion``) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
