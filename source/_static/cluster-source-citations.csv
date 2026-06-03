@@ -1,4 +1,7 @@
-Attribute label	Attribute name	Status	Data type	Conformed name
+Attribute label , Status , Data type , Key name
+``source:publication_country`` , required , string , ``:publication/country``
+``source:publication_name`` , required , string , ``:publication/name``
+
 `Citation: Unique Identifier`_	``:citation/id``	required	string-uuid	None
 `Citation: Source Unique Identifier`_	``:citation/source:id``	optional	string-uuids	None
 `Citation: Researcher Comments`_	``:citation/comments``	optional	string	None
