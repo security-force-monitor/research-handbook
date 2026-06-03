@@ -4,7 +4,7 @@ Overview: Sources and citations
 What are sources?
 *****************
 
-Sources contain information about security and defence forces. Security Force Monitor turns sources into claims, which are the basic units of our research data (see :ref:`entity-overview`). A claim is an assertion of information evidenced by a source. Every claim that we create contains a piece of information (like the name of a unit). Alongside this is a "citation" telling us the from which we got the information, and - where necessary - the specific part of that source (such as the page number or range, or paragraph number). The same source can be cited many times at different citation points. 
+Sources contain information about security and defence forces. Security Force Monitor turns sources into claims, which are the basic units of our research data (see :ref:`Our General Data Model`). A claim is an assertion of information evidenced by a source. Every claim that we create contains a piece of information (like the name of a unit). Alongside this is a "citation" telling us the from which we got the information, and - where necessary - the specific part of that source (such as the page number or range, or paragraph number). The same source can be cited many times at different citation points. 
 
 To reflect this important difference the data model treats sources and citations as distinct entities comprised of three different attribute sets:
 
