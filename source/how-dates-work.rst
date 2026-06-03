@@ -87,15 +87,6 @@ Often citations have a combination of precise and imprecise time-bound claims wh
     ``Xavier Johnson`` as part of ``9 Battalion`` with ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` would have a value of ``Y`` and ``ending:range`` a value of ``N``.
 
 
-
-.. admonition:: Example
-
-    A citation published on 2019-06-30 states: "Police from Central Police Station arrested the suspect in North District yesterday. Speaking to reporters the commander of Central Police Station, Julian Black, said officers uncovered multiple weapons in the suspect's home." These two setences contain multiple time-bound claims. The citation clearly identifies that the operation in North District occurred "yesterday" which would be ``2019-06-29`` as that is the day before the date of publication of the citation. All other claims should be understood to be tied to the date of publication, as there is no other indication they occurred at any other time. As a result, for the ``unit`` of ``Central Police Station`` it has a ``first_precise:range`` of ``2019-06-29``, "yesterday" from the date of publication of the citation, and ``last_precise:range`` of ``2019-06-30``. The ``positioning`` for ``Central Police Station`` with an ``aoo`` of ``North District`` is ``first_precise:range`` of ``2019-06-29`` and ``last_precise:range`` also of ``2019-06-29``, "yesterday" from the date of publication of the citation. The ``person`` of ``Julian Black`` has ``first_precise:range`` of ``2019-06-30`` and ``last_precise:range`` also of ``2019-06-30``. His ``posting`` to ``Central Police Station`` also has a ``first_precise:range`` of ``2019-06-30`` and ``last_precise:range`` also of ``2019-06-30``, the date of publication of the citation. There is no indication from the citation that ``Julian Black`` had his ``posting`` "yesterday" when the operation occurred.
-
-In a single claim any precise ranges should be contained within the imprecise range.
-
-Example imprecise/precise - Before commanding the 1st Battalion he served in various positions including: chief of staff of the 3rd Brigade, operations commander for the 3rd Battalion and deputy commander of the 10th Regiment. From June 5th 2012 to April 19th 2015 he was commander of the 1st Battalion. Afterwards he served in variety of positions: head of the Officer Training School, deputy commander of the 4th Brigade, and section coordinator for Operation Enforcement. He retired from the army in 2019.
-
 .. note::
 
    Our article :ref:`Fragmentation in timelines` provides extended guidance to help researchers decisions about whether a timeline is continuous or not. 
