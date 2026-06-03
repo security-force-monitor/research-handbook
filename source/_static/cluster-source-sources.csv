@@ -9,5 +9,4 @@ Attribute label , Status , Data type , Key name
 ``source:created_timestamp`` , optional , string , ``:source/created-at``
 ``source:uploaded_timestamp`` , optional , string , ``:source/uploaded-at``
 ``source:published_timestamp`` , optional , string , ``:source/published-at``
-``source:accessed_timestamp`` , optional , string , n/a
 ``source:publication_id:admin`` , required , UUID , ``:source/publication:ref``
