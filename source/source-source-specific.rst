@@ -60,13 +60,8 @@ Guidance on use
 Use this field to capture data about the source's basic media type. The choice of values for this attribute is defined in a controlled vocabulary.
 
 
-Source: Type
-============
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::source/type``
+source:source_id:admin
+======================
 
 Description
 ~~~~~~~~~~~
@@ -81,18 +76,23 @@ Single string value selected from contolled list
 Status
 ~~~~~~
 
-This attribute is optional
+This attribute is required.
+
+Key name
+~~~~~~~~
+
+``:entity/id``
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``document``, ``video``, ``message``, ``tweet``, ``post``
-
+``eaa8d097-fa15-4fe4-8860-936acb4f73f9``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
 Use this field to capture data about the source's basic media type. The choice of values for this attribute is defined in a controlled vocabulary.
+
 
 Source: Title
 =============
