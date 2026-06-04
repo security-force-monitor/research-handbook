@@ -1,4 +1,6 @@
 Attribute label , Status , Data type , Key name
+``source:comments:admin`` , optional , string , n/a
+``source:status:admin`` , optional , string , n/a
 ``source:access_point_id:admin`` , required , string , ``:entity/id``
 ``source:access_point_type`` , required , string , ``:citation/type``
 ``source:access_point_trigger`` , required , string , ``:citation/trigger``
