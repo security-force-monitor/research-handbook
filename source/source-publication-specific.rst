@@ -45,6 +45,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:publication/country``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -74,7 +79,10 @@ Status
 
 This attribute is required.
 
+Key name
+~~~~~~~~
 
+``:publication/name``
 
 Example of use
 ~~~~~~~~~~~~~~
