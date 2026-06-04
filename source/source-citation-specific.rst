@@ -60,13 +60,42 @@ Guidance on use
 Staff Researchers use this attribute to pass on feedback about the data about the citation. This may include the progress made in extracting information from the citation, references to sources that the researcher might look at, and other observations that can improve the quality of the data. Data in this attribute are not intended for publication.
 
 
-Citation: Unique Identifier
-===========================
+source:status:admin
+===================
 
-Attribute name
+Description
+~~~~~~~~~~~
+
+A field that classifies the citation
+
+Attribute type
 ~~~~~~~~~~~~~~
 
-``::citation/id``
+Text string
+
+Status
+~~~~~~
+
+This attribute is not yet implemented.
+
+Key name
+~~~~~~~~
+
+``n/a``
+
+Example of use
+~~~~~~~~~~~~~~
+
+Field not yet implemented
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Field not yet implemented.
+
+
+source:access_point_id:admin
+============================
 
 Description
 ~~~~~~~~~~~
@@ -82,6 +111,11 @@ Status
 ~~~~~~
 
 This attribute is required.
+
+Key name
+~~~~~~~~
+
+``:entity/id``
 
 Example of use
 ~~~~~~~~~~~~~~
