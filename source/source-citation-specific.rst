@@ -9,10 +9,9 @@ Citation: Summary of attributes
 The table below summarises the following dimensions of citations records:
 
  - Attribute label: a human readable label for the attribute
- - Attribute name: a unique machine-readable name for the attribute, used during data capture
- - Status: whether the attribute is optional or required in the record
+ - Status: whether the attribute is optional or required in a record
  - Data type: the sort of data that can be entered into the attribute
- - Conformed name: a standardized name that simplifies attribute use in SFM databases
+ - Key name: a standardized name that simplifies attribute use in SFM databases
 
 
 .. csv-table::
