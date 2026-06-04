@@ -3,7 +3,7 @@ Source
 
 Sources are the raw material of Security Force Monitor's research. They are publicly available, mostly digital, documents and other media that contain information that makes claims about security forces. Specific parts of a source, like page or paragraph numbers, are cited as a required part of every claim type.
 
-This document provides an overview of what information we store in source records. We discuss the difference in how we find sources, and the differences between sources, citations and publications in :ref:`Overview: Sources, Citations and Publications`.  You can find more about how sources and citations relate to claims and the other entities in our data model in :ref:`What is a claim?`
+This document provides an overview of what information we store in source records. We discuss the difference in how we find sources, and the differences between sources, citations and publications in :ref:`Overview: Sources, Citations and Publications`.  You can find more about how sources and citations relate to claims and the other entities in our data model in :ref:`Our general data model`
 
 Source: Summary of attributes
 *****************************
@@ -37,7 +37,7 @@ Description of the media type of the source, such as "document", "video" or "ima
 Attribute type
 ~~~~~~~~~~~~~~
 
-Single string value selected from contolled list.
+Single string value selected from controlled list.
 
 Status
 ~~~~~~
@@ -120,12 +120,12 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``Stars on their shoulders. Blood on their hands. War crimes committed by the Nigerian military``
+``“None Will Be Able To Run Away” Crimes Against Humanity and Widespread War Crimes in Burkina Faso``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Copy the exact title of the source as stated on the source itself. Where the title has multiple parts, such as a subtitle, also include that, using a hyphen to signal where there was a linebreak in the original text.
+Copy the exact title of the source as stated on the source itself.
 
 
 source:author
@@ -207,7 +207,7 @@ Date and time that the source was first created.
 Attribute type
 ~~~~~~~~~~~~~~
 
-ISO 8601 timestamp, full or partial, UTC timezone (``YYYY-MM-DDThh:mm:ssZ``)
+ISO 8601 timestamp, full or partial, UTC time zone (``YYYY-MM-DDThh:mm:ssZ``)
 
 Status
 ~~~~~~
@@ -229,7 +229,7 @@ Guidance on use
 
 Where available, record the date and time that the source was first created, which is a common and precise attribute on web and social media content. A creation timestamp may not be available for a source - if this is the case, leave this field blank and look for a publication or upload timestamp.
 
-Where the timezone is indicated, convert the timestamp to UTC before entering it in this attribute.
+Where the time zone is indicated, convert the timestamp to UTC before entering it in this attribute.
 
 
 source:uploaded_timestamp
@@ -242,7 +242,7 @@ Date and time that the source was uploaded to the online platform or service on 
 Attribute type
 ~~~~~~~~~~~~~~
 
-ISO 8601 timestamp, full or partial, UTC timezone (``YYYY-MM-DDThh:mm:ssZ``)
+ISO 8601 timestamp, full or partial, UTC time zone (``YYYY-MM-DDThh:mm:ssZ``)
 
 Status
 ~~~~~~
@@ -266,7 +266,7 @@ Where available, record the date and time that the source was uploaded to the on
 
 If a publication date is not available for a source, the timestamp of the snapshot of the source found in the Internet Archive should be used in this field (and the ``source:published_timestamp`` would be left blank).
 
-Where the timezone is indicated, convert the timestamp to UTC.
+Where the time zone is indicated, convert the timestamp to UTC.
 
 
 source:published_timestamp
@@ -280,7 +280,7 @@ Date and time that the source was published.
 Attribute type
 ~~~~~~~~~~~~~~
 
-ISO 8601 timestamp, full or partial, UTC timezone (``YYYY-MM-DDThh:mm:ssZ``)
+ISO 8601 timestamp, full or partial, UTC time zone (``YYYY-MM-DDThh:mm:ssZ``)
 
 Status
 ~~~~~~
@@ -304,7 +304,7 @@ Where available, record the date and time that the source was published. This ma
 
 Although a timestamp for creation and upload dates and times may not be available, it is very likely that at least a publication date will be available for a source. If a publication date is not available for a source, the timestamp of the snapshot of the source found in the Internet Archive should be used in the ``source:uploaded_timestamp`` and this field should be left blank.
 
-Where the timezone is indicated, convert the timestamp to UTC.
+Where the time zone is indicated, convert the timestamp to UTC.
 
 
 source:publication_id:admin
