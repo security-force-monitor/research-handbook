@@ -1,12 +1,12 @@
 Citation
 ########
 
-A citation directs us to a particular part of a source as evidence for a information a claim - it's much like a citation in an academic paper. This could be material from a specific page in the source; it could also be a specific archive snapshot of a page, as the content of a webpage can sometimes change over time even though its basic identifying data will not. A single source can be cited in multiple ways, and - once created - a citation can be re-used to evidence any number of claims. 
+A citation directs us to a particular part of a source evidencing the claim, like a citation in an academic paper. This could be material from a specific page in the source; it could also be a specific archive snapshot of a page, as the content of a webpage can sometimes change over time even though its basic identifying data will not. A single source can be cited in multiple ways, and, once created, a citation can be re-used to evidence any number of claims. 
 
 Citation: Summary of attributes
 ********************************
 
-The table below summarises the following dimensions of citations records:
+The table below summarizes the following dimensions of citations records:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a record
@@ -168,7 +168,6 @@ There are eight ways to "trigger" a citation of a specific source, taking in acc
 - ``line``: a line or range of lines in a line-numbered document like an interview transcript.
 - ``clip``: a passage from a video or audio source, comprising a start time and a stop time.
 - ``frame``: a single capture point in a video.
-- ``still``: an image captured from a video or interactive resource which does not correspond to a specific frame.
 - ``paragraph``: where a document is numbered throughout, such as in United Nations Security Council documents, paragraphs can be used as access point triggers.
 - ``cell``: the cell reference or range within a table of data
 
@@ -207,7 +206,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field is used to specify the exact content within a source that defines the citation. For example, if we want to create an citation of page 4 of a source then we would set the value in `source:access_point_type`_ to ``page`` and enter ``4`` in this attribute. As noted in the documention for `source:access_point_type`_ there are eight ways to trigger a citation. These are listed below, along with the data type and format rquired to specify the exact content of the citation:
+This field is used to specify the exact content within a source that defines the citation. For example, if we want to create a citation of page 4 of a source then we would set the value in `source:access_point_type`_ to ``page`` and enter ``4`` in this attribute. As noted in the documentation for `source:access_point_type`_ there are seven ways to trigger a citation. These are listed below, along with the data type and format required to specify the exact content of the citation:
 
 - ``archive``: Leave empty. The value in `source:archive_url`_ serves as the trigger for this citation type.
 - ``page``: Single page (``1``), single range of pages (``1-2``), combination of page and page ranges (``1,2-3,4,5-8``)
@@ -226,7 +225,7 @@ source:accessed_timestamp
 Description
 ~~~~~~~~~~~
 
-Full date on which the Staff Reseacher created this citation from the source.
+Full date on which the researcher created this citation from the source.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -285,11 +284,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-A source becomes usable by Staff Researchers when it has an citation. After entering the source's basic details (like :ref:`Source: Title`), the researcher can create a first citation by specifying an Internet Archive snapshot to use. If the source is not already archived in the Internet Archive, the researcher should attempt to create a new snapshot to use as the citation. Where snapshots for the source already exist in the Internet Archive, the Staff Researcher should find the snapshot that is earliest in time.
+A source becomes usable by Staff Researchers when it has a citation. After entering the source's basic details (like :ref:`Source: Title`), the researcher can create a first citation by specifying an Internet Archive snapshot to use. If the source is not already archived in the Internet Archive, the researcher should attempt to create a new snapshot to use as the citation. Where snapshots for the source already exist in the Internet Archive, the Staff Researcher should find the snapshot that is earliest in time.
 
-In the majority of cases, this will suffice. However, in some cases, we may need to specify more than one Internet Archive snapshot for the same source - each different snapshot creates a distinct citation. The common reason for this is that the source content changes, but the basic source level details such as the title or url of the source do not. A good example of this is this (dead) URL published by the *Secretaría de la Defensa Nacional* in Mexico: ``http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``. It lists the commanders of Mexico's miltary garrisons, and we have included reference to this in our data about the Mexican army. The title, initial publication date, publication and basic URL did not change: however, over time the content did. In each of 24 different snapshots made by the Internet Archive, the list of commanders is different. In this case, we have a single source with 24 citations: each citations refers to a specific version of that source containing the exact information that we relied upon to create various claims.
+In the majority of cases, this will suffice. However, in some cases, we may need to specify more than one Internet Archive snapshot for the same source - each different snapshot creates a distinct citation. The common reason for this is that the source content changes, but the basic source level details such as the title or url of the source do not. A good example of this is this (dead) URL published by the *Secretaría de la Defensa Nacional* in Mexico: ``http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``. It lists the commanders of Mexico's military garrisons, and we have included reference to this in our data about the Mexican army. The title, initial publication date, publication and basic URL did not change: however, over time the content did. In each of 24 different snapshots made by the Internet Archive, the list of commanders is different. In this case, we have a single source with 24 citations: each citation refers to a specific version of that source containing the exact information that we relied upon to create various claims.
 
-The example above also illustrates an important point: sometimes a source is only available in an archived form, because its original source URL is no longer online. There are many reasons a link many no longer be live, and this problem is known as "linkrot". In these cases, the Staff Researcher can fill in :ref:`Source: URL` with a portion of the Internet Archive URL printed after the timestamp. For example:
+The example above also illustrates an important point: sometimes a source is only available in an archived form, because its original source URL is no longer online. There are many reasons a link many no longer be live, and this problem is known as "linkrot". In these cases, the researcher can fill in :ref:`source:url` with a portion of the Internet Archive URL printed after the timestamp. For example:
 
 - Archive URL: ``https://web.archive.org/web/20040208204841/http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``
 - Original URL extracted from the Archive URL: ``http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm```
