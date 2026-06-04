@@ -42,7 +42,7 @@ Many sources are identified through our use of search engines. In these cases we
 
 We also identify non-digital resources such as monographs, scholarly literature, biographies and other materials about security services. The existence and availability of these type of sources vary widely from country to country.
 
-Our data capture format for sources and citations is flexible enough to accomodate a wide range of different media. Sources can also be published in a range of different media forms, not only text. Other media forms may include maps, datasets, images, audio recordings, video, social media posts, messages sent through messaging services. 
+Our data capture format for sources and citations is flexible enough to accomodate a wide range of different media. Sources can also be published in a range of different media forms, not only text. Other media forms may include maps, datasets, images, audio recordings, video, or social media posts. 
 
 We may process some types of source further to make the informaiton in them more accessible and useful to our research. For example, we digitised the Karen Human Rights Group's `maps of Karen state in Myanmar <https://khrg.org/maps>`_ to create a useable geospatial dataset of Karen-specific placenames to help us accurately interpret locations mentioned in Karenni sources. 
 
