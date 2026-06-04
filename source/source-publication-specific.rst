@@ -11,11 +11,9 @@ Source: Summary of attributes
 The table below summarises the following dimensions of source records:
 
  - Attribute label: a human readable label for the attribute
- - Attribute name: a unique machine-readable name for the attribute, used during data capture
- - Status: whether the attribute is optional or required in a records
- - Data type: the sort of data that can be entered into the attributes
- - Conformed name: a standardized name that simplifies attribute use in SFM databases
-
+ - Status: whether the attribute is optional or required in a record
+ - Data type: the sort of data that can be entered into the attribute
+ - Key name: a standardized name that simplifies attribute use in SFM databases
 
 .. csv-table::
    :file: _static/cluster-source-publications.csv
