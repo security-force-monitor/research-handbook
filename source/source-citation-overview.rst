@@ -19,17 +19,16 @@ To reflect this important difference the data model captures information on thes
 In the remainder of this article, we look at where our sources come from, and provide more detail about the logic of creating citations from sources.
 
 
-The sources for sources
-***********************
+Building the source list
+************************
 
-The sources we use are carefully collected from a variety of public sources, generally online. These include:
+When starting research on a country the Security Force Monitor first builds a small list of sources to deeply explore, extract data from and structure that data into claims. The priorities for this initial source review and extraction are:
 
-- Laws of the country;
-- Official government media;
-- Press releases from the relevant ministries of the country (Information, Defense, Interior, and others);
-- Security and defence force newsletters;
+- Government and security force sources, such as laws of the country; official government media; websites and other media from the relevant ministries of the country (Information, Defense, Interior, and others); security and defence force websites and other media.
+- Media focused on the country, initially drawn from BBC media profiles for the country or other similar sources.
+- 
+
 - Social media pages for security services or government agencies;
-- Other social media and messaging services;
 - Statistics and data agencies;
 - Local government websites;
 - Human rights commissions;
@@ -48,6 +47,7 @@ Our data capture format for sources and citations is flexible enough to accomoda
 
 We may process some types of source further to make the informaiton in them more accessible and useful to our research. For example, we digitised the Karen Human Rights Group's `maps of Karen state in Myanmar <https://khrg.org/maps>`_ to create a useable geospatial dataset of Karen-specific placenames to help us accurately interpret locations mentioned in Karenni sources. 
 
+
 Citing a source
 ***************
 
@@ -57,18 +57,15 @@ A citation directs us to a particular part of a source as evidence for a informa
 
 There are eight ways to "trigger" a citation of a specific source, taking in account the source's media type:
 
-- ``archive``: an archive snapshot of the source contains different content from the source, or from other snapshots.
+- ``archive``: an archive snapshot of the source.
 - ``page``: a page or range of page in a document source like a book or report.
 - ``line``: a line or range of lines in a line-numbered document like an interview transcript.
 - ``clip``: a passage from a video or audio source, comprising a start time and a stop time.
 - ``frame``: a single capture point in a video.
-- ``still``: an image captured from a video or interactive resource which does not correspond to a specific frame.
 - ``paragraph``: where a document is numbered throughout, such as in United Nations Security Council documents, paragraphs can be used as access point triggers.
-- ``cell``: the cell reference or range within a table of data
+- ``cell``: the cell reference or range within a table of data.
 
 As we seek to include different types of sources in our work, we anticipate updating this list of citation triggers.
-
-We never directly reference a source as evidence for a claim. Rather, we always create a a citation from a source to use inside a claim, which creates a little extra work for us. In many cases, there really is only one way to cite a source: for example, if the source is a short article, or a tweet, then there is't much possiblity for the sort of subdivision that citations allow. However, we start with the open-minded view that source will need to be cited in different ways, and adopt a data structure that enables this to happen.
 
 
 Citation examples
@@ -83,4 +80,4 @@ Here are two examples of how citations based on archives and pages work in pract
 
 .. admonition:: Example 2: Citations based on differences between archive snapshots
 
-   In the 2015 report `Stars on their shoulders. Blood on their hands. War crimes committed by the Nigerian military <https://www.amnesty.org/en/documents/afr44/1657/2015/en/>`__ Human Rights Watch made a large number of allegations against the Nigerian Army. The report is 133 pages long. We have used information from specific pages to evidence specific data points about units, persons and incidents. For example, we use information on page 11 as evidence of the :ref:`Person Identity: Name` attribute for claims about "John A. H. Ewansiha"; material from page 24 supplements what we know about the :ref:`Unit Identity: Name` attribute claims about "Civilian Joint Task Force". In total, we have created 13 citations for this single source.
+   In the 2015 report `Stars on their shoulders. Blood on their hands. War crimes committed by the Nigerian military <https://www.amnesty.org/en/documents/afr44/1657/2015/en/>`__ Amnesty International made a large number of allegations against the Nigerian Army. The report is 133 pages long. We have used information from specific pages to evidence specific data points about units, persons and incidents. For example, we use information on page 11 as evidence of the :ref:`person:names:assertion` attribute for claims about "John A. H. Ewansiha"; material from page 24 supplements what we know about the :ref:`unit:names:assertion` attribute claims about "Civilian Joint Task Force." In total, we have created 34 citations for this single source.
