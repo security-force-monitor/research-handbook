@@ -26,6 +26,35 @@ Citation: Details of attributes
 This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.
 
 
+source:comments:admin
+=====================
+
+Description
+~~~~~~~~~~~
+
+Observations specific to the process of reviewing data in this citation, including fixes, refinements and other suggestions.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Citation page range is not accurate ``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Staff Researchers use this attribute to pass on feedback about the data about the citation. This may include the progress made in extracting information from the citation, references to sources that the researcher might look at, and other observations that can improve the quality of the data. Data in this attribute are not intended for publication.
+
+
 Citation: Unique Identifier
 ===========================
 
@@ -94,38 +123,7 @@ Guidance on use
 This value is a Universally Unique Indentifier (UUID) generated using a computer program. Values in this field correspond to those used in the attribute :ref:`Source: Unique Identifier`.
 
 
-Citation: Researcher Comments
-=============================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::citation/comments``
-
-Description
-~~~~~~~~~~~
-
-Observations specific to the process of reviewing data in this citation, including fixes, refinements and other suggestions.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``Citation page range is not accurate ``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Staff Researchers use this attribute to pass on feedback about the data about the citation. This may include the progress made in extracting information from the citation, references to sources that the researcher might look at, and other observations that can improve the quality of the data. Data in this attribute are not intended for publication.
 
 
 Citation: Type
