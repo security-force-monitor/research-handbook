@@ -1,6 +1,6 @@
 Attribute label , Status , Data type , Key name
-``source:type`` , required , string ,	``::source/type``
-``source:source_id:admin`` , required , string , ``:source/type``
+``source:type`` , required , string ,	``:source/type``
+``source:source_id:admin`` , required , string , ``:entity/id``
 ``source:title`` , required , string , ``:source/title``
 ``source:author`` , optional , string , ``:source/author``
 ``source:url`` , optional , string , ``:source/url``
