@@ -1,7 +1,7 @@
 Publication
 ###########
 
-Publications are the organisations that issue sources. Typical records in this entity type include media organisations, non-governmental organisations, state bodies, and governments. We record these distinctly from sources and citations, rather than simply as values within those types of record.
+Publications are the organisations, individuals or accounts that publish sources. Typical records in this entity type include media organisations, non-governmental organisations, government agencies, and social media accounts. We record these distinctly from sources and citations, rather than simply as values within those types of record.
 
 This document provides an overview of what information we store about publications.
 
