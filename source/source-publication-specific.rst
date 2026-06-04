@@ -58,7 +58,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this attribute are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`_ and on `Wikipedia <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_. Sometimes, this attribute is  difficult to populate as the country of establishment of a publication can be obscure. 
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). This value is determined based on the location of the organization (often found in the "Contact Us" section of a website) or the location a platform gives a social media account. If this cannot be determined the field should be left blank.
 
 
 source:publication_name
@@ -67,7 +67,7 @@ source:publication_name
 Description
 ~~~~~~~~~~~
 
-Full name of the publication
+Full name of the publisher or publication of the source.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -87,9 +87,9 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``Agence Malienne de Presse``, ``Voice of Nigeria``, ``The Aviationist``
+``Agence Malienne de Presse``, ``Human Rights Watch``, ``@CapitaineIb226``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute is used to record the full, official name of a publication.
+This attribute is used to record the full, official name of a publisher or publication. This can be the security force itself (such as Nigerian Army), a news organization (such as Reuters), a non-profit organization (such as Amnesty International), an user account on social media (such as @CapitaineIb226), or other similar types of publishers of information.
