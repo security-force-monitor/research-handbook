@@ -125,50 +125,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. Attributes such as :ref:`Unit Identity: Claim Citation Identifier` draw from the values stored in this attribute. 
+This field is for the Universally Unique Identifier (UUID) assigned to the citation. Each citation can only have a single UUID.
 
 
-Citation: Source Unique Identifier
-==================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::citation/source:id``
-
-Description
-~~~~~~~~~~~
-
-A unique 32 character code assigned to each sources in the dataset.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String in UUID format
-
-Status
-~~~~~~
-
-This attribute is required.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``1c03ec21-0fae-4243-9de6-686568afc2b8``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. Values in this field correspond to those used in the attribute :ref:`Source: Unique Identifier`.
-
-
-Citation: Type
-==============
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::citation/type``
+source:access_point_type
+========================
 
 Description
 ~~~~~~~~~~~~
@@ -185,6 +146,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:citation/type``
+
 Example of use
 ~~~~~~~~~~~~~~~~
 
@@ -193,11 +159,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-A source has at least one access point, but may have many. For example, if a source is a document we may draw information from a number of different pages (or ranges of pages). For each page or range of pages, we would create a new access point to the source. The field ``Source: Access Point Type`` tells us what method we have used to create the access point - in this case ``page``. The number of the page or page range will be recorded in a related attribute called `Citation: Trigger`_.
+A source has at least one access point, but may have many. For example, if a source is a document we may draw information from a number of different pages (or ranges of pages). For each page or range of pages, we would create a new access point to the source. The field ``Source: Access Point Type`` tells us what method we have used to create the access point - in this case ``page``. The number of the page or page range will be recorded in a related attribute called `source:access_point_trigger`_.
 
 There are eight ways to "trigger" a citation of a specific source, taking in account the source's media type:
 
-- ``archive``: an archive snapshot of the source contains different content from the source, or from other snapshots.
+- ``archive``: an archive snapshot of the source.
 - ``page``: a page or range of page in a document source like a book or report.
 - ``line``: a line or range of lines in a line-numbered document like an interview transcript.
 - ``clip``: a passage from a video or audio source, comprising a start time and a stop time.
@@ -208,13 +174,9 @@ There are eight ways to "trigger" a citation of a specific source, taking in acc
 
 As we seek to include different types of sources in our work, we anticipate updating this list of citation types.
 
-Citation: Trigger
-=================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::citation/trigger``
+source:access_point_trigger
+===========================
 
 Description
 ~~~~~~~~~~~
@@ -231,6 +193,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:citation/trigger``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -240,26 +207,21 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field is used to specify the exact content within a source that defines the citation. For example, if we want to create an citation of page 4 of a source then we would set the value in `Citation: Type`_ to ``page`` and enter ``4`` in this attribute. As noted in the documention for `Citation: Type`_ there are eight ways to trigger a citation. These are listed below, along with the data type and format rquired to specify the exact content of the citation:
+This field is used to specify the exact content within a source that defines the citation. For example, if we want to create an citation of page 4 of a source then we would set the value in `source:access_point_type`_ to ``page`` and enter ``4`` in this attribute. As noted in the documention for `source:access_point_type`_ there are eight ways to trigger a citation. These are listed below, along with the data type and format rquired to specify the exact content of the citation:
 
-- ``archive``: Leave empty. The value in `Citation: Archive URL`_ serves as the trigger for this citation type.
+- ``archive``: Leave empty. The value in `source:archive_url`_ serves as the trigger for this citation type.
 - ``page``: Single page (``1``), single range of pages (``1-2``), combination of page and page ranges (``1,2-3,4,5-8``)
 - ``line``: Single line (``200``), single range of lines (``200-230``), combination of line and line ranges (``200-230,236,240-250``)
 - ``clip``: Single range containing start and end time in the format ``hh:mm:ss`` (``00:01:20-00:01:24``)
 - ``frame``: A single capture point from a video in ``hh:mm:ss`` format (``00:01:20``)
-- ``still``: A direct link to SFM's hosting library to an image captured from a video or interactive resource for which we do no have a specific time frame. For example, a ``still`` would be the appropriate type of citation to create to enable us to use as evidence multiple views of an online database that didn't provide permalinks for queries.
 - ``paragraph``: if a document has numbered paragraphs in any format (e.g. ``3(1)(a)``), they can be captured here.
 - ``cell``: the grid reference (``C123``) of the cell, or cell range (``C123-C129``), containing the data used to evidence the claim.
 
 The range of access point triggers may extend as different media forms become available. 
 
-Citation: Accessed Timestamp
-==========================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::citation/accessed-at``
+source:accessed_timestamp
+=========================
 
 Description
 ~~~~~~~~~~~
@@ -276,6 +238,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:citation/accessed-at``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -286,13 +253,9 @@ Guidance on use
 
 When a Staff Researcher accesses a source in order to create a citation, they should record the full, exact date in this attribute. This data is a useful part of quality assurance processes, enabling us to re-visit sources at set points in time to assess whether they have been updated. Recording an access date at the level of the citation also reflects that we may work on some sources for extended periods of time, or work on the same source at different points in time during our research. 
 
-Citation: Archive URL
-=====================
 
-Attribute name
-~~~~~~~~~~~~~~
-
-``::citation/archive-url``
+source:archive_url
+==================
 
 Description
 ~~~~~~~~~~~
@@ -309,6 +272,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+``:citation/archive-url``
+
 Example of use
 ~~~~~~~~~~~~~~
 
@@ -319,7 +287,7 @@ Guidance on use
 
 A source becomes usable by Staff Researchers when it has an citation. After entering the source's basic details (like :ref:`Source: Title`), the researcher can create a first citation by specifying an Internet Archive snapshot to use. If the source is not already archived in the Internet Archive, the researcher should attempt to create a new snapshot to use as the citation. Where snapshots for the source already exist in the Internet Archive, the Staff Researcher should find the snapshot that is earliest in time.
 
-In the majority of cases, this will suffice. However, in some cases, we may need to specify more than one Internet Archive snapshot for the same source - each different snapshot creates a distinct citation. The common reason for this is that the source content changes, but the basic details of the source do not. A good example of this is this (dead) URL published by the *Secretaría de la Defensa Nacional* in Mexico: ``http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``. It lists the commanders of Mexico's miltary garrisons, and we have included reference to this in our data about the Mexican army. The title, initial publication date, publication and basic URL did not change: however, over time the content did. In each of 24 different snapshots made by the Internet Archive, the list of commanders is different. In this case, we have a single source with 24 citations: each citations refers to a specific version of that source containing the exact information that we relied upon to create various claims.
+In the majority of cases, this will suffice. However, in some cases, we may need to specify more than one Internet Archive snapshot for the same source - each different snapshot creates a distinct citation. The common reason for this is that the source content changes, but the basic source level details such as the title or url of the source do not. A good example of this is this (dead) URL published by the *Secretaría de la Defensa Nacional* in Mexico: ``http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``. It lists the commanders of Mexico's miltary garrisons, and we have included reference to this in our data about the Mexican army. The title, initial publication date, publication and basic URL did not change: however, over time the content did. In each of 24 different snapshots made by the Internet Archive, the list of commanders is different. In this case, we have a single source with 24 citations: each citations refers to a specific version of that source containing the exact information that we relied upon to create various claims.
 
 The example above also illustrates an important point: sometimes a source is only available in an archived form, because its original source URL is no longer online. There are many reasons a link many no longer be live, and this problem is known as "linkrot". In these cases, the Staff Researcher can fill in :ref:`Source: URL` with a portion of the Internet Archive URL printed after the timestamp. For example:
 
@@ -327,13 +295,8 @@ The example above also illustrates an important point: sometimes a source is onl
 - Original URL extracted from the Archive URL: ``http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm```
 
 
-Citation: Archive Timestamp
-===========================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::citation/archive-timestamp``
+source:archive_timestamp
+========================
 
 Description
 ~~~~~~~~~~~
@@ -364,69 +327,3 @@ We extract this part of the URL and reformat it to something more human readable
 
 The timestamp provides useful quality assurance data.
 
-Citation: External Archive Content Hash
-=======================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::citation/external-archive:sha-content``
-
-Description
-~~~~~~~~~~~
-
-First of a pair of fields recording where a copy of the source can be found in external archives
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``0E94AE36DA6FF03992A57FDDBDF4728B609D0D7FE6EB019FA9F1B9B5B540D835``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This is a dynamic field designed to enable interlinking between sources recorded in the format used by Security Force Monitor, and those in use in other collections. This particular field contains an SHA hash of the specific content of a source captured through a scraping process.
-
-
-Citation: External Archive Metadata Hash
-========================================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::citation/external-archive:sha-meta``
-
-Description
-~~~~~~~~~~~
-
-Second of a pair of fields recording where a copy of the source can be found in external archives
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Example of use
-~~~~~~~~~~~~~~
-
-``0E94AE36DA6FF03992A57FDDBDF4728B609D0D7FE6EB019FA9F1B9B5B540D835``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This is a dynamic field designed to enable interlinking between sources recorded in the format used by Security Force Monitor, and those in use in other collections. This particular field contains an SHA hash of the specific content of the metadata of a source captured through a scraping process.
