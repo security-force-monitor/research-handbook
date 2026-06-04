@@ -338,4 +338,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field is for the Universally Unique Identifier (UUID) assigned to the ``publication`` which published the source. This could be an organization like The New York Times, or an account id on a social media site. Each publication can only have a single UUID. Entries in this attribute correspond to the existing identifiers stored the :ref:`Publication` records.
+This field is for the Universally Unique Identifier (UUID) assigned to the ``publication`` which published the source. This could be an organization like The New York Times, or an account id on a social media site. Each publication can only have a single UUID.
