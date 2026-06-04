@@ -11,11 +11,9 @@ Source: Summary of attributes
 The table below summarises the following dimensions of source records:
 
  - Attribute label: a human readable label for the attribute
- - Attribute name: a unique machine-readable name for the attribute, used during data capture
- - Status: whether the attribute is optional or required in a records
- - Data type: the sort of data that can be entered into the attributes
- - Conformed name: a standardized name that simplifies attribute use in SFM databases
-
+ - Status: whether the attribute is optional or required in a record
+ - Data type: the sort of data that can be entered into the attribute
+ - Key name: a standardized name that simplifies attribute use in SFM databases
 
 .. csv-table::
    :file: _static/cluster-source-sources.csv
@@ -28,38 +26,39 @@ Source: Details of attributes
 
 This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.
 
-Source: Unique Identifier
-=========================
-
-Attribute name
-~~~~~~~~~~~~~~
-
-``::source/id``
+source:type
+===========
 
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code assigned to each sources in the dataset.
+Description of the media type of the source, such as "document", "video" or "image".
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format
+Single string value selected from contolled list.
 
 Status
 ~~~~~~
 
 This attribute is required.
 
+Key name
+~~~~~~~~
+
+``:source/type``
+
 Example of use
 ~~~~~~~~~~~~~~
 
-``1c03ec21-0fae-4243-9de6-686568afc2b8``
+``audio``, ``dataset``, ``document``, ``image``, ``map``, ``post``, ``video``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Indentifier (UUID) generated using a computer program. 
+Use this field to capture data about the source's basic media type. The choice of values for this attribute is defined in a controlled vocabulary.
+
 
 Source: Type
 ============
