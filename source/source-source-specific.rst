@@ -3,7 +3,7 @@ Source
 
 Sources are the raw material of Security Force Monitor's research. They are publicly available, mostly digital, documents and other media that contain information that makes claims about security forces. Specific parts of a source, like page or paragraph numbers, are cited as a required part of every claim type.
 
-This document provides an overview of what information we store in source records. We discuss the difference in how we find sources, and the differences between sources, citations and publications in :ref:`Overview: Sources and citations`.  You can find more about how sources and citations relate to claims and the other entities in our data model in :ref:`What is a claim?`
+This document provides an overview of what information we store in source records. We discuss the difference in how we find sources, and the differences between sources, citations and publications in :ref:`Overview: Sources, Citations and Publications`.  You can find more about how sources and citations relate to claims and the other entities in our data model in :ref:`What is a claim?`
 
 Source: Summary of attributes
 *****************************
