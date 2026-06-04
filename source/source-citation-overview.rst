@@ -1,16 +1,18 @@
-Overview: Sources and citations
-###############################
+Overview: Sources, Citations and Publications
+#############################################
 
-What are sources?
-*****************
+Where does Information Come From?
+*********************************
 
-Sources contain information about security and defence forces. Security Force Monitor turns sources into claims, which are the basic units of our research data (see :ref:`Our General Data Model`). A claim is an assertion of information evidenced by a source. Every claim that we create contains a piece of information (like the name of a unit). Alongside this is a "citation" telling us the from which we got the information, and - where necessary - the specific part of that source (such as the page number or range, or paragraph number). The same source can be cited many times at different citation points. 
+Every data point in the Security Force Monitor's dataset comes from a source. To enable more precise auditing of any data point we have developed a model for structuring information about the sources themselves.
 
-To reflect this important difference the data model treats sources and citations as distinct entities comprised of three different attribute sets:
+First every source comes from a ``publication`` which could be a governmental agency, a media company (like The New York Times), an organization (such as Amnesty International), or an account on social media. These publications produce ``sources`` which could be a web page, news article, book, report, video, or social media post. These sources are divided into one or more ``citations`` which show the specific part of the source that evidences a ``claim``. Claims are the basic building blocks of our data (see :ref:`Our General Data Model`). Sources which cannot be easily divided, such as web pages or news articles, only have a single citation for the entire web page or article. Other types of sources which can be easily divided, such as books, reports, or videos, can have multiple citations which can be for a page or grouping of pages, or numbered paragraphs for other types of text sources, or time stamps or time ranges for videos.
 
-- :ref:`Source`: Attributes about the source, such as its title, date of publication, URL
-- :ref:`Citation`: Attribute about the specific part of a source, like the page number, archive version, and research comments about that citation. 
-- :ref:`Publication`: Attributes about the organizations that publish the sources we use, such as their name and country, such as ``British Broadcasting Corporation`` or ``Amnesty International``.
+To reflect this important difference the data model captures information on these three interlinked, but distinct entities:
+
+- :ref:`Source`: Attributes about the source, such as its title, date of publication, URL.
+- :ref:`Citation`: Attribute about the specific part of a source, like the page number, archive version. 
+- :ref:`Publication`: Attributes about the organizations or accounts that publish the sources we use, such as their name and country, such as ``British Broadcasting Corporation`` or ``Amnesty International``.
 
 In the remainder of this article, we look at where our sources come from, and provide more detail about the logic of creating citations from sources.
 
