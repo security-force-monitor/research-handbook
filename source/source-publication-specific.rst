@@ -1,14 +1,14 @@
 Publication
 ###########
 
-Publications are the organisations, individuals or accounts that publish sources. Typical records in this entity type include media organisations, non-governmental organisations, government agencies, and social media accounts. We record these distinctly from sources and citations, rather than simply as values within those types of record.
+Publications are the organizations, individuals or accounts that publish sources. Typical records in this entity type include security forces themselves, media organizations, non-governmental organizations, government agencies, and social media accounts. We record these distinctly from sources and citations, rather than simply as values within those types of record.
 
 This document provides an overview of what information we store about publications.
 
 Source: Summary of attributes
 *****************************
 
-The table below summarises the following dimensions of source records:
+The table below summarizes the following dimensions of source records:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a record
@@ -38,7 +38,7 @@ The primary country where the publication is established.
 Attribute type
 ~~~~~~~~~~~~~~
 
-Single vaue, from list
+Single value, from list
 
 Status
 ~~~~~~
@@ -92,4 +92,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute is used to record the full, official name of a publisher or publication. This can be the security force itself (such as Nigerian Army), a news organization (such as Reuters), a non-profit organization (such as Amnesty International), an user account on social media (such as @CapitaineIb226), or other similar types of publishers of information.
+This attribute is used to record the full, official name of a publisher or publication. This can be the security force itself (such as Nigerian Army), a news organization (such as Reuters), a non-profit organization (such as Amnesty International), a user account on social media (such as @CapitaineIb226), or other similar types of publishers of information.
