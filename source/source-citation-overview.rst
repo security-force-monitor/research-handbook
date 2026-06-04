@@ -22,30 +22,16 @@ In the remainder of this article, we look at where our sources come from, and pr
 Building the source list
 ************************
 
-When starting research on a country the Security Force Monitor first builds a small list of sources to deeply explore, extract data from and structure that data into claims. The priorities for this initial source review and extraction are:
+When starting research on a country the Security Force Monitor first builds a small list of sources to deeply explore, extract data from and structure that data into claims. The priorities for this initial source review and extraction are governmental and security forces
 
-- Government and security force sources, such as laws of the country; official government media; websites and other media from the relevant ministries of the country (Information, Defense, Interior, and others); security and defence force websites and other media.
-- Media focused on the country, initially drawn from BBC media profiles for the country or other similar sources.
-- 
+- Government and security force sources, such as the constitution and laws of the country related to security forces; official government media; websites and other media from the relevant ministries of the country (Information, Defense, Interior, and others); websites and other related media published by the security forces;
+- Media focused on the country, initially drawn from BBC media profiles for the country or other similar sources;
+- Civil society and human rights reporting on the country focused on allegations against security forces;
+- Academic and other scholarly research on security forces, which are often found via searches in WorldCat.org
 
-- Social media pages for security services or government agencies;
-- Statistics and data agencies;
-- Local government websites;
-- Human rights commissions;
-- Third country government publications and other documents;
-- United Nations publications and other documents;
-- Local news reportage;
-- Civil society and human rights reporting;
-- Academic research; and,
-- Other country-specific sources.
+The information contained in these sources are structured into claims as part of the initial research process. Eventually, creating these claims informs the next stage of research. 
 
-Many sources are identified through our use of search engines. In these cases we may keep a record of the search engine, the specific search term used, and the date the source was entered into our datasets in any form.
-
-We also identify non-digital resources such as monographs, scholarly literature, biographies and other materials about security services. The existence and availability of these type of sources vary widely from country to country.
-
-Our data capture format for sources and citations is flexible enough to accomodate a wide range of different media. Sources can also be published in a range of different media forms, not only text. Other media forms may include maps, datasets, images, audio recordings, video, or social media posts. 
-
-We may process some types of source further to make the informaiton in them more accessible and useful to our research. For example, we digitised the Karen Human Rights Group's `maps of Karen state in Myanmar <https://khrg.org/maps>`_ to create a useable geospatial dataset of Karen-specific placenames to help us accurately interpret locations mentioned in Karenni sources. 
+For the next stage of research, priorities are idenfitied and defined based on gaps in the dataset. Expanded research often relies on keywords from the `unit:names:assertion`_ and `person:names:assertion`_ fields. This next stage of research will find additional sources and publications for review and extraction, further building the source list. This process can then be repeated as needed to further expand the dataset.
 
 
 Citing a source
@@ -55,7 +41,7 @@ Citations are a flexible device that enables us to reference precisely the mater
 
 A citation directs us to a particular part of a source as evidence for a information a claim - it's much like a citation in an academic paper. This could be material from a specific page in the source; it could also be a specific archive snapshot of a page, as the content of a webpage can sometimes change over time even though its basic identifying data will not. In this way, a single source can be cited in multiple ways.
 
-There are eight ways to "trigger" a citation of a specific source, taking in account the source's media type:
+There are seven ways to "trigger" a citation of a specific source, taking in account the source's media type:
 
 - ``archive``: an archive snapshot of the source.
 - ``page``: a page or range of page in a document source like a book or report.
