@@ -1,6 +1,4 @@
 Attribute label , Status , Data type , Key name
-``source:comments:admin`` , optional , string , n/a
-``source:status:admin`` , optional , string , n/a
 ``source:type`` , required , string ,	``::source/type``
 ``source:source_id:admin`` , required , string , ``:source/type``
 ``source:title`` , required , string , ``:source/title``
