@@ -18,7 +18,6 @@ The table below summarizes the following dimensions of source records:
 .. csv-table::
    :file: _static/cluster-source-sources.csv
    :header-rows: 1
-   :delim: tab
 
 
 Source: Details of attributes
