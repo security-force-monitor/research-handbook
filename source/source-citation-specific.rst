@@ -17,7 +17,6 @@ The table below summarizes the following dimensions of citations records:
 .. csv-table::
    :file: _static/cluster-source-citations.csv
    :header-rows: 1
-   :delim: tab
 
 
 Citation: Details of attributes
