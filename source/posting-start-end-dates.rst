@@ -3,11 +3,11 @@ Establishing Start and End Dates for Postings
 
 Determining when a ``person`` was in their postion is a central concern of the Security Force Monitor's methodology.
 
-We structure all dates into ranges with a first and last date. The first date in the range can be the "start" and the last date can be the "end" of the range. Even a single day, such as 5 May 2025 would be entered with a first date of 2025-05-05 and a last date of 2025-05-05. All dates should be entered in the YYYY-MM-DD format.
+Personnel in security forces, particularly commanders, often have formalities tied to how they start or end a position, which must be captured in the data carefully to accurately reflect the timeline of a career.
 
 
-Precise ranges
-**************
+Appointments versus Ceremonies
+******************************
 
 For a precise range all of the details of the claim are true for all dates in the range. A single day is a precise range with the first and last dates having the same date entered as a value in both ``first_precise:range`` and ``last_precise:range`` fields.
 
