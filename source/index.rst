@@ -31,9 +31,9 @@ Table of Contents
    :maxdepth: 2
    
    entity-overview
-   claims-basic-1
    how-dates-work
    timeline-continual-contiguous
+   posting-start-end-dates
    unknown-unnamed-units
 
 .. toctree::
