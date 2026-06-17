@@ -11,8 +11,6 @@ Appointments versus Ceremonies
 
 The most common source for information for the start of a commander's ``posting`` is an announcement that they have been appointed to a particular ``unit`` as the commander. These can occur in media reporting, official government decrees, or other types of sources.
 
-For a precise range all of the details of the claim are true for all dates in the range. A single day is a precise range with the first and last dates having the same date entered as a value in both ``first_precise:range`` and ``last_precise:range`` fields.
-
 .. admonition:: Example
 
     A citation states that John Smith was appointed commander of the 1 Brigade on 2014-08-01. To structure this sentence into data we'd pull out multiple claims: 
