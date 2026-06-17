@@ -3,31 +3,37 @@ Establishing Start and End Dates for Postings
 
 Determining when a ``person`` was in their postion is a central concern of the Security Force Monitor's methodology. Perhaps counterintuitively, establishing when someone began or ended a position, or ``posting``, is an area of particular challenge even with seemingly clear sources.
 
-Commanders in security forces often have formalities tied to how they start or end a position, which must be captured in the data carefully to accurately establish when someone is or is not in their ``posting``.
+Personnel, usually commanders, in security forces often have formalities tied to how they start or end a position, which must be captured in the data carefully to accurately establish when someone is or is not in their ``posting``.
 
 
 Appointments versus Ceremonies
 ******************************
 
-The most common source for information for the start of a commander's ``posting`` is an announcement that they have been appointed to a particular ``unit`` as the commander. These can occur in media reporting, official government decrees, or other types of sources.
+The most common source for information for the start of a person's ``posting`` is an announcement that they have been appointed to a particular ``unit``. These can occur in media reporting, official government decrees, or other types of sources.
 
 .. admonition:: Example
 
-    A citation states that John Smith was appointed commander of the 1 Brigade on 2014-08-01. To structure this sentence into data we'd pull out multiple claims: 
-    
-    **unit**
-    
-    ``1 Brigade`` (entry for ``name:annotation`` and ``unit:names:assertion``) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
-    
-    **person**
-    
-    ``John Smith`` (entry for ``name:annotation`` and ``person:names:assertion``) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
-    
-    **posting**
-    
-    ``John Smith`` as part of ``1 Brigade`` has ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
+    A citation states: "John Smith was appointed commander of the 1 Brigade on 2014-08-01."
 
-In the example above the citation clearly states that the ``posting`` starts on a specific date of ``2014-08-01``. However, it does not indicate that the ``person`` was born on that day or that the ``unit`` was created on that day. Thus, the ``starting:range`` for the ``person`` and ``unit`` is ``N``.
+    This citation establishes that the ``posting`` for ``John Smith`` starts on ``2014-08-01`` (in other terms the ``starting:range`` for the ``posting`` is ``Y``).
+
+Occassionally, citations reporting on appointments may also reference the current occupant in the posting which can establish both a start date and end date.
+
+.. admonition:: Example
+
+    A citation states: "John Smith was appointed commander of the 1 Brigade on 2014-08-01, replacing Christopher Butler, the previous commander."
+
+    In this example the ``posting`` for ``John Smith`` still starts on ``2014-08-01`` (``starting:range`` for Smith's ``posting`` is ``Y``), and it also establishes the end for the ``posting`` of ``Christopher Butler`` on ``2014-08-01`` (in other terms the ``ending:range`` for Butler`s ``posting`` is ``Y``).
+
+People may have  
+
+.. admonition:: Example
+
+    A citation states: "Today 2014-08-03 John Smith took over as commander of the 1 Brigade in ceremony at the brigade's headquaters. Smith was appointed commander of the 1 Brigade on 2014-08-01."
+    
+The example citation shows 
+
+However, some commanders may have a 
 
 The date of publication of the citation is always an important consideration when establishing date ranges for claims.
 
