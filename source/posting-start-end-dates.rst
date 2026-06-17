@@ -1,13 +1,15 @@
 Establishing Start and End Dates for Postings
 #############################################
 
-Determining when a ``person`` was in their postion is a central concern of the Security Force Monitor's methodology.
+Determining when a ``person`` was in their postion is a central concern of the Security Force Monitor's methodology. Perhaps counterintuitively, establishing when someone began or ended a position, or ``posting``, is an area of particular challenge even with seemingly clear sources.
 
-Personnel in security forces, particularly commanders, often have formalities tied to how they start or end a position, which must be captured in the data carefully to accurately reflect the timeline of a career.
+Commanders in security forces often have formalities tied to how they start or end a position, which must be captured in the data carefully to accurately establish when someone is or is not in their ``posting``.
 
 
 Appointments versus Ceremonies
 ******************************
+
+The most common source for information for the start of a commander's ``posting`` is an announcement that they have been appointed to a particular ``unit`` as the commander. These can occur in media reporting, official government decrees, or other types of sources.
 
 For a precise range all of the details of the claim are true for all dates in the range. A single day is a precise range with the first and last dates having the same date entered as a value in both ``first_precise:range`` and ``last_precise:range`` fields.
 
