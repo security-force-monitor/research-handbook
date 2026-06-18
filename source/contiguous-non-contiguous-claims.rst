@@ -1,5 +1,5 @@
-Fragmentation in timelines
-##########################
+Establishing Contiguous or Non-Contiguous Claims
+################################################
 
 .. note:: 
 
