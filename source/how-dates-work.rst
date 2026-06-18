@@ -21,7 +21,7 @@ For a precise range all of the details of the claim are true for all dates in th
     
     **person**
     
-    ``John Smith`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/persons_identity.html#name-annotation>`_ and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``John Smith`` (entry for :ref:`name:annotation <person-name-annotation>` and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     **posting**
     
@@ -45,7 +45,7 @@ The date of publication of the citation is always an important consideration whe
     
     **person**
 
-    ``Xavier Johnson`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/persons_identity.html#name-annotation>`_ and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``Xavier Johnson`` (entry for :ref:`name:annotation <person-name-annotation>` and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     **posting**
 
@@ -90,7 +90,7 @@ Often citations have a combination of precise and imprecise time-bound claims wh
     
     **person**
 
-    ``Xavier Johnson`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/persons_identity.html#name-annotation>`_ and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``.
+    ``Xavier Johnson`` (entry for :ref:`name:annotation <person-name-annotation>` and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``.
     
     **posting**
 
