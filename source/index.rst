@@ -32,7 +32,7 @@ Table of Contents
    
    our-general-data-model
    how-dates-work
-   timeline-continual-contiguous
+   contiguous-non-contiguous-claims
    posting-start-end-dates
    unknown-unnamed-units
 
