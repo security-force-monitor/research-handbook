@@ -57,7 +57,7 @@ Table of Contents
    :caption: Units
    :maxdepth: 2
 
-   units
+   overview-units
    units_identity
    units_relations
    units_positionings
