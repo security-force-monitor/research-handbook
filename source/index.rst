@@ -30,7 +30,7 @@ Table of Contents
    :caption: Our approach
    :maxdepth: 2
    
-   entity-overview
+   our-general-data-model
    how-dates-work
    timeline-continual-contiguous
    posting-start-end-dates
