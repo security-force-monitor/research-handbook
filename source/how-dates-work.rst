@@ -17,17 +17,17 @@ For a precise range all of the details of the claim are true for all dates in th
     
     **unit**
     
-    ``1 Brigade`` (entry for :ref:`name:annotation <https://help.securityforcemonitor.org/en/latest/units_identity.html#name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``1 Brigade`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/units_identity.html#name-annotation>`_ and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     **person**
     
-    ``John Smith`` (entry for :ref:`name:annotation <https://help.securityforcemonitor.org/en/latest/persons_identity.html#name-annotation>`_ and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``John Smith`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/persons_identity.html#name-annotation>`_ and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     **posting**
     
     ``John Smith`` as part of ``1 Brigade`` has :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
 
-In the example above the citation clearly states that the ``posting`` starts on a specific date of ``2014-08-01``. However, it does not indicate that the ``person`` was born on that day or that the ``unit`` was created on that day. Thus, the ``starting:range`` for the ``person`` and ``unit`` is ``N``.
+In the example above the citation clearly states that the :ref:`posting` starts on a specific date of ``2014-08-01``. However, it does not indicate that the :re:`person` was born on that day or that the :ref:`unit` was created on that day. Thus, the ``starting:range`` for the :ref:`person` and :ref:`unit` is ``N``.
 
 The date of publication of the citation is always an important consideration when establishing date ranges for claims.
 
@@ -37,7 +37,7 @@ The date of publication of the citation is always an important consideration whe
     
     **unit**
 
-    ``9 Battalion`` (entry for ``name:annotation`` and ``unit:names:assertion``) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``9 Battalion`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/units_identity.html#name-annotation>`_ and ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     **positioning**
 
@@ -86,7 +86,7 @@ Often citations have a combination of precise and imprecise time-bound claims wh
     
     **unit**
 
-    ``165 Battalion`` (entry for ``name:annotation`` and ``unit:names:assertion``) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``.
+    ``165 Battalion`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/units_identity.html#name-annotation>`_ and ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``.
     
     **person**
 
