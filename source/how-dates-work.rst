@@ -37,7 +37,7 @@ The date of publication of the citation is always an important consideration whe
     
     **unit**
 
-    ``9 Battalion`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/units_identity.html#name-annotation>`_ and ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``9 Battalion`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/units_identity.html#name-annotation>`_ and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     **positioning**
 
@@ -86,7 +86,7 @@ Often citations have a combination of precise and imprecise time-bound claims wh
     
     **unit**
 
-    ``165 Battalion`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/units_identity.html#name-annotation>`_ and ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``.
+    ``165 Battalion`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/units_identity.html#name-annotation>`_ and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``.
     
     **person**
 
