@@ -59,6 +59,8 @@ Guidance on use
 Entering ``posting`` defines the claim and defines the relevant fields to be used in further data entry about a ``posting``. For quality assurance purposes, entering ``posting`` should create an error if there is any entry for fields tied to other claim types, such as ``person``.
 
 
+.. _posting-status-meta:
+
 status:meta
 ===========
 
