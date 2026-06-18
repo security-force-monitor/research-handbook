@@ -3,7 +3,7 @@ Fragmentation in timelines
 
 .. note:: 
 
-   To learn more about the fundamentals of dates and timelines in Security Force Monitor's approach read :ref:`Claims with dates` first.
+   To learn more about the fundamentals of dates and timelines in Security Force Monitor's approach read :ref:`How Dates Work` first.
 
 
 Answering the question “who was where when?” is central for investigations into allegations of human rights abuse(s). Because of this perhaps one of the most defining, and complicaticating, features of the Security Force Monitor’s data is that almost everything we research is connected to time including:
