@@ -268,6 +268,8 @@ Guidance on use
 This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import. For a ``person`` best practice is to use the ``name:annotation`` in this field.
 
 
+.. _person-name-annotation:
+
 name:annotation
 ===============
 
