@@ -41,7 +41,7 @@ The date of publication of the citation is always an important consideration whe
     
     **positioning**
 
-    ``9 Battalion`` in ``Southern District`` with `positioning:types:assertion` of ``aoo`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``9 Battalion`` in ``Southern District`` with :ref:`positioning:types:assertion` of ``aoo`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     **person**
 
