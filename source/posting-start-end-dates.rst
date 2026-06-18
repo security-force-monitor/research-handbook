@@ -16,7 +16,7 @@ There are two types of formalities that can establish the start and/or end dates
 
 The Security Force Monitor's general guidance is that the date of appointment is used as the start date for a posting * unless * there is sourcing for a ceremony date. Ceremonies establish that even though a person may have been appointed to a :ref:`posting` they were not yet in their position until the date of the ceremony. This may be due to a variety of reasons, but often simple logistics of physically moving from a posting in one place to a posting in another location is enough to have days, if not longer, between an appointment and a ceremony.
 
-Importantly, when there is sourcing for * both * an appointment date and a ceremony date we would have both entered into the dataset and simply enter ``conflict`` in the ``status:meta`` for the appointment date which by its very nature conflicts with the ceremony date.
+Importantly, when there is sourcing for * both * an appointment date and a ceremony date we would have both entered into the dataset and simply enter ``conflict`` in the `status:meta <https://help.securityforcemonitor.org/en/latest/persons_postings.html#status-meta>`_ for the appointment date which by its very nature conflicts with the ceremony date.
 
 .. admonition:: Example
 
