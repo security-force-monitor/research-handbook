@@ -17,11 +17,11 @@ For a precise range all of the details of the claim are true for all dates in th
     
     **unit**
     
-    ``1 Brigade`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/units_identity.html#name-annotation>` and ``unit:names:assertion``) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``1 Brigade`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/units_identity.html#name-annotation>`_ and ``unit:names:assertion``) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     **person**
     
-    ``John Smith`` (entry for ``name:annotation <https://help.securityforcemonitor.org/en/latest/persons_identity.html#name-annotation>` and ``person:names:assertion``) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``John Smith`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/persons_identity.html#name-annotation>`_ and ``person:names:assertion``) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     **posting**
     
