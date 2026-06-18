@@ -57,6 +57,7 @@ Guidance on use
 
 Entering ``unit`` defines the claim and defines the relevant fields to be used in further data entry about a unit. For quality assurance purposes, entering ``unit`` should create an error if there is any entry for fields tied to other claim types, such as ``positioning`` or ``relation``.
 
+.. _unit-status-meta:
 
 status:meta
 ===========
@@ -274,6 +275,7 @@ Guidance on use
 
 This field provides a human readable counterpart to the ``about_entity:ref:claim`` This field can be manually added by a researcher or automatically populated by the system after import. For a ``unit`` best practice is to use the ``name:annotation`` in this field.
 
+.. _unit-name-annotation:
 
 name:annotation
 ===============
