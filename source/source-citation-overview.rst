@@ -31,7 +31,7 @@ When starting research on a country the Security Force Monitor first builds a sm
 
 The information contained in these sources are structured into claims as part of the initial research process. Eventually, creating these claims informs the next stage of research. 
 
-For the next stage of research, priorities are idenfitied and defined based on gaps in the dataset. Expanded research often relies on keywords from the `unit:names:assertion`_ and `person:names:assertion`_ fields. This next stage of research will find additional sources and publications for review and extraction, further building the source list. This process can then be repeated as needed to further expand the dataset.
+For the next stage of research, priorities are idenfitied and defined based on gaps in the dataset. Expanded research often relies on keywords from the :ref:`unit:names:assertion` and :ref:`person:names:assertion` fields. This next stage of research will find additional sources and publications for review and extraction, further building the source list. This process can then be repeated as needed to further expand the dataset.
 
 
 Citing a source
