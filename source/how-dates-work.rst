@@ -27,7 +27,7 @@ For a precise range all of the details of the claim are true for all dates in th
     
     ``John Smith`` as part of ``1 Brigade`` has :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
 
-In the example above the citation clearly states that the :ref:`posting` starts on a specific date of ``2014-08-01``. However, it does not indicate that the :re:`person` was born on that day or that the :ref:`unit` was created on that day. Thus, the ``starting:range`` for the :ref:`person` and :ref:`unit` is ``N``.
+In the example above the citation clearly states that the :ref:`posting` starts on a specific date of ``2014-08-01``. However, it does not indicate that the :ref:`person` was born on that day or that the :ref:`unit` was created on that day. Thus, the ``starting:range`` for the :ref:`person` and :ref:`unit` is ``N``.
 
 The date of publication of the citation is always an important consideration when establishing date ranges for claims.
 
@@ -41,15 +41,15 @@ The date of publication of the citation is always an important consideration whe
     
     **positioning**
 
-    ``9 Battalion`` in ``Southern District`` with ``positioning:types:assertion`` of ``aoo`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``9 Battalion`` in ``Southern District`` with `positioning:types:assertion` of ``aoo`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     **person**
 
-    ``Xavier Johnson`` (entry for ``name:annotation`` and ``person:names:assertion``) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
+    ``Xavier Johnson`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/persons_identity.html#name-annotation>`_ and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``.
     
     **posting**
 
-    ``Xavier Johnson`` as part of ``9 Battalion`` with ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2023-11-011`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
+    ``Xavier Johnson`` as part of ``9 Battalion`` with :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2023-11-011`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
 
 In the example above the ``last_precise:range`` is established based on the date of publication of the citation, whereas the ``first_precise:range`` is explictly stated in the text of the citation.
 
@@ -72,7 +72,7 @@ Often citations will have claims which effectively translate to "at some point i
 
     A citation states that John Smith was appointed commander of the 1 Brigade on 2014-08-01. The citation also states that "John Smith previously commanded the 8 Battalion."
     
-    The scope of "previously" may appear unclear, but with imprecise ranges we can faithfully capture the time-bound claim being made. The value of ``since_beginning_of_time`` may be entered in the ``first_imprecise:range`` field to capture the scale of "previously" or similar statements from citations which, put another way, mean "at some point in time before the date of publication this claim was true." In the case of the example above, the ``posting`` of ``John Smith`` to the ``8 Battalion`` would have a ``first_imprecise:range`` of ``since_beginning_of_time`` and a ``last_imprecise:range`` of ``2014-08-01``.
+    The scope of "previously" may appear unclear, but with imprecise ranges we can faithfully capture the time-bound claim being made. The value of ``since_beginning_of_time`` may be entered in the ``first_imprecise:range`` field to capture the scale of "previously" or similar statements from citations which, put another way, mean "at some point in time before the date of publication this claim was true." In the case of the example above, the :ref:`posting` of ``John Smith`` to the ``8 Battalion`` would have a ``first_imprecise:range`` of ``since_beginning_of_time`` and a ``last_imprecise:range`` of ``2014-08-01``.
 
 
 Connecting Precise and Imprecise ranges
@@ -90,11 +90,11 @@ Often citations have a combination of precise and imprecise time-bound claims wh
     
     **person**
 
-    ``Xavier Johnson`` (entry for ``name:annotation`` and ``person:names:assertion``) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``.
+    ``Xavier Johnson`` (entry for `name:annotation <https://help.securityforcemonitor.org/en/latest/persons_identity.html#name-annotation>`_ and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``.
     
     **posting**
 
-    ``Xavier Johnson`` as part of ``9 Battalion`` with ``posting:roles:assertion`` of ``Commander`` would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` would have a value of ``Y`` and ``ending:range`` a value of ``N``.
+    ``Xavier Johnson`` as part of ``9 Battalion`` with :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` would have a value of ``Y`` and ``ending:range`` a value of ``N``.
 
 
 .. note::
