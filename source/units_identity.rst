@@ -521,6 +521,7 @@ ending_context:range
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
+.. _unit-public-notes-meta:
 
 public_notes:meta
 =================
