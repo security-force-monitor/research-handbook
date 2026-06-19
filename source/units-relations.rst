@@ -89,7 +89,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. A ``public_notes:meta`` should always accompany any ``conflict`` claim.
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. A :ref:`public_notes:meta <relation-public-notes>` should always accompany any ``conflict`` claim.
 
 .. admonition:: Example
 
@@ -163,7 +163,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the ``public_notes:meta`` field.
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <relation-public-notes>` field.
 
 .. _citation-relation:
 
@@ -198,8 +198,9 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <relation-public-notes>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the `ref:source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
+.. _unit-about-entity:
 
 about_entity:ref:claim
 ======================
@@ -246,7 +247,7 @@ Two or more ``relation`` claims should always be treated as contiguous if there 
 
     The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change ``relation`` to whatever regional military command controls the area where it is operating. One citation puts the division in an area under ``Northeastern Regional Military Command`` from at least ``2016-03-10`` to at least ``2016-03-11``, which establishes a ``relation`` between the division and the regional command for the same time-range. Another citation places the division in an area under ``Northeastern Regional Military Command`` on ``2016-03-12``, which again establishes a ``relation`` between the division and the regional command for the same time-range. These two claims are coded as the same ``relation`` given that they fall within 1 day of each other.
 
-A ``unit`` may have multiple, overlapping ``relations``.
+A :ref:`unit` may have multiple, overlapping ``relations``.
 
 .. admonition:: Example
 
@@ -284,7 +285,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
+This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <unit-about-entity>` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
 
 
 relation:unit:refs:assertion
@@ -318,7 +319,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The UUID used in ``relation:unit:refs:assertion`` must be for a ``unit`` which already exists in the dataset. The nature of the relationship is clarified further using the ``relation:types:assertion`` and ``relation:related_unit_classes:assertion`` fields.
+The UUID used in ``relation:unit:refs:assertion`` must be for a :ref:`unit` which already exists in the dataset. The nature of the relationship is clarified further using the :ref:`relation:types:assertion` and :ref:`relation:related_unit_classes:assertion` fields.
 
 
 relation:unit:names:qa
@@ -352,7 +353,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the ``relation:unit:refs:assertion``. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the ``name:annotation`` of the ``unit``.
+This field provides a human readable counterpart to the :ref:`relation:unit:refs:assertion`. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` of the :ref:`unit`.
 
 
 relation:types:assertion
@@ -386,12 +387,12 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-We use this field to define the nature of the relationship between the unit that is the subject of the claim (as described in ``relation:unit:refs:assertion``) and the other unit described in ``relation:related_unit:refs:assertion``. There are only two values that can be used by the researcher in this attribute:
+We use this field to define the nature of the relationship between the :ref:`unit` that is the subject of the claim (as described in :ref:`relation:unit:refs:assertion`) and the other :ref:`unit` described in :ref:`relation:related_unit:refs:assertion`. There are only two values that can be used by the researcher in this attribute:
 
- - ``child-of`` to define a hierarchic relationship. The unit specified in ``relation:unit:refs:assertion`` is the parent of the unit in ``relation:related_unit:refs:assertion``.
- - ``member-of`` to define a membership relationship. The unit specified in ``relation:unit:refs:assertion`` has some personnel who are members of the unit noted in ``relation:related_unit:refs:assertion``.
+ - ``child-of`` to define a hierarchic relationship. The unit specified in :ref:`relation:unit:refs:assertion` is the parent of the unit in :ref:`relation:related_unit:refs:assertion`.
+ - ``member-of`` to define a membership relationship. The unit specified in :ref:`relation:unit:refs:assertion` has some personnel who are members of the unit noted in :ref:`relation:related_unit:refs:assertion`.
 
-A ``member-of`` ``relation`` is used to capture instances where personnel of one unit become personnel of another unit, such as a joint task force or peacekeeping mission, that has a distinct chain of command and geographic footprint. This is important to capture in the data model as the personnel in joint task force or peacekeeping mission are no longer under the command of their "home" unit or at the minimum have an altered relation with their "home" chain of command.
+A ``member-of`` :ref:`relation` is used to capture instances where personnel of one unit become personnel of another unit, such as a joint task force or peacekeeping mission, that has a distinct chain of command and geographic footprint. This is important to capture in the data model as the personnel in joint task force or peacekeeping mission are no longer under the command of their "home" unit or at the minimum have an altered relation with their "home" chain of command.
 
 .. admonition:: Example
 
@@ -429,7 +430,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The UUID used in ``relation:related_unit:refs:assertion`` must be for a ``unit`` which already exists in the dataset. The nature of the relationship is clarified further using the ``relation:types:assertion`` and ``relation:related_unit_classes:assertion`` fields.
+The UUID used in :ref:`relation:related_unit:refs:assertion` must be for a :ref:`unit` which already exists in the dataset. The nature of the relationship is clarified further using the :ref:`relation:types:assertion` and :ref:`relation:related_unit_classes:assertion` fields.
 
 
 relation:related_unit:names:qa
@@ -438,7 +439,7 @@ relation:related_unit:names:qa
 Description
 ~~~~~~~~~~~
 
-The human readable name of the unit that is the "parent" of another unit or which has personnel serving within it as members drawn from another unit.
+The human readable name of the unit that is the "parent" of another :ref:`unit` or which has personnel serving within it as members drawn from another :ref:`unit`.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -463,7 +464,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the ``relation:related_unit:refs:assertion`` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the ``name:annotation`` of the ``unit`` in the ``relation:related_unit:refs:assertion`` field.
+This field provides a human readable counterpart to the :ref:`relation:related_unit:refs:assertion` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` of the :ref:`unit` in the :ref:`relation:related_unit:refs:assertion` field.
 
 
 relation:related_unit_classes:assertion
@@ -503,13 +504,13 @@ The ``class`` entry in this field is exclusively used for modeling the different
 
 .. admonition:: Example
 
-    The ``Philippine Military Academy`` and ``Philippine National Police Academy`` enroll students every year into a formal academic program to train them as officers. These cohorts are organized into "classes" named after the year that they will graduate, such as "Class of 1998". To model this we create a ``unit`` ``Class of 1998 (Philippine National Police Academy)`` which has a ``relation`` with ``Philippine National Police Academy`` where ``relation:related_unit_classes:assertion`` is ``class``. The ``Defense Services Academy`` in Myanmar enroll students every year via cohorts organized into numbered "intakes", such as "Intake 30". Similar to the example above, we create ``Intake 30 (Defense Services Academy)`` which has a ``relation`` with ``Defense Services Academy`` where ``relation:related_unit_classes:assertion`` is ``class``.
+    The ``Philippine Military Academy`` and ``Philippine National Police Academy`` enroll students every year into a formal academic program to train them as officers. These cohorts are organized into "classes" named after the year that they will graduate, such as "Class of 1998". To model this we create a :ref:`unit` ``Class of 1998 (Philippine National Police Academy)`` which has a :ref:`relation` with ``Philippine National Police Academy`` where :ref:`relation:related_unit_classes:assertion` is ``class``. The ``Defense Services Academy`` in Myanmar enroll students every year via cohorts organized into numbered "intakes", such as "Intake 30". Similar to the example above, we create ``Intake 30 (Defense Services Academy)`` which has a :ref:`relation` with ``Defense Services Academy`` where :ref:`relation:related_unit_classes:assertion` is ``class``.
 
 ``administrative`` relationships exist where a formal, non-command relationship exists between units, or where an administrative description is more accurate of the relationship between two units.
 
 .. admonition:: Example
 
-    By law the Ministry of Defence in Nigeria provides administrative support to the Nigerian Army, establishing a relationship we could classify as ``administrative``. The Standards Department of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could order the Department to take some sort of action. This technically means the Department is under the “command” of the Headquarters, but the Monitor would describe this relationship as ``administrative`` because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
+    By law the ``Ministry of Defence`` in Nigeria provides administrative support to the ``Nigerian Army``, establishing a relationship we could classify as ``administrative``. The ``Standards Department`` of an ``Army Headquarters`` might be under the control of the ``Army Headquarters``, meaning the ``Army Headquarters`` could order the Department to take some sort of action. This technically means the Department is under the “command” of the Headquarters, but the Monitor would describe this relationship as ``administrative`` because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
 
 
 first_precise:range
@@ -559,6 +560,7 @@ ending_context:range
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
+.. _relation-public-notes:
 
 public_notes:meta
 =================
@@ -625,4 +627,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For a ``relation`` the only entry allowed for this field is ``claim``.
+For a :ref:`relation` the only entry allowed for this field is ``claim``.
