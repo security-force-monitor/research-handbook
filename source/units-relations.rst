@@ -6,7 +6,7 @@ The ``relation`` claim type describes how a :ref:`unit` relates to another :ref:
 Relation: Summary of claim attributes
 *************************************
 
-The table below summarizes the following dimensions of ``relation`` claims:
+The table below summarizes the following dimensions of :ref:`relation` claims:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
@@ -233,25 +233,25 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim has a Universally Unique Identifier (UUID) to distinguish it from any other claim. For a ``relation`` this UUID distinguishes them from any other ``relation`` in the dataset.
+Every claim has a Universally Unique Identifier (UUID) to distinguish it from any other claim. For a :ref:`relation` this UUID distinguishes them from any other :ref:`relation` in the dataset.
 
-Every ``relation`` between the same two units is always treated as a contiguous, meaning it has the same UUID, unless citations establish it should be treated as non-contiguous.
-
-.. admonition:: Example
-
-    The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change ``relation`` to whatever regional military command controls the area where it is operating. One citation puts the division in an area under ``Northeastern Regional Military Command`` as of ``2016-11-13`` which establishes a ``relation`` between the division and the regional command for the same time-range. Another citation places the division in an area under ``Northeastern Regional Military Command`` on ``2016-12-05``. Even though the related units are the same, because citations establish the division is a mobile unit that can change ``relation`` these two claims are coded as separate, non-contiguous relations.
-
-Two or more ``relation`` claims should always be treated as contiguous if there is an overlap in the time range of the two claims, or if the time-ranges of the claims fall within 1 day of each other.
+Every :ref:`relation` between the same two units is always treated as a contiguous, meaning it has the same UUID, unless citations establish it should be treated as non-contiguous.
 
 .. admonition:: Example
 
-    The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change ``relation`` to whatever regional military command controls the area where it is operating. One citation puts the division in an area under ``Northeastern Regional Military Command`` from at least ``2016-03-10`` to at least ``2016-03-11``, which establishes a ``relation`` between the division and the regional command for the same time-range. Another citation places the division in an area under ``Northeastern Regional Military Command`` on ``2016-03-12``, which again establishes a ``relation`` between the division and the regional command for the same time-range. These two claims are coded as the same ``relation`` given that they fall within 1 day of each other.
+    The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change :ref:`relation` to whatever regional military command controls the area where it is operating. One citation puts the division in an area under ``Northeastern Regional Military Command`` as of ``2016-11-13`` which establishes a :ref:`relation` between the division and the regional command for the same time-range. Another citation places the division in an area under ``Northeastern Regional Military Command`` on ``2016-12-05``. Even though the related units are the same, because citations establish the division is a mobile unit that can change :ref:`relation`` these two claims are coded as separate, non-contiguous relations.
+
+Two or more :ref:`relation` claims should always be treated as contiguous if there is an overlap in the time range of the two claims, or if the time-ranges of the claims fall within 1 day of each other.
+
+.. admonition:: Example
+
+    The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change :ref:`relation` to whatever regional military command controls the area where it is operating. One citation puts the division in an area under ``Northeastern Regional Military Command`` from at least ``2016-03-10`` to at least ``2016-03-11``, which establishes a :ref:`relation` between the division and the regional command for the same time-range. Another citation places the division in an area under ``Northeastern Regional Military Command`` on ``2016-03-12``, which again establishes a :ref:`relation` between the division and the regional command for the same time-range. These two claims are coded as the same :ref:`relation` given that they fall within 1 day of each other.
 
 A :ref:`unit` may have multiple, overlapping relations.
 
 .. admonition:: Example
 
-    Citations establish that regional military commands in the Myanmar Army control units that operate in their area of operations. Citations establish through time that the ``290 Infantry Battalion`` is under command of the ``Northeastern Regional Military Command`` and also based in areas under ``Northeastern Regional Military Command`` through time. Combined these citations evidence a contiguous ``relation`` between the battalion and ultimately the ``Northeastern Regional Military Command``. Other citations, however, evidence the battalion also operated in areas controlled by different regional military commands. These establish additional relations for the battalion during the time ranges it was operating in areas under the ``Eastern Central Regional Military Command``, ``Northern Regional Military Command``, ``Southeastern Regional Military Command`` or ``Triangle Regional Military Command``.
+    Citations establish that regional military commands in the Myanmar Army control units that operate in their area of operations. Citations establish through time that the ``290 Infantry Battalion`` is under command of the ``Northeastern Regional Military Command`` and also based in areas under ``Northeastern Regional Military Command`` through time. Combined these citations evidence a contiguous :ref:`relation` between the battalion and ultimately the ``Northeastern Regional Military Command``. Other citations, however, evidence the battalion also operated in areas controlled by different regional military commands. These establish additional relations for the battalion during the time ranges it was operating in areas under the ``Eastern Central Regional Military Command``, ``Northern Regional Military Command``, ``Southeastern Regional Military Command`` or ``Triangle Regional Military Command``.
 
 
 about_entity:name:qa
@@ -294,7 +294,7 @@ relation:unit:refs:assertion
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code assigned to the unit with the relation which is the focus of the claim.
+The unique 32 character code assigned to the unit with the :ref:`relation` which is the focus of the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -392,11 +392,11 @@ We use this field to define the nature of the relationship between the :ref:`uni
  - ``child-of`` to define a hierarchic relationship. The unit specified in :ref:`relation:unit:refs:assertion` is the parent of the unit in :ref:`relation:related_unit:refs:assertion`.
  - ``member-of`` to define a membership relationship. The unit specified in :ref:`relation:unit:refs:assertion` has some personnel who are members of the unit noted in :ref:`relation:related_unit:refs:assertion`.
 
-A ``member-of`` :ref:`relation` is used to capture instances where personnel of one unit become personnel of another unit, such as a joint task force or peacekeeping mission, that has a distinct chain of command and geographic footprint. This is important to capture in the data model as the personnel in joint task force or peacekeeping mission are no longer under the command of their "home" unit or at the minimum have an altered relation with their "home" chain of command.
+A ``member-of`` :ref:`relation` is used to capture instances where personnel of one unit become personnel of another unit, such as a joint task force or peacekeeping mission, that has a distinct chain of command and geographic footprint. This is important to capture in the data model as the personnel in joint task force or peacekeeping mission are no longer under the command of their "home" unit or at the minimum have an altered :ref:`relation` with their "home" chain of command.
 
 .. admonition:: Example
 
-    Many units of the Mexican Army sent personnel to serve as part of ``Operación Conjunta Chihuahua``, a joint task force which conducted operations in and around Ciudad Juárez in northern Mexico. While these personnel were serving as part of the operation they were part of the chain of command for that operation, and not their "home" unit which may have been across the country. Similarly, personnel of the "home" unit were not in a hierarchical relation, or under the command of, ``Operación Conjunta Chihuahua``.
+    Many units of the Mexican Army sent personnel to serve as part of ``Operación Conjunta Chihuahua``, a joint task force which conducted operations in and around Ciudad Juárez in northern Mexico. While these personnel were serving as part of the operation they were part of the chain of command for that operation, and not their "home" unit which may have been across the country. Similarly, personnel of the "home" unit were not in a hierarchical :ref:`relation`, or under the command of, ``Operación Conjunta Chihuahua``.
 
 
 relation:related_unit:refs:assertion
