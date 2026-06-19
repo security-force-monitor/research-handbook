@@ -68,7 +68,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``positioning`` defines the claim and defines the relevant fields to be used in further data entry about a ``positioning``. For quality assurance purposes, entering ``positioning`` should create an error if there is any entry for fields tied to other types of claims, such as ``unit`` or ``relation``.
+Entering ``positioning`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:`positioning`. For quality assurance purposes, entering ``positioning`` should create an error if there is any entry for fields tied to other types of claims, such as ``unit`` or ``relation``.
 
 
 status:meta
