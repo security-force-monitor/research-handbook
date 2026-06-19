@@ -5,7 +5,7 @@ Publications are the organizations, individuals or accounts that publish sources
 
 This document provides an overview of what information we store about publications.
 
-Source: Summary of attributes
+Publication: Summary of attributes
 *****************************
 
 The table below summarizes the following dimensions of source records:
@@ -20,7 +20,7 @@ The table below summarizes the following dimensions of source records:
    :header-rows: 1
 
 
-Source: Details of attributes
+Publication: Details of attributes
 *****************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.
