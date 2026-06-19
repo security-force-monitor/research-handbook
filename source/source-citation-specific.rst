@@ -158,7 +158,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-A source has at least one access point, but may have many. For example, if a source is a document we may draw information from a number of different pages (or ranges of pages). For each page or range of pages, we would create a new access point to the source. The field ``Source: Access Point Type`` tells us what method we have used to create the access point - in this case ``page``. The number of the page or page range will be recorded in a related attribute called `source:access_point_trigger`_.
+A source has at least one access point, but may have many. For example, if a source is a document we may draw information from a number of different pages (or ranges of pages). For each page or range of pages, we would create a new access point to the source. The field ``Source: Access Point Type`` tells us what method we have used to create the access point - in this case ``page``. The number of the page or page range will be recorded in a related attribute called :ref:`source:access_point_trigger`.
 
 There are eight ways to "trigger" a citation of a specific source, taking in account the source's media type:
 
@@ -205,9 +205,9 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field is used to specify the exact content within a source that defines the citation. For example, if we want to create a citation of page 4 of a source then we would set the value in `source:access_point_type`_ to ``page`` and enter ``4`` in this attribute. As noted in the documentation for `source:access_point_type`_ there are seven ways to trigger a citation. These are listed below, along with the data type and format required to specify the exact content of the citation:
+This field is used to specify the exact content within a source that defines the citation. For example, if we want to create a citation of page 4 of a source then we would set the value in :ref:`source:access_point_type` to ``page`` and enter ``4`` in this attribute. As noted in the documentation for :ref:`source:access_point_type` there are seven ways to trigger a citation. These are listed below, along with the data type and format required to specify the exact content of the citation:
 
-- ``archive``: Leave empty. The value in `source:archive_url`_ serves as the trigger for this citation type.
+- ``archive``: Leave empty. The value in :ref:`source:archive_url` serves as the trigger for this citation type.
 - ``page``: Single page (``1``), single range of pages (``1-2``), combination of page and page ranges (``1,2-3,4,5-8``)
 - ``line``: Single line (``200``), single range of lines (``200-230``), combination of line and line ranges (``200-230,236,240-250``)
 - ``clip``: Single range containing start and end time in the format ``hh:mm:ss`` (``00:01:20-00:01:24``)
