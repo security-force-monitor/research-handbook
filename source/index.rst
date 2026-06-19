@@ -40,7 +40,7 @@ Table of Contents
    :caption: Sources and citations
    :maxdepth: 2
 
-   source-citation-overview
+   source-citation-publication-overview
    source-source-specific
    source-citation-specific
    source-publication-specific
@@ -57,7 +57,7 @@ Table of Contents
    :caption: Units
    :maxdepth: 2
 
-   overview-units
+   units-overview
    units_identity
    units_relations
    units_positionings
