@@ -41,9 +41,9 @@ Table of Contents
    :maxdepth: 2
 
    source-citation-publication-overview
+   source-publication-specific   
    source-source-specific
    source-citation-specific
-   source-publication-specific
 
 .. toctree::
    :caption: Locations
@@ -58,18 +58,18 @@ Table of Contents
    :maxdepth: 2
 
    units-overview
-   units_identity
-   units_relations
-   units_positionings
+   units-identity
+   units-relations
+   units-positionings
 
 .. toctree::
    :caption: Persons
    :maxdepth: 2
 
    persons
-   persons_identity
-   persons_postings
-   persons_extra
+   persons-identity
+   persons-postings
+   persons-extra
 
 .. toctree::
    :caption: Incidents
