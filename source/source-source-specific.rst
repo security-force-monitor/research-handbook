@@ -263,7 +263,7 @@ Guidance on use
 
 Where available, record the date and time that the source was uploaded to the online platform or service on which it is hosted. This may different from the date of creation or publication. Upload timestamp information may not be available for source - if this is the case, leave the field blank.
 
-If a publication date is not available for a source, the timestamp of the snapshot of the source found in the Internet Archive should be used in this field (and the ``source:published_timestamp`` would be left blank).
+If a publication date is not available for a source, the timestamp of the snapshot of the source found in the Internet Archive should be used in this field (and the :ref:`source:published_timestamp` would be left blank).
 
 Where the time zone is indicated, convert the timestamp to UTC.
 
@@ -301,7 +301,7 @@ Guidance on use
 
 Where available, record the date and time that the source was published. This may different from the date of creation or upload. 
 
-Although a timestamp for creation and upload dates and times may not be available, it is very likely that at least a publication date will be available for a source. If a publication date is not available for a source, the timestamp of the snapshot of the source found in the Internet Archive should be used in the ``source:uploaded_timestamp`` and this field should be left blank.
+Although a timestamp for creation and upload dates and times may not be available, it is very likely that at least a publication date will be available for a source. If a publication date is not available for a source, the timestamp of the snapshot of the source found in the Internet Archive should be used in the :ref:`source:uploaded_timestamp` and this field should be left blank.
 
 Where the time zone is indicated, convert the timestamp to UTC.
 
@@ -337,4 +337,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field is for the Universally Unique Identifier (UUID) assigned to the ``publication`` which published the source. This could be an organization like The New York Times, or an account id on a social media site. Each publication can only have a single UUID.
+This field is for the Universally Unique Identifier (UUID) assigned to the :ref:`publication` which published the source. This could be an organization like The New York Times, or an account id on a social media site. Each publication can only have a single UUID.
