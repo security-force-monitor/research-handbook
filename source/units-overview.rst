@@ -8,6 +8,6 @@ Units are official state or state-sanctioned organizations responsible for the i
 
 Data about units are described by three claim types:
 
-- :ref:`Unit Identity`: the existence and identity of the unit, such as its names, aliases, classification, dates of creation and/or dissolution.
-- :ref:`Unit Positioning`: geographic footprint including where the unit is based and the unit's areas of operation.
-- :ref:`Unit Relation`: the unit's position in the hierarchy of a security force, as well as their memberships in other units like joint operations or international peacekeeping missions.
+- :ref:`Unit`: the existence and identity of the unit, such as its names, aliases, classification, dates of creation and/or dissolution.
+- :ref:`Positioning`: geographic footprint including where the unit is based and the unit's areas of operation.
+- :ref:`Relation`: the unit's position in the hierarchy of a security force, as well as their memberships in other units like joint operations or international peacekeeping missions.
