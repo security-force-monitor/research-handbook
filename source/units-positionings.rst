@@ -1,9 +1,9 @@
 Positioning
 ###########
 
-The ``positioning`` claim describes the geographic footprint of a specific unit. This includes the ``site`` or base of a unit, as well as the areas of operation (``aoo``) of a ``unit``.
+The ``positioning`` claim describes the geographic footprint of a specific unit. This includes the ``site`` or base of a unit, as well as the areas of operation (``aoo``) of a :ref:`unit`.
 
-Every ``positioning`` should be "pushed up" to parent units or the ``relation:related_unit:refs:assertion`` units, which have a ``relation`` that overlaps any ``positioning`` claim for any subordinate ``unit``.
+Every ``positioning`` should be "pushed up" to parent units or the :ref:`relation:related_unit:refs:assertion` units, which have a ``relation`` that overlaps any :ref:`positioning` claim for any subordinate :ref:`unit`.
 
 .. admonition:: Example
 
@@ -13,7 +13,7 @@ Often citation will evidence a ``positioning`` claim for an administrative area 
 
 .. admonition:: Example
 
-    Nigeria is divided into 36 states and a Federal Capital Territory. These are further divided into Local Government Areas. If a citation states a ``unit`` operates in Lagos State then claims should be entered for positionings of Lagos State as well as every Local Government Area within Lagos State.
+    Nigeria is divided into 36 states and a Federal Capital Territory. These are further divided into Local Government Areas. If a citation states a :ref:`unit` operates in Lagos State then claims should be entered for positionings of Lagos State as well as every Local Government Area within Lagos State.
 
 
 Positioning: Summary of claim attributes
