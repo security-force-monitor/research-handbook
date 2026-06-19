@@ -1,7 +1,7 @@
 Publication
 ###########
 
-Publications are the organizations, individuals or accounts that publish sources. Typical records in this entity type include security forces themselves, media organizations, non-governmental organizations, government agencies, and social media accounts. We record these distinctly from sources and citations, rather than simply as values within those types of record.
+Publications are the organizations, individuals or accounts that publish sources. Typical records in this entity type include security forces themselves, media organizations, non-governmental organizations, government agencies, and social media accounts. We record these distinctly from a :ref:`source` or :ref:`citation`, rather than simply as values within those types of record.
 
 This document provides an overview of what information we store about publications.
 
@@ -57,7 +57,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). This value is determined based on the location of the organization (often found in the "Contact Us" section of a website) or the location a platform gives a social media account. If this cannot be determined the field should be left blank.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (on the `ISO website <https://www.iso.org/obp/ui/#search>`). This value is determined based on the location of the organization (often found in the "Contact Us" section of a website) or the location a platform gives a social media account. If this cannot be determined the field should be left blank.
 
 
 source:publication_name
