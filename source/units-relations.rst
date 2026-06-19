@@ -235,7 +235,7 @@ Guidance on use
 
 Every claim has a Universally Unique Identifier (UUID) to distinguish it from any other claim. For a ``relation`` this UUID distinguishes them from any other ``relation`` in the dataset.
 
-Every ``relation`` between the same two ``units`` is always treated as a contiguous, meaning it has the same UUID, unless citations establish it should be treated as non-contiguous.
+Every ``relation`` between the same two units is always treated as a contiguous, meaning it has the same UUID, unless citations establish it should be treated as non-contiguous.
 
 .. admonition:: Example
 
@@ -247,11 +247,11 @@ Two or more ``relation`` claims should always be treated as contiguous if there 
 
     The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change ``relation`` to whatever regional military command controls the area where it is operating. One citation puts the division in an area under ``Northeastern Regional Military Command`` from at least ``2016-03-10`` to at least ``2016-03-11``, which establishes a ``relation`` between the division and the regional command for the same time-range. Another citation places the division in an area under ``Northeastern Regional Military Command`` on ``2016-03-12``, which again establishes a ``relation`` between the division and the regional command for the same time-range. These two claims are coded as the same ``relation`` given that they fall within 1 day of each other.
 
-A :ref:`unit` may have multiple, overlapping ``relations``.
+A :ref:`unit` may have multiple, overlapping relations.
 
 .. admonition:: Example
 
-    Citations establish that regional military commands in the Myanmar Army control units that operate in their area of operations. Citations establish through time that the ``290 Infantry Battalion`` is under command of the ``Northeastern Regional Military Command`` and also based in areas under ``Northeastern Regional Military Command`` through time. Combined these citations evidence a contiguous ``relation`` between the battalion and ultimately the ``Northeastern Regional Military Command``. Other citations, however, evidence the battalion also operated in areas controlled by different regional military commands. These establish additional ``relations`` for the battalion during the time ranges it was operating in areas under the ``Eastern Central Regional Military Command``, ``Northern Regional Military Command``, ``Southeastern Regional Military Command`` or ``Triangle Regional Military Command``.
+    Citations establish that regional military commands in the Myanmar Army control units that operate in their area of operations. Citations establish through time that the ``290 Infantry Battalion`` is under command of the ``Northeastern Regional Military Command`` and also based in areas under ``Northeastern Regional Military Command`` through time. Combined these citations evidence a contiguous ``relation`` between the battalion and ultimately the ``Northeastern Regional Military Command``. Other citations, however, evidence the battalion also operated in areas controlled by different regional military commands. These establish additional relations for the battalion during the time ranges it was operating in areas under the ``Eastern Central Regional Military Command``, ``Northern Regional Military Command``, ``Southeastern Regional Military Command`` or ``Triangle Regional Military Command``.
 
 
 about_entity:name:qa
@@ -510,7 +510,7 @@ The ``class`` entry in this field is exclusively used for modeling the different
 
 .. admonition:: Example
 
-    By law the ``Ministry of Defence`` in Nigeria provides administrative support to the ``Nigerian Army``, establishing a relationship we could classify as ``administrative``. The ``Standards Department`` of an ``Army Headquarters`` might be under the control of the ``Army Headquarters``, meaning the ``Army Headquarters`` could order the Department to take some sort of action. This technically means the Department is under the “command” of the Headquarters, but the Monitor would describe this relationship as ``administrative`` because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
+    By law the ``Ministry of Defence`` in Nigeria provides administrative support to the ``Nigerian Army``, establishing a relationship we could classify as ``administrative``. The ``Standards Department`` of an ``Army Headquarters`` might be under the control of the ``Army Headquarters``, meaning the ``Army Headquarters`` could order the Department to take some sort of action. This technically means the Department is under the “command” of the Headquarters, but the Monitor would describe this relationship as ``administrative`` because the Department is not in the field conducting operations, it's an administrative organ of the ``Army Headquarters``.
 
 
 first_precise:range
