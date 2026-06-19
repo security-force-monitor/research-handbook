@@ -55,7 +55,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Data are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever there is a conflicts with another location and a review shows it to be the incorrect or false location. A ``public_notes:meta`` should always accompany any ``conflict`` flag.
+Data are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever there is a conflicts with another location and a review shows it to be the incorrect or false location. A :ref:`public_notes:meta <notes-location>` should always accompany any ``conflict`` flag.
 
 If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if it cannot be established whether a location should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
@@ -125,7 +125,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the ``public_notes:meta`` field.
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <notes-location>` field.
 
 
 citation:refs:claim
@@ -159,7 +159,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are drawn from an external gazeeter or geographic database, and because of this they do not require a citation. However, best practice is to include a citation whenever possible. When two or more citations are needed to evidence a location then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
+Locations are drawn from an external gazeeter or geographic database, and because of this they do not require a citation. However, best practice is to include a citation whenever possible. When two or more citations are needed to evidence a location then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <notes-location>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`ref:source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
 
 id:entity
@@ -193,7 +193,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Identifier (UUID) generated using a computer program. Every location has a UUID to distinguish it from any other location. This field is used in data entry for ``incidents`` in ``incident:location:refs:assertion`` and ``positionings`` in ``positioning:location:refs:assertion``.
+This value is a Universally Unique Identifier (UUID) generated using a computer program. Every location has a UUID to distinguish it from any other location. This field is used in data entry for :ref:`incidents` in :ref:`incident:location:refs:assertion` and :ref:`positionings` in :ref:`positioning:location:refs:assertion`.
 
 
 location:humane_id:qa
@@ -227,13 +227,13 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The ``location:humane_id:qa`` should include other location fields that give a researcher a quick, human readable way to understand a location. Best practice is to include the ``name:annotation``, ``origin:location``, ``geo_type:qa`` and ``id:entity`` as this highlights the most important information while also creating a unique name due to the inclusion of ``id:entity``. SFM adopts this approach with ``location:humane_id:qa`` with entries in the field following the below format:
+The ``location:humane_id:qa`` should include other location fields that give a researcher a quick, human readable way to understand a location. Best practice is to include the ``name:annotation``, :ref:`origin:location`, :ref:`geo_type:qa` and :ref:`id:entity` as this highlights the most important information while also creating a unique name due to the inclusion of ``id:entity``. SFM adopts this approach with :ref:`location:humane_id:qa` with entries in the field following the below format:
 
-::
+.. admonition:: Example
 
   ``name:annotation`` (``origin:location``, ``geo_type:qa``) ``id:entity``
-
-The value ``Ta'izz Governorate (osm, poly) 5c35b342-0b5e-4648-86cd-7ad730d647fa`` tells us that the name of the place is ``Ta'izz Governorate``, that it is a Location found in ``osm`` (short for "OpenStreetMap") that it denotes an area (``poly``); the UUID provides the hard link to a specific attribute in the Location table.
+  
+  The value ``Ta'izz Governorate (osm, poly) 5c35b342-0b5e-4648-86cd-7ad730d647fa`` tells us that the name of the place is ``Ta'izz Governorate``, that it is a Location found in ``osm`` (short for "OpenStreetMap") that it denotes an area (``poly``); the UUID provides the hard link to a specific attribute in the Location table.
 
 
 name:annotation
@@ -938,6 +938,7 @@ Guidance on use
 
 This attribute contains the human-readable identifier (``location:humane_id:qa``) of the international boundary of a country as defined in the UN Office for the Coordination of Humanitarian Affairs (OCHA) schema.
 
+.. _notes-location:
 
 public_notes:meta
 =================
