@@ -9,7 +9,7 @@ Every :ref:`positioning` should be "pushed up" to parent units or the :ref:`rela
 
     The Myanmar Army contains ten light infantry divisions which control battalions. A citation references the ``79 Infantry Battalion`` operating in ``Lashio Township`` on ``2020-04-24``, giving that battalion a :ref:`positioning` for ``Lashio Township`` on ``2020-04-24``. Other citations establish a :ref:`relation` between the ``79 Infantry Battalion`` and the ``99 Light Infantry Division`` before and after the :ref:`positioning` of the battalion to ``Lashio Township``. In this case, a :ref:`positioning` claim for ``99 Light Infantry Division`` operating in ``Lashio Township`` on ``2020-04-24`` should be created. The claim would be evidenced by the original citation for the ``79 Infantry Battalion`` :ref:`positioning` in ``Lashio Township``, along with all of the citations evidencing the :ref:`relation` between the ``79 Infantry Battalion`` and the ``99 Light Infantry Division``. Best practice is to add a :ref:`public_notes:meta <>` to this claim as well to explain the connection for a general audience.
 
-Often citation will evidence a ``positioning`` claim for an administrative area that includes smaller administrative areas. In these cases the researcher should enter claims for all possible administrative areas to capture the full claim being made in the citation.
+Often citation will evidence a :ref:`positioning` claim for an administrative area that includes smaller administrative areas. In these cases the researcher should enter claims for all possible administrative areas to capture the full claim being made in the citation.
 
 .. admonition:: Example
 
@@ -19,7 +19,7 @@ Often citation will evidence a ``positioning`` claim for an administrative area 
 Positioning: Summary of claim attributes
 ****************************************
 
-The table below summarizes the following dimensions of ``positioning`` claims:
+The table below summarizes the following dimensions of :ref:`positioning` claims:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
