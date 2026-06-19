@@ -57,7 +57,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (on the `ISO website <https://www.iso.org/obp/ui/#search>`). This value is determined based on the location of the organization (often found in the "Contact Us" section of a website) or the location a platform gives a social media account. If this cannot be determined the field should be left blank.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (on the `ISO website <https://www.iso.org/obp/ui/#search>`_). This value is determined based on the location of the organization (often found in the "Contact Us" section of a website) or the location a platform gives a social media account. If this cannot be determined the field should be left blank.
 
 
 source:publication_name
