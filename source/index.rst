@@ -66,17 +66,16 @@ Table of Contents
    :caption: Persons
    :maxdepth: 2
 
-   persons
+   persons-overview
    persons-identity
    persons-postings
-   persons-extra
 
 .. toctree::
    :caption: Incidents
    :maxdepth: 2
 
-   incidents
-   incidents_attributes
+   incidents-overview
+   incidents-attributes
 
 .. toctree::
    :caption: Trainings (Draft)
