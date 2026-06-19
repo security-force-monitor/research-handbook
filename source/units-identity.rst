@@ -1,12 +1,12 @@
 Unit
 ####
 
-A ``unit`` claim type contains information about the identity of the unit, such as its name, aliases, classification, the country in which it operates, and the duration of its existence.
+A :ref:`unit` claim type contains information about the identity of the :ref:`unit`, such as its name, aliases, classification, the country in which it operates, and the duration of its existence.
 
 Unit Identity: Summary of claim attributes 
 ******************************************
 
-The table below summarizes the following dimensions of ``unit`` claims:
+The table below summarizes the following dimensions of :ref:`unit` claims:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
@@ -55,7 +55,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``unit`` defines the claim and defines the relevant fields to be used in further data entry about a unit. For quality assurance purposes, entering ``unit`` should create an error if there is any entry for fields tied to other claim types, such as :ref:`positioning` or :ref:`relation`.
+Entering ``unit`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:`unit`. For quality assurance purposes, entering ``unit`` should create an error if there is any entry for fields tied to other claim types, such as `positioning`` or ``relation``.
 
 .. _unit-status-meta:
 
@@ -350,7 +350,7 @@ Convention: In cases where multiple units have the same name the Monitor will di
 
 .. admonition:: Example
 
-  There are multiple "Central Police Station" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance ``Central Police Station (Awka, Anambra State).`` In Myanmar there are multiple different units all called "1 Tactical Operations Command". To distinguish them the Monitor added the parent unit inside of parentheses for each tactical operations command, such as ``1 Tactical Operations Command (1 Military Operations Command)``.
+  There are multiple "Central Police Station" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance ``Central Police Station (Awka, Anambra State)``. In Myanmar there are multiple different units all called "1 Tactical Operations Command". To distinguish them the Monitor added the parent unit inside of parentheses for each tactical operations command, such as ``1 Tactical Operations Command (1 Military Operations Command)``.
 
 In some cases, we are aware that a unit exists because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of "Unnamed" and "Unknown" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`.
 
