@@ -227,7 +227,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The ``location:humane_id:qa`` should include other location fields that give a researcher a quick, human readable way to understand a location. Best practice is to include the ``name:annotation``, :ref:`origin:location`, :ref:`geo_type:qa` and :ref:`id:entity` as this highlights the most important information while also creating a unique name due to the inclusion of ``id:entity``. SFM adopts this approach with :ref:`location:humane_id:qa` with entries in the field following the below format:
+The ``location:humane_id:qa`` should include other location fields that give a researcher a quick, human readable way to understand a location. Best practice is to include the :ref:`name:annotation <location-name-annotation>`, :ref:`origin:location`, :ref:`geo_type:qa` and :ref:`id:entity` as this highlights the most important information while also creating a unique name due to the inclusion of :ref:`id:entity`. SFM adopts this approach with :ref:`location:humane_id:qa` with entries in the field following the below format:
 
 .. admonition:: Example
 
@@ -235,6 +235,7 @@ The ``location:humane_id:qa`` should include other location fields that give a r
   
   The value ``Ta'izz Governorate (osm, poly) 5c35b342-0b5e-4648-86cd-7ad730d647fa`` tells us that the name of the place is ``Ta'izz Governorate``, that it is a Location found in ``osm`` (short for "OpenStreetMap") that it denotes an area (``poly``); the UUID provides the hard link to a specific attribute in the Location table.
 
+.. _location-name-annotation:
 
 name:annotation
 ===============
@@ -267,7 +268,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The value in ``name:annotation`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's own "name" attribute and place it in ``name:annotation``. Along with ``origin_id:location`` and ``geo_type:qa``, ``name:annotation`` is needed for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily-defined, or is derived from a data source that does not provide a name, the Staff Researcher can provide one.
+The value in ``name:annotation`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's own "name" attribute and place it in ``name:annotation``. Along with :ref:`origin_id:location` and :ref:`geo_type:qa`, ``name:annotation`` is needed for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily-defined, or is derived from a data source that does not provide a name, the Staff Researcher can provide one.
 
 
 origin_id:location
@@ -301,7 +302,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The value in ``origin_id:location`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's "id" attribute and place it in the ``origin_id:location`` attribute. Along with ``name:annotation`` and ``geo_type:qa``, ``origin_id:location`` is needed in order for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily defined, or is derived from a data source that does not provide a ID number, the Staff Researcher can provide one.
+The value in ``origin_id:location`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's "id" attribute and place it in the ``origin_id:location`` attribute. Along with :ref:`name:annotation <location-name-annotation>` and :ref:`geo_type:qa`, ``origin_id:location`` is needed in order for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily defined, or is derived from a data source that does not provide a ID number, the Staff Researcher can provide one.
 
 
 geo_type:qa
@@ -375,7 +376,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The values in ``origin:location`` identify where automation tools should go to obtain spatial information about an object. For example, if the value ``osm`` is entered in ``origin:location`` this indicates that the automation tool should query OpenStreetMap in order to obtain spatial information about a Location. If ``osm`` were set, then the values in ``name:annotation`` and ``origin_id:location`` would correspond to the object name and ID number in OpenStreetMap. Locations can be derived from comprehensive online services, as well as other sources like locally-held ``.shp`` or ``.kml`` files. The number of origins is unlimited.
+The values in ``origin:location`` identify where automation tools should go to obtain spatial information about an object. For example, if the value ``osm`` is entered in ``origin:location`` this indicates that the automation tool should query OpenStreetMap in order to obtain spatial information about a Location. If ``osm`` were set, then the values in :ref:`name:annotation <location-name-annotation>` and :ref:`origin_id:location` would correspond to the object name and ID number in OpenStreetMap. Locations can be derived from comprehensive online services, as well as other sources like locally-held ``.shp`` or ``.kml`` files. The number of origins is unlimited.
 
 
 geometry:ref:entity
@@ -476,55 +477,55 @@ Example of use
 
 Guidance on use
 ~~~~~~~~~~~~~~~
-If a geographic dataset does not establish whether locations are within one another, this field may be used to manually create the hierarchy between locations. The ``location:humane_id:qa`` should be used in this field.
+If a geographic dataset does not establish whether locations are within one another, this field may be used to manually create the hierarchy between locations. The :ref:`location:humane_id:qa` should be used in this field.
 
 
 first_precise:range
 ===================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
 
 last_precise:range
 ==================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
 
 first_imprecise:range
 =====================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
 
 last_imprecise:range
 ====================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
 
 starting:range
 ==============
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
 
 ending:range
 ============
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
 
 starting_context:range
 ======================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
 
 ending_context:range
 ====================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`Claims with dates`.
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
 
 location:admin_level:qa
@@ -596,7 +597,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 10 administrative area in which the current Location is situated. Level 10 is an extremely small administrative division and is rarely specified in freely available geospatial information sources. 
+This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 10 administrative area in which the current Location is situated. Level 10 is an extremely small administrative division and is rarely specified in freely available geospatial information sources. 
 
 
 location:admin_level_9:qa
@@ -630,7 +631,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 9 administrative area in which the current Location is situated. Level 9 is an extremely small administrative division and is rarely specified in freely available geospatial information sources. 
+This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`)  of the level 9 administrative area in which the current Location is situated. Level 9 is an extremely small administrative division and is rarely specified in freely available geospatial information sources. 
 
 
 location:admin_level_8:qa
@@ -664,7 +665,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 8 administrative area in which the current Location is situated. Level 8 is a relatively small administrative division, and may not be commonly found in freely available geospatial information sources.
+This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 8 administrative area in which the current Location is situated. Level 8 is a relatively small administrative division, and may not be commonly found in freely available geospatial information sources.
 
 
 location:admin_level_7:qa
@@ -698,7 +699,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 7 administrative area in which the current Location is situated. Level 7 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
+This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 7 administrative area in which the current Location is situated. Level 7 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
 
 
 location:admin_level_6:qa
@@ -732,7 +733,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 6 administrative area in which the current Location is situated. Level 6 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
+This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 6 administrative area in which the current Location is situated. Level 6 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
 
 
 location:admin_level_5:qa
@@ -766,7 +767,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 5 administrative area in which the current Location is situated. Level 5 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
+This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 5 administrative area in which the current Location is situated. Level 5 areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
 
 
 location:admin_level_4:qa
@@ -800,7 +801,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 4 administrative area in which the current Location is situated. Level 4 areas are commonly found in freely available geospatial information sources such as OpenStreetMap, and are usually the largest sub-national administrative areas.
+This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 4 administrative area in which the current Location is situated. Level 4 areas are commonly found in freely available geospatial information sources such as OpenStreetMap, and are usually the largest sub-national administrative areas.
 
 
 location:admin_level_3:qa
@@ -834,7 +835,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 3 administrative area in which the current Location is situated. Where defined, level 3 administrative areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
+This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 3 administrative area in which the current Location is situated. Where defined, level 3 administrative areas are commonly found in freely available geospatial information sources such as OpenStreetMap.
 
 
 location:admin_level_2:qa
@@ -868,7 +869,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``location:humane_id:qa`) of the level 2 administrative level, which for the OpenStreetMap schema is the international boundary of a country.
+This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 2 administrative level, which for the OpenStreetMap schema is the international boundary of a country.
 
 
 location:admin_level_1:qa
@@ -902,7 +903,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``location:humane_id:qa``) of the level 1 administrative level. The UN Office for the Coordination of Humanitarian Affairs (OCHA) defines the level 1 administrative level as the highest sub national boundaries of a country (OSM generally uses level 4 for these sub national boundaries). 
+This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 1 administrative level. The UN Office for the Coordination of Humanitarian Affairs (OCHA) defines the level 1 administrative level as the highest sub national boundaries of a country (OSM generally uses level 4 for these sub national boundaries). 
 
 
 location:admin_level_0:qa
@@ -936,7 +937,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (``location:humane_id:qa``) of the international boundary of a country as defined in the UN Office for the Coordination of Humanitarian Affairs (OCHA) schema.
+This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the international boundary of a country as defined in the UN Office for the Coordination of Humanitarian Affairs (OCHA) schema.
 
 .. _notes-location:
 
