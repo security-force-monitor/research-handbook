@@ -165,6 +165,7 @@ Guidance on use
 
 Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the ``public_notes:meta`` field.
 
+.. _citation-relation:
 
 citation:refs:claim
 ===================
