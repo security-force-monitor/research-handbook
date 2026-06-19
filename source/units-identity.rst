@@ -55,7 +55,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``unit`` defines the claim and defines the relevant fields to be used in further data entry about a unit. For quality assurance purposes, entering ``unit`` should create an error if there is any entry for fields tied to other claim types, such as ``positioning`` or ``relation``.
+Entering ``unit`` defines the claim and defines the relevant fields to be used in further data entry about a unit. For quality assurance purposes, entering ``unit`` should create an error if there is any entry for fields tied to other claim types, such as :ref:`positioning` or :ref:`relation`.
 
 .. _unit-status-meta:
 
@@ -94,7 +94,7 @@ Claims are marked ``accepted`` when all of the data can be entered in accordance
 
 .. admonition:: Example
 
-    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish a general numbering practices of the army which provides further evidence that no such battalion exists. The ``unit`` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with ``status:meta`` of the ``conflict``, and have the status fully explained in a ``public_notes:meta``.
+    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish a general numbering practices of the army which provides further evidence that no such battalion exists. The ``unit`` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with ``status:meta`` of the ``conflict``, and have the status fully explained in a :ref:`public_notes:meta <unit-public-notes-meta>`.
 
 If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
@@ -164,7 +164,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the ``public_notes:meta`` field.
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <unit-public-notes-meta>` field.
 
 
 citation:refs:claim
@@ -198,8 +198,10 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the :ref:unit-public-notes-meta`public_notes:meta` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`ref:source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
+
+.. _unit-about-entity:
 
 about_entity:ref:claim
 ======================
@@ -232,7 +234,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For a ``unit`` this UUID distinguishes them from any other ``unit`` in the dataset. This UUID is used in other fields to tie a ``unit`` to a ``positioning``, ``relation``, ``posting``, or ``incident``.
+Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For a ``unit`` this UUID distinguishes them from any other ``unit`` in the dataset. This UUID is used in other fields to tie a ``unit`` to a :ref:`positioning`, :ref:`relation`, :ref:`posting`, or :ref:`incident`.
 
 If a unit undergoes a change in name, that unit should be treated as a separate, distinct unit and given its own UUID.
 
@@ -273,7 +275,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the ``about_entity:ref:claim`` This field can be manually added by a researcher or automatically populated by the system after import. For a ``unit`` best practice is to use the ``name:annotation`` in this field.
+This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <unit-about-entity>` This field can be manually added by a researcher or automatically populated by the system after import. For a ``unit`` best practice is to use the :ref:`name:annotation <unit-name-annotation>` in this field.
 
 .. _unit-name-annotation:
 
@@ -308,11 +310,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The Security Force Monitor strives to create a single canonical version of a unit's name that is based on citations, highlights differences between peer units, and makes the data easier for a general audience to understand. Similar to a ``person``, wherever possible we will choose the most complex version of a unit’s name that can be evidenced by a citation.
+The Security Force Monitor strives to create a single canonical version of a unit's name that is based on citations, highlights differences between peer units, and makes the data easier for a general audience to understand. Similar to a :ref:`person`, wherever possible we will choose the most complex version of a unit’s name that can be evidenced by a citation.
 
 .. admonition:: Example
 
-    ``3 Armoured Division`` would be the entry for ``name:annotation``, rather than the shorter ``3 Division`` (which may have more citations) would only be used in ``unit:names:assertion``.
+    ``3 Armoured Division`` would be the entry for ``name:annotation``, rather than the shorter ``3 Division`` (which may have more citations) would only be used in :ref:`unit:names:assertion`.
 
 Units have several unique characteristics that require additional and unit specific methodological guidance. Units in security forces are arranged in hierarchies and share similar names with their peer units. However, while citations may establish general guidance for how units of a certain type should be named, each individual unit may not have citations evidencing the "complete" or "canonical" name of the unit.
 
@@ -384,7 +386,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Any name for a unit used in the citation should be entered in this field. While the ``name:annotation`` field is only used for a single, most complex value, this field is used for any name a citation uses for a unit. Thus, this field serves to capture "aliases" of a unit, which also includes any typos or misspellings from the citation.
+Any name for a unit used in the citation should be entered in this field. While the :ref:`name:annotation <unit-name-annotation>` field is only used for a single, most complex value, this field is used for any name a citation uses for a unit. Thus, this field serves to capture "aliases" of a unit, which also includes any typos or misspellings from the citation.
 
 Ordinal indicators, such as "2nd" or "10/o", should be entered in this field.
 
@@ -421,9 +423,9 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-We use classifications to describe the basic nature of a specific unit and to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor's dataset. As alleged perpetrators are usually identified in general terms of "soldiers" and "police" this field is important as a first step to understand potential linkages between a ``unit``, ``person`` and ``incident``.
+We use classifications to describe the basic nature of a specific unit and to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor's dataset. As alleged perpetrators are usually identified in general terms of "soldiers" and "police" this field is important as a first step to understand potential linkages between a ``unit``, :ref:`person` and :ref:`incident`.
 
-The ``:assertion/unit:classifications`` field will contain a mix of standard terms and country-specific terms used to describe security force branches. In choosing terms to include in the ``:assertion/unit:classifications`` field we try to include terms that are used by country experts as well as those that are common terms that would be meaningful to a general audience. We also try to be economical and create as few, distinct terms as possible.
+The ``unit:classifications:assertion`` field will contain a mix of standard terms and country-specific terms used to describe security force branches. In choosing terms to include in the ``unit:classifications:assertion`` field we try to include terms that are used by country experts as well as those that are common terms that would be meaningful to a general audience. We also try to be economical and create as few, distinct terms as possible.
 
 Units may have more than one classification. Usually this will be when a unit can have both "generic" and "specific" classifications.
 
@@ -435,9 +437,9 @@ Every unit which has a "specific" classification should also have the "generic" 
 
 .. admonition:: Example
 
-    Units that have an ``Army`` classification should also have a ``:assertion/unit:classifications`` of ``Military``.
+    Units that have an ``Army`` classification should also have a ``unit:classifications:assertion`` of ``Military``.
 
-Classifications are "pushed up" to parent units or the ``relation:related_unit:refs:assertion`` units, meaning that a ``unit`` should have all of the ``:assertion/unit:classifications`` of any subordinate ``unit``. The ``unit`` representing the head of state or head of government which acts as commander-in-chief of the armed forces would have a ``:assertion/unit:classifications`` of ``Military``, among others.
+Classifications are "pushed up" to parent units or the :ref:`relation:related_unit:refs:assertion` units, meaning that a ``unit`` should have all of the ``unit:classifications:assertion`` of any subordinate ``unit``. The ``unit`` representing the head of state or head of government which acts as commander-in-chief of the armed forces would have a ``unit:classifications:assertion`` of ``Military``, among others.
 
 
 country:annotation
@@ -471,7 +473,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). This field is used to aid grouping units into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based on any related ``positioning`` the ``unit`` holds, or any other contextual information from citations about the ``unit``.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`_). This field is used to aid grouping units into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based on any related :ref:`positioning` the ``unit`` holds, or any other contextual information from citations about the ``unit``.
 
 
 first_precise:range
