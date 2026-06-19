@@ -55,7 +55,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``relation`` defines the claim and defines the relevant fields to be used in further data entry about a ``relation``. For quality assurance purposes, entering ``relation`` should create an error if there is any entry for fields tied to other claim types, such as :ref:`unit` or :ref:`positioning`.
+Entering ``relation`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:relation. For quality assurance purposes, entering ``relation`` should create an error if there is any entry for fields tied to other claim types, such as `unit`` or `positioning``.
 
 
 status:meta
