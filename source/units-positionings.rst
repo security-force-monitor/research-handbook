@@ -1,13 +1,13 @@
 Positioning
 ###########
 
-The ``positioning`` claim describes the geographic footprint of a specific unit. This includes the ``site`` or base of a unit, as well as the areas of operation (``aoo``) of a :ref:`unit`.
+The :ref:`positioning` claim describes the geographic footprint of a specific unit. This includes the ``site`` or base of a unit, as well as the areas of operation (``aoo``) of a :ref:`unit`.
 
-Every ``positioning`` should be "pushed up" to parent units or the :ref:`relation:related_unit:refs:assertion` units, which have a ``relation`` that overlaps any :ref:`positioning` claim for any subordinate :ref:`unit`.
+Every :ref:`positioning` should be "pushed up" to parent units or the :ref:`relation:related_unit:refs:assertion` units, which have a :ref:`relation` that overlaps any :ref:`positioning` claim for any subordinate :ref:`unit`.
 
 .. admonition:: Example
 
-    The Myanmar Army contains ten light infantry divisions which control battalions. A citation references the ``79 Infantry Battalion`` operating in ``Lashio Township`` on ``2020-04-24``, giving that battalion a ``positioning`` for ``Lashio Township`` on ``2020-04-24``. Other citations establish a ``relation`` between the ``79 Infantry Battalion`` and the ``99 Light Infantry Division`` before and after the ``positioning`` of the battalion to ``Lashio Township``. In this case, a ``positioning`` claim for ``99 Light Infantry Division`` operating in ``Lashio Township`` on ``2020-04-24`` should be created. The claim would be evidenced by the original citation for the ``79 Infantry Battalion`` ``positioning`` in ``Lashio Township``, along with all of the citations evidencing the ``relation`` between the ``79 Infantry Battalion`` and the ``99 Light Infantry Division``. Best practice is to add a ``public_notes:meta`` to this claim as well to explain the connection for a general audience.
+    The Myanmar Army contains ten light infantry divisions which control battalions. A citation references the ``79 Infantry Battalion`` operating in ``Lashio Township`` on ``2020-04-24``, giving that battalion a :ref:`positioning` for ``Lashio Township`` on ``2020-04-24``. Other citations establish a :ref:`relation` between the ``79 Infantry Battalion`` and the ``99 Light Infantry Division`` before and after the :ref:`positioning` of the battalion to ``Lashio Township``. In this case, a :ref:`positioning` claim for ``99 Light Infantry Division`` operating in ``Lashio Township`` on ``2020-04-24`` should be created. The claim would be evidenced by the original citation for the ``79 Infantry Battalion`` :ref:`positioning` in ``Lashio Township``, along with all of the citations evidencing the :ref:`relation` between the ``79 Infantry Battalion`` and the ``99 Light Infantry Division``. Best practice is to add a :ref:`public_notes:meta <>` to this claim as well to explain the connection for a general audience.
 
 Often citation will evidence a ``positioning`` claim for an administrative area that includes smaller administrative areas. In these cases the researcher should enter claims for all possible administrative areas to capture the full claim being made in the citation.
 
@@ -176,7 +176,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the ``public_notes:meta`` field.
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <positionings-public-notes>` field.
 
 
 citation:refs:claim
@@ -210,8 +210,9 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <positionings-public-notes>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`ref:source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
+.. _positioning-about-entity:
 
 about_entity:ref:claim
 ======================
@@ -244,15 +245,15 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim has a Universally Unique Identifier (UUID) to distinguish it from any other claim. For a ``positioning`` this UUID distinguishes it from any other ``positioning`` in the dataset.
+Every claim has a Universally Unique Identifier (UUID) to distinguish it from any other claim. For a :ref:`positioning` this UUID distinguishes it from any other :ref:`positioning` in the dataset.
 
-Each ``positioning`` is always treated as a contiguous, meaning it has the same UUID, unless citations establish it is non-contiguous. 
+Each :ref:`positioning` is always treated as a contiguous, meaning it has the same UUID, unless citations establish it is non-contiguous. 
 
-A ``positioning`` should always be given the same UUID if there is an overlap or if the time-ranges of two or more citations fall within 1 day of each other. 
+A :ref:`positioning` should always be given the same UUID if there is an overlap or if the time-ranges of two or more citations fall within 1 day of each other. 
 
 .. admonition:: Example
 
-    Citations establish that the ``502 Light Infantry Battalion`` is part of a mobile formation which is deployed around Myanmar for operations, and because of this ``positioning`` claims should not be treated as contiguous. However, there are two different claims that the ``502 Light Infantry Battalion`` has a ``positioning`` ``site`` of ``Mantong Township``, one claim on ``2013-04-19`` and the other on ``2013-04-20``. Because these two claims are within a day of each other, they are coded as part of the same ``positioning`` giving the ``502 Light Infantry Battalion`` a ``positioning`` ``site`` of ``Mantong Township`` from at least ``2013-04-19`` to at least ``2013-04-20``. Another claim giving the ``502 Light Infantry Battalion`` a ``positioning`` ``site`` of ``Mantong Township`` on ``2014-04-20`` is coded as a separate, non-contiguous positioning because of the citations stating that the battalion is part of a mobile formation which is deployed around Myanmar for operations.
+    Citations establish that the ``502 Light Infantry Battalion`` is part of a mobile formation which is deployed around Myanmar for operations, and because of this :ref:`positioning` claims should not be treated as contiguous. However, there are two different claims that the ``502 Light Infantry Battalion`` has a :ref:`positioning` ``site`` of ``Mantong Township``, one claim on ``2013-04-19`` and the other on ``2013-04-20``. Because these two claims are within a day of each other, they are coded as part of the same :ref:`positioning` giving the ``502 Light Infantry Battalion`` a :ref:`positioning` ``site`` of ``Mantong Township`` from at least ``2013-04-19`` to at least ``2013-04-20``. Another claim giving the ``502 Light Infantry Battalion`` a :ref:`positioning` ``site`` of ``Mantong Township`` on ``2014-04-20`` is coded as a separate, non-contiguous positioning because of the citations stating that the battalion is part of a mobile formation which is deployed around Myanmar for operations.
 
 
 about_entity:name:qa
@@ -286,7 +287,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the ``about_entity:ref:claim``, and combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
+This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <positioning-about-entity>`, and combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
 
 
 positioning:unit:refs:assertion
@@ -320,7 +321,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The UUID entered into ``positioning:unit:refs:assertion`` must match the ``about_entity:ref:claim`` of a ``unit`` that already exists within the dataset.
+The UUID entered into ``positioning:unit:refs:assertion`` must match the :ref:`about_entity:ref:claim <positioning-about-entity>` of a :ref:`unit` that already exists within the dataset.
 
 
 positioning:unit:names:qa
@@ -354,7 +355,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is human readable name for the ``unit`` with the ``positioning``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``unit``.
+This is human readable name for the :ref:`unit` with the :ref:`positioning`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the :ref:`unit`.
 
 
 positioning:types:assertion
@@ -558,6 +559,7 @@ ending_context:range
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
+.. _positionings-public-notes:
 
 public_notes:meta
 =================
@@ -624,4 +626,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For a ``positioning`` the only entry allowed for this field is ``claim``.
+For a :ref:`positioning` the only entry allowed for this field is ``claim``.
