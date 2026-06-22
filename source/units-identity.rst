@@ -234,14 +234,14 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For a ``unit`` this UUID distinguishes them from any other ``unit`` in the dataset. This UUID is used in other fields to tie a ``unit`` to a :ref:`positioning`, :ref:`relation`, :ref:`posting`, or :ref:`incident`.
+Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For a :ref:`unit` this UUID distinguishes them from any other :ref:`unit` in the dataset. This UUID is used in other fields to tie a :ref:`unit` to a :ref:`positioning`, :ref:`relation`, :ref:`posting`, or :ref:`incident`.
 
 If a unit undergoes a change in name, that unit should be treated as a separate, distinct unit and given its own UUID.
 
 
 .. admonition:: Example
 
-    A citation establishes that a ``unit``, named the ``Tiger Forces`` in Syria were renamed the ``25 Anti-Terrorism Division`` in 2019. The division continued to serve with the same general functions as before, and continued to be commanded by the same person. However, because a citation clearly evidenced that there had been a change in the name of the ``unit``, the ``25 Anti-Terrorism Division`` should be treated as a distinct ``unit`` with a separate ``about_entity:ref:claim`` from the ``Tiger Forces``.
+    A citation establishes that a :ref:`unit`, named the ``Tiger Forces`` in Syria were renamed the ``25 Anti-Terrorism Division`` in 2019. The division continued to serve with the same general functions as before, and continued to be commanded by the same person. However, because a citation clearly evidenced that there had been a change in the name of the :ref:`unit`, the ``25 Anti-Terrorism Division`` should be treated as a distinct :ref:`unit` with a separate ``about_entity:ref:claim`` from the ``Tiger Forces``.
 
 
 about_entity:name:qa
@@ -275,7 +275,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <unit-about-entity>` This field can be manually added by a researcher or automatically populated by the system after import. For a ``unit`` best practice is to use the :ref:`name:annotation <unit-name-annotation>` in this field.
+This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <unit-about-entity>` This field can be manually added by a researcher or automatically populated by the system after import. For a :ref:`unit` best practice is to use the :ref:`name:annotation <unit-name-annotation>` in this field.
 
 .. _unit-name-annotation:
 
@@ -320,7 +320,7 @@ Units have several unique characteristics that require additional and unit speci
 
 .. admonition:: Example
 
-    ``Police Divisions`` are a class of police units in Nigeria established by law. There are over 1000 units of this type nationwide. However, each individual ``Police Division`` may not have a citation for their full, formal name. For example, a citation references the ``Achall Division`` police unit in Anambra State. There is no citation for the fuller, more formal ``Achalla Police Division``. In this case, and similar cases, the Monitor would create a claim with ``Achalla Police Division`` in the ``name:annotation`` with citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``. This citation was created to specifically note the name for the unit has been created by the Monitor. Best practice is to also include any citations that provide contextual information for the standardized name, as well as a ``public_notes:meta``.
+    ``Police Divisions`` are a class of police units in Nigeria established by law. There are over 1000 units of this type nationwide. However, each individual ``Police Division`` may not have a citation for their full, formal name. For example, a citation references the ``Achall Division`` police unit in Anambra State. There is no citation for the fuller, more formal ``Achalla Police Division``. In this case, and similar cases, the Monitor would create a claim with ``Achalla Police Division`` in the :ref:`name:annotation <unit-name-annotation>` with citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``. This citation was created to specifically note the name for the unit has been created by the Monitor. Best practice is to also include any citations that provide contextual information for the standardized name, as well as a ``public_notes:meta``.
 
 As many units do have standardized names, the Monitor follows several "stylistic" naming conventions for the :ref:`name:annotation <unit-name-annotation>` field:
 
@@ -328,7 +328,7 @@ As many units do have standardized names, the Monitor follows several "stylistic
 
     The Monitor always standardizes the :ref:`name:annotation <unit-name-annotation>` to include numerals rather than spelling out numerals.
     
-    There may be a unit of which we only have citations for a ``Fourth Battalion``. In this case, the Monitor would create a claim with the ``name:annotation`` for the unit as ``4 Battalion`` using citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``.
+    There may be a unit of which we only have citations for a ``Fourth Battalion``. In this case, the Monitor would create a claim with the :ref:`name:annotation <unit-name-annotation>` for the unit as ``4 Battalion`` using citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``.
     
     In an effort to standardize names across all countries, the Monitor generally uses Arabic numerals in the :ref:`name:annotation <unit-name-annotation>` field. Where warranted by citations the Monitor will use Roman numerals like ``V`` or ``XI`` instead of ``5`` or ``11`` respectively.
 
