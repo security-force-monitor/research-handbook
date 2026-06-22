@@ -314,7 +314,7 @@ The Security Force Monitor strives to create a single canonical version of a uni
 
 .. admonition:: Example
 
-    ``3 Armoured Division`` would be the entry for ``name:annotation``, rather than the shorter ``3 Division`` (which may have more citations) would only be used in :ref:`unit:names:assertion`.
+    ``3 Armoured Division`` would be the entry for :ref:`name:annotation <unit-name-annotation>`, rather than the shorter ``3 Division`` (which may have more citations) would only be used in :ref:`unit:names:assertion`.
 
 Units have several unique characteristics that require additional and unit specific methodological guidance. Units in security forces are arranged in hierarchies and share similar names with their peer units. However, while citations may establish general guidance for how units of a certain type should be named, each individual unit may not have citations evidencing the "complete" or "canonical" name of the unit.
 
@@ -322,35 +322,38 @@ Units have several unique characteristics that require additional and unit speci
 
     ``Police Divisions`` are a class of police units in Nigeria established by law. There are over 1000 units of this type nationwide. However, each individual ``Police Division`` may not have a citation for their full, formal name. For example, a citation references the ``Achall Division`` police unit in Anambra State. There is no citation for the fuller, more formal ``Achalla Police Division``. In this case, and similar cases, the Monitor would create a claim with ``Achalla Police Division`` in the ``name:annotation`` with citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``. This citation was created to specifically note the name for the unit has been created by the Monitor. Best practice is to also include any citations that provide contextual information for the standardized name, as well as a ``public_notes:meta``.
 
-As many units do have standardized names, the Monitor follows several "stylistic" naming conventions for the ``name:annotation`` field:
+As many units do have standardized names, the Monitor follows several "stylistic" naming conventions for the :ref:`name:annotation <unit-name-annotation>` field:
 
-Convention: The Monitor always standardizes the ``name:annotation`` to include numerals rather than spelling out numerals.
+.. admonition:: Numerals in Unit Names
 
-.. admonition:: Example
-
+    The Monitor always standardizes the :ref:`name:annotation <unit-name-annotation>` to include numerals rather than spelling out numerals.
+    
     There may be a unit of which we only have citations for a ``Fourth Battalion``. In this case, the Monitor would create a claim with the ``name:annotation`` for the unit as ``4 Battalion`` using citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``.
+    
+    In an effort to standardize names across all countries, the Monitor generally uses Arabic numerals in the :ref:`name:annotation <unit-name-annotation>` field. Where warranted by citations the Monitor will use Roman numerals like ``V`` or ``XI`` instead of ``5`` or ``11`` respectively.
 
-Convention: List the numeral in any ``name:annotation`` before any textual element of the name of the unit. This is done because the number of the unit is often the most distinguishing feature of a name.
+.. admonition:: Numbers Before Words in Unit Names
+    
+    The Monitor lists the numeral in any :ref:`name:annotation <unit-name-annotation>` before any textual element of the name of the unit. This is done because the number of the unit is often the most distinguishing feature of a name.
+    
+    Most English language sources for Myanmar Army units reference the name of the unit and then the number, for example ``Light Infantry Battalion 510``. If there was no citation for ``510 Light Infantry Battalion`` the Monitor would create a claim with ``510 Light Infantry Battalion`` in the :ref:`name:annotation <unit-name-annotation>` with citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``.
 
-.. admonition:: Example
 
-    Most English language sources for Myanmar Army units reference the name of the unit and then the number, for example ``Light Infantry Battalion 510``. If there was no citation for ``510 Light Infantry Battalion`` the Monitor would create a claim with ``510 Light Infantry Battalion`` in the ``name:annotation`` with citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``.
+.. admonition:: Ordinal Indicators
+    
+    The Monitor does not use ordinal indicators like ``1st`` or ``3rd`` in the :ref:`name:annotation <unit-name-annotation>` for units. Instead these will be listed in the :ref:`unit:names:assertion` field.
 
-Convention: The Monitor does not use ordinal indicators like ``1st`` or ``3rd`` in the ``name:annotation`` for units. Instead these will be listed in the ``unit:names:assertion`` field.
 
-Convention: The Monitor uses the name in the official or most commonly used language of the country where appropriate and/or possible.
+.. admonition:: Language of Unit Names
+    
+    The Monitor uses the name in the official or most commonly used language of the country where possible (based on capacity at the time of the particular research project).
+    A unit in the Mexican Army would be called by its name in Spanish (``10 Regimiento de Caballería Motorizado``), rather than the English translation ( ``10 Motorized Cavalry Regiment``).
 
-.. admonition:: Example
-   
-   A unit in the Mexican Army would be called by its name in Spanish (``10 Regimiento de Caballería Motorizado``), rather than the English translation ( ``10 Motorized Cavalry Regiment``).
 
-Convention: In an effort to standardize names across all countries, the Monitor generally uses Arabic numerals in the ``name:annotation`` field. Where warranted by citations the Monitor will use Roman numerals like ``V`` or ``XI`` instead of ``5`` or ``11`` respectively.
-
-Convention: In cases where multiple units have the same name the Monitor will distinguish them by adding unique identifying text in parentheses based on the unit's location or parent unit.
-
-.. admonition:: Example
-
-  There are multiple "Central Police Station" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance ``Central Police Station (Awka, Anambra State)``. In Myanmar there are multiple different units all called "1 Tactical Operations Command". To distinguish them the Monitor added the parent unit inside of parentheses for each tactical operations command, such as ``1 Tactical Operations Command (1 Military Operations Command)``.
+.. admonition:: Distinguishing Units with Same Name
+    
+    In cases where multiple units have the same name the Monitor will distinguish them by adding unique identifying text in parentheses based on the unit's location or parent unit.
+    There are multiple "Central Police Station" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance ``Central Police Station (Awka, Anambra State)``. In Myanmar there are multiple different units all called "1 Tactical Operations Command". To distinguish them the Monitor added the parent unit inside of parentheses for each tactical operations command, such as ``1 Tactical Operations Command (1 Military Operations Command)``.
 
 In some cases, we are aware that a unit exists because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of "Unnamed" and "Unknown" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`.
 
