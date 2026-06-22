@@ -94,7 +94,7 @@ Claims are marked ``accepted`` when all of the data can be entered in accordance
 
 .. admonition:: Example
 
-    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish a general numbering practices of the army which provides further evidence that no such battalion exists. The ``unit`` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with ``status:meta`` of the ``conflict``, and have the status fully explained in a :ref:`public_notes:meta <unit-public-notes-meta>`.
+    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish a general numbering practices of the army which provides further evidence that no such battalion exists. The :ref:`unit` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with :ref:`status:meta <unit-status-meta>` of the ``conflict``, and have the status fully explained in a :ref:`public_notes:meta <unit-public-notes-meta>`.
 
 If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
@@ -423,9 +423,9 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-We use classifications to describe the basic nature of a specific unit and to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor's dataset. As alleged perpetrators are usually identified in general terms of "soldiers" and "police" this field is important as a first step to understand potential linkages between a ``unit``, :ref:`person` and :ref:`incident`.
+We use classifications to describe the basic nature of a specific unit and to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor's dataset. As alleged perpetrators are usually identified in general terms of "soldiers" and "police" this field is important as a first step to understand potential linkages between a :ref:`unit`, :ref:`person` and :ref:`incident`.
 
-The ``unit:classifications:assertion`` field will contain a mix of standard terms and country-specific terms used to describe security force branches. In choosing terms to include in the ``unit:classifications:assertion`` field we try to include terms that are used by country experts as well as those that are common terms that would be meaningful to a general audience. We also try to be economical and create as few, distinct terms as possible.
+The :ref:`unit:classifications:assertion` field will contain a mix of standard terms and country-specific terms used to describe security force branches. In choosing terms to include in the :ref:`unit:classifications:assertion` field we try to include terms that are used by country experts as well as those that are common terms that would be meaningful to a general audience. We also try to be economical and create as few, distinct terms as possible.
 
 Units may have more than one classification. Usually this will be when a unit can have both "generic" and "specific" classifications.
 
@@ -437,9 +437,9 @@ Every unit which has a "specific" classification should also have the "generic" 
 
 .. admonition:: Example
 
-    Units that have an ``Army`` classification should also have a ``unit:classifications:assertion`` of ``Military``.
+    Units that have an ``Army`` classification should also have a :ref:`unit:classifications:assertion` of ``Military``.
 
-Classifications are "pushed up" to parent units or the :ref:`relation:related_unit:refs:assertion` units, meaning that a ``unit`` should have all of the ``unit:classifications:assertion`` of any subordinate ``unit``. The ``unit`` representing the head of state or head of government which acts as commander-in-chief of the armed forces would have a ``unit:classifications:assertion`` of ``Military``, among others.
+Classifications are "pushed up" to parent units or the :ref:`relation:related_unit:refs:assertion` units, meaning that a :ref:`unit` should have all of the :ref:`unit:classifications:assertion` of any subordinate :ref:`unit`. For example, the :ref:`unit` representing the head of state or head of government which acts as commander-in-chief of the armed forces would have a :ref:`unit:classifications:assertion` of ``Military``, among others.
 
 
 country:annotation
@@ -473,7 +473,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`_). This field is used to aid grouping units into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based on any related :ref:`positioning` the ``unit`` holds, or any other contextual information from citations about the ``unit``.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`_). This field is used to aid grouping units into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based on any related :ref:`positioning` the :ref:`unit` holds, or any other contextual information from citations about the :ref:`unit`.
 
 
 first_precise:range
@@ -590,4 +590,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For a ``unit`` the only allowed entry for this field is ``claim``.
+For a :ref:`unit` the only allowed entry for this field is ``claim``.
