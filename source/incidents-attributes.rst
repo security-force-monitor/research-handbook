@@ -339,7 +339,7 @@ We use this attribute to record the location of an incident exactly as described
 
     According to Karen Human Rights Group: "On March 18th 2017, a C--- villager named U D---, was shot and killed by Tatmadaw soldiers from LIB #589 at a gold mining site in Shwegyin Township. The leaders of the Tatmadaw and the gold mining company each provided one million kyat (US $736) to the victim’s family as compensation.
 
-While geographic data can be found for Shwegyin Township, the location of the "gold mining site" cannot be determined and geolocated based on this description. Because of this it is entered into the :ref:`incident:location:descriptions:assertion` field.
+While geographic data can be found for ``Shwegyin Township``, the location of the "gold mining site" cannot be determined and geolocated based on this description. Because of this it is entered into the :ref:`incident:location:descriptions:assertion` field.
 
 
 incident:location:refs:assertion
