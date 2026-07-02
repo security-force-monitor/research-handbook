@@ -1,7 +1,7 @@
 Person
 ######
 
-The ``person`` claim type describes basic identifying information about a :ref:`person`: their name, aliases and associated time ranges with them. Claims of this type are grouped together with :ref:`Posting` (describing postings to different units) which tracks the person's career. There are also several fields in development to capture other aspects about persons.
+The :ref:`person` claim type describes basic identifying information about a :ref:`person`: their name, aliases and associated time ranges with them. Claims of this type are grouped together with :ref:`Posting` (describing postings to different units) which tracks the person's career. There are also several fields in development to capture other aspects about persons.
 
 Person: Summary of claim attributes 
 ***********************************
@@ -55,7 +55,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``person`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:`person`. For quality assurance purposes, entering ``person`` should create an error if there is any entry for fields tied to other claim types, such as ``posting``.
+Entering ``person`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:`person`. For quality assurance purposes, entering ``person`` should create an error if there is any entry for fields tied to other claim types, such as :ref:`posting`.
 
 
 status:meta
