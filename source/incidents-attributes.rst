@@ -300,7 +300,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`. The specific country code should be chosen based on the :ref:`incident:location:refs:assertion`.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`__. The specific country code should be chosen based on the :ref:`incident:location:refs:assertion`.
 
 
 incident:location:descriptions:assertion
