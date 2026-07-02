@@ -375,7 +375,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field is used to store information about the Location where an incident happened. The value included in this field must be taken from :ref:`id:entity` attribute from the Location dataset. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
+This field is used to store information about the Location where an incident happened. The value included in this field must be taken from :ref:`id:entity` attribute from the Location dataset. For further guidance on the creation, management and use of Locations visit the :ref:`Location` documentation.
 
 
 incident:location:names:qa
