@@ -471,7 +471,7 @@ Guidance on use
 
 This attribute is used to store a reference to a location at which the unit is based, or has operated. The value included in this attribute must be selected from :ref:`id:entity` in the Locations sheet. For further guidance on the creation, management and use of Locations visit the :ref:`location` documentation.
 
-The :ref`positioning:location:refs:assertion` should always be the location covering the largest possible area. 
+The :ref:`positioning:location:refs:assertion` should always be the location covering the largest possible area. 
 
 .. admonition:: Example
 
