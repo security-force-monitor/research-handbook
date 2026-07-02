@@ -1,7 +1,7 @@
 Relation
 ########
 
-The ``relation`` claim type describes how a :ref:`unit` relates to another :ref:`unit`. This can be used to model a hierarchical "tree" where one :ref:`unit` is subordinate to another, or it can also be used to model joint-task force or other multi-unit grouping where the grouping is comprised of members from multiple different units.
+The :ref:`relation` claim type describes how a :ref:`unit` relates to another :ref:`unit`. This can be used to model a hierarchical "tree" where one :ref:`unit` is subordinate to another, or it can also be used to model joint-task force or other multi-unit grouping where the grouping is comprised of members from multiple different units.
 
 Relation: Summary of claim attributes
 *************************************
@@ -55,7 +55,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``relation`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:relation. For quality assurance purposes, entering ``relation`` should create an error if there is any entry for fields tied to other claim types, such as `unit`` or `positioning``.
+Entering ``relation`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:relation. For quality assurance purposes, entering ``relation`` should create an error if there is any entry for fields tied to other claim types, such as :ref:`unit` or :ref:`positioning`.
 
 
 status:meta
