@@ -458,9 +458,9 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute is used to capture data about the gender of a person, as determined only by the pronouns ("her", "she", "his", "him", etc.) used in any available textual sources about this person. Data entry based on these pronouns is based on the coding of pronouns as "masculine" for ``male`` and "feminine" for ``female`` from (https://globalaffairs.ucdavis.edu/iae/graduate/language-tips/pronouns-and-gender). We do not infer a person's gender from their name or images of them. 
+This attribute is used to capture data about the gender of a person, as determined only by the pronouns ("her", "she", "his", "him", etc.) used in any available textual sources about this person. Data entry based on these pronouns is based on the coding of pronouns as "masculine" for ``male`` and "feminine" for ``female`` from (`Global Affairs at UC Davis <https://globalaffairs.ucdavis.edu/iae/graduate/language-tips/pronouns-and-gender>`_). We do not infer a person's gender from their name or images of them. 
 
-Echoing the definition used in the `FOAF standard<http://xmlns.com/foaf/spec/#term_gender>`, the `person:genders:assertion` attribute is not intended to capture the full range of possible biological, social and sexual associated with the word "gender". This attribute open to include alternatives that are expressed within the available sources about a person.
+Echoing the definition used in the (`FOAF standard <http://xmlns.com/foaf/spec/#term_gender>`_), the :ref:`person:genders:assertion` attribute is not intended to capture the full range of possible biological, social and sexual associated with the word "gender". This attribute open to include alternatives that are expressed within the available sources about a person.
 
 Where the sources contain no textual indication about the person's gender, the attribute should be left blank.
 
