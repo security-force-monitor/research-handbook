@@ -355,7 +355,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is human readable name for the :ref:`unit` with the :ref:`positioning`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the :ref:`unit`.
+This is human readable name for the :ref:`unit` with the :ref:`positioning`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
 
 
 positioning:types:assertion
@@ -394,7 +394,7 @@ This field defines the relationship between a unit and a location. The Staff Res
  - ``site``: the Location describes a "site", such as a settlement or specific point, at which the unit is based.
  - ``aoo``: the Location in describes an area, such as an administrative area, where the unit is known to have conducted operations or has territorial jurisdiction.
 
-The type of Location may be different from the way that the Location is described. For example, a small geographic area like a suburb is a *geometric area* but it could be used to describe a "site" for a unit. Locations themselves are a mix of geographical primatives - points, lines and polygons. This is why :ref:`Locations` are defined independently of their relationship to Units and Incidents.
+The type of Location may be different from the way that the Location is described. For example, a small geographic area like a suburb is a *geometric area* but it could be used to describe a "site" for a unit. Locations themselves are a mix of geographical primatives - points, lines and polygons. This is why every :ref:`Location` are defined independently of their relationship to any :ref:`unit` or :ref:`incident`.
 
 
 positioning:base_names:assertion
