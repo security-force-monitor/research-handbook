@@ -1,5 +1,5 @@
-Locations
-#########
+Location
+########
 
 Locations are unique places or positions. A named town or city can be a Location, as can an administrative area like a county, district or governorate. In fact, anything that can be drawn on a map can be a Location: a specific point, a section of a road, a military line of control, and so on.
 
@@ -559,9 +559,9 @@ Guidance on use
 
 In every country, places are organized hierarchically based on their administrative hierarchy. This feature passes into geographical information systems. At the top of the hierarchy rests the international boundary and capital city of a country; beneath this, there are sub-national divisions like states or provinces, with their respective capitals, followed by smaller and smaller administrative divisions districts, counties, municipalities, towns, suburbs, wards and so on. Different countries have different ways of describing these political and administrative divisions, but they are largely hierarchical and can be cross-compared. Knowing the level(s) at which a Location sits in the overall hierarchy provides us with a useful way to group and understand Locations.
 
-The attribute ``location:admin_level:qa`` is drawn from the geographic source, or if the source lacks its own hierarchy then OpenStreetMap, which has a `comprehensive table <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__ that matches the divisions that exist in every country.
+The attribute :ref:`location:admin_level:qa` is drawn from the geographic source, or if the source lacks its own hierarchy then OpenStreetMap, which has a `comprehensive table <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__ that matches the divisions that exist in every country.
 
-The data in ``location:admin_level:qa`` and the other "admin_level" attributes can be automatically populated using a script that queries the OSM Overpass API.
+The data in :ref:`location:admin_level:qa` and the other "admin_level" attributes can be automatically populated using a script that queries the OSM Overpass API.
 
 
 location:admin_level_10:qa
@@ -1004,4 +1004,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For a ``location`` the only entry allowed for this field is ``location``.
+For a :ref:`location` the only entry allowed for this field is ``location``.
