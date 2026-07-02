@@ -1,7 +1,9 @@
 Posting
 #######
 
-The ``posting`` claim type holds information about a person's career. It first defines a relationships between a ``person`` and a ``unit``, and can be used to further describe the role the person has in the unit ("Commander", "Chief of Staff", etc.), the rank they hold at the time of the posting, and any title they may hold at the time of a posting. Usually, a ``person`` has a single ``posting`` at any one time. However, there are cases where one ``person`` holds multiple ``postings`` simultaneously. In rare instances a ``person`` may hold one ``posting`` which commands a ``posting`` they also hold, effectively making them their own superior.
+The :ref:`posting` claim type holds information about a person's career. It first defines a relationships between a :ref:`person` and a :ref:`unit`, and can be used to further describe the role the person has in the unit ("Commander", "Chief of Staff", etc.), the rank they hold at the time of the posting, and any title they may hold at the time of a posting. Usually, a :ref:`person` has a single :ref:`posting` at any one time. However, there are cases where one :ref:`person` holds more than one :ref:posting` simultaneously.
+
+In rare instances a :ref:`person` holding multiple postings simultaneously may technically be their own superior (or conversely their own subordinate). This means they hold one :ref:`posting` in a :ref:`unit` which has a :ref:`relation` with a :ref:`relation:related_unit_classes:assertion` of ``command`` to another :ref:`unit` that the :ref:`person` also has a :ref:`posting``. For example a president of a country may also serve as the minister of defense which is subordinate to the president, technically making them their own superior (or subordinate).
 
 
 
