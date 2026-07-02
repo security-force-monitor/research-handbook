@@ -95,7 +95,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. A ``public_notes:meta`` should always accompany any ``conflict`` claim. If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. A :ref:`public_notes:meta <incident-public-notes>` should always accompany any ``conflict`` claim. If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
 
 researcher:meta
@@ -163,7 +163,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the ``public_notes:meta`` field.
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <incident-public-notes>` field.
 
 
 citation:refs:claim
@@ -197,7 +197,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <incident-public-notes>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
 .. _incident-about-entity:
 
@@ -266,7 +266,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
+This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <incident-about-entity>` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
 
 
 country:annotation
@@ -300,7 +300,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`). The specific country code should be chosen based on the ``incident:location:refs:assertion``.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`. The specific country code should be chosen based on the :ref:`incident:location:refs:assertion`.
 
 
 incident:location:descriptions:assertion
@@ -337,9 +337,9 @@ We use this attribute to record the location of an incident exactly as described
 
 .. admonition:: Example
 
-    "According to Karen Human Rights Group: "On March 18th 2017, a C--- villager named U D---, was shot and killed by Tatmadaw soldiers from LIB #589 at a gold mining site in Shwegyin Township. The leaders of the Tatmadaw and the gold mining company each provided one million kyat (US $736) to the victim’s family as compensation."
+    According to Karen Human Rights Group: "On March 18th 2017, a C--- villager named U D---, was shot and killed by Tatmadaw soldiers from LIB #589 at a gold mining site in Shwegyin Township. The leaders of the Tatmadaw and the gold mining company each provided one million kyat (US $736) to the victim’s family as compensation.
 
-While geographic data can be found for Shwegyin Township, the location of the "gold mining site" cannot be determined and geolocated based on this description. Because of this it is entered into the ``incident:location:descriptions:assertion`` field.
+While geographic data can be found for Shwegyin Township, the location of the "gold mining site" cannot be determined and geolocated based on this description. Because of this it is entered into the :ref:`incident:location:descriptions:assertion` field.
 
 
 incident:location:refs:assertion
@@ -375,7 +375,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field is used to store information about the Location where an incident happened. The value included in this field must be taken from ``id:entity`` attribute from the Location dataset. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
+This field is used to store information about the Location where an incident happened. The value included in this field must be taken from :ref:`id:entity` attribute from the Location dataset. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
 
 
 incident:location:names:qa
@@ -409,7 +409,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The best practice for this field is to use the ``location:humane_id:qa`` of the ``incident:location:refs:assertion``.
+The best practice for this field is to use the :ref:`location:humane_id:qa` of the :ref:`incident:location:refs:assertion`.
 
 
 incident:violation:types:assertion
@@ -443,7 +443,7 @@ Example of use
 Guidance for use
 ~~~~~~~~~~~~~~~~
 
-In ``incident:violation:types:assertion``, a value is taken "as is" from the source, without change. If the source states "torture", we transcribe this without further analysis. This is because the Monitor does not make specific direct allegations, but reports verbatim the allegations made by the source.
+In :ref:`incident:violation:types:assertion`, a value is taken "as is" from the source, without change. If the source states "torture", we transcribe this without further analysis. This is because the Monitor does not make specific direct allegations, but reports verbatim the allegations made by the source.
 
 
 incident:violation:descriptions:assertion
@@ -481,7 +481,7 @@ In this attribute we record a direct quotation from the civil society, governmen
 
     According to X organization, “Description of incident”. According to Y organization, “Description of incident”.
 
-Best practice is for the ``incident:violation:descriptions:assertion`` to contain all of the information in the ``incident`` claim. This would allow any reader or researcher could read the ``incident:violation:descriptions:assertion`` and understand the entries in any field for the ``incident``.
+Best practice is for the :ref:`incident:violation:descriptions:assertion` to contain all of the information in the :ref:`incident` claim. This would allow any reader or researcher could read the :ref:`incident:violation:descriptions:assertion` and understand the entries in any field for the :ref:`incident`.
 
 
 incident:perpetrator:refs:assertion
@@ -515,7 +515,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Where a source make an allegation against a specific ``unit`` and/or ``person``, this attribute is used to store the ``about_entity:ref:claim`` of the ``unit`` and/or ``person``. The ``unit`` or ``person`` must already exist in the dataset. An ``incident`` can have multiple entries if multiple units and/or persons are alleged to be perpetrators.
+Where a source make an allegation against a specific :ref:`unit` and/or :ref:`person`, this attribute is used to store the UUID of the :ref:`unit` (:ref:`about_entity:ref:claim <unit-about-entity>`) and/or :ref:`person` (:ref:`about_entity:ref:claim <person-about-entity>`). The :ref:`unit` or :ref:`person` must already exist in the dataset. An :ref:`incident` can have multiple units and/or persons as perpetrators.
 
 
 incident:perpetrator:names:qa
@@ -549,7 +549,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The best practice for this field is to use the ``name:annotation`` of the unit(s) and/or person(s).
+The best practice for this field is to use the name of the unit(s) (:ref:`name:annotation <unit-name-annotation>`) and/or person(s) (:ref:`name:annotation <person-name-annotation>`).
 
 
 incident:perpetrator:classifications:assertion
@@ -563,7 +563,7 @@ General branch or tier of the security force alleged to have committed the act(s
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text, multiple entry, controlled vocabulary taken from ``unit:classifications:assertion``
+Text, multiple entry, controlled vocabulary taken from :ref:`unit:classifications:assertion`
 
 Status
 ~~~~~~
@@ -583,19 +583,19 @@ Example of use
 Guidance for use
 ~~~~~~~~~~~~~~~~
 
-Sometimes a source will report general information about the alleged perpetrators of an act. For example, rather than state a unit or a specific person the source might include something generic like “soldiers” or “police". In these cases we use the same methodology used assign a ``unit:classifications:assertion`` to assign a ``incident:perpetrator:classifications:assertion``. The list of possible entries used in ``incident:perpetrator:classifications:assertion`` is the same for ``unit:classifications:assertion``.
+Sometimes a source will report general information about the alleged perpetrators of an act. For example, rather than state a unit or a specific person the source might include something generic like “soldiers” or “police". In these cases we use the same methodology used assign a :ref:`unit:classifications:assertion` to assign a :ref:`incident:perpetrator:classifications:assertion`. The list of possible entries used in :ref:`incident:perpetrator:classifications:assertion` is the same for :ref:`unit:classifications:assertion`.
 
 .. admonition:: Example
 
     According to Amnesty International: "On 1 May 2012, around midnight, Nigerian soldiers arrested 37-year-old Dungus Ladan (not his real name), at his home in Maiduguri. Fatima, Dungus’ wife, told Amnesty International that the soldiers promised to just take him for an interrogation that should not last more than a few hours. When her husband did not return, she said, his father went on 3 May to Giwa barracks to check what had happened. Soldiers told him that Dungus had already been released. When he still did not return, the father went back again to the barracks, where soldiers told him that he should come back the next day to bail out his son. The following day, several relatives went together and gave the soldiers “what they could,” and the soldiers again promised to release Dungus that day. His wife said that the soldiers kept asking for money, and the family kept paying, but Dungus was never released. In February 2014, his father saw Dungus in the detention facility; they spoke briefly. Dungus said he had been framed by some people who owed him money and they arranged for him to be arrested and detained. Since then, his family has not seen him again; soldiers at Giwa barracks have told them he is not there."
 
-The only alleged perpetrators described in this alleged incident are "soldiers". The most appropriate term to enter in ``incident:perpetrator:classifications:assertion`` to match this description which would be "military" because "soldiers" could refer to personnel of the Army, Navy or other armed services of a country.
+The only alleged perpetrators described in this alleged incident are "soldiers". The most appropriate term to enter in :ref:`incident:perpetrator:classifications:assertion` to match this description which would be "military" because "soldiers" could refer to personnel of the Army, Navy or other armed services of a country.
 
-An ``incident`` may have entries in both the ``incident:perpetrator:classifications:assertion`` and ``incident:perpetrator:refs:assertion`` fields.
+An :ref:`incident` may have entries in both the :ref:`incident:perpetrator:classifications:assertion` and :ref:`incident:perpetrator:refs:assertion` fields.
 
 .. admonition:: Example
 
-    According to Amnesty International "On 27 August, Myanmar soldiers summarily executed scores of men and boys in Maung Nu [...]" and "The principal unit involved in the Maung Nu massacre was Light Infantry Battalion (LIB) No. 564 [...]". As both a specific unit, the ``564 Light Infantry Battalion``, and  "soldiers" are described as perpetrators the ``incident`` is coded with the ``about_entity:ref:claim`` of the ``564 Light Infantry Battalion`` in ``incident:perpetrator:refs:assertion`` and a ``incident:perpetrator:classifications:assertion`` of ``Military``.
+    According to Amnesty International "On 27 August, Myanmar soldiers summarily executed scores of men and boys in Maung Nu [...]" and "The principal unit involved in the Maung Nu massacre was Light Infantry Battalion (LIB) No. 564 [...]". As both a specific unit, the ``564 Light Infantry Battalion``, and  "soldiers" are described as perpetrators the :ref:`incident` is coded with the :ref:`about_entity:ref:claim <unit-about-entity>` of the ``564 Light Infantry Battalion`` in :ref:`incident:perpetrator:refs:assertion` and a :ref:`incident:perpetrator:classifications:assertion` of ``Military``.
 
 
 incident:victim:refs:assertion
@@ -629,7 +629,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This draft field is to capture any ``person`` alleged to be a victim of the ``incident``. This ``person`` must already exist in the dataset.
+This draft field is to capture any :ref:`person` alleged to be a victim of the :ref:`incident`. This :ref:`person` must already exist in the dataset.
 
 
 incident:victim:names:qa
@@ -663,7 +663,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the ``incident:victim:refs:assertion``. This field can be manually added by a researcher or automatically populated by the system after import. The best practice is to use the ``name:annotation`` in this field.
+This draft field provides a human readable counterpart to the :ref:`incident:victim:refs:assertion`. This field can be manually added by a researcher or automatically populated by the system after import. The best practice is to use the :ref:`name:annotation <person-name-annotation>` in this field.
 
 
 first_precise:range
@@ -747,6 +747,7 @@ Guidance on use
 
 This draft field exists to allow for grouping or categorization of incidents based on alleged violations. The categoies themsleves can be determined and based on criteria established by the user of this data model.
 
+.. _incident-public-notes:
 
 public_notes:meta
 =================
@@ -813,4 +814,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For an ``incident`` the only entry allowed for this field is ``claim``.
+For an :ref:`incident` the only entry allowed for this field is ``claim``.
