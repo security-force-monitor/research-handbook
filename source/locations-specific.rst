@@ -227,13 +227,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The ``location:humane_id:qa`` should include other location fields that give a researcher a quick, human readable way to understand a location. Best practice is to include the :ref:`name:annotation <location-name-annotation>`, :ref:`origin:location`, :ref:`geo_type:qa` and :ref:`id:entity` as this highlights the most important information while also creating a unique name due to the inclusion of :ref:`id:entity`. SFM adopts this approach with :ref:`location:humane_id:qa` with entries in the field following the below format:
+Entries for the :ref:`location:humane_id:qa` field should combine information from several other location fields to give a researcher a quick, human readable way to understand a location. Best practice is to include the :ref:`name:annotation <location-name-annotation>`, :ref:`origin:location`, :ref:`geo_type:qa` and :ref:`id:entity` as this highlights the most important information while also creating a unique name due to the inclusion of :ref:`id:entity`. SFM adopts this approach with :ref:`location:humane_id:qa` with entries in the field following the below format:
 
 .. admonition:: Example
 
-  ``name:annotation`` (``origin:location``, ``geo_type:qa``) ``id:entity``
-  
-  The value ``Ta'izz Governorate (osm, poly) 5c35b342-0b5e-4648-86cd-7ad730d647fa`` tells us that the name of the place is ``Ta'izz Governorate``, that it is a Location found in ``osm`` (short for "OpenStreetMap") that it denotes an area (``poly``); the UUID provides the hard link to a specific attribute in the Location table.
+  The value ``Ta'izz Governorate (osm, poly) 5c35b342-0b5e-4648-86cd-7ad730d647fa`` ``name:annotation`` (``origin:location``, ``geo_type:qa``) ``id:entity`` tells us that the name of the place is ``Ta'izz Governorate``, that it is a Location found in ``osm`` (short for "OpenStreetMap") that it denotes an area (``poly``); the UUID provides the hard link to a specific attribute in the Location table.
 
 .. _location-name-annotation:
 
