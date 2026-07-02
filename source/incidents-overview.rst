@@ -1,5 +1,5 @@
-Overview: incidents
-###################
+Overview: Incident
+##################
 
 What are incidents?
 *******************
