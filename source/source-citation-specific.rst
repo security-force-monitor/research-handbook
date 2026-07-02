@@ -158,7 +158,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-A source has at least one access point, but may have many. For example, if a source is a document we may draw information from a number of different pages (or ranges of pages). For each page or range of pages, we would create a new access point to the source. The field ``Source: Access Point Type`` tells us what method we have used to create the access point - in this case ``page``. The number of the page or page range will be recorded in a related attribute called :ref:`source:access_point_trigger`.
+A source has at least one access point, but may have many. For example, if a source is a document we may draw information from a number of different pages (or ranges of pages). For each page or range of pages, we would create a new access point to the source. The field :ref:`source:access_point_type` tells us what method we have used to create the access point - in this case ``page``. The number of the page or page range will be recorded in a related attribute called :ref:`source:access_point_trigger`.
 
 There are eight ways to "trigger" a citation of a specific source, taking in account the source's media type:
 
