@@ -428,7 +428,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The ``positioning:base_names:assertion`` attribute adds unit-specific context about a Location. This field is used to record data about units that are located in a distinctively-named building or complex which is not found in the gazeteer, or otherwise cannot be represented as a geographic datapoint.
+The :ref:`positioning:base_names:assertion` attribute adds unit-specific context about a Location. This field is used to record data about units that are located in a distinctively-named building or complex which is not found in the gazeteer, or otherwise cannot be represented as a geographic datapoint.
 
 
 .. admonition:: Example
@@ -449,7 +449,7 @@ Unique 32 character identifier of a Location where the unit has a "site" or "are
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format, selected from ``id:entity`` in locations sheet.
+String in UUID format for the :ref:`location` selected from :ref:`id:entity` in the locations sheet.
 
 Status
 ~~~~~~
@@ -469,13 +469,13 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute is used to store a reference to a location at which the unit is based, or has operated. The value included in this attribute must be selected from ``id:entity`` in the Locations sheet. For further guidance on the creation, management and use of Locations visit the :ref:`Locations` documentation.
+This attribute is used to store a reference to a location at which the unit is based, or has operated. The value included in this attribute must be selected from :ref:`id:entity` in the Locations sheet. For further guidance on the creation, management and use of Locations visit the :ref:`location` documentation.
 
-The ``:assertion/positioning:location:refs`` should always be the location covering the largest possible area. 
+The :ref`positioning:location:refs:assertion` should always be the location covering the largest possible area. 
 
 .. admonition:: Example
 
-    In Myanmar there is a region of Magway, which contains Magway District. The district contains Magway Township, and the township contains the city of Magway. If a unit is described as being based in "Magway" the ``site`` used in data entry should be Magway Region.
+    In Myanmar there is a region of ``Magway``, which contains ``Magway District``. The district contains ``Magway Township``, and the township contains the city of ``Magway``. If a unit is described as being based in "Magway" the ``site`` used in data entry should be the region of ``Magway``.
 
 
 positioning:location:names:qa
@@ -509,7 +509,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The best practice for this field is to use the ``location:humane_id:qa`` of the ``positioning:location:refs:assertion``.
+The best practice for this field is to use the :ref:`location:humane_id:qa` of the :ref:`positioning:location:refs:assertion`.
 
 
 first_precise:range
