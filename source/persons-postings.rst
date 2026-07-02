@@ -313,7 +313,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is the Universally Unique Identifier (UUID) of the :ref:`person` who is being posted to a :ref:`unit`. A record for the :ref:`person` must already exist in the dataset. 
+This is the :ref:`about_entity:ref:claim <person-about-entity>` or Universally Unique Identifier (UUID) of the :ref:`person` who is being posted to a :ref:`unit`. A record for the :ref:`person` must already exist in the dataset. 
 
 
 posting:person:names:qa
@@ -381,7 +381,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is the Universally Unique Identifier (UUID) of the :ref:`unit` to which the :ref:`person` is posted. A record for the :ref:`unit` must already exist in the dataset. 
+This is the :about_entity:ref:claim <unit-about-entity>` or Universally Unique Identifier (UUID) of the :ref:`unit` to which the :ref:`person` is posted. A record for the :ref:`unit` must already exist in the dataset. 
 
 
 posting:unit:names:qa
