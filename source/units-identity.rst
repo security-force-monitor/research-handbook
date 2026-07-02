@@ -90,7 +90,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. A ``public_notes:meta`` should always accompany any ``conflict`` claim.
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. A :ref:`public_notes:meta <unit-public-notes-meta>` should always accompany any ``conflict`` claim.
 
 .. admonition:: Example
 
@@ -346,14 +346,14 @@ As many units do have standardized names, the Monitor follows several "stylistic
 
 .. admonition:: Language of Unit Names
     
-    The Monitor uses the name in the official or most commonly used language of the country where possible (based on capacity at the time of the particular research project).
+    The Monitor uses the name in the official or most commonly used language of the country where possible. Generally this is based on the Monitor's capacity at the time of the particular research project.
     A unit in the Mexican Army would be called by its name in Spanish (``10 Regimiento de Caballería Motorizado``), rather than the English translation ( ``10 Motorized Cavalry Regiment``).
 
 
 .. admonition:: Distinguishing Units with Same Name
     
     In cases where multiple units have the same name the Monitor will distinguish them by adding unique identifying text in parentheses based on the unit's location or parent unit.
-    There are multiple "Central Police Station" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance ``Central Police Station (Awka, Anambra State)``. In Myanmar there are multiple different units all called "1 Tactical Operations Command". To distinguish them the Monitor added the parent unit inside of parentheses for each tactical operations command, such as ``1 Tactical Operations Command (1 Military Operations Command)``.
+    For example, there are multiple "Central Police Station" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance ``Central Police Station (Awka, Anambra State)``. Another example is in Myanmar where there are multiple different units all called "1 Tactical Operations Command". To distinguish them the Monitor added the parent unit inside of parentheses for each tactical operations command, such as ``1 Tactical Operations Command (1 Military Operations Command)``.
 
 In some cases, we are aware that a unit exists because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of "Unnamed" and "Unknown" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`.
 
