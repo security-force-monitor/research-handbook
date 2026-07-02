@@ -200,6 +200,7 @@ Guidance on use
 
 Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <posting-public-notes>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`ref:source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
+.. _posting-about_entity:
 
 about_entity:ref:claim
 ==================================
@@ -278,7 +279,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the ``about_entity:ref:claim`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
+This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <posting-about_entity>` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
 
 
 posting:person:refs:assertion
@@ -312,7 +313,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is the Universally Unique Identifier (UUID) of the ``person`` who is being posted to a ``unit``. A record for the ``person`` must already exist in the dataset. 
+This is the Universally Unique Identifier (UUID) of the :ref:`person` who is being posted to a :ref:`unit`. A record for the :ref:`person` must already exist in the dataset. 
 
 
 posting:person:names:qa
@@ -346,7 +347,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is a human readable name for the ``person`` with the ``posting`` to the ``unit``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``person``.
+This is a human readable name for the :ref:`person` with the :ref:`posting` to the :ref:`unit`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <person-name-annotation>` for the :ref:`person`.
 
 
 posting:unit:refs:assertion
@@ -380,7 +381,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is the Universally Unique Identifier (UUID) of the ``unit`` to which the ``person`` is posted. A record for the ``unit`` must already exist in the dataset. 
+This is the Universally Unique Identifier (UUID) of the :ref:`unit` to which the :ref:`person` is posted. A record for the :ref:`unit` must already exist in the dataset. 
 
 
 posting:unit:names:qa
@@ -414,7 +415,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is a human readable name for the ``unit`` where the ``person`` has a ``posting``. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the ``unit``.
+This is a human readable name for the :ref:`unit` where the :ref:`person` has a :ref:`posting`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the :ref:`unit`.
 
 
 posting:roles:assertion
