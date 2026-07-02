@@ -415,7 +415,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is a human readable name for the :ref:`unit` where the :ref:`person` has a :ref:`posting`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the ``name:annotation`` for the :ref:`unit`.
+This is a human readable name for the :ref:`unit` where the :ref:`person` has a :ref:`posting`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
 
 
 posting:roles:assertion
