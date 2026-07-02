@@ -476,7 +476,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`_). This field is used to aid grouping units into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based on any related :ref:`positioning` the :ref:`unit` holds, or any other contextual information from citations about the :ref:`unit`.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`_. This field is used to aid grouping units into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based on any related :ref:`positioning` the :ref:`unit` holds, or any other contextual information from citations about the :ref:`unit`.
 
 
 first_precise:range
