@@ -266,7 +266,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The value in ``name:annotation`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's own "name" attribute and place it in ``name:annotation``. Along with :ref:`origin_id:location` and :ref:`geo_type:qa`, ``name:annotation`` is needed for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily-defined, or is derived from a data source that does not provide a name, the Staff Researcher can provide one.
+The value in :ref:`name:annotation (location-name-annotation)` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's own "name" attribute and place it in :ref:`name:annotation (location-name-annotation)`. Along with :ref:`origin_id:location` and :ref:`geo_type:qa`, :ref:`name:annotation (location-name-annotation)` is needed for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily-defined, or is derived from a data source that does not provide a name, the Staff Researcher can provide one.
 
 
 origin_id:location
@@ -300,7 +300,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The value in ``origin_id:location`` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's "id" attribute and place it in the ``origin_id:location`` attribute. Along with :ref:`name:annotation <location-name-annotation>` and :ref:`geo_type:qa`, ``origin_id:location`` is needed in order for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily defined, or is derived from a data source that does not provide a ID number, the Staff Researcher can provide one.
+The value in :ref:`origin_id:location` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's "id" attribute and place it in the :ref:`origin_id:location` attribute. Along with :ref:`name:annotation <location-name-annotation>` and :ref:`geo_type:qa`, :ref:`origin_id:location` is needed in order for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily defined, or is derived from a data source that does not provide a ID number, the Staff Researcher can provide one.
 
 
 geo_type:qa
@@ -374,7 +374,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The values in ``origin:location`` identify where automation tools should go to obtain spatial information about an object. For example, if the value ``osm`` is entered in ``origin:location`` this indicates that the automation tool should query OpenStreetMap in order to obtain spatial information about a Location. If ``osm`` were set, then the values in :ref:`name:annotation <location-name-annotation>` and :ref:`origin_id:location` would correspond to the object name and ID number in OpenStreetMap. Locations can be derived from comprehensive online services, as well as other sources like locally-held ``.shp`` or ``.kml`` files. The number of origins is unlimited.
+The values in :ref:`origin:location` identify where automation tools should go to obtain spatial information about an object. For example, if the value ``osm`` is entered in :ref:`origin:location` this indicates that the automation tool should query OpenStreetMap in order to obtain spatial information about a Location. If ``osm`` were set, then the values in :ref:`name:annotation <location-name-annotation>` and :ref:`origin_id:location` would correspond to the object name and ID number in OpenStreetMap. Locations can be derived from comprehensive online services, as well as other sources like locally-held ``.shp`` or ``.kml`` files. The number of origins is unlimited.
 
 
 geometry:ref:entity
