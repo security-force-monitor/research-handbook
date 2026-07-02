@@ -319,7 +319,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The UUID used in ``relation:unit:refs:assertion`` must be for a :ref:`unit` which already exists in the dataset. The nature of the relationship is clarified further using the :ref:`relation:types:assertion` and :ref:`relation:related_unit_classes:assertion` fields.
+The UUID used in :ref:`relation:unit:refs:assertion` must be for a :ref:`unit` which already exists in the dataset. The nature of the relationship is clarified further using the :ref:`relation:types:assertion` and :ref:`relation:related_unit_classes:assertion` fields.
 
 
 relation:unit:names:qa
