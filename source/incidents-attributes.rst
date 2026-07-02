@@ -199,6 +199,7 @@ Guidance on use
 
 Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the ``public_notes:meta`` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the ``ref:source:access_point_id:admin`` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
+.. _incident-about-entity:
 
 about_entity:ref:claim
 ======================
@@ -231,7 +232,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For an ``incident`` this UUID distinguishes them from any other ``incident`` in the dataset.
+Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For an :ref:`incident` this UUID distinguishes them from any other :ref:`incident` in the dataset.
 
 
 about_entity:name:qa
