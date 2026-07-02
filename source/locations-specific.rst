@@ -442,7 +442,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this attribute are the ISO 3166-1 alpha-2 country codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__).
+Values for this attribute are the ISO 3166-1 alpha-2 country codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__.
 
 
 location:explicit_parent:annotation
