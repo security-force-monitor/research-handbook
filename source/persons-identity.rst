@@ -453,7 +453,7 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``Male``, ``Female``, ``Other``
+``male``, ``female``, ``other``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -634,4 +634,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For a ``person`` the only allowed entry for this field is ``claim``.
+For a :ref:`person` the only allowed entry for this field is ``claim``.
