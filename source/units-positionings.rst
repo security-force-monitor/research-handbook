@@ -321,7 +321,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The UUID entered into ``positioning:unit:refs:assertion`` must match the :ref:`about_entity:ref:claim <positioning-about-entity>` of a :ref:`unit` that already exists within the dataset.
+The UUID entered into :ref:`positioning:unit:refs:assertion` must match the :ref:`about_entity:ref:claim <positioning-about-entity>` of a :ref:`unit` that already exists within the dataset.
 
 
 positioning:unit:names:qa
