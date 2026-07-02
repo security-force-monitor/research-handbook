@@ -1,5 +1,5 @@
-Incidents
-#########
+Incident
+########
 
 Incidents are publicly-documented allegations of acts committed by state-controlled security forces that may violate human rights laws and standards, international criminal law and other sets of relevant norms.
 
