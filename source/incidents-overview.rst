@@ -12,7 +12,7 @@ The Security Force Monitor does not make allegations against security forces. No
 
 For each incident, we include a description of the incident from the organization making the allegation, and from this description we structure data for the alleged type of human rights violation(s), the alleged perpetrator(s), date range and the location where the alleged type of human rights violation occurred.
 
-Each incident is stored in a claim, so we may have numerous claims about the same incident. In these cases, each claim would share the same entity id (``about_entity:ref:claim``), but the rest of the fields would tied to the information contained in the specific citation.
+Each incident is stored in a claim, so we may have numerous claims about the same incident. In these cases, each claim would share the same Universally Unique Identifier (UUID) or :ref:`about_entity:ref:claim <incident-about-entity>`, but the rest of the fields would tied to the information contained in the specific citation.
 
 Data about incidents is captured in a single claim type:
 
