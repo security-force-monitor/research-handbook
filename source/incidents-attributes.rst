@@ -443,7 +443,7 @@ Example of use
 Guidance for use
 ~~~~~~~~~~~~~~~~
 
-In :ref:`incident:violation:types:assertion`, a value is taken "as is" from the source, without change. If the source states "torture", we transcribe this without further analysis. This is because the Monitor does not make specific direct allegations, but reports verbatim the allegations made by the source.
+In :ref:`incident:violation:types:assertion`, a value is taken as is from the source, without change. If the source states "torture", we transcribe this without further analysis. This is because the Monitor does not make specific direct allegations, but reports verbatim the allegations made by the source. The *only* change the Monitor would make would be to capitalize the first letter so that "torture" would be entered as "Torture".
 
 
 incident:violation:descriptions:assertion
