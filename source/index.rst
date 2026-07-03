@@ -85,14 +85,13 @@ Table of Contents
    trainings-specific
 
 .. toctree::
-   :caption: WhoWasInCommand
-   :maxdepth: 1
+   :caption: Materiel (Draft)
+   :maxdepth: 2
 
-   generalfunctions
-   unitrec
-   personsrec
-   incidentrec
-   downloads
+   materiel-overview
+   materiel-identity
+   materiel-component
+   materiel-equipment
 
 
 Contributors
@@ -100,9 +99,11 @@ Contributors
 
 Tony Wilson, Tom Longley, Michel Manzur and Niko Para from `Security Force Monitor <https://securityforcemonitor.org/about>`_ are the authors of this Research Handbook.
 
+`Niko Para <https://niko.io/>`_ was instrumental in updating how time/dates are captured in the Monitor's data model to include precise and imprecise dates. He also was pivotal in updating the model to be a full claims based data model.
+
 Security Force Monitor has partnered with `DataMade <https://datamade.us>`__ to create WhoWasInCommand.com. DataMade has operationalized and refined Security Force Monitor's data structure, worked with us to create a powerful open source platform to put the data online, and made a significant contribution to the concept and design of WhoWasInCommand.com.
 
-`James McKinney <https://twitter.com/mckinneyjames>`_ - at the time with `OpenNorth <http://opennorth.ca>`_ - was a major contributor to the development of Monitor's data model, adapting Popolo (an international open government data standard) and developing the specifications for the Monitor's research tool.
+`James McKinney <https://www.jamespetermckinney.com/>`_ - at the time with `OpenNorth <http://opennorth.ca>`_ - was a major contributor to the development of the Monitor's initial data model, adapting Popolo (an international open government data standard) and developing the specifications for the Monitor's research tool.
 
 
 Copyright and license
