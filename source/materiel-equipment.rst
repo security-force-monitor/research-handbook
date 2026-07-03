@@ -1,5 +1,5 @@
-Equipment
-#########
+Equipment (Draft)
+#################
 
 This is a draft field currently in development.
 
