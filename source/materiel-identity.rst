@@ -1,7 +1,9 @@
-Materiel (Draft)
-################
+Materiel
+########
 
-This is a draft field currently in development.
+.. warning::
+
+   This is a draft claim field set currently in development. We are in the process of integrating this dataset into our primary research. The format described in this documentation is a transition format. 
 
 The :ref:`materiel` claim type describes basic identifying information about :ref:`materiel`: name, aliases and associated time ranges with them. Claims of this type are grouped together with :ref:`equipment` which links a :ref:`unit` to the :ref:`materiel` it uses. :ref:`component` captures how :ref:`materiel` may include other :ref:`materiel`, for example the targeting system in a particular type of aircraft.
 
