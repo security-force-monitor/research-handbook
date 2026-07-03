@@ -17,7 +17,7 @@ The table below summarizes the following dimensions of :ref:`component` claims:
  - Key name: a standardized name that simplifies attribute use in SFM databases
 
 .. csv-table::
-   :file: _static/cluster-materiel-fields.csv
+   :file: _static/cluster-component-fields.csv
    :header-rows: 1
 
 
