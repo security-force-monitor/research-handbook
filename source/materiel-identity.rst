@@ -327,12 +327,12 @@ This attribute is required.
 Key name
 ~~~~~~~~
 
-``:annotation/name``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``Virgilio Daniel Méndez Bazan``, ``Virgilio Daniel Mendez Bazán``
+``LANTRIN``, ``F-16``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
