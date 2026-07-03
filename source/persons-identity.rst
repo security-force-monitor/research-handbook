@@ -330,7 +330,7 @@ This attribute is required.
 Key name
 ~~~~~~~~
 
-``:annotation/name``
+``:assertion/person:names``
 
 Example of use
 ~~~~~~~~~~~~~~
