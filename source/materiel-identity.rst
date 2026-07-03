@@ -262,7 +262,7 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``Ye Win Oo``
+``MiG-21UM``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -337,9 +337,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Any name for a person used in the citation should be entered in this field. While the :ref:`name:annotation <person-name-annotation>` field is only used for a single, most complex value, this field is used for any name a citation uses for a person. Thus, this field serves to capture "aliases" of a person, which also includes any typos or misspellings that may exist in the citation.
-
-Ranks, titles, or positions held should not be entered in this field as they are captured in other fields.
+Any name for :ref:`materiel` used in the citation should be entered in this field. While the :ref:`name:annotation <materiel-name-annotation>` field is only used for a single, most complex value, this field is used for any name a citation uses for :ref:`materiel`. Thus, this field serves to capture "aliases" of the :ref:`materiel`, which also includes any typos or misspellings that may exist in the citation.
 
 
 country:annotation
