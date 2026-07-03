@@ -1,5 +1,5 @@
-Trainings (Draft)
-#################
+Training
+########
 
 .. warning::
 
