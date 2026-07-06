@@ -3,9 +3,9 @@ Materiel
 
 .. warning::
 
-   This is a draft claim field set currently in development. We are in the process of integrating this dataset into our primary research. The format described in this documentation is a transition format. 
+   This is a draft claim field set currently in development. The format described in this documentation is a proposed format which may change with further research and development.
 
-The :ref:`materiel` claim type describes basic identifying information about :ref:`materiel`: name, aliases, classifications, ids, and associated time ranges with them. Claims of this type are grouped together with :ref:`equipment` which links a :ref:`unit` to the :ref:`materiel` it uses. :ref:`component` captures how :ref:`materiel` may include other :ref:`materiel`, for example the targeting system in a particular type of aircraft.
+The :ref:`materiel` claim type describes basic identifying information about :ref:`materiel`: name, aliases, classifications, and associated time ranges with them. Claims of this type are grouped together with :ref:`equipment` which links a :ref:`unit` to the :ref:`materiel` it uses. :ref:`component` captures how :ref:`materiel` may include other :ref:`materiel`, for example the targeting system in a particular type of aircraft.
 
 
 Materiel: Summary of claim attributes 
