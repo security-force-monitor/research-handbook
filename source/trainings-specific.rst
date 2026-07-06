@@ -3,9 +3,9 @@ Training
 
 .. warning::
 
-   Draft documentation. We are in the process of integrating this dataset into our primary research. The format described in this documentation is a transition format. Existing documentation about Trainings is available `here <https://github.com/security-force-monitor/fmtrpt_data/>`_. 
+   Draft documentation. The format described in this documentation is a proposed format which may change with further research and development.
 
-Trainings are training and assistance intervention provided bilaterally by a state or by a multilateral security actor like the European Union to the security or defence forces of another state. The main global source of information about Training is provided by the US in the joint Department of State and Department of Defence report, "Foreign Military Training and DoD Engagement Activities of Interest", published annually. As at 2023, information on the trainings provided to militaries by, for example, EU military training missions is not yet provided in a mandatory structured form.
+Trainings are training and assistance intervention provided bilaterally by a state or by a multilateral security actor like the European Union to the security or defence forces of another state. 
 
 
 Training: Summary of claim attributes 
