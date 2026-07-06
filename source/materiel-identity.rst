@@ -233,7 +233,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For :ref:`materiel` this UUID distinguishes them from any other :ref:`materiel` in the dataset. This UUID is used in other fields to tie :ref:`materiel` to a :ref:`unit` or as a :ref:`componant` of other :ref:`materiel`.
+Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For :ref:`materiel` this UUID distinguishes them from any other :ref:`materiel` in the dataset. This UUID is used in other fields to tie :ref:`materiel` as :ref:`equipment` of a specific :ref:`unit` or as a :ref:`componant` (or part) of other :ref:`materiel`.
 
 
 about_entity:name:qa
@@ -257,7 +257,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``:claim/about-entity:ref``
+``n/a``
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -267,7 +267,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <materiel-about-entity>`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import. For :ref:`materiel` best practice is to use the :ref:`name:annotation <materiel-name-annotation>` in this field.
+This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <materiel-about-entity>` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import. For :ref:`materiel` best practice is to use the :ref:`name:annotation <materiel-name-annotation>` in this field.
 
 
 .. _materiel-name-annotation:
