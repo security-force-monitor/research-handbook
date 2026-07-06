@@ -298,7 +298,7 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``MiG-21UM``, ``AN/AVS-9 Night Vision Goggles``
+``MiG-21UM``, ``Universal Water Activated Release System``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -332,7 +332,7 @@ n/a
 Example of use
 ~~~~~~~~~~~~~~
 
-``LANTRIN``, ``F-16``
+``MiG``, ``UWARS``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -340,18 +340,18 @@ Guidance on use
 Any name for :ref:`materiel` used in the citation should be entered in this field. While the :ref:`name:annotation <materiel-name-annotation>` field is only used for a single, most complex value, this field is used for any name a citation uses for :ref:`materiel`. Thus, this field serves to capture "aliases" of the :ref:`materiel`, which also includes any typos or misspellings that may exist in the citation.
 
 
-country:annotation
-==================
+materiel:classifications:assertion
+==================================
 
 Description
 ~~~~~~~~~~~
 
-Country person is associated with for grouping claims.
+A general descriptor for the materiel.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-Text, controlled vocabulary
+Text, controlled vocabulary.
 
 Status
 ~~~~~~
@@ -361,17 +361,119 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``:annotation/country``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``mx``, ``ph``
+``aircraft``, ``radar``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`_). This field is used to aid grouping persons into datasets related to specific countries and does not denote the citizenship or country of origin of a person. The specific country code should be chosen based on any related :ref:`posting` the :ref:`person` holds, or any other contextual information from citations about the :ref:`person`.
+We use classifications to describe the basic nature of specific materiel to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor’s dataset. 
+
+
+materiel:classifications:assertion
+==================================
+
+Description
+~~~~~~~~~~~
+
+Short textual description of material found in a media resource that provides information about how the materiel looks or sounds.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text, controlled vocabulary.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a
+
+Example of use
+~~~~~~~~~~~~~~
+
+``side of aircraft``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to store a brief description of the content of external media. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the materiel.
+
+
+materiel:id:assertion
+=====================
+
+Description
+~~~~~~~~~~~
+
+An identifier for the materiel as specified in the citation from which it is taken.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a
+
+Example of use
+~~~~~~~~~~~~~~
+
+``3018``, ``101``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to capture any seriel number, tail number, or other idenitifer for a specific piece of materiel.
+
+
+materiel:roles:assertion
+========================
+
+Description
+~~~~~~~~~~~
+
+An attribute for how the materiel is used.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text, controlled vocabulary.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a
+
+Example of use
+~~~~~~~~~~~~~~
+
+``close air support``, ``transport``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field is used to capture a descriptor for how the materiel is used.
 
 
 first_precise:range
@@ -421,146 +523,6 @@ ending_context:range
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
-
-person:genders:assertion
-========================
-
-Description
-~~~~~~~~~~~
-
-Indicators of a person's sex or gender identity, as inferred from pronouns used in the text of available sources.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Open list, single choice.
-
-Status
-~~~~~~
-
-This is a draft field, to be finalized.
-
-Key name
-~~~~~~~~
-
-``:assertion/person:genders``
-
-Example of use
-~~~~~~~~~~~~~~
-
-``male``, ``female``, ``other``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute is used to capture data about the gender of a person, as determined only by the pronouns ("her", "she", "his", "him", etc.) used in any available textual sources about this person. Data entry based on these pronouns is based on the coding of pronouns as "masculine" for ``male`` and "feminine" for ``female`` from `Global Affairs at UC Davis <https://globalaffairs.ucdavis.edu/iae/graduate/language-tips/pronouns-and-gender>`_. We do not infer a person's gender from their name or images of them. 
-
-Echoing the definition used in the `FOAF standard <http://xmlns.com/foaf/spec/#term_gender>`_, the :ref:`person:genders:assertion` attribute is not intended to capture the full range of possible biological, social and sexual associated with the word "gender". This attribute open to include alternatives that are expressed within the available sources about a person.
-
-Where the sources contain no textual indication about the person's gender, the attribute should be left blank.
-
-
-person:account_type:assertion
-=============================
-
-Description
-~~~~~~~~~~~
-
-The name of an online platform or service on which the person holds an account.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Open list, single choice.
-
-Status
-~~~~~~
-
-This is a draft field, to be finalized.
-
-
-Key name
-~~~~~~~~
-
-``:assertion/person:account-type``
-
-Example of use
-~~~~~~~~~~~~~~
-
-``facebook``, ``telegram``, ``youtube``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute is used to record the name of the online platform of service on which a person holds an account. The name is chosen from a list of available platforms and services, which will be updated as required. Where a person has more than one account, on the same or different platforms, a new claim should be created.
-
-
-person:account_id:assertion
-===========================
-
-Description
-~~~~~~~~~~~
-
-The account name used by the person on a specific online platform or service.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Text string
-
-Status
-~~~~~~
-
-This is a draft field, to be finalized.
-
-Key name
-~~~~~~~~
-
-``:assertion/person:account-id``
-
-Example of use
-~~~~~~~~~~~~~~
-
-``CapitaineIb226`` (on X)
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute is used to record the account name held by the person on a specific online platform or service. Where a person has more than one account, on the same or different platforms, a new claim should be created.
-
-
-person:media_description:annotation
-====================================
-
-Description
-~~~~~~~~~~~
-
-Short textual description of material found in a media resource that provides information about a how person looks or sounds.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String
-
-Status
-~~~~~~
-
-This is a draft field, to be finalized.
-
-Key name
-~~~~~~~~
-
-``:annotation/person:media-description``
-
-Example of use
-~~~~~~~~~~~~~~
-
-"Face and shoulders of Bosco Ntaganda, in military uniform with hat, tie and lapels, backed by two other men in combat fatigues armed with rifles. Taken at a news conference in January 2009."
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute is used to store a brief description of the content of external media. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the person.
 
 .. _materiel-public-notes:
 
