@@ -540,7 +540,7 @@ person:media_description:annotation
 Description
 ~~~~~~~~~~~
 
-Short textual description of material found in a media resource that provides information about a how person looks or sounds.
+Short textual description of material found in a media resource that provides information about how a person looks or sounds.
 
 Attribute type
 ~~~~~~~~~~~~~~
