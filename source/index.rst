@@ -34,6 +34,7 @@ Table of Contents
    how-dates-work
    contiguous-non-contiguous-claims
    posting-start-end-dates
+   cross-referencing-claims
    unknown-unnamed-units
 
 .. toctree::
