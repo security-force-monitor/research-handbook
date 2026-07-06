@@ -3,7 +3,7 @@ Overview: Materiel (Draft)
 
 .. warning::
 
-   Materiel is a set of interlinked claim fields currently in development. The format described in this documentation is a transition format. 
+   Materiel is a set of interlinked claim fields currently in development. The format described in this documentation is a proposed format which may change with further research and development.
 
 What is Materiel?
 ***************
