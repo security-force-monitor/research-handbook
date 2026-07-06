@@ -408,40 +408,6 @@ Guidance on use
 This attribute is used to store a brief description of the content of external media. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the materiel.
 
 
-materiel:id:assertion
-=====================
-
-Description
-~~~~~~~~~~~
-
-An identifier for the materiel as specified in the citation from which it is taken.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Text string.
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Key name
-~~~~~~~~
-
-n/a
-
-Example of use
-~~~~~~~~~~~~~~
-
-``3018``, ``101``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute is used to capture any seriel number, tail number, or other idenitifer for a specific piece of materiel.
-
-
 materiel:roles:assertion
 ========================
 
