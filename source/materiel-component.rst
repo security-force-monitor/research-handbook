@@ -270,6 +270,108 @@ Guidance on use
 This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <component-about-entity>` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
 
 
+component:materiel:refs:assertion
+=================================
+
+Description
+~~~~~~~~~~~
+
+The unique 32 character code of the materiel which is a component of other materiel.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String in UUID format.
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Key name
+~~~~~~~~
+
+n/a
+
+Example of use
+~~~~~~~~~~~~~~
+
+``b00ff36f-f367-4a48-9497-897d77decb8ad``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+The UUID used in :ref:`component:materiel:refs:assertion` must be for :ref:`materiel` that already exists in the dataset.
+
+
+component:materiel:names:qa
+===========================
+
+Description
+~~~~~~~~~~~
+
+The human readable name of the materiel which is a component of other materiel.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a
+
+Example of use
+~~~~~~~~~~~~~~
+
+``GBU-12``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field provides a human readable counterpart to the :ref:`component:materiel:refs:assertion` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <materiel-name-annotation>` of the :ref:`materiel` in the :ref:`component:materiel:refs:assertion` field.
+
+
+component:types:assertion
+=========================
+
+Description
+~~~~~~~~~~~
+
+The type of relationship that exists between the materiel.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String from controlled list.
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Key name
+~~~~~~~~
+
+n/a
+
+Example of use
+~~~~~~~~~~~~~~
+
+``component-of``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+We use this field to define the nature of the relationship between the :ref:`materiel` that is the subject of the claim (as described in :ref:`component:materiel:refs:assertion`) and the other :ref:`materiel` described in :ref:`component:aggregate_materiel:refs:assertion`. The only value that can be used by the researcher in this attribute is ``component-of``. As this is a draft field the number of possible entries in this field may increase. The field may also prove redundant and be removed in future updates.
+
+
 
 
 
