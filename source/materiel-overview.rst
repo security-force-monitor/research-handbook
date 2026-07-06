@@ -8,7 +8,7 @@ Overview: Materiel (Draft)
 What is Materiel?
 ***************
 
-Materiel is defined by the United States' Department of Defense as: "[a]ll items necessary to equip, operate, maintain, and support military activities without distinction as to its application for administrative or combat purposes." https://web.archive.org/web/20210429143435/https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/dictionary.pdf
+Materiel is defined by the United States' Department of Defense as: `"[a]ll items necessary to equip, operate, maintain, and support military activities without distinction as to its application for administrative or combat purposes." <https://web.archive.org/web/20210429143435/https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/dictionary.pdf>`__
 
 Data about units are described by three claim types:
 
