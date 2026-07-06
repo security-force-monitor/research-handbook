@@ -335,16 +335,16 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the :ref:`equipment:materiel:refs:assertion`. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` of the :ref:`materiel`.
+This field provides a human readable counterpart to the :ref:`equipment:materiel:refs:assertion`. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <materiel-name-annotation>` of the :ref:`materiel`.
 
 
-relation:types:assertion
-========================
+equipment:types:assertion
+=========================
 
 Description
 ~~~~~~~~~~~
 
-The type of relationship that exists between two units.
+The type of relationship that exists between the materiel and the unit.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -359,35 +359,26 @@ This attribute is required.
 Key name
 ~~~~~~~~
 
-``:assertion/relation:types``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``child-of``, ``member-of``
+``equipment-of``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-We use this field to define the nature of the relationship between the :ref:`unit` that is the subject of the claim (as described in :ref:`relation:unit:refs:assertion`) and the other :ref:`unit` described in :ref:`relation:related_unit:refs:assertion`. There are only two values that can be used by the researcher in this attribute:
-
- - ``child-of`` to define a hierarchic relationship. The unit specified in :ref:`relation:unit:refs:assertion` is the parent of the unit in :ref:`relation:related_unit:refs:assertion`.
- - ``member-of`` to define a membership relationship. The unit specified in :ref:`relation:unit:refs:assertion` has some personnel who are members of the unit noted in :ref:`relation:related_unit:refs:assertion`.
-
-A ``member-of`` :ref:`relation` is used to capture instances where personnel of one unit become personnel of another unit, such as a joint task force or peacekeeping mission, that has a distinct chain of command and geographic footprint. This is important to capture in the data model as the personnel in joint task force or peacekeeping mission are no longer under the command of their "home" unit or at the minimum have an altered :ref:`relation` with their "home" chain of command.
-
-.. admonition:: Example
-
-    Many units of the Mexican Army sent personnel to serve as part of ``Operación Conjunta Chihuahua``, a joint task force which conducted operations in and around Ciudad Juárez in northern Mexico. While these personnel were serving as part of the operation they were part of the chain of command for that operation, and not their "home" unit which may have been across the country. Similarly, personnel of the "home" unit were not in a hierarchical :ref:`relation`, or under the command of, ``Operación Conjunta Chihuahua``.
+We use this field to define the nature of the relationship between the :ref:`materiel` that is the subject of the claim (as described in :ref:`equipment:materiel:refs:assertion`) and the other :ref:`unit` described in :ref:`equipment:related_unit:refs:assertion`. The only value that can be used by the researcher in this attribute is ``equipment-of``. As this is a draft field the number of possible entries in this field may increase. The field may also prove redundant and be removed in future updates.
 
 
-relation:related_unit:refs:assertion
-====================================
+equipment:related_unit:refs:assertion
+=====================================
 
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code of the immediate superior or parent unit of the current unit, or the unit to which the current unit is a member.
+The unique 32 character code of the unit which uses the materiel as equipment.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -402,26 +393,26 @@ This attribute is required.
 Key name
 ~~~~~~~~
 
-``:assertion/relation:related-unit:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``67eff2ed-2321-464f-8f85-da04db2cd1ec``
+``e884aaff-38d2-4d70-92bd-1007c90a721d``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The UUID used in :ref:`relation:related_unit:refs:assertion` must be for a :ref:`unit` which already exists in the dataset. The nature of the relationship is clarified further using the :ref:`relation:types:assertion` and :ref:`relation:related_unit_classes:assertion` fields.
+The UUID used in :ref:`equipment:related_unit:refs:assertion` must be for a :ref:`unit` which already exists in the dataset.
 
 
-relation:related_unit:names:qa
-==============================
+equipment:related_unit:names:qa
+===============================
 
 Description
 ~~~~~~~~~~~
 
-The human readable name of the unit that is the "parent" of another :ref:`unit` or which has personnel serving within it as members drawn from another :ref:`unit`.
+The human readable name of the unit that uses the materiel.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -436,63 +427,17 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``:assertion/relation:related-unit:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``Opération Tourbillon Vert 2``, ``99 Light Infantry Division``
+``1 Tactical Fighter Squadron``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the :ref:`relation:related_unit:refs:assertion` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` of the :ref:`unit` in the :ref:`relation:related_unit:refs:assertion` field.
-
-
-relation:related_unit_classes:assertion
-=======================================
-
-Description
-~~~~~~~~~~~
-
-Quality or nature of the relationship that exists between two units.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String, from controlled list.
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Key name
-~~~~~~~~
-
-``:assertion/relation:related-unit-classes``
-
-Example of use
-~~~~~~~~~~~~~~
-
-``command``, ``administrative``, ``class``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Units have a ``command`` relationship when the related parent unit can order the unit to perform some operational activity. These cover both *de jure* and *de facto* relationships between units.
-
-The ``class`` entry in this field is exclusively used for modeling the different "classes" or "intakes" of security force training or academic insitutions.
-
-.. admonition:: Example
-
-    The ``Philippine Military Academy`` and ``Philippine National Police Academy`` enroll students every year into a formal academic program to train them as officers. These cohorts are organized into "classes" named after the year that they will graduate, such as "Class of 1998". To model this we create a :ref:`unit` ``Class of 1998 (Philippine National Police Academy)`` which has a :ref:`relation` with ``Philippine National Police Academy`` where :ref:`relation:related_unit_classes:assertion` is ``class``. The ``Defense Services Academy`` in Myanmar enroll students every year via cohorts organized into numbered "intakes", such as "Intake 30". Similar to the example above, we create ``Intake 30 (Defense Services Academy)`` which has a :ref:`relation` with ``Defense Services Academy`` where :ref:`relation:related_unit_classes:assertion` is ``class``.
-
-``administrative`` relationships exist where a formal, non-command relationship exists between units, or where an administrative description is more accurate of the relationship between two units.
-
-.. admonition:: Example
-
-    By law the ``Ministry of Defence`` in Nigeria provides administrative support to the ``Nigerian Army``, establishing a relationship we could classify as ``administrative``. The ``Standards Department`` of an ``Army Headquarters`` might be under the control of the ``Army Headquarters``, meaning the ``Army Headquarters`` could order the Department to take some sort of action. This technically means the Department is under the “command” of the Headquarters, but the Monitor would describe this relationship as ``administrative`` because the Department is not in the field conducting operations, it's an administrative organ of the ``Army Headquarters``.
+This field provides a human readable counterpart to the :ref:`equipment:related_unit:refs:assertion` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` of the :ref:`unit` in the :ref:`equipment:related_unit:refs:assertion` field.
 
 
 equipment:id:assertion
@@ -501,7 +446,7 @@ equipment:id:assertion
 Description
 ~~~~~~~~~~~
 
-An identifier for the materiel as specified in the citation from which it is taken.
+An identifier for the equipment as specified in the citation from which it is taken.
 
 Attribute type
 ~~~~~~~~~~~~~~
