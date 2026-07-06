@@ -6,12 +6,12 @@ Attribute label , Status , Data type , Key name
 `citation:refs:claim` , required , strings<->uuids , ``:claim/citation:refs``
 `about_entity:ref:claim` , required , string<->uuid , ``:claim/about-entity:ref``
 `about_entity:name:qa` , optional , string , n/a
-`equipment:materiel:refs:assertion` , required , uuid-string , in development
+`equipment:materiel:refs:assertion` , required , uuid-string , proposed
 `equipment:materiel:names:qa` , optional , string , n/a
-`equipment:types:assertion` , required , string , in development
+`equipment:types:assertion` , required , string , proposed
 `equipment:related_unit:refs:assertion` , required , string<->uuid , n/a
 `equipment:related_unit:names:qa` , optional , string , n/a
-`equipment:id:assertion` , optional , string , in development
+`equipment:id:assertion` , optional , string , proposed
 `first_precise:range` , optional , string-date , ``:range-precise/first``
 `last_precise:range` , optional , string-date , ``:range-precise/last``
 `first_imprecise:range` , optional , string-date , ``:range-imprecise/first``
