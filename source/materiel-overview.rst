@@ -1,13 +1,17 @@
 Overview: Materiel (Draft)
 ##########################
 
+.. warning::
+
+   Materiel is a set of interlinked claim fields currently in development. The format described in this documentation is a transition format. 
+
 What is Materiel?
 ***************
 
-Units are official state or state-sanctioned organizations responsible for the internal security or external defense of a country. They include police, army, navy, air force and other security and defense forces, as well as those civilian institutions linked to security forces through the chain of command or other linkages. Units refer to any part of the hierarchy of a security force, ranging from a head of state to a police post in a small town. Units can also be groupings of other units, including joint operations, task forces or peacekeeping missions. 
+Materiel is defined by the United States' Department of Defense as: "[a]ll items necessary to equip, operate, maintain, and support military activities without distinction as to its application for administrative or combat purposes." https://web.archive.org/web/20210429143435/https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/dictionary.pdf
 
 Data about units are described by three claim types:
 
-- :ref:`materiel`: the existence and identity of the unit, such as its names, aliases, classification, dates of creation and/or dissolution.
-- :ref:`component`: geographic footprint including where the unit is based and the unit's areas of operation.
-- :ref:`equipment`: the unit's position in the hierarchy of a security force, as well as their memberships in other units like joint operations or international peacekeeping missions.
+- :ref:`materiel`: description of the item including names, classifications and other relevant fields.
+- :ref:`component`: description of how materiel is composed of other materiel.
+- :ref:`equipment`: defining the link between materiel and a unit.
