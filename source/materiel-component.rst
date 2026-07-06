@@ -55,12 +55,12 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``unit``, ``positioning``, ``relation``, ``person``, ``posting``, ``incident``
+``materiel``, ``equipment``, ``component``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``person`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:`person`. For quality assurance purposes, entering ``person`` should create an error if there is any entry for fields tied to other claim types, such as :ref:`posting`.
+Entering ``component`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:`component`. For quality assurance purposes, entering ``component`` should create an error if there is any entry for fields tied to other claim types, such as :ref:`materiel` or :ref:`equipment`.
 
 
 status:meta
@@ -94,7 +94,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. A :ref:`public_notes:meta <person-public-notes>` should always accompany any ``conflict`` claim.
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. A :ref:`public_notes:meta <component-public-notes>` should always accompany any ``conflict`` claim.
 
 If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
@@ -164,7 +164,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <person-public-notes>` field.
+Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <component-public-notes>` field.
 
 
 citation:refs:claim
@@ -198,7 +198,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <person-public-notes>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
+Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <component-public-notes>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
 .. _person-about-entity:
 
@@ -311,7 +311,7 @@ As with all annotation fields, this field is the singular display name for the e
 
 This field can be dynamic and change with ongoing research. For example, a researcher investigating Myanmar may first come across citation ``9f01b1c1-563f-4b40-a534-b91c7e1a5062`` for the :ref:`person` of ``Zeya Aung`` (a name which has nine characters). This would be entered in :ref:`name:annotation <person-name-annotation>`. Next, they may come across another citation ``4c0aaa5d-a147-4f1c-91d8-46d005be1a04`` that evidences the same :ref:`person` but gives a name of ``Zayar Aung`` (with 10 characters). This longer which would be entered in :ref:`name:annotation <person-name-annotation>`. ``Zeya Aung`` in the previous entry tied to citation ``9f01b1c1-563f-4b40-a534-b91c7e1a5062`` would now be entered only in :ref`person:names:assertion`, and the :ref:`name:annotation <person-name-annotation>` for that entry would be cleared. Finally, the researcher may come across citation ``c0b4b224-6432-45a5-854d-148d76af0ffa`` which would evidence the name of ``Zeyar Aung`` (with 10 characters). As there are two names, both with 10 characters each, the researcher would use the agreement of the name starting with "Zeya" to evidence ``Zeyar Aung`` as the :ref:`name:annotation <person-name-annotation>`, and ``Zayar Aung`` in the previous entry tied to citation ``4c0aaa5d-a147-4f1c-91d8-46d005be1a04`` would be cleared.
 
-Occasionally there are two people who may be the same :ref:`person` due to a near or exact match of names, and lack of any conflicting information (such as :ref:`postings`, dates of birth or death, or any other career or biographical information), but no citations have been found to confirm they are the same :ref:`person`. In these cases the symbol ‡ can be applied after the last character in their :ref:`name:annotation <person-name-annotation>` to help visually identify them in their display name. A corresponding :ref:`public_notes:meta <person-public-notes>` should be entered to explain why the symbol ‡ has been used.
+Occasionally there are two people who may be the same :ref:`person` due to a near or exact match of names, and lack of any conflicting information (such as :ref:`postings`, dates of birth or death, or any other career or biographical information), but no citations have been found to confirm they are the same :ref:`person`. In these cases the symbol ‡ can be applied after the last character in their :ref:`name:annotation <person-name-annotation>` to help visually identify them in their display name. A corresponding :ref:`public_notes:meta <component-public-notes>` should be entered to explain why the symbol ‡ has been used.
 
 
 person:names:assertion
@@ -572,7 +572,7 @@ Guidance on use
 
 This attribute is used to store a brief description of the content of external media. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the person.
 
-.. _person-public-notes:
+.. _component-public-notes:
 
 public_notes:meta
 =================
@@ -639,4 +639,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For a :ref:`person` the only allowed entry for this field is ``claim``.
+For a :ref:`component` the only allowed entry for this field is ``claim``.
