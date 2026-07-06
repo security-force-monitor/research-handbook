@@ -5,7 +5,7 @@ Component
 
    This is a draft claim field set currently in development. We are in the process of integrating this dataset into our primary research. The format described in this documentation is a transition format. 
 
-The :ref:`component` claim type describes basic identifying information about :ref:`materiel`: name, aliases and associated time ranges with them. Claims of this type are grouped together with :ref:`equipment` which links a :ref:`unit` to the :ref:`materiel` it uses. :ref:`component` captures how :ref:`materiel` may include other :ref:`materiel`, for example the targeting system in a particular type of aircraft.
+The :ref:`component` claim type captures how :ref:`materiel` may include other :ref:`materiel`, for example the targeting system in a particular type of aircraft.
 
 
 Component: Summary of claim attributes 
