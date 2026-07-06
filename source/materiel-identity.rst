@@ -233,7 +233,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For :ref:`materiel` this UUID distinguishes them from any other :ref:`materiel` in the dataset. This UUID is used in other fields to tie :ref:`materiel` as :ref:`equipment` of a specific :ref:`unit` or as a :ref:`component` (or part) of other :ref:`materiel`.
+Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For :ref:`materiel` this UUID distinguishes them from any other :ref:`materiel` in the dataset. This UUID is used in other fields to tie :ref:`materiel` to a specific :ref:`unit` as :ref:`equipment`  or as a :ref:`component` (or part) of other :ref:`materiel`.
 
 
 about_entity:name:qa
@@ -374,8 +374,8 @@ Guidance on use
 We use classifications to describe the basic nature of specific materiel to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor’s dataset. 
 
 
-materiel:classifications:assertion
-==================================
+materiel:media_description:annotation
+=====================================
 
 Description
 ~~~~~~~~~~~
