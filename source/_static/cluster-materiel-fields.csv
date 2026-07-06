@@ -7,10 +7,10 @@ Attribute label , Status , Data type , Key name
 `about_entity:ref:claim` , required , string<->uuid , ``:claim/about-entity:ref``
 `about_entity:name:qa` , optional , string , n/a
 `name:annotation` , optional , string , ``:annotation/name``
-`materiel:names:assertion` , required , string , n/a
-`materiel:classifications:assertion` , optional , cell-list , n/a
-`materiel:media_description:annotation` , optional , string , n/a
-`materiel:roles:assertion` , optional , string , n/a
+`materiel:names:assertion` , required , string , in development
+`materiel:classifications:assertion` , optional , cell-list , in development
+`materiel:media_description:annotation` , optional , string , in development
+`materiel:roles:assertion` , optional , string , in development
 `first_precise:range` , optional , string-date , ``:range-precise/first``
 `last_precise:range` , optional , string-date , ``:range-precise/last``
 `first_imprecise:range` , optional , string-date , ``:range-imprecise/first``
