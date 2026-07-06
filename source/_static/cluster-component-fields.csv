@@ -6,10 +6,10 @@ Attribute label , Status , Data type , Key name
 `citation:refs:claim` , required , strings<->uuids , ``:claim/citation:refs``
 `about_entity:ref:claim` , required , string<->uuid , ``:claim/about-entity:ref``
 `about_entity:name:qa` , optional , string , n/a
-`component:materiel:refs:assertion` , required , uuid-string , in development
+`component:materiel:refs:assertion` , required , uuid-string , proposed
 `component:materiel:names:qa` , optional , string , n/a
-`component:types:assertion` , required , string , in development
-`component:aggregate_materiel:refs:assertion` , required , string<->uuid , in development
+`component:types:assertion` , required , string , proposed
+`component:aggregate_materiel:refs:assertion` , required , string<->uuid , proposed
 `component:aggregate_materiel:names:qa` , optional , string , n/a
 `first_precise:range` , optional , string-date , ``:range-precise/first``
 `last_precise:range` , optional , string-date , ``:range-precise/last``
