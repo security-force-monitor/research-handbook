@@ -1,25 +1,33 @@
-Attribute label	Attribute name	Status	Data type	Conformed name
-Training: Unique Identifier	training:id	required	uuid	Not assigned
-Training: Claim Citation Identifier	training:claim:citation:id	required	uuid	Not assigned
-Training: Training Group	training:training-group	optional	string	Not assigned
-Training: Country Name from Source	training:country-original	optional	string	Not assigned
-Training: Country from Source	training:country	optional	string	Not assigned
-Training: Program	training:program	optional	string	Not assigned
-Training: Course Title	training:course-title	optional	string	Not assigned
-Training: Unit Delivering Training	training:delivery-unit-name	optional	string	Not assigned
-Training: Unit Recieving Training	training:recipient-unit-name	optional	string	Not assigned
-Training: Precise Start Date	training:date-range-precise:first	optional	timestamp	Not assigned
-Training: Precise End date	training:date-range-precise:last	optional	timestamp	Not assigned
-Training: Imprecise Start Date	training:date-range-imprecise:first	optional	timestamp	Not assigned
-Training: Imprecise End Date	training:date-range-imprecise:last	optional	timestamp	Not assigned
-Training: Start Date from Source	training:date-original:first	optional	timestamp	Not assigned
-Training: End Date from Source	training:date-original:last	optional	timestamp	Not assigned
-Training: Training Location from Source	training:location-original	optional	string	Not assigned
-Training: Number of Personnel Trained	training:quantity	optional	string	Not assigned
-Training: Total Cost of Training	training:total-cost	optional	string	Not assigned
-Training: URL of Source	training:source-url	optional	string	Not assigned
-Training: Date First Seen	training:date-first-seen	optional	timestamp	Not assigned
-Training: Date Scraped	training:date-scraped	optional	timestamp	Not assigned
-Training: Research Comments	training:claim:comment	optional	string	Not assigned
-Training: Research Owner	training:claim:researcher	optional	string	Not assigned
-Training: Research Status	training:claim:status	optional	status	Not assigned
+Attribute label , Status , Data type , Key name
+`type:claim` , required , string , ``:claim/type``
+`status:meta` , required , string , ``:claim/statuses`` 
+`researcher:meta` , required , string , ``:meta/researchers``
+`internal_comments:meta` , optional , string , ``:meta/internal-comments``
+`citation:refs:claim` , required , strings<->uuids , ``:claim/citation:refs``
+`about_entity:ref:claim` , required , string<->uuid , ``:claim/about-entity:ref``
+`about_entity:name:qa` , optional , string , n/a
+`training:program:refs:assertion` , optional , string , proposed
+`training:course:refs:assertion` , optional , string , proposed
+`training:trainer_unit:refs:assertion` , optional , string<->uuid , proposed
+`training:trainer_unit:names:qa` , optional , string , n/a  
+`training:recepient_unit:refs:assertion` , optional , string<->uuid , proposed
+`training:recipent_unit:names:qa` , optional , string , n/a
+`training:recipient_country:annotation` , optional , string , proposed
+`training:recipient:classifications:assertion` , optional , list , proposed    
+`training:location:descriptions:assertion` , optional , strings , proposed
+`training:location:refs:assertion` , optional , strings<->uuids , proposed
+`training:location:names:qa` , optional , strings , proposed
+`training:quanity_trainees:assertion` , optional , strings , proposed
+`training:quantity:assertion` , optional , strings , proposed
+`training:cost:assertion` , optional , strings , proposed
+`training:cost_currency:assertion` , optional , strings , proposed
+`first_precise:range` , optional , string-date , ``:range-precise/first``
+`last_precise:range` , optional , string-date , ``:range-precise/last``
+`first_imprecise:range` , optional , string-date , ``:range-imprecise/first``
+`last_imprecise:range` , optional , string-date , ``:range-imprecise/last``
+`starting:range` , required , YN<->bool , ``:range/starting?``
+`ending:range` , required , YN<->bool , ``:range/ending?``
+`starting_context:range` , optional , string , ``:range/starting-context``
+`ending_context:range` , optional , string , ``:range/ending-context``
+`public_notes:meta` , optional , string , ``:meta/public-notes``
+`type:entity` , required , string , ``:entity/type``
