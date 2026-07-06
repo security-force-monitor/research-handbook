@@ -3,7 +3,7 @@ How Dates Work
 
 Dates are a central focus of the Security Force Monitor's data and methodology. All claims in the Security Force Monitor dataset are time-bound.
 
-We structure all dates into ranges with a first and last date. The first date in the range can be the "start" and the last date can be the "end" of the range. Even a single day, such as 5 May 2025 would be entered with a first date of 2025-05-05 and a last date of 2025-05-05. All dates should be entered in the YYYY-MM-DD format.
+We structure all dates into ranges with a first and last date. The first date in the range can be the "start" and the last date can be the "end" of the range. Even a single day, such as May 5, 2025 (or 5 May 2025) would be entered with a first date of 2025-05-05 and a last date of 2025-05-05. All dates should be entered in the YYYY-MM-DD format.
 
 
 Precise ranges
