@@ -60,7 +60,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Entering ``equipment`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:`equipment`. For quality assurance purposes, entering ``equipment`` should create an error if there is any entry for fields tied to other claim types, such as :ref:`materiel` or :ref:`component`.
+Entering ``equipment`` defines the claim and defines the relevant fields to be used in further data entry about the :ref:`equipment`. For quality assurance purposes, entering ``equipment`` should create an error if there is any entry for fields tied to other claim types, such as :ref:`materiel` or :ref:`component`.
 
 
 status:meta
@@ -276,7 +276,7 @@ equipment:materiel:refs:assertion
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code assigned to the materiel with the :ref:`equipment` which is the focus of the claim.
+The unique 32 character code assigned to the materiel which is the focus of the :ref:`equipment` claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -471,7 +471,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute is used to capture any seriel number, tail number, or other idenitifer for a specific piece of materiel.
+This attribute is used to capture any serial number, tail number, or other identifier for a specific piece of :ref:`materiel`.
 
 
 first_precise:range
@@ -589,4 +589,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For a :ref:`equipment` the only allowed entry for this field is ``claim``.
+For :ref:`equipment` the only allowed entry for this field is ``claim``.
