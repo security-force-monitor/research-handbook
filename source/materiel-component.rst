@@ -372,7 +372,72 @@ Guidance on use
 We use this field to define the nature of the relationship between the :ref:`materiel` that is the subject of the claim (as described in :ref:`component:materiel:refs:assertion`) and the other :ref:`materiel` described in :ref:`component:aggregate_materiel:refs:assertion`. The only value that can be used by the researcher in this attribute is ``component-of``. As this is a draft field the number of possible entries in this field may increase. The field may also prove redundant and be removed in future updates.
 
 
+component:aggregate_materiel:refs:assertion
+===========================================
 
+Description
+~~~~~~~~~~~
+
+The unique 32 character code of the materiel which is made up of the component.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String in UUID format.
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Key name
+~~~~~~~~
+
+n/a
+
+Example of use
+~~~~~~~~~~~~~~
+
+``ca19cc03-1180-469d-b87a-94fb54d657fb``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+The UUID used in :ref:`component:aggregate_materiel:refs:assertion` must be for :ref:`materiel` which already exists in the dataset.
+
+
+component:aggregate_materiel:names:qa
+=====================================
+
+Description
+~~~~~~~~~~~
+
+The human readable name of the materiel which is made up of the component materiel.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a
+
+Example of use
+~~~~~~~~~~~~~~
+
+``MiG-21UM``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field provides a human readable counterpart to the :ref:`component:aggregate_materiel:refs:assertion` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <materiel-name-annotation>` of the :ref:`materiel` in the :ref:`component:aggregate_materiel:refs:assertio` field.
 
 
 first_precise:range
@@ -422,146 +487,6 @@ ending_context:range
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
-
-person:genders:assertion
-========================
-
-Description
-~~~~~~~~~~~
-
-Indicators of a person's sex or gender identity, as inferred from pronouns used in the text of available sources.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Open list, single choice.
-
-Status
-~~~~~~
-
-This is a draft field, to be finalized.
-
-Key name
-~~~~~~~~
-
-``:assertion/person:genders``
-
-Example of use
-~~~~~~~~~~~~~~
-
-``male``, ``female``, ``other``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute is used to capture data about the gender of a person, as determined only by the pronouns ("her", "she", "his", "him", etc.) used in any available textual sources about this person. Data entry based on these pronouns is based on the coding of pronouns as "masculine" for ``male`` and "feminine" for ``female`` from `Global Affairs at UC Davis <https://globalaffairs.ucdavis.edu/iae/graduate/language-tips/pronouns-and-gender>`_. We do not infer a person's gender from their name or images of them. 
-
-Echoing the definition used in the `FOAF standard <http://xmlns.com/foaf/spec/#term_gender>`_, the :ref:`person:genders:assertion` attribute is not intended to capture the full range of possible biological, social and sexual associated with the word "gender". This attribute open to include alternatives that are expressed within the available sources about a person.
-
-Where the sources contain no textual indication about the person's gender, the attribute should be left blank.
-
-
-person:account_type:assertion
-=============================
-
-Description
-~~~~~~~~~~~
-
-The name of an online platform or service on which the person holds an account.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Open list, single choice.
-
-Status
-~~~~~~
-
-This is a draft field, to be finalized.
-
-
-Key name
-~~~~~~~~
-
-``:assertion/person:account-type``
-
-Example of use
-~~~~~~~~~~~~~~
-
-``facebook``, ``telegram``, ``youtube``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute is used to record the name of the online platform of service on which a person holds an account. The name is chosen from a list of available platforms and services, which will be updated as required. Where a person has more than one account, on the same or different platforms, a new claim should be created.
-
-
-person:account_id:assertion
-===========================
-
-Description
-~~~~~~~~~~~
-
-The account name used by the person on a specific online platform or service.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Text string
-
-Status
-~~~~~~
-
-This is a draft field, to be finalized.
-
-Key name
-~~~~~~~~
-
-``:assertion/person:account-id``
-
-Example of use
-~~~~~~~~~~~~~~
-
-``CapitaineIb226`` (on X)
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute is used to record the account name held by the person on a specific online platform or service. Where a person has more than one account, on the same or different platforms, a new claim should be created.
-
-
-person:media_description:annotation
-====================================
-
-Description
-~~~~~~~~~~~
-
-Short textual description of material found in a media resource that provides information about a how person looks or sounds.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String
-
-Status
-~~~~~~
-
-This is a draft field, to be finalized.
-
-Key name
-~~~~~~~~
-
-``:annotation/person:media-description``
-
-Example of use
-~~~~~~~~~~~~~~
-
-"Face and shoulders of Bosco Ntaganda, in military uniform with hat, tie and lapels, backed by two other men in combat fatigues armed with rifles. Taken at a news conference in January 2009."
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This attribute is used to store a brief description of the content of external media. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the person.
 
 .. _component-public-notes:
 
