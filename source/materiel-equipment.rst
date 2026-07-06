@@ -267,16 +267,16 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <equipment-about-entityy>` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
+This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <equipment-about-entity>` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
 
 
-relation:unit:refs:assertion
-============================
+equipment:materiel:refs:assertion
+=================================
 
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code assigned to the unit with the :ref:`relation` which is the focus of the claim.
+The unique 32 character code assigned to the materiel with the :ref:`equipment` which is the focus of the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -291,26 +291,26 @@ This attribute is required.
 Key name
 ~~~~~~~~
 
-``:assertion/relation:unit:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``a407be6a-28e6-4237-b4e9-307f27b1202e``
+``ca19cc03-1180-469d-b87a-94fb54d657fb``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The UUID used in :ref:`relation:unit:refs:assertion` must be for a :ref:`unit` which already exists in the dataset. The nature of the relationship is clarified further using the :ref:`relation:types:assertion` and :ref:`relation:related_unit_classes:assertion` fields.
+The UUID used in :ref:`equipment:materiel:refs:assertion` must be for :ref:`materiel` which already exists in the dataset.
 
 
-relation:unit:names:qa
-======================
+equipment:materiel:names:qa
+===========================
 
 Description
 ~~~~~~~~~~~
 
-The human readable name of the unit that is a child or member of another unit.
+The human readable name of the materiel that is used by the unit.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -325,17 +325,17 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``:assertion/relation:unit:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``Groupement de Forces pour la Sécurisation du Nord``, ``Moriones Tondo Police Station 2``
+``AAQ-14 Sharpshooter``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the :ref:`relation:unit:refs:assertion`. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` of the :ref:`unit`.
+This field provides a human readable counterpart to the :ref:`equipment:materiel:refs:assertion`. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` of the :ref:`materiel`.
 
 
 relation:types:assertion
