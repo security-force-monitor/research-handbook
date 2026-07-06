@@ -269,7 +269,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``:claim/about-entity:ref``
+``n/a``
 
 Example of use
 ~~~~~~~~~~~~~~
