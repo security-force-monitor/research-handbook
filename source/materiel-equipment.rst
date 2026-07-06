@@ -383,6 +383,39 @@ Guidance on use
 
 Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`_). This field is used to aid grouping persons into datasets related to specific countries and does not denote the citizenship or country of origin of a person. The specific country code should be chosen based on any related :ref:`posting` the :ref:`person` holds, or any other contextual information from citations about the :ref:`person`.
 
+equipment:id:assertion
+=====================
+
+Description
+~~~~~~~~~~~
+
+An identifier for the materiel as specified in the citation from which it is taken.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a
+
+Example of use
+~~~~~~~~~~~~~~
+
+``3018``, ``101``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to capture any seriel number, tail number, or other idenitifer for a specific piece of materiel.
+
 
 first_precise:range
 ===================
