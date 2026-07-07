@@ -1,9 +1,7 @@
 Evidencing Claims By Combining Citations
 ########################################
 
-.. note:: 
-
-   To learn more about the fundamentals of dates and timelines in Security Force Monitor's approach read :ref:`How Dates Work` first.
+Occassionally, claims made by multiple citations can be brought together to clarify or enhance the claims made by another citation. 
 
 
 .. admonition:: Example
