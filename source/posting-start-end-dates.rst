@@ -1,5 +1,5 @@
-Establishing Start and End Dates for Postings
-#############################################
+Start and End Dates for Postings
+################################
 
 Determining when a :ref:`person` was in their position is a central concern of the Security Force Monitor's methodology. Even with seemingly clear sources, establishing when someone began or ended a position, or :ref:`posting`, can be particularly challenging.
 
