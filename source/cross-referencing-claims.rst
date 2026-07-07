@@ -1,11 +1,11 @@
 Cross-Referencing Claims
 ########################
 
-Creating a vast structured dataset allows us to use the data itself as a cross-reference system for any claim made by citations. Claims can be balanced against one another and where there is a conflict or discrepancy between two or more claims the Monitor can arrive at a decision of which claim can be coded as ``accepted`` or ``conflict``.
+Creating a vast structured dataset allows us to use the data itself as a cross-reference system for any claim made by citations. When there is a conflict or discrepancy between two or more claims the claims themselves can be balanced against one another to help determine which claim can be coded as ``accepted`` or ``conflict``.
 
-Cross-referencing is core to our approach because we do not grade one :ref:`publication` as any better than any other :ref:`publication`. In our experience official government webpages have misidentified the geography of their country, misidentified senior military commanders and contained other errors or omissions. This does not make them "low confidence" or "untrustworthy" sources of information, and that same principle applies to every other :ref:`publication`.
+Cross-referencing is core to our approach because we do not grade one :ref:`publication` as any better than any other :ref:`publication`. In our experience official government sources have referenced non-existant geography, misidentified senior military commanders and contained other errors. This does not make them "low confidence" or "untrustworthy" sources of information, and that same principle applies to every other :ref:`publication` (some of which have also contained similar types of errors).
 
-The Montior's data structure allows for a range of cross-referencing, comparing units or persons to one another, to more complex analysis. A public note should always accompany any cross-referencing analysis, and the various citations used should also be listed in the citation field for the claim. Some examples below show how cross-referencing data can be used to determine when claims are should be coded as ``conflict``.
+The Montior's data structure allows for a range of cross-referencing. This could be something simple, such as comparing units or persons to one another, to more complex analysis bringing together multiple types of claims to resolve conflicts. A public note should always accompany any cross-referencing analysis, and the various citations used in that cross-referencing should also be listed in the citation field for the claim. Some examples below show how cross-referencing data can be used to determine when claims are should be coded as ``conflict``.
 
 .. admonition:: Example: Incorrect Commander
 
@@ -18,3 +18,5 @@ The Montior's data structure allows for a range of cross-referencing, comparing 
 .. admonition:: Example: Typo in Unit Name
 
     Typos often create issues that can be resolved through cross-referencing. For example, a citation states that ``Elijah Williams`` received an award as commander of ``Police Station 1`` for the actions of his officers in ``South Township`` on ``2023-03-05``. Other citations evidence that Williams was commander of ``Police Station 12`` from at least ``2022-12-02`` to at least ``2024-05-15``. Additionally, other citations evidence that ``Police Station 12`` operates in (has a :ref:`positioning` of) ``South Township`` from at least ``2021-09-06`` to at least ``2025-01-24``. No other citations about ``Police Station 1`` state that it operates in ``South Township``. As a result the claim could be coded as ``conflict``.
+
+Similarly, sometimes mutliple citations are needed to surface the claims made by a single citation. That process is explored further in the next section :ref:`Combined Citations Claims`.
