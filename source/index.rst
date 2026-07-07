@@ -33,9 +33,9 @@ Table of Contents
    our-general-data-model
    how-dates-work
    contiguous-non-contiguous-claims
-   posting-start-end-dates
    cross-referencing-claims
    combined-citations-claims
+   posting-start-end-dates
    unknown-unnamed-units
 
 .. toctree::
