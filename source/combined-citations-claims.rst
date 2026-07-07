@@ -1,7 +1,9 @@
 Evidencing Claims By Combining Citations
 ########################################
 
-Occassionally, claims made by multiple citations can be brought together to clarify or enhance the claims made by another citation. 
+Occassionally, claims made by multiple citations can be brought together to clarify or enhance the claims made by another citation.
+
+This consistently happens for creating "unknown" units 
 
 
 .. admonition:: Example
