@@ -9,11 +9,14 @@ Cross refencing is core to our approach because we do not grade one :ref:`public
 
 The Montior's data structure allows for a range of cross refencing, comparing units or persons to one another, to more complex analysis. A public note should always accompany any cross referencing analysis, and the various citations used should also be listed in the citation field for the claim. Some example below show how cross referencing data can be used to determine when claims are erroneous or otherwise should be codeded as ``conflict``.
 
+
 .. admonition:: Incorrect Commander
     Citations from ``2023-02-04``, ``2024-10-11`` and ``2025-01-18`` evidence that ``Liam Johnson`` was commander of ``18 Brigade`` on those dates. As a result the data has one contigious :ref:`posting` for Johnson from at least ``2023-02-04`` to at least ``2025-01-18``. One other citation states that ``Theodore Smith`` was commander of ``18 Brigade`` "in 2024". In this case we would cross reference the claims made about other brigade commanders to see if any of those other brigades had a similar non-contigious commander like Smith. If not, then the claim about Smith could be coded as ``conflict``.
 
+
 .. admonition:: Too Senior of Commander
     A common issue is when a senior commander is idenfied as the "commander" of a low level unit. Usually this means that they are ultimately in charge of the unit, but not the actual commander of the low level unit. For example, a citation states that ``Major General`` ``John Smith`` was commander of ``22 Battalion``. Cross referencing the postings of other major generals allows us to see that other citations evidence major generals in country command divisions, which command brigades, which in turn command battalions. Claims for other postings evidence that brigades are usually commanded by brigader generals (a lower rank than Major General), and battalions are commanded by colonels (a lower rank than brigader general). As a result the claim could coded as ``conflict``.
+
 
 .. admonition:: Typo in Unit Name
     Typos are common issue that can be resolved through cross referencing. For example, a citation states that ``Elijah Williams`` recieved an award as commander of ``Police Station 1`` for the actions of his officers in ``South Township`` on ``2023-03-05``. Other citations evidence that Williams was commander of ``Police Station 12`` from at least ``2022-12-02`` to at least ``2024-05-15``. Additionally, other citations evidence that ``Police Station 12`` operates in (has a :ref:`positioning` of) ``South Township`` from at least ``2021-09-06`` to at least ``2025-01-24``. No other citations about ``Police Station 1`` state that it operates in ``South Township``. As a result the claim could be coded as ``conflict``.
