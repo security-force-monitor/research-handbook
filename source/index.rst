@@ -35,8 +35,8 @@ Table of Contents
    contiguous-non-contiguous-claims
    cross-referencing-claims
    combined-citations-claims
-   posting-start-end-dates
    unknown-unnamed-units
+   posting-start-end-dates
 
 .. toctree::
    :caption: Sources and citations
