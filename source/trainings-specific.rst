@@ -21,7 +21,6 @@ The table below is a draft summarising the following dimensions of a proposed Tr
 .. csv-table::
    :file: _static/cluster-training.csv
    :header-rows: 1
-   :delim: tab
 
 Training: details of claim attributes
 *************************************
