@@ -22,7 +22,7 @@ By their very nature unknown units are evidenced by multiple citations to eviden
 Unnamed Units
 *************
 
-When citations reference a specific unit, but do not include enough information for a proper name the Monitor will create an "Unnamed" unit and continue to update relevant attributes related to this unit until such a time that a source is discovered to give it a proper name.
+When citations reference a specific unit, but do not include enough information for a proper name the Monitor will use "Unnamed" in the ref:`name:annotation <unit-name-annotation>` for the :ref:`unit` and continue to update relevant attributes related to this :ref:`unit` until such a time that a source is discovered to give it a proper name. Best practice is to update the the ref:`name:annotation <unit-name-annotation>` of the :ref:`unit` 
 
 .. admonition:: Example
 
