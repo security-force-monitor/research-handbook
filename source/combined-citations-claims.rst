@@ -1,10 +1,21 @@
 Evidencing Claims By Combining Citations
 ########################################
 
-Occassionally, claims made by multiple citations can be brought together to clarify or enhance the claims made by another citation.
+Occassionally, the information in one citation needs additional evidencing from other citations, so multiple citations are brought together to evidence a claim. These additional citations add context or additional information to help evidence the claim. Whenever multiple citations are used there must be a explanatory note in the ``public_notes:meta`` field detailing what the additional citations help evidence. This process is another type of cross refencing which information from other citations can be brought to bare on any one claim (see the section :ref:`Cross-Referencing Claims` for more details).
 
-This consistently happens for creating "unknown" units 
+Citations with both Accepted and Conflicted Information
+*******************************************************
 
+The most common use for combining citations is for instances where a citation has both accepted and conflict information for a single claim.
+
+.. admonition:: Example
+
+    One citation evidences a :ref:`posting` as of ``2020-06-07`` for ``John Smith`` to the ``15 Battalion`` as ``commander`` (:ref:`posting:roles:assertion`) with the :ref:`posting:ranks:assertion` of ``Major General``. Other citations before and after ``2020-06-07`` evidence that ``John Smith`` had the rank of ``Colonel``. Other citations also estalish that commanders of other battalions have the rank of ``Colonel`` or ``Lieutenant Colonel``. The full :ref:`posting` claim for ``John Smith`` with the rank of ``Major General`` should be entered as a ``conflict`` claim. However, the citation does contain information that matches other citations, and this should be captured as well. An additional entry is made for a :ref:`posting` for ``John Smith`` as commander of ``15 Battalion`` as of ``2020-06-07``. Notably this second entry does not contain the ``conflict`` information of the rank of ``Major General``. The additional contextual citations for ``John Smith`` as commander of ``15 Battalion`` with rank of ``Colonel``, along with the other citations for other battalion commanders have the rank of ``Colonel`` or ``Lieutenant Colonel`` should be added to this entry with an explanatory :ref:`public_notes:meta <posting-public-notes>`.
+
+"Unknown" Units
+***************
+
+Unknown units are created when citations establish the hierarchy for units, but do not evidence the specific :ref:`relation` for one or more units. See the :ref:`Unknown and Unnamed units` section for a fuller discussion of this issue.
 
 .. admonition:: Example
 
@@ -12,21 +23,4 @@ This consistently happens for creating "unknown" units
 
 
 
-Parent Units Assuming Poistioning and Classifications
-*****************************************************
 
-
-
-Unit Classifications
-====================
-
-Classifications are "pushed up" to parent units or the :ref:`relation:related_unit:refs:assertion` units, meaning that a :ref:`unit` should have all of the :ref:`unit:classifications:assertion` of any subordinate :ref:`unit`. For example, the :ref:`unit` representing the head of state or head of government which acts as commander-in-chief of the armed forces would have a :ref:`unit:classifications:assertion` of ``Military``, among others.
-
-Positionings
-============
-
-Every :ref:`positioning` should be "pushed up" to parent units or the :ref:`relation:related_unit:refs:assertion` units, which have a :ref:`relation` that overlaps any :ref:`positioning` claim for any subordinate :ref:`unit`.
-
-.. admonition:: Example
-
-    The Myanmar Army contains ten light infantry divisions which control battalions. A citation references the ``79 Infantry Battalion`` operating in ``Lashio Township`` on ``2020-04-24``, giving that battalion a :ref:`positioning` for ``Lashio Township`` on ``2020-04-24``. Other citations establish a :ref:`relation` between the ``79 Infantry Battalion`` and the ``99 Light Infantry Division`` before and after the :ref:`positioning` of the battalion to ``Lashio Township``. In this case, a :ref:`positioning` claim for ``99 Light Infantry Division`` operating in ``Lashio Township`` on ``2020-04-24`` should be created. The claim would be evidenced by the original citation for the ``79 Infantry Battalion`` :ref:`positioning` in ``Lashio Township``, along with all of the citations evidencing the :ref:`relation` between the ``79 Infantry Battalion`` and the ``99 Light Infantry Division``. Best practice is to add a :ref:`public_notes:meta <positionings-public-notes>` to this claim as well to explain the connection for a general audience.
