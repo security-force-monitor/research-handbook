@@ -5,7 +5,7 @@ Attribute label , Status , Data type , Key name
 `internal_comments:meta` , optional , string , ``:meta/internal-comments``
 `citation:refs:claim` , required , strings<->uuids , ``:claim/citation:refs``
 `about_entity:ref:claim` , required , string<->uuid , ``:claim/about-entity:ref``
-`about_entity:name:qa` , optional , string , ``:claim/about-entity:ref``
+`about_entity:name:qa` , optional , string , n/a
 `name:annotation` , optional , string , ``:annotation/name``
 `unit:names:assertion` , required , string , ``:assertion/unit:names``
 `unit:classifications:assertion` , optional , cell-list , ``:assertion/unit:classifications``
