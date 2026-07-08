@@ -17,6 +17,8 @@ For "Unknown" units the Monitor will have sources for the overall hierarchical s
 
     Citations establish that light infantry divisions of Myanmar are made up of three tactical operations commands, each of which in turn command battalions. For the ``99 Light Infantry Division`` citations establish there are the following tactical operations commands under it: ``991 Tactical Operations Command``, ``992 Tactical Operations Command``, and the ``993 Tactical Operations Command``. Thus all tactical operations commands exist in the Monitor's dataset. However, citations often reference battalions as being a part of the ``99 Light Infantry Division``, without specifying which tactical operations command the particular battalion is under. Because of this, even though all possible tactical operations commands are known and represented in the data, the Monitor has created an "Unknown" unit, the ``Unknown Tactical Operations Command (99 Light Infantry Division)``. Any citation that states a battalion is part of the ``99 Light Infantry Division``, without referencing a tactical operations command, is used to evidence a :ref:`relation` between the battalion and the ``Unknown Tactical Operations Command (99 Light Infantry Division)``. Of course, the supporting citations that establish battalions are under tactical operations command would also be entered in the :ref:`citation:refs:claim <citation-relation>` for the claim, and an explanatory note would be entered in :ref:`public_notes:meta <relation-public-notes>`.
 
+The :ref:`citation` `f93f5cb7-0e67-4b70-863f-c91c783988c3` with the :ref:`source:title` of `This unit is a placeholder to represent the hierarchical structure of this branch of the security service, based on the Security Force Monitor's research, as the Monitor does not currently have a source for a parent relationship to a specific, named unit` has been created to highlight any "Unknown" unit.
+
 By their very nature unknown units are evidenced by multiple citations to evidence the claim. :ref:`Evidencing Claims By Combining Citations` contains more guidance on how to combine citations to evidence a claim.
 
 Unnamed Units
@@ -27,5 +29,10 @@ When citations reference a specific unit, but do not include enough information 
 .. admonition:: Example
 
     Every tactical operations command in the Myanmar Army is given a numerical identifier which is the core of the name of the unit, with those under regional commands are usually numbered 1 through 3, such as ``1 Tactical Operations Command`` under the ``Coastal Regional Military Command``. However, a citation references some tactical operations commands by location, with no numerical identifier. Until another citation can be found to evidence a numerical identifier these units are given an "Unnamed" :ref:`name:annotation <unit-name-annotation>`, such as the  ``Unnamed Tactical Operations Command (Mong Mit)``.
+
+The :ref:`citation` `6370afe0-e2e7-4b43-b2bb-8f0553e78477` with the :ref:`source:title` of `Sources do not give this unit a specific name, thus the Security Force Monitor has listed it as "unnamed" until further sourcing is found` has been created to highlight any "Unnamed" unit.
+
+Differences Between Unnamed and Unknown Units
+*********************************************
 
 "Unknown" units exist solely to connect subordinate units to the wider command hierarchy, and additional sourcing could eliminate the need for them in a dataset as the specific "parent" units were identified. In contrast, for "Unnamed" units the only impact additional sourcing would have would be a change in the :ref:`name:annotation <unit-name-annotation>` for the unit. A :ref:`person` can have a :ref:`posting` to an "Unnamed" unit, but not to an "Unknown" unit. Similarly, for purposes of analysis an "Unknown" unit cannot be a perpetrator (entered in the :ref:`incident:perpetrator:refs:assertion` field) of an incident, but an "Unnamed" unit could.
