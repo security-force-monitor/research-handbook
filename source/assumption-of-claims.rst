@@ -1,15 +1,15 @@
 Parent Units Assuming Poistioning and Classifications
-*****************************************************
+#####################################################
 
 
 
 Unit Classifications
-====================
+********************
 
 Classifications are "pushed up" to parent units or the :ref:`relation:related_unit:refs:assertion` units, meaning that a :ref:`unit` should have all of the :ref:`unit:classifications:assertion` of any subordinate :ref:`unit`. For example, the :ref:`unit` representing the head of state or head of government which acts as commander-in-chief of the armed forces would have a :ref:`unit:classifications:assertion` of ``Military``, among others.
 
 Positionings
-============
+************
 
 Every :ref:`positioning` should be "pushed up" to parent units or the :ref:`relation:related_unit:refs:assertion` units, which have a :ref:`relation` that overlaps any :ref:`positioning` claim for any subordinate :ref:`unit`.
 
