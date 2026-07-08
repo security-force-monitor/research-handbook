@@ -36,6 +36,7 @@ Table of Contents
    cross-referencing-claims
    combined-citations-claims
    unknown-unnamed-units
+   assumption-of-claims
    posting-start-end-dates
 
 .. toctree::
