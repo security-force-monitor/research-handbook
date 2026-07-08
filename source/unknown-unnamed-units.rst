@@ -2,7 +2,7 @@ Unknown and Unnamed units
 #########################
 
 
-The Monitor regularly encounters ambiguity in sourcing which it has sought to highlight and resolve through the creation of units with "Unknown" or "Unnamed" in the :ref:`name:annotation <unit-name-annotation>` field. The methodology behind how we make these decisions is laid out below:
+The Monitor regularly encounters ambiguity in sourcing which it has sought to highlight and resolve through the creation of units with "Unknown" or "Unnamed" in the :ref:`name:annotation <unit-name-annotation>` field. The methodology behind how we make these decisions is laid out below.
 
 Unknown Units
 *************
