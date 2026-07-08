@@ -25,6 +25,6 @@ Unknown units are created when citations establish the hierarchy for units, but 
 Assuming Classifications of Positionings of Subordinate Units
 *************************************************************
 
-The classifcations and positionings of subordinate units should be assumed by their parent units, (units that have a :ref:`relation` to the subordinate unit). See the :ref:`Assumption of Poistioning and Classifications By Parent Units` section for a fuller discussion of this issue.
+The classifcations and positionings of subordinate units should be assumed by their parent units, (units that have a :ref:`relation` to the subordinate unit). This by its very nature creates a combination of citations for the claim. See the :ref:`Assumption of Poistioning and Classifications By Parent Units` section for a fuller discussion of this issue.
 
 
