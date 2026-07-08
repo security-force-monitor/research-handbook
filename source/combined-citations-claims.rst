@@ -21,6 +21,15 @@ Unknown units are created when citations establish the hierarchy for units, but 
 
     Citations establish that light infantry divisions of Myanmar are made up of three tactical operations commands, each of which in turn command battalions. For the ``99 Light Infantry Division`` citations establish there are the following tactical operations commands under it: ``991 Tactical Operations Command``, ``992 Tactical Operations Command``, and the ``993 Tactical Operations Command``. Thus all tactical operations commands exist in the Monitor's dataset. However, citations often reference battalions as being a part of the ``99 Light Infantry Division``, without specifying which tactical operations command the particular battalion is under. Because of this, even though all possible tactical operations commands are known and represented in the data, the Monitor has created an "Unknown" unit, the ``Unknown Tactical Operations Command (99 Light Infantry Division)``. Any citation that states a battalion is part of the ``99 Light Infantry Division``, without referencing a tactical operations command, is used to evidence a :ref:`relation` between the battalion and the ``Unknown Tactical Operations Command (99 Light Infantry Division)``. Of course, the supporting citations that establish battalions are under tactical operations command would also be entered in the :ref:`citation:refs:claim <citation-relation>` for the claim, and an explanatory note would be entered in :ref:`public_notes:meta <relation-public-notes>`.
 
+Clarifying Positionings
+***********************
+
+In many countries a city, small administrative division, and sub national division may all share similar names and be referenced with the same name. When it is unclear which location is being referenced the largest possible area should be used. Sometimes, however, citations can bring additional context to the :ref:`positioning` claim to help evidence that a smaller division, or even specific city is the appropriate claim.
+
+.. admonition:: Example
+
+    Bawlakhe in Myanmar is the name of a city, a township (a small administrative division) and a district (a larger administrative division that contains one or more townships). If a citation states that a :ref:`unit` is based in Bawlakhe it should be coded as Bawlakhe District as that is the largest area. However, if other citations evidence the same unit is based in the city of Bawlakhe then these could be added as contextual citations and the claim could be coded as * also * evidencing a :ref:`positioning` for the unit in the city of Bawlakhe. 
+
 
 Assuming Classifications of Positionings of Subordinate Units
 *************************************************************
