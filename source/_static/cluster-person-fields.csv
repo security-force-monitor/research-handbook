@@ -8,10 +8,10 @@ Attribute label , Status , Data type , Key name
 `about_entity:name:qa` , optional , string , n/a
 `name:annotation` , optional , string , ``:annotation/name``
 `person:names:assertion` , required , string , ``:assertion/person:names``
-`person:gender:assertion` , draft , string , Not yet implemented
-`person:account_type:assertion` , draft , string , Not yet implemented
-`person:account_id:assertion` , draft , string , Not yet implemented
-`person:media_description:annotation` , draft , string , Not yet implemented
+`person:gender:assertion` , optional , string , proposed
+`person:account_type:assertion` , optional , string , proposed
+`person:account_id:assertion` , optional , string , proposed
+`person:media_description:annotation` , optional , string , proposed
 `country:annotation` , required , country-iso-string , ``:annotation/country``
 `first_precise:range` , optional , string-date , ``:range-precise/first``
 `last_precise:range` , optional , string-date , ``:range-precise/last``
