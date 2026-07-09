@@ -256,7 +256,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``n/a``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
