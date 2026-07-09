@@ -4,11 +4,11 @@ Overview: Location
 What are Locations?
 -------------------
 
-Locations are unique places or positions. A named town or city can be a Location, as can an administrative area like a county, district or state. In fact, anything that be drawn on a map can be a Location: a specific point, a section of a road, a military line of control, and so on.
+Locations are unique places or positions. A named town or city can be a :ref:`Location`, as can an administrative area like a county, district or state. In fact, anything that be drawn on a map can be a :ref:`Location`: a specific point, a section of a road, a military line of control, and so on.
 
-Locations are the way we sketch out the geographical footprint of security units. We use Locations to describe the "sites" and "areas of operation" of :ref:`Units`. Locations describe security forces' infrastructure (bases, facilities, checkpoints, air fields, bunkers), as well as their territorial jurisdictions and operations as they change over time. We also use Locations to describe the places where security force units are alleged to have committed human rights abuses.
+Locations are the way we sketch out the geographical footprint of security units. We use locations to describe the "sites" and "areas of operation" of :ref:`Units`. Locations describe security forces' infrastructure (bases, facilities, checkpoints, air fields, bunkers), as well as their territorial jurisdictions and/or areas of operations as they change over time. We also use locations to describe the places where security force units are alleged to have committed human rights abuses.
 
-In the Security Force Monitor (SFM) data model, Locations are a discrete set of datapoints that can be referenced in other parts of the dataset. 
+In the Security Force Monitor (SFM) data model, locations are a discrete set of datapoints that can be referenced in other parts of the dataset. 
 
 
 .. figure:: _static/location_general_concept.png
@@ -17,7 +17,7 @@ In the Security Force Monitor (SFM) data model, Locations are a discrete set of 
    :align: center
    :alt: Chart from the Security Force Monitor Research Handbook that describes what Locations are, and how they work in the Security Force Monitor research approach.
 
-To define a Location, we start with information included in the sources contain the claims on which our research is based (see :ref:`What is a claim?` and :ref:`Sources`). The Location descriptions contained in sources vary greatly in their precision and accuracy:
+To define a :ref:`Location`, we start with information included in the sources contain the claims on which our research is based (see :ref:`What is a claim?` and :ref:`Sources`). The Location descriptions contained in sources vary greatly in their precision and accuracy:
 
  - At a precise coordinate: "Artillery Brigade deployed to latitude x, longitude y".
  - At a very specific place: "Has a checkpoint on the corner of street A and street B in Test Town".
