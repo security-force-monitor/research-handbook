@@ -31,9 +31,9 @@ In many countries a city, small administrative division, and sub national divisi
     Bawlakhe in Myanmar is the name of a city, a township (a small administrative division) and a district (a larger administrative division that contains one or more townships). If a citation states that a :ref:`unit` is based in Bawlakhe it should be coded as Bawlakhe District as that is the largest area. However, if other citations evidence the same unit is based in the city of Bawlakhe then these could be added as contextual citations and the claim could be coded as * also * evidencing a :ref:`positioning` for the unit in the city of Bawlakhe. 
 
 
-Assuming Classifications of Positionings of Subordinate Units
+Taking on Classifications of Positionings of Subordinate Units
 *************************************************************
 
-The classifcations and positionings of subordinate units should be assumed by their parent units, (units that have a :ref:`relation` to the subordinate unit). By its very nature this approach creates multiple citations for the claim. See the :ref:`Assumption of Poistioning and Classifications By Parent Units` section for a fuller discussion of this issue.
+The classifcations and positionings of subordinate units should be taken by their superior units, (units that have a :ref:`relation` to the subordinate unit). By its very nature this approach creates multiple citations for the claim. See the :ref:`Assumption of Poistioning and Classifications By Superior Units` section for a fuller discussion of this issue.
 
 
