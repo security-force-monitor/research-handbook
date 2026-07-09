@@ -4,7 +4,7 @@ Overview: Incident
 What are incidents?
 *******************
 
-Incidents are publicly-documented allegations of acts committed by state-controlled security forces that may violate human rights laws and standards, international criminal law and other sets of relevant norms. 
+Incidents are publicly documented allegations of acts committed by state-controlled security forces that may violate human rights laws and standards, international criminal law and other sets of relevant norms. 
 
 Incidents may include extrajudicial killings, rape, torture and other forms of violence. Security Force Monitor does not make these allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors around the world.
 
@@ -12,7 +12,7 @@ The Security Force Monitor does not make allegations against security forces. No
 
 For each incident, we include a description of the incident from the organization making the allegation, and from this description we structure data for the alleged type of human rights violation(s), the alleged perpetrator(s), date range and the location where the alleged type of human rights violation occurred.
 
-Each incident is stored in a claim, so we may have numerous claims about the same incident. In these cases, each claim would share the same Universally Unique Identifier (UUID) or :ref:`about_entity:ref:claim <incident-about-entity>`, but the rest of the fields would tied to the information contained in the specific citation.
+Each incident is stored in a claim, so we may have numerous claims about the same incident. In these cases, each claim would share the same Universally Unique Identifier (UUID) or :ref:`about_entity:ref:claim <incident-about-entity>`, but the rest of the fields would have entries tied to the information contained in the specific citation.
 
 Data about incidents is captured in a single claim type:
 
