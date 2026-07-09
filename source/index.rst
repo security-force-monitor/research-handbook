@@ -54,7 +54,6 @@ Table of Contents
 
    locations-overview
    locations-specific
-   location-sample-json
 
 .. toctree::
    :caption: Units
