@@ -35,7 +35,7 @@ Table of Contents
    contiguous-non-contiguous-claims
    cross-referencing-claims
    multiple-citations-claims
-   assumption-of-claims
+   take-on-claims
    unknown-unnamed-units
    posting-start-end-dates
 
