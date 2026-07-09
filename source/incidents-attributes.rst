@@ -428,7 +428,7 @@ Text, multiple entry
 Status
 ~~~~~~
 
-This attribute is optional.
+This attribute is required.
 
 Key name
 ~~~~~~~~
@@ -444,6 +444,40 @@ Guidance for use
 ~~~~~~~~~~~~~~~~
 
 In :ref:`incident:violation:types:assertion`, a value is taken as is from the source, without change. If the source states "torture", we transcribe this without further analysis. This is because the Monitor does not make specific direct allegations, but reports verbatim the allegations made by the source. The *only* change the Monitor would make would be to capitalize the first letter so that "torture" would be entered as "Torture".
+
+
+category:violation_types:annotation
+===================================
+
+Description
+~~~~~~~~~~~
+
+Draft field to allow grouping or categorization of incidents based on alleged violations.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:annotation/category:violation-types``
+
+Example of use
+~~~~~~~~~~~~~~
+
+This is a draft field.
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This draft field exists to allow for grouping or categorization of incidents based on alleged violations. The categories themselves can be determined and based on criteria established by the user of this data model.
 
 
 incident:violation:descriptions:assertion
@@ -665,39 +699,6 @@ Guidance on use
 
 This draft field provides a human readable counterpart to the :ref:`incident:victim:refs:assertion`. This field can be manually added by a researcher or automatically populated by the system after import. The best practice is to use the :ref:`name:annotation <person-name-annotation>` in this field.
 
-
-category:violation_types:annotation
-===================================
-
-Description
-~~~~~~~~~~~
-
-Draft field to allow grouping or categorization of incidents based on alleged violations.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Text string.
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Key name
-~~~~~~~~
-
-``:annotation/category:violation-types``
-
-Example of use
-~~~~~~~~~~~~~~
-
-This is a draft field.
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This draft field exists to allow for grouping or categorization of incidents based on alleged violations. The categories themselves can be determined and based on criteria established by the user of this data model.
 
 first_precise:range
 ===================
