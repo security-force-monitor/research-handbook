@@ -1,7 +1,7 @@
 Incident
 ########
 
-Incidents are publicly-documented allegations of acts committed by state-controlled security forces that may violate human rights laws and standards, international criminal law and other sets of relevant norms.
+Incidents are publicly documented allegations of acts committed by state-controlled security forces that may violate human rights laws and standards, international criminal law and other sets of relevant norms.
 
 Incidents may include extrajudicial killings, rape, torture and other forms of violence. Security Force Monitor does not make these allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors around the world.
 
@@ -666,6 +666,39 @@ Guidance on use
 This draft field provides a human readable counterpart to the :ref:`incident:victim:refs:assertion`. This field can be manually added by a researcher or automatically populated by the system after import. The best practice is to use the :ref:`name:annotation <person-name-annotation>` in this field.
 
 
+category:violation_types:annotation
+===================================
+
+Description
+~~~~~~~~~~~
+
+Draft field to allow grouping or categorization of incidents based on alleged violations.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:annotation/category:violation-types``
+
+Example of use
+~~~~~~~~~~~~~~
+
+This is a draft field.
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This draft field exists to allow for grouping or categorization of incidents based on alleged violations. The categories themselves can be determined and based on criteria established by the user of this data model.
+
 first_precise:range
 ===================
 
@@ -713,39 +746,6 @@ ending_context:range
 
 Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
-
-category:violation_types:annotation
-===================================
-
-Description
-~~~~~~~~~~~
-
-Draft field to allow grouping or categorization of incidents based on alleged violations.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Text string.
-
-Status
-~~~~~~
-
-This is a draft field.
-
-Key name
-~~~~~~~~
-
-``:annotation/category:violation-types``
-
-Example of use
-~~~~~~~~~~~~~~
-
-This is a draft field.
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-This draft field exists to allow for grouping or categorization of incidents based on alleged violations. The categoies themsleves can be determined and based on criteria established by the user of this data model.
 
 .. _incident-public-notes:
 
