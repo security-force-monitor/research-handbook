@@ -1,6 +1,9 @@
-Assumption of Poistioning and Classifications By Parent Units
-#############################################################
+Assumption of Poistioning and Classifications By Superior Units
+###############################################################
 
+Any superior :ref:`unit` should have every area of operations (:ref:`positioning` with :ref:`positioning:types:assertion` of ``aoo``) and classification (:ref:`unit:classifications:assertion`) of any subordinate :ref:`unit`. Otherwise subordinates could be operating in locations that their superiors have no link to, effectively breaking the chain of command. The challenge is that the information on these positionings, classifications, and relations are rarely all contained in the same citations, but rather scattered across numerous citations. As a result, any researcher working to bring this scattered information together must engage in complex cross-refencing of claims in order to build multiple citation claims (see the sections :ref:`Cross-Referencing Claims` and :ref:`Claims With Multiple Citations` for more background).
+
+This work is important as any analysis of potential linkages between a :ref:`unit` (and any :ref:`person` with a :ref:`posting` to that :ref:`unit`) and any alleged violations (a :ref:`incident) should take into account: time, location (the locaiton of the incident and any overlapping :ref:`positioning` ), 
 
 
 Unit Classifications
