@@ -269,7 +269,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``n/a``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -337,7 +337,7 @@ This attribute is optional
 Key name
 ~~~~~~~~
 
-``:assertion/posting:person:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -405,7 +405,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``:assertion/posting:unit:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
