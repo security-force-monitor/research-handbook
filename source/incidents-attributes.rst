@@ -399,7 +399,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``:assertion/incident:location:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
