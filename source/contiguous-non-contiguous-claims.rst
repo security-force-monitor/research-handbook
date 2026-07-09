@@ -6,7 +6,7 @@ Establishing Contiguous or Non-Contiguous Claims
    To learn more about the fundamentals of dates and timelines in Security Force Monitor's approach read :ref:`How Dates Work` first.
 
 
-Answering the question “who was where when?” is central for investigations into allegations of human rights abuse(s). Because of this perhaps one of the most defining, and complicaticating, features of the Security Force Monitor’s data is that almost everything we research is connected to time including:
+Answering the question “who was where when?” is central for investigations into allegations of human rights abuse(s). Because of this perhaps one of the most defining, and complicating, features of the Security Force Monitor’s data is that almost everything we research is connected to time including:
 
 -  Existence of units
 -  Parent relationships between units
@@ -43,7 +43,7 @@ Thus, whenever the Monitor gets a new source of information we have to decide wh
 -  Are there any other mitigating sources (i.e. major restructuring of the military, constitutional changes, etc.) which may impact the basing of the unit?
 -  Is more research needed before the Monitor can make any claim?
 
-An argument could be the Monitor should always make “separate claims” as that would be more faithful to the sources. However, the result likely mean an almost incomprehensible amount of detail in the records of people and units, which would obscure when changes really did occur, for instance when a person changed positions or a unit ends operations in an area. To some extent, our claim-based system (see :ref:`Claims with dates`) allows us to manage this complexity more easily. It gives us the ability to check specific underlying dates and data points, to plot timelines that have both claimed and inferred date ranges, and to make choices about continutiy as described in this article.
+An argument could be the Monitor should always make “separate claims” as that would be more faithful to the sources. However, the result likely mean an almost incomprehensible amount of detail in the records of people and units, which would obscure when changes really did occur, for instance when a person changed positions or a unit ends operations in an area. To some extent, our claim-based system (see :ref:`Claims with dates`) allows us to manage this complexity more easily. It gives us the ability to check specific underlying dates and data points, to plot timelines that have both claimed and inferred date ranges, and to make choices about continuity as described in this article.
 
 Time is a constant challenge, but given that is a key element in identifying perpetrators of human rights abuses it is necessary to get it right.
 
