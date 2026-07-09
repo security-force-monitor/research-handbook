@@ -257,7 +257,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``n/a``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -327,7 +327,7 @@ This attribute is required.
 Key name
 ~~~~~~~~
 
-n/a
+n/a - proposed field
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -361,7 +361,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-n/a
+n/a - proposed field
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -395,7 +395,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-n/a
+n/a - proposed field
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -429,7 +429,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-n/a
+n/a - proposed field
 
 Example of use
 ~~~~~~~~~~~~~~
