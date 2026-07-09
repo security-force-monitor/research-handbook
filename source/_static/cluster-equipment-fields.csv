@@ -9,7 +9,7 @@ Attribute label , Status , Data type , Key name
 `equipment:materiel:refs:assertion` , required , uuid-string , proposed
 `equipment:materiel:names:qa` , optional , string , n/a
 `equipment:types:assertion` , required , string , proposed
-`equipment:related_unit:refs:assertion` , required , string<->uuid , n/a
+`equipment:related_unit:refs:assertion` , required , string<->uuid , proposed
 `equipment:related_unit:names:qa` , optional , string , n/a
 `equipment:id:assertion` , optional , string , proposed
 `first_precise:range` , optional , string-date , ``:range-precise/first``
