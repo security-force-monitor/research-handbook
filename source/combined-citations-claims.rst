@@ -1,5 +1,5 @@
-Evidencing Claims By Combining Citations
-########################################
+Claims With Multiple Citations
+##############################
 
 Occassionally, the information in one citation needs additional evidencing from other citations, so multiple citations are brought together to evidence a claim. These additional citations add context or additional information to help evidence the claim. Whenever multiple citations are used there must be a explanatory note in the ``public_notes:meta`` field detailing what the additional citations help evidence. This process is another type of cross refencing which information from other citations can be brought to bare on any one claim (see the section :ref:`Cross-Referencing Claims` for more details).
 
