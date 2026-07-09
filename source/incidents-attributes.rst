@@ -256,7 +256,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``n/a``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -539,7 +539,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``:assertion/incident:perpetrator:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -653,7 +653,7 @@ This is a draft field.
 Key name
 ~~~~~~~~
 
-``:assertion/incident:victim:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
