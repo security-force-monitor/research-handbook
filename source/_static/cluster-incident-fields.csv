@@ -10,8 +10,9 @@ Attribute label , Status , Data type , Key name
 `incident:location:descriptions:assertion` , optional , string , ``:assertion/incident:location:descriptions``
 `incident:location:refs:assertion` , required , string<->uuid , ``:assertion/incident:location:refs``
 `incident:location:names:qa` , optional , string , n/a 
-`incident:violation:types:assertion` , required , string , ``:assertion/incident:violation:types``
 `incident:violation:descriptions:assertion` , required , string , ``:assertion/incident:violation:descriptions``
+`incident:violation:types:assertion` , required , string , ``:assertion/incident:violation:types``
+`category:violation_types:annotation` , optional , string , ``:annotation/category:violation-types``
 `incident:perpetrator:refs:assertion` , optional , strings<->uuids , ``:assertion/incident:perpetrator:refs``  
 `incident:perpetrator:names:qa` , optional , strings , n/a    
 `incident:perpetrator:classifications:assertion` , optional , strings , ``:assertion/incident:perpetrator:classifications``
