@@ -51,7 +51,7 @@ The date of publication of the citation is always an important consideration whe
 
     ``Xavier Johnson`` as part of ``9 Battalion`` with :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2023-11-011`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
 
-In the example above the ``last_precise:range`` is established based on the date of publication of the citation, whereas the ``first_precise:range`` is explictly stated in the text of the citation.
+In the example above the ``last_precise:range`` is established based on the date of publication of the citation, whereas the ``first_precise:range`` is explicitly stated in the text of the citation.
 
 
 
