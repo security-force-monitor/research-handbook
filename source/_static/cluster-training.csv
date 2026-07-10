@@ -13,7 +13,7 @@ Attribute label , Status , Data type , Key name
 `training:recepient_unit:refs:assertion` , optional , string<->uuid , proposed
 `training:recipent_unit:names:qa` , optional , string , n/a
 `training:recipient:classifications:assertion` , optional , list , proposed
-`training:recipient_country:annotation` , optional , string , proposed
+`training:recipient_country:annotation` , optional , string , ``:annotation/country``
 `training:location:descriptions:assertion` , optional , strings , proposed
 `training:location:refs:assertion` , optional , strings<->uuids , proposed
 `training:location:names:qa` , optional , strings , proposed
