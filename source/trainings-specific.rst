@@ -5,13 +5,13 @@ Training
 
    Draft documentation. The format described in this documentation is a proposed format which may change with further research and development.
 
-Trainings are training and assistance intervention provided bilaterally by a state or by a multilateral security actor like the European Union to the security or defence forces of another state. 
+Trainings are training and assistance intervention provided bilaterally by a state or by a multilateral security actor like the European Union to the security or defense forces of another state. 
 
 
 Training: Summary of claim attributes 
 *************************************
 
-The table below is a draft summarising the following dimensions of a proposed Training claim type:
+The table below is a draft summarizing the following dimensions of a proposed training claim type:
 
  - Attribute label: a human readable label for the attribute
  - Status: whether the attribute is optional or required in a claim
@@ -172,7 +172,7 @@ citation:refs:claim
 Description
 ~~~~~~~~~~~
 
-Field unique 32 character code assigned to citation(s) evidencing the claim.
+Field unique 32-character code assigned to citation(s) evidencing the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -207,7 +207,7 @@ about_entity:ref:claim
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code assigned to each entity in the dataset.
+A unique 32-character code assigned to each entity in the dataset.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -300,7 +300,7 @@ n/a - proposed field
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The name of the program should be entered as stated from the citation. Future development may require this field is updated as a seperate claim to allow for standardized names of programs.
+The name of the program should be entered as stated from the citation. Future development may require this field to be updated as a separate claim to allow for standardized names of programs.
 
 
 training:course:refs:assertion
@@ -334,7 +334,7 @@ n/a - proposed field
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The name of the course should be entered as stated from the citation. Future development may require this field is updated as a seperate claim to allow for standardized names of courses.
+The name of the course should be entered as stated from the citation. Future development may require this field to be updated as a separate claim to allow for standardized names of courses.
 
 
 training:trainer_unit:refs:assertion
@@ -513,7 +513,7 @@ training:recipient_country:annotation
 Description
 ~~~~~~~~~~~
 
-Associated country of the unit being trained used for grouping claims.
+Traget country for training, used for grouping claims.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -860,4 +860,4 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-For a :ref:`training` the only allowed entry for this field is ``claim``.
+For a :ref:`training` the only entry allowed for this field is ``claim``.
