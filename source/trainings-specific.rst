@@ -269,47 +269,13 @@ Guidance on use
 This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <training-about-entity>` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import.
 
 
-component:materiel:refs:assertion
-=================================
+training:program:refs:assertion
+===============================
 
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code of the materiel which is a component of other materiel.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String in UUID format.
-
-Status
-~~~~~~
-
-This attribute is required.
-
-Key name
-~~~~~~~~
-
-n/a - proposed field
-
-Example of use
-~~~~~~~~~~~~~~
-
-``b00ff36f-f367-4a48-9497-897d77decb8ad``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-The UUID used in :ref:`component:materiel:refs:assertion` must be for :ref:`materiel` that already exists in the dataset.
-
-
-component:materiel:names:qa
-===========================
-
-Description
-~~~~~~~~~~~
-
-The human readable name of the materiel which is a component of other materiel.
+The name of program which the :ref:`training:course:refs:assertion` is part.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -329,31 +295,31 @@ n/a - proposed field
 Example of use
 ~~~~~~~~~~~~~~
 
-``GBU-12``
+n/a - proposed field
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the :ref:`component:materiel:refs:assertion` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <materiel-name-annotation>` of the :ref:`materiel` in the :ref:`component:materiel:refs:assertion` field.
+The name of the program should be entered as stated from the citation. Future development may require this field is updated as a seperate claim to allow for standardized names of programs.
 
 
-component:types:assertion
-=========================
+training:course:refs:assertion
+==============================
 
 Description
 ~~~~~~~~~~~
 
-The type of relationship that exists between the materiel.
+The name of the specific training course.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String from controlled list.
+Text string.
 
 Status
 ~~~~~~
 
-This attribute is required.
+This attribute is optional.
 
 Key name
 ~~~~~~~~
@@ -363,21 +329,21 @@ n/a - proposed field
 Example of use
 ~~~~~~~~~~~~~~
 
-``component-of``
+n/a - proposed field
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-We use this field to define the nature of the relationship between the :ref:`materiel` that is the subject of the claim (as described in :ref:`component:materiel:refs:assertion`) and the other :ref:`materiel` described in :ref:`component:aggregate_materiel:refs:assertion`. The only value that can be used by the researcher in this attribute is ``component-of``. As this is a draft field the number of possible entries in this field may increase. The field may also prove redundant and be removed in future updates.
+The name of the course should be entered as stated from the citation. Future development may require this field is updated as a seperate claim to allow for standardized names of courses.
 
 
-component:aggregate_materiel:refs:assertion
-===========================================
+training:trainer_unit:refs:assertion
+====================================
 
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code of the materiel which is made up of the component.
+The unique 32-character code of the unit providing the training.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -397,21 +363,21 @@ n/a - proposed field
 Example of use
 ~~~~~~~~~~~~~~
 
-``ca19cc03-1180-469d-b87a-94fb54d657fb``
+n/a - proposed field
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The UUID used in :ref:`component:aggregate_materiel:refs:assertion` must be for :ref:`materiel` which already exists in the dataset.
+The Universally Unique Identifier (UUID) used must be for a :ref:`unit` which already exists in the dataset.
 
 
-component:aggregate_materiel:names:qa
-=====================================
+training:trainer_unit:names:qa
+==============================
 
 Description
 ~~~~~~~~~~~
 
-The human readable name of the materiel which is made up of the component materiel.
+The human readable name of the unit providing the training.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -426,17 +392,88 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-n/a
+n/a - proposed field
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``MiG-21UM``
+n/a - proposed field
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the :ref:`component:aggregate_materiel:refs:assertion` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <materiel-name-annotation>` of the :ref:`materiel` in the :ref:`component:aggregate_materiel:refs:assertio` field.
+This is human readable name for the :ref:`training:trainer_unit:refs:assertion`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
+
+
+training:recepient_unit:refs:assertion
+======================================
+
+Description
+~~~~~~~~~~~
+
+The unique 32-character code of the unit receiving the training.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String in UUID format.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a - proposed field
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed field
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+The Universally Unique Identifier (UUID) used must be for a :ref:`unit` which already exists in the dataset.
+
+
+training:recipent_unit:names:qa
+==============================
+
+Description
+~~~~~~~~~~~
+
+The human readable name of the unit receiving the training.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a - proposed field
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed field
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This is human readable name for the :ref:`training:recepient_unit:refs:assertion`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
+
+
+
 
 
 first_precise:range
