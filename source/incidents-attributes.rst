@@ -615,7 +615,7 @@ Example of use
 Guidance for use
 ~~~~~~~~~~~~~~~~
 
-Sometimes a source will report general information about the alleged perpetrators of an act. For example, rather than state a unit or a specific person the source might include something generic like “soldiers” or “police". In these cases we use the same methodology used assign a :ref:`unit:classifications:assertion` to assign a :ref:`incident:perpetrator:classifications:assertion`. The list of possible entries used in :ref:`incident:perpetrator:classifications:assertion` is the same for :ref:`unit:classifications:assertion`.
+Sometimes a citation will report general information about the alleged perpetrators of an act. For example, rather than state a unit or a specific person the citation might include something generic like “soldiers” or “police". In these cases we use the same methodology used assign a :ref:`unit:classifications:assertion` to assign a :ref:`incident:perpetrator:classifications:assertion`. The list of possible entries used in :ref:`incident:perpetrator:classifications:assertion` is the same for :ref:`unit:classifications:assertion`.
 
 .. admonition:: Example
 
