@@ -475,7 +475,7 @@ The :ref:`positioning:location:refs:assertion` should always be the location cov
 
 .. admonition:: Example
 
-    In Myanmar there is a region of ``Magway``, which contains ``Magway District``. The district contains ``Magway Township``, and the township contains the city of ``Magway``. If a unit is described as being based in "Magway" the ``site`` used in data entry should be the region of ``Magway``.
+    In Myanmar there is a region of ``Magway``, which contains ``Magway District``. The district contains ``Magway Township``, and the township contains the city of ``Magway``. If a unit is described as based in "Magway" the ``site`` used in data entry should be the region of ``Magway``.
 
 
 positioning:location:names:qa
