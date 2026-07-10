@@ -442,7 +442,7 @@ Every unit which has a "specific" classification should also have the "generic" 
 
     Units that have an ``Army`` classification should also have a :ref:`unit:classifications:assertion` of ``Military``.
 
-Classifications are "pushed up" to parent units or the :ref:`relation:related_unit:refs:assertion` units, meaning that a :ref:`unit` should have all of the :ref:`unit:classifications:assertion` of any subordinate :ref:`unit`. For example, the :ref:`unit` representing the head of state or head of government which acts as commander-in-chief of the armed forces would have a :ref:`unit:classifications:assertion` of ``Military``, among others.
+Classifications are "taken on" to parent units or the :ref:`relation:related_unit:refs:assertion` units, meaning that a :ref:`unit` should have all of the :ref:`unit:classifications:assertion` of any subordinate :ref:`unit`. For example, the :ref:`unit` representing the head of state or head of government which acts as commander-in-chief of the armed forces would have a :ref:`unit:classifications:assertion` of ``Military``, among others. See the section :ref:`Superior Units Taking On Positionings and Classifications of Subordinates` for more guidance.
 
 
 country:annotation
