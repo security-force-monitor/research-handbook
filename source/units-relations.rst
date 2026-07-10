@@ -93,7 +93,7 @@ Claims are marked ``accepted`` when all of the data can be entered in accordance
 
 .. admonition:: Example
 
-    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish a general numbering practices of the army which provides further evidence that no such battalion exists. The ``unit`` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with ``status:meta`` of the ``conflict``, and have the status fully explained in a ``public_notes:meta``.
+    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish a general numbering practice of the army which provides further evidence that no such battalion exists. The ``unit`` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with ``status:meta`` of the ``conflict``, and have the status fully explained in a ``public_notes:meta``.
 
 If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
@@ -173,7 +173,7 @@ citation:refs:claim
 Description
 ~~~~~~~~~~~
 
-Field unique 32 character code assigned to citation(s) evidencing the claim.
+Field unique 32-character code assigned to citation(s) evidencing the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -208,7 +208,7 @@ about_entity:ref:claim
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code assigned to each entity in the dataset.
+A unique 32-character code assigned to each entity in the dataset.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -294,7 +294,7 @@ relation:unit:refs:assertion
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code assigned to the unit with the :ref:`relation` which is the focus of the claim.
+The unique 32-character code assigned to the unit with the :ref:`relation` which is the focus of the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -405,7 +405,7 @@ relation:related_unit:refs:assertion
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code of the immediate superior or parent unit of the current unit, or the unit to which the current unit is a member.
+The unique 32-character code of the immediate superior or parent unit of the current unit, or the unit to which the current unit is a member.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -500,7 +500,7 @@ Guidance on use
 
 Units have a ``command`` relationship when the related parent unit can order the unit to perform some operational activity. These cover both *de jure* and *de facto* relationships between units.
 
-The ``class`` entry in this field is exclusively used for modeling the different "classes" or "intakes" of security force training or academic insitutions.
+The ``class`` entry in this field is exclusively used for modeling the different "classes" or "intakes" of security force training or academic institutions.
 
 .. admonition:: Example
 
