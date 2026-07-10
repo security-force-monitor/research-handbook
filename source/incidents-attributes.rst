@@ -309,7 +309,7 @@ incident:location:descriptions:assertion
 Description
 ~~~~~~~~~~~~~~
 
-A textual description of a location which cannot be represented in data, copied directly from the citation.
+A textual description of a place which cannot be represented in data, copied directly from the citation.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -333,7 +333,7 @@ Example of use
 Guidance for use
 ~~~~~~~~~~~~~~~~
 
-We use this attribute to record the location of an incident exactly as described in the citation. Here is an example:
+We use this attribute to record the place an incident occurred, exactly as described in the citation. Here is an example:
 
 .. admonition:: Example
 
