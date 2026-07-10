@@ -11,7 +11,7 @@ For "Unknown" units the Monitor will have sources for the overall hierarchical s
 
 .. admonition:: Example
 
-    Multiple sources, including the laws of Nigeria, lay out that the chain of command for the Police goes from each state (and the Federal Capital Territory) having a single Police Command, under which are Police Area Commands and under Police Area Command are Police Divisions. For the Abayi Police Division the Monitor has sources placing it in Aba, Abia state, making it ultimately under the control of the Abia State Police Command, per the law. However, the Monitor does not have sources indicating which Police Area Command controls Abayi Police Division, thus the Monitor has created a unit called ``Unknown Police Area Command in Abia State`` which is the parent unit of ``Abayi Police Division``. In turn ``Abia State Police Command`` is the parent of ``Unknown Police Area Command in Abia State``, which connects ``Abayi Police Division`` to the wider police command structure.
+    Multiple sources, including the laws of Nigeria, lay out that the chain of command for the Police goes from each state (and the Federal Capital Territory) having a single Police Command, under which are Police Area Commands and under Police Area Command are Police Divisions. For the Abayi Police Division the Monitor has sources placing it in Aba, Abia state, making it ultimately under the control of the Abia State Police Command, per the law. However, the Monitor does not have sources indicating which Police Area Command controls Abayi Police Division, and because of this the Monitor has created a unit called ``Unknown Police Area Command in Abia State`` which is the parent unit of ``Abayi Police Division``. In turn ``Abia State Police Command`` is the parent of ``Unknown Police Area Command in Abia State``, which connects ``Abayi Police Division`` to the wider police command structure.
 
 .. admonition:: Example
 
@@ -30,7 +30,7 @@ When citations reference a specific unit, but do not include enough information 
 
     Every tactical operations command in the Myanmar Army is given a numerical identifier which is the core of the name of the unit, with those under regional commands are usually numbered 1 through 3, such as ``1 Tactical Operations Command`` under the ``Coastal Regional Military Command``. However, a citation references some tactical operations commands by location, with no numerical identifier. Until another citation can be found to evidence a numerical identifier these units are given an "Unnamed" :ref:`name:annotation <unit-name-annotation>`, such as the  ``Unnamed Tactical Operations Command (Mong Mit)``.
 
-The :ref:`citation` ``6370afe0-e2e7-4b43-b2bb-8f0553e78477`` with the :ref:`source:title` of ``Sources do not give this unit a specific name, thus the Security Force Monitor has listed it as "unnamed" until further sourcing is found`` has been created to highlight any "Unnamed" unit.
+The :ref:`citation` ``6370afe0-e2e7-4b43-b2bb-8f0553e78477`` with the :ref:`source:title` of ``Sources do not give this unit a specific name, because of this the Security Force Monitor has listed it as "unnamed" until further sourcing is found`` has been created to highlight any "Unnamed" unit.
 
 Differences Between Unnamed and Unknown Units
 *********************************************
