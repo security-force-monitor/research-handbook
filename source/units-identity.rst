@@ -90,7 +90,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. A :ref:`public_notes:meta <unit-public-notes-meta>` should always accompany any ``conflict`` claim.
+Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim (see :ref:`Citations with both Accepted and Conflicted Information` for guidance when one claim from a citation contains both ``accepted`` and ``conflict`` information). A :ref:`public_notes:meta <unit-public-notes-meta>` should always accompany any ``conflict`` claim.
 
 .. admonition:: Example
 
