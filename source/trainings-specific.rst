@@ -440,7 +440,7 @@ The Universally Unique Identifier (UUID) used must be for a :ref:`unit` which al
 
 
 training:recipent_unit:names:qa
-==============================
+===============================
 
 Description
 ~~~~~~~~~~~
@@ -473,7 +473,310 @@ Guidance on use
 This is human readable name for the :ref:`training:recepient_unit:refs:assertion`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
 
 
+training:recipient:classifications:assertion
+============================================
 
+Description
+~~~~~~~~~~~~~~
+
+A general descriptor of trainees, often matches a branch or branches of the security forces.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a - proposed field
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed field
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Sometimes a citation will report general information about the trainee. For example, rather than state a unit or a specific person the citation might include something generic like “soldiers” or “police". In these cases we use the same methodology used assign a :ref:`training:recipient:classifications:assertion` to assign a :ref:`unit:classifications:assertion`. The list of possible entries used in :ref:`training:recipient:classifications:assertion` is the same for :ref:`unit:classifications:assertion`.
+
+
+training:recipient_country:annotation
+=====================================
+
+Description
+~~~~~~~~~~~
+
+Associated country of the unit being trained used for grouping claims.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text, controlled vocabulary.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:annotation/country``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``mx``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`_. This field is used to aid grouping trainings into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based the target country for the :ref:`training` as specified in the citation, or any related :ref:`positioning` the :ref:`training:recepient_unit:refs:assertion` holds, or any other contextual information from citations about the :ref:`training:recepient_unit:refs:assertion`.
+
+
+training:location:descriptions:assertion
+========================================
+
+Description
+~~~~~~~~~~~
+
+A textual description of a location which cannot be represented in data, copied directly from the citation.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a - proposed field
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed field
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+We use this attribute to record the place a :ref:`training` occurred, exactly as described in the citation.
+
+
+training:location:refs:assertion
+================================
+
+Description
+~~~~~~~~~~~~~~
+
+The unique identifier of a location, drawn from the data on existing locations
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String in UUID format
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a - proposed field
+
+Example of use
+~~~~~~~~~~~~~~
+
+``4d7d97a6-d85e-436b-9511-81e8d55ceff3``(the identifier for the location``Baga (osm, point) 4d7d97a6-d85e-436b-9511-81e8d55ceff3``)
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field is used to store information about the :ref:`location` where the training occurred. The value included in this field must be taken from :ref:`id:entity` attribute from the location dataset. For further guidance on the creation, management and use of locations visit the :ref:`location` documentation.
+
+
+training:location:names:qa
+==========================
+
+Description
+~~~~~~~~~~~~~~
+
+Human readable name for location.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a - proposed field
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Hpruso Township (osm, poly) fd51e411-0a21-439c-ba3b-b6aa787541d1``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+The best practice for this field is to use the :ref:`location:humane_id:qa` of the :ref:`training:location:refs:assertion`.
+
+
+training:quanity_trainees:assertion
+===================================
+
+Description
+~~~~~~~~~~~~~~
+
+Number of trainees for the training.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a - proposed field
+
+Example of use
+~~~~~~~~~~~~~~
+
+``300``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+If the citation reports the number of attendees or number of persons trained, it should be entered in this field.
+
+
+training:quantity:assertion
+===========================
+
+Description
+~~~~~~~~~~~~~~
+
+Number of trainings.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a - proposed field
+
+Example of use
+~~~~~~~~~~~~~~
+
+``3``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+If the citation reports the number of trainings, it should be entered in this field.
+
+
+training:cost:assertion
+=======================
+
+Description
+~~~~~~~~~~~~~~
+
+Cost of trainings.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a - proposed field
+
+Example of use
+~~~~~~~~~~~~~~
+
+``17856``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+If citations report the total cost of the training, it should be entered in this field.
+
+
+training:cost_currency:assertion
+================================
+
+Description
+~~~~~~~~~~~
+
+Associated currency of the country or supranational entity providing the training.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text, controlled vocabulary.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a - proposed
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`_.
 
 
 first_precise:range
