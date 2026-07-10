@@ -70,6 +70,7 @@ Guidance on use
 
 Entering ``positioning`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:`positioning`. For quality assurance purposes, entering ``positioning`` should create an error if there is any entry for fields tied to other types of claims, such as :ref:`unit` or :ref:`relation`.
 
+.. _positioning-status-meta:
 
 status:meta
 ===========
@@ -102,11 +103,11 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim. A :ref:`public_notes:meta <positionings-public-notes>` should always accompany any ``conflict`` claim.
+Claims are marked ``accepted`` when all the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim (see :ref:`Citations with both Accepted and Conflicted Information` for guidance when one claim from a citation contains both ``accepted`` and ``conflict`` information). A :ref:`public_notes:meta <positionings-public-notes>` should always accompany any ``conflict`` claim.
 
 .. admonition:: Example
 
-    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish the general practice for  numbering army units which provides further evidence that no such battalion exists. The :ref:`unit` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with ``status:meta`` of the ``conflict``, and have the status fully explained in a :ref:`public_notes:meta <positionings-public-notes>`.
+    Citations reference a unit ``757 Light Infantry Battalion`` in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this :ref:`unit`. Further citations establish the general practice for numbering army units which provides further evidence that no such battalion exists. Any :ref:`positioning` claims related to the ``757 Light Infantry Battalion`` should still be entered into the dataset, flagged with :ref:`status:meta <positioning-status-meta>` of the ``conflict``, and have the status fully explained in a :ref:`public_notes:meta <positionings-public-notes>`.
 
 If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
@@ -389,12 +390,10 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field defines the relationship between a unit and a location. The Staff Researcher must choose one of the two options below:
+This field defines the relationship between a unit and a :ref:`location`. The Staff Researcher must choose one of the two options below:
 
- - ``site``: the Location describes a "site", such as a settlement or specific point, at which the unit is based.
- - ``aoo``: the Location in describes an area, such as an administrative area, where the unit is known to have conducted operations or has territorial jurisdiction.
-
-The type of Location may be different from the way that the Location is described. For example, a small geographic area like a suburb is a *geometric area* but it could be used to describe a "site" for a unit. Locations themselves are a mix of geographical primatives - points, lines and polygons. This is why every :ref:`Location` are defined independently of their relationship to any :ref:`unit` or :ref:`incident`.
+ - ``site``: the :ref:`location` describes a "site" at which the unit is based.
+ - ``aoo``: the :ref:`location` in describes a place (usually an administrative area), where the unit is known to have conducted operations or has territorial jurisdiction. When the ``aoo`` is a specific point, such as an intersection or a town (villages, towns and other populated places are usually represented as a point in most gazeeters), then the smallest/lowest level encompassing administrative area should also be entered as a separate claim using the same citation. This is done to capture that when a :ref:`unit` is reported to have conducted an operation in a specific place (represented by a point or small polygon), by its very nature was operating the area around the point or small polygon. If the :ref:`location` is drawn from UN Office for the Coordination of Humanitarian Affairs (OCHA) the researcher should use a :ref:`location` with a :ref:`location:admin_level:qa` of ``3`` of ``4``. OpenStreetMaps has much more variance in administrative levels for countries, so if the :ref:`location` is drawn from OpenStreetMaps then the researcher would usually use a :ref:`location` with a :ref:`location:admin_level:qa` of ``6`` or lower.
 
 
 positioning:base_names:assertion
