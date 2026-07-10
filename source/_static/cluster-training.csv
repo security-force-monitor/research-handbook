@@ -17,7 +17,6 @@ Attribute label , Status , Data type , Key name
 `training:location:descriptions:assertion` , optional , strings , proposed
 `training:location:refs:assertion` , optional , strings<->uuids , proposed
 `training:location:names:qa` , optional , strings , proposed
-`training:quanity_trainees:assertion` , optional , strings , proposed
 `training:quantity:assertion` , optional , strings , proposed
 `training:cost:assertion` , optional , strings , proposed
 `training:cost_currency:assertion` , optional , strings , proposed
