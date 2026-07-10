@@ -333,7 +333,7 @@ Example of use
 Guidance for use
 ~~~~~~~~~~~~~~~~
 
-We use this attribute to record the location of an incident exactly as described in the source. Here is an example:
+We use this attribute to record the location of an incident exactly as described in the citation. Here is an example:
 
 .. admonition:: Example
 
