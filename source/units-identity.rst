@@ -94,7 +94,7 @@ Claims are marked ``accepted`` when all of the data can be entered in accordance
 
 .. admonition:: Example
 
-    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish a general numbering practices of the army which provides further evidence that no such battalion exists. The :ref:`unit` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with :ref:`status:meta <unit-status-meta>` of the ``conflict``, and have the status fully explained in a :ref:`public_notes:meta <unit-public-notes-meta>`.
+    Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish a general numbering practice of the army which provides further evidence that no such battalion exists. The :ref:`unit` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with :ref:`status:meta <unit-status-meta>` of the ``conflict``, and have the status fully explained in a :ref:`public_notes:meta <unit-public-notes-meta>`.
 
 If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
