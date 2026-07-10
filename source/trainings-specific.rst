@@ -643,8 +643,8 @@ Guidance on use
 The best practice for this field is to use the :ref:`location:humane_id:qa` of the :ref:`training:location:refs:assertion`.
 
 
-training:quanity_trainees:assertion
-===================================
+training:quanity:assertion
+==========================
 
 Description
 ~~~~~~~~~~~~~~
@@ -675,40 +675,6 @@ Guidance on use
 ~~~~~~~~~~~~~~~
 
 If the citation reports the number of attendees or number of persons trained, it should be entered in this field.
-
-
-training:quantity:assertion
-===========================
-
-Description
-~~~~~~~~~~~~~~
-
-Number of trainings.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-String
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Key name
-~~~~~~~~
-
-n/a - proposed field
-
-Example of use
-~~~~~~~~~~~~~~
-
-``3``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-If the citation reports the number of trainings, it should be entered in this field.
 
 
 training:cost:assertion
