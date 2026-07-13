@@ -128,8 +128,8 @@ Guidance on use
 Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <notes-location>` field.
 
 
-citation:refs:claim
-===================
+citation:refs:location
+======================
 
 Description
 ~~~~~~~~~~~
@@ -149,7 +149,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``:claim/citation:refs``
+n/a - proposed
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -159,7 +159,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are drawn from an external gazeeter or geographic database, and because of this they do not require a citation. However, best practice is to include a citation whenever possible. When two or more citations are needed to evidence a location then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <notes-location>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`ref:source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
+Locations are drawn from an external gazeeter or geographic database, and because of this they do not require a citation. However, as the location data model is updated citations may be needed to evidence the creation and disbandment of locations, and perhaps other features as well which are not generally included in gazeeters or geographic databases. When two or more citations are needed to evidence a location then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <notes-location>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`ref:source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
 
 id:entity
@@ -269,6 +269,40 @@ Guidance on use
 The value in :ref:`name:annotation <location-name-annotation>` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's own "name" attribute and place it in :ref:`name:annotation <location-name-annotation>`. Along with :ref:`origin_id:location` and :ref:`geo_type:qa`, :ref:`name:annotation <location-name-annotation>` is needed for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily-defined, or is derived from a data source that does not provide a name, the Staff Researcher can provide one.
 
 
+origin:location
+===============
+
+Description
+~~~~~~~~~~~
+
+The geospatial information source that provides information about this Location.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is required.
+
+Key name
+~~~~~~~~
+
+``:location/origin``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``osm``, ``sfm``, ``hdx``, ``mimu``, ``khrg``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+The values in :ref:`origin:location` identify where automation tools should go to obtain spatial information about an object. For example, if the value ``osm`` is entered in :ref:`origin:location` this indicates that the automation tool should query OpenStreetMap in order to obtain spatial information about a Location. If ``osm`` were set, then the values in :ref:`name:annotation <location-name-annotation>` and :ref:`origin_id:location` would correspond to the object name and ID number in OpenStreetMap. Locations can be derived from comprehensive online services, as well as other sources like locally-held ``.shp`` or ``.kml`` files. The number of origins is unlimited.
+
+
 origin_id:location
 ==================
 
@@ -343,18 +377,18 @@ This attribute used a controlled vocabulary to describe the type of geometry use
 The gazeteer used as the source of geometry may used different terminology to describe the Location. For example, in OpenStreetMap the boundaries of administrative areas (such as counties or states) `are described <https://wiki.openstreetmap.org/wiki/Relation>`_ using an object called a "relation"; although this can be a complex mix of different objects, for our purposes it is a ``poly`` because it describes an area.
 
 
-origin:location
-===============
+country:annotation
+==================
 
 Description
 ~~~~~~~~~~~
 
-The geospatial information source that provides information about this Location.
+Country in which the Location is situated.
 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
 
-String
+Text, controlled vocabulary
 
 Status
 ~~~~~~
@@ -364,17 +398,17 @@ This attribute is required.
 Key name
 ~~~~~~~~
 
-``:location/origin``
+``:annotation/country``
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``osm``, ``sfm``, ``hdx``, ``mimu``, ``khrg``
+``ye``, ``ng``, ``mm``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The values in :ref:`origin:location` identify where automation tools should go to obtain spatial information about an object. For example, if the value ``osm`` is entered in :ref:`origin:location` this indicates that the automation tool should query OpenStreetMap in order to obtain spatial information about a Location. If ``osm`` were set, then the values in :ref:`name:annotation <location-name-annotation>` and :ref:`origin_id:location` would correspond to the object name and ID number in OpenStreetMap. Locations can be derived from comprehensive online services, as well as other sources like locally-held ``.shp`` or ``.kml`` files. The number of origins is unlimited.
+Values for this attribute are the ISO 3166-1 alpha-2 country codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__.
 
 
 geometry:ref:entity
@@ -411,40 +445,6 @@ Guidance on use
 SFM's location database gives a separate UUID for every geojson which must be matched to the location. This field enables the geographic data used to generate locations to be unique, and to connect these unique geojson to the data in the Locations sheet.
 
 
-country:annotation
-==================
-
-Description
-~~~~~~~~~~~
-
-Country in which the Location is situated.
-
-Type of attribute
-~~~~~~~~~~~~~~~~~
-
-Text, controlled vocabulary
-
-Status
-~~~~~~
-
-This attribute is required.
-
-Key name
-~~~~~~~~
-
-``:annotation/country``
-
-Example of use
-~~~~~~~~~~~~~~
-
-``ye``, ``ng``, ``mm``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Values for this attribute are the ISO 3166-1 alpha-2 country codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__.
-
-
 location:explicit_parent:annotation
 ===================================
 
@@ -476,54 +476,6 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 If a geographic dataset does not establish whether locations are within one another, this field may be used to manually create the hierarchy between locations. The :ref:`location:humane_id:qa` should be used in this field.
-
-
-first_precise:range
-===================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-last_precise:range
-==================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-first_imprecise:range
-=====================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-last_imprecise:range
-====================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-starting:range
-==============
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-ending:range
-============
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-starting_context:range
-======================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-ending_context:range
-====================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
 
 location:admin_level:qa
@@ -560,8 +512,6 @@ Guidance on use
 In every country, places are organized hierarchically based on their administrative hierarchy. This feature passes into geographical information systems. At the top of the hierarchy rests the international boundary and capital city of a country; beneath this, there are sub-national divisions like states or provinces, with their respective capitals, followed by smaller and smaller administrative divisions districts, counties, municipalities, towns, suburbs, wards and so on. Different countries have different ways of describing these political and administrative divisions, but they are largely hierarchical and can be cross-compared. Knowing the level(s) at which a Location sits in the overall hierarchy provides us with a useful way to group and understand Locations.
 
 The attribute :ref:`location:admin_level:qa` is drawn from the geographic source, such as the UN Office for the Coordination of Humanitarian Affairs (OCHA) schema which `can be found here <https://knowledge.base.unocha.org/wiki/spaces/imtoolbox/pages/3942121476/COD-AB+lines+layers>`__. If the source lacks its own hierarchy then we use OpenStreetMap, which has a `comprehensive table <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__ that matches the divisions that exist in every country.
-
-
 
 
 location:admin_level_10:qa
@@ -936,6 +886,55 @@ Guidance on use
 ~~~~~~~~~~~~~~~
 
 This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the international boundary of a country as defined in the UN Office for the Coordination of Humanitarian Affairs (OCHA) schema.
+
+
+first_precise:range
+===================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+last_precise:range
+==================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+first_imprecise:range
+=====================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+last_imprecise:range
+====================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+starting:range
+==============
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+ending:range
+============
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+starting_context:range
+======================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+ending_context:range
+====================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
 
 .. _notes-location:
 
