@@ -783,49 +783,273 @@ Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, whic
 first_precise:range
 ===================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+The first precise date in the range.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String-date
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range-precise/first``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 last_precise:range
 ==================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+The last precise date in the range.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String-date
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range-precise/last``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 first_imprecise:range
 =====================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+The first imprecise date in the range.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String-date
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range-imprecise/first``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 last_imprecise:range
 ====================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+The last imprecise date in the range.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String-date
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range-imprecise/last``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 starting:range
 ==============
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+Flag for if first date in range is the start date or not.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+Y/N boolean
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range/starting?``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 ending:range
 ============
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+Flag for if last date in range is the start date or not.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+Y/N boolean
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range/ending?``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 starting_context:range
 ======================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+Simple description of start date.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range/starting-context``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 ending_context:range
 ====================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+Simple description of end date.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range/ending-context``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 .. _training-public-notes:
