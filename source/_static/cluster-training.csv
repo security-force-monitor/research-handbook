@@ -9,7 +9,8 @@ Attribute label , Status , Data type , Key name
 `training:program:refs:assertion` , optional , string , proposed
 `training:course:refs:assertion` , optional , string , proposed
 `training:trainer_unit:refs:assertion` , optional , string<->uuid , proposed
-`training:trainer_unit:names:qa` , optional , string , n/a  
+`training:trainer_unit:names:qa` , optional , string , n/a
+`training:trainer_country:annotation` , optional , string , proposed
 `training:recepient_unit:refs:assertion` , optional , string<->uuid , proposed
 `training:recipent_unit:names:qa` , optional , string , n/a
 `training:recipient:classifications:assertion` , optional , list , proposed
