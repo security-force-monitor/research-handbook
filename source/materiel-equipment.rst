@@ -471,7 +471,41 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute is used to capture any serial number, tail number, or other identifier for a specific piece of :ref:`materiel`.
+This attribute is used to capture any serial number, tail number, or other identifier for a specific piece of :ref:`equipment`.
+
+
+equipment:roles:assertion
+=========================
+
+Description
+~~~~~~~~~~~
+
+Description of role of equipment.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a - proposed field
+
+Example of use
+~~~~~~~~~~~~~~
+
+``close air support`` , ``training``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This attribute is used to capture the purpose, mission or role of the :ref:`equipment`.
 
 
 first_precise:range
