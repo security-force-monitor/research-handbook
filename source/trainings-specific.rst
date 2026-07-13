@@ -165,6 +165,7 @@ Guidance on use
 
 Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <training-public-notes>` field.
 
+.. _training-citation:
 
 citation:refs:claim
 ===================
@@ -403,6 +404,40 @@ Guidance on use
 ~~~~~~~~~~~~~~~
 
 This is human readable name for the :ref:`training:trainer_unit:refs:assertion`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
+
+
+training:trainer_country:annotation
+===================================
+
+Description
+~~~~~~~~~~~
+
+Country or entity providing training, used for grouping claims.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text, controlled vocabulary.
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+n/a - proposed
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`_. This field is used to aid grouping trainings into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based the :ref:`citation:refs:claim <training-citation>`.
 
 
 training:recepient_unit:refs:assertion
