@@ -443,49 +443,273 @@ This field provides a human readable counterpart to the :ref:`component:aggregat
 first_precise:range
 ===================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+The first precise date in the range.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String-date
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range-precise/first``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
 
 
 last_precise:range
 ==================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+The last precise date in the range.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String-date
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range-precise/last``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
 
 
 first_imprecise:range
 =====================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+The first imprecise date in the range.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String-date
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range-imprecise/first``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
 
 
 last_imprecise:range
 ====================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+The last imprecise date in the range.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String-date
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range-imprecise/last``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
 
 
 starting:range
 ==============
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+Flag for if first date in range is the start date or not.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+Y/N boolean
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range/starting?``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
 
 
 ending:range
 ============
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+Flag for if last date in range is the start date or not.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+Y/N boolean
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range/ending?``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
 
 
 starting_context:range
 ======================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+Simple description of start date.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range/starting-context``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
 
 
 ending_context:range
 ====================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+Simple description of end date.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range/ending-context``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a - proposed
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
 
 
 .. _component-public-notes:
