@@ -760,7 +760,7 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``Born``
+``Appointed`` , ``Assumed Posting`` , ``Promoted``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -794,7 +794,7 @@ Key name
 Example of use
 ~~~~~~~~~~~~~~
 
-``Killed`` , ``Died``
+``Removed from Posting`` , ``Transferred`` , ``Promoted`` , ``Killed``
 
 Guidance on use
 ~~~~~~~~~~~~~~~
