@@ -471,7 +471,7 @@ n/a - proposed
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 last_precise:range
@@ -505,7 +505,7 @@ n/a - proposed
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 first_imprecise:range
@@ -539,7 +539,7 @@ n/a - proposed
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 last_imprecise:range
@@ -573,7 +573,7 @@ n/a - proposed
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 starting:range
@@ -607,7 +607,7 @@ n/a - proposed
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 ending:range
@@ -641,7 +641,7 @@ n/a - proposed
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 starting_context:range
@@ -675,7 +675,7 @@ n/a - proposed
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 ending_context:range
@@ -709,7 +709,7 @@ n/a - proposed
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 .. _component-public-notes:
