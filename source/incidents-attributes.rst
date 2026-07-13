@@ -701,49 +701,273 @@ This draft field provides a human readable counterpart to the :ref:`incident:vic
 first_precise:range
 ===================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+The first precise date in the range.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String-date
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range-precise/first``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``2024-07-03`` , ``2022-08-21``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 last_precise:range
 ==================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+The last precise date in the range.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String-date
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range-precise/last``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``2024-07-03`` , ``2022-08-21``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 first_imprecise:range
 =====================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+The first imprecise date in the range.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String-date
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range-imprecise/first``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``2024-03-25``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 last_imprecise:range
 ====================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+The last imprecise date in the range.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String-date
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range-imprecise/last``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``2023-07-31`` , ``2024-01-10``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 starting:range
 ==============
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+Flag for if first date in range is the start date or not.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+Y/N boolean
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range/starting?``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Y`` , ``N``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+For an :ref:`incident` this field is always entered as ``Y``. Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 ending:range
 ============
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+Flag for if last date in range is the start date or not.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+Y/N boolean
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range/ending?``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``Y`` , ``N``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+For an :ref:`incident` this field is always entered as ``Y``. Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 starting_context:range
 ======================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+Simple description of start date.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range/starting-context``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Generally this field is left blank for an :ref:`incident` as descriptions are avaliable in the :ref:``incident:violation:descriptions:assertion`. Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 ending_context:range
 ====================
 
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+Description
+~~~~~~~~~~~
+
+Simple description of end date.
+
+Type of attribute
+~~~~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:range/ending-context``
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Generally this field is left blank for an :ref:`incident` as descriptions are avaliable in the :ref:``incident:violation:descriptions:assertion`. Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 .. _incident-public-notes:
