@@ -345,88 +345,6 @@ Any name for a person used in the citation should be entered in this field. Whil
 Ranks, titles, or positions held should not be entered in this field as they are captured in other fields.
 
 
-country:annotation
-==================
-
-Description
-~~~~~~~~~~~
-
-Country person is associated with for grouping claims.
-
-Attribute type
-~~~~~~~~~~~~~~
-
-Text, controlled vocabulary
-
-Status
-~~~~~~
-
-This attribute is optional.
-
-Key name
-~~~~~~~~
-
-``:annotation/country``
-
-Example of use
-~~~~~~~~~~~~~~
-
-``mx``, ``ph``
-
-Guidance on use
-~~~~~~~~~~~~~~~
-
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`_). This field is used to aid grouping persons into datasets related to specific countries and does not denote the citizenship or country of origin of a person. The specific country code should be chosen based on any related :ref:`posting` the :ref:`person` holds, or any other contextual information from citations about the :ref:`person`.
-
-
-first_precise:range
-===================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-last_precise:range
-==================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-first_imprecise:range
-=====================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-last_imprecise:range
-====================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-starting:range
-==============
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-ending:range
-============
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-starting_context:range
-======================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
-ending_context:range
-====================
-
-Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
-
-
 person:genders:assertion
 ========================
 
@@ -566,6 +484,88 @@ Guidance on use
 ~~~~~~~~~~~~~~~
 
 This attribute is used to store a brief description of the content of external media. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the person.
+
+
+country:annotation
+==================
+
+Description
+~~~~~~~~~~~
+
+Country person is associated with for grouping claims.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text, controlled vocabulary
+
+Status
+~~~~~~
+
+This attribute is optional.
+
+Key name
+~~~~~~~~
+
+``:annotation/country``
+
+Example of use
+~~~~~~~~~~~~~~
+
+``mx``, ``ph``
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found (`on the ISO website <https://www.iso.org/obp/ui/#search>`_). This field is used to aid grouping persons into datasets related to specific countries and does not denote the citizenship or country of origin of a person. The specific country code should be chosen based on any related :ref:`posting` the :ref:`person` holds, or any other contextual information from citations about the :ref:`person`.
+
+
+first_precise:range
+===================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+last_precise:range
+==================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+first_imprecise:range
+=====================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+last_imprecise:range
+====================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+starting:range
+==============
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+ending:range
+============
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+starting_context:range
+======================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
+
+
+ending_context:range
+====================
+
+Full guidance on rationale for and differences between precise and imprecise date ranges, the use of this attribute can be found in the Handbook page :ref:`How Dates Work`.
 
 .. _person-public-notes:
 
