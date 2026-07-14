@@ -4,23 +4,16 @@ Security Force Monitor: Research Handbook
 About Security Force Monitor
 ============================
 
-The Security Force Monitor works to make police, military and other security forces around the world more transparent and accountable.
+The Security Force Monitor supports activists and NGOs at the frontline of documenting human rights abuses by collecting and analyzing publicly available data to map the structures and hierarchy of security forces that are deliberately shrouded in secrecy and able to commit human rights abuses with impunity.
 
-Human rights researchers, journalists, advocates, litigators and others engaged in making security forces accountable face a common problem – a lack of clear, detailed information on those forces. Often, answering even simple questions can be difficult:
+Through extensive analysis of public records, we map the chain of command to establish links between senior commanders and human rights abuses carried out by individuals on the ground, revealing who was in command when those abuses occurred.
 
--  Who is in charge of the specialized anti-riot police unit?
--  What army unit has jurisdiction over what areas?
--  Where did this commander previously serve?
--  When was a particular police unit based in a specific city?
--  What was the command chain when a unit is alleged to have committed a human rights abuse?
+There is a vast amount of public information on security forces around the world, but it is unstructured and scattered among a wide variety of sources, making it prohibitively costly for those engaged in public interest work to understand the security forces of any country. Finding and structuring this information makes it possible to see the linkages between human rights violations and security force commanders through the chain of command.
 
-There is a vast amount of public information on security forces around the world, but it is unstructured and scattered among a wide variety of sources, making it prohibitively costly for those engaged in public interest work to understand the security forces of a particular country.
-
-The Security Force Monitor aims to solve this problem and aid those working to make police, military and other security forces accountable. The Monitor analyzes and compiles public information to provide data on: the command hierarchy, location, areas of operation, commanders and the other linkages between units – all tracked through time. The Monitor’s mission and technical offerings have been developed to serve, and in consultation with, a wide range of civil society efforts.
+This Research Handbook details our Linkage data model and the methodology that guides the process of finding and structuring information into the Linkage data model.
 
 `More information about Security Force Monitor <https://securityforcemonitor.org>`__ can be found on our organizational website.
 
-This Research Handbook is a guide to investigating the structure, personnel, infrastructure, operations and connections to human rights abuses of security forces around the world. It provides detailed information about the methods, data and tools used by Security Force Monitor to do this. This Research Handbook is a work-in-progress and is updated during the course of the work of Security Force Monitor. 
 
 Table of Contents
 =================
@@ -99,15 +92,15 @@ Table of Contents
 Contributors
 ============
 
-The author of this current Research Handbook is Tony Wilson. 
+The author of this Research Handbook is Tony Wilson. 
 
-Rrevious versions of the handbook had additional authors, including: Tom Longley, Michel Manzur and Niko Para. These previous versions are avaliable under "Versions" in the flyout menu.
+Tom Longley, Michel Manzur and Niko Para were authors of previous versions of the Research Handbook. These previous versions are available under "Versions" in the flyout menu.
 
-`Niko Para <https://niko.io/>`_ was instrumental in updating how time/dates are captured in the Monitor's data model to include precise and imprecise dates. He also was pivotal in updating the model to be a full claims based data model.
+`Niko Para <https://niko.io/>`_ was instrumental in updating how time/dates are captured in the Linkage data model to include precise and imprecise dates. He also was pivotal in updating the model to be a full claims based data model.
 
-Security Force Monitor has partnered with `DataMade <https://datamade.us>`__ to create WhoWasInCommand.com. DataMade has operationalized and refined Security Force Monitor's data structure, worked with us to create a powerful open source platform to put the data online, and made a significant contribution to the concept and design of WhoWasInCommand.com.
+Security Force Monitor previously partnered with `DataMade <https://datamade.us>`__ to create WhoWasInCommand.com. DataMade helped operationalize and refine our previous data model, worked with us to create a powerful open source platform to put the data online, and made a significant contribution to the concept and design of WhoWasInCommand.com.
 
-`James McKinney <https://www.jamespetermckinney.com/>`_ - at the time with `OpenNorth <http://opennorth.ca>`_ - was a major contributor to the development of the Monitor's initial data model, adapting Popolo (an international open government data standard) and developing the specifications for the Monitor's research tool.
+`James McKinney <https://www.jamespetermckinney.com/>`_ - at the time with `OpenNorth <http://opennorth.ca>`_ - was a major contributor to the development of the Monitor's initial data model, adapting Popolo (an international open government data standard) and developing the specifications for the Monitor's research.
 
 
 Copyright and license
