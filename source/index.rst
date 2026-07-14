@@ -99,7 +99,9 @@ Table of Contents
 Contributors
 ============
 
-Tony Wilson, Tom Longley, Michel Manzur and Niko Para from `Security Force Monitor <https://securityforcemonitor.org/about>`_ are the authors of this Research Handbook.
+The author of this current Research Handbook is Tony Wilson. 
+
+Rrevious versions of the handbook had additional authors, including: Tom Longley, Michel Manzur and Niko Para. These previous versions are avaliable under "Versions" in the flyout menu.
 
 `Niko Para <https://niko.io/>`_ was instrumental in updating how time/dates are captured in the Monitor's data model to include precise and imprecise dates. He also was pivotal in updating the model to be a full claims based data model.
 
