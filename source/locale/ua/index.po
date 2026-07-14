@@ -42,7 +42,7 @@ msgstr "У цьому дослідницькому посібнику детал
 
 #: source/index.rst:17
 msgid "`More information about Security Force Monitor <https://securityforcemonitor.org>`__ can be found on our organizational website."
-msgstr "`Більше інформації про Security Force Monitor можна знайти на вебсайті нашої організації <https://securityforcemonitor.org>`__."
+msgstr "`Більше інформації про Монітор сил безпеки <https://securityforcemonitor.org>`__ можна знайти на вебсайті нашої організації."
 
 #: source/index.rst:20
 msgid "Table of Contents"
