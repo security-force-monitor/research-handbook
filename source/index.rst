@@ -6,11 +6,13 @@ About Security Force Monitor
 
 The Security Force Monitor supports activists and NGOs at the frontline of documenting human rights abuses by collecting and analyzing publicly available data to map the structures and hierarchy of security forces that are deliberately shrouded in secrecy and able to commit human rights abuses with impunity.
 
-Through extensive analysis of public records, we map the chain of command to establish links between senior commanders and human rights abuses carried out by individuals on the ground, revealing who was in command when those abuses occurred.
-
 There is a vast amount of public information on security forces around the world, but it is unstructured and scattered among a wide variety of sources, making it prohibitively costly for those engaged in public interest work to understand the security forces of any country. Finding and structuring this information makes it possible to see the linkages between human rights violations and security force commanders through the chain of command.
 
-This Research Handbook details our Linkage data model and the methodology that guides the process of finding and structuring information into the Linkage data model.
+Through extensive analysis of public records, we map the chain of command to establish links between senior commanders and human rights abuses carried out by individuals on the ground, revealing who was in command when those abuses occurred.
+
+Translating public information into structured data is foundational to our work and creates the ability to do this analysis.
+
+This Research Handbook details our Linkage Chain data model and the methodology that guides the process of finding and structuring information into the Linkage Chain data model.
 
 `More information about Security Force Monitor <https://securityforcemonitor.org>`__ can be found on our organizational website.
 
@@ -94,7 +96,7 @@ Contributors
 
 The author of this Research Handbook is Tony Wilson. 
 
-Tom Longley, Michel Manzur and Niko Para were authors of previous versions of the Research Handbook. These previous versions are available under "Versions" in the flyout menu.
+Tom Longley, Michel Manzur and Niko Para were authors of previous versions of the Research Handbook. These previous versions are available on our `GitHub repository <https://github.com/security-force-monitor/research-handbook>`__.
 
 `Niko Para <https://niko.io/>`_ was instrumental in updating how time/dates are captured in the Linkage data model to include precise and imprecise dates. He also was pivotal in updating the model to be a full claims based data model.
 
