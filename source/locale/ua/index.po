@@ -6,7 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2026-07-14 21:03+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: es\n"
+"Language: ua\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,39 +14,39 @@ msgstr ""
 
 #: source/index.rst:1
 msgid "Security Force Monitor: Research Handbook"
-msgstr "Monitor de Fuerzas de Seguridad: Manual de investigación"
+msgstr "Монітор сил безпеки: Довідник з досліджень"
 
 #: source/index.rst:4
 msgid "About Security Force Monitor"
-msgstr "Sobre Monitor de Fuerzas de Seguridad"
+msgstr "Про моніторинг сил безпеки"
 
 #: source/index.rst:7
 msgid "The Security Force Monitor supports activists and NGOs at the frontline of documenting human rights abuses by collecting and analyzing publicly available data to map the structures and hierarchy of security forces that are deliberately shrouded in secrecy and able to commit human rights abuses with impunity."
-msgstr "Monitor de Fuerzas de Seguridad apoya a activistas y ONG que se encuentran en primera línea documentando violaciones de los derechos humanos, mediante la recopilación y el análisis de datos de acceso público para mapear las estructuras y la jerarquía de las fuerzas de seguridad —las cuales se mantienen deliberadamente bajo un manto de secretismo y son capaces de cometer abusos contra los derechos humanos con impunidad."
+msgstr "Монітор сил безпеки підтримує активістів та неурядові організації на передовій документування порушень прав людини, збираючи та аналізуючи загальнодоступні дані для відображення структур та ієрархії сил безпеки, які навмисно оповиті таємницею та здатні безкарно порушувати права людини."
 
 #: source/index.rst:9
 msgid "There is a vast amount of public information on security forces around the world, but it is unstructured and scattered among a wide variety of sources, making it prohibitively costly for those engaged in public interest work to understand the security forces of any country. Finding and structuring this information makes it possible to see the linkages between human rights violations and security force commanders through the chain of command."
-msgstr "Existe una enorme cantidad de información pública sobre las fuerzas de seguridad en todo el mundo, pero esta se encuentra desestructurada y dispersa en una gran variedad de fuentes, lo que hace que comprender las fuerzas de seguridad de cualquier país resulte excesivamente costoso para quienes realizan labores de interés público. Localizar y estructurar esta información permite identificar los vínculos entre las violaciones de derechos humanos y los mandos de las fuerzas de seguridad a través de la cadena de mando."
+msgstr "Існує величезна кількість публічної інформації про сили безпеки по всьому світу, але вона неструктурована та розпорошена серед широкого кола джерел, що робить непомірно дорогим для тих, хто займається роботою в суспільних інтересах, розуміння сил безпеки будь-якої країни. Пошук та структурування цієї інформації дозволяє побачити зв'язки між порушеннями прав людини та командирами сил безпеки через ланцюг командування."
 
 #: source/index.rst:11
 msgid "Through extensive analysis of public records, we map the chain of command to establish links between senior commanders and human rights abuses carried out by individuals on the ground, revealing who was in command when those abuses occurred."
-msgstr "Mediante un análisis exhaustivo de registros públicos, trazamos el mapa de la cadena de mando para establecer vínculos entre los altos mandos y las violaciones de derechos humanos perpetradas por individuos sobre el terreno, revelando quién estaba al mando cuando se produjeron dichos abusos."
+msgstr "Завдяки ретельному аналізу публічних записів ми складаємо карту ланцюга командування, щоб встановити зв'язки між старшим командиром та порушеннями прав людини, скоєними окремими особами на місцях, а також виявити, хто командував, коли ці порушення відбувалися."
 
 #: source/index.rst:13
 msgid "Translating public information into structured data is foundational to our work and creates the ability to do this analysis."
-msgstr "Traducir información pública a datos estructurados es fundamental para nuestra labor y hace posible realizar este análisis."
+msgstr "Перетворення публічної інформації на структуровані дані є основоположним для нашої роботи та створює можливості для проведення такого аналізу."
 
 #: source/index.rst:15
 msgid "This Research Handbook details our Linkage Chain data model and the methodology that guides the process of finding and structuring information into the Linkage Chain data model."
-msgstr "Este manual de investigación detalla nuestro modelo de datos *Linkage Chain* y la metodología que guía el proceso de búsqueda y estructuración de información conforme a dicho modelo."
+msgstr "У цьому дослідницькому посібнику детально описано нашу модель даних ланцюга зв'язків та методологію, яка керує процесом пошуку та структурування інформації в моделі даних ланцюга зв'язків."
 
 #: source/index.rst:17
 msgid "`More information about Security Force Monitor <https://securityforcemonitor.org>`__ can be found on our organizational website."
-msgstr "Puede encontrar más información sobre Monitor de Fuerzas de Seguridad <https://securityforcemonitor.org> en nuestro sitio web institucional."
+msgstr "`Більше інформації про Security Force Monitor можна знайти на вебсайті нашої організації <https://securityforcemonitor.org>`__."
 
 #: source/index.rst:20
 msgid "Table of Contents"
-msgstr "Tabla de contenido"
+msgstr "Зміст"
 
 #: source/index.rst:1
 msgid "Security Force Monitor: Research Handbook"
