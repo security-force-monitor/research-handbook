@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-14 21:03+0000\n"
+"PO-Revision-Date: 2026-07-14 21:03+0000\n"
+"Last-Translator: Google Translate\n"
+"Language-Team: Google Translate\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ukr\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/index.rst:1 ../../source/index.rst:1
+msgid "Security Force Monitor: Research Handbook"
+msgstr "Монітор сил безпеки: Довідник з досліджень"
+
+#: ../../source/index.rst:4 ../../source/index.rst:4
+msgid "About Security Force Monitor"
+msgstr "Про моніторинг сил безпеки"
+
+#: ../../source/index.rst:7 ../../source/index.rst:7
+msgid "The Security Force Monitor supports activists and NGOs at the frontline of documenting human rights abuses by collecting and analyzing publicly available data to map the structures and hierarchy of security forces that are deliberately shrouded in secrecy and able to commit human rights abuses with impunity."
+msgstr "Монітор сил безпеки підтримує активістів та неурядові організації на передовій документування порушень прав людини, збираючи та аналізуючи загальнодоступні дані для відображення структур та ієрархії сил безпеки, які навмисно оповиті таємницею та здатні безкарно порушувати права людини."
+
+#: ../../source/index.rst:9 ../../source/index.rst:9
+msgid "There is a vast amount of public information on security forces around the world, but it is unstructured and scattered among a wide variety of sources, making it prohibitively costly for those engaged in public interest work to understand the security forces of any country. Finding and structuring this information makes it possible to see the linkages between human rights violations and security force commanders through the chain of command."
+msgstr "Існує величезна кількість публічної інформації про сили безпеки по всьому світу, але вона неструктурована та розпорошена серед широкого кола джерел, що робить непомірно дорогим для тих, хто займається роботою в суспільних інтересах, розуміння сил безпеки будь-якої країни. Пошук та структурування цієї інформації дозволяє побачити зв'язки між порушеннями прав людини та командирами сил безпеки через ланцюг командування.."
+
+#: ../../source/index.rst:11 ../../source/index.rst:11
+msgid "Through extensive analysis of public records, we map the chain of command to establish links between senior commanders and human rights abuses carried out by individuals on the ground, revealing who was in command when those abuses occurred."
+msgstr "Шляхом ретельного аналізу публічних записів ми складаємо карту ланцюга командування, щоб встановити зв'язки між старшим командиром та порушеннями прав людини, скоєними особами на місцях, а також виявити, хто командував, коли ці порушення відбувалися."
+
+#: ../../source/index.rst:13 ../../source/index.rst:13
+msgid "Translating public information into structured data is foundational to our work and creates the ability to do this analysis."
+msgstr "Перетворення публічної інформації на структуровані дані є основоположним для нашої роботи та створює можливості для проведення такого аналізу."
+
+#: ../../source/index.rst:15 ../../source/index.rst:15
+msgid "This Research Handbook details our Linkage Chain data model and the methodology that guides the process of finding and structuring information into the Linkage Chain data model."
+msgstr "У цьому дослідницькому посібнику детально описано нашу модель даних ланцюга зв'язків та методологію, яка керує процесом пошуку та структурування інформації в моделі даних ланцюга зв'язків."
+
+#: ../../source/index.rst:17 ../../source/index.rst:17
+msgid "`More information about Security Force Monitor <https://securityforcemonitor.org>`__ can be found on our organizational website."
+msgstr "`Більше інформації про Security Force Monitor <https://securityforcemonitor.org>`__ можна знайти на вебсайті нашої організації."
+
+#: ../../source/index.rst:20 ../../source/index.rst:20
+msgid "Table of Contents"
+msgstr "Зміст"
+
+#: ../../source/index.rst:94 ../../source/index.rst:94
+msgid "Contributors"
+msgstr "Автори"
+
+#: ../../source/index.rst:97 ../../source/index.rst:97
+msgid "The author of this Research Handbook is Tony Wilson."
+msgstr "Автором цього дослідницького посібника є Тоні Вілсон."
+
+#: ../../source/index.rst:99 ../../source/index.rst:99
+msgid "Tom Longley, Michel Manzur and Niko Para were authors of previous versions of the Research Handbook. These previous versions are available on our `GitHub repository <https://github.com/security-force-monitor/research-handbook>`__."
+msgstr "Том Лонглі, Мішель Манзур та Ніко Пара були авторами попередніх версій Дослідницького посібника. Ці попередні версії доступні в нашому репозиторії `GitHub <https://github.com/security-force-monitor/research-handbook>`__."
+
+#: ../../source/index.rst:101 ../../source/index.rst:101
+msgid "`Niko Para <https://niko.io/>`_ was instrumental in updating how time/dates are captured in the Linkage data model to include precise and imprecise dates. He also was pivotal in updating the model to be a full claims based data model."
+msgstr "`Ніко Пара <https://niko.io/>`_ відіграв важливу роль в оновленні способу відображення часу/дати в моделі даних Linkage, щоб включити точні та неточні дати. Він також відіграв ключову роль в оновленні моделі до повноцінної моделі даних на основі заяв."
+
+#: ../../source/index.rst:103 ../../source/index.rst:103
+msgid "Security Force Monitor previously partnered with `DataMade <https://datamade.us>`__ to create WhoWasInCommand.com. DataMade helped operationalize and refine our previous data model, worked with us to create a powerful open source platform to put the data online, and made a significant contribution to the concept and design of WhoWasInCommand.com."
+msgstr "Раніше Security Force Monitor співпрацював з `DataMade <https://datamade.us>`__ для створення WhoWasInCommand.com. DataMade допомогла впровадити та вдосконалити нашу попередню модель даних, співпрацювала з нами над створенням потужної платформи з відкритим кодом для розміщення даних в Інтернеті та зробила значний внесок у концепцію та дизайн WhoWasInCommand.com."
+
+#: ../../source/index.rst:105 ../../source/index.rst:105
+msgid "`James McKinney <https://www.jamespetermckinney.com/>`_ - at the time with `OpenNorth <http://opennorth.ca>`_ - was a major contributor to the development of the Monitor's initial data model, adapting Popolo (an international open government data standard) and developing the specifications for the Monitor's research."
+msgstr "`Джеймс Маккінні <https://www.jamespetermckinney.com/>`_ — на той час працював з `OpenNorth <http://opennorth.ca>`_ — зробив значний внесок у розробку початкової моделі даних Монітора, адаптувавши Popolo (міжнародний стандарт відкритих урядових даних) та розробивши специфікації для досліджень Монітора."
+
+#: ../../source/index.rst:108 ../../source/index.rst:108
+msgid "Copyright and license"
+msgstr "Авторське право та ліцензія"
+
+#: ../../source/index.rst:111 ../../source/index.rst:111
+msgid "The Security Force Monitor Research Handbook is licensed under a `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`__. You are free to copy, share and adapt all or any part of this handbook, but you must give appropriate credit to Security Force Monitor."
+msgstr "Дослідницький посібник Security Force Monitor ліцензовано за міжнародною ліцензією «Creative Commons Attribution 4.0 <https://creativecommons.org/licenses/by/4.0/>». Ви можете вільно копіювати, поширювати та адаптувати весь цей посібник або будь-яку його частину, але ви повинні вказати відповідне посилання на Security Force Monitor."
+
+#: ../../source/index.rst:116 ../../source/index.rst:116
+msgid "License: CC BY 4.0"
+msgstr "Ліцензія: CC BY 4.0"
+
+
