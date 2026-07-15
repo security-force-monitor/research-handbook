@@ -14,23 +14,23 @@ msgstr ""
 
 #: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
 msgid "Our general data model"
-msgstr ""
+msgstr "Наша загальна модель даних"
 
 #: ../../source/our-general-data-model.rst:4 ../../source/our-general-data-model.rst:4
 msgid "Security Force Monitor investigates the conduct of security and defense forces around the world. We reconstruct their organizational structure, command personnel and chain of command, geographic footprint, and allegations of their involvement in committing human rights violations and violations of international criminal law. Further, we research the training and assistance that security and defense units have received from external security actors like the United States of America, the European Union, the United Nations, and through bilateral agreements with other states. All our information is drawn from publicly available sources, nearly all of which are online."
-msgstr ""
+msgstr "«Монітор сил безпеки» досліджує діяльність сил безпеки та оборони по всьому світу. Ми реконструюємо їхню організаційну структуру, командний склад та ланцюг командування, географічне розташування та звинувачення у їхній причетності до скоєння порушень прав людини та порушень міжнародного кримінального права. Крім того, ми досліджуємо навчання та допомогу, які підрозділи безпеки та оборони отримали від зовнішніх силових структур, таких як Сполучені Штати Америки, Європейський Союз, Організація Об'єднаних Націй, а також через двосторонні угоди з іншими державами. Вся наша інформація береться з загальнодоступних джерел, майже всі з яких знаходяться в Інтернеті."
 
 #: ../../source/our-general-data-model.rst:6 ../../source/our-general-data-model.rst:6
 msgid ".. figure:: _static/sfm_general_data_model_v_4_handbook.png"
-msgstr ".. figure:: _static/link_chain_data_model_0.5_ukr.png"
+msgstr ".. figure:: _static/link_chain_data_model_0.5_uk.png"
 
 #: ../../source/our-general-data-model.rst:10 ../../source/our-general-data-model.rst:10
 msgid "   :alt: Chart from the Security Force Monitor Research Handbook that describes the Monitor's general data model, including the main entities it collects information about."
-msgstr ""
+msgstr "   :alt: Діаграма з дослідницького посібника Security Force Monitor, яка описує загальну модель даних Монітора, включаючи основні об'єкти, про які він збирає інформацію."
 
 #: ../../source/our-general-data-model.rst:17 ../../source/our-general-data-model.rst:17
-msgid "We use the general data model described in the above illustration to structure and organize the information we collect during the course of our research. It describes relationships between different "claims", which are logical groupings of data about a specific subject. For example, the "positioning" claim is where we store data about the geographic footprint of a unit, or the link between a unit and a location in time; cumulatively, all of the "positioning" claims describe the geographic presence of security forces across an entire country through time. "
-msgstr ""
+msgid "We use the general data model described in the above illustration to structure and organize the information we collect during the course of our research. It describes relationships between different "claims", which are logical groupings of data about a specific subject. For example, the "positioning" claim is where we store data about the geographic footprint of a unit, or the link between a unit and a location in time; cumulatively, all of the "positioning" claims describe the geographic presence of security forces across an entire country through time."
+msgstr "Ми використовуємо загальну модель даних, описану на ілюстрації вище, для структурування та впорядкування інформації, яку ми збираємо під час нашого дослідження. Вона описує зв'язки між різними «твердженнями», які є логічними групами даних про певну тему. Наприклад, твердження «позиціонування» – це те, де ми зберігаємо дані про географічний охоплення підрозділу або зв'язок між підрозділом та місцем розташування в часі; сукупно всі твердження «позиціонування» описують географічну присутність сил безпеки по всій країні в часі."
 
 #: ../../source/our-general-data-model.rst:19 ../../source/our-general-data-model.rst:19
 msgid "Other sections of this Research Handbook expand on each of the claims and the relationships between these claims, including:"
@@ -62,108 +62,4 @@ msgstr ""
 
 #: ../../source/our-general-data-model.rst:30 ../../source/our-general-data-model.rst:30
 msgid "Finally, the general data model guides the construction of the tools and technologies we have built to capture, store and analyze data."
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
 msgstr ""
