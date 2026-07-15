@@ -57,7 +57,7 @@ exclude_patterns = []
 locale_dirs = ['locale']
 gettext_compact = False
 gettext_uuid = True
-gettext_additional_targets = {'image'}
+gettext_additional_targets = {'literal-block', 'image'}
 figure_language_filename = '{path}{language}/{basename}{ext}'
 
 # -- Options for HTML output -------------------------------------------------
