@@ -21,8 +21,8 @@ msgid "Security Force Monitor investigates the conduct of security and defense f
 msgstr "«Монітор сил безпеки» досліджує діяльність сил безпеки та оборони по всьому світу. Ми реконструюємо їхню організаційну структуру, командний склад та ланцюг командування, географічне розташування та звинувачення у їхній причетності до скоєння порушень прав людини та порушень міжнародного кримінального права. Крім того, ми досліджуємо навчання та допомогу, які підрозділи безпеки та оборони отримали від зовнішніх силових структур, таких як Сполучені Штати Америки, Європейський Союз, Організація Об'єднаних Націй, а також через двосторонні угоди з іншими державами. Вся наша інформація береться з загальнодоступних джерел, майже всі з яких знаходяться в Інтернеті."
 
 #: ../../source/our-general-data-model.rst:6 ../../source/our-general-data-model.rst:6
-msgid ".. figure:: _static/sfm_general_data_model_v_4_handbook.png"
-msgstr ".. figure:: _static/link_chain_data_model_0.5_uk.png"
+msgid "en_link_chain_data_model_0.5.png"
+msgstr "uk_link_chain_data_model_0.5.png"
 
 #: ../../source/our-general-data-model.rst:10 ../../source/our-general-data-model.rst:10
 msgid "   :alt: Chart from the Security Force Monitor Research Handbook that describes the Monitor's general data model, including the main entities it collects information about."
@@ -34,27 +34,27 @@ msgstr "Ми використовуємо загальну модель дани
 
 #: ../../source/our-general-data-model.rst:19 ../../source/our-general-data-model.rst:19
 msgid "Other sections of this Research Handbook expand on each of the claims and the relationships between these claims, including:"
-msgstr ""
+msgstr "В інших розділах цього дослідницького посібника детальніше розглядається кожне з тверджень та зв'язки між ними, зокрема:"
 
 #: ../../source/our-general-data-model.rst:21 ../../source/our-general-data-model.rst:21
 msgid "- A full description of each claim type;"
-msgstr ""
+msgstr "- Повний опис кожного типу претензії;"
 
 #: ../../source/our-general-data-model.rst:22 ../../source/our-general-data-model.rst:22
 msgid "- The overall data structure and attributes we use for each claim type;"
-msgstr ""
+msgstr "- Загальна структура даних та атрибути, які ми використовуємо для кожного типу заяви;"
 
 #: ../../source/our-general-data-model.rst:23 ../../source/our-general-data-model.rst:23
 msgid "- Examples on the types of data we enter into each attribute; and,"
-msgstr ""
+msgstr "- Приклади типів даних, які ми вводимо в кожен атрибут; та,"
 
 #: ../../source/our-general-data-model.rst:24 ../../source/our-general-data-model.rst:24
 msgid "- Guidance on how we fill out each field and why."
-msgstr ""
+msgstr "- Інструкції щодо того, як заповнювати кожне поле та чому."
 
 #: ../../source/our-general-data-model.rst:26 ../../source/our-general-data-model.rst:26
 msgid "The diagram above also highlights the special place that "citations" and "claims" hold in our research approach. Security Force Monitor uses a claim-based approach to the creation of data. A claim is an assertion of information evidenced by a citation from a source. Throughout our work, all specific pieces of information about any claim are kept together with the specific citation(s) from which they were drawn."
-msgstr ""
+msgstr "Наведена вище діаграма також підкреслює особливе місце, яке займають «цитати» та «твердження» в нашому дослідницькому підході. Security Force Monitor використовує підхід, заснований на твердженнях, до створення даних. Твердження – це твердження інформації, підтверджене цитатою з джерела. Протягом усієї нашої роботи вся конкретна інформація про будь-яке твердження зберігається разом із конкретним(и) цитатою(ами), з яких(их) вона була взята."
 
 #: ../../source/our-general-data-model.rst:28 ../../source/our-general-data-model.rst:28
 msgid "This approach enables complete transparency about the origins of data, and is a powerful data integrity measure. All the data that comprise each record about each claim type are drawn from an aggregation of claims."
