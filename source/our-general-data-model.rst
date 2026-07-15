@@ -21,10 +21,10 @@ Other sections of this Research Handbook expand on each of the claims and the re
 - A full description of each claim type;
 - The overall data structure and attributes we use for each claim type;
 - Examples on the types of data we enter into each attribute; and,
-- Guidance on how we fill out each field and why. 
+- Guidance on how we fill out each field and why.
 
 The diagram above also highlights the special place that "citations" and "claims" hold in our research approach. Security Force Monitor uses a claim-based approach to the creation of data. A claim is an assertion of information evidenced by a citation from a source. Throughout our work, all specific pieces of information about any claim are kept together with the specific citation(s) from which they were drawn.
 
-This approach enables complete transparency about the origins of data, and is a powerful data integrity measure. All the data that comprise each record about each claim type are drawn from an aggregation of claims. 
+This approach enables complete transparency about the origins of data, and is a powerful data integrity measure. All the data that comprise each record about each claim type are drawn from an aggregation of claims.
 
-Finally, the general data model guides the construction of the tools and technologies we have built to capture, store and analyze data. 
+Finally, the general data model guides the construction of the tools and technologies we have built to capture, store and analyze data.
