@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Security Force Monitor: Research Handbook'
-copyright = '2017-2027, Security Force Monitor'
+copyright = '2017-2026, Security Force Monitor'
 author = 'Security Force Monitor'
 
 # The full version, including alpha/beta/rc tags
@@ -57,7 +57,8 @@ exclude_patterns = []
 locale_dirs = ['locale']
 gettext_compact = False
 gettext_uuid = True
-
+gettext_additional_targets = {'image'}
+figure_language_filename = '{path}{language}/{basename}{ext}'
 
 # -- Options for HTML output -------------------------------------------------
 
