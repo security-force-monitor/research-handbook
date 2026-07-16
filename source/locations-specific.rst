@@ -134,7 +134,7 @@ citation:refs:location
 Description
 ~~~~~~~~~~~
 
-Field unique 32 character code assigned to citation(s) evidencing the location.
+Field unique 32-character code assigned to citation(s) evidencing the location.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -168,7 +168,7 @@ id:entity
 Description
 ~~~~~~~~~~~
 
-A unique 36-character code assigned to each Location in the dataset.
+A unique 32-character code assigned to each Location in the dataset.
 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
