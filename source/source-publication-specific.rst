@@ -21,7 +21,7 @@ The table below summarizes the following dimensions of source records:
 
 
 Publication: Details of attributes
-*****************************
+**********************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.
 
