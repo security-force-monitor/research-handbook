@@ -48,6 +48,38 @@ msgstr "`Більше інформації про Security Force Monitor <https:
 msgid "Table of Contents"
 msgstr "Зміст"
 
+#: ../../source/index.rst:25 ../../source/index.rst:25
+msgid "Our approach"
+msgstr "Наш підхід"
+
+#: ../../source/index.rst:38 ../../source/index.rst:38
+msgid "Sources and citations"
+msgstr "Джерела та посилання"
+
+#: ../../source/index.rst:47 ../../source/index.rst:47
+msgid "Locations"
+msgstr "Місця розташування"
+
+#: ../../source/index.rst:54 ../../source/index.rst:54
+msgid "Units"
+msgstr "Одиниці"
+
+#: ../../source/index.rst:63 ../../source/index.rst:63
+msgid "Persons"
+msgstr "Особи"
+
+#: ../../source/index.rst:71 ../../source/index.rst:71
+msgid "Incidents"
+msgstr "Інциденти"
+
+#: ../../source/index.rst:78 ../../source/index.rst:78
+msgid "Trainings (Draft)"
+msgstr "Тренування (чернетка)"
+
+#: ../../source/index.rst:85 ../../source/index.rst:85
+msgid "Materiel (Draft)"
+msgstr "Матеріальні засоби (чернетка)"
+
 #: ../../source/index.rst:94 ../../source/index.rst:94
 msgid "Contributors"
 msgstr "Автори"
