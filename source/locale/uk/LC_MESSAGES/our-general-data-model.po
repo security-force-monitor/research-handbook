@@ -22,7 +22,7 @@ msgstr "«Монітор сил безпеки» досліджує діяльн
 
 #: ../../source/our-general-data-model.rst:6 ../../source/our-general-data-model.rst:6
 msgid "en_link_chain_data_model_0.5.png"
-msgstr "link_chain_data_model_0.5_uk.png"
+msgstr "uk_link_chain_data_model_0.5.png"
 
 #: ../../source/our-general-data-model.rst:10 ../../source/our-general-data-model.rst:10
 msgid "   :alt: Chart from the Security Force Monitor Research Handbook that describes the Monitor's general data model, including the main entities it collects information about."
