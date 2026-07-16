@@ -37,20 +37,20 @@ msgid "Other sections of this Research Handbook expand on each of the claims and
 msgstr "В інших розділах цього дослідницького посібника детальніше розглядається кожне з тверджень та зв'язки між ними, зокрема:"
 
 #: ../../source/our-general-data-model.rst:21 ../../source/our-general-data-model.rst:21
-msgid "- A full description of each claim type;"
-msgstr "- Повний опис кожного типу претензії;"
+msgid "A full description of each claim type;"
+msgstr "Повний опис кожного типу претензії;"
 
 #: ../../source/our-general-data-model.rst:22 ../../source/our-general-data-model.rst:22
-msgid "- The overall data structure and attributes we use for each claim type;"
-msgstr "- Загальна структура даних та атрибути, які ми використовуємо для кожного типу заяви;"
+msgid "The overall data structure and attributes we use for each claim type;"
+msgstr "Загальна структура даних та атрибути, які ми використовуємо для кожного типу заяви;"
 
 #: ../../source/our-general-data-model.rst:23 ../../source/our-general-data-model.rst:23
-msgid "- Examples on the types of data we enter into each attribute; and,"
-msgstr "- Приклади типів даних, які ми вводимо в кожен атрибут; та,"
+msgid "Examples on the types of data we enter into each attribute; and,"
+msgstr "Приклади типів даних, які ми вводимо в кожен атрибут; та,"
 
 #: ../../source/our-general-data-model.rst:24 ../../source/our-general-data-model.rst:24
-msgid "- Guidance on how we fill out each field and why."
-msgstr "- Інструкції щодо того, як заповнювати кожне поле та чому."
+msgid "Guidance on how we fill out each field and why."
+msgstr "Інструкції щодо того, як заповнювати кожне поле та чому."
 
 #: ../../source/our-general-data-model.rst:26 ../../source/our-general-data-model.rst:26
 msgid "The diagram above also highlights the special place that "citations" and "claims" hold in our research approach. Security Force Monitor uses a claim-based approach to the creation of data. A claim is an assertion of information evidenced by a citation from a source. Throughout our work, all specific pieces of information about any claim are kept together with the specific citation(s) from which they were drawn."
@@ -58,8 +58,8 @@ msgstr "Наведена вище діаграма також підкреслю
 
 #: ../../source/our-general-data-model.rst:28 ../../source/our-general-data-model.rst:28
 msgid "This approach enables complete transparency about the origins of data, and is a powerful data integrity measure. All the data that comprise each record about each claim type are drawn from an aggregation of claims."
-msgstr ""
+msgstr "Такий підхід забезпечує повну прозорість щодо походження даних і є потужним засобом забезпечення цілісності даних. Усі дані, що складають кожен запис про кожен тип заяви, беруться з агрегації заяв."
 
 #: ../../source/our-general-data-model.rst:30 ../../source/our-general-data-model.rst:30
 msgid "Finally, the general data model guides the construction of the tools and technologies we have built to capture, store and analyze data."
-msgstr ""
+msgstr "Зрештою, загальна модель даних керує побудовою інструментів і технологій, які ми створили для збору, зберігання та аналізу даних."
