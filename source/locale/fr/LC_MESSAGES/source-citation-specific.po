@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
+"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/source-citation-specific.rst:1 ../../source/source-citation-specific.rst:1
@@ -29,23 +29,23 @@ msgid "The table below summarizes the following dimensions of citations records:
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:11 ../../source/source-citation-specific.rst:11
-msgid " - Attribute label: a human readable label for the attribute"
+msgid "Attribute label: a human readable label for the attribute"
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:12 ../../source/source-citation-specific.rst:12
-msgid " - Status: whether the attribute is optional or required in a record"
+msgid "Status: whether the attribute is optional or required in a record"
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:13 ../../source/source-citation-specific.rst:13
-msgid " - Data type: the sort of data that can be entered into the attribute"
+msgid "Data type: the sort of data that can be entered into the attribute"
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:14 ../../source/source-citation-specific.rst:14
-msgid " - Key name: a standardized name that simplifies attribute use in SFM databases"
+msgid "Key name: a standardized name that simplifies attribute use in SFM databases"
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:18 ../../source/source-citation-specific.rst:18
-msgid "   :file: _static/cluster-source-citations.csv"
+msgid "_static/cluster-source-citations.csv"
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:22 ../../source/source-citation-specific.rst:22
@@ -297,31 +297,31 @@ msgid "This field is used to specify the exact content within a source that defi
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:210 ../../source/source-citation-specific.rst:210
-msgid "- ``archive``: Leave empty. The value in :ref:`source:archive_url` serves as the trigger for this citation type."
+msgid "``archive``: Leave empty. The value in :ref:`source:archive_url` serves as the trigger for this citation type."
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:211 ../../source/source-citation-specific.rst:211
-msgid "- ``page``: Single page (``1``), single range of pages (``1-2``), combination of page and page ranges (``1,2-3,4,5-8``)"
+msgid "``page``: Single page (``1``), single range of pages (``1-2``), combination of page and page ranges (``1,2-3,4,5-8``)"
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:212 ../../source/source-citation-specific.rst:212
-msgid "- ``line``: Single line (``200``), single range of lines (``200-230``), combination of line and line ranges (``200-230,236,240-250``)"
+msgid "``line``: Single line (``200``), single range of lines (``200-230``), combination of line and line ranges (``200-230,236,240-250``)"
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:213 ../../source/source-citation-specific.rst:213
-msgid "- ``clip``: Single range containing start and end time in the format ``hh:mm:ss`` (``00:01:20-00:01:24``)"
+msgid "``clip``: Single range containing start and end time in the format ``hh:mm:ss`` (``00:01:20-00:01:24``)"
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:214 ../../source/source-citation-specific.rst:214
-msgid "- ``frame``: A single capture point from a video in ``hh:mm:ss`` format (``00:01:20``)"
+msgid "``frame``: A single capture point from a video in ``hh:mm:ss`` format (``00:01:20``)"
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:214 ../../source/source-citation-specific.rst:215
-msgid "- ``paragraph``: if a document has numbered paragraphs in any format (e.g. ``3(1)(a)``), they can be captured here."
+msgid "``paragraph``: if a document has numbered paragraphs in any format (e.g. ``3(1)(a)``), they can be captured here."
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:214 ../../source/source-citation-specific.rst:216
-msgid "- ``cell``: the grid reference (``C123``) of the cell, or cell range (``C123-C129``), containing the data used to evidence the claim."
+msgid "``cell``: the grid reference (``C123``) of the cell, or cell range (``C123-C129``), containing the data used to evidence the claim."
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:218 ../../source/source-citation-specific.rst:218
@@ -417,11 +417,11 @@ msgid "The example above also illustrates an important point: sometimes a source
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:292 ../../source/source-citation-specific.rst:292
-msgid "- Archive URL: ``https://web.archive.org/web/20040208204841/http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``"
+msgid "Archive URL: ``https://web.archive.org/web/20040208204841/http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``"
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:293 ../../source/source-citation-specific.rst:293
-msgid "- Original URL extracted from the Archive URL: ``http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``"
+msgid "Original URL extracted from the Archive URL: ``http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``"
 msgstr ""
 
 #: ../../source/source-citation-specific.rst:299 ../../source/source-citation-specific.rst:299
