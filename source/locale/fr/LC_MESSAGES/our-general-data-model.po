@@ -21,11 +21,11 @@ msgid "Security Force Monitor investigates the conduct of security and defense f
 msgstr ""
 
 #: ../../source/our-general-data-model.rst:6 ../../source/our-general-data-model.rst:6
-msgid ".. figure:: _static/sfm_general_data_model_v_4_handbook.png"
-msgstr ".. figure:: _static/link_chain_data_model_0.5_ukr.png"
+msgid "_static/sfm_general_data_model_v_4_handbook.png"
+msgstr "_static/link_chain_data_model_0.5_ukr.png"
 
 #: ../../source/our-general-data-model.rst:10 ../../source/our-general-data-model.rst:10
-msgid "   :alt: Chart from the Security Force Monitor Research Handbook that describes the Monitor's general data model, including the main entities it collects information about."
+msgid "Chart from the Security Force Monitor Research Handbook that describes the Monitor's general data model, including the main entities it collects information about."
 msgstr ""
 
 #: ../../source/our-general-data-model.rst:17 ../../source/our-general-data-model.rst:17
@@ -37,19 +37,19 @@ msgid "Other sections of this Research Handbook expand on each of the claims and
 msgstr ""
 
 #: ../../source/our-general-data-model.rst:21 ../../source/our-general-data-model.rst:21
-msgid "- A full description of each claim type;"
+msgid "A full description of each claim type;"
 msgstr ""
 
 #: ../../source/our-general-data-model.rst:22 ../../source/our-general-data-model.rst:22
-msgid "- The overall data structure and attributes we use for each claim type;"
+msgid "The overall data structure and attributes we use for each claim type;"
 msgstr ""
 
 #: ../../source/our-general-data-model.rst:23 ../../source/our-general-data-model.rst:23
-msgid "- Examples on the types of data we enter into each attribute; and,"
+msgid "Examples on the types of data we enter into each attribute; and,"
 msgstr ""
 
 #: ../../source/our-general-data-model.rst:24 ../../source/our-general-data-model.rst:24
-msgid "- Guidance on how we fill out each field and why."
+msgid "Guidance on how we fill out each field and why."
 msgstr ""
 
 #: ../../source/our-general-data-model.rst:26 ../../source/our-general-data-model.rst:26
@@ -62,108 +62,4 @@ msgstr ""
 
 #: ../../source/our-general-data-model.rst:30 ../../source/our-general-data-model.rst:30
 msgid "Finally, the general data model guides the construction of the tools and technologies we have built to capture, store and analyze data."
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
-msgstr ""
-
-#: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
-msgid "Our general data model"
 msgstr ""
