@@ -3,7 +3,7 @@ Source
 
 Sources are the raw material of Security Force Monitor's research. They are publicly available, mostly digital, documents and other media that contain information that makes claims about security forces. Specific parts of a source, like page or paragraph numbers, are cited as a required part of every claim type.
 
-This document provides an overview of what information we store in source records. We discuss the difference in how we find sources, and the differences between sources, citations and publications in :ref:`Overview: Sources, Citations and Publications`.  You can find more about how sources and citations relate to claims and the other entities in our data model in :ref:`Our general data model`
+This document provides an overview of what information we store in source records. We discuss the difference in how we find sources, and the differences between sources, citations and publications in :ref:`Overview: Sources, Citations and Publications`.  You can find more about how sources and citations relate to claims and the other entities in our data model in :ref:`Our general data model`.
 
 Source: Summary of attributes
 *****************************
@@ -65,7 +65,7 @@ source:source_id:admin
 Description
 ~~~~~~~~~~~
 
-Field unique 32 character code assigned to the source.
+Field unique 32 character-code assigned to the source.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -312,7 +312,7 @@ source:publication_id:admin
 Description
 ~~~~~~~~~~~
 
-The unique 32 character code assigned of the publication that issued the source.
+The unique 32-character code assigned of the publication that issued the source.
 
 Attribute type
 ~~~~~~~~~~~~~~
