@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
+"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/units-overview.rst:1 ../../source/units-overview.rst:1
@@ -29,13 +29,13 @@ msgid "Data about units are described by three claim types:"
 msgstr ""
 
 #: ../../source/units-overview.rst:11 ../../source/units-overview.rst:11
-msgid "- :ref:`Unit`: the existence and identity of the unit, such as its names, aliases, classification, dates of creation and/or dissolution."
+msgid ":ref:`Unit`: the existence and identity of the unit, such as its names, aliases, classification, dates of creation and/or dissolution."
 msgstr ""
 
 #: ../../source/units-overview.rst:12 ../../source/units-overview.rst:12
-msgid "- :ref:`Positioning`: geographic footprint including where the unit is based and the unit's areas of operation."
+msgid ":ref:`Positioning`: geographic footprint including where the unit is based and the unit's areas of operation."
 msgstr ""
 
 #: ../../source/units-overview.rst:13 ../../source/units-overview.rst:13
-msgid "- :ref:`Relation`: the unit's position in the hierarchy of a security force, as well as their memberships in other units like joint operations or international peacekeeping missions."
+msgid ":ref:`Relation`: the unit's position in the hierarchy of a security force, as well as their memberships in other units like joint operations or international peacekeeping missions."
 msgstr ""
