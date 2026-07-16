@@ -25,8 +25,8 @@ msgid "en_link_chain_data_model_0.5.png"
 msgstr "uk_link_chain_data_model_0.5.png"
 
 #: ../../source/our-general-data-model.rst:10 ../../source/our-general-data-model.rst:10
-msgid "   :alt: Chart from the Security Force Monitor Research Handbook that describes the Monitor's general data model, including the main entities it collects information about."
-msgstr "   :alt: Діаграма з дослідницького посібника Security Force Monitor, яка описує загальну модель даних Монітора, включаючи основні об'єкти, про які він збирає інформацію."
+msgid "Chart from the Security Force Monitor Research Handbook that describes the Monitor's general data model, including the main entities it collects information about."
+msgstr "Діаграма з дослідницького посібника Security Force Monitor, яка описує загальну модель даних Монітора, включаючи основні об'єкти, про які він збирає інформацію."
 
 #: ../../source/our-general-data-model.rst:17 ../../source/our-general-data-model.rst:17
 msgid "We use the general data model described in the above illustration to structure and organize the information we collect during the course of our research. It describes relationships between different "claims", which are logical groupings of data about a specific subject. For example, the "positioning" claim is where we store data about the geographic footprint of a unit, or the link between a unit and a location in time; cumulatively, all of the "positioning" claims describe the geographic presence of security forces across an entire country through time."
