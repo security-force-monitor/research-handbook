@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/posting-start-end-dates.rst:1 ../../source/posting-start-end-dates.rst:1
 msgid "Start and End Dates for Postings"
-msgstr ""
+msgstr "Дати початку та завершення вакансій"
 
 #: ../../source/posting-start-end-dates.rst:4 ../../source/posting-start-end-dates.rst:4
 msgid "Determining when a :ref:`person` was in their position is a central concern of the Security Force Monitor's methodology. Even with seemingly clear sources, establishing when someone began or ended a position, or :ref:`posting`, can be particularly challenging."
