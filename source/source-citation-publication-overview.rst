@@ -37,7 +37,7 @@ For the next stage of research, priorities are idenfitied and defined based on g
 Citing a source
 ***************
 
-Citations are a flexible device that enables us to reference precisely the material that we have used to support the information in a claim. 
+Citations are a flexible device that enables us to reference precisely the material that we have used to support the information in a claim.
 
 A citation directs us to a particular part of a source as evidence for a information a claim - it's much like a citation in an academic paper. This could be material from a specific page in the source; it could also be a specific archive snapshot of a page, as the content of a webpage can sometimes change over time even though its basic identifying data will not. In this way, a single source can be cited in multiple ways.
 
