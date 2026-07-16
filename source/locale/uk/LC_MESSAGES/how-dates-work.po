@@ -66,19 +66,19 @@ msgstr "``Джон Сміт`` як частина ``1 Бригада`` має :r
 
 #: ../../source/how-dates-work.rst:30 ../../source/how-dates-work.rst:30
 msgid "In the example above the citation clearly states that the :ref:`posting` starts on a specific date of ``2014-08-01``. However, it does not indicate that the :ref:`person` was born on that day or that the :ref:`unit` was created on that day. Thus, the ``starting:range`` for the :ref:`person` and :ref:`unit` is ``N``."
-msgstr ""
+msgstr "У наведеному вище прикладі цитата чітко вказує, що :ref:`posting` починається певної дати ``2014-08-01``. Однак це не вказує на те, що :ref:`person` народилася в цей день або що :ref:`unit` була створена в цей день. Таким чином, ``starting:range`` для :ref:`person` та :ref:`unit` дорівнює ``N``."
 
 #: ../../source/how-dates-work.rst:32 ../../source/how-dates-work.rst:32
 msgid "The date of publication of the citation is always an important consideration when establishing date ranges for claims."
-msgstr ""
+msgstr "Дата публікації цитати завжди є важливим фактором при встановленні діапазонів дат для претензій."
 
 #: ../../source/how-dates-work.rst:34 ../../source/how-dates-work.rst:34
 msgid "Example"
-msgstr ""
+msgstr "Приклад"
 
 #: ../../source/how-dates-work.rst:36 ../../source/how-dates-work.rst:36
 msgid "A citation published on 2023-11-05 states "Xavier Johnson, commander of the 9 Battalion, discussed recent operations with reporters today. Since Johnson became commander on November 1st there have been a steady tempo of operations throughout Southern District." This citation would evidence the following claims:"
-msgstr ""
+msgstr "«У цитаті, опублікованій 2023-11-05, йдеться: «Ксав’єр Джонсон, командир 9 батальйон, обговорив сьогодні нещодавні операції з журналістами. З моменту призначення Джонсона командиром 1 листопада спостерігається стабільний темп операцій по всьому Південному окрузі». Ця цитата підтверджує такі твердження:"
 
 #: ../../source/how-dates-work.rst:38 ../../source/how-dates-work.rst:38
 msgid "**unit**"
@@ -86,15 +86,15 @@ msgstr "**орган**"
 
 #: ../../source/how-dates-work.rst:40 ../../source/how-dates-work.rst:40
 msgid "``9 Battalion`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
-msgstr ""
+msgstr "``9 батальйон`` (запис для :ref:`name:annotation <unit-name-annotation>` та :ref:`unit:names:assertion`) матиме ``first_precise:range`` ``2023-11-01`` та ``last_precise:range`` ``2023-11-05``, з ``starting:range`` ``N`` та ``ending:range`` ``N``."
 
 #: ../../source/how-dates-work.rst:42 ../../source/how-dates-work.rst:42
 msgid "**positioning**"
-msgstr ""
+msgstr "**позиція**"
 
 #: ../../source/how-dates-work.rst:44 ../../source/how-dates-work.rst:44
 msgid "``9 Battalion`` in ``Southern District`` with :ref:`positioning:types:assertion` of ``aoo`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
-msgstr ""
+msgstr "``9 батальйон`` у ``Південному окрузі`` з :ref:`positioning:types:assertion` ``aoo`` матиме ``first_precise:range`` ``2023-11-01`` та ``last_precise:range`` ``2023-11-05``, з ``starting:range`` ``N`` та ``ending:range`` ``N``."
 
 #: ../../source/how-dates-work.rst:46 ../../source/how-dates-work.rst:46
 msgid "**person**"
@@ -126,7 +126,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:63 ../../source/how-dates-work.rst:63
 msgid "Example"
-msgstr ""
+msgstr "Приклад"
 
 #: ../../source/how-dates-work.rst:65 ../../source/how-dates-work.rst:65
 msgid "A citation published on 2024-03-24 states "The 15 Regiment quickly responded to the attack on February 15th, conducting operations in several nearby areas, including Western, Upper, Lower and Central-South Governorates." The precise dates when the regiment was conducting these operations in any of the governorates is not clearly stated, however, we can establish an imprecise range for all of these positionings. For all of these positionings the ``first_imprecise:range`` would be ``2024-02-15`` and ``last_imprecise:range`` would be ``2024-03-24`` (the date of publication of the citation)."
@@ -142,7 +142,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:71 ../../source/how-dates-work.rst:71
 msgid "Example"
-msgstr ""
+msgstr "Приклад"
 
 #: ../../source/how-dates-work.rst:73 ../../source/how-dates-work.rst:73
 msgid "A citation states that John Smith was appointed commander of the 1 Brigade on 2014-08-01. The citation also states that "John Smith previously commanded the 8 Battalion.""
@@ -162,7 +162,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:83 ../../source/how-dates-work.rst:83
 msgid "Example"
-msgstr ""
+msgstr "Приклад"
 
 #: ../../source/how-dates-work.rst:85 ../../source/how-dates-work.rst:85
 msgid "A citation published on 2005-06-03 states: "Steven Wendell met with local officials at the 165 Battalion's headquarters today. Wendell, who was appointed as battalion commander last month, addressed concerns about security for the coming election season.""
