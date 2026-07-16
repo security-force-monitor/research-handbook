@@ -6,7 +6,7 @@ Publications are the organizations, individuals or accounts that publish sources
 This document provides an overview of what information we store about publications.
 
 Publication: Summary of attributes
-*****************************
+**********************************
 
 The table below summarizes the following dimensions of source records:
 
