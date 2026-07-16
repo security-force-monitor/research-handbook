@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SFM Research Handbook\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-14 21:03+0000\n"
+"PO-Revision-Date: 2026-07-14 21:03+0000\n"
+"Last-Translator: Google Translate\n"
+"Language-Team: Google Translate\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/locations-specific.rst:1 ../../source/locations-specific.rst:1
+msgid "Location"
+msgstr ""
+
+#: ../../source/locations-specific.rst:4 ../../source/locations-specific.rst:4
+msgid "Locations are unique places or positions. A named town or city can be a Location, as can an administrative area like a county, district or governorate. In fact, anything that can be drawn on a map can be a Location: a specific point, a section of a road, a military line of control, and so on."
+msgstr ""
+
+#: ../../source/locations-specific.rst:7 ../../source/locations-specific.rst:7
+msgid "Location: Summary of attributes"
+msgstr ""
+
+#: ../../source/locations-specific.rst:10 ../../source/locations-specific.rst:10
+msgid "The table below summarizes the following dimensions of Locations:"
+msgstr ""
+
+#: ../../source/locations-specific.rst:12 ../../source/locations-specific.rst:12
+msgid "Attribute label: a human readable label for the attribute"
+msgstr ""
+
+#: ../../source/locations-specific.rst:13 ../../source/locations-specific.rst:13
+msgid "Status: whether the attribute is optional or required in a claim"
+msgstr ""
+
+#: ../../source/locations-specific.rst:14 ../../source/locations-specific.rst:14
+msgid "Data type: the sort of data that can be entered into the attribute"
+msgstr ""
+
+#: ../../source/locations-specific.rst:15 ../../source/locations-specific.rst:15
+msgid "Key name: a standardized name that simplifies attribute use in SFM databases"
+msgstr ""
+
+#: ../../source/locations-specific.rst:18 ../../source/locations-specific.rst:18
+msgid "_static/cluster-locations-attributes.csv"
+msgstr ""
+
+#: ../../source/locations-specific.rst:21 ../../source/locations-specific.rst:21
+msgid "Location: Details of attributes"
+msgstr ""
+
+#: ../../source/locations-specific.rst:24 ../../source/locations-specific.rst:24
+msgid "This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use."
+msgstr ""
+
+#: ../../source/locations-specific.rst:30 ../../source/locations-specific.rst:30
+msgid "Description"
+msgstr ""
+
+#: ../../source/locations-specific.rst:33 ../../source/locations-specific.rst:33
+msgid "A field that classifies the data."
+msgstr ""
+
+#: ../../source/locations-specific.rst:35 ../../source/locations-specific.rst:35
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:38 ../../source/locations-specific.rst:38
+msgid "Text string"
+msgstr ""
+
+#: ../../source/locations-specific.rst:40 ../../source/locations-specific.rst:40
+msgid "Status"
+msgstr ""
+
+#: ../../source/locations-specific.rst:43 ../../source/locations-specific.rst:43
+msgid "This attribute is optional."
+msgstr ""
+
+#: ../../source/locations-specific.rst:45 ../../source/locations-specific.rst:45
+msgid "Key name"
+msgstr ""
+
+#: ../../source/locations-specific.rst:50 ../../source/locations-specific.rst:50
+msgid "Example of use"
+msgstr ""
+
+#: ../../source/locations-specific.rst:55 ../../source/locations-specific.rst:55
+msgid "Guidance on use"
+msgstr ""
+
+#: ../../source/locations-specific.rst:58 ../../source/locations-specific.rst:58
+msgid "Data are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever there is a conflicts with another location and a review shows it to be the incorrect or false location. A :ref:`public_notes:meta <notes-location>` should always accompany any ``conflict`` flag."
+msgstr ""
+
+#: ../../source/locations-specific.rst:60 ../../source/locations-specific.rst:60
+msgid "If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if it cannot be established whether a location should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed."
+msgstr ""
+
+#: ../../source/locations-specific.rst:66 ../../source/locations-specific.rst:66
+msgid "Description"
+msgstr ""
+
+#: ../../source/locations-specific.rst:69 ../../source/locations-specific.rst:69
+msgid "Field for initials or other identifier of researcher who last entered data for the location."
+msgstr ""
+
+#: ../../source/locations-specific.rst:71 ../../source/locations-specific.rst:71
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:74 ../../source/locations-specific.rst:74
+msgid "Text string"
+msgstr ""
+
+#: ../../source/locations-specific.rst:76 ../../source/locations-specific.rst:76
+msgid "Status"
+msgstr ""
+
+#: ../../source/locations-specific.rst:79 ../../source/locations-specific.rst:79
+msgid "This attribute is required."
+msgstr ""
+
+#: ../../source/locations-specific.rst:81 ../../source/locations-specific.rst:81
+msgid "Key name"
+msgstr ""
+
+#: ../../source/locations-specific.rst:86 ../../source/locations-specific.rst:86
+msgid "Example of use"
+msgstr ""
+
+#: ../../source/locations-specific.rst:91 ../../source/locations-specific.rst:91
+msgid "Guidance on use"
+msgstr ""
+
+#: ../../source/locations-specific.rst:94 ../../source/locations-specific.rst:94
+msgid "Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked. "
+msgstr ""
+
+#: ../../source/locations-specific.rst:100 ../../source/locations-specific.rst:100
+msgid "Description"
+msgstr ""
+
+#: ../../source/locations-specific.rst:103 ../../source/locations-specific.rst:103
+msgid "A field for temporary comments or notes for the researcher or research team working on the claim."
+msgstr ""
+
+#: ../../source/locations-specific.rst:105 ../../source/locations-specific.rst:105
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:108 ../../source/locations-specific.rst:108
+msgid "Text string"
+msgstr ""
+
+#: ../../source/locations-specific.rst:110 ../../source/locations-specific.rst:110
+msgid "Status"
+msgstr ""
+
+#: ../../source/locations-specific.rst:113 ../../source/locations-specific.rst:113
+msgid "This attribute is optional."
+msgstr ""
+
+#: ../../source/locations-specific.rst:115 ../../source/locations-specific.rst:115
+msgid "Key name"
+msgstr ""
+
+#: ../../source/locations-specific.rst:120 ../../source/locations-specific.rst:120
+msgid "Example of use"
+msgstr ""
+
+#: ../../source/locations-specific.rst:123 ../../source/locations-specific.rst:123
+msgid "``Come back to this to determine date for claim``"
+msgstr ""
+
+#: ../../source/locations-specific.rst:125 ../../source/locations-specific.rst:125
+msgid "Guidance on use"
+msgstr ""
+
+#: ../../source/locations-specific.rst:128 ../../source/locations-specific.rst:128
+msgid "Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <notes-location>` field."
+msgstr ""
+
+#: ../../source/locations-specific.rst:134 ../../source/locations-specific.rst:134
+msgid "Description"
+msgstr ""
+
+
+#: ../../source/locations-specific.rst:137 ../../source/locations-specific.rst:137
+msgid "Field unique 32-character code assigned to citation(s) evidencing the location."
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:142 ../../source/locations-specific.rst:142
+msgid "String in UUID format"
+msgstr ""
+
+#: ../../source/locations-specific.rst:144 ../../source/locations-specific.rst:144
+msgid "Status"
+msgstr ""
+
+#: ../../source/locations-specific.rst:147 ../../source/locations-specific.rst:147
+msgid "This attribute is optional."
+msgstr ""
+
+#: ../../source/locations-specific.rst:149 ../../source/locations-specific.rst:149
+msgid "Key name"
+msgstr ""
+
+#: ../../source/locations-specific.rst:152 ../../source/locations-specific.rst:152
+msgid "n/a - proposed"
+msgstr ""
+
+#: ../../source/locations-specific.rst:154 ../../source/locations-specific.rst:154
+msgid "Example of use"
+msgstr ""
+
+#: ../../source/locations-specific.rst:159 ../../source/locations-specific.rst:159
+msgid "Guidance on use"
+msgstr ""
+
+#: ../../source/locations-specific.rst:162 ../../source/locations-specific.rst:162
+msgid "Locations are drawn from an external gazeeter or geographic database, and because of this they do not require a citation. However, as the location data model is updated citations may be needed to evidence the creation and disbandment of locations, and perhaps other features as well which are not generally included in gazeeters or geographic databases. When two or more citations are needed to evidence a location then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <notes-location>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`ref:source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated."
+msgstr ""
+
+#: ../../source/locations-specific.rst:168 ../../source/locations-specific.rst:168
+msgid "Description"
+msgstr ""
+
+#: ../../source/locations-specific.rst:171 ../../source/locations-specific.rst:171
+msgid "A unique 32-character code assigned to each Location in the dataset."
+msgstr ""
+
+#: ../../source/locations-specific.rst:173 ../../source/locations-specific.rst:173
+msgid "Type of attribute"
+msgstr ""
+
+#: ../../source/locations-specific.rst:176 ../../source/locations-specific.rst:176
+msgid "String in UUID format."
+msgstr ""
+
+#: ../../source/locations-specific.rst:178 ../../source/locations-specific.rst:178
+msgid "Status"
+msgstr ""
+
+#: ../../source/locations-specific.rst:181 ../../source/locations-specific.rst:181
+msgid "This attribute is required."
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
+msgid "Attribute type"
+msgstr ""
