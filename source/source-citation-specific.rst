@@ -4,7 +4,7 @@ Citation
 A citation directs us to a particular part of a source evidencing the claim, like a citation in an academic paper. This could be material from a specific page in the source; it could also be a specific archive snapshot of a page, as the content of a webpage can sometimes change over time even though its basic identifying data will not. A single source can be cited in multiple ways, and, once created, a citation can be re-used to evidence any number of claims. 
 
 Citation: Summary of attributes
-********************************
+*******************************
 
 The table below summarizes the following dimensions of citations records:
 
@@ -20,7 +20,7 @@ The table below summarizes the following dimensions of citations records:
 
 
 Citation: Details of attributes
-********************************
+*******************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.
 
@@ -51,7 +51,7 @@ Example of use
 Key name
 ~~~~~~~~
 
-``n/a``
+n/a
 
 Guidance on use
 ~~~~~~~~~~~~~~~
@@ -65,7 +65,7 @@ source:status:admin
 Description
 ~~~~~~~~~~~
 
-A field that classifies the citation
+A field that classifies the citation.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -80,7 +80,7 @@ This attribute is not yet implemented.
 Key name
 ~~~~~~~~
 
-``n/a``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -99,7 +99,7 @@ source:access_point_id:admin
 Description
 ~~~~~~~~~~~
 
-A unique 32 character code assigned to each citation.
+A unique 32-character code assigned to each citation.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -133,7 +133,7 @@ source:access_point_type
 Description
 ~~~~~~~~~~~~
 
-The method by which an access point to a source has been created, such as by page or archive snapshot
+The method by which an access point to a source has been created, such as by page or archive snapshot.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -151,7 +151,7 @@ Key name
 ``:citation/type``
 
 Example of use
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 ``page``, ``frame``, ``clip``, ``archive``
 
@@ -215,7 +215,7 @@ This field is used to specify the exact content within a source that defines the
 - ``paragraph``: if a document has numbered paragraphs in any format (e.g. ``3(1)(a)``), they can be captured here.
 - ``cell``: the grid reference (``C123``) of the cell, or cell range (``C123-C129``), containing the data used to evidence the claim.
 
-The range of access point triggers may extend as different media forms become available. 
+The range of access point triggers may extend as different media forms become available.
 
 
 source:accessed_timestamp
@@ -290,7 +290,7 @@ In the majority of cases, this will suffice. However, in some cases, we may need
 The example above also illustrates an important point: sometimes a source is only available in an archived form, because its original source URL is no longer online. There are many reasons a link many no longer be live, and this problem is known as "linkrot". In these cases, the researcher can fill in :ref:`source:url` with a portion of the Internet Archive URL printed after the timestamp. For example:
 
 - Archive URL: ``https://web.archive.org/web/20040208204841/http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``
-- Original URL extracted from the Archive URL: ``http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm```
+- Original URL extracted from the Archive URL: ``http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``
 
 
 source:archive_timestamp
