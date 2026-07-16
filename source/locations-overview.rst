@@ -37,4 +37,4 @@ We can then use additional tools to get more information directly from OpenStree
 
 Where there is not a good option in an existing geospatial data source, and where the source contains sufficient descriptive information, we can create the Location data directly using a Geographical Information System (GIS) tool like QGIS, Earth Pro or Google My Maps. This method is useful for describing Locations that may emerge from geolocation processes, such as views portrayed in images and other subjective descriptions of a place.
 
-We create a datasets of Locations for each country we work on. 
+We create a datasets of Locations for each country we work on.
