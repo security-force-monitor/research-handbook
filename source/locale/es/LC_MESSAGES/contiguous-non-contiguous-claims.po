@@ -14,59 +14,59 @@ msgstr ""
 
 #: ../../source/contiguous-non-contiguous-claims.rst:1 ../../source/contiguous-non-contiguous-claims.rst:1
 msgid "Establishing Contiguous or Non-Contiguous Claims"
-msgstr "Встановлення суміжних або несуміжних вимог"
+msgstr "Establecimiento de reclamaciones contiguas o no contiguas"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:6 ../../source/contiguous-non-contiguous-claims.rst:6
 msgid "To learn more about the fundamentals of dates and timelines in Security Force Monitor's approach read :ref:`How Dates Work` first."
-msgstr "Щоб дізнатися більше про основи дат і часових рамок у підході Security Force Monitor, спочатку прочитайте :ref:`Як працюють дати`."
+msgstr "Para obtener más información sobre los fundamentos de las fechas y las líneas de tiempo en el enfoque de Security Force Monitor, lea primero :ref:`Cómo funcionan las fechas`."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:9 ../../source/contiguous-non-contiguous-claims.rst:9
 msgid "Answering the question “who was where when?” is central for investigations into allegations of human rights abuse(s). Because of this perhaps one of the most defining, and complicating, features of the Security Force Monitor’s data is that almost everything we research is connected to time including:"
-msgstr "Відповідь на питання «хто де був і коли?» є центральною для розслідувань заяв про порушення прав людини. Через це, мабуть, однією з найбільш визначальних і складних особливостей даних Монітора сил безпеки є те, що майже все, що ми досліджуємо, пов’язане з часом, зокрема:"
+msgstr "Responder a la pregunta «¿quién estaba dónde y cuándo?» es fundamental para las investigaciones sobre denuncias de violaciones de los derechos humanos. Quizás por ello, una de las características que mejor definen —y que a la vez complican— los datos del Security Force Monitor es que prácticamente todo lo que investigamos está vinculado al factor temporal, incluyendo:"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:11 ../../source/contiguous-non-contiguous-claims.rst:11
 msgid "-  Existence of units"
-msgstr "-  Наявність підрозділів"
+msgstr "-  Existencia de unidades"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:12 ../../source/contiguous-non-contiguous-claims.rst:12
 msgid "-  Parent relationships between units"
-msgstr "- Батьківські зв'язки між одиницями"
+msgstr "- Relaciones de jerarquía entre unidades"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:13 ../../source/contiguous-non-contiguous-claims.rst:13
 msgid "-  Location of units"
-msgstr "- Розташування підрозділів"
+msgstr "- Ubicación de las unidades"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:14 ../../source/contiguous-non-contiguous-claims.rst:14
 msgid "-  Areas of operation for units"
-msgstr "- Зони діяльності підрозділів"
+msgstr "- Áreas de operación de las unidades"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:15 ../../source/contiguous-non-contiguous-claims.rst:15
 msgid "-  Membership/participation of units of in multi-unit operations"
-msgstr "-  Членство/участь підрозділів у багатопідрозділових операціях"
+msgstr "-  Membresía o participación de unidades en operaciones de múltiples unidades"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:16 ../../source/contiguous-non-contiguous-claims.rst:16
 msgid "-  Positions held by people"
-msgstr "- Посади, які обіймають люди"
+msgstr "- Cargos ocupados por personas"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:18 ../../source/contiguous-non-contiguous-claims.rst:18
 msgid "While attaching time to data points aids our mission to support human rights investigations and advocacy, it raises methodological challenges and questions such as:"
-msgstr "Хоча прив’язка часу до точок даних допомагає нашій місії підтримувати розслідування та адвокацію в галузі прав людини, вона породжує методологічні труднощі та питання, такі як:"
+msgstr "Si bien asociar información temporal a los puntos de datos contribuye a nuestra misión de apoyar las investigaciones y la labor de defensa de los derechos humanos, ello plantea desafíos metodológicos e interrogantes tales como:"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:20 ../../source/contiguous-non-contiguous-claims.rst:20
 msgid "-  Why the Monitor would (or would not) connect two bits of data through time"
-msgstr "-  Чому Монітор з'єднує (або не з'єднує) два біти даних у часі"
+msgstr "-  Por qué el Monitor conectaría (o no) dos fragmentos de datos a través del tiempo"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:21 ../../source/contiguous-non-contiguous-claims.rst:21
 msgid "-  How the Monitor handles gaps in the public record"
-msgstr "-  Як Монітор вирішує проблеми з прогалинами у публічних записах"
+msgstr "-  Cómo gestiona el Monitor las lagunas en el registro público"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:22 ../../source/contiguous-non-contiguous-claims.rst:22
 msgid "-  Questions analysts run through while reviewing time based information"
-msgstr ""
+msgstr "-  Preguntas que los analistas se plantean al revisar información basada en el tiempo."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:24 ../../source/contiguous-non-contiguous-claims.rst:24
 msgid "In an ideal world the Monitor would have a source from every day of the year stating where a unit was located or conducting operations. Barring that, having multiple sources regularly making statements like “since X date this unit has been based in this city” would be tremendously helpful. Unfortunately, neither scenario currently occurs, or is likely to occur in the near future, making it necessary to develop a robust way of thinking through time."
-msgstr ""
+msgstr "En un mundo ideal, el Monitor dispondría de información de cada día del año que indicara dónde se encontraba una unidad o dónde llevaba a cabo sus operaciones. A falta de ello, resultaría de gran utilidad contar con múltiples fuentes que confirmaran periódicamente datos como «desde la fecha X, esta unidad tiene su base en esta ciudad». Lamentablemente, ninguno de estos escenarios se da en la actualidad ni es probable que ocurra en un futuro próximo, por lo que resulta necesario desarrollar un enfoque sólido para analizar la evolución temporal."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:26 ../../source/contiguous-non-contiguous-claims.rst:26
 msgid "Broadly speaking the Security Force Monitor uses agreement among sources to build up details on security force units and individuals. Most of the Monitor’s sources, like government press releases and newspaper articles, can be used to link a value, such as the location of a unit, to a specific date (usually the date of publication). As we collect more sources we need to determine what agreement among sources means for time based values, like the location of a unit."
