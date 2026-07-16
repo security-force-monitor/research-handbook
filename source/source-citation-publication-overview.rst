@@ -22,7 +22,7 @@ In the remainder of this article, we look at where our sources come from, and pr
 Building the source list
 ************************
 
-When starting research on a country the Security Force Monitor first builds a small list of sources to deeply explore, extract data from and structure that data into claims. The priorities for this initial source review and extraction are governmental and security forces
+When starting research on a country the Security Force Monitor first builds a small list of sources to deeply explore, extract data from and structure that data into claims. The priorities for this initial source review and extraction are governmental and security forces.
 
 - Government and security force sources, such as the constitution and laws of the country related to security forces; official government media; websites and other media from the relevant ministries of the country (Information, Defense, Interior, and others); websites and other related media published by the security forces;
 - Media focused on the country, initially drawn from BBC media profiles for the country or other similar sources;
