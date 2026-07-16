@@ -29,7 +29,7 @@ When starting research on a country the Security Force Monitor first builds a sm
 - Civil society and human rights reporting on the country focused on allegations against security forces;
 - Academic and other scholarly research on security forces, which are often found via searches in WorldCat.org
 
-The information contained in these sources are structured into claims as part of the initial research process. Eventually, creating these claims informs the next stage of research. 
+The information contained in these sources are structured into claims as part of the initial research process. Eventually, creating these claims informs the next stage of research.
 
 For the next stage of research, priorities are idenfitied and defined based on gaps in the dataset. Expanded research often relies on keywords from the :ref:`unit:names:assertion` and :ref:`person:names:assertion` fields. This next stage of research will find additional sources and publications for review and extraction, further building the source list. This process can then be repeated as needed to further expand the dataset.
 
