@@ -13,8 +13,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/cross-referencing-claims.rst:1 ../../source/cross-referencing-claims.rst:1
-msgid "Перехресні посилання на твердження"
-msgstr ""
+msgid "Cross-Referencing Claims"
+msgstr "Перехресні посилання на твердження"
 
 #: ../../source/cross-referencing-claims.rst:4 ../../source/cross-referencing-claims.rst:4
 msgid "Creating a vast structured dataset allows us to use the data itself as a cross-reference system for any claim made by citations. When there is a conflict or discrepancy between two or more claims the claims themselves can be balanced against one another to help determine which claim can be coded as ``accepted`` or ``conflict``."
@@ -29,29 +29,29 @@ msgid "The Montior's data structure allows for a range of cross-referencing. Thi
 msgstr ""
 
 #: ../../source/cross-referencing-claims.rst:10 ../../source/cross-referencing-claims.rst:10
-msgid ".. admonition:: Example: Incorrect Commander"
-msgstr ""
+msgid "Incorrect Commander"
+msgstr "Неправильний командир"
 
 #: ../../source/cross-referencing-claims.rst:12 ../../source/cross-referencing-claims.rst:12
-msgid "    Citations from ``2023-02-04``, ``2024-10-11`` and ``2025-01-18`` evidence that ``Liam Johnson`` was commander of ``18 Brigade`` on those dates. As a result, the data has one contiguous :ref:`posting` for Johnson from at least ``2023-02-04`` to at least ``2025-01-18``. One other citation states that ``Theodore Smith`` was commander of ``18 Brigade`` "in 2024". In this case we would cross-reference the claims made about other brigade commanders to see if any of those other brigades had a similar non-contiguous commander like Smith. If not, then the claim about Smith could be coded as ``conflict``."
+msgid "Citations from ``2023-02-04``, ``2024-10-11`` and ``2025-01-18`` evidence that ``Liam Johnson`` was commander of ``18 Brigade`` on those dates. As a result, the data has one contiguous :ref:`posting` for Johnson from at least ``2023-02-04`` to at least ``2025-01-18``. One other citation states that ``Theodore Smith`` was commander of ``18 Brigade`` "in 2024". In this case we would cross-reference the claims made about other brigade commanders to see if any of those other brigades had a similar non-contiguous commander like Smith. If not, then the claim about Smith could be coded as ``conflict``."
 msgstr ""
 
 #: ../../source/cross-referencing-claims.rst:14 ../../source/cross-referencing-claims.rst:14
-msgid ".. admonition:: Example: Commander Too Senior"
-msgstr ""
+msgid "Example: Commander Too Senior"
+msgstr "Приклад: Командир занадто старший"
 
 #: ../../source/cross-referencing-claims.rst:16 ../../source/cross-referencing-claims.rst:16
-msgid "    A common issue is when a senior commander is identified as the "commander" of a low-level unit. Usually this means that they are ultimately in charge of the unit, but not the actual commander of the low-level unit. For example, a citation states that ``Major General`` ``John Smith`` was commander of ``22 Battalion``. Cross-referencing the postings of other major generals allows us to see that other citations evidence major generals in country command divisions, which command brigades, which in turn command battalions. Claims for other postings evidence that brigades are usually commanded by brigadier generals (a lower rank than Major General), and battalions are commanded by colonels (a lower rank than brigadier general). As a result, the claim could coded as ``conflict``."
+msgid "A common issue is when a senior commander is identified as the "commander" of a low-level unit. Usually this means that they are ultimately in charge of the unit, but not the actual commander of the low-level unit. For example, a citation states that ``Major General`` ``John Smith`` was commander of ``22 Battalion``. Cross-referencing the postings of other major generals allows us to see that other citations evidence major generals in country command divisions, which command brigades, which in turn command battalions. Claims for other postings evidence that brigades are usually commanded by brigadier generals (a lower rank than Major General), and battalions are commanded by colonels (a lower rank than brigadier general). As a result, the claim could coded as ``conflict``."
 msgstr ""
 
 #: ../../source/cross-referencing-claims.rst:18 ../../source/cross-referencing-claims.rst:18
-msgid ".. admonition:: Example: Typo in Unit Name"
-msgstr ""
+msgid "Example: Typo in Unit Name"
+msgstr "Приклад: Опечатка в назві одиниці"
 
 #: ../../source/cross-referencing-claims.rst:20 ../../source/cross-referencing-claims.rst:20
-msgid "    Typos often create issues that can be resolved through cross-referencing. For example, a citation states that ``Elijah Williams`` received an award as commander of ``Police Station 1`` for the actions of his officers in ``South Township`` on ``2023-03-05``. Other citations evidence that Williams was commander of ``Police Station 12`` from at least ``2022-12-02`` to at least ``2024-05-15``. Additionally, other citations evidence that ``Police Station 12`` operates in (has a :ref:`positioning` of) ``South Township`` from at least ``2021-09-06`` to at least ``2025-01-24``. No other citations about ``Police Station 1`` state that it operates in ``South Township``. As a result the claim could be coded as ``conflict``."
-msgstr ""
+msgid "Typos often create issues that can be resolved through cross-referencing. For example, a citation states that ``Elijah Williams`` received an award as commander of ``Police Station 1`` for the actions of his officers in ``South Township`` on ``2023-03-05``. Other citations evidence that Williams was commander of ``Police Station 12`` from at least ``2022-12-02`` to at least ``2024-05-15``. Additionally, other citations evidence that ``Police Station 12`` operates in (has a :ref:`positioning` of) ``South Township`` from at least ``2021-09-06`` to at least ``2025-01-24``. No other citations about ``Police Station 1`` state that it operates in ``South Township``. As a result the claim could be coded as ``conflict``."
+msgstr "Друкарські помилки часто створюють проблеми, які можна вирішити за допомогою перехресних посилань. Наприклад, у цитаті зазначено, що ``Елайджа Вільямс`` отримав нагороду як командир ``Поліцейська дільниця 1`` за дії своїх офіцерів у ``Південний містечко`` ``2023-03-05``. Інші посилання свідчать про те, що Вільямс був командиром ``Поліцейська дільниця 12`` щонайменше з ``2022-12-02`` до щонайменше ``2024-05-15``. Крім того, інші посилання свідчать про те, що ``поліцейська дільниця 12`` працює (має :ref:`positioning`) у ``Південний містечко`` щонайменше з ``2021-09-06`` до щонайменше ``2025-01-24``. В інших посиланнях щодо ``Поліцейська дільниця 1`` не зазначено, що вона працює у ``Південний містечко``. Як наслідок, твердження можна класифікувати як ``conflict``."
 
 #: ../../source/cross-referencing-claims.rst:22 ../../source/cross-referencing-claims.rst:22
 msgid "Similarly, sometimes multiple citations are needed to surface the claims made by a single citation. That process is explored further in the next section :ref:`Claims With Multiple Citations`."
-msgstr ""
+msgstr "Так само іноді потрібно кілька цитат, щоб виявити твердження, висунуті в одному цитаті. Цей процес детальніше розглядається в наступному розділі :ref:`Твердження з кількома цитатами`."
