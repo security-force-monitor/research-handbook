@@ -33,36 +33,36 @@ msgid "For a precise range all of the details of the claim are true for all date
 msgstr "Для точного діапазону всі деталі твердження є істинними для всіх дат у діапазоні. Один день – це точний діапазон, у якому перша та остання дати мають однакову дату, введену як значення в обох полях ``first_precise:range`` та ``last_precise:range``."
 
 #: ../../source/how-dates-work.rst:14 ../../source/how-dates-work.rst:14
-msgid ".. admonition:: Example"
-msgstr ".. admonition:: Приклад"
+msgid "Example"
+msgstr "Приклад"
 
 #: ../../source/how-dates-work.rst:16 ../../source/how-dates-work.rst:16
-msgid "    A citation states "John Smith was appointed commander of the 1 Brigade on 2014-08-01." To structure this sentence into data we'd pull out multiple claims:"
-msgstr "    У цитаті йдеться: «Джон Сміт був призначений командиром 1 бригада 2014-08-01». Щоб структурувати це речення в дані, ми витягнемо кілька тверджень:"
+msgid "A citation states "John Smith was appointed commander of the 1 Brigade on 2014-08-01." To structure this sentence into data we'd pull out multiple claims:"
+msgstr "У цитаті йдеться: «Джон Сміт був призначений командиром 1 бригада 2014-08-01». Щоб структурувати це речення в дані, ми витягнемо кілька тверджень:"
 
 #: ../../source/how-dates-work.rst:18 ../../source/how-dates-work.rst:18
-msgid "    **unit**"
-msgstr "    **орган**"
+msgid "**unit**"
+msgstr "**орган**"
 
 #: ../../source/how-dates-work.rst:20 ../../source/how-dates-work.rst:20
-msgid "    ``1 Brigade`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
-msgstr "    ``1 Бригада`` (запис для :ref:`name:annotation <unit-name-annotation>` та :ref:`unit:names:assertion`) матиме ``first_precise:range`` ``2014-08-01`` та ``last_precise:range`` ``2014-08-01``, з ``starting:range`` ``N`` та ``ending:range`` ``N``."
+msgid "``1 Brigade`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
+msgstr "``1 Бригада`` (запис для :ref:`name:annotation <unit-name-annotation>` та :ref:`unit:names:assertion`) матиме ``first_precise:range`` ``2014-08-01`` та ``last_precise:range`` ``2014-08-01``, з ``starting:range`` ``N`` та ``ending:range`` ``N``."
 
 #: ../../source/how-dates-work.rst:22 ../../source/how-dates-work.rst:22
-msgid "    **person**"
-msgstr "    **людина**"
+msgid "**person**"
+msgstr "**людина**"
 
 #: ../../source/how-dates-work.rst:24 ../../source/how-dates-work.rst:24
-msgid "    ``John Smith`` (entry for :ref:`name:annotation <person-name-annotation>` and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
-msgstr "    ``Джон Сміт`` (запис для :ref:`name:annotation <person-name-annotation>` та :ref:`person:names:assertion`) матиме ``first_precise:range`` ``2014-08-01`` та ``last_precise:range`` ``2014-08-01``, з ``starting:range`` ``N`` та ``ending:range`` ``N``."
+msgid "``John Smith`` (entry for :ref:`name:annotation <person-name-annotation>` and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
+msgstr "``Джон Сміт`` (запис для :ref:`name:annotation <person-name-annotation>` та :ref:`person:names:assertion`) матиме ``first_precise:range`` ``2014-08-01`` та ``last_precise:range`` ``2014-08-01``, з ``starting:range`` ``N`` та ``ending:range`` ``N``."
 
 #: ../../source/how-dates-work.rst:26 ../../source/how-dates-work.rst:26
-msgid "    **posting**"
-msgstr "    **робота**"
+msgid "**posting**"
+msgstr "**робота**"
 
 #: ../../source/how-dates-work.rst:28 ../../source/how-dates-work.rst:28
-msgid "    ``John Smith`` as part of ``1 Brigade`` has :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``."
-msgstr "    ``Джон Сміт`` як частина ``1 Бригада`` має :ref:`posting:roles:assertion` ``Commander``, який матиме ``first_precise:range`` ``2014-08-01`` та ``last_precise:range`` ``2014-08-01``, з ``starting:range`` ``Y`` та ``ending:range`` ``N``."
+msgid "``John Smith`` as part of ``1 Brigade`` has :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``."
+msgstr "``Джон Сміт`` як частина ``1 Бригада`` має :ref:`posting:roles:assertion` ``Commander``, який матиме ``first_precise:range`` ``2014-08-01`` та ``last_precise:range`` ``2014-08-01``, з ``starting:range`` ``Y`` та ``ending:range`` ``N``."
 
 #: ../../source/how-dates-work.rst:30 ../../source/how-dates-work.rst:30
 msgid "In the example above the citation clearly states that the :ref:`posting` starts on a specific date of ``2014-08-01``. However, it does not indicate that the :ref:`person` was born on that day or that the :ref:`unit` was created on that day. Thus, the ``starting:range`` for the :ref:`person` and :ref:`unit` is ``N``."
