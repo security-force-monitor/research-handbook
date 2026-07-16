@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/cross-referencing-claims.rst:1 ../../source/cross-referencing-claims.rst:1
-msgid "Cross-Referencing Claims"
+msgid "Перехресні посилання на твердження"
 msgstr ""
 
 #: ../../source/cross-referencing-claims.rst:4 ../../source/cross-referencing-claims.rst:4
