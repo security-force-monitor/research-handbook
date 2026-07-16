@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/unknown-unnamed-units.rst:1 ../../source/unknown-unnamed-units.rst:1
 msgid "Unknown and Unnamed units"
-msgstr ""
+msgstr "Невідомі та безіменні одиниці"
 
 #: ../../source/unknown-unnamed-units.rst:5 ../../source/unknown-unnamed-units.rst:5
 msgid "The Monitor regularly encounters ambiguity in sourcing which it has sought to highlight and resolve through the creation of units with "Unknown" or "Unnamed" in the :ref:`name:annotation <unit-name-annotation>` field. The methodology behind how we make these decisions is laid out below."
