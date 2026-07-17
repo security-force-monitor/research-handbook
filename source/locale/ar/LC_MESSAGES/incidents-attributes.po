@@ -551,7 +551,7 @@ msgstr ""
 
 #: incidents-attributes.rst:732 incidents-attributes.rst:766 incidents-attributes.rst:800 incidents-attributes.rst:834
 msgid "Guidance on dates can be found in the section :ref:`How Dates Work`."
-msgstr ""
+msgstr "Guidance on dates can be found in the section :ref:`كيف تعمل التواريخ`."
 
 #: incidents-attributes.rst:735
 msgid "last_precise:range"
@@ -619,7 +619,7 @@ msgstr ""
 
 #: incidents-attributes.rst:868 incidents-attributes.rst:902
 msgid "For an :ref:`incident` this field is always entered as ``Y``. Guidance on dates can be found in the section :ref:`How Dates Work`."
-msgstr "For an :ref:`حدث` this field is always entered as ``Y``. Guidance on dates can be found in the section :ref:`How Dates Work`."
+msgstr "For an :ref:`حدث` this field is always entered as ``Y``. Guidance on dates can be found in the section :ref:`كيف تعمل التواريخ`."
 
 #: incidents-attributes.rst:871
 msgid "ending:range"
@@ -647,7 +647,7 @@ msgstr ""
 
 #: incidents-attributes.rst:936 incidents-attributes.rst:970
 msgid "Generally this field is left blank for an :ref:`incident` as descriptions are avaliable in the :ref:``incident:violation:descriptions:assertion`. Guidance on dates can be found in the section :ref:`How Dates Work`."
-msgstr "Generally this field is left blank for an :ref:`حدث` as descriptions are avaliable in the :ref:``incident:violation:descriptions:assertion`. Guidance on dates can be found in the section :ref:`How Dates Work`."
+msgstr "Generally this field is left blank for an :ref:`حدث` as descriptions are avaliable in the :ref:``incident:violation:descriptions:assertion`. Guidance on dates can be found in the section :ref:`كيف تعمل التواريخ`."
 
 #: incidents-attributes.rst:939
 msgid "ending_context:range"
