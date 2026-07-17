@@ -1,0 +1,707 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Security Force Monitor Handbook\n"
+"X-Source-File: incidents-attributes.rst\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-17 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: incidents-attributes.rst:1
+msgid "Incident"
+msgstr ""
+
+#: incidents-attributes.rst:4
+msgid "Incidents are publicly documented allegations of acts committed by state-controlled security forces that may violate human rights laws and standards, international criminal law and other sets of relevant norms."
+msgstr ""
+
+#: incidents-attributes.rst:6
+msgid "Incidents may include extrajudicial killings, rape, torture and other forms of violence. Security Force Monitor does not make these allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors around the world."
+msgstr ""
+
+#: incidents-attributes.rst:8
+msgid "The Security Force Monitor does not make allegations against security forces. Nothing in the Monitor’s work should be taken as an allegation made by the Monitor against a unit or person. In our work we treat all claims of human rights violations as “alleged” to indicate that these are claims that other organizations have made."
+msgstr ""
+
+#: incidents-attributes.rst:10
+msgid "For each incident, we include a description of the incident from the organization making the allegation, and from this structure data for the alleged type of human rights violation(s), the alleged perpetrator(s), date range and location the alleged type of human rights violation occurred. The data that we publish does not attempt to demonstrate involvement of individuals or units in human rights abuses beyond that which other organizations have alleged."
+msgstr ""
+
+#: incidents-attributes.rst:13
+msgid "Incident: Summary of claim attributes"
+msgstr ""
+
+#: incidents-attributes.rst:16
+msgid "The table below summarizes the following dimensions of Incident claims:"
+msgstr ""
+
+#: incidents-attributes.rst:18
+msgid "Attribute label: a human readable label for the attribute"
+msgstr ""
+
+#: incidents-attributes.rst:19
+msgid "Status: whether the attribute is optional or required in a claim"
+msgstr ""
+
+#: incidents-attributes.rst:20
+msgid "Data type: the sort of data that can be entered into the attribute"
+msgstr ""
+
+#: incidents-attributes.rst:21
+msgid "Key name: a standardized name that simplifies attribute use in SFM databases"
+msgstr ""
+
+#: incidents-attributes.rst:27
+msgid "Incident: Details of claim attributes"
+msgstr ""
+
+#: incidents-attributes.rst:30
+msgid "This section contains further information about each attribute, including descriptions, examples of use, and guidance on use."
+msgstr ""
+
+#: incidents-attributes.rst:33
+msgid "type:claim"
+msgstr ""
+
+#: incidents-attributes.rst:36 incidents-attributes.rst:70 incidents-attributes.rst:104 incidents-attributes.rst:138 incidents-attributes.rst:172 incidents-attributes.rst:207 incidents-attributes.rst:241 incidents-attributes.rst:275 incidents-attributes.rst:314 incidents-attributes.rst:348 incidents-attributes.rst:382 incidents-attributes.rst:416 incidents-attributes.rst:454 incidents-attributes.rst:488 incidents-attributes.rst:522 incidents-attributes.rst:556 incidents-attributes.rst:590 incidents-attributes.rst:636 incidents-attributes.rst:670 incidents-attributes.rst:704 incidents-attributes.rst:738 incidents-attributes.rst:772 incidents-attributes.rst:806 incidents-attributes.rst:840 incidents-attributes.rst:874 incidents-attributes.rst:908 incidents-attributes.rst:942 incidents-attributes.rst:978 incidents-attributes.rst:1012
+msgid "Description"
+msgstr ""
+
+#: incidents-attributes.rst:39
+msgid "A field that defines what type of claim is being made."
+msgstr ""
+
+#: incidents-attributes.rst:41 incidents-attributes.rst:75 incidents-attributes.rst:109 incidents-attributes.rst:143 incidents-attributes.rst:177 incidents-attributes.rst:212 incidents-attributes.rst:246 incidents-attributes.rst:280 incidents-attributes.rst:319 incidents-attributes.rst:353 incidents-attributes.rst:387 incidents-attributes.rst:421 incidents-attributes.rst:459 incidents-attributes.rst:493 incidents-attributes.rst:527 incidents-attributes.rst:561 incidents-attributes.rst:595 incidents-attributes.rst:641 incidents-attributes.rst:675 incidents-attributes.rst:983 incidents-attributes.rst:1017
+msgid "Attribute type"
+msgstr ""
+
+#: incidents-attributes.rst:44 incidents-attributes.rst:78 incidents-attributes.rst:112 incidents-attributes.rst:146 incidents-attributes.rst:249 incidents-attributes.rst:678
+msgid "Text string"
+msgstr ""
+
+#: incidents-attributes.rst:46 incidents-attributes.rst:80 incidents-attributes.rst:114 incidents-attributes.rst:148 incidents-attributes.rst:182 incidents-attributes.rst:217 incidents-attributes.rst:251 incidents-attributes.rst:285 incidents-attributes.rst:324 incidents-attributes.rst:358 incidents-attributes.rst:392 incidents-attributes.rst:426 incidents-attributes.rst:464 incidents-attributes.rst:498 incidents-attributes.rst:532 incidents-attributes.rst:566 incidents-attributes.rst:600 incidents-attributes.rst:646 incidents-attributes.rst:680 incidents-attributes.rst:714 incidents-attributes.rst:748 incidents-attributes.rst:782 incidents-attributes.rst:816 incidents-attributes.rst:850 incidents-attributes.rst:884 incidents-attributes.rst:918 incidents-attributes.rst:952 incidents-attributes.rst:988 incidents-attributes.rst:1022
+msgid "Status"
+msgstr ""
+
+#: incidents-attributes.rst:49 incidents-attributes.rst:83 incidents-attributes.rst:117 incidents-attributes.rst:185 incidents-attributes.rst:220 incidents-attributes.rst:327 incidents-attributes.rst:429 incidents-attributes.rst:467
+msgid "This attribute is required."
+msgstr ""
+
+#: incidents-attributes.rst:51 incidents-attributes.rst:85 incidents-attributes.rst:119 incidents-attributes.rst:153 incidents-attributes.rst:187 incidents-attributes.rst:222 incidents-attributes.rst:256 incidents-attributes.rst:329 incidents-attributes.rst:363 incidents-attributes.rst:397 incidents-attributes.rst:431 incidents-attributes.rst:469 incidents-attributes.rst:503 incidents-attributes.rst:537 incidents-attributes.rst:571 incidents-attributes.rst:605 incidents-attributes.rst:651 incidents-attributes.rst:685 incidents-attributes.rst:719 incidents-attributes.rst:753 incidents-attributes.rst:787 incidents-attributes.rst:821 incidents-attributes.rst:855 incidents-attributes.rst:889 incidents-attributes.rst:923 incidents-attributes.rst:957 incidents-attributes.rst:993 incidents-attributes.rst:1027
+msgid "Key name"
+msgstr ""
+
+#: incidents-attributes.rst:54
+msgid "``:claim/type``"
+msgstr ""
+
+#: incidents-attributes.rst:56 incidents-attributes.rst:90 incidents-attributes.rst:124 incidents-attributes.rst:158 incidents-attributes.rst:192 incidents-attributes.rst:227 incidents-attributes.rst:261 incidents-attributes.rst:294 incidents-attributes.rst:334 incidents-attributes.rst:368 incidents-attributes.rst:402 incidents-attributes.rst:436 incidents-attributes.rst:474 incidents-attributes.rst:508 incidents-attributes.rst:542 incidents-attributes.rst:576 incidents-attributes.rst:610 incidents-attributes.rst:656 incidents-attributes.rst:690 incidents-attributes.rst:724 incidents-attributes.rst:758 incidents-attributes.rst:792 incidents-attributes.rst:826 incidents-attributes.rst:860 incidents-attributes.rst:894 incidents-attributes.rst:928 incidents-attributes.rst:962 incidents-attributes.rst:998 incidents-attributes.rst:1032
+msgid "Example of use"
+msgstr ""
+
+#: incidents-attributes.rst:59
+msgid "``unit``, ``positioning``, ``relation``, ``person``, ``posting``, ``incident``"
+msgstr ""
+
+#: incidents-attributes.rst:61 incidents-attributes.rst:95 incidents-attributes.rst:129 incidents-attributes.rst:163 incidents-attributes.rst:197 incidents-attributes.rst:232 incidents-attributes.rst:266 incidents-attributes.rst:339 incidents-attributes.rst:373 incidents-attributes.rst:407 incidents-attributes.rst:513 incidents-attributes.rst:547 incidents-attributes.rst:581 incidents-attributes.rst:661 incidents-attributes.rst:695 incidents-attributes.rst:729 incidents-attributes.rst:763 incidents-attributes.rst:797 incidents-attributes.rst:831 incidents-attributes.rst:865 incidents-attributes.rst:899 incidents-attributes.rst:933 incidents-attributes.rst:967 incidents-attributes.rst:1003 incidents-attributes.rst:1037
+msgid "Guidance on use"
+msgstr ""
+
+#: incidents-attributes.rst:64
+msgid "Entering ``incident`` defines the claim and establishes the fields to be used in further data entry about an incident."
+msgstr ""
+
+#: incidents-attributes.rst:67
+msgid "status:meta"
+msgstr ""
+
+#: incidents-attributes.rst:73
+msgid "A field that classifies the data in the claim."
+msgstr ""
+
+#: incidents-attributes.rst:88
+msgid "``:claim/statuses``"
+msgstr ""
+
+#: incidents-attributes.rst:93
+msgid "``accepted``, ``conflict``, ``work_needed``, ``issue``"
+msgstr ""
+
+#: incidents-attributes.rst:98
+msgid "Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim (see :ref:`Citations with both Accepted and Conflicted Information` for guidance when one claim from a citation contains both ``accepted`` and ``conflict`` information). A :ref:`public_notes:meta <incident-public-notes>` should always accompany any ``conflict`` claim. If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed."
+msgstr ""
+
+#: incidents-attributes.rst:101
+msgid "researcher:meta"
+msgstr ""
+
+#: incidents-attributes.rst:107
+msgid "Field for initials or other identifier of researcher who last entered data for the claim."
+msgstr ""
+
+#: incidents-attributes.rst:122
+msgid "``:meta/researchers``"
+msgstr ""
+
+#: incidents-attributes.rst:127
+msgid "``TW``, ``Jane_Doe``, ``G1``"
+msgstr ""
+
+#: incidents-attributes.rst:132
+msgid "Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked."
+msgstr ""
+
+#: incidents-attributes.rst:135
+msgid "internal_comments:meta"
+msgstr ""
+
+#: incidents-attributes.rst:141
+msgid "A field for temporary comments or notes for the researcher or research team working on the claim."
+msgstr ""
+
+#: incidents-attributes.rst:151 incidents-attributes.rst:254 incidents-attributes.rst:288 incidents-attributes.rst:361 incidents-attributes.rst:395 incidents-attributes.rst:501 incidents-attributes.rst:535 incidents-attributes.rst:569 incidents-attributes.rst:603 incidents-attributes.rst:717 incidents-attributes.rst:751 incidents-attributes.rst:785 incidents-attributes.rst:819 incidents-attributes.rst:853 incidents-attributes.rst:887 incidents-attributes.rst:921 incidents-attributes.rst:955 incidents-attributes.rst:991
+msgid "This attribute is optional."
+msgstr ""
+
+#: incidents-attributes.rst:156
+msgid "``:meta/internal-comments``"
+msgstr ""
+
+#: incidents-attributes.rst:161
+msgid "``Come back to this to determine date for claim``"
+msgstr ""
+
+#: incidents-attributes.rst:166
+msgid "Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <incident-public-notes>` field."
+msgstr ""
+
+#: incidents-attributes.rst:169
+msgid "citation:refs:claim"
+msgstr ""
+
+#: incidents-attributes.rst:175
+msgid "Field unique 32 character code assigned to citation(s) evidencing the claim."
+msgstr ""
+
+#: incidents-attributes.rst:180 incidents-attributes.rst:215 incidents-attributes.rst:322 incidents-attributes.rst:644
+msgid "String in UUID format"
+msgstr ""
+
+#: incidents-attributes.rst:190
+msgid "``:claim/citation:refs``"
+msgstr ""
+
+#: incidents-attributes.rst:195
+msgid "``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``"
+msgstr ""
+
+#: incidents-attributes.rst:200
+msgid "Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <incident-public-notes>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated."
+msgstr ""
+
+#: incidents-attributes.rst:204
+msgid "about_entity:ref:claim"
+msgstr ""
+
+#: incidents-attributes.rst:210 incidents-attributes.rst:639
+msgid "A unique 32 character code assigned to each entity in the dataset."
+msgstr ""
+
+#: incidents-attributes.rst:225
+msgid "``:claim/about-entity:ref``"
+msgstr ""
+
+#: incidents-attributes.rst:230 incidents-attributes.rst:659
+msgid "``521ebf18-f161-4ac9-8c72-5a246efa0458``"
+msgstr ""
+
+#: incidents-attributes.rst:235
+msgid "Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For an :ref:`incident` this UUID distinguishes them from any other :ref:`incident` in the dataset."
+msgstr ""
+
+#: incidents-attributes.rst:238
+msgid "about_entity:name:qa"
+msgstr ""
+
+#: incidents-attributes.rst:244 incidents-attributes.rst:673
+msgid "Field that provides human readable name for entity."
+msgstr ""
+
+#: incidents-attributes.rst:259 incidents-attributes.rst:366 incidents-attributes.rst:574 incidents-attributes.rst:688 incidents-attributes.rst:931 incidents-attributes.rst:965
+msgid "n/a"
+msgstr ""
+
+#: incidents-attributes.rst:264
+msgid "``Shot Dead in Hsipaw Township``"
+msgstr ""
+
+#: incidents-attributes.rst:269
+msgid "This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <incident-about-entity>` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import."
+msgstr ""
+
+#: incidents-attributes.rst:272
+msgid "incident:location:descriptions:assertion"
+msgstr ""
+
+#: incidents-attributes.rst:278
+msgid "A textual description of a place which cannot be represented in data, copied directly from the citation."
+msgstr ""
+
+#: incidents-attributes.rst:283 incidents-attributes.rst:356 incidents-attributes.rst:424 incidents-attributes.rst:916 incidents-attributes.rst:950 incidents-attributes.rst:986
+msgid "String"
+msgstr ""
+
+#: incidents-attributes.rst:290
+msgid "Key name ~~~~~~~~ ``:assertion/incident:location:descriptions``"
+msgstr ""
+
+#: incidents-attributes.rst:297
+msgid "``gold mining site``"
+msgstr ""
+
+#: incidents-attributes.rst:299 incidents-attributes.rst:441 incidents-attributes.rst:479 incidents-attributes.rst:615
+msgid "Guidance for use"
+msgstr ""
+
+#: incidents-attributes.rst:302
+msgid "We use this attribute to record the place an incident occurred, exactly as described in the citation. Here is an example:"
+msgstr ""
+
+#: incidents-attributes.rst:304 incidents-attributes.rst:620 incidents-attributes.rst:628
+msgid "Example"
+msgstr ""
+
+#: incidents-attributes.rst:306
+msgid "According to Karen Human Rights Group: \"On March 18th 2017, a C--- villager named U D---, was shot and killed by Tatmadaw soldiers from LIB #589 at a gold mining site in Shwegyin Township. The leaders of the Tatmadaw and the gold mining company each provided one million kyat (US $736) to the victim’s family as compensation."
+msgstr ""
+
+#: incidents-attributes.rst:308
+msgid "While geographic data can be found for ``Shwegyin Township``, the location of the \"gold mining site\" cannot be determined and geolocated based on this description. Because of this it is entered into the :ref:`incident:location:descriptions:assertion` field."
+msgstr ""
+
+#: incidents-attributes.rst:311
+msgid "incident:location:refs:assertion"
+msgstr ""
+
+#: incidents-attributes.rst:317
+msgid "The unique identifier of a location, drawn from the data on existing locations"
+msgstr ""
+
+#: incidents-attributes.rst:332
+msgid "``:assertion/incident:location:refs``"
+msgstr ""
+
+#: incidents-attributes.rst:337
+msgid "``4d7d97a6-d85e-436b-9511-81e8d55ceff3``(the identifier for the location``Baga (osm, point) 4d7d97a6-d85e-436b-9511-81e8d55ceff3``)"
+msgstr ""
+
+#: incidents-attributes.rst:342
+msgid "This field is used to store information about the :ref:`location` where an incident happened. The value included in this field must be taken from :ref:`id:entity` attribute from the location dataset. For further guidance on the creation, management and use of locations visit the :ref:`Location` documentation."
+msgstr ""
+
+#: incidents-attributes.rst:345
+msgid "incident:location:names:qa"
+msgstr ""
+
+#: incidents-attributes.rst:351
+msgid "Human readable name for location."
+msgstr ""
+
+#: incidents-attributes.rst:371
+msgid "``Hpruso Township (osm, poly) fd51e411-0a21-439c-ba3b-b6aa787541d1``"
+msgstr ""
+
+#: incidents-attributes.rst:376
+msgid "The best practice for this field is to use the :ref:`location:humane_id:qa` of the :ref:`incident:location:refs:assertion`."
+msgstr ""
+
+#: incidents-attributes.rst:379
+msgid "country:annotation"
+msgstr ""
+
+#: incidents-attributes.rst:385
+msgid "Associated country of the unit used for grouping claims."
+msgstr ""
+
+#: incidents-attributes.rst:390 incidents-attributes.rst:1020
+msgid "Text, controlled vocabulary."
+msgstr ""
+
+#: incidents-attributes.rst:400
+msgid "``:annotation/country``"
+msgstr ""
+
+#: incidents-attributes.rst:405
+msgid "``mx``, ``ph``"
+msgstr ""
+
+#: incidents-attributes.rst:410
+msgid "Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`__. The specific country code should be chosen based on the :ref:`incident:location:refs:assertion`."
+msgstr ""
+
+#: incidents-attributes.rst:413
+msgid "incident:violation:descriptions:assertion"
+msgstr ""
+
+#: incidents-attributes.rst:419
+msgid "A description of the incident."
+msgstr ""
+
+#: incidents-attributes.rst:434
+msgid "``assertion/incident:violation:descriptions``"
+msgstr ""
+
+#: incidents-attributes.rst:439
+msgid "According to Amnesty International: \"Usman Modu, a 26-year-old scrap metal dealer from Maiduguri, spent almost two and a half years in Giwa barracks. He was arrested in April 2012 in Gwange, Maiduguri, during a screening operation after a Boko Haram attack. All the people who left the mosque were gathered together: the elderly and children were allowed to go home. The men were brought before a “pointer”, who pointed at him and 17 other men. He was first taken to a JTF station called NEPA and then to Giwa Barracks. “One by one we were brought in front of an armoured tank. I never saw anything. People said there was someone inside. When I went up, soldiers said I should go left. They started beating me. One soldier beat me with his gun and I fell down. They tied my hands behind my back and beat me. Then told me to go inside the car. I don't know why I was chosen. I was surprised, I don't know what I have done.” The military released Usman with 41 others in November 2014. The 17 men arrested with Usman all died in military custody.\""
+msgstr ""
+
+#: incidents-attributes.rst:444
+msgid "In this attribute we record a direct quotation from the civil society, governmental or other source that describes the incident. When an incident has more than one report tied to it, start the quotation as below:"
+msgstr ""
+
+#: incidents-attributes.rst:446
+msgid "According to X organization, “Description of incident”. According to Y organization, “Description of incident”."
+msgstr ""
+
+#: incidents-attributes.rst:448
+msgid "Best practice is for the :ref:`incident:violation:descriptions:assertion` to contain all of the information in the :ref:`incident` claim. This would allow any reader or researcher could read the :ref:`incident:violation:descriptions:assertion` and understand the entries in any field for the :ref:`incident`."
+msgstr ""
+
+#: incidents-attributes.rst:451
+msgid "incident:violation:types:assertion"
+msgstr ""
+
+#: incidents-attributes.rst:457
+msgid "Type of alleged violation of human rights law, international humanitarian law or other relevant laws committed during the incident."
+msgstr ""
+
+#: incidents-attributes.rst:462
+msgid "Text, multiple entry"
+msgstr ""
+
+#: incidents-attributes.rst:472
+msgid "``:assertion/incident:violation:types``"
+msgstr ""
+
+#: incidents-attributes.rst:477
+msgid "``Torture; Violations of the Right to Life``, ``Intentionally directing attacks against the civilian population``"
+msgstr ""
+
+#: incidents-attributes.rst:482
+msgid "In :ref:`incident:violation:types:assertion`, a value is taken as is from the source, without change. If the source states \"torture\", we transcribe this without further analysis. This is because the Monitor does not make specific direct allegations, but reports verbatim the allegations made by the source. The *only* change the Monitor would make would be to capitalize the first letter so that \"torture\" would be entered as \"Torture\"."
+msgstr ""
+
+#: incidents-attributes.rst:485
+msgid "category:violation_types:annotation"
+msgstr ""
+
+#: incidents-attributes.rst:491
+msgid "Draft field to allow grouping or categorization of incidents based on alleged violations."
+msgstr ""
+
+#: incidents-attributes.rst:496 incidents-attributes.rst:564
+msgid "Text string."
+msgstr ""
+
+#: incidents-attributes.rst:506
+msgid "``:annotation/category:violation-types``"
+msgstr ""
+
+#: incidents-attributes.rst:511 incidents-attributes.rst:649 incidents-attributes.rst:683
+msgid "This is a draft field."
+msgstr ""
+
+#: incidents-attributes.rst:516
+msgid "This draft field exists to allow for grouping or categorization of incidents based on alleged violations. The categories themselves can be determined and based on criteria established by the user of this data model."
+msgstr ""
+
+#: incidents-attributes.rst:519
+msgid "incident:perpetrator:refs:assertion"
+msgstr ""
+
+#: incidents-attributes.rst:525
+msgid "The UUID of the unit or person against which the allegation is made, selected from the dataset."
+msgstr ""
+
+#: incidents-attributes.rst:530
+msgid "String, formatted as a UUID"
+msgstr ""
+
+#: incidents-attributes.rst:540
+msgid "``:assertion/incident:perpetrator:refs``"
+msgstr ""
+
+#: incidents-attributes.rst:545
+msgid "``a27d4e1f-7add-4302-ab2e-70c426cce519``"
+msgstr ""
+
+#: incidents-attributes.rst:550
+msgid "Where a source make an allegation against a specific :ref:`unit` and/or :ref:`person`, this attribute is used to store the UUID of the :ref:`unit` (:ref:`about_entity:ref:claim <unit-about-entity>`) and/or :ref:`person` (:ref:`about_entity:ref:claim <person-about-entity>`). The :ref:`unit` or :ref:`person` must already exist in the dataset. An :ref:`incident` can have multiple units and/or persons as perpetrators."
+msgstr ""
+
+#: incidents-attributes.rst:553
+msgid "incident:perpetrator:names:qa"
+msgstr ""
+
+#: incidents-attributes.rst:559
+msgid "Human readable name for alleged unit and/or person perpetrator(s)."
+msgstr ""
+
+#: incidents-attributes.rst:579
+msgid "``115 Light Infantry Battalion``"
+msgstr ""
+
+#: incidents-attributes.rst:584
+msgid "The best practice for this field is to use the name of the unit(s) (:ref:`name:annotation <unit-name-annotation>`) and/or person(s) (:ref:`name:annotation <person-name-annotation>`)."
+msgstr ""
+
+#: incidents-attributes.rst:587
+msgid "incident:perpetrator:classifications:assertion"
+msgstr ""
+
+#: incidents-attributes.rst:593
+msgid "General branch or tier of the security force alleged to have committed the act(s) described in the incident."
+msgstr ""
+
+#: incidents-attributes.rst:598
+msgid "Text, multiple entry, controlled vocabulary taken from :ref:`unit:classifications:assertion`"
+msgstr ""
+
+#: incidents-attributes.rst:608
+msgid "``:assertion/incident:perpetrator:classifications``"
+msgstr ""
+
+#: incidents-attributes.rst:613
+msgid "``Army``, ``Ejército``, ``Police``, ``Military``, ``Military Police ; Joint Operation``"
+msgstr ""
+
+#: incidents-attributes.rst:618
+msgid "Sometimes a citation will report general information about the alleged perpetrators of an act. For example, rather than state a unit or a specific person the citation might include something generic like “soldiers” or “police\". In these cases we use the same methodology used assign a :ref:`unit:classifications:assertion` to assign a :ref:`incident:perpetrator:classifications:assertion`. The list of possible entries used in :ref:`incident:perpetrator:classifications:assertion` is the same for :ref:`unit:classifications:assertion`."
+msgstr ""
+
+#: incidents-attributes.rst:622
+msgid "According to Amnesty International: \"On 1 May 2012, around midnight, Nigerian soldiers arrested 37-year-old Dungus Ladan (not his real name), at his home in Maiduguri. Fatima, Dungus’ wife, told Amnesty International that the soldiers promised to just take him for an interrogation that should not last more than a few hours. When her husband did not return, she said, his father went on 3 May to Giwa barracks to check what had happened. Soldiers told him that Dungus had already been released. When he still did not return, the father went back again to the barracks, where soldiers told him that he should come back the next day to bail out his son. The following day, several relatives went together and gave the soldiers “what they could,” and the soldiers again promised to release Dungus that day. His wife said that the soldiers kept asking for money, and the family kept paying, but Dungus was never released. In February 2014, his father saw Dungus in the detention facility; they spoke briefly. Dungus said he had been framed by some people who owed him money and they arranged for him to be arrested and detained. Since then, his family has not seen him again; soldiers at Giwa barracks have told them he is not there.\""
+msgstr ""
+
+#: incidents-attributes.rst:624
+msgid "The only alleged perpetrators described in this alleged incident are \"soldiers\". The most appropriate term to enter in :ref:`incident:perpetrator:classifications:assertion` to match this description which would be \"military\" because \"soldiers\" could refer to personnel of the Army, Navy or other armed services of a country."
+msgstr ""
+
+#: incidents-attributes.rst:626
+msgid "An :ref:`incident` may have entries in both the :ref:`incident:perpetrator:classifications:assertion` and :ref:`incident:perpetrator:refs:assertion` fields."
+msgstr ""
+
+#: incidents-attributes.rst:630
+msgid "According to Amnesty International \"On 27 August, Myanmar soldiers summarily executed scores of men and boys in Maung Nu [...]\" and \"The principal unit involved in the Maung Nu massacre was Light Infantry Battalion (LIB) No. 564 [...]\". As both a specific unit, the ``564 Light Infantry Battalion``, and \"soldiers\" are described as perpetrators the :ref:`incident` is coded with the :ref:`about_entity:ref:claim <unit-about-entity>` of the ``564 Light Infantry Battalion`` in :ref:`incident:perpetrator:refs:assertion` and a :ref:`incident:perpetrator:classifications:assertion` of ``Military``."
+msgstr ""
+
+#: incidents-attributes.rst:633
+msgid "incident:victim:refs:assertion"
+msgstr ""
+
+#: incidents-attributes.rst:654
+msgid "``:assertion/incident:victim:refs``"
+msgstr ""
+
+#: incidents-attributes.rst:664
+msgid "This draft field is to capture any :ref:`person` alleged to be a victim of the :ref:`incident`. This :ref:`person` must already exist in the dataset."
+msgstr ""
+
+#: incidents-attributes.rst:667
+msgid "incident:victim:names:qa"
+msgstr ""
+
+#: incidents-attributes.rst:693
+msgid "``John Smith``"
+msgstr ""
+
+#: incidents-attributes.rst:698
+msgid "This draft field provides a human readable counterpart to the :ref:`incident:victim:refs:assertion`. This field can be manually added by a researcher or automatically populated by the system after import. The best practice is to use the :ref:`name:annotation <person-name-annotation>` in this field."
+msgstr ""
+
+#: incidents-attributes.rst:701
+msgid "first_precise:range"
+msgstr ""
+
+#: incidents-attributes.rst:707
+msgid "The first precise date in the range."
+msgstr ""
+
+#: incidents-attributes.rst:709 incidents-attributes.rst:743 incidents-attributes.rst:777 incidents-attributes.rst:811 incidents-attributes.rst:845 incidents-attributes.rst:879 incidents-attributes.rst:913 incidents-attributes.rst:947
+msgid "Type of attribute"
+msgstr ""
+
+#: incidents-attributes.rst:712 incidents-attributes.rst:746 incidents-attributes.rst:780 incidents-attributes.rst:814
+msgid "String-date"
+msgstr ""
+
+#: incidents-attributes.rst:722
+msgid "``:range-precise/first``"
+msgstr ""
+
+#: incidents-attributes.rst:727 incidents-attributes.rst:761
+msgid "``2024-07-03`` , ``2022-08-21``"
+msgstr ""
+
+#: incidents-attributes.rst:732 incidents-attributes.rst:766 incidents-attributes.rst:800 incidents-attributes.rst:834
+msgid "Guidance on dates can be found in the section :ref:`How Dates Work`."
+msgstr ""
+
+#: incidents-attributes.rst:735
+msgid "last_precise:range"
+msgstr ""
+
+#: incidents-attributes.rst:741
+msgid "The last precise date in the range."
+msgstr ""
+
+#: incidents-attributes.rst:756
+msgid "``:range-precise/last``"
+msgstr ""
+
+#: incidents-attributes.rst:769
+msgid "first_imprecise:range"
+msgstr ""
+
+#: incidents-attributes.rst:775
+msgid "The first imprecise date in the range."
+msgstr ""
+
+#: incidents-attributes.rst:790
+msgid "``:range-imprecise/first``"
+msgstr ""
+
+#: incidents-attributes.rst:795
+msgid "``2024-03-25``"
+msgstr ""
+
+#: incidents-attributes.rst:803
+msgid "last_imprecise:range"
+msgstr ""
+
+#: incidents-attributes.rst:809
+msgid "The last imprecise date in the range."
+msgstr ""
+
+#: incidents-attributes.rst:824
+msgid "``:range-imprecise/last``"
+msgstr ""
+
+#: incidents-attributes.rst:829
+msgid "``2023-07-31`` , ``2024-01-10``"
+msgstr ""
+
+#: incidents-attributes.rst:837
+msgid "starting:range"
+msgstr ""
+
+#: incidents-attributes.rst:843
+msgid "Flag for if first date in range is the start date or not."
+msgstr ""
+
+#: incidents-attributes.rst:848 incidents-attributes.rst:882
+msgid "Y/N boolean"
+msgstr ""
+
+#: incidents-attributes.rst:858
+msgid "``:range/starting?``"
+msgstr ""
+
+#: incidents-attributes.rst:863 incidents-attributes.rst:897
+msgid "``Y`` , ``N``"
+msgstr ""
+
+#: incidents-attributes.rst:868 incidents-attributes.rst:902
+msgid "For an :ref:`incident` this field is always entered as ``Y``. Guidance on dates can be found in the section :ref:`How Dates Work`."
+msgstr ""
+
+#: incidents-attributes.rst:871
+msgid "ending:range"
+msgstr ""
+
+#: incidents-attributes.rst:877
+msgid "Flag for if last date in range is the start date or not."
+msgstr ""
+
+#: incidents-attributes.rst:892
+msgid "``:range/ending?``"
+msgstr ""
+
+#: incidents-attributes.rst:905
+msgid "starting_context:range"
+msgstr ""
+
+#: incidents-attributes.rst:911
+msgid "Simple description of start date."
+msgstr ""
+
+#: incidents-attributes.rst:926
+msgid "``:range/starting-context``"
+msgstr ""
+
+#: incidents-attributes.rst:936 incidents-attributes.rst:970
+msgid "Generally this field is left blank for an :ref:`incident` as descriptions are avaliable in the :ref:``incident:violation:descriptions:assertion`. Guidance on dates can be found in the section :ref:`How Dates Work`."
+msgstr ""
+
+#: incidents-attributes.rst:939
+msgid "ending_context:range"
+msgstr ""
+
+#: incidents-attributes.rst:945
+msgid "Simple description of end date."
+msgstr ""
+
+#: incidents-attributes.rst:960
+msgid "``:range/ending-context``"
+msgstr ""
+
+#: incidents-attributes.rst:975
+msgid "public_notes:meta"
+msgstr ""
+
+#: incidents-attributes.rst:981
+msgid "Additional context or details about the claim for a public audience."
+msgstr ""
+
+#: incidents-attributes.rst:996
+msgid "``:meta/public-notes``"
+msgstr ""
+
+#: incidents-attributes.rst:1001
+msgid "``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred \"last week\". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``"
+msgstr ""
+
+#: incidents-attributes.rst:1006
+msgid "This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. In the \"Example of Use\" above a citation published on 15 July 2019 refers to something happening \"last week\" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result, the researcher should explain how that date range was evidenced by the citation."
+msgstr ""
+
+#: incidents-attributes.rst:1009
+msgid "type:entity"
+msgstr ""
+
+#: incidents-attributes.rst:1015
+msgid "Specifies the type of entity."
+msgstr ""
+
+#: incidents-attributes.rst:1025
+msgid "This field is required."
+msgstr ""
+
+#: incidents-attributes.rst:1030
+msgid "``:entity/type``"
+msgstr ""
+
+#: incidents-attributes.rst:1035
+msgid "``claim``"
+msgstr ""
+
+#: incidents-attributes.rst:1040
+msgid "For an :ref:`incident` the only entry allowed for this field is ``claim``."
+msgstr ""
+
