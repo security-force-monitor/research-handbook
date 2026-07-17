@@ -3,7 +3,7 @@ Unit
 
 A :ref:`unit` claim type contains information about the identity of the :ref:`unit`, such as its name, aliases, classification, the country in which it operates, and the duration of its existence.
 
-Unit Identity: Summary of claim attributes 
+Unit Identity: Summary of claim attributes
 ******************************************
 
 The table below summarizes the following dimensions of :ref:`unit` claims:
