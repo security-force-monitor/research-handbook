@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:1 ../../source/how-dates-work.rst:1
 msgid "How Dates Work"
-msgstr ""
+msgstr "Cómo funcionan las fechas"
 
 #: ../../source/how-dates-work.rst:4 ../../source/how-dates-work.rst:4
 msgid "Dates are a central focus of the Security Force Monitor's data and methodology. All claims in the Security Force Monitor dataset are time-bound."
@@ -33,35 +33,35 @@ msgid "For a precise range all of the details of the claim are true for all date
 msgstr ""
 
 #: ../../source/how-dates-work.rst:14 ../../source/how-dates-work.rst:14
-msgid ".. admonition:: Example"
+msgid "Example"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:16 ../../source/how-dates-work.rst:16
-msgid "    A citation states "John Smith was appointed commander of the 1 Brigade on 2014-08-01." To structure this sentence into data we'd pull out multiple claims: "
+msgid "A citation states "John Smith was appointed commander of the 1 Brigade on 2014-08-01." To structure this sentence into data we'd pull out multiple claims: "
 msgstr ""
 
 #: ../../source/how-dates-work.rst:18 ../../source/how-dates-work.rst:18
-msgid "    **unit**"
+msgid "**unit**"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:20 ../../source/how-dates-work.rst:20
-msgid "    ``1 Brigade`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
+msgid "``1 Brigade`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
 msgstr ""
 
 #: ../../source/how-dates-work.rst:22 ../../source/how-dates-work.rst:22
-msgid "    **person**"
+msgid "**person**"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:24 ../../source/how-dates-work.rst:24
-msgid "    ``John Smith`` (entry for :ref:`name:annotation <person-name-annotation>` and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
+msgid "``John Smith`` (entry for :ref:`name:annotation <person-name-annotation>` and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
 msgstr ""
 
 #: ../../source/how-dates-work.rst:26 ../../source/how-dates-work.rst:26
-msgid "    **posting**"
+msgid "**posting**"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:28 ../../source/how-dates-work.rst:28
-msgid "    ``John Smith`` as part of ``1 Brigade`` has :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``."
+msgid "``John Smith`` as part of ``1 Brigade`` has :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``."
 msgstr ""
 
 #: ../../source/how-dates-work.rst:30 ../../source/how-dates-work.rst:30
@@ -77,31 +77,31 @@ msgid ".. admonition:: Example"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:36 ../../source/how-dates-work.rst:36
-msgid "    A citation published on 2023-11-05 states "Xavier Johnson, commander of the 9 Battalion, discussed recent operations with reporters today. Since Johnson became commander on November 1st there have been a steady tempo of operations throughout Southern District." This citation would evidence the following claims:"
+msgid "A citation published on 2023-11-05 states "Xavier Johnson, commander of the 9 Battalion, discussed recent operations with reporters today. Since Johnson became commander on November 1st there have been a steady tempo of operations throughout Southern District." This citation would evidence the following claims:"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:38 ../../source/how-dates-work.rst:38
-msgid "    **unit**"
+msgid "**unit**"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:40 ../../source/how-dates-work.rst:40
-msgid "    ``9 Battalion`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
+msgid "``9 Battalion`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
 msgstr ""
 
 #: ../../source/how-dates-work.rst:42 ../../source/how-dates-work.rst:42
-msgid "    **positioning**"
+msgid "**positioning**"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:44 ../../source/how-dates-work.rst:44
-msgid "    ``9 Battalion`` in ``Southern District`` with :ref:`positioning:types:assertion` of ``aoo`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
+msgid "``9 Battalion`` in ``Southern District`` with :ref:`positioning:types:assertion` of ``aoo`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
 msgstr ""
 
 #: ../../source/how-dates-work.rst:46 ../../source/how-dates-work.rst:46
-msgid "    **person**"
+msgid "**person**"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:48 ../../source/how-dates-work.rst:48
-msgid "    ``Xavier Johnson`` (entry for :ref:`name:annotation <person-name-annotation>` and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
+msgid "``Xavier Johnson`` (entry for :ref:`name:annotation <person-name-annotation>` and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
 msgstr ""
 
 #: ../../source/how-dates-work.rst:50 ../../source/how-dates-work.rst:50
