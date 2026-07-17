@@ -346,7 +346,7 @@ msgstr ""
 
 #: units-identity.rst:358
 msgid "In some cases, we are aware that a unit exists because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of \"Unnamed\" and \"Unknown\" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`."
-msgstr ""
+msgstr "En algunos casos, sabemos que existe una unidad gracias a la información que las fuentes nos proporcionan sobre su estructura organizativa general. Sin embargo, en otros casos, las fuentes no nos brindan información suficiente para nombrar estas unidades o para precisar la naturaleza de las relaciones entre ellas. Para resolver este tipo de problemas, utilizamos los conceptos de unidades "sin nombre" y "desconocidas". Encontrará más información al respecto en la página del Manual: :ref:`Unidades desconocidas y sin nombre`."
 
 #: units-identity.rst:361
 msgid "unit:names:assertion"
