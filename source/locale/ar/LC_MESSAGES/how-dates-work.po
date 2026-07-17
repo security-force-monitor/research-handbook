@@ -9,12 +9,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
+"Language: ar\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/how-dates-work.rst:1 ../../source/how-dates-work.rst:1
 msgid "How Dates Work"
-msgstr ""
+msgstr "كيف تعمل التواريخ"
 
 #: ../../source/how-dates-work.rst:4 ../../source/how-dates-work.rst:4
 msgid "Dates are a central focus of the Security Force Monitor's data and methodology. All claims in the Security Force Monitor dataset are time-bound."
