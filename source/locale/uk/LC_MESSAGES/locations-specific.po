@@ -1,342 +1,727 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SFM Research Handbook\n"
+"Project-Id-Version: Security Force Monitor Handbook\n"
+"X-Source-File: locations-specific.rst\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-14 21:03+0000\n"
-"PO-Revision-Date: 2026-07-14 21:03+0000\n"
-"Last-Translator: Google Translate\n"
-"Language-Team: Google Translate\n"
+"POT-Creation-Date: 2026-07-17 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/locations-specific.rst:1 ../../source/locations-specific.rst:1
+#: locations-specific.rst:1
 msgid "Location"
 msgstr ""
 
-#: ../../source/locations-specific.rst:4 ../../source/locations-specific.rst:4
+#: locations-specific.rst:4
 msgid "Locations are unique places or positions. A named town or city can be a Location, as can an administrative area like a county, district or governorate. In fact, anything that can be drawn on a map can be a Location: a specific point, a section of a road, a military line of control, and so on."
 msgstr ""
 
-#: ../../source/locations-specific.rst:7 ../../source/locations-specific.rst:7
+#: locations-specific.rst:7
 msgid "Location: Summary of attributes"
 msgstr ""
 
-#: ../../source/locations-specific.rst:10 ../../source/locations-specific.rst:10
+#: locations-specific.rst:10
 msgid "The table below summarizes the following dimensions of Locations:"
 msgstr ""
 
-#: ../../source/locations-specific.rst:12 ../../source/locations-specific.rst:12
+#: locations-specific.rst:12
 msgid "Attribute label: a human readable label for the attribute"
 msgstr ""
 
-#: ../../source/locations-specific.rst:13 ../../source/locations-specific.rst:13
+#: locations-specific.rst:13
 msgid "Status: whether the attribute is optional or required in a claim"
 msgstr ""
 
-#: ../../source/locations-specific.rst:14 ../../source/locations-specific.rst:14
+#: locations-specific.rst:14
 msgid "Data type: the sort of data that can be entered into the attribute"
 msgstr ""
 
-#: ../../source/locations-specific.rst:15 ../../source/locations-specific.rst:15
+#: locations-specific.rst:15
 msgid "Key name: a standardized name that simplifies attribute use in SFM databases"
 msgstr ""
 
-#: ../../source/locations-specific.rst:18 ../../source/locations-specific.rst:18
-msgid "_static/cluster-locations-attributes.csv"
-msgstr ""
-
-#: ../../source/locations-specific.rst:21 ../../source/locations-specific.rst:21
+#: locations-specific.rst:21
 msgid "Location: Details of attributes"
 msgstr ""
 
-#: ../../source/locations-specific.rst:24 ../../source/locations-specific.rst:24
+#: locations-specific.rst:24
 msgid "This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use."
 msgstr ""
 
-#: ../../source/locations-specific.rst:30 ../../source/locations-specific.rst:30
+#: locations-specific.rst:27
+msgid "status:meta"
+msgstr ""
+
+#: locations-specific.rst:30 locations-specific.rst:66 locations-specific.rst:100 locations-specific.rst:134 locations-specific.rst:168 locations-specific.rst:202 locations-specific.rst:241 locations-specific.rst:275 locations-specific.rst:309 locations-specific.rst:343 locations-specific.rst:383 locations-specific.rst:417 locations-specific.rst:451 locations-specific.rst:484 locations-specific.rst:520 locations-specific.rst:554 locations-specific.rst:588 locations-specific.rst:622 locations-specific.rst:656 locations-specific.rst:690 locations-specific.rst:724 locations-specific.rst:758 locations-specific.rst:792 locations-specific.rst:826 locations-specific.rst:860 locations-specific.rst:894 locations-specific.rst:928 locations-specific.rst:962 locations-specific.rst:996 locations-specific.rst:1030 locations-specific.rst:1064 locations-specific.rst:1098 locations-specific.rst:1132 locations-specific.rst:1168 locations-specific.rst:1202
 msgid "Description"
 msgstr ""
 
-#: ../../source/locations-specific.rst:33 ../../source/locations-specific.rst:33
+#: locations-specific.rst:33
 msgid "A field that classifies the data."
 msgstr ""
 
-#: ../../source/locations-specific.rst:35 ../../source/locations-specific.rst:35
+#: locations-specific.rst:35 locations-specific.rst:71 locations-specific.rst:105 locations-specific.rst:139 locations-specific.rst:1173 locations-specific.rst:1207
 msgid "Attribute type"
 msgstr ""
 
-#: ../../source/locations-specific.rst:38 ../../source/locations-specific.rst:38
+#: locations-specific.rst:38 locations-specific.rst:74 locations-specific.rst:108
 msgid "Text string"
 msgstr ""
 
-#: ../../source/locations-specific.rst:40 ../../source/locations-specific.rst:40
+#: locations-specific.rst:40 locations-specific.rst:76 locations-specific.rst:110 locations-specific.rst:144 locations-specific.rst:178 locations-specific.rst:212 locations-specific.rst:251 locations-specific.rst:285 locations-specific.rst:319 locations-specific.rst:353 locations-specific.rst:393 locations-specific.rst:427 locations-specific.rst:461 locations-specific.rst:494 locations-specific.rst:530 locations-specific.rst:564 locations-specific.rst:598 locations-specific.rst:632 locations-specific.rst:666 locations-specific.rst:700 locations-specific.rst:734 locations-specific.rst:768 locations-specific.rst:802 locations-specific.rst:836 locations-specific.rst:870 locations-specific.rst:904 locations-specific.rst:938 locations-specific.rst:972 locations-specific.rst:1006 locations-specific.rst:1040 locations-specific.rst:1074 locations-specific.rst:1108 locations-specific.rst:1142 locations-specific.rst:1178 locations-specific.rst:1212
 msgid "Status"
 msgstr ""
 
-#: ../../source/locations-specific.rst:43 ../../source/locations-specific.rst:43
+#: locations-specific.rst:43 locations-specific.rst:113 locations-specific.rst:147 locations-specific.rst:215 locations-specific.rst:356 locations-specific.rst:464 locations-specific.rst:497 locations-specific.rst:533 locations-specific.rst:567 locations-specific.rst:601 locations-specific.rst:635 locations-specific.rst:669 locations-specific.rst:703 locations-specific.rst:737 locations-specific.rst:771 locations-specific.rst:805 locations-specific.rst:839 locations-specific.rst:873 locations-specific.rst:907 locations-specific.rst:941 locations-specific.rst:975 locations-specific.rst:1009 locations-specific.rst:1043 locations-specific.rst:1077 locations-specific.rst:1111 locations-specific.rst:1145 locations-specific.rst:1181
 msgid "This attribute is optional."
 msgstr ""
 
-#: ../../source/locations-specific.rst:45 ../../source/locations-specific.rst:45
+#: locations-specific.rst:45 locations-specific.rst:81 locations-specific.rst:115 locations-specific.rst:149 locations-specific.rst:183 locations-specific.rst:217 locations-specific.rst:256 locations-specific.rst:290 locations-specific.rst:324 locations-specific.rst:358 locations-specific.rst:398 locations-specific.rst:432 locations-specific.rst:466 locations-specific.rst:499 locations-specific.rst:535 locations-specific.rst:569 locations-specific.rst:603 locations-specific.rst:637 locations-specific.rst:671 locations-specific.rst:705 locations-specific.rst:739 locations-specific.rst:773 locations-specific.rst:807 locations-specific.rst:841 locations-specific.rst:875 locations-specific.rst:909 locations-specific.rst:943 locations-specific.rst:977 locations-specific.rst:1011 locations-specific.rst:1045 locations-specific.rst:1079 locations-specific.rst:1113 locations-specific.rst:1147 locations-specific.rst:1183 locations-specific.rst:1217
 msgid "Key name"
 msgstr ""
 
-#: ../../source/locations-specific.rst:50 ../../source/locations-specific.rst:50
+#: locations-specific.rst:48
+msgid "``:claim/statuses``"
+msgstr ""
+
+#: locations-specific.rst:50 locations-specific.rst:86 locations-specific.rst:120 locations-specific.rst:154 locations-specific.rst:188 locations-specific.rst:222 locations-specific.rst:261 locations-specific.rst:295 locations-specific.rst:329 locations-specific.rst:363 locations-specific.rst:403 locations-specific.rst:437 locations-specific.rst:471 locations-specific.rst:504 locations-specific.rst:540 locations-specific.rst:574 locations-specific.rst:608 locations-specific.rst:642 locations-specific.rst:676 locations-specific.rst:710 locations-specific.rst:744 locations-specific.rst:778 locations-specific.rst:812 locations-specific.rst:846 locations-specific.rst:880 locations-specific.rst:914 locations-specific.rst:948 locations-specific.rst:982 locations-specific.rst:1016 locations-specific.rst:1050 locations-specific.rst:1084 locations-specific.rst:1118 locations-specific.rst:1152 locations-specific.rst:1188 locations-specific.rst:1222
 msgid "Example of use"
 msgstr ""
 
-#: ../../source/locations-specific.rst:55 ../../source/locations-specific.rst:55
+#: locations-specific.rst:53
+msgid "``accepted``, ``conflict``, ``work_needed``, ``issue``"
+msgstr ""
+
+#: locations-specific.rst:55 locations-specific.rst:91 locations-specific.rst:125 locations-specific.rst:159 locations-specific.rst:193 locations-specific.rst:227 locations-specific.rst:266 locations-specific.rst:300 locations-specific.rst:334 locations-specific.rst:368 locations-specific.rst:408 locations-specific.rst:442 locations-specific.rst:509 locations-specific.rst:545 locations-specific.rst:579 locations-specific.rst:613 locations-specific.rst:647 locations-specific.rst:681 locations-specific.rst:715 locations-specific.rst:749 locations-specific.rst:783 locations-specific.rst:817 locations-specific.rst:851 locations-specific.rst:885 locations-specific.rst:919 locations-specific.rst:953 locations-specific.rst:987 locations-specific.rst:1021 locations-specific.rst:1055 locations-specific.rst:1089 locations-specific.rst:1123 locations-specific.rst:1157 locations-specific.rst:1193 locations-specific.rst:1227
 msgid "Guidance on use"
 msgstr ""
 
-#: ../../source/locations-specific.rst:58 ../../source/locations-specific.rst:58
+#: locations-specific.rst:58
 msgid "Data are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever there is a conflicts with another location and a review shows it to be the incorrect or false location. A :ref:`public_notes:meta <notes-location>` should always accompany any ``conflict`` flag."
 msgstr ""
 
-#: ../../source/locations-specific.rst:60 ../../source/locations-specific.rst:60
+#: locations-specific.rst:60
 msgid "If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if it cannot be established whether a location should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed."
 msgstr ""
 
-#: ../../source/locations-specific.rst:66 ../../source/locations-specific.rst:66
-msgid "Description"
+#: locations-specific.rst:63
+msgid "researcher:meta"
 msgstr ""
 
-#: ../../source/locations-specific.rst:69 ../../source/locations-specific.rst:69
+#: locations-specific.rst:69
 msgid "Field for initials or other identifier of researcher who last entered data for the location."
 msgstr ""
 
-#: ../../source/locations-specific.rst:71 ../../source/locations-specific.rst:71
-msgid "Attribute type"
-msgstr ""
-
-#: ../../source/locations-specific.rst:74 ../../source/locations-specific.rst:74
-msgid "Text string"
-msgstr ""
-
-#: ../../source/locations-specific.rst:76 ../../source/locations-specific.rst:76
-msgid "Status"
-msgstr ""
-
-#: ../../source/locations-specific.rst:79 ../../source/locations-specific.rst:79
+#: locations-specific.rst:79 locations-specific.rst:181 locations-specific.rst:254 locations-specific.rst:288 locations-specific.rst:322 locations-specific.rst:396 locations-specific.rst:430
 msgid "This attribute is required."
 msgstr ""
 
-#: ../../source/locations-specific.rst:81 ../../source/locations-specific.rst:81
-msgid "Key name"
+#: locations-specific.rst:84
+msgid "``:meta/researchers``"
 msgstr ""
 
-#: ../../source/locations-specific.rst:86 ../../source/locations-specific.rst:86
-msgid "Example of use"
+#: locations-specific.rst:89
+msgid "``TW``, ``Jane_Doe``, ``G1``"
 msgstr ""
 
-#: ../../source/locations-specific.rst:91 ../../source/locations-specific.rst:91
-msgid "Guidance on use"
+#: locations-specific.rst:94
+msgid "Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked."
 msgstr ""
 
-#: ../../source/locations-specific.rst:94 ../../source/locations-specific.rst:94
-msgid "Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked. "
+#: locations-specific.rst:97
+msgid "internal_comments:meta"
 msgstr ""
 
-#: ../../source/locations-specific.rst:100 ../../source/locations-specific.rst:100
-msgid "Description"
-msgstr ""
-
-#: ../../source/locations-specific.rst:103 ../../source/locations-specific.rst:103
+#: locations-specific.rst:103
 msgid "A field for temporary comments or notes for the researcher or research team working on the claim."
 msgstr ""
 
-#: ../../source/locations-specific.rst:105 ../../source/locations-specific.rst:105
-msgid "Attribute type"
+#: locations-specific.rst:118
+msgid "``:meta/internal-comments``"
 msgstr ""
 
-#: ../../source/locations-specific.rst:108 ../../source/locations-specific.rst:108
-msgid "Text string"
-msgstr ""
-
-#: ../../source/locations-specific.rst:110 ../../source/locations-specific.rst:110
-msgid "Status"
-msgstr ""
-
-#: ../../source/locations-specific.rst:113 ../../source/locations-specific.rst:113
-msgid "This attribute is optional."
-msgstr ""
-
-#: ../../source/locations-specific.rst:115 ../../source/locations-specific.rst:115
-msgid "Key name"
-msgstr ""
-
-#: ../../source/locations-specific.rst:120 ../../source/locations-specific.rst:120
-msgid "Example of use"
-msgstr ""
-
-#: ../../source/locations-specific.rst:123 ../../source/locations-specific.rst:123
+#: locations-specific.rst:123
 msgid "``Come back to this to determine date for claim``"
 msgstr ""
 
-#: ../../source/locations-specific.rst:125 ../../source/locations-specific.rst:125
-msgid "Guidance on use"
-msgstr ""
-
-#: ../../source/locations-specific.rst:128 ../../source/locations-specific.rst:128
+#: locations-specific.rst:128
 msgid "Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <notes-location>` field."
 msgstr ""
 
-#: ../../source/locations-specific.rst:134 ../../source/locations-specific.rst:134
-msgid "Description"
+#: locations-specific.rst:131
+msgid "citation:refs:location"
 msgstr ""
 
-
-#: ../../source/locations-specific.rst:137 ../../source/locations-specific.rst:137
+#: locations-specific.rst:137
 msgid "Field unique 32-character code assigned to citation(s) evidencing the location."
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
-msgstr ""
-
-#: ../../source/locations-specific.rst:142 ../../source/locations-specific.rst:142
+#: locations-specific.rst:142
 msgid "String in UUID format"
 msgstr ""
 
-#: ../../source/locations-specific.rst:144 ../../source/locations-specific.rst:144
-msgid "Status"
-msgstr ""
-
-#: ../../source/locations-specific.rst:147 ../../source/locations-specific.rst:147
-msgid "This attribute is optional."
-msgstr ""
-
-#: ../../source/locations-specific.rst:149 ../../source/locations-specific.rst:149
-msgid "Key name"
-msgstr ""
-
-#: ../../source/locations-specific.rst:152 ../../source/locations-specific.rst:152
+#: locations-specific.rst:152 locations-specific.rst:912 locations-specific.rst:917 locations-specific.rst:946 locations-specific.rst:951 locations-specific.rst:980 locations-specific.rst:985 locations-specific.rst:1014 locations-specific.rst:1019 locations-specific.rst:1048 locations-specific.rst:1053 locations-specific.rst:1082 locations-specific.rst:1087 locations-specific.rst:1116 locations-specific.rst:1121 locations-specific.rst:1150 locations-specific.rst:1155
 msgid "n/a - proposed"
 msgstr ""
 
-#: ../../source/locations-specific.rst:154 ../../source/locations-specific.rst:154
-msgid "Example of use"
+#: locations-specific.rst:157
+msgid "``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``"
 msgstr ""
 
-#: ../../source/locations-specific.rst:159 ../../source/locations-specific.rst:159
-msgid "Guidance on use"
-msgstr ""
-
-#: ../../source/locations-specific.rst:162 ../../source/locations-specific.rst:162
+#: locations-specific.rst:162
 msgid "Locations are drawn from an external gazeeter or geographic database, and because of this they do not require a citation. However, as the location data model is updated citations may be needed to evidence the creation and disbandment of locations, and perhaps other features as well which are not generally included in gazeeters or geographic databases. When two or more citations are needed to evidence a location then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <notes-location>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`ref:source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated."
 msgstr ""
 
-#: ../../source/locations-specific.rst:168 ../../source/locations-specific.rst:168
-msgid "Description"
+#: locations-specific.rst:165
+msgid "id:entity"
 msgstr ""
 
-#: ../../source/locations-specific.rst:171 ../../source/locations-specific.rst:171
+#: locations-specific.rst:171
 msgid "A unique 32-character code assigned to each Location in the dataset."
 msgstr ""
 
-#: ../../source/locations-specific.rst:173 ../../source/locations-specific.rst:173
+#: locations-specific.rst:173 locations-specific.rst:207 locations-specific.rst:246 locations-specific.rst:280 locations-specific.rst:314 locations-specific.rst:348 locations-specific.rst:388 locations-specific.rst:422 locations-specific.rst:456 locations-specific.rst:489 locations-specific.rst:525 locations-specific.rst:559 locations-specific.rst:593 locations-specific.rst:627 locations-specific.rst:661 locations-specific.rst:695 locations-specific.rst:729 locations-specific.rst:763 locations-specific.rst:797 locations-specific.rst:831 locations-specific.rst:865 locations-specific.rst:899 locations-specific.rst:933 locations-specific.rst:967 locations-specific.rst:1001 locations-specific.rst:1035 locations-specific.rst:1069 locations-specific.rst:1103 locations-specific.rst:1137
 msgid "Type of attribute"
 msgstr ""
 
-#: ../../source/locations-specific.rst:176 ../../source/locations-specific.rst:176
+#: locations-specific.rst:176
 msgid "String in UUID format."
 msgstr ""
 
-#: ../../source/locations-specific.rst:178 ../../source/locations-specific.rst:178
-msgid "Status"
+#: locations-specific.rst:186
+msgid "``:entity/id``"
 msgstr ""
 
-#: ../../source/locations-specific.rst:181 ../../source/locations-specific.rst:181
-msgid "This attribute is required."
+#: locations-specific.rst:191
+msgid "``5f55f3f1-ed83-4766-b26a-fd11bedc398c``"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:196
+msgid "This value is a Universally Unique Identifier (UUID) generated using a computer program. Every location has a UUID to distinguish it from any other location. This field is used in data entry for :ref:`incidents` in :ref:`incident:location:refs:assertion` and :ref:`positionings` in :ref:`positioning:location:refs:assertion`."
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:199
+msgid "location:humane_id:qa"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:205
+msgid "A human-readable unique identifier for each Location in the dataset."
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:210 locations-specific.rst:249
+msgid "Text string."
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:220 locations-specific.rst:502 locations-specific.rst:538 locations-specific.rst:572 locations-specific.rst:606 locations-specific.rst:640 locations-specific.rst:674 locations-specific.rst:708 locations-specific.rst:742 locations-specific.rst:776 locations-specific.rst:810 locations-specific.rst:844 locations-specific.rst:878
+msgid "n/a"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:225
+msgid "``Ta'izz Governorate (osm, poly) 5c35b342-0b5e-4648-86cd-7ad730d647fa``"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:230
+msgid "Entries for the :ref:`location:humane_id:qa` field should combine information from several other location fields to give a researcher a quick, human readable way to understand a location. Best practice is to include the :ref:`name:annotation <location-name-annotation>`, :ref:`origin:location`, :ref:`geo_type:qa` and :ref:`id:entity` as this highlights the most important information while also creating a unique name due to the inclusion of :ref:`id:entity`. SFM adopts this approach with :ref:`location:humane_id:qa` with entries in the field following the below format:"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:232
+msgid "Example"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:234
+msgid "The value ``Ta'izz Governorate (osm, poly) 5c35b342-0b5e-4648-86cd-7ad730d647fa``, which is a combination of multiple fields: ``name:annotation`` (``origin:location``, ``geo_type:qa``) ``id:entity``, tells us that the name of the place is ``Ta'izz Governorate``, that it is a Location found in ``osm`` (short for \"OpenStreetMap\") that it denotes an area (``poly``); the UUID provides the hard link to a specific attribute in the Location table."
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:238
+msgid "name:annotation"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:244
+msgid "The name of the Location as specified in the source of geospatial information from which it is taken."
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:259
+msgid "``:annotation/name``"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:264
+msgid "``Ta'izz Governorate``"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:269
+msgid "The value in :ref:`name:annotation <location-name-annotation>` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's own \"name\" attribute and place it in :ref:`name:annotation <location-name-annotation>`. Along with :ref:`origin_id:location` and :ref:`geo_type:qa`, :ref:`name:annotation <location-name-annotation>` is needed for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily-defined, or is derived from a data source that does not provide a name, the Staff Researcher can provide one."
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:272
+msgid "origin:location"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:278
+msgid "The geospatial information source that provides information about this Location."
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:283 locations-specific.rst:317 locations-specific.rst:425 locations-specific.rst:459 locations-specific.rst:492 locations-specific.rst:528 locations-specific.rst:562 locations-specific.rst:596 locations-specific.rst:630 locations-specific.rst:664 locations-specific.rst:698 locations-specific.rst:732 locations-specific.rst:766 locations-specific.rst:800 locations-specific.rst:834 locations-specific.rst:868 locations-specific.rst:1106 locations-specific.rst:1140 locations-specific.rst:1176
+msgid "String"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:293
+msgid "``:location/origin``"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:298
+msgid "``osm``, ``sfm``, ``hdx``, ``mimu``, ``khrg``"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:303
+msgid "The values in :ref:`origin:location` identify where automation tools should go to obtain spatial information about an object. For example, if the value ``osm`` is entered in :ref:`origin:location` this indicates that the automation tool should query OpenStreetMap in order to obtain spatial information about a Location. If ``osm`` were set, then the values in :ref:`name:annotation <location-name-annotation>` and :ref:`origin_id:location` would correspond to the object name and ID number in OpenStreetMap. Locations can be derived from comprehensive online services, as well as other sources like locally-held ``.shp`` or ``.kml`` files. The number of origins is unlimited."
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:306
+msgid "origin_id:location"
 msgstr ""
 
-#: ../../source/locations-specific.rst:139 ../../source/locations-specific.rst:139
-msgid "Attribute type"
+#: locations-specific.rst:312
+msgid "The identifier for the Location as specified in the source of geospatial information from which it is taken."
 msgstr ""
+
+#: locations-specific.rst:327
+msgid "``:location/origin-id``"
+msgstr ""
+
+#: locations-specific.rst:332
+msgid "``383895``"
+msgstr ""
+
+#: locations-specific.rst:337
+msgid "The value in :ref:`origin_id:location` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's \"id\" attribute and place it in the :ref:`origin_id:location` attribute. Along with :ref:`name:annotation <location-name-annotation>` and :ref:`geo_type:qa`, :ref:`origin_id:location` is needed in order for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily defined, or is derived from a data source that does not provide a ID number, the Staff Researcher can provide one."
+msgstr ""
+
+#: locations-specific.rst:340
+msgid "geo_type:qa"
+msgstr ""
+
+#: locations-specific.rst:346
+msgid "The two-dimensional geometric primitive of the Location, as defined in the source of geospatial information from which it is taken."
+msgstr ""
+
+#: locations-specific.rst:351
+msgid "Text"
+msgstr ""
+
+#: locations-specific.rst:361
+msgid "``:location/geo-type``"
+msgstr ""
+
+#: locations-specific.rst:366
+msgid "``point``, ``poly``, ``line``"
+msgstr ""
+
+#: locations-specific.rst:371
+msgid "This attribute used a controlled vocabulary to describe the type of geometry used to represent the Location on a map. The Staff Researcher can choose from the following three options:"
+msgstr ""
+
+#: locations-specific.rst:373
+msgid "``point``: the Location is a single distinct point on a map, represented by a single pair of geographic coordinates."
+msgstr ""
+
+#: locations-specific.rst:374
+msgid "``poly``: the Location is a closed area on a map, its boundary described by a sequence of geographic coordinates."
+msgstr ""
+
+#: locations-specific.rst:375
+msgid "``line``: the Location is a line on a map, described by a sequence of geographic coordinates. A ``line`` may also be closed."
+msgstr ""
+
+#: locations-specific.rst:377
+msgid "The gazeteer used as the source of geometry may used different terminology to describe the Location. For example, in OpenStreetMap the boundaries of administrative areas (such as counties or states) `are described <https://wiki.openstreetmap.org/wiki/Relation>`_ using an object called a \"relation\"; although this can be a complex mix of different objects, for our purposes it is a ``poly`` because it describes an area."
+msgstr ""
+
+#: locations-specific.rst:380
+msgid "country:annotation"
+msgstr ""
+
+#: locations-specific.rst:386
+msgid "Country in which the Location is situated."
+msgstr ""
+
+#: locations-specific.rst:391
+msgid "Text, controlled vocabulary"
+msgstr ""
+
+#: locations-specific.rst:401
+msgid "``:annotation/country``"
+msgstr ""
+
+#: locations-specific.rst:406
+msgid "``ye``, ``ng``, ``mm``"
+msgstr ""
+
+#: locations-specific.rst:411
+msgid "Values for this attribute are the ISO 3166-1 alpha-2 country codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search/code/>`__."
+msgstr ""
+
+#: locations-specific.rst:414
+msgid "geometry:ref:entity"
+msgstr ""
+
+#: locations-specific.rst:420
+msgid "The unique id generated by importer for the geojson for this Location."
+msgstr ""
+
+#: locations-specific.rst:435
+msgid "``:location/geo-feature:ref``"
+msgstr ""
+
+#: locations-specific.rst:440
+msgid "``724f89db-98b3-5f5e-9947-7f50c049e5ea``"
+msgstr ""
+
+#: locations-specific.rst:445
+msgid "SFM's location database gives a separate UUID for every geojson which must be matched to the location. This field enables the geographic data used to generate locations to be unique, and to connect these unique geojson to the data in the Locations sheet."
+msgstr ""
+
+#: locations-specific.rst:448
+msgid "location:explicit_parent:annotation"
+msgstr ""
+
+#: locations-specific.rst:454
+msgid "Manually entered location which contains the location."
+msgstr ""
+
+#: locations-specific.rst:469
+msgid "``:annotation/location:explicit-parent``"
+msgstr ""
+
+#: locations-specific.rst:474
+msgid "``Ilocos Norte (psa, poly) ceffdf36-f14b-410c-9fde-4c39f5a87c7c``"
+msgstr ""
+
+#: locations-specific.rst:476
+msgid "Guidance on use ~~~~~~~~~~~~~~~ If a geographic dataset does not establish whether locations are within one another, this field may be used to manually create the hierarchy between locations. The :ref:`location:humane_id:qa` should be used in this field."
+msgstr ""
+
+#: locations-specific.rst:481
+msgid "location:admin_level:qa"
+msgstr ""
+
+#: locations-specific.rst:487
+msgid "The administrative level of the Location described in the attribute, if defined in the source of geographical information from which the Location is derived."
+msgstr ""
+
+#: locations-specific.rst:507
+msgid "``2``"
+msgstr ""
+
+#: locations-specific.rst:512
+msgid "In every country, places are organized hierarchically based on their administrative hierarchy. This feature passes into geographical information systems. At the top of the hierarchy rests the international boundary and capital city of a country; beneath this, there are sub-national divisions like states or provinces, with their respective capitals, followed by smaller and smaller administrative divisions districts, counties, municipalities, towns, suburbs, wards and so on. Different countries have different ways of describing these political and administrative divisions, but they are largely hierarchical and can be cross-compared. Knowing the level(s) at which a Location sits in the overall hierarchy provides us with a useful way to group and understand Locations."
+msgstr ""
+
+#: locations-specific.rst:514
+msgid "The attribute :ref:`location:admin_level:qa` is drawn from the geographic source, such as the UN Office for the Coordination of Humanitarian Affairs (OCHA) schema which `can be found here <https://knowledge.base.unocha.org/wiki/spaces/imtoolbox/pages/3942121476/COD-AB+lines+layers>`__. If the source lacks its own hierarchy then we use OpenStreetMap, which has a `comprehensive table <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__ that matches the divisions that exist in every country."
+msgstr ""
+
+#: locations-specific.rst:517
+msgid "location:admin_level_10:qa"
+msgstr ""
+
+#: locations-specific.rst:523
+msgid "The administrative level 10 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: locations-specific.rst:543
+msgid "``Byaw Taw Wa Ward (osm, poly) 119ce62f-0caa-4c0d-bb30-d02f58364814``, a ward `in Myanmar <https://www.openstreetmap.org/relation/9957339>`__."
+msgstr ""
+
+#: locations-specific.rst:548
+msgid "This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 10 administrative area in which the current Location is situated. Level 10 is an extremely small administrative division and is rarely specified in freely available geospatial information sources."
+msgstr ""
+
+#: locations-specific.rst:551
+msgid "location:admin_level_9:qa"
+msgstr ""
+
+#: locations-specific.rst:557
+msgid "The administrative level 9 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: locations-specific.rst:577
+msgid "``Zone 13 (osm, poly) b858ac31-9e46-4818-b70a-572756d60012``, a *barangay zone* `in the Philippines <https://www.openstreetmap.org/relation/11378938>`__."
+msgstr ""
+
+#: locations-specific.rst:582
+msgid "This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 9 administrative area in which the current Location is situated. Level 9 is an extremely small administrative division and is rarely specified in freely available geospatial information sources."
+msgstr ""
+
+#: locations-specific.rst:585
+msgid "location:admin_level_8:qa"
+msgstr ""
+
+#: locations-specific.rst:591
+msgid "The administrative level 8 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: locations-specific.rst:611
+msgid "``Ermita (osm, poly) 9989ba43-3b03-473a-8226-511a8eb82c3d``, an `administrative district of Manila <https://www.openstreetmap.org/relation/103706#map=15/14.5852/120.9821>`__ in the Philippines."
+msgstr ""
+
+#: locations-specific.rst:616
+msgid "This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 8 administrative area in which the current Location is situated. Level 8 is a relatively small administrative division, and may not be commonly found in freely available geospatial information sources."
+msgstr ""
+
+#: locations-specific.rst:619
+msgid "location:admin_level_7:qa"
+msgstr ""
+
+#: locations-specific.rst:625
+msgid "The administrative level 7 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: locations-specific.rst:645
+msgid "``Wuse II (osm, poly) 111f698a-421e-4fc8-9ace-c0aa62b461b5``"
+msgstr ""
+
+#: locations-specific.rst:650
+msgid "This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 7 administrative area in which the current Location is situated. Level 7 areas are commonly found in freely available geospatial information sources such as OpenStreetMap."
+msgstr ""
+
+#: locations-specific.rst:653
+msgid "location:admin_level_6:qa"
+msgstr ""
+
+#: locations-specific.rst:659
+msgid "The administrative level 6 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: locations-specific.rst:679
+msgid "``Arbinda (osm, poly) 659c231e-eb1e-4c46-a710-b7663ef9f2e0``, a *commune rurale* `in Burkina Faso <https://www.openstreetmap.org/relation/6199315>`__."
+msgstr ""
+
+#: locations-specific.rst:684
+msgid "This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 6 administrative area in which the current Location is situated. Level 6 areas are commonly found in freely available geospatial information sources such as OpenStreetMap."
+msgstr ""
+
+#: locations-specific.rst:687
+msgid "location:admin_level_5:qa"
+msgstr ""
+
+#: locations-specific.rst:693
+msgid "The administrative level 5 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: locations-specific.rst:713
+msgid "``Seti (osm, poly) 64a4dd09-36d4-4455-bd07-a77addc91946``, a `zone in Nepal <https://www.openstreetmap.org/relation/4583223>`__."
+msgstr ""
+
+#: locations-specific.rst:718
+msgid "This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 5 administrative area in which the current Location is situated. Level 5 areas are commonly found in freely available geospatial information sources such as OpenStreetMap."
+msgstr ""
+
+#: locations-specific.rst:721
+msgid "location:admin_level_4:qa"
+msgstr ""
+
+#: locations-specific.rst:727
+msgid "The administrative level 4 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: locations-specific.rst:747
+msgid "``Gombe (osm, poly) 06791bb5-c39d-4a32-a05b-f3945c4f83ea``, a `state in Nigeria <https://www.openstreetmap.org/relation/3720422>`__."
+msgstr ""
+
+#: locations-specific.rst:752
+msgid "This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 4 administrative area in which the current Location is situated. Level 4 areas are commonly found in freely available geospatial information sources such as OpenStreetMap, and are usually the largest sub-national administrative areas."
+msgstr ""
+
+#: locations-specific.rst:755
+msgid "location:admin_level_3:qa"
+msgstr ""
+
+#: locations-specific.rst:761
+msgid "The administrative level 3 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: locations-specific.rst:781
+msgid "``Central Visayas (osm, poly) 81848978-3998-48bf-87a7-bd1888912aee``, `a region of the Philippines <https://www.openstreetmap.org/relation/3625910>`__."
+msgstr ""
+
+#: locations-specific.rst:786
+msgid "This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 3 administrative area in which the current Location is situated. Where defined, level 3 administrative areas are commonly found in freely available geospatial information sources such as OpenStreetMap."
+msgstr ""
+
+#: locations-specific.rst:789
+msgid "location:admin_level_2:qa"
+msgstr ""
+
+#: locations-specific.rst:795
+msgid "The administrative level 2 location within which the present Location is wholly situated."
+msgstr ""
+
+#: locations-specific.rst:815
+msgid "``Mali (osm, poly) 8e7b492e-5346-4f43-91a0-55c1f3419468``, ``Sudan (osm, poly) 7117df90-1e52-4726-806a-8e422a0511c6``"
+msgstr ""
+
+#: locations-specific.rst:820
+msgid "This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 2 administrative level, which for the OpenStreetMap schema is the international boundary of a country."
+msgstr ""
+
+#: locations-specific.rst:823
+msgid "location:admin_level_1:qa"
+msgstr ""
+
+#: locations-specific.rst:829
+msgid "The administrative level 1 Location within which the present Location is wholly situated."
+msgstr ""
+
+#: locations-specific.rst:849
+msgid "``Dodoma (ocha, poly) 8f9d115d-ef26-4d59-85a0-905cd9582adf``"
+msgstr ""
+
+#: locations-specific.rst:854
+msgid "This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 1 administrative level. The UN Office for the Coordination of Humanitarian Affairs (OCHA) defines the level 1 administrative level as the highest sub national boundaries of a country (OSM generally uses level 4 for these sub national boundaries)."
+msgstr ""
+
+#: locations-specific.rst:857
+msgid "location:admin_level_0:qa"
+msgstr ""
+
+#: locations-specific.rst:863
+msgid "The administrative level 0 Location - the international state boundary for OCHA - within which the present Location is wholly situated."
+msgstr ""
+
+#: locations-specific.rst:883
+msgid "``United Republic of Tanzania (ocha, poly) 6f08e803-b1d8-4b8f-899a-1e20c4174441``"
+msgstr ""
+
+#: locations-specific.rst:888
+msgid "This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the international boundary of a country as defined in the UN Office for the Coordination of Humanitarian Affairs (OCHA) schema."
+msgstr ""
+
+#: locations-specific.rst:891
+msgid "first_precise:range"
+msgstr ""
+
+#: locations-specific.rst:897
+msgid "The first precise date in the range."
+msgstr ""
+
+#: locations-specific.rst:902 locations-specific.rst:936 locations-specific.rst:970 locations-specific.rst:1004
+msgid "String-date"
+msgstr ""
+
+#: locations-specific.rst:922 locations-specific.rst:956 locations-specific.rst:990 locations-specific.rst:1024 locations-specific.rst:1058 locations-specific.rst:1092 locations-specific.rst:1126 locations-specific.rst:1160
+msgid "Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`."
+msgstr ""
+
+#: locations-specific.rst:925
+msgid "last_precise:range"
+msgstr ""
+
+#: locations-specific.rst:931
+msgid "The last precise date in the range."
+msgstr ""
+
+#: locations-specific.rst:959
+msgid "first_imprecise:range"
+msgstr ""
+
+#: locations-specific.rst:965
+msgid "The first imprecise date in the range."
+msgstr ""
+
+#: locations-specific.rst:993
+msgid "last_imprecise:range"
+msgstr ""
+
+#: locations-specific.rst:999
+msgid "The last imprecise date in the range."
+msgstr ""
+
+#: locations-specific.rst:1027
+msgid "starting:range"
+msgstr ""
+
+#: locations-specific.rst:1033
+msgid "Flag for if first date in range is the start date or not."
+msgstr ""
+
+#: locations-specific.rst:1038 locations-specific.rst:1072
+msgid "Y/N boolean"
+msgstr ""
+
+#: locations-specific.rst:1061
+msgid "ending:range"
+msgstr ""
+
+#: locations-specific.rst:1067
+msgid "Flag for if last date in range is the start date or not."
+msgstr ""
+
+#: locations-specific.rst:1095
+msgid "starting_context:range"
+msgstr ""
+
+#: locations-specific.rst:1101
+msgid "Simple description of start date."
+msgstr ""
+
+#: locations-specific.rst:1129
+msgid "ending_context:range"
+msgstr ""
+
+#: locations-specific.rst:1135
+msgid "Simple description of end date."
+msgstr ""
+
+#: locations-specific.rst:1165
+msgid "public_notes:meta"
+msgstr ""
+
+#: locations-specific.rst:1171
+msgid "Additional context or details about the claim for a public audience."
+msgstr ""
+
+#: locations-specific.rst:1186
+msgid "``:meta/public-notes``"
+msgstr ""
+
+#: locations-specific.rst:1191
+msgid "``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred \"last week\". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``"
+msgstr ""
+
+#: locations-specific.rst:1196
+msgid "This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening \"last week\" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result, the researcher should explain how that date range was evidenced by the citation."
+msgstr ""
+
+#: locations-specific.rst:1199
+msgid "type:entity"
+msgstr ""
+
+#: locations-specific.rst:1205
+msgid "Specifies the type of entity."
+msgstr ""
+
+#: locations-specific.rst:1210
+msgid "Text, controlled vocabulary."
+msgstr ""
+
+#: locations-specific.rst:1215
+msgid "This field is required."
+msgstr ""
+
+#: locations-specific.rst:1220
+msgid "``:entity/type``"
+msgstr ""
+
+#: locations-specific.rst:1225
+msgid "``claim``"
+msgstr ""
+
+#: locations-specific.rst:1230
+msgid "For a :ref:`location` the only entry allowed for this field is ``location``."
+msgstr ""
+
