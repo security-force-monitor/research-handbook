@@ -118,31 +118,31 @@ msgstr "¿Existe algún aspecto relacionado con las unidades superiores o subord
 
 #: ../../source/contiguous-non-contiguous-claims.rst:43 ../../source/contiguous-non-contiguous-claims.rst:43
 msgid "Are there any other mitigating sources (i.e. major restructuring of the military, constitutional changes, etc.) which may impact the basing of the unit?"
-msgstr ""
+msgstr "¿Existen otros factores atenuantes (p. ej., una reestructuración importante de las fuerzas armadas, cambios constitucionales, etc.) que puedan influir en el emplazamiento de la unidad?"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:44 ../../source/contiguous-non-contiguous-claims.rst:44
 msgid "Is more research needed before the Monitor can make any claim?"
-msgstr ""
+msgstr "¿Se necesita más investigación antes de que el Monitor pueda hacer alguna afirmación?"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:46 ../../source/contiguous-non-contiguous-claims.rst:46
 msgid "An argument could be the Monitor should always make “separate claims” as that would be more faithful to the sources. However, the result likely mean an almost incomprehensible amount of detail in the records of people and units, which would obscure when changes really did occur, for instance when a person changed positions or a unit ends operations in an area. To some extent, our claim-based system (see :ref:`Claims with dates`) allows us to manage this complexity more easily. It gives us the ability to check specific underlying dates and data points, to plot timelines that have both claimed and inferred date ranges, and to make choices about continuity as described in this article."
-msgstr ""
+msgstr "Podría argumentarse que el Monitor debería formular siempre «afirmaciones separadas», ya que ello sería más fiel a las fuentes. Sin embargo, el resultado probablemente implicaría una cantidad de detalles casi inabarcable en los registros de personas y unidades, lo que dificultaría distinguir cuándo se produjeron realmente los cambios —por ejemplo, cuándo una persona cambió de puesto o cuándo una unidad finalizó sus operaciones en una zona—. En cierta medida, nuestro sistema basado en afirmaciones (véase :ref:`Claims with dates`) nos permite gestionar esta complejidad con mayor facilidad. Nos ofrece la posibilidad de verificar fechas y datos concretos subyacentes, de trazar cronologías que incluyen tanto rangos de fechas declarados como inferidos, y de tomar decisiones sobre la continuidad, tal como se describe en este artículo."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:48 ../../source/contiguous-non-contiguous-claims.rst:48
 msgid "Time is a constant challenge, but given that is a key element in identifying perpetrators of human rights abuses it is necessary to get it right."
-msgstr ""
+msgstr "El tiempo supone un desafío constante, pero, dado que es un elemento clave para identificar a los autores de violaciones de los derechos humanos, es necesario acertar."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:48 ../../source/contiguous-non-contiguous-claims.rst:51
 msgid "Positionings"
-msgstr ""
+msgstr "Posiciones"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:54 ../../source/contiguous-non-contiguous-claims.rst:54
-msgid "Each :ref:`positioning` is always treated as a contiguous, meaning it has the same UUID, unless citations establish it is non-contiguous. "
-msgstr ""
+msgid "Each :ref:`positioning` is always treated as a contiguous, meaning it has the same UUID, unless citations establish it is non-contiguous."
+msgstr "Cada :ref:`posición` se trata siempre como contiguo —es decir, que tiene el mismo UUID—, a menos que las citas establezcan que no es contiguo."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:56 ../../source/contiguous-non-contiguous-claims.rst:56
-msgid "A :ref:`positioning` should always be given the same UUID if there is an overlap or if the time-ranges of two or more citations fall within 1 day of each other. "
-msgstr ""
+msgid "A :ref:`positioning` should always be given the same UUID if there is an overlap or if the time-ranges of two or more citations fall within 1 day of each other."
+msgstr "A una :ref:`posición` siempre se le debe asignar el mismo UUID si existe una superposición o si los intervalos de tiempo de dos o más citas difieren entre sí en menos de un día."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:60 ../../source/contiguous-non-contiguous-claims.rst:60
 msgid "Citations establish that the ``502 Light Infantry Battalion`` is part of a mobile formation which is deployed around Myanmar for operations, and because of this :ref:`positioning` claims should not be treated as contiguous. However, there are two different claims that the ``502 Light Infantry Battalion`` has a :ref:`positioning` ``site`` of ``Mantong Township``, one claim on ``2013-04-19`` and the other on ``2013-04-20``. Because these two claims are within a day of each other, they are coded as part of the same :ref:`positioning` giving the ``502 Light Infantry Battalion`` a :ref:`positioning` ``site`` of ``Mantong Township`` from at least ``2013-04-19`` to at least ``2013-04-20``. Another claim giving the ``502 Light Infantry Battalion`` a :ref:`positioning` ``site`` of ``Mantong Township`` on ``2014-04-20`` is coded as a separate, non-contiguous positioning because of the citations stating that the battalion is part of a mobile formation which is deployed around Myanmar for operations."
