@@ -9,16 +9,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
+"Language: ar\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:1 ../../source/contiguous-non-contiguous-claims.rst:1
 msgid "Establishing Contiguous or Non-Contiguous Claims"
-msgstr ""
+msgstr "تحديد المطالبات المتجاورة أو غير المتجاورة"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:6 ../../source/contiguous-non-contiguous-claims.rst:6
 msgid "To learn more about the fundamentals of dates and timelines in Security Force Monitor's approach read :ref:`How Dates Work` first."
-msgstr ""
+msgstr "لمعرفة المزيد حول أساسيات التواريخ والجداول الزمنية في منهجية "Security Force Monitor"، طالع قسم :ref:`كيف تعمل التواريخ` أولاً."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:9 ../../source/contiguous-non-contiguous-claims.rst:9
 msgid "Answering the question “who was where when?” is central for investigations into allegations of human rights abuse(s). Because of this perhaps one of the most defining, and complicating, features of the Security Force Monitor’s data is that almost everything we research is connected to time including:"
