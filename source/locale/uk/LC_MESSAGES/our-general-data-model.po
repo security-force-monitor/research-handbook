@@ -21,8 +21,8 @@ msgid "Security Force Monitor investigates the conduct of security and defense f
 msgstr "«Монітор сил безпеки» досліджує діяльність сил безпеки та оборони по всьому світу. Ми реконструюємо їхню організаційну структуру, командний склад та ланцюг командування, географічне розташування та звинувачення у їхній причетності до скоєння порушень прав людини та порушень міжнародного кримінального права. Крім того, ми досліджуємо навчання та допомогу, які підрозділи безпеки та оборони отримали від зовнішніх силових структур, таких як Сполучені Штати Америки, Європейський Союз, Організація Об'єднаних Націй, а також через двосторонні угоди з іншими державами. Вся наша інформація береться з загальнодоступних джерел, майже всі з яких знаходяться в Інтернеті."
 
 #: ../../source/our-general-data-model.rst:6 ../../source/our-general-data-model.rst:6
-msgid "en_link_chain_data_model_0.5.png"
-msgstr "uk_link_chain_data_model_0.5.png"
+msgid ".. figure:: _static/en/en_link_chain_data_model_0.5.png"
+msgstr ".. figure:: _static/uk/uk_link_chain_data_model_0.5.png"
 
 #: ../../source/our-general-data-model.rst:10 ../../source/our-general-data-model.rst:10
 msgid "Chart from the Security Force Monitor Research Handbook that describes the Monitor's general data model, including the main entities it collects information about."
