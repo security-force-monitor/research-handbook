@@ -1,0 +1,626 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Security Force Monitor Handbook\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-17 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: units-identity.rst:1
+msgid "Unit"
+msgstr ""
+
+#: units-identity.rst:4
+msgid "A :ref:`unit` claim type contains information about the identity of the :ref:`unit`, such as its name, aliases, classification, the country in which it operates, and the duration of its existence."
+msgstr ""
+
+#: units-identity.rst:6
+msgid "Unit Identity: Summary of claim attributes"
+msgstr ""
+
+#: units-identity.rst:9
+msgid "The table below summarizes the following dimensions of :ref:`unit` claims:"
+msgstr ""
+
+#: units-identity.rst:11
+msgid "Attribute label: a human readable label for the attribute"
+msgstr ""
+
+#: units-identity.rst:12
+msgid "Status: whether the attribute is optional or required in a claim"
+msgstr ""
+
+#: units-identity.rst:13
+msgid "Data type: the sort of data that can be entered into the attribute"
+msgstr ""
+
+#: units-identity.rst:14
+msgid "Key name: a standardized name that simplifies attribute use in SFM databases"
+msgstr ""
+
+#: units-identity.rst:21
+msgid "Unit: details of claim attributes"
+msgstr ""
+
+#: units-identity.rst:24
+msgid "This section contains further information about each attribute, including descriptions, examples of use, and guidance on use."
+msgstr ""
+
+#: units-identity.rst:27
+msgid "type:claim"
+msgstr ""
+
+#: units-identity.rst:30 units-identity.rst:65 units-identity.rst:105 units-identity.rst:139 units-identity.rst:173 units-identity.rst:209 units-identity.rst:250 units-identity.rst:285 units-identity.rst:364 units-identity.rst:400 units-identity.rst:451 units-identity.rst:485 units-identity.rst:519 units-identity.rst:553 units-identity.rst:587 units-identity.rst:621 units-identity.rst:655 units-identity.rst:689 units-identity.rst:723 units-identity.rst:758 units-identity.rst:792
+msgid "Description"
+msgstr ""
+
+#: units-identity.rst:33
+msgid "A field that defines what type of claim is being made."
+msgstr ""
+
+#: units-identity.rst:35 units-identity.rst:70 units-identity.rst:110 units-identity.rst:144 units-identity.rst:178 units-identity.rst:214 units-identity.rst:255 units-identity.rst:290 units-identity.rst:369 units-identity.rst:405 units-identity.rst:456 units-identity.rst:763 units-identity.rst:797
+msgid "Attribute type"
+msgstr ""
+
+#: units-identity.rst:38 units-identity.rst:73 units-identity.rst:113 units-identity.rst:147
+msgid "Text string"
+msgstr ""
+
+#: units-identity.rst:40 units-identity.rst:75 units-identity.rst:115 units-identity.rst:149 units-identity.rst:183 units-identity.rst:219 units-identity.rst:260 units-identity.rst:295 units-identity.rst:374 units-identity.rst:410 units-identity.rst:461 units-identity.rst:495 units-identity.rst:529 units-identity.rst:563 units-identity.rst:597 units-identity.rst:631 units-identity.rst:665 units-identity.rst:699 units-identity.rst:733 units-identity.rst:768 units-identity.rst:802
+msgid "Status"
+msgstr ""
+
+#: units-identity.rst:43 units-identity.rst:78 units-identity.rst:118 units-identity.rst:186 units-identity.rst:222 units-identity.rst:377
+msgid "This attribute is required."
+msgstr ""
+
+#: units-identity.rst:45 units-identity.rst:80 units-identity.rst:120 units-identity.rst:154 units-identity.rst:188 units-identity.rst:224 units-identity.rst:265 units-identity.rst:300 units-identity.rst:379 units-identity.rst:415 units-identity.rst:466 units-identity.rst:500 units-identity.rst:534 units-identity.rst:568 units-identity.rst:602 units-identity.rst:636 units-identity.rst:670 units-identity.rst:704 units-identity.rst:738 units-identity.rst:773 units-identity.rst:807
+msgid "Key name"
+msgstr ""
+
+#: units-identity.rst:48
+msgid "``:claim/type``"
+msgstr ""
+
+#: units-identity.rst:50 units-identity.rst:85 units-identity.rst:125 units-identity.rst:159 units-identity.rst:193 units-identity.rst:229 units-identity.rst:270 units-identity.rst:305 units-identity.rst:384 units-identity.rst:420 units-identity.rst:471 units-identity.rst:505 units-identity.rst:539 units-identity.rst:573 units-identity.rst:607 units-identity.rst:641 units-identity.rst:675 units-identity.rst:709 units-identity.rst:743 units-identity.rst:778 units-identity.rst:812
+msgid "Example of use"
+msgstr ""
+
+#: units-identity.rst:53
+msgid "``unit``, ``positioning``, ``relation``, ``person``, ``posting``, ``incident``"
+msgstr ""
+
+#: units-identity.rst:55 units-identity.rst:90 units-identity.rst:130 units-identity.rst:164 units-identity.rst:198 units-identity.rst:234 units-identity.rst:275 units-identity.rst:310 units-identity.rst:389 units-identity.rst:426 units-identity.rst:476 units-identity.rst:510 units-identity.rst:544 units-identity.rst:578 units-identity.rst:612 units-identity.rst:646 units-identity.rst:680 units-identity.rst:714 units-identity.rst:748 units-identity.rst:783 units-identity.rst:817
+msgid "Guidance on use"
+msgstr ""
+
+#: units-identity.rst:58
+msgid "Entering ``unit`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:`unit`. For quality assurance purposes, entering ``unit`` should create an error if there is any entry for fields tied to other claim types, such as :ref:`positioning` or :ref:`relation`."
+msgstr ""
+
+#: units-identity.rst:62
+msgid "status:meta"
+msgstr ""
+
+#: units-identity.rst:68
+msgid "A field that classifies the data in the claim."
+msgstr ""
+
+#: units-identity.rst:83
+msgid "``:claim/statuses``"
+msgstr ""
+
+#: units-identity.rst:88
+msgid "``accepted``, ``conflict``, ``work_needed``, ``issue``"
+msgstr ""
+
+#: units-identity.rst:93
+msgid "Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim (see :ref:`Citations with both Accepted and Conflicted Information` for guidance when one claim from a citation contains both ``accepted`` and ``conflict`` information). A :ref:`public_notes:meta <unit-public-notes-meta>` should always accompany any ``conflict`` claim."
+msgstr ""
+
+#: units-identity.rst:95 units-identity.rst:242 units-identity.rst:315 units-identity.rst:321 units-identity.rst:435 units-identity.rst:441
+msgid "Example"
+msgstr ""
+
+#: units-identity.rst:97
+msgid "Citations reference a unit 757 Light Infantry Battalion in 2008 and again in 2019 as part of the Myanmar Army. This conflicts with other citations before and after these dates which list all light infantry battalions of the army and do not include this unit. Further citations establish a general numbering practice of the army which provides further evidence that no such battalion exists. The :ref:`unit` and other claims related to the 757 Light Infantry Battalion should still be entered into the dataset, flagged with :ref:`status:meta <unit-status-meta>` of the ``conflict``, and have the status fully explained in a :ref:`public_notes:meta <unit-public-notes-meta>`."
+msgstr ""
+
+#: units-identity.rst:99
+msgid "If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed."
+msgstr ""
+
+#: units-identity.rst:102
+msgid "researcher:meta"
+msgstr ""
+
+#: units-identity.rst:108
+msgid "Field for initials or other identifier of researcher who last entered data for the claim."
+msgstr ""
+
+#: units-identity.rst:123
+msgid "``:meta/researchers``"
+msgstr ""
+
+#: units-identity.rst:128
+msgid "``TW``, ``Jane_Doe``, ``G1``"
+msgstr ""
+
+#: units-identity.rst:133
+msgid "Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked."
+msgstr ""
+
+#: units-identity.rst:136
+msgid "internal_comments:meta"
+msgstr ""
+
+#: units-identity.rst:142
+msgid "A field for temporary comments or notes for the researcher or research team working on the claim."
+msgstr ""
+
+#: units-identity.rst:152 units-identity.rst:263 units-identity.rst:298 units-identity.rst:413 units-identity.rst:464 units-identity.rst:498 units-identity.rst:532 units-identity.rst:566 units-identity.rst:600 units-identity.rst:634 units-identity.rst:668 units-identity.rst:702 units-identity.rst:736 units-identity.rst:771
+msgid "This attribute is optional."
+msgstr ""
+
+#: units-identity.rst:157
+msgid "``:meta/internal-comments``"
+msgstr ""
+
+#: units-identity.rst:162
+msgid "``Come back to this to determine date for claim``"
+msgstr ""
+
+#: units-identity.rst:167
+msgid "Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <unit-public-notes-meta>` field."
+msgstr ""
+
+#: units-identity.rst:170
+msgid "citation:refs:claim"
+msgstr ""
+
+#: units-identity.rst:176
+msgid "Field unique 32 character code assigned to citation(s) evidencing the claim."
+msgstr ""
+
+#: units-identity.rst:181 units-identity.rst:217
+msgid "String in UUID format"
+msgstr ""
+
+#: units-identity.rst:191
+msgid "``:claim/citation:refs``"
+msgstr ""
+
+#: units-identity.rst:196
+msgid "``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``"
+msgstr ""
+
+#: units-identity.rst:201
+msgid "Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <unit-public-notes-meta>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`ref:source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated."
+msgstr ""
+
+#: units-identity.rst:206
+msgid "about_entity:ref:claim"
+msgstr ""
+
+#: units-identity.rst:212
+msgid "A unique 32 character code assigned to each entity in the dataset."
+msgstr ""
+
+#: units-identity.rst:227
+msgid "``:claim/about-entity:ref``"
+msgstr ""
+
+#: units-identity.rst:232
+msgid "``521ebf18-f161-4ac9-8c72-5a246efa0458``"
+msgstr ""
+
+#: units-identity.rst:237
+msgid "Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For a :ref:`unit` this UUID distinguishes them from any other :ref:`unit` in the dataset. This UUID is used in other fields to tie a :ref:`unit` to a :ref:`positioning`, :ref:`relation`, :ref:`posting`, or :ref:`incident`."
+msgstr ""
+
+#: units-identity.rst:239
+msgid "If a unit undergoes a change in name, that unit should be treated as a separate, distinct unit and given its own UUID."
+msgstr ""
+
+#: units-identity.rst:244
+msgid "A citation establishes that a :ref:`unit`, named the ``Tiger Forces`` in Syria were renamed the ``25 Anti-Terrorism Division`` in 2019. The division continued to serve with the same general functions as before, and continued to be commanded by the same person. However, because a citation clearly evidenced that there had been a change in the name of the :ref:`unit`, the ``25 Anti-Terrorism Division`` should be treated as a distinct :ref:`unit` with a separate ``about_entity:ref:claim`` from the ``Tiger Forces``."
+msgstr ""
+
+#: units-identity.rst:247
+msgid "about_entity:name:qa"
+msgstr ""
+
+#: units-identity.rst:253
+msgid "Field that provides human readable name for the claim."
+msgstr ""
+
+#: units-identity.rst:258 units-identity.rst:293 units-identity.rst:372
+msgid "Text string."
+msgstr ""
+
+#: units-identity.rst:268
+msgid "``n/a``"
+msgstr ""
+
+#: units-identity.rst:273
+msgid "``510 Light Infantry Battalion``"
+msgstr ""
+
+#: units-identity.rst:278
+msgid "This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <unit-about-entity>` This field can be manually added by a researcher or automatically populated by the system after import. For a :ref:`unit` best practice is to use the :ref:`name:annotation <unit-name-annotation>` in this field."
+msgstr ""
+
+#: units-identity.rst:282
+msgid "name:annotation"
+msgstr ""
+
+#: units-identity.rst:288
+msgid "Fullest name of the unit as evidenced by citations."
+msgstr ""
+
+#: units-identity.rst:303
+msgid "``:annotation/name``"
+msgstr ""
+
+#: units-identity.rst:308
+msgid "``3 Armoured Division``, ``3 Compañía de Infantería No Encuadrada``, ``7 Military Operations Command``"
+msgstr ""
+
+#: units-identity.rst:313
+msgid "The Security Force Monitor strives to create a single canonical version of a unit's name that is based on citations, highlights differences between peer units, and makes the data easier for a general audience to understand. Similar to a :ref:`person`, wherever possible we will choose the most complex version of a unit’s name that can be evidenced by a citation."
+msgstr ""
+
+#: units-identity.rst:317
+msgid "``3 Armoured Division`` would be the entry for :ref:`name:annotation <unit-name-annotation>`, rather than the shorter ``3 Division`` (which may have more citations) would only be used in :ref:`unit:names:assertion`."
+msgstr ""
+
+#: units-identity.rst:319
+msgid "Units have several unique characteristics that require additional and unit specific methodological guidance. Units in security forces are arranged in hierarchies and share similar names with their peer units. However, while citations may establish general guidance for how units of a certain type should be named, each individual unit may not have citations evidencing the \"complete\" or \"canonical\" name of the unit."
+msgstr ""
+
+#: units-identity.rst:323
+msgid "``Police Divisions`` are a class of police units in Nigeria established by law. There are over 1000 units of this type nationwide. However, each individual ``Police Division`` may not have a citation for their full, formal name. For example, a citation references the ``Achall Division`` police unit in Anambra State. There is no citation for the fuller, more formal ``Achalla Police Division``. In this case, and similar cases, the Monitor would create a claim with ``Achalla Police Division`` in the :ref:`name:annotation <unit-name-annotation>` with citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``. This citation was created to specifically note the name for the unit has been created by the Monitor. Best practice is to also include any citations that provide contextual information for the standardized name, as well as a :ref:`public_notes:meta <unit-public-notes-meta>`."
+msgstr ""
+
+#: units-identity.rst:325
+msgid "As many units do have standardized names, the Monitor follows several \"stylistic\" naming conventions for the :ref:`name:annotation <unit-name-annotation>` field:"
+msgstr ""
+
+#: units-identity.rst:327
+msgid "Numerals in Unit Names"
+msgstr ""
+
+#: units-identity.rst:329
+msgid "The Monitor always standardizes the :ref:`name:annotation <unit-name-annotation>` to include numerals rather than spelling out numerals."
+msgstr ""
+
+#: units-identity.rst:331
+msgid "There may be a unit of which we only have citations for a ``Fourth Battalion``. In this case, the Monitor would create a claim with the :ref:`name:annotation <unit-name-annotation>` for the unit as ``4 Battalion`` using citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``."
+msgstr ""
+
+#: units-identity.rst:333
+msgid "In an effort to standardize names across all countries, the Monitor generally uses Arabic numerals in the :ref:`name:annotation <unit-name-annotation>` field. Where warranted by citations the Monitor will use Roman numerals like ``V`` or ``XI`` instead of ``5`` or ``11`` respectively."
+msgstr ""
+
+#: units-identity.rst:335
+msgid "Numbers Before Words in Unit Names"
+msgstr ""
+
+#: units-identity.rst:337
+msgid "The Monitor lists the numeral in any :ref:`name:annotation <unit-name-annotation>` before any textual element of the name of the unit. This is done because the number of the unit is often the most distinguishing feature of a name."
+msgstr ""
+
+#: units-identity.rst:339
+msgid "Most English language sources for Myanmar Army units reference the name of the unit and then the number, for example ``Light Infantry Battalion 510``. If there was no citation for ``510 Light Infantry Battalion`` the Monitor would create a claim with ``510 Light Infantry Battalion`` in the :ref:`name:annotation <unit-name-annotation>` with citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``."
+msgstr ""
+
+#: units-identity.rst:342
+msgid "Ordinal Indicators"
+msgstr ""
+
+#: units-identity.rst:344
+msgid "The Monitor does not use ordinal indicators like ``1st`` or ``3rd`` in the :ref:`name:annotation <unit-name-annotation>` for units. Instead these will be listed in the :ref:`unit:names:assertion` field."
+msgstr ""
+
+#: units-identity.rst:347
+msgid "Language of Unit Names"
+msgstr ""
+
+#: units-identity.rst:349
+msgid "The Monitor uses the name in the official or most commonly used language of the country where possible. Generally this is based on the Monitor's capacity at the time of the particular research project. A unit in the Mexican Army would be called by its name in Spanish (``10 Regimiento de Caballería Motorizado``), rather than the English translation ( ``10 Motorized Cavalry Regiment``)."
+msgstr ""
+
+#: units-identity.rst:353
+msgid "Distinguishing Units with Same Name"
+msgstr ""
+
+#: units-identity.rst:355
+msgid "In cases where multiple units have the same name the Monitor will distinguish them by adding unique identifying text in parentheses based on the unit's location or parent unit. For example, there are multiple \"Central Police Station\" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance ``Central Police Station (Awka, Anambra State)``. Another example is in Myanmar where there are multiple different units all called \"1 Tactical Operations Command\". To distinguish them the Monitor added the parent unit inside of parentheses for each tactical operations command, such as ``1 Tactical Operations Command (1 Military Operations Command)``."
+msgstr ""
+
+#: units-identity.rst:358
+msgid "In some cases, we are aware that a unit exists because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of \"Unnamed\" and \"Unknown\" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`."
+msgstr ""
+
+#: units-identity.rst:361
+msgid "unit:names:assertion"
+msgstr ""
+
+#: units-identity.rst:367
+msgid "Any name given for a unit from citation."
+msgstr ""
+
+#: units-identity.rst:382
+msgid "``:assertion/unit:names``"
+msgstr ""
+
+#: units-identity.rst:387
+msgid "``Deuxième RM``, ``GFSN``, ``IB-148``, ``IB (148)``, ``Infantry Battalion 148``"
+msgstr ""
+
+#: units-identity.rst:392
+msgid "Any name for a unit used in the citation should be entered in this field. While the :ref:`name:annotation <unit-name-annotation>` field is only used for a single, most complex value, this field is used for any name a citation uses for a unit. Thus, this field serves to capture \"aliases\" of a unit, which also includes any typos or misspellings from the citation."
+msgstr ""
+
+#: units-identity.rst:394
+msgid "Ordinal indicators, such as \"2nd\" or \"10/o\", should be entered in this field."
+msgstr ""
+
+#: units-identity.rst:397
+msgid "unit:classifications:assertion"
+msgstr ""
+
+#: units-identity.rst:403
+msgid "A general descriptor for the unit, often matches a branch or branches of the unit."
+msgstr ""
+
+#: units-identity.rst:408 units-identity.rst:459 units-identity.rst:800
+msgid "Text, controlled vocabulary."
+msgstr ""
+
+#: units-identity.rst:418
+msgid "``:assertion/unit:classifications``"
+msgstr ""
+
+#: units-identity.rst:423
+msgid "``Army``, ``Ejército``, ``Police``, ``Military``, ``Military Police``, ``Joint Operation``"
+msgstr ""
+
+#: units-identity.rst:429
+msgid "We use classifications to describe the basic nature of a specific unit and to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor's dataset. As alleged perpetrators are usually identified in general terms of \"soldiers\" and \"police\" this field is important as a first step to understand potential linkages between a :ref:`unit`, :ref:`person` and :ref:`incident`."
+msgstr ""
+
+#: units-identity.rst:431
+msgid "The :ref:`unit:classifications:assertion` field will contain a mix of standard terms and country-specific terms used to describe security force branches. In choosing terms to include in the :ref:`unit:classifications:assertion` field we try to include terms that are used by country experts as well as those that are common terms that would be meaningful to a general audience. We also try to be economical and create as few, distinct terms as possible."
+msgstr ""
+
+#: units-identity.rst:433
+msgid "Units may have more than one classification. Usually this will be when a unit can have both \"generic\" and \"specific\" classifications."
+msgstr ""
+
+#: units-identity.rst:437
+msgid "Units which are part of the army of a country may be coded as having a classification of ``Army`` as well as a classification of ``Military``, whereas units which are part of the navy of a country would have classifications of ``Navy`` and ``Military``. For both the army and navy unit their respective classifications are correct, the army and the navy are part of the military. Critically, this enables the Monitor or users of the Monitor's data to properly analyze allegations against \"soldiers\" and \"members of the army\" in the country. In the case of \"soldiers\" this analysis should include every unit with the classification of ``Military`` while if there is greater specificity of \"members of the army\" would mean excluding any unit with the classification of ``Navy`` and focusing only on those units with a classification of ``Army.``"
+msgstr ""
+
+#: units-identity.rst:439
+msgid "Every unit which has a \"specific\" classification should also have the \"generic\" classification as well."
+msgstr ""
+
+#: units-identity.rst:443
+msgid "Units that have an ``Army`` classification should also have a :ref:`unit:classifications:assertion` of ``Military``."
+msgstr ""
+
+#: units-identity.rst:445
+msgid "Classifications are \"taken on\" to parent units or the :ref:`relation:related_unit:refs:assertion` units, meaning that a :ref:`unit` should have all of the :ref:`unit:classifications:assertion` of any subordinate :ref:`unit`. For example, the :ref:`unit` representing the head of state or head of government which acts as commander-in-chief of the armed forces would have a :ref:`unit:classifications:assertion` of ``Military``, among others. See the section :ref:`Superior Units Taking On Positionings and Classifications of Subordinates` for more guidance."
+msgstr ""
+
+#: units-identity.rst:448
+msgid "country:annotation"
+msgstr ""
+
+#: units-identity.rst:454
+msgid "Associated country of the unit used for grouping claims."
+msgstr ""
+
+#: units-identity.rst:469
+msgid "``:annotation/country``"
+msgstr ""
+
+#: units-identity.rst:474
+msgid "``mx``, ``ph``"
+msgstr ""
+
+#: units-identity.rst:479
+msgid "Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`_. This field is used to aid grouping units into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based on any related :ref:`positioning` the :ref:`unit` holds, or any other contextual information from citations about the :ref:`unit`."
+msgstr ""
+
+#: units-identity.rst:482
+msgid "first_precise:range"
+msgstr ""
+
+#: units-identity.rst:488
+msgid "The first precise date in the range."
+msgstr ""
+
+#: units-identity.rst:490 units-identity.rst:524 units-identity.rst:558 units-identity.rst:592 units-identity.rst:626 units-identity.rst:660 units-identity.rst:694 units-identity.rst:728
+msgid "Type of attribute"
+msgstr ""
+
+#: units-identity.rst:493 units-identity.rst:527 units-identity.rst:561 units-identity.rst:595
+msgid "String-date"
+msgstr ""
+
+#: units-identity.rst:503
+msgid "``:range-precise/first``"
+msgstr ""
+
+#: units-identity.rst:508 units-identity.rst:542
+msgid "``2024-07-03`` , ``2022-08-21``"
+msgstr ""
+
+#: units-identity.rst:513 units-identity.rst:547 units-identity.rst:581 units-identity.rst:615 units-identity.rst:649 units-identity.rst:683 units-identity.rst:717 units-identity.rst:751
+msgid "Guidance on dates can be found in the section :ref:`How Dates Work`."
+msgstr ""
+
+#: units-identity.rst:516
+msgid "last_precise:range"
+msgstr ""
+
+#: units-identity.rst:522
+msgid "The last precise date in the range."
+msgstr ""
+
+#: units-identity.rst:537
+msgid "``:range-precise/last``"
+msgstr ""
+
+#: units-identity.rst:550
+msgid "first_imprecise:range"
+msgstr ""
+
+#: units-identity.rst:556
+msgid "The first imprecise date in the range."
+msgstr ""
+
+#: units-identity.rst:571
+msgid "``:range-imprecise/first``"
+msgstr ""
+
+#: units-identity.rst:576
+msgid "``since_beginning_of_time`` , ``2024-03-25``"
+msgstr ""
+
+#: units-identity.rst:584
+msgid "last_imprecise:range"
+msgstr ""
+
+#: units-identity.rst:590
+msgid "The last imprecise date in the range."
+msgstr ""
+
+#: units-identity.rst:605
+msgid "``:range-imprecise/last``"
+msgstr ""
+
+#: units-identity.rst:610
+msgid "``2023-07-31`` , ``2024-01-10``"
+msgstr ""
+
+#: units-identity.rst:618
+msgid "starting:range"
+msgstr ""
+
+#: units-identity.rst:624
+msgid "Flag for if first date in range is the start date or not."
+msgstr ""
+
+#: units-identity.rst:629 units-identity.rst:663
+msgid "Y/N boolean"
+msgstr ""
+
+#: units-identity.rst:639
+msgid "``:range/starting?``"
+msgstr ""
+
+#: units-identity.rst:644 units-identity.rst:678
+msgid "``Y`` , ``N``"
+msgstr ""
+
+#: units-identity.rst:652
+msgid "ending:range"
+msgstr ""
+
+#: units-identity.rst:658
+msgid "Flag for if last date in range is the start date or not."
+msgstr ""
+
+#: units-identity.rst:673
+msgid "``:range/ending?``"
+msgstr ""
+
+#: units-identity.rst:686
+msgid "starting_context:range"
+msgstr ""
+
+#: units-identity.rst:692
+msgid "Simple description of start date."
+msgstr ""
+
+#: units-identity.rst:697 units-identity.rst:731 units-identity.rst:766
+msgid "String"
+msgstr ""
+
+#: units-identity.rst:707
+msgid "``:range/starting-context``"
+msgstr ""
+
+#: units-identity.rst:712
+msgid "``Created``"
+msgstr ""
+
+#: units-identity.rst:720
+msgid "ending_context:range"
+msgstr ""
+
+#: units-identity.rst:726
+msgid "Simple description of end date."
+msgstr ""
+
+#: units-identity.rst:741
+msgid "``:range/ending-context``"
+msgstr ""
+
+#: units-identity.rst:746
+msgid "``Disbanded``"
+msgstr ""
+
+#: units-identity.rst:755
+msgid "public_notes:meta"
+msgstr ""
+
+#: units-identity.rst:761
+msgid "Additional context or details about the claim for a public audience."
+msgstr ""
+
+#: units-identity.rst:776
+msgid "``:meta/public-notes``"
+msgstr ""
+
+#: units-identity.rst:781
+msgid "``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred \"last week\". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``"
+msgstr ""
+
+#: units-identity.rst:786
+msgid "This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. In the \"Example of Use\" above a citation published on 15 July 2019 refers to something happening \"last week\" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result, the researcher should explain how that date range was evidenced by the citation."
+msgstr ""
+
+#: units-identity.rst:789
+msgid "type:entity"
+msgstr ""
+
+#: units-identity.rst:795
+msgid "Specifies the type of entity."
+msgstr ""
+
+#: units-identity.rst:805
+msgid "This field is required."
+msgstr ""
+
+#: units-identity.rst:810
+msgid "``:entity/type``"
+msgstr ""
+
+#: units-identity.rst:815
+msgid "``claim``"
+msgstr ""
+
+#: units-identity.rst:820
+msgid "For a :ref:`unit` the only allowed entry for this field is ``claim``."
+msgstr ""
+
