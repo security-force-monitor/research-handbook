@@ -162,15 +162,15 @@ msgstr "Existen múltiples referencias que señalan a la ``33 División de Infan
 
 #: ../../source/contiguous-non-contiguous-claims.rst:72 ../../source/contiguous-non-contiguous-claims.rst:72
 msgid "Two or more :ref:`relation` claims should always be treated as contiguous if there is an overlap in the time range of the two claims, or if the time-ranges of the claims fall within 1 day of each other."
-msgstr ""
+msgstr "Dos o más declaraciones de :ref:`relación` deben tratarse siempre como contiguas si existe una superposición en el intervalo temporal de ambas declaraciones, o si los intervalos temporales de dichas declaraciones se encuentran dentro de un margen de un día entre sí."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:76 ../../source/contiguous-non-contiguous-claims.rst:76
 msgid "The ``33 Light Infantry Division`` has multiple citations establishing that it is a mobile unit which can change :ref:`relation` to whatever regional military command controls the area where it is operating. One citation puts the division in an area under ``Northeastern Regional Military Command`` from at least ``2016-03-10`` to at least ``2016-03-11``, which establishes a :ref:`relation` between the division and the regional command for the same time-range. Another citation places the division in an area under ``Northeastern Regional Military Command`` on ``2016-03-12``, which again establishes a :ref:`relation` between the division and the regional command for the same time-range. These two claims are coded as the same :ref:`relation` given that they fall within 1 day of each other."
-msgstr ""
+msgstr "La ``33 División de Infantería Ligera`` cuenta con múltiples referencias que establecen que se trata de una unidad móvil capaz de modificar su :ref:`relación` con cualquier mando militar regional que controle la zona donde opera. Una referencia sitúa a la división en un área bajo el ``Mando Militar Regional del Noreste`` desde, al menos, el ``2016-03-10`` hasta, al menos, el ``2016-03-11``, lo que establece una :ref:`relación` entre la división y dicho mando regional para ese mismo periodo. Otra referencia ubica a la división en una zona bajo el ``Mando Militar Regional del Noreste`` el ``2016-03-12``, estableciendo nuevamente una :ref:`relación` entre la división y el mando regional para ese mismo periodo. Estas dos declaraciones se codifican como la misma :ref:`relación`, dado que se producen con una diferencia de un día entre sí."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:78 ../../source/contiguous-non-contiguous-claims.rst:78
 msgid "A :ref:`unit` may have multiple, overlapping relations."
-msgstr ""
+msgstr "Una :ref:`unidad` puede tener múltiples relaciones superpuestas."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:82 ../../source/contiguous-non-contiguous-claims.rst:82
 msgid "Citations establish that regional military commands in the Myanmar Army control units that operate in their area of operations. Citations establish through time that the ``290 Infantry Battalion`` is under command of the ``Northeastern Regional Military Command`` and also based in areas under ``Northeastern Regional Military Command`` through time. Combined these citations evidence a contiguous :ref:`relation` between the battalion and ultimately the ``Northeastern Regional Military Command``. Other citations, however, evidence the battalion also operated in areas controlled by different regional military commands. These establish additional relations for the battalion during the time ranges it was operating in areas under the ``Eastern Central Regional Military Command``, ``Northern Regional Military Command``, ``Southeastern Regional Military Command`` or ``Triangle Regional Military Command``."
