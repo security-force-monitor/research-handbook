@@ -59,6 +59,7 @@ gettext_compact = False
 gettext_uuid = True
 gettext_additional_targets = {'literal-block', 'image'}
 figure_language_filename = '{path}{language}/{basename}{ext}'
+latex_engine = 'xelatex'
 
 # -- Options for HTML output -------------------------------------------------
 
