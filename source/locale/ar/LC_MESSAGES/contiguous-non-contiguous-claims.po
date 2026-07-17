@@ -125,7 +125,7 @@ msgid "-  Is more research needed before the Monitor can make any claim?"
 msgstr ""
 
 #: ../../source/contiguous-non-contiguous-claims.rst:46 ../../source/contiguous-non-contiguous-claims.rst:46
-msgid "An argument could be the Monitor should always make “separate claims” as that would be more faithful to the sources. However, the result likely mean an almost incomprehensible amount of detail in the records of people and units, which would obscure when changes really did occur, for instance when a person changed positions or a unit ends operations in an area. To some extent, our claim-based system (see :ref:`Claims with dates`) allows us to manage this complexity more easily. It gives us the ability to check specific underlying dates and data points, to plot timelines that have both claimed and inferred date ranges, and to make choices about continuity as described in this article."
+msgid "An argument could be the Monitor should always make “separate claims” as that would be more faithful to the sources. However, the result likely mean an almost incomprehensible amount of detail in the records of people and units, which would obscure when changes really did occur, for instance when a person changed positions or a unit ends operations in an area. To some extent, our claim-based system (see :ref:`How Dates Work`) allows us to manage this complexity more easily. It gives us the ability to check specific underlying dates and data points, to plot timelines that have both claimed and inferred date ranges, and to make choices about continuity as described in this article."
 msgstr ""
 
 #: ../../source/contiguous-non-contiguous-claims.rst:48 ../../source/contiguous-non-contiguous-claims.rst:48
