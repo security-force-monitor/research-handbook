@@ -15,15 +15,15 @@ msgstr ""
 
 #: persons-identity.rst:1
 msgid "Person"
-msgstr ""
+msgstr "Persona"
 
 #: persons-identity.rst:4
 msgid "The :ref:`person` claim type describes basic identifying information about a :ref:`person`: their name, aliases and associated time ranges with them. Claims of this type are grouped together with :ref:`Posting` (describing postings to different units) which tracks the person's career. There are also several fields in development to capture other aspects about persons."
-msgstr ""
+msgstr "El tipo de declaración :ref:`persona` describe información básica de identificación sobre una :ref:`persona`: su nombre, alias y los intervalos de tiempo asociados a ellos. Las declaraciones de este tipo se agrupan junto con :ref:`puesto` (que describe las asignaciones a diferentes unidades), lo cual permite realizar un seguimiento de la trayectoria profesional de la persona. Asimismo, hay varios campos en fase de desarrollo para registrar otros aspectos relacionados con las personas."
 
 #: persons-identity.rst:6
 msgid "Person: Summary of claim attributes"
-msgstr ""
+msgstr "Persona: Resumen de los atributos de la reclamación"
 
 #: persons-identity.rst:9
 msgid "The table below summarizes the following dimensions of :ref:`person` claims:"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: persons-identity.rst:30 persons-identity.rst:64 persons-identity.rst:100 persons-identity.rst:134 persons-identity.rst:168 persons-identity.rst:203 persons-identity.rst:241 persons-identity.rst:277 persons-identity.rst:315 persons-identity.rst:351 persons-identity.rst:389 persons-identity.rst:424 persons-identity.rst:458 persons-identity.rst:492 persons-identity.rst:526 persons-identity.rst:560 persons-identity.rst:594 persons-identity.rst:628 persons-identity.rst:662 persons-identity.rst:696 persons-identity.rst:730 persons-identity.rst:764 persons-identity.rst:799 persons-identity.rst:833
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: persons-identity.rst:33
 msgid "A field that defines what type of claim is being made."
@@ -67,7 +67,7 @@ msgstr ""
 
 #: persons-identity.rst:35 persons-identity.rst:69 persons-identity.rst:105 persons-identity.rst:139 persons-identity.rst:173 persons-identity.rst:208 persons-identity.rst:246 persons-identity.rst:282 persons-identity.rst:320 persons-identity.rst:356 persons-identity.rst:394 persons-identity.rst:429 persons-identity.rst:463 persons-identity.rst:497 persons-identity.rst:804 persons-identity.rst:838
 msgid "Attribute type"
-msgstr ""
+msgstr "Tipo de atributo"
 
 #: persons-identity.rst:38 persons-identity.rst:72 persons-identity.rst:108 persons-identity.rst:142 persons-identity.rst:249 persons-identity.rst:432
 msgid "Text string"
