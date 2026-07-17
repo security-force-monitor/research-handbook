@@ -7,7 +7,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: incidents-attributes.rst:1
 msgid "Incident"
-msgstr ""
+msgstr "حدث"
 
 #: incidents-attributes.rst:4
 msgid "Incidents are publicly documented allegations of acts committed by state-controlled security forces that may violate human rights laws and standards, international criminal law and other sets of relevant norms."
@@ -223,7 +223,7 @@ msgstr ""
 
 #: incidents-attributes.rst:235
 msgid "Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For an :ref:`incident` this UUID distinguishes them from any other :ref:`incident` in the dataset."
-msgstr ""
+msgstr "Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For an :ref:`حدث` this UUID distinguishes them from any other :ref:`حدث` in the dataset."
 
 #: incidents-attributes.rst:238
 msgid "about_entity:name:qa"
@@ -371,7 +371,7 @@ msgstr ""
 
 #: incidents-attributes.rst:448
 msgid "Best practice is for the :ref:`incident:violation:descriptions:assertion` to contain all of the information in the :ref:`incident` claim. This would allow any reader or researcher could read the :ref:`incident:violation:descriptions:assertion` and understand the entries in any field for the :ref:`incident`."
-msgstr ""
+msgstr "Best practice is for the :ref:`incident:violation:descriptions:assertion` to contain all of the information in the :ref:`حدث` claim. This would allow any reader or researcher could read the :ref:`incident:violation:descriptions:assertion` and understand the entries in any field for the :ref:`حدث`."
 
 #: incidents-attributes.rst:451
 msgid "incident:violation:types:assertion"
@@ -443,7 +443,7 @@ msgstr ""
 
 #: incidents-attributes.rst:550
 msgid "Where a source make an allegation against a specific :ref:`unit` and/or :ref:`person`, this attribute is used to store the UUID of the :ref:`unit` (:ref:`about_entity:ref:claim <unit-about-entity>`) and/or :ref:`person` (:ref:`about_entity:ref:claim <person-about-entity>`). The :ref:`unit` or :ref:`person` must already exist in the dataset. An :ref:`incident` can have multiple units and/or persons as perpetrators."
-msgstr ""
+msgstr "Where a source make an allegation against a specific :ref:`unit` and/or :ref:`person`, this attribute is used to store the UUID of the :ref:`unit` (:ref:`about_entity:ref:claim <unit-about-entity>`) and/or :ref:`person` (:ref:`about_entity:ref:claim <person-about-entity>`). The :ref:`unit` or :ref:`person` must already exist in the dataset. An :ref:`حدث` can have multiple units and/or persons as perpetrators."
 
 #: incidents-attributes.rst:553
 msgid "incident:perpetrator:names:qa"
@@ -495,11 +495,11 @@ msgstr ""
 
 #: incidents-attributes.rst:626
 msgid "An :ref:`incident` may have entries in both the :ref:`incident:perpetrator:classifications:assertion` and :ref:`incident:perpetrator:refs:assertion` fields."
-msgstr ""
+msgstr "An :ref:`حدث` may have entries in both the :ref:`incident:perpetrator:classifications:assertion` and :ref:`incident:perpetrator:refs:assertion` fields."
 
 #: incidents-attributes.rst:630
 msgid "According to Amnesty International \"On 27 August, Myanmar soldiers summarily executed scores of men and boys in Maung Nu [...]\" and \"The principal unit involved in the Maung Nu massacre was Light Infantry Battalion (LIB) No. 564 [...]\". As both a specific unit, the ``564 Light Infantry Battalion``, and \"soldiers\" are described as perpetrators the :ref:`incident` is coded with the :ref:`about_entity:ref:claim <unit-about-entity>` of the ``564 Light Infantry Battalion`` in :ref:`incident:perpetrator:refs:assertion` and a :ref:`incident:perpetrator:classifications:assertion` of ``Military``."
-msgstr ""
+msgstr "According to Amnesty International \"On 27 August, Myanmar soldiers summarily executed scores of men and boys in Maung Nu [...]\" and \"The principal unit involved in the Maung Nu massacre was Light Infantry Battalion (LIB) No. 564 [...]\". As both a specific unit, the ``564 Light Infantry Battalion``, and \"soldiers\" are described as perpetrators the :ref:`حدث` is coded with the :ref:`about_entity:ref:claim <unit-about-entity>` of the ``564 Light Infantry Battalion`` in :ref:`incident:perpetrator:refs:assertion` and a :ref:`incident:perpetrator:classifications:assertion` of ``Military``."
 
 #: incidents-attributes.rst:633
 msgid "incident:victim:refs:assertion"
@@ -511,7 +511,7 @@ msgstr ""
 
 #: incidents-attributes.rst:664
 msgid "This draft field is to capture any :ref:`person` alleged to be a victim of the :ref:`incident`. This :ref:`person` must already exist in the dataset."
-msgstr ""
+msgstr "This draft field is to capture any :ref:`person` alleged to be a victim of the :ref:`حدث`. This :ref:`person` must already exist in the dataset."
 
 #: incidents-attributes.rst:667
 msgid "incident:victim:names:qa"
@@ -619,7 +619,7 @@ msgstr ""
 
 #: incidents-attributes.rst:868 incidents-attributes.rst:902
 msgid "For an :ref:`incident` this field is always entered as ``Y``. Guidance on dates can be found in the section :ref:`How Dates Work`."
-msgstr ""
+msgstr "For an :ref:`حدث` this field is always entered as ``Y``. Guidance on dates can be found in the section :ref:`How Dates Work`."
 
 #: incidents-attributes.rst:871
 msgid "ending:range"
@@ -647,7 +647,7 @@ msgstr ""
 
 #: incidents-attributes.rst:936 incidents-attributes.rst:970
 msgid "Generally this field is left blank for an :ref:`incident` as descriptions are avaliable in the :ref:``incident:violation:descriptions:assertion`. Guidance on dates can be found in the section :ref:`How Dates Work`."
-msgstr ""
+msgstr "Generally this field is left blank for an :ref:`حدث` as descriptions are avaliable in the :ref:``incident:violation:descriptions:assertion`. Guidance on dates can be found in the section :ref:`How Dates Work`."
 
 #: incidents-attributes.rst:939
 msgid "ending_context:range"
@@ -703,5 +703,5 @@ msgstr ""
 
 #: incidents-attributes.rst:1040
 msgid "For an :ref:`incident` the only entry allowed for this field is ``claim``."
-msgstr ""
+msgstr "For an :ref:`حدث` the only entry allowed for this field is ``claim``."
 
