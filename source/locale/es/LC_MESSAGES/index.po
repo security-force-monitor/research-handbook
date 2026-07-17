@@ -42,7 +42,7 @@ msgstr "Este manual de investigación detalla nuestro modelo de datos *Linkage C
 
 #: ../../source/index.rst:17 ../../source/index.rst:17
 msgid "`More information about Security Force Monitor <https://securityforcemonitor.org>`__ can be found on our organizational website."
-msgstr "Puede encontrar más información sobre Monitor de Fuerzas de Seguridad <https://securityforcemonitor.org> en nuestro sitio web institucional."
+msgstr "`Puede encontrar más información sobre Monitor de Fuerzas de Seguridad <https://securityforcemonitor.org>`__ en nuestro sitio web institucional."
 
 #: ../../source/index.rst:20 ../../source/index.rst:20
 msgid "Table of Contents"
