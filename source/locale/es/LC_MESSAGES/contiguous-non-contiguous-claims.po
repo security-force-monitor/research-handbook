@@ -70,51 +70,51 @@ msgstr "En un mundo ideal, el Monitor dispondría de información de cada día d
 
 #: ../../source/contiguous-non-contiguous-claims.rst:26 ../../source/contiguous-non-contiguous-claims.rst:26
 msgid "Broadly speaking the Security Force Monitor uses agreement among sources to build up details on security force units and individuals. Most of the Monitor’s sources, like government press releases and newspaper articles, can be used to link a value, such as the location of a unit, to a specific date (usually the date of publication). As we collect more sources we need to determine what agreement among sources means for time based values, like the location of a unit."
-msgstr ""
+msgstr "En términos generales, el Security Force Monitor utiliza la coincidencia entre fuentes para recopilar información detallada sobre unidades de las fuerzas de seguridad e individuos. La mayoría de las fuentes del Monitor —como los comunicados de prensa gubernamentales y los artículos periodísticos— permiten vincular un dato, como la ubicación de una unidad, a una fecha específica (generalmente, la fecha de publicación). A medida que reunimos más fuentes, es necesario determinar qué implica dicha coincidencia en el caso de datos temporales, como la ubicación de una unidad."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:28 ../../source/contiguous-non-contiguous-claims.rst:28
 msgid "Example: the Monitor finds Source A published on 1 July 2012 stating that the 1 Battalion is based in Lagos. If Source B published on 3 August 2012 also states that the 1 Battalion is based in Lagos we have a decision point about what claim we should make."
-msgstr ""
+msgstr "Ejemplo: el Monitor encuentra que la Fuente A publicó el 1 de julio de 2012 que el 1 Batallón tiene su base en Lagos. Si la Fuente B, publicada el 3 de agosto de 2012, también afirma que el 1.er Batallón tiene su base en Lagos, nos encontramos ante un punto de decisión sobre qué afirmación debemos formular."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:30 ../../source/contiguous-non-contiguous-claims.rst:30
 msgid "Using sources A and B we have two options which can be expressed in text:"
-msgstr ""
+msgstr "Utilizando las fuentes A y B, tenemos dos opciones que pueden expresarse por escrito:"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:32 ../../source/contiguous-non-contiguous-claims.rst:32
 msgid "1. Separate claims: “As of 1 July 2012 the 1 Battalion was based in Lagos and as of 3 August 2012 the 1 Battalion was based in Lagos, the Monitor does not know where the battalion was based between those two points in time.”"
-msgstr ""
+msgstr "1. Alegaciones separadas: «A fecha de 1 de julio de 2012, el 1 Batallón tenía su base en Lagos y, a fecha de 3 de agosto de 2012, el 1 Batallón tenía su base en Lagos; el Observador desconoce dónde tenía su base el batallón entre esos dos momentos»."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:33 ../../source/contiguous-non-contiguous-claims.rst:33
 msgid "2. Contiguity claim: “From at least 1 July 2012 to at least 3 August 2012 the 1 Battalion was based in Lagos.”"
-msgstr ""
+msgstr "2. Alegación de continuidad: «Desde al menos el 1 de julio de 2012 hasta al menos el 3 de agosto de 2012, el 1 Batallón estuvo destacado en Lagos»."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:35 ../../source/contiguous-non-contiguous-claims.rst:35
 msgid "Thus, whenever the Monitor gets a new source of information we have to decide whether to make a “separate” or “contiguity” claim. Based on the example of the 1 Battalion above the Monitor would run through a series of questions to determine which claim (if any) to make:"
-msgstr ""
+msgstr "Por tanto, cada vez que el Monitor obtiene una nueva fuente de información, debemos decidir si formular una afirmación de «separación» o de «contigüidad». Basándose en el ejemplo del 1.er Batallón mencionado anteriormente, el Monitor seguiría una serie de preguntas para determinar qué afirmación (si procede) debe formular:"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:37 ../../source/contiguous-non-contiguous-claims.rst:37
 msgid "In general, how do other battalions operate, are they sedentary, or highly mobile?"
-msgstr ""
+msgstr "En general, ¿cómo operan otros batallones: son sedentarios o altamente móviles?"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:38 ../../source/contiguous-non-contiguous-claims.rst:38
 msgid "How has the 1 Battalion acted in the past, has it been sedentary or highly mobile?"
-msgstr ""
+msgstr "¿Cómo ha actuado el 1 Batallón en el pasado: ha sido sedentario o altamente móvil?"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:39 ../../source/contiguous-non-contiguous-claims.rst:39
 msgid "Are there other sources disputing these claims (i.e. 1 Battalion being based solely in another city)?"
-msgstr ""
+msgstr "¿Existen otras fuentes que contradigan estas afirmaciones (por ejemplo, que 1 Batallón estuviera destacado exclusivamente en otra ciudad)?"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:40 ../../source/contiguous-non-contiguous-claims.rst:40
-msgid "Are there any sources indicating the 1 Battalion was in Lagos in July and/or August as part of a “special”, “emergency” or otherwise temporary posting??"
-msgstr ""
+msgid "Are there any sources indicating the 1 Battalion was in Lagos in July and/or August as part of a “special”, “emergency” or otherwise temporary posting?"
+msgstr "¿Existen fuentes que indiquen que el 1 Batallón estuvo en Lagos en julio y/o agosto como parte de un destino «especial», de «emergencia» o, de otro modo, temporal?"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:41 ../../source/contiguous-non-contiguous-claims.rst:41
 msgid "Are there sources that indicate the 1 Battalion moved in between these two points of time and thus these should be treated as separate deployments to Lagos?"
-msgstr ""
+msgstr "¿Existen fuentes que indiquen que el 1 Batallón se desplazó entre estos dos momentos y que, por tanto, estos deban considerarse despliegues separados a Lagos?"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:42 ../../source/contiguous-non-contiguous-claims.rst:42
 msgid "Is there anything related to the 1 Battalion’s parent or child units that may impact where it was based?"
-msgstr ""
+msgstr "¿Existe algún aspecto relacionado con las unidades superiores o subordinadas del 1 Batallón que pudiera haber influido en su ubicación?"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:43 ../../source/contiguous-non-contiguous-claims.rst:43
 msgid "Are there any other mitigating sources (i.e. major restructuring of the military, constitutional changes, etc.) which may impact the basing of the unit?"
