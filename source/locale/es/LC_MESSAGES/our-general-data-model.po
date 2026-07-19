@@ -54,12 +54,12 @@ msgstr "Orientación sobre cómo completamos cada campo y por qué."
 
 #: ../../source/our-general-data-model.rst:26 ../../source/our-general-data-model.rst:26
 msgid "The diagram above also highlights the special place that "citations" and "claims" hold in our research approach. Security Force Monitor uses a claim-based approach to the creation of data. A claim is an assertion of information evidenced by a citation from a source. Throughout our work, all specific pieces of information about any claim are kept together with the specific citation(s) from which they were drawn."
-msgstr ""
+msgstr "El diagrama anterior también destaca el lugar especial que ocupan las «citas» y las «declaraciones» en nuestro enfoque de investigación. Security Force Monitor emplea un enfoque basado en afirmaciones para la generación de datos. Una afirmación es una declaración de información respaldada por una cita proveniente de una fuente. A lo largo de nuestro trabajo, toda la información específica relativa a una afirmación se mantiene asociada a la cita o citas concretas de las que se extrajo."
 
 #: ../../source/our-general-data-model.rst:28 ../../source/our-general-data-model.rst:28
 msgid "This approach enables complete transparency about the origins of data, and is a powerful data integrity measure. All the data that comprise each record about each claim type are drawn from an aggregation of claims."
-msgstr ""
+msgstr "Este enfoque permite una transparencia total sobre el origen de los datos y constituye una medida eficaz para garantizar la integridad de los mismos. Todos los datos que conforman cada registro relativo a cada tipo de reclamación provienen de una agregación de declaraciones."
 
 #: ../../source/our-general-data-model.rst:30 ../../source/our-general-data-model.rst:30
 msgid "Finally, the general data model guides the construction of the tools and technologies we have built to capture, store and analyze data."
-msgstr ""
+msgstr "Por último, el modelo de datos general guía la construcción de las herramientas y tecnologías que hemos desarrollado para capturar, almacenar y analizar datos."
