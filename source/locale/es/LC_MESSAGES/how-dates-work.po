@@ -73,7 +73,7 @@ msgid "The date of publication of the citation is always an important considerat
 msgstr ""
 
 #: ../../source/how-dates-work.rst:34 ../../source/how-dates-work.rst:34
-msgid ".. admonition:: Example"
+msgid "Example"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:36 ../../source/how-dates-work.rst:36
@@ -105,11 +105,11 @@ msgid "``Xavier Johnson`` (entry for :ref:`name:annotation <person-name-annotati
 msgstr ""
 
 #: ../../source/how-dates-work.rst:50 ../../source/how-dates-work.rst:50
-msgid "    **posting**"
+msgid "**posting**"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:52 ../../source/how-dates-work.rst:52
-msgid "    ``Xavier Johnson`` as part of ``9 Battalion`` with :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2023-11-011`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``."
+msgid "``Xavier Johnson`` as part of ``9 Battalion`` with :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2023-11-011`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``."
 msgstr ""
 
 #: ../../source/how-dates-work.rst:54 ../../source/how-dates-work.rst:54
@@ -125,11 +125,11 @@ msgid "For an imprecise range the details of the claim were true for at least on
 msgstr ""
 
 #: ../../source/how-dates-work.rst:63 ../../source/how-dates-work.rst:63
-msgid ".. admonition:: Example"
+msgid "Example"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:65 ../../source/how-dates-work.rst:65
-msgid "    A citation published on 2024-03-24 states "The 15 Regiment quickly responded to the attack on February 15th, conducting operations in several nearby areas, including Western, Upper, Lower and Central-South Governorates." The precise dates when the regiment was conducting these operations in any of the governorates is not clearly stated, however, we can establish an imprecise range for all of these positionings. For all of these positionings the ``first_imprecise:range`` would be ``2024-02-15`` and ``last_imprecise:range`` would be ``2024-03-24`` (the date of publication of the citation)."
+msgid "A citation published on 2024-03-24 states "The 15 Regiment quickly responded to the attack on February 15th, conducting operations in several nearby areas, including Western, Upper, Lower and Central-South Governorates." The precise dates when the regiment was conducting these operations in any of the governorates is not clearly stated, however, we can establish an imprecise range for all of these positionings. For all of these positionings the ``first_imprecise:range`` would be ``2024-02-15`` and ``last_imprecise:range`` would be ``2024-03-24`` (the date of publication of the citation)."
 msgstr ""
 
 #: ../../source/how-dates-work.rst:67 ../../source/how-dates-work.rst:67
@@ -141,15 +141,15 @@ msgid "Often citations will have claims which effectively translate to "at some 
 msgstr ""
 
 #: ../../source/how-dates-work.rst:71 ../../source/how-dates-work.rst:71
-msgid ".. admonition:: Example"
+msgid "Example"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:73 ../../source/how-dates-work.rst:73
-msgid "    A citation states that John Smith was appointed commander of the 1 Brigade on 2014-08-01. The citation also states that "John Smith previously commanded the 8 Battalion.""
+msgid "A citation states that John Smith was appointed commander of the 1 Brigade on 2014-08-01. The citation also states that "John Smith previously commanded the 8 Battalion.""
 msgstr ""
 
 #: ../../source/how-dates-work.rst:75 ../../source/how-dates-work.rst:75
-msgid "    The scope of "previously" may appear unclear, but with imprecise ranges we can faithfully capture the time-bound claim being made. The value of ``since_beginning_of_time`` may be entered in the ``first_imprecise:range`` field to capture the scale of "previously" or similar statements from citations which, put another way, mean "at some point in time before the date of publication this claim was true." In the case of the example above, the :ref:`posting` of ``John Smith`` to the ``8 Battalion`` would have a ``first_imprecise:range`` of ``since_beginning_of_time`` and a ``last_imprecise:range`` of ``2014-08-01``."
+msgid "The scope of "previously" may appear unclear, but with imprecise ranges we can faithfully capture the time-bound claim being made. The value of ``since_beginning_of_time`` may be entered in the ``first_imprecise:range`` field to capture the scale of "previously" or similar statements from citations which, put another way, mean "at some point in time before the date of publication this claim was true." In the case of the example above, the :ref:`posting` of ``John Smith`` to the ``8 Battalion`` would have a ``first_imprecise:range`` of ``since_beginning_of_time`` and a ``last_imprecise:range`` of ``2014-08-01``."
 msgstr ""
 
 #: ../../source/how-dates-work.rst:78 ../../source/how-dates-work.rst:78
@@ -161,35 +161,35 @@ msgid "Often citations have a combination of precise and imprecise time-bound cl
 msgstr ""
 
 #: ../../source/how-dates-work.rst:83 ../../source/how-dates-work.rst:83
-msgid ".. admonition:: Example"
+msgid "Example"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:85 ../../source/how-dates-work.rst:85
-msgid "    A citation published on 2005-06-03 states: "Steven Wendell met with local officials at the 165 Battalion's headquarters today. Wendell, who was appointed as battalion commander last month, addressed concerns about security for the coming election season.""
+msgid "A citation published on 2005-06-03 states: "Steven Wendell met with local officials at the 165 Battalion's headquarters today. Wendell, who was appointed as battalion commander last month, addressed concerns about security for the coming election season.""
 msgstr ""
 
 #: ../../source/how-dates-work.rst:87 ../../source/how-dates-work.rst:87
-msgid "    **unit**"
+msgid "**unit**"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:89 ../../source/how-dates-work.rst:89
-msgid "    ``165 Battalion`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``."
+msgid "``165 Battalion`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``."
 msgstr ""
 
 #: ../../source/how-dates-work.rst:91 ../../source/how-dates-work.rst:91
-msgid "    **person**"
+msgid "**person**"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:93 ../../source/how-dates-work.rst:93
-msgid "    ``Xavier Johnson`` (entry for :ref:`name:annotation <person-name-annotation>` and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``."
+msgid "``Xavier Johnson`` (entry for :ref:`name:annotation <person-name-annotation>` and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``."
 msgstr ""
 
 #: ../../source/how-dates-work.rst:95 ../../source/how-dates-work.rst:95
-msgid "    **posting**"
+msgid "**posting**"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:97 ../../source/how-dates-work.rst:97
-msgid "    ``Xavier Johnson`` as part of ``9 Battalion`` with :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` would have a value of ``Y`` and ``ending:range`` a value of ``N``."
+msgid "``Xavier Johnson`` as part of ``9 Battalion`` with :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` would have a value of ``Y`` and ``ending:range`` a value of ``N``."
 msgstr ""
 
 #: ../../source/how-dates-work.rst:100 ../../source/how-dates-work.rst:100
@@ -197,5 +197,5 @@ msgid ".. note::"
 msgstr ""
 
 #: ../../source/how-dates-work.rst:102 ../../source/how-dates-work.rst:102
-msgid "   Our article :ref:`Establishing Contiguous or Non-Contiguous Claims` provides extended guidance to help researchers decisions about whether a timeline is continuous or not. "
+msgid "Our article :ref:`Establishing Contiguous or Non-Contiguous Claims` provides extended guidance to help researchers decisions about whether a timeline is continuous or not. "
 msgstr ""
