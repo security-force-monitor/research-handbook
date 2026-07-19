@@ -29,19 +29,19 @@ msgid "For "Unknown" units the Monitor will have sources for the overall hierarc
 msgstr ""
 
 #: ../../source/unknown-unnamed-units.rst:12 ../../source/unknown-unnamed-units.rst:12
-msgid ".. admonition:: Example"
+msgid "Example"
 msgstr ""
 
 #: ../../source/unknown-unnamed-units.rst:14 ../../source/unknown-unnamed-units.rst:14
-msgid "    Multiple sources, including the laws of Nigeria, lay out that the chain of command for the Police goes from each state (and the Federal Capital Territory) having a single Police Command, under which are Police Area Commands and under Police Area Command are Police Divisions. For the Abayi Police Division the Monitor has sources placing it in Aba, Abia state, making it ultimately under the control of the Abia State Police Command, per the law. However, the Monitor does not have sources indicating which Police Area Command controls Abayi Police Division, and because of this the Monitor has created a unit called ``Unknown Police Area Command in Abia State`` which is the parent unit of ``Abayi Police Division``. In turn ``Abia State Police Command`` is the parent of ``Unknown Police Area Command in Abia State``, which connects ``Abayi Police Division`` to the wider police command structure."
+msgid "Multiple sources, including the laws of Nigeria, lay out that the chain of command for the Police goes from each state (and the Federal Capital Territory) having a single Police Command, under which are Police Area Commands and under Police Area Command are Police Divisions. For the Abayi Police Division the Monitor has sources placing it in Aba, Abia state, making it ultimately under the control of the Abia State Police Command, per the law. However, the Monitor does not have sources indicating which Police Area Command controls Abayi Police Division, and because of this the Monitor has created a unit called ``Unknown Police Area Command in Abia State`` which is the parent unit of ``Abayi Police Division``. In turn ``Abia State Police Command`` is the parent of ``Unknown Police Area Command in Abia State``, which connects ``Abayi Police Division`` to the wider police command structure."
 msgstr ""
 
 #: ../../source/unknown-unnamed-units.rst:16 ../../source/unknown-unnamed-units.rst:16
-msgid ".. admonition:: Example"
+msgid "Example"
 msgstr ""
 
 #: ../../source/unknown-unnamed-units.rst:18 ../../source/unknown-unnamed-units.rst:18
-msgid "    Citations establish that light infantry divisions of Myanmar are made up of three tactical operations commands, each of which in turn command battalions. For the ``99 Light Infantry Division`` citations establish there are the following tactical operations commands under it: ``991 Tactical Operations Command``, ``992 Tactical Operations Command``, and the ``993 Tactical Operations Command``. As a result, all tactical operations commands exist in the Monitor's dataset. However, citations often reference battalions as being a part of the ``99 Light Infantry Division``, without specifying which tactical operations command the particular battalion is under. Because of this, even though all possible tactical operations commands are known and represented in the data, the Monitor has created an "Unknown" unit, the ``Unknown Tactical Operations Command (99 Light Infantry Division)``. Any citation that states a battalion is part of the ``99 Light Infantry Division``, without referencing a tactical operations command, is used to evidence a :ref:`relation` between the battalion and the ``Unknown Tactical Operations Command (99 Light Infantry Division)``. Of course, the supporting citations that establish battalions are under tactical operations command would also be entered in the :ref:`citation:refs:claim <citation-relation>` for the claim, and an explanatory note would be entered in :ref:`public_notes:meta <relation-public-notes>`."
+msgid "Citations establish that light infantry divisions of Myanmar are made up of three tactical operations commands, each of which in turn command battalions. For the ``99 Light Infantry Division`` citations establish there are the following tactical operations commands under it: ``991 Tactical Operations Command``, ``992 Tactical Operations Command``, and the ``993 Tactical Operations Command``. As a result, all tactical operations commands exist in the Monitor's dataset. However, citations often reference battalions as being a part of the ``99 Light Infantry Division``, without specifying which tactical operations command the particular battalion is under. Because of this, even though all possible tactical operations commands are known and represented in the data, the Monitor has created an "Unknown" unit, the ``Unknown Tactical Operations Command (99 Light Infantry Division)``. Any citation that states a battalion is part of the ``99 Light Infantry Division``, without referencing a tactical operations command, is used to evidence a :ref:`relation` between the battalion and the ``Unknown Tactical Operations Command (99 Light Infantry Division)``. Of course, the supporting citations that establish battalions are under tactical operations command would also be entered in the :ref:`citation:refs:claim <citation-relation>` for the claim, and an explanatory note would be entered in :ref:`public_notes:meta <relation-public-notes>`."
 msgstr ""
 
 #: ../../source/unknown-unnamed-units.rst:20 ../../source/unknown-unnamed-units.rst:20
@@ -61,11 +61,11 @@ msgid "When citations reference a specific unit, but do not include enough infor
 msgstr ""
 
 #: ../../source/unknown-unnamed-units.rst:29 ../../source/unknown-unnamed-units.rst:29
-msgid ".. admonition:: Example"
+msgid "Example"
 msgstr ""
 
 #: ../../source/unknown-unnamed-units.rst:31 ../../source/unknown-unnamed-units.rst:31
-msgid "    Every tactical operations command in the Myanmar Army is given a numerical identifier which is the core of the name of the unit, with those under regional commands are usually numbered 1 through 3, such as ``1 Tactical Operations Command`` under the ``Coastal Regional Military Command``. However, a citation references some tactical operations commands by location, with no numerical identifier. Until another citation can be found to evidence a numerical identifier these units are given an "Unnamed" :ref:`name:annotation <unit-name-annotation>`, such as the  ``Unnamed Tactical Operations Command (Mong Mit)``."
+msgid "Every tactical operations command in the Myanmar Army is given a numerical identifier which is the core of the name of the unit, with those under regional commands are usually numbered 1 through 3, such as ``1 Tactical Operations Command`` under the ``Coastal Regional Military Command``. However, a citation references some tactical operations commands by location, with no numerical identifier. Until another citation can be found to evidence a numerical identifier these units are given an "Unnamed" :ref:`name:annotation <unit-name-annotation>`, such as the  ``Unnamed Tactical Operations Command (Mong Mit)``."
 msgstr ""
 
 #: ../../source/unknown-unnamed-units.rst:33 ../../source/unknown-unnamed-units.rst:33
