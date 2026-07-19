@@ -15,7 +15,7 @@ msgstr ""
 
 #: units-positionings.rst:1
 msgid "Positioning"
-msgstr ""
+msgstr "Posición"
 
 #: units-positionings.rst:4
 msgid "The :ref:`positioning` claim describes the geographic footprint of a specific unit. This includes the ``site`` or base of a unit, as well as the areas of operation (``aoo``) of a :ref:`unit`."
