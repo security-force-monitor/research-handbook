@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:26 ../../source/how-dates-work.rst:26
 msgid "**posting**"
-msgstr ""
+msgstr "**직책**"
 
 #: ../../source/how-dates-work.rst:28 ../../source/how-dates-work.rst:28
 msgid "``John Smith`` as part of ``1 Brigade`` has :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``."
@@ -198,4 +198,4 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:102 ../../source/how-dates-work.rst:102
 msgid "Our article :ref:`Establishing Contiguous or Non-Contiguous Claims` provides extended guidance to help researchers decisions about whether a timeline is continuous or not."
-msgstr ""
+msgstr "저희 논문 :ref:`Establishing Contiguous or Non-Contiguous Claims` 는 연구자들이 타임라인의 연속성 여부를 판단하는 데 도움이 되는 상세한 지침을 제공합니다."
