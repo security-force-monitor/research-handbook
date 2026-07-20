@@ -94,7 +94,7 @@ msgstr "톰 롱리(Tom Longley), 미셸 만주르(Michel Manzur), 니코 파라(
 
 #: ../../source/index.rst:101 ../../source/index.rst:101
 msgid "`Niko Para <https://niko.io/>`_ was instrumental in updating how time/dates are captured in the Linkage data model to include precise and imprecise dates. He also was pivotal in updating the model to be a full claims based data model."
-msgstr "`Niko Para(https://niko.io/>`__ 는 Linkage 데이터 모델에서 시간 및 날짜를 ​​기록하는 방식을 업데이트하여 정확한 날짜와 불확정적 날짜를 모두 포함할 수 있도록 하는 데 중요한 역할을 했습니다. 또한 그는 해당 모델을 완전한 청구(claims) 기반 데이터 모델로 개편하는 데에도 핵심적인 기여를 했습니다."
+msgstr "`Niko Para <https://niko.io/>`__ 는 Linkage 데이터 모델에서 시간 및 날짜를 ​​기록하는 방식을 업데이트하여 정확한 날짜와 불확정적 날짜를 모두 포함할 수 있도록 하는 데 중요한 역할을 했습니다. 또한 그는 해당 모델을 완전한 청구(claims) 기반 데이터 모델로 개편하는 데에도 핵심적인 기여를 했습니다."
 
 #: ../../source/index.rst:103 ../../source/index.rst:103
 msgid "Security Force Monitor previously partnered with `DataMade <https://datamade.us>`__ to create WhoWasInCommand.com. DataMade helped operationalize and refine our previous data model, worked with us to create a powerful open source platform to put the data online, and made a significant contribution to the concept and design of WhoWasInCommand.com."
