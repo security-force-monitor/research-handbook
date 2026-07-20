@@ -7,7 +7,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: trainings-specific.rst:1
 msgid "Training"
-msgstr ""
+msgstr "Capacitación"
 
 #: trainings-specific.rst:6
 msgid "Draft documentation. The format described in this documentation is a proposed format which may change with further research and development."
