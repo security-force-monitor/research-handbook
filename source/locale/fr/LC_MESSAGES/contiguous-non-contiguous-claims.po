@@ -29,7 +29,7 @@ msgid "Existence of units"
 msgstr ""
 
 #: ../../source/contiguous-non-contiguous-claims.rst:12 ../../source/contiguous-non-contiguous-claims.rst:12
-msgid "Parent relationships between units"
+msgid "Relationships between units"
 msgstr ""
 
 #: ../../source/contiguous-non-contiguous-claims.rst:13 ../../source/contiguous-non-contiguous-claims.rst:13
