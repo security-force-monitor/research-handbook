@@ -49,7 +49,7 @@ msgid "Table of Contents"
 msgstr "Зміст"
 
 #: ../../source/index.rst:25 ../../source/index.rst:25
-msgid "Our approach"
+msgid "Our methodology"
 msgstr "Наш підхід"
 
 #: ../../source/index.rst:38 ../../source/index.rst:38
