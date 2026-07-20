@@ -54,31 +54,31 @@ msgstr "Nuestra metodología"
 
 #: ../../source/index.rst:38 ../../source/index.rst:38
 msgid "Sources and citations"
-msgstr ""
+msgstr "Fuentes y citas"
 
 #: ../../source/index.rst:47 ../../source/index.rst:47
 msgid "Locations"
-msgstr ""
+msgstr "Ubicaciones"
 
 #: ../../source/index.rst:54 ../../source/index.rst:54
 msgid "Units"
-msgstr ""
+msgstr "Unidades"
 
 #: ../../source/index.rst:63 ../../source/index.rst:63
 msgid "Persons"
-msgstr ""
+msgstr "Personas"
 
 #: ../../source/index.rst:71 ../../source/index.rst:71
 msgid "Incidents"
-msgstr ""
+msgstr "Incidentes"
 
 #: ../../source/index.rst:78 ../../source/index.rst:78
 msgid "Trainings (Draft)"
-msgstr ""
+msgstr "Capacitaciones (Borrador)"
 
 #: ../../source/index.rst:85 ../../source/index.rst:85
 msgid "Materiel (Draft)"
-msgstr ""
+msgstr "Materiales (Borrador)"
 
 #: ../../source/index.rst:94 ../../source/index.rst:94
 msgid "Contributors"
