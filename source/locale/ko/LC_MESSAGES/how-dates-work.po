@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:34 ../../source/how-dates-work.rst:34
 msgid "Example"
-msgstr ""
+msgstr "예"
 
 #: ../../source/how-dates-work.rst:36 ../../source/how-dates-work.rst:36
 msgid "A citation published on 2023-11-05 states "Xavier Johnson, commander of the 9 Battalion, discussed recent operations with reporters today. Since Johnson became commander on November 1st there have been a steady tempo of operations throughout Southern District." This citation would evidence the following claims:"
@@ -90,7 +90,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:42 ../../source/how-dates-work.rst:42
 msgid "**positioning**"
-msgstr ""
+msgstr "**위치**"
 
 #: ../../source/how-dates-work.rst:44 ../../source/how-dates-work.rst:44
 msgid "``9 Battalion`` in ``Southern District`` with :ref:`positioning:types:assertion` of ``aoo`` would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:50 ../../source/how-dates-work.rst:50
 msgid "**posting**"
-msgstr ""
+msgstr "**직책**"
 
 #: ../../source/how-dates-work.rst:52 ../../source/how-dates-work.rst:52
 msgid "``Xavier Johnson`` as part of ``9 Battalion`` with :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2023-11-011`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``."
@@ -126,7 +126,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:63 ../../source/how-dates-work.rst:63
 msgid "Example"
-msgstr ""
+msgstr "예"
 
 #: ../../source/how-dates-work.rst:65 ../../source/how-dates-work.rst:65
 msgid "A citation published on 2024-03-24 states "The 15 Regiment quickly responded to the attack on February 15th, conducting operations in several nearby areas, including Western, Upper, Lower and Central-South Governorates." The precise dates when the regiment was conducting these operations in any of the governorates is not clearly stated, however, we can establish an imprecise range for all of these positionings. For all of these positionings the ``first_imprecise:range`` would be ``2024-02-15`` and ``last_imprecise:range`` would be ``2024-03-24`` (the date of publication of the citation)."
@@ -142,7 +142,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:71 ../../source/how-dates-work.rst:71
 msgid "Example"
-msgstr ""
+msgstr "예"
 
 #: ../../source/how-dates-work.rst:73 ../../source/how-dates-work.rst:73
 msgid "A citation states that John Smith was appointed commander of the 1 Brigade on 2014-08-01. The citation also states that "John Smith previously commanded the 8 Battalion.""
@@ -162,7 +162,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:83 ../../source/how-dates-work.rst:83
 msgid "Example"
-msgstr ""
+msgstr "예"
 
 #: ../../source/how-dates-work.rst:85 ../../source/how-dates-work.rst:85
 msgid "A citation published on 2005-06-03 states: "Steven Wendell met with local officials at the 165 Battalion's headquarters today. Wendell, who was appointed as battalion commander last month, addressed concerns about security for the coming election season.""
@@ -186,7 +186,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:95 ../../source/how-dates-work.rst:95
 msgid "**posting**"
-msgstr ""
+msgstr "**직책**"
 
 #: ../../source/how-dates-work.rst:97 ../../source/how-dates-work.rst:97
 msgid "``Xavier Johnson`` as part of ``9 Battalion`` with :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` would have a value of ``Y`` and ``ending:range`` a value of ``N``."
