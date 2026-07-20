@@ -29,8 +29,8 @@ msgid "Existence of units"
 msgstr "Наявність підрозділів"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:12 ../../source/contiguous-non-contiguous-claims.rst:12
-msgid "Parent relationships between units"
-msgstr "Батьківські зв'язки між одиницями"
+msgid "Relationships between units"
+msgstr "Зв'язки між одиницями"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:13 ../../source/contiguous-non-contiguous-claims.rst:13
 msgid "Location of units"
