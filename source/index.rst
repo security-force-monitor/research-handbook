@@ -22,7 +22,7 @@ Table of Contents
 
 
 .. toctree::
-   :caption: Our approach
+   :caption: Our Methodology
    :maxdepth: 2
    
    our-general-data-model
