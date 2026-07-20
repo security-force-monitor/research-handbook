@@ -48,6 +48,10 @@ msgstr "`Puede encontrar más información sobre Monitor de Fuerzas de Seguridad
 msgid "Table of Contents"
 msgstr "Tabla de contenido"
 
+#: ../../source/index.rst:25 ../../source/index.rst:25
+msgid "Our methodology"
+msgstr "Nuestra metodología"
+
 #: ../../source/index.rst:94 ../../source/index.rst:94
 msgid "Contributors"
 msgstr "Colaboradores"
