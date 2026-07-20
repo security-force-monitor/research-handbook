@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:32 ../../source/how-dates-work.rst:32
 msgid "The date of publication of the citation is always an important consideration when establishing date ranges for claims."
-msgstr ""
+msgstr "청구항의 날짜 범위를 설정할 때 인용 문헌의 발행일은 항상 중요한 고려 사항입니다."
 
 #: ../../source/how-dates-work.rst:34 ../../source/how-dates-work.rst:34
 msgid "Example"
