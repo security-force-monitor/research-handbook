@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-17 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Google Translate\n"
+"Language-Team: Google Translate\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: locations-specific.rst:1
 msgid "Location"
-msgstr ""
+msgstr "Ubicación"
 
 #: locations-specific.rst:4
 msgid "Locations are unique places or positions. A named town or city can be a Location, as can an administrative area like a county, district or governorate. In fact, anything that can be drawn on a map can be a Location: a specific point, a section of a road, a military line of control, and so on."
