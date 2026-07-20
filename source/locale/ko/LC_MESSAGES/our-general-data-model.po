@@ -18,7 +18,7 @@ msgstr "당사의 일반 데이터 모델"
 
 #: ../../source/our-general-data-model.rst:4 ../../source/our-general-data-model.rst:4
 msgid "Security Force Monitor investigates the conduct of security and defense forces around the world. We reconstruct their organizational structure, command personnel and chain of command, geographic footprint, and allegations of their involvement in committing human rights violations and violations of international criminal law. Further, we research the training and assistance that security and defense units have received from external security actors like the United States of America, the European Union, the United Nations, and through bilateral agreements with other states. All our information is drawn from publicly available sources, nearly all of which are online."
-msgstr ""
+msgstr "'Security Force Monitor'는 전 세계 보안 및 국방 병력의 활동을 조사합니다. 우리는 이들의 조직 구조, 지휘관 및 지휘 계통, 활동 지역을 파악하고, 인권 침해나 국제형사법 위반 행위에 연루되었다는 의혹을 추적합니다. 또한, 미국, 유럽연합(EU), 유엔(UN)과 같은 외부 주체나 타국과의 양자 간 협정을 통해 해당 보안 및 국방 부대가 제공받은 훈련 및 지원 내역도 조사합니다. 우리가 활용하는 모든 정보는 공개된 출처(대부분 온라인 자료)에 기반합니다."
 
 #: ../../source/our-general-data-model.rst:6 ../../source/our-general-data-model.rst:6
 msgid ".. figure:: _static/en/en_link_chain_data_model_0.5.png"
@@ -26,40 +26,40 @@ msgstr ".. figure:: _static/ko/ko_link_chain_data_model_0.5.png"
 
 #: ../../source/our-general-data-model.rst:10 ../../source/our-general-data-model.rst:10
 msgid "Chart from the Security Force Monitor Research Handbook that describes the Monitor's general data model, including the main entities it collects information about."
-msgstr ""
+msgstr "'Security Force Monitor' 연구 핸드북에 수록된 도표로, 모니터(Monitor)가 정보를 수집하는 주요 개체를 포함한 일반 데이터 모델을 설명합니다."
 
 #: ../../source/our-general-data-model.rst:17 ../../source/our-general-data-model.rst:17
 msgid "We use the general data model described in the above illustration to structure and organize the information we collect during the course of our research. It describes relationships between different "claims", which are logical groupings of data about a specific subject. For example, the "positioning" claim is where we store data about the geographic footprint of a unit, or the link between a unit and a location in time; cumulatively, all of the "positioning" claims describe the geographic presence of security forces across an entire country through time. "
-msgstr ""
+msgstr "우리는 연구 과정에서 수집한 정보를 구조화하고 정리하기 위해 위 그림에 제시된 일반 데이터 모델을 사용합니다. 이 모델은 특정 주제에 관한 데이터의 논리적 집합인 다양한 '주장(claims)' 간의 관계를 기술합니다. 예를 들어, '위치(positioning)' 주장은 특정 부대의 지리적 범위나 해당 부대와 특정 시점의 위치 간의 연관성에 관한 데이터를 저장하는 항목입니다. 이러한 모든 '위치' 주장을 종합하면, 시간의 흐름에 따른 국가 전역에서의 보안군 지리적 주둔 현황을 파악할 수 있습니다."
 
 #: ../../source/our-general-data-model.rst:19 ../../source/our-general-data-model.rst:19
 msgid "Other sections of this Research Handbook expand on each of the claims and the relationships between these claims, including:"
-msgstr ""
+msgstr "본 연구 핸드북의 다른 섹션에서는 각 주장과 그 주장들 간의 관계를 다음과 같이 상세히 다룹니다:"
 
 #: ../../source/our-general-data-model.rst:21 ../../source/our-general-data-model.rst:21
 msgid "A full description of each claim type;"
-msgstr ""
+msgstr "각 청구 유형에 대한 상세 설명;"
 
 #: ../../source/our-general-data-model.rst:22 ../../source/our-general-data-model.rst:22
 msgid "The overall data structure and attributes we use for each claim type;"
-msgstr ""
+msgstr "각 청구 유형별로 사용하는 전반적인 데이터 구조 및 속성;"
 
 #: ../../source/our-general-data-model.rst:23 ../../source/our-general-data-model.rst:23
 msgid "Examples on the types of data we enter into each attribute; and,"
-msgstr ""
+msgstr "각 속성에 입력하는 데이터 유형의 예시와,"
 
 #: ../../source/our-general-data-model.rst:24 ../../source/our-general-data-model.rst:24
 msgid "Guidance on how we fill out each field and why."
-msgstr ""
+msgstr "각 항목을 작성하는 방법과 그 이유에 대한 안내입니다."
 
 #: ../../source/our-general-data-model.rst:26 ../../source/our-general-data-model.rst:26
 msgid "The diagram above also highlights the special place that "citations" and "claims" hold in our research approach. Security Force Monitor uses a claim-based approach to the creation of data. A claim is an assertion of information evidenced by a citation from a source. Throughout our work, all specific pieces of information about any claim are kept together with the specific citation(s) from which they were drawn."
-msgstr ""
+msgstr "위의 도표는 또한 우리의 연구 방식에서 '인용(citation)'과 '주장(claim)'이 차지하는 특별한 위치를 보여줍니다. '시큐리티 포스 모니터(Security Force Monitor)'는 데이터 구축에 있어 '주장 기반(claim-based)' 접근 방식을 취하고 있습니다. 여기서 '주장'이란 출처의 인용을 통해 그 근거가 뒷받침되는 정보의 진술을 의미합니다. 연구 과정 전반에 걸쳐, 특정 주장에 관한 모든 세부 정보는 해당 정보의 출처가 된 구체적인 인용 내용과 함께 관리됩니다."
 
 #: ../../source/our-general-data-model.rst:28 ../../source/our-general-data-model.rst:28
 msgid "This approach enables complete transparency about the origins of data, and is a powerful data integrity measure. All the data that comprise each record about each claim type are drawn from an aggregation of claims."
-msgstr ""
+msgstr "이러한 접근 방식은 데이터의 출처에 대한 완전한 투명성을 보장하며, 강력한 데이터 무결성 조치로서 기능합니다. 각 청구 유형에 관한 개별 레코드를 구성하는 모든 데이터는 청구 데이터의 집합에서 도출됩니다."
 
 #: ../../source/our-general-data-model.rst:30 ../../source/our-general-data-model.rst:30
 msgid "Finally, the general data model guides the construction of the tools and technologies we have built to capture, store and analyze data."
-msgstr ""
+msgstr "마지막으로, 일반 데이터 모델은 데이터를 수집, 저장 및 분석하기 위해 우리가 구축한 도구와 기술을 개발하는 데 있어 지침이 됩니다."
