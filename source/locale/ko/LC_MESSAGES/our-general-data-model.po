@@ -21,8 +21,8 @@ msgid "Security Force Monitor investigates the conduct of security and defense f
 msgstr "'Security Force Monitor'는 전 세계 보안 및 국방 병력의 활동을 조사합니다. 우리는 이들의 조직 구조, 지휘관 및 지휘 계통, 활동 지역을 파악하고, 인권 침해나 국제형사법 위반 행위에 연루되었다는 의혹을 추적합니다. 또한, 미국, 유럽연합(EU), 유엔(UN)과 같은 외부 주체나 타국과의 양자 간 협정을 통해 해당 보안 및 국방 부대가 제공받은 훈련 및 지원 내역도 조사합니다. 우리가 활용하는 모든 정보는 공개된 출처(대부분 온라인 자료)에 기반합니다."
 
 #: ../../source/our-general-data-model.rst:6 ../../source/our-general-data-model.rst:6
-msgid ".. figure:: _static/en/en_link_chain_data_model_0.5.png"
-msgstr ".. figure:: _static/ko/ko_link_chain_data_model_0.5.png"
+msgid "_static/en/en_link_chain_data_model_0.5.png"
+msgstr "_static/ko/ko_link_chain_data_model_0.5.png"
 
 #: ../../source/our-general-data-model.rst:10 ../../source/our-general-data-model.rst:10
 msgid "Chart from the Security Force Monitor Research Handbook that describes the Monitor's general data model, including the main entities it collects information about."
