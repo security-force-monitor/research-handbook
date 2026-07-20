@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/source-source-specific.rst:1 ../../source/source-source-specific.rst:1
 msgid "Source"
-msgstr ""
+msgstr "Fuente"
 
 #: ../../source/source-source-specific.rst:4 ../../source/source-source-specific.rst:4
 msgid "Sources are the raw material of Security Force Monitor's research. They are publicly available, mostly digital, documents and other media that contain information that makes claims about security forces. Specific parts of a source, like page or paragraph numbers, are cited as a required part of every claim type."
