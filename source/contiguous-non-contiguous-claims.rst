@@ -9,7 +9,7 @@ Establishing Contiguous or Non-Contiguous Claims
 Answering the question “who was where when?” is central for investigations into allegations of human rights abuse(s). Because of this perhaps one of the most defining, and complicating, features of the Security Force Monitor’s data is that almost everything we research is connected to time including:
 
 -  Existence of units
--  Parent relationships between units
+-  Relationships between units
 -  Location of units
 -  Areas of operation for units
 -  Membership/participation of units of in multi-unit operations
