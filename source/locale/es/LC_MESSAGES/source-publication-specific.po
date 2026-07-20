@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/source-publication-specific.rst:1 ../../source/source-publication-specific.rst:1
 msgid "Publication"
-msgstr ""
+msgstr "Publicación"
 
 #: ../../source/source-publication-specific.rst:4 ../../source/source-publication-specific.rst:4
 msgid "Publications are the organizations, individuals or accounts that publish sources. Typical records in this entity type include security forces themselves, media organizations, non-governmental organizations, government agencies, and social media accounts. We record these distinctly from a :ref:`source` or :ref:`citation`, rather than simply as values within those types of record."
@@ -37,15 +37,15 @@ msgid " - Attribute label: a human readable label for the attribute"
 msgstr ""
 
 #: ../../source/source-publication-specific.rst:14 ../../source/source-publication-specific.rst:14
-msgid " - Status: whether the attribute is optional or required in a record"
+msgid "Status: whether the attribute is optional or required in a record"
 msgstr ""
 
 #: ../../source/source-publication-specific.rst:15 ../../source/source-publication-specific.rst:15
-msgid " - Data type: the sort of data that can be entered into the attribute"
+msgid "Data type: the sort of data that can be entered into the attribute"
 msgstr ""
 
 #: ../../source/source-publication-specific.rst:16 ../../source/source-publication-specific.rst:16
-msgid " - Key name: a standardized name that simplifies attribute use in SFM databases"
+msgid "Key name: a standardized name that simplifies attribute use in SFM databases"
 msgstr ""
 
 #: ../../source/source-publication-specific.rst:19 ../../source/source-publication-specific.rst:19
