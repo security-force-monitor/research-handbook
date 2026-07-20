@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/source-publication-specific.rst:1 ../../source/source-publication-specific.rst:1
 msgid "Publication"
-msgstr ""
+msgstr "출판물"
 
 #: ../../source/source-publication-specific.rst:4 ../../source/source-publication-specific.rst:4
 msgid "Publications are the organizations, individuals or accounts that publish sources. Typical records in this entity type include security forces themselves, media organizations, non-governmental organizations, government agencies, and social media accounts. We record these distinctly from a :ref:`source` or :ref:`citation`, rather than simply as values within those types of record."
