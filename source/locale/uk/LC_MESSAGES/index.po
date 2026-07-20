@@ -50,7 +50,7 @@ msgstr "Зміст"
 
 #: ../../source/index.rst:25 ../../source/index.rst:25
 msgid "Our methodology"
-msgstr "Наш підхід"
+msgstr "Наша методологія"
 
 #: ../../source/index.rst:38 ../../source/index.rst:38
 msgid "Sources and citations"
