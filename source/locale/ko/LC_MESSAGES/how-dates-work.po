@@ -46,7 +46,7 @@ msgstr "**부대**"
 
 #: ../../source/how-dates-work.rst:20 ../../source/how-dates-work.rst:20
 msgid "``1 Brigade`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
-msgstr "``제1여단`` (:ref:`name:annotation <unit-name-annotation>` 및 :ref:`unit:names:assertion` 항목)의 경우, ``first_precise:range`` ``2014-08-01`` 및 ``2014-08-01``의 ``last_precise:range``와, ``N``의 ``starting:range`` 및 ``N``의 ``ending:range``."
+msgstr "``제1여단`` (:ref:`name:annotation <unit-name-annotation>` 및 :ref:`unit:names:assertion` 항목)의 경우, ``first_precise:range`` ``2014-08-01`` 및 ``2014-08-01`` 의 ``last_precise:range`` 와, ``N`` 의 ``starting:range`` 및 ``N`` 의 ``ending:range``."
 
 #: ../../source/how-dates-work.rst:22 ../../source/how-dates-work.rst:22
 msgid "**person**"
