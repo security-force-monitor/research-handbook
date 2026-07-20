@@ -14,23 +14,23 @@ msgstr ""
 
 #: ../../source/contiguous-non-contiguous-claims.rst:1 ../../source/contiguous-non-contiguous-claims.rst:1
 msgid "Establishing Contiguous or Non-Contiguous Claims"
-msgstr ""
+msgstr "연속 또는 비연속 광구 설정"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:6 ../../source/contiguous-non-contiguous-claims.rst:6
 msgid "To learn more about the fundamentals of dates and timelines in Security Force Monitor's approach read :ref:`How Dates Work` first."
-msgstr ""
+msgstr "Security Force Monitor의 접근 방식에서 날짜와 타임라인의 기본 원리에 대해 자세히 알아보려면, 먼저 :ref:`How Dates Work` 를 읽어보세요."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:9 ../../source/contiguous-non-contiguous-claims.rst:9
 msgid "Answering the question “who was where when?” is central for investigations into allegations of human rights abuse(s). Because of this perhaps one of the most defining, and complicating, features of the Security Force Monitor’s data is that almost everything we research is connected to time including:"
-msgstr ""
+msgstr ""누가, 언제, 어디에 있었는가?"라는 질문에 답하는 것은 인권 침해 의혹을 조사하는 데 있어 핵심적인 요소입니다. 아마도 이러한 점 때문에 '시큐리티 포스 모니터(Security Force Monitor)' 데이터의 가장 결정적이면서도 복잡한 특징 중 하나는, 우리가 조사하는 거의 모든 내용이 다음과 같이 시간과 연관되어 있다는 것입니다:"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:11 ../../source/contiguous-non-contiguous-claims.rst:11
 msgid "Existence of units"
-msgstr ""
+msgstr "단위의 존재"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:12 ../../source/contiguous-non-contiguous-claims.rst:12
-msgid "Parent relationships between units"
-msgstr ""
+msgid "Relationships between units"
+msgstr "단위 간의 관계"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:13 ../../source/contiguous-non-contiguous-claims.rst:13
 msgid "Location of units"
