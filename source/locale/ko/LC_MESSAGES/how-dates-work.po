@@ -38,11 +38,11 @@ msgstr "예"
 
 #: ../../source/how-dates-work.rst:16 ../../source/how-dates-work.rst:16
 msgid "A citation states "John Smith was appointed commander of the 1 Brigade on 2014-08-01." To structure this sentence into data we'd pull out multiple claims:"
-msgstr ""
+msgstr "어떤 인용문이 "존 스미스(John Smith)는 2014년 8월 1일 제1여단장으로 임명되었다"라고 명시하고 있다면, 이 문장을 데이터로 구조화하기 위해 다음과 같이 여러 개의 주장(claim)을 추출해낼 수 있습니다."
 
 #: ../../source/how-dates-work.rst:18 ../../source/how-dates-work.rst:18
 msgid "**unit**"
-msgstr ""
+msgstr "**부대**"
 
 #: ../../source/how-dates-work.rst:20 ../../source/how-dates-work.rst:20
 msgid "``1 Brigade`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:38 ../../source/how-dates-work.rst:38
 msgid "**unit**"
-msgstr ""
+msgstr "**부대**"
 
 #: ../../source/how-dates-work.rst:40 ../../source/how-dates-work.rst:40
 msgid "``9 Battalion`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2023-11-01`` and ``last_precise:range`` of ``2023-11-05``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
@@ -170,7 +170,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:87 ../../source/how-dates-work.rst:87
 msgid "**unit**"
-msgstr ""
+msgstr "**부대**"
 
 #: ../../source/how-dates-work.rst:89 ../../source/how-dates-work.rst:89
 msgid "``165 Battalion`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``."
