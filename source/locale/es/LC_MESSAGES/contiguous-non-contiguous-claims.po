@@ -29,8 +29,8 @@ msgid "Existence of units"
 msgstr "Existencia de unidades"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:12 ../../source/contiguous-non-contiguous-claims.rst:12
-msgid "Parent relationships between units"
-msgstr "Relaciones de jerarquía entre unidades"
+msgid "Relationships between units"
+msgstr "Relaciones entre unidades"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:13 ../../source/contiguous-non-contiguous-claims.rst:13
 msgid "Location of units"
