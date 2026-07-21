@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Security Force Monitor Handbook\n"
 "X-Source-File: trainings-overview.rst\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: info@securityforcemonitor.org\n"
 "POT-Creation-Date: 2026-07-17 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Google Translate\n"
+"Language-Team: Google Translate\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,21 +15,21 @@ msgstr ""
 
 #: trainings-overview.rst:1
 msgid "Overview: Trainings (Draft)"
-msgstr ""
+msgstr "Descripción general: Capacitaciones (Borrador)"
 
 #: trainings-overview.rst:6
 msgid "Training is a claim format currently in development. The data structure described in this documentation is a proposed format which may change with further research and development."
-msgstr ""
+msgstr "Capacitación es un formato de declaración actualmente en fase de desarrollo. La estructura de datos descrita en esta documentación es una propuesta de formato que podría modificarse a medida que avancen la investigación y el desarrollo."
 
 #: trainings-overview.rst:9
 msgid "Trainings are events where the security forces of one country are trained by another country (domestic training activities are not a focus of research currently). The focus of the trainings may be on law and policy, weapons usage, technical skills, or other sorts of training. The number of trainees may range from a single person to hundreds of personnel."
-msgstr ""
+msgstr "Las actividades de capacitación son eventos en los que las fuerzas de seguridad de un país reciben instrucción por parte de otro país (las actividades de capacitación internas no son objeto de investigación en este momento). El enfoque de dicha capacitación puede centrarse en aspectos jurídicos y normativos, el uso de armamento, habilidades técnicas u otros tipos de instrucción. El número de participantes puede variar desde una sola persona hasta cientos de efectivos."
 
 #: trainings-overview.rst:11
 msgid "Data about trainings are captured in single claim type (this may increase with additional development):"
-msgstr ""
+msgstr "Los datos sobre las capacitaciones se registran en un único tipo de declaración (esto podría aumentar con desarrollos adicionales):"
 
 #: trainings-overview.rst:13
 msgid ":ref:`training`: this claim type records basic information about a training event including its location, the trainer and trainee units, the cost of the training and the dates it occurred."
-msgstr ""
+msgstr ":ref:`training`: este tipo de declaración almacena información básica sobre una actividad de formación, incluyendo su ubicación, las unidades del instructor y de los participantes, el coste de la formación y las fechas en que se llevó a cabo."
 
