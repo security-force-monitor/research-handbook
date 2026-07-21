@@ -178,24 +178,24 @@ msgstr "Diversas referencias establecen que los comandos militares regionales de
 
 #: ../../source/contiguous-non-contiguous-claims.rst:85 ../../source/contiguous-non-contiguous-claims.rst:85
 msgid "Postings"
-msgstr ""
+msgstr "Puestos"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:88 ../../source/contiguous-non-contiguous-claims.rst:88
 msgid "Every claim has a Universally Unique Identifier (UUID) to distinguish it from any other claim. For a :ref:`posting` this UUID distinguishes them from any other :ref:`posting` in the dataset. This allows a person to have contiguous or non-contiguous :ref:`posting` with the same :ref:`unit`."
-msgstr ""
+msgstr "Cada declaración cuenta con un identificador único universal (UUID) que la distingue de cualquier otra declaración. En el caso de una :ref:`posting`, este UUID la diferencia de cualquier otra :ref:`posting` dentro del conjunto de datos. Esto permite que una persona tenga :ref:`posting` —ya sean contiguas o no— asociadas a la misma :ref:`unit`."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:90 ../../source/contiguous-non-contiguous-claims.rst:90
 msgid "For each :ref:`person` their :ref:`posting` is always treated as contiguous, meaning it has the same UUID, unless citations establish it is non-contiguous."
-msgstr ""
+msgstr "Para cada :ref:`person`, su :ref:`posting` se trata siempre como contigua —es decir, conserva el mismo UUID—, a menos que las citas establezcan que no es contigua."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:94 ../../source/contiguous-non-contiguous-claims.rst:94
 msgid "Citations establish that on ``2010-08-27`` ``Hla Min`` stopped being commander of the ``Southern Regional Military Command`` and became commander of the ``3 Bureau of Special Operations``. One citation also evidences his being commander of the ``3 Bureau of Special Operations`` on ``2011-07-05`` and another citation states he retired as commander of the ``3 Bureau of Special Operations`` on ``2015-08-10``. All three of these claims are treated as evidencing the same :ref:`posting`. In contrast, the ``2011-07-05`` citation also establishes that ``Hla Min`` once again became commander of the ``Southern Regional Military Command`` on a temporary basis as its commander was removed. This :ref:`posting` as commander of the ``Southern Regional Military Command`` is treated as a separate :ref:`posting` with a different UUID as the previous :ref:`posting` held on ``2010-08-27``."
-msgstr ""
+msgstr "Las citas establecen que, el ``2010-08-27``, ``Hla Min`` dejó de ser comandante del ``Mando Militar Regional del Sur`` y pasó a ser comandante de la ``3 Oficina de Operaciones Especiales``. Una cita también acredita que fue comandante de la ``3 Oficina de Operaciones Especiales`` el ``2011-07-05``, y otra indica que se retiró como comandante de la ``3 Oficina de Operaciones Especiales`` el ``2015-08-10``. Estas tres declaraciones se consideran pruebas de la misma :ref:`posting`. Por el contrario, la cita del ``2011-07-05`` también establece que ``Hla Min`` volvió a asumir el mando del ``Mando Militar Regional del Sur`` con carácter provisional, debido a la destitución de su comandante titular. Este :ref:`posting` al frente del ``Mando Militar Regional del Sur`` se considera un :ref:`posting` independiente —con un UUID distinto— del :ref:`posting` anterior iniciado el ``2010-08-27``."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:96 ../../source/contiguous-non-contiguous-claims.rst:96
 msgid "Determining whether one person held multiple postings is based on some match of postings among different citations."
-msgstr ""
+msgstr "Determinar si una misma persona ocupó múltiplo puestos se basa en la coincidencia de dichos cargos entre diferentes citas."
 
 #: ../../source/contiguous-non-contiguous-claims.rst:100 ../../source/contiguous-non-contiguous-claims.rst:100
 msgid "If citation stated ``John Alfred Smith`` was commander of ``Police Station 1`` and another citation stated ``J. Smith`` was commander of ``Police Station 3`` there would be no match and these should be coded as two separate people each with their own :ref:`about_entity:ref:claim <person-about-entity>`. If a third citation stated that during the career of ``John Smith`` he was commander of ``Police Station 1``, ``Police station 15`` and ``Police Station 3`` then all of these would be treated as the same person given the match of at least one :ref:`posting` across all citations and the similar names of the person in each citation."
-msgstr ""
+msgstr "Si una cita indicara que ``John Alfred Smith`` fue comandante de la ``Comisaría 1`` y otra señalara que ``J. Smith`` fue comandante de la ``Comisaría 3``, no habría coincidencia y ambos casos deberían codificarse como dos personas distintas, cada una con su propia :ref:`about_entity:ref:claim <person-about-entity>`. Si una tercera cita indicara que, a lo largo de su carrera, ``John Smith`` fue comandante de la ``Comisaría 1``, la ``Comisaría 15`` y la ``Comisaría 3``, entonces todos estos casos se tratarían como la misma persona, dada la coincidencia de al menos un :ref:`posting` en todas las citas y la similitud de los nombres de la persona en cada una de ellas."
