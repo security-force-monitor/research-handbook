@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/our-general-data-model.rst:1 ../../source/our-general-data-model.rst:1
 msgid "Our general data model"
-msgstr ""
+msgstr "Nosso modelo de dados geral"
 
 #: ../../source/our-general-data-model.rst:4 ../../source/our-general-data-model.rst:4
 msgid "Security Force Monitor investigates the conduct of security and defense forces around the world. We reconstruct their organizational structure, command personnel and chain of command, geographic footprint, and allegations of their involvement in committing human rights violations and violations of international criminal law. Further, we research the training and assistance that security and defense units have received from external security actors like the United States of America, the European Union, the United Nations, and through bilateral agreements with other states. All our information is drawn from publicly available sources, nearly all of which are online."
