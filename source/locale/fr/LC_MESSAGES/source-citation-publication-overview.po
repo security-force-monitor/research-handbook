@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/source-citation-publication-overview.rst:1 ../../source/source-citation-publication-overview.rst:1
 msgid "Overview: Sources, Citations and Publications"
-msgstr ""
+msgstr "Vue d'ensemble : sources, citations et publications"
 
 #: ../../source/source-citation-publication-overview.rst:4 ../../source/source-citation-publication-overview.rst:4
 msgid "Where does Information Come From?"
