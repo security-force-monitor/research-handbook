@@ -19,15 +19,15 @@ msgstr "Puesto"
 
 #: persons-postings.rst:4
 msgid "The :ref:`posting` claim type holds information about a person's career. It first defines a relationships between a :ref:`person` and a :ref:`unit`, and can be used to further describe the role the person has in the unit (\"Commander\", \"Chief of Staff\", etc.), the rank they hold at the time of the posting, and any title they may hold at the time of a posting. Usually, a :ref:`person` has a single :ref:`posting` at any one time. However, there are cases where one :ref:`person` holds more than one :ref:posting` simultaneously."
-msgstr "El tipo de declaración :ref:`puesto` contiene información sobre la trayectoria profesional de una persona. En primer lugar, establece una relación entre una :ref:`persona` y una :ref:`unidad`, y permite describir con mayor detalle el rol que la persona desempeña en dicha unidad (``Comandante``, ``Jefe de Estado Mayor``, etc.), el rango que ostenta en el momento de la asignación y cualquier título que posea durante la misma. Por lo general, una :ref:`persona` tiene un único :ref:`puesto` en un momento dado; no obstante, existen casos en los que una misma :ref:`persona` ocupa más de un :ref:`puesto` de forma simultánea."
+msgstr ""
 
 #: persons-postings.rst:6
 msgid "In rare instances a :ref:`person` holding multiple postings simultaneously may technically be their own superior (or conversely their own subordinate). This means they hold one :ref:`posting` in a :ref:`unit` which has a :ref:`relation` with a :ref:`relation:related_unit_classes:assertion` of ``command`` to another :ref:`unit` that the :ref:`person` also has a :ref:`posting`. For example a president of a country may also serve as the minister of defense which is subordinate to the president, technically making them their own superior (or subordinate)."
-msgstr "En casos excepcionales, una :ref:`persona` que ocupa varios cargos simultáneamente puede ser, técnicamente, su propio superior (o, a la inversa, su propio subordinado). Esto significa que ocupa un :ref:`puesto ` en una :ref:`unidad` que mantiene una :ref:`relación` de tipo ``mando`` con otra :ref:`unidad` en la que dicha :ref:`persona` también desempeña un :ref:`puesto`. Por ejemplo, el presidente de un país puede ejercer también como ministro de Defensa —cargo subordinado al del presidente—, convirtiéndose así, técnicamente, en su propio superior (o subordinado)."
+msgstr ""
 
 #: persons-postings.rst:10
 msgid "Posting: Summary of claim attributes"
-msgstr "Puesto: Resumen de los atributos de la reclamación"
+msgstr ""
 
 #: persons-postings.rst:13
 msgid "The table below summarizes the following dimensions of Posting claims:"
