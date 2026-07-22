@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/source-citation-specific.rst:1 ../../source/source-citation-specific.rst:1
 msgid "Citation"
-msgstr ""
+msgstr "Citation"
 
 #: ../../source/source-citation-specific.rst:4 ../../source/source-citation-specific.rst:4
 msgid "A citation directs us to a particular part of a source evidencing the claim, like a citation in an academic paper. This could be material from a specific page in the source; it could also be a specific archive snapshot of a page, as the content of a webpage can sometimes change over time even though its basic identifying data will not. A single source can be cited in multiple ways, and, once created, a citation can be re-used to evidence any number of claims. "
