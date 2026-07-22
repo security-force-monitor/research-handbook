@@ -19,7 +19,7 @@ msgstr "Persona"
 
 #: persons-identity.rst:4
 msgid "The :ref:`person` claim type describes basic identifying information about a :ref:`person`: their name, aliases and associated time ranges with them. Claims of this type are grouped together with :ref:`Posting` (describing postings to different units) which tracks the person's career. There are also several fields in development to capture other aspects about persons."
-msgstr "El tipo de declaración :ref:`persona` describe información básica de identificación sobre una :ref:`persona`: su nombre, alias y los intervalos de tiempo asociados a ellos. Las declaraciones de este tipo se agrupan junto con :ref:`puesto` (que describe las asignaciones a diferentes unidades), lo cual permite realizar un seguimiento de la trayectoria profesional de la persona. Asimismo, hay varios campos en fase de desarrollo para registrar otros aspectos relacionados con las personas."
+msgstr ""
 
 #: persons-identity.rst:6
 msgid "Person: Summary of claim attributes"
