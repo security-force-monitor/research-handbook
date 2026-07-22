@@ -14,11 +14,11 @@ msgstr ""
 
 #: ../../source/index.rst:1 ../../source/index.rst:1
 msgid "Security Force Monitor: Research Handbook"
-msgstr ""
+msgstr "Security Force Monitor : Manuel de recherche"
 
 #: ../../source/index.rst:4 ../../source/index.rst:4
 msgid "About Security Force Monitor"
-msgstr ""
+msgstr "À propos de Security Force Monitor"
 
 #: ../../source/index.rst:7 ../../source/index.rst:7
 msgid "The Security Force Monitor supports activists and NGOs at the frontline of documenting human rights abuses by collecting and analyzing publicly available data to map the structures and hierarchy of security forces that are deliberately shrouded in secrecy and able to commit human rights abuses with impunity."
