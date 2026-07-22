@@ -23,7 +23,7 @@ msgstr ""
 
 #: persons-identity.rst:6
 msgid "Person: Summary of claim attributes"
-msgstr "Persona: Resumen de los atributos de la reclamación"
+msgstr ""
 
 #: persons-identity.rst:9
 msgid "The table below summarizes the following dimensions of :ref:`person` claims:"
