@@ -5,7 +5,7 @@ Creating a vast structured dataset allows us to use the data itself as a cross-r
 
 Cross-referencing is core to our approach because we do not grade one :ref:`publication` as any better than any other :ref:`publication`. In our experience official government sources have referenced non-existent geography, misidentified senior military commanders and contained other errors. This does not make them "low confidence" or "untrustworthy" sources of information, and that same principle applies to every other :ref:`publication` (some of which have also contained similar types of errors).
 
-The Montior's data structure allows for a range of cross-referencing. This could be something simple, such as comparing units or persons to one another, to more complex analysis bringing together multiple types of claims to resolve conflicts. A public note should always accompany any cross-referencing analysis, and the various citations used in that cross-referencing should also be listed in the citation field for the claim. Some examples below show how cross-referencing data can be used to determine when claims are should be coded as ``conflict``.
+The Monitor's data structure allows for a range of cross-referencing. This could be something simple, such as comparing units or persons to one another, to more complex analysis bringing together multiple types of claims to resolve conflicts. A public note should always accompany any cross-referencing analysis, and the various citations used in that cross-referencing should also be listed in the citation field for the claim. Some examples below show how cross-referencing data can be used to determine when claims should be coded as ``conflict``.
 
 .. admonition:: Example: Incorrect Commander
 
