@@ -18,19 +18,19 @@ msgstr "날짜의 작동 방식"
 
 #: ../../source/how-dates-work.rst:4 ../../source/how-dates-work.rst:4
 msgid "Dates are a central focus of the Security Force Monitor's data and methodology. All claims in the Security Force Monitor dataset are time-bound."
-msgstr "날짜는 'Security Force Monitor'의 데이터와 방법론에서 핵심적인 비중을 차지합니다. 'Security Force Monitor' 데이터셋에 포함된 모든 주장은 특정 시점과 결부되어 있습니다."
+msgstr ""
 
 #: ../../source/how-dates-work.rst:6 ../../source/how-dates-work.rst:6
 msgid "We structure all dates into ranges with a first and last date. The first date in the range can be the "start" and the last date can be the "end" of the range. Even a single day, such as May 5, 2025 (or 5 May 2025) would be entered with a first date of 2025-05-05 and a last date of 2025-05-05. All dates should be entered in the YYYY-MM-DD format."
-msgstr "모든 날짜는 시작일과 종료일을 포함하는 범위 형태로 구성됩니다. 범위 내의 첫 번째 날짜는 '시작일'이 되고 마지막 날짜는 '종료일'이 됩니다. 2025년 5월 5일과 같은 단 하루의 경우에도 시작일은 2025-05-05, 종료일은 2025-05-05로 입력해야 합니다. 모든 날짜는 YYYY-MM-DD 형식으로 입력해야 합니다."
+msgstr ""
 
 #: ../../source/how-dates-work.rst:9 ../../source/how-dates-work.rst:9
 msgid "Precise ranges"
-msgstr "정밀 범위"
+msgstr ""
 
 #: ../../source/how-dates-work.rst:12 ../../source/how-dates-work.rst:12
 msgid "For a precise range all of the details of the claim are true for all dates in the range. A single day is a precise range with the first and last dates having the same date entered as a value in both ``first_precise:range`` and ``last_precise:range`` fields."
-msgstr "'정확한 범위(precise range)'란 해당 범위 내의 모든 날짜에 대해 청구(claim)의 모든 세부 사항이 유효한 경우를 의미합니다. 단 하루의 경우, 시작일과 종료일 모두에 동일한 날짜를 입력함으로써 정확한 범위로 설정할 수 있습니다 ``first_precise:range`` 그리고 ``last_precise:range`` 필드들"
+msgstr ""
 
 #: ../../source/how-dates-work.rst:14 ../../source/how-dates-work.rst:14
 msgid "Example"
@@ -38,7 +38,7 @@ msgstr "예"
 
 #: ../../source/how-dates-work.rst:16 ../../source/how-dates-work.rst:16
 msgid "A citation states "John Smith was appointed commander of the 1 Brigade on 2014-08-01." To structure this sentence into data we'd pull out multiple claims:"
-msgstr "어떤 인용문이 "존 스미스(John Smith)는 2014년 8월 1일 제1여단장으로 임명되었다"라고 명시하고 있다면, 이 문장을 데이터로 구조화하기 위해 다음과 같이 여러 개의 주장(claim)을 추출해낼 수 있습니다."
+msgstr ""
 
 #: ../../source/how-dates-work.rst:18 ../../source/how-dates-work.rst:18
 msgid "**unit**"
@@ -46,7 +46,7 @@ msgstr "**부대**"
 
 #: ../../source/how-dates-work.rst:20 ../../source/how-dates-work.rst:20
 msgid "``1 Brigade`` (entry for :ref:`name:annotation <unit-name-annotation>` and :ref:`unit:names:assertion`) would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``N`` and ``ending:range`` of ``N``."
-msgstr "``제1여단`` (:ref:`name:annotation <unit-name-annotation>` 및 :ref:`unit:names:assertion` 항목)의 경우, ``first_precise:range`` ``2014-08-01`` 및 ``2014-08-01`` 의 ``last_precise:range`` 와, ``N`` 의 ``starting:range`` 및 ``N`` 의 ``ending:range``."
+msgstr ""
 
 #: ../../source/how-dates-work.rst:22 ../../source/how-dates-work.rst:22
 msgid "**person**"
@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:32 ../../source/how-dates-work.rst:32
 msgid "The date of publication of the citation is always an important consideration when establishing date ranges for claims."
-msgstr "청구항의 날짜 범위를 설정할 때 인용 문헌의 발행일은 항상 중요한 고려 사항입니다."
+msgstr ""
 
 #: ../../source/how-dates-work.rst:34 ../../source/how-dates-work.rst:34
 msgid "Example"
@@ -198,4 +198,4 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:102 ../../source/how-dates-work.rst:102
 msgid "Our article :ref:`Establishing Contiguous or Non-Contiguous Claims` provides extended guidance to help researchers decisions about whether a timeline is continuous or not."
-msgstr "저희 논문 :ref:`Establishing Contiguous or Non-Contiguous Claims` 는 연구자들이 타임라인의 연속성 여부를 판단하는 데 도움이 되는 상세한 지침을 제공합니다."
+msgstr ""
