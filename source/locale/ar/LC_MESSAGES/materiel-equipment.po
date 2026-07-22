@@ -15,7 +15,7 @@ msgstr ""
 
 #: materiel-equipment.rst:1
 msgid "Equipment"
-msgstr ""
+msgstr "معدات"
 
 #: materiel-equipment.rst:6
 msgid "This is a draft claim field set currently in development. The format described in this documentation is a proposed format which may change with further research and development."
