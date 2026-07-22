@@ -15,7 +15,7 @@ msgstr ""
 
 #: materiel-identity.rst:1
 msgid "Materiel"
-msgstr ""
+msgstr "Material"
 
 #: materiel-identity.rst:6
 msgid "This is a draft claim field set currently in development. The format described in this documentation is a proposed format which may change with further research and development."
