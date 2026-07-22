@@ -15,7 +15,7 @@ msgstr ""
 
 #: materiel-overview.rst:1
 msgid "Overview: Materiel (Draft)"
-msgstr ""
+msgstr "Vue d'ensemble : Matériel (Ébauche)"
 
 #: materiel-overview.rst:6
 msgid "Materiel is a set of interlinked claim fields currently in development. The format described in this documentation is a proposed format which may change with further research and development."
