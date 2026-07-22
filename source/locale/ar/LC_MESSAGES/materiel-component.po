@@ -15,7 +15,7 @@ msgstr ""
 
 #: materiel-component.rst:1
 msgid "Component"
-msgstr ""
+msgstr "مُكَوِّن"
 
 #: materiel-component.rst:6
 msgid "This is a draft claim field set currently in development. The format described in this documentation is a proposed format which may change with further research and development."
@@ -26,7 +26,7 @@ msgid "The :ref:`component` claim type captures how :ref:`materiel` may include 
 msgstr ""
 
 #: materiel-component.rst:11
-msgid "Component: Summary of claim attributes ***********************************"
+msgid "Component: Summary of claim attributes"
 msgstr ""
 
 #: materiel-component.rst:14
@@ -50,7 +50,7 @@ msgid "Key name: a standardized name that simplifies attribute use in SFM databa
 msgstr ""
 
 #: materiel-component.rst:26
-msgid "Component: Details of claim attributes ***********************************"
+msgid "Component: Details of claim attributes"
 msgstr ""
 
 #: materiel-component.rst:29
