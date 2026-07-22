@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/units-overview.rst:1 ../../source/units-overview.rst:1
 msgid "Overview: Units"
-msgstr ""
+msgstr "Vue d'ensemble : Unités"
 
 #: ../../source/units-overview.rst:4 ../../source/units-overview.rst:4
 msgid "What are units?"
