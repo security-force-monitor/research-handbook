@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/index.rst:1 ../../source/index.rst:1
 msgid "Security Force Monitor: Research Handbook"
-msgstr ""
+msgstr "مرصد القوات الأمنية: دليل الأبحاث"
 
 #: ../../source/index.rst:4 ../../source/index.rst:4
 msgid "About Security Force Monitor"
