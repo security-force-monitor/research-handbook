@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/take-on-claims.rst:1 ../../source/take-on-claims.rst:1
 msgid "Superior Units Taking On Positionings and Classifications of Subordinates"
-msgstr ""
+msgstr "الوحدات الأعلى تتولى مهام ومستويات تصنيف الوحدات الأدنى"
 
 #: ../../source/take-on-claims.rst:4 ../../source/take-on-claims.rst:4
 msgid "Any superior :ref:`unit` should have every area of operations (:ref:`positioning` with :ref:`positioning:types:assertion` of ``aoo``) and classification (:ref:`unit:classifications:assertion`) of any subordinate :ref:`unit`. Otherwise subordinates could be operating in locations that their superiors have no link to, effectively breaking the chain of command. The challenge is that the information on these positionings, classifications, and relations are rarely all contained in the same citations, but rather scattered across numerous citations. As a result, any researcher working to bring this scattered information together must engage in complex cross-referencing of claims and create claims with multiple citations (see the sections :ref:`Cross-Referencing Claims` and :ref:`Claims With Multiple Citations` for more background)."
