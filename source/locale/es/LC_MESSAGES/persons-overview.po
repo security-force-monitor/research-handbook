@@ -19,21 +19,21 @@ msgstr "Descripción general: Personas"
 
 #: persons-overview.rst:4
 msgid "What are persons?"
-msgstr ""
+msgstr "¿Qué son las personas?"
 
 #: persons-overview.rst:7
 msgid "A :ref:`person`` is a human being who existed at some point in time. The Monitor structures data on persons affiliated with or holding positions (a :ref:`posting`) in any specific :ref:`unit` of security forces at a particular point in time."
-msgstr ""
+msgstr "Una :ref:`person` es un ser humano que existió en algún momento dado. El Monitor estructura los datos sobre personas afiliadas a cualquier :ref:`unit` específica de las fuerzas de seguridad, o que ocupan puestos (un :ref:`posting`) en ella, en un momento determinado."
 
 #: persons-overview.rst:9
 msgid "Data about persons are captured in two claim types:"
-msgstr ""
+msgstr "Los datos sobre personas se recopilan en dos tipos de declaraciones:"
 
 #: persons-overview.rst:11
 msgid ":ref:`person`: this claim type records basic information about a person's identity such as their name, aliases and the country in whose security forces they serve."
-msgstr ""
+msgstr ":ref:`person`: este tipo de declaración registra información básica sobre la identidad de una persona, como su nombre, alias y el país en cuyas fuerzas de seguridad presta servicio."
 
 #: persons-overview.rst:12
 msgid ":ref:`posting`: data about a person's career in the security forces, including the units to which they've been posted, their roles in those units, ranks and titles obtains."
-msgstr ""
+msgstr ":ref:`posting`: datos sobre la trayectoria profesional de una persona en las fuerzas de seguridad, incluidas las unidades a las que ha sido destinada, sus funciones en dichas unidades, así como los rangos y títulos obtenidos."
 
