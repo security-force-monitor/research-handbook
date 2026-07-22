@@ -15,7 +15,7 @@ msgstr ""
 
 #: persons-identity.rst:1
 msgid "Person"
-msgstr ""
+msgstr "Pessoa"
 
 #: persons-identity.rst:4
 msgid "The :ref:`person` claim type describes basic identifying information about a :ref:`person`: their name, aliases and associated time ranges with them. Claims of this type are grouped together with :ref:`Posting` (describing postings to different units) which tracks the person's career. There are also several fields in development to capture other aspects about persons."
