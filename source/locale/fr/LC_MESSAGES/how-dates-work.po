@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/how-dates-work.rst:1 ../../source/how-dates-work.rst:1
 msgid "How Dates Work"
-msgstr ""
+msgstr "Fonctionnement des dates"
 
 #: ../../source/how-dates-work.rst:4 ../../source/how-dates-work.rst:4
 msgid "Dates are a central focus of the Security Force Monitor's data and methodology. All claims in the Security Force Monitor dataset are time-bound."
