@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/multiple-citations-claims.rst:1 ../../source/multiple-citations-claims.rst:1
 msgid "Claims With Multiple Citations"
-msgstr ""
+msgstr "Reivindicações com múltiplas citações"
 
 #: ../../source/multiple-citations-claims.rst:4 ../../source/multiple-citations-claims.rst:4
 msgid "Occassionally, the information in one citation can only be surfaced or made sense of with additional evidencing from other citations. In these cases the claim would have multiple citations, instead of a single citation. Whenever multiple citations are used there must be a explanatory note in the ``public_notes:meta`` field detailing what the additional citations help evidence. This process is another type of cross-referencing which information from other citations can be brought to bare on any one claim (see the section :ref:`Cross-Referencing Claims` for more details)."
