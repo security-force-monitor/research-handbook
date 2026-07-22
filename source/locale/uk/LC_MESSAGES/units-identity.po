@@ -14,7 +14,7 @@ msgstr ""
 
 #: units-identity.rst:1
 msgid "Unit"
-msgstr ""
+msgstr "підрозділ"
 
 #: units-identity.rst:4
 msgid "A :ref:`unit` claim type contains information about the identity of the :ref:`unit`, such as its name, aliases, classification, the country in which it operates, and the duration of its existence."
