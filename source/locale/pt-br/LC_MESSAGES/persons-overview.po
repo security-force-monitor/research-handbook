@@ -15,7 +15,7 @@ msgstr ""
 
 #: persons-overview.rst:1
 msgid "Overview: Persons"
-msgstr ""
+msgstr "Visão geral: Pessoas"
 
 #: persons-overview.rst:4
 msgid "What are persons?"
