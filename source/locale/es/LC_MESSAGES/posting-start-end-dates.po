@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/posting-start-end-dates.rst:1 ../../source/posting-start-end-dates.rst:1
 msgid "Start and End Dates for Postings"
-msgstr ""
+msgstr "Fechas de inicio y fin de los puestos"
 
 #: ../../source/posting-start-end-dates.rst:4 ../../source/posting-start-end-dates.rst:4
 msgid "Determining when a :ref:`person` was in their position is a central concern of the Security Force Monitor's methodology. Even with seemingly clear sources, establishing when someone began or ended a position, or :ref:`posting`, can be particularly challenging."
@@ -49,15 +49,15 @@ msgid "Importantly, when there is sourcing for * both * an appointment date and 
 msgstr ""
 
 #: ../../source/posting-start-end-dates.rst:21 ../../source/posting-start-end-dates.rst:21
-msgid ".. admonition:: Example"
-msgstr ""
+msgid "Example"
+msgstr "Ejemplo"
 
 #: ../../source/posting-start-end-dates.rst:23 ../../source/posting-start-end-dates.rst:23
-msgid "    A citation states: "Today 2014-08-03 John Smith took over as commander of the 1 Brigade in ceremony at the brigade's headquarters. Smith was appointed commander of the 1 Brigade on 2014-08-01.""
+msgid "A citation states: "Today 2014-08-03 John Smith took over as commander of the 1 Brigade in ceremony at the brigade's headquarters. Smith was appointed commander of the 1 Brigade on 2014-08-01.""
 msgstr ""
 
 #: ../../source/posting-start-end-dates.rst:25 ../../source/posting-start-end-dates.rst:25
-msgid "    In this case the :ref:`posting` would have two different start dates, one using the date of the appointment of ``2014-08-01`` (with :ref:`status:meta <posting-status-meta>` of ``conflict``) and the other for the date of the ceremony of ``2014-08-03`` (with :ref:`status:meta <posting-status-meta>` of ``accepted``). "
+msgid "In this case the :ref:`posting` would have two different start dates, one using the date of the appointment of ``2014-08-01`` (with :ref:`status:meta <posting-status-meta>` of ``conflict``) and the other for the date of the ceremony of ``2014-08-03`` (with :ref:`status:meta <posting-status-meta>` of ``accepted``). "
 msgstr ""
 
 #: ../../source/posting-start-end-dates.rst:28 ../../source/posting-start-end-dates.rst:28
@@ -69,19 +69,19 @@ msgid "Citations for appointments or ceremonies may be extremely specific and li
 msgstr ""
 
 #: ../../source/posting-start-end-dates.rst:33 ../../source/posting-start-end-dates.rst:33
-msgid ".. admonition:: Example"
-msgstr ""
+msgid "Example"
+msgstr "Ejemplo"
 
 #: ../../source/posting-start-end-dates.rst:35 ../../source/posting-start-end-dates.rst:35
-msgid "    A citation states: "John Smith was appointed commander of the 1 Brigade on 2014-08-01.""
+msgid "A citation states: "John Smith was appointed commander of the 1 Brigade on 2014-08-01.""
 msgstr ""
 
 #: ../../source/posting-start-end-dates.rst:36 ../../source/posting-start-end-dates.rst:36
-msgid "    A citation states: "Today 2017-11-12 Xavier Johnson took the reins as commander of the 1 Brigade, formally receiving the brigade flag from the division commander.""
+msgid "A citation states: "Today 2017-11-12 Xavier Johnson took the reins as commander of the 1 Brigade, formally receiving the brigade flag from the division commander.""
 msgstr ""
 
 #: ../../source/posting-start-end-dates.rst:38 ../../source/posting-start-end-dates.rst:38
-msgid "    Both citation establish start dates for their respective postings (in other terms the ``starting:range`` for each :ref:`posting` is ``Y``). With no other citations or information in these citations data entry is simple."
+msgid "Both citation establish start dates for their respective postings (in other terms the ``starting:range`` for each :ref:`posting` is ``Y``). With no other citations or information in these citations data entry is simple."
 msgstr ""
 
 #: ../../source/posting-start-end-dates.rst:41 ../../source/posting-start-end-dates.rst:41
@@ -89,15 +89,15 @@ msgid "Occasionally, citations reporting on appointments may also reference the 
 msgstr ""
 
 #: ../../source/posting-start-end-dates.rst:43 ../../source/posting-start-end-dates.rst:43
-msgid ".. admonition:: Example"
-msgstr ""
+msgid "Example"
+msgstr "Ejemplo"
 
 #: ../../source/posting-start-end-dates.rst:45 ../../source/posting-start-end-dates.rst:45
-msgid "    A citation states: "John Smith was appointed commander of the 1 Brigade on 2014-08-01, replacing Christopher Butler, the previous commander.""
+msgid "A citation states: "John Smith was appointed commander of the 1 Brigade on 2014-08-01, replacing Christopher Butler, the previous commander.""
 msgstr ""
 
 #: ../../source/posting-start-end-dates.rst:47 ../../source/posting-start-end-dates.rst:47
-msgid "    In this example the :ref:`posting` for ``John Smith`` still starts on ``2014-08-01`` (``starting:range`` for Smith's :ref:`posting` is ``Y``), and it also establishes the end for the :ref:`posting` of ``Christopher Butler`` on ``2014-08-01`` (in other terms the ``ending:range`` for Butler`s :ref:`posting` is ``Y``). Bulter would also have an imprecise range of ``since_beginning_of_time`` to ``2014-07-31`` (see :ref:`How Dates Work` for more guidance)."
+msgid "In this example the :ref:`posting` for ``John Smith`` still starts on ``2014-08-01`` (``starting:range`` for Smith's :ref:`posting` is ``Y``), and it also establishes the end for the :ref:`posting` of ``Christopher Butler`` on ``2014-08-01`` (in other terms the ``ending:range`` for Butler`s :ref:`posting` is ``Y``). Bulter would also have an imprecise range of ``since_beginning_of_time`` to ``2014-07-31`` (see :ref:`How Dates Work` for more guidance)."
 msgstr ""
 
 #: ../../source/posting-start-end-dates.rst:49 ../../source/posting-start-end-dates.rst:49
@@ -109,5 +109,5 @@ msgid ".. note::"
 msgstr ""
 
 #: ../../source/posting-start-end-dates.rst:54 ../../source/posting-start-end-dates.rst:54
-msgid "   A forth-coming piece will detail how to resolve complex situations where citations exist for appointments and ceremonies, but ceremonies *cannot* be used as the start date due to conflicting with other citations. Once published, this section will be updated."
+msgid "A forth-coming piece will detail how to resolve complex situations where citations exist for appointments and ceremonies, but ceremonies *cannot* be used as the start date due to conflicting with other citations. Once published, this section will be updated."
 msgstr ""
