@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/locations-overview.rst:1 ../../source/locations-overview.rst:1
 msgid "Overview: Location"
-msgstr ""
+msgstr "نظرة عامة: الموقع"
 
 #: ../../source/locations-overview.rst:4 ../../source/locations-overview.rst:4
 msgid "What are Locations?"
