@@ -26,7 +26,7 @@ msgid "The :ref:`component` claim type captures how :ref:`materiel` may include 
 msgstr ""
 
 #: materiel-component.rst:11
-msgid "Component: Summary of claim attributes ***********************************"
+msgid "Component: Summary of claim attributes"
 msgstr ""
 
 #: materiel-component.rst:14
