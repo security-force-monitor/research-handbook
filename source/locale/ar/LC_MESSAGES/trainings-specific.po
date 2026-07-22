@@ -15,7 +15,7 @@ msgstr ""
 
 #: trainings-specific.rst:1
 msgid "Training"
-msgstr ""
+msgstr "تدريب"
 
 #: trainings-specific.rst:6
 msgid "Draft documentation. The format described in this documentation is a proposed format which may change with further research and development."
