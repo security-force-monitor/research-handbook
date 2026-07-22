@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/cross-referencing-claims.rst:1 ../../source/cross-referencing-claims.rst:1
 msgid "Cross-Referencing Claims"
-msgstr ""
+msgstr "청구항 상호 참조"
 
 #: ../../source/cross-referencing-claims.rst:4 ../../source/cross-referencing-claims.rst:4
 msgid "Creating a vast structured dataset allows us to use the data itself as a cross-reference system for any claim made by citations. When there is a conflict or discrepancy between two or more claims the claims themselves can be balanced against one another to help determine which claim can be coded as ``accepted`` or ``conflict``."
