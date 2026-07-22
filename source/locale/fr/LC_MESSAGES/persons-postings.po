@@ -15,7 +15,7 @@ msgstr ""
 
 #: persons-postings.rst:1
 msgid "Posting"
-msgstr ""
+msgstr "Poste"
 
 #: persons-postings.rst:4
 msgid "The :ref:`posting` claim type holds information about a person's career. It first defines a relationships between a :ref:`person` and a :ref:`unit`, and can be used to further describe the role the person has in the unit (\"Commander\", \"Chief of Staff\", etc.), the rank they hold at the time of the posting, and any title they may hold at the time of a posting. Usually, a :ref:`person` has a single :ref:`posting` at any one time. However, there are cases where one :ref:`person` holds more than one :ref:posting` simultaneously."
