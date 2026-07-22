@@ -15,7 +15,7 @@ msgstr ""
 
 #: trainings-overview.rst:1
 msgid "Overview: Trainings (Draft)"
-msgstr ""
+msgstr "Vue d'ensemble : Formations (Ébauche)"
 
 #: trainings-overview.rst:6
 msgid "Training is a claim format currently in development. The data structure described in this documentation is a proposed format which may change with further research and development."
