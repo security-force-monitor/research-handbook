@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../source/contiguous-non-contiguous-claims.rst:1 ../../source/contiguous-non-contiguous-claims.rst:1
 msgid "Establishing Contiguous or Non-Contiguous Claims"
-msgstr ""
+msgstr "Établissement de revendications contiguës ou non contiguës"
 
 #: ../../source/contiguous-non-contiguous-claims.rst:6 ../../source/contiguous-non-contiguous-claims.rst:6
 msgid "To learn more about the fundamentals of dates and timelines in Security Force Monitor's approach read :ref:`How Dates Work` first."
