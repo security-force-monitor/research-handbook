@@ -15,7 +15,7 @@ msgstr ""
 
 #: locations-specific.rst:1
 msgid "Location"
-msgstr ""
+msgstr "lieu"
 
 #: locations-specific.rst:4
 msgid "Locations are unique places or positions. A named town or city can be a Location, as can an administrative area like a county, district or governorate. In fact, anything that can be drawn on a map can be a Location: a specific point, a section of a road, a military line of control, and so on."
