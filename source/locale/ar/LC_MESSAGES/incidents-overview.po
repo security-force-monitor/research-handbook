@@ -15,7 +15,7 @@ msgstr ""
 
 #: incidents-overview.rst:1
 msgid "Overview: Incident"
-msgstr ""
+msgstr "نظرة عامة: حادثة"
 
 #: incidents-overview.rst:4
 msgid "What are incidents?"
