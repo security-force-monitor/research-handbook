@@ -22,8 +22,7 @@ msgstr "Sobre Monitor de Fuerzas de Seguridad"
 
 #: ../../source/index.rst:7 ../../source/index.rst:7
 msgid "The Security Force Monitor supports activists and NGOs at the frontline of documenting human rights abuses by collecting and analyzing publicly available data to map the structures and hierarchy of security forces that are deliberately shrouded in secrecy and able to commit human rights abuses with impunity."
-msgstr ".. warning:: El manual de investigación no está traducido en su totalidad. Se trata de un borrador de traducción aún no definitivo.
-Monitor de Fuerzas de Seguridad apoya a activistas y ONG que se encuentran en primera línea documentando violaciones de los derechos humanos, mediante la recopilación y el análisis de datos de acceso público para mapear las estructuras y la jerarquía de las fuerzas de seguridad —las cuales se mantienen deliberadamente bajo un manto de secretismo y son capaces de cometer abusos contra los derechos humanos con impunidad."
+msgstr "Monitor de Fuerzas de Seguridad apoya a activistas y ONG que se encuentran en primera línea documentando violaciones de los derechos humanos, mediante la recopilación y el análisis de datos de acceso público para mapear las estructuras y la jerarquía de las fuerzas de seguridad —las cuales se mantienen deliberadamente bajo un manto de secretismo y son capaces de cometer abusos contra los derechos humanos con impunidad."
 
 #: ../../source/index.rst:9 ../../source/index.rst:9
 msgid "There is a vast amount of public information on security forces around the world, but it is unstructured and scattered among a wide variety of sources, making it prohibitively costly for those engaged in public interest work to understand the security forces of any country. Finding and structuring this information makes it possible to see the linkages between human rights violations and security force commanders through the chain of command."
