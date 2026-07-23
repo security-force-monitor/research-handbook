@@ -101,8 +101,3 @@ Often citations have a combination of precise and imprecise time-bound claims wh
 
    Our article :ref:`Establishing Contiguous or Non-Contiguous Claims` provides extended guidance to help researchers decisions about whether a timeline is continuous or not. 
 
-
-
-
-
-
