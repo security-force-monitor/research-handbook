@@ -19,7 +19,7 @@ For "Unknown" units the Monitor will have sources for the overall hierarchical s
 
 The :ref:`citation` ``f93f5cb7-0e67-4b70-863f-c91c783988c3`` with the :ref:`source:title` of ``This unit is a placeholder to represent the hierarchical structure of this branch of the security service, based on the Security Force Monitor's research, as the Monitor does not currently have a source for a parent relationship to a specific, named unit`` has been created to highlight any "Unknown" unit.
 
-By their very nature unknown units are evidenced by multiple citations to evidence the claim. :ref:`Evidencing Claims By Combining Citations` contains more guidance on how to combine citations to evidence a claim.
+By their very nature unknown units are evidenced by multiple citations to evidence the claim. :ref:`Claims With Multiple Citations` contains more guidance on how to combine citations to evidence a claim.
 
 Unnamed Units
 *************
