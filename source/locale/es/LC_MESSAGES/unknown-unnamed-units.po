@@ -49,7 +49,7 @@ msgid "The :ref:`citation` ``f93f5cb7-0e67-4b70-863f-c91c783988c3`` with the :re
 msgstr ""
 
 #: ../../source/unknown-unnamed-units.rst:22 ../../source/unknown-unnamed-units.rst:22
-msgid "By their very nature unknown units are evidenced by multiple citations to evidence the claim. :ref:`Evidencing Claims By Combining Citations` contains more guidance on how to combine citations to evidence a claim."
+msgid "By their very nature unknown units are evidenced by multiple citations to evidence the claim. :ref:`Claims With Multiple Citations` contains more guidance on how to combine citations to evidence a claim."
 msgstr ""
 
 #: ../../source/unknown-unnamed-units.rst:24 ../../source/unknown-unnamed-units.rst:24
