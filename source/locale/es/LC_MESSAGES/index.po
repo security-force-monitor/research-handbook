@@ -16,6 +16,10 @@ msgstr ""
 msgid "Security Force Monitor: Research Handbook"
 msgstr "Monitor de Fuerzas de Seguridad: Manual de investigación"
 
+#: ../../source/index.rst:4 ../../source/index.rst:3
+msgid ""
+msgstr ".. warning:: Research Handbook is not fully translated. This is a draft translation not yet finalized."
+
 #: ../../source/index.rst:4 ../../source/index.rst:4
 msgid "About Security Force Monitor"
 msgstr "Sobre Monitor de Fuerzas de Seguridad"
