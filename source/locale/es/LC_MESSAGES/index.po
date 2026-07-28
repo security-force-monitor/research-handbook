@@ -44,6 +44,72 @@ msgstr "Este manual de investigación detalla nuestro modelo de datos *Linkage C
 msgid "`More information about Security Force Monitor <https://securityforcemonitor.org>`__ can be found on our organizational website."
 msgstr "`Puede encontrar más información sobre Monitor de Fuerzas de Seguridad <https://securityforcemonitor.org>`__ en nuestro sitio web institucional."
 
+#: ../../source/index.rst:21 ../../source/index.rst:21
+msgid "This version of the Research Handbook has draft translations for Arabic, Burmese, French, Korean, Portuguese, Spanish, and Ukrainian. All of the translations are accessible in the flyout menu. These translations are not final, nor complete. Funding is being sought to allow for full, professional translations."
+msgstr ""
+
+#: ../../source/index.rst:24 ../../source/index.rst:24
+msgid "Table of Contents"
+msgstr ""
+
+#: ../../source/index.rst:29 ../../source/index.rst:29
+msgid "Our methodology"
+msgstr ""
+
+#: ../../source/index.rst:42 ../../source/index.rst:42
+msgid "Sources and citations"
+msgstr ""
+
+#: ../../source/index.rst:51 ../../source/index.rst:51
+msgid "Locations"
+msgstr ""
+
+#: ../../source/index.rst:58 ../../source/index.rst:58
+msgid "Units"
+msgstr ""
+
+#: ../../source/index.rst:67 ../../source/index.rst:67
+msgid "Persons"
+msgstr ""
+
+#: ../../source/index.rst:75 ../../source/index.rst:75
+msgid "Incidents"
+msgstr ""
+
+#: ../../source/index.rst:82 ../../source/index.rst:82
+msgid "Trainings (Draft)"
+msgstr ""
+
+#: ../../source/index.rst:89 ../../source/index.rst:89
+msgid "Materiel (Draft)"
+msgstr ""
+
+#: ../../source/index.rst:98 ../../source/index.rst:98
+msgid "Contributors"
+msgstr ""
+
+#: ../../source/index.rst:101 ../../source/index.rst:101
+msgid "The author of this Research Handbook is Tony Wilson."
+msgstr ""
+
+#: ../../source/index.rst:103 ../../source/index.rst:103
+msgid "Tom Longley, Michel Manzur and Niko Para were authors of previous versions of the Research Handbook. These previous versions are available on our `GitHub repository <https://github.com/security-force-monitor/research-handbook>`__."
+msgstr ""
+
+#: ../../source/index.rst:105 ../../source/index.rst:105
+msgid "`Niko Para <https://niko.io/>`_ was instrumental in updating how time/dates are captured in the Linkage data model to include precise and imprecise dates. He also was pivotal in updating the model to be a full claims based data model."
+msgstr ""
+
+
+
+
+
+
+
+
+
+
+
 #: ../../source/index.rst:20 ../../source/index.rst:20
 msgid "Table of Contents"
 msgstr "Tabla de contenido"
@@ -92,27 +158,27 @@ msgstr "El autor de este manual de investigación es Tony Wilson."
 msgid "Tom Longley, Michel Manzur and Niko Para were authors of previous versions of the Research Handbook. These previous versions are available on our `GitHub repository <https://github.com/security-force-monitor/research-handbook>`__."
 msgstr "Tom Longley, Michel Manzur y Niko Para fueron los autores de versiones anteriores del Manual de Investigación. Estas versiones anteriores están disponibles en nuestro `repositorio de GitHub <https://github.com/security-force-monitor/research-handbook>`__."
 
-#: ../../source/index.rst:101 ../../source/index.rst:101
+#: ../../source/index.rst:105 ../../source/index.rst:105
 msgid "`Niko Para <https://niko.io/>`_ was instrumental in updating how time/dates are captured in the Linkage data model to include precise and imprecise dates. He also was pivotal in updating the model to be a full claims based data model."
 msgstr "`Niko Para <https://niko.io/>`_ desempeñó un papel fundamental en la actualización de la forma en que se registran las fechas y horas en el modelo de datos Linkage, para incluir tanto fechas precisas como imprecisas. Asimismo, fue clave en la actualización del modelo para convertirlo en un modelo de datos basado íntegramente en reclamaciones."
 
-#: ../../source/index.rst:103 ../../source/index.rst:103
+#: ../../source/index.rst:107 ../../source/index.rst:107
 msgid "Security Force Monitor previously partnered with `DataMade <https://datamade.us>`__ to create WhoWasInCommand.com. DataMade helped operationalize and refine our previous data model, worked with us to create a powerful open source platform to put the data online, and made a significant contribution to the concept and design of WhoWasInCommand.com."
 msgstr "Security Force Monitor colaboró ​​anteriormente con `DataMade <https://datamade.us>`__ para crear WhoWasInCommand.com. DataMade ayudó a poner en marcha y perfeccionar nuestro modelo de datos anterior, trabajó con nosotros para crear una potente plataforma de código abierto que permitiera publicar los datos en línea y realizó una contribución significativa al concepto y diseño de WhoWasInCommand.com."
 
-#: ../../source/index.rst:105 ../../source/index.rst:105
+#: ../../source/index.rst:109 ../../source/index.rst:109
 msgid "`James McKinney <https://www.jamespetermckinney.com/>`_ - at the time with `OpenNorth <http://opennorth.ca>`_ - was a major contributor to the development of the Monitor's initial data model, adapting Popolo (an international open government data standard) and developing the specifications for the Monitor's research."
 msgstr "`James McKinney <https://www.jamespetermckinney.com/>`_ —quien en ese momento formaba parte de `OpenNorth <http://opennorth.ca>`_— contribuyó de manera significativa al desarrollo del modelo de datos inicial del Monitor, adaptando Popolo (un estándar internacional de datos de gobierno abierto) y elaborando las especificaciones para la investigación del Monitor."
 
-#: ../../source/index.rst:108 ../../source/index.rst:108
+#: ../../source/index.rst:112 ../../source/index.rst:112
 msgid "Copyright and license"
 msgstr "Derechos de autor y licencia"
 
-#: ../../source/index.rst:111 ../../source/index.rst:111
+#: ../../source/index.rst:115 ../../source/index.rst:115
 msgid "The Security Force Monitor Research Handbook is licensed under a `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`__. You are free to copy, share and adapt all or any part of this handbook, but you must give appropriate credit to Security Force Monitor."
 msgstr "El Manual de investigación de Security Force Monitor está bajo una `Licencia Internacional Creative Commons Atribución 4.0 <https://creativecommons.org/licenses/by/4.0/>`__. Usted es libre de copiar, compartir y adaptar la totalidad o cualquier parte de este manual, pero debe otorgar el crédito correspondiente a Security Force Monitor."
 
-#: ../../source/index.rst:116 ../../source/index.rst:116
+#: ../../source/index.rst:120 ../../source/index.rst:120
 msgid "License: CC BY 4.0"
 msgstr "Licencia: CC BY 4.0"
 
