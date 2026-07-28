@@ -44,76 +44,78 @@ msgstr ""
 msgid "`More information about Security Force Monitor <https://securityforcemonitor.org>`__ can be found on our organizational website."
 msgstr ""
 
-#: ../../source/index.rst:20 ../../source/index.rst:20
+#: ../../source/index.rst:21 ../../source/index.rst:21
+msgid "This version of the Research Handbook has draft translations for Arabic, Burmese, French, Korean, Portuguese, Spanish, and Ukrainian. All of the translations are accessible in the flyout menu. These translations are not final, nor complete. Funding is being sought to allow for full, professional translations."
+msgstr ""
+
+#: ../../source/index.rst:24 ../../source/index.rst:24
 msgid "Table of Contents"
 msgstr ""
 
-#: ../../source/index.rst:25 ../../source/index.rst:25
+#: ../../source/index.rst:29 ../../source/index.rst:29
 msgid "Our methodology"
 msgstr ""
 
-#: ../../source/index.rst:38 ../../source/index.rst:38
+#: ../../source/index.rst:42 ../../source/index.rst:42
 msgid "Sources and citations"
 msgstr ""
 
-#: ../../source/index.rst:47 ../../source/index.rst:47
+#: ../../source/index.rst:51 ../../source/index.rst:51
 msgid "Locations"
 msgstr ""
 
-#: ../../source/index.rst:54 ../../source/index.rst:54
+#: ../../source/index.rst:58 ../../source/index.rst:58
 msgid "Units"
 msgstr ""
 
-#: ../../source/index.rst:63 ../../source/index.rst:63
+#: ../../source/index.rst:67 ../../source/index.rst:67
 msgid "Persons"
 msgstr ""
 
-#: ../../source/index.rst:71 ../../source/index.rst:71
+#: ../../source/index.rst:75 ../../source/index.rst:75
 msgid "Incidents"
 msgstr ""
 
-#: ../../source/index.rst:78 ../../source/index.rst:78
+#: ../../source/index.rst:82 ../../source/index.rst:82
 msgid "Trainings (Draft)"
 msgstr ""
 
-#: ../../source/index.rst:85 ../../source/index.rst:85
+#: ../../source/index.rst:89 ../../source/index.rst:89
 msgid "Materiel (Draft)"
 msgstr ""
 
-#: ../../source/index.rst:94 ../../source/index.rst:94
+#: ../../source/index.rst:98 ../../source/index.rst:98
 msgid "Contributors"
 msgstr ""
 
-#: ../../source/index.rst:97 ../../source/index.rst:97
+#: ../../source/index.rst:101 ../../source/index.rst:101
 msgid "The author of this Research Handbook is Tony Wilson."
 msgstr ""
 
-#: ../../source/index.rst:99 ../../source/index.rst:99
+#: ../../source/index.rst:103 ../../source/index.rst:103
 msgid "Tom Longley, Michel Manzur and Niko Para were authors of previous versions of the Research Handbook. These previous versions are available on our `GitHub repository <https://github.com/security-force-monitor/research-handbook>`__."
 msgstr ""
 
-#: ../../source/index.rst:101 ../../source/index.rst:101
+#: ../../source/index.rst:105 ../../source/index.rst:105
 msgid "`Niko Para <https://niko.io/>`_ was instrumental in updating how time/dates are captured in the Linkage data model to include precise and imprecise dates. He also was pivotal in updating the model to be a full claims based data model."
 msgstr ""
 
-#: ../../source/index.rst:103 ../../source/index.rst:103
+#: ../../source/index.rst:107 ../../source/index.rst:107
 msgid "Security Force Monitor previously partnered with `DataMade <https://datamade.us>`__ to create WhoWasInCommand.com. DataMade helped operationalize and refine our previous data model, worked with us to create a powerful open source platform to put the data online, and made a significant contribution to the concept and design of WhoWasInCommand.com."
 msgstr ""
 
-#: ../../source/index.rst:105 ../../source/index.rst:105
+#: ../../source/index.rst:109 ../../source/index.rst:109
 msgid "`James McKinney <https://www.jamespetermckinney.com/>`_ - at the time with `OpenNorth <http://opennorth.ca>`_ - was a major contributor to the development of the Monitor's initial data model, adapting Popolo (an international open government data standard) and developing the specifications for the Monitor's research."
 msgstr ""
 
-#: ../../source/index.rst:108 ../../source/index.rst:108
+#: ../../source/index.rst:112 ../../source/index.rst:112
 msgid "Copyright and license"
 msgstr ""
 
-#: ../../source/index.rst:111 ../../source/index.rst:111
+#: ../../source/index.rst:115 ../../source/index.rst:115
 msgid "The Security Force Monitor Research Handbook is licensed under a `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`__. You are free to copy, share and adapt all or any part of this handbook, but you must give appropriate credit to Security Force Monitor."
 msgstr ""
 
-#: ../../source/index.rst:116 ../../source/index.rst:116
+#: ../../source/index.rst:120 ../../source/index.rst:120
 msgid "License: CC BY 4.0"
 msgstr ""
-
-
