@@ -50,111 +50,49 @@ msgstr ""
 
 #: ../../source/index.rst:24 ../../source/index.rst:24
 msgid "Table of Contents"
-msgstr ""
+msgstr "Tabla de contenido"
 
 #: ../../source/index.rst:29 ../../source/index.rst:29
 msgid "Our methodology"
-msgstr ""
+msgstr "Nuestra metodología"
 
 #: ../../source/index.rst:42 ../../source/index.rst:42
 msgid "Sources and citations"
-msgstr ""
+msgstr "Fuentes y citas"
 
 #: ../../source/index.rst:51 ../../source/index.rst:51
 msgid "Locations"
-msgstr ""
+msgstr "Ubicaciones"
 
 #: ../../source/index.rst:58 ../../source/index.rst:58
 msgid "Units"
-msgstr ""
+msgstr "Unidades"
 
 #: ../../source/index.rst:67 ../../source/index.rst:67
 msgid "Persons"
-msgstr ""
+msgstr "Personas"
 
 #: ../../source/index.rst:75 ../../source/index.rst:75
 msgid "Incidents"
-msgstr ""
+msgstr "Incidentes"
 
 #: ../../source/index.rst:82 ../../source/index.rst:82
 msgid "Trainings (Draft)"
-msgstr ""
+msgstr "Capacitaciones (Borrador)"
 
 #: ../../source/index.rst:89 ../../source/index.rst:89
 msgid "Materiel (Draft)"
-msgstr ""
+msgstr "Materiales (Borrador)"
 
 #: ../../source/index.rst:98 ../../source/index.rst:98
 msgid "Contributors"
-msgstr ""
+msgstr "Colaboradores"
 
 #: ../../source/index.rst:101 ../../source/index.rst:101
 msgid "The author of this Research Handbook is Tony Wilson."
-msgstr ""
-
-#: ../../source/index.rst:103 ../../source/index.rst:103
-msgid "Tom Longley, Michel Manzur and Niko Para were authors of previous versions of the Research Handbook. These previous versions are available on our `GitHub repository <https://github.com/security-force-monitor/research-handbook>`__."
-msgstr ""
-
-#: ../../source/index.rst:105 ../../source/index.rst:105
-msgid "`Niko Para <https://niko.io/>`_ was instrumental in updating how time/dates are captured in the Linkage data model to include precise and imprecise dates. He also was pivotal in updating the model to be a full claims based data model."
-msgstr ""
-
-
-
-
-
-
-
-
-
-
-
-#: ../../source/index.rst:20 ../../source/index.rst:20
-msgid "Table of Contents"
-msgstr "Tabla de contenido"
-
-#: ../../source/index.rst:25 ../../source/index.rst:25
-msgid "Our methodology"
-msgstr "Nuestra metodología"
-
-#: ../../source/index.rst:38 ../../source/index.rst:38
-msgid "Sources and citations"
-msgstr "Fuentes y citas"
-
-#: ../../source/index.rst:47 ../../source/index.rst:47
-msgid "Locations"
-msgstr "Ubicaciones"
-
-#: ../../source/index.rst:54 ../../source/index.rst:54
-msgid "Units"
-msgstr "Unidades"
-
-#: ../../source/index.rst:63 ../../source/index.rst:63
-msgid "Persons"
-msgstr "Personas"
-
-#: ../../source/index.rst:71 ../../source/index.rst:71
-msgid "Incidents"
-msgstr "Incidentes"
-
-#: ../../source/index.rst:78 ../../source/index.rst:78
-msgid "Trainings (Draft)"
-msgstr "Capacitaciones (Borrador)"
-
-#: ../../source/index.rst:85 ../../source/index.rst:85
-msgid "Materiel (Draft)"
-msgstr "Materiales (Borrador)"
-
-#: ../../source/index.rst:94 ../../source/index.rst:94
-msgid "Contributors"
-msgstr "Colaboradores"
-
-#: ../../source/index.rst:97 ../../source/index.rst:97
-msgid "The author of this Research Handbook is Tony Wilson."
 msgstr "El autor de este manual de investigación es Tony Wilson."
 
-#: ../../source/index.rst:99 ../../source/index.rst:99
+#: ../../source/index.rst:103 ../../source/index.rst:103
 msgid "Tom Longley, Michel Manzur and Niko Para were authors of previous versions of the Research Handbook. These previous versions are available on our `GitHub repository <https://github.com/security-force-monitor/research-handbook>`__."
 msgstr "Tom Longley, Michel Manzur y Niko Para fueron los autores de versiones anteriores del Manual de Investigación. Estas versiones anteriores están disponibles en nuestro `repositorio de GitHub <https://github.com/security-force-monitor/research-handbook>`__."
 
