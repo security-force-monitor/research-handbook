@@ -18,7 +18,7 @@ This Research Handbook details our Linkage Chain data model and the methodology 
 
 .. warning::
 
-   This version of the Research Handbook has draft translations for Arabic, Burmese, French, Korean, Portuguese, Spanish, and Ukrainian. These translations are not final, nor complete. Funding is being sought to allow for full, professional translations.
+   This version of the Research Handbook has draft translations for Arabic, Burmese, French, Korean, Portuguese, Spanish, and Ukrainian. All of the translations are accessible in the flyout menu. These translations are not final, nor complete. Funding is being sought to allow for full, professional translations.
 
 
 Table of Contents
