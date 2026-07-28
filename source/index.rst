@@ -16,6 +16,10 @@ This Research Handbook details our Linkage Chain data model and the methodology 
 
 `More information about Security Force Monitor <https://securityforcemonitor.org>`__ can be found on our organizational website.
 
+.. warning::
+
+   This version of the Research Handbook has draft translations for Arabic, Burmese, French, Korean, Portuguese, Spanish, and Ukrainian. These translations are not final, nor complete. Funding is being sought to allow for full, professional translations.
+
 
 Table of Contents
 =================
