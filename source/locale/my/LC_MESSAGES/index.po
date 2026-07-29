@@ -46,7 +46,7 @@ msgstr ""
 
 #: ../../source/index.rst:21 ../../source/index.rst:21
 msgid "This version of the Research Handbook has draft translations for Arabic, Burmese, Filipino, French, Korean, Portuguese, Spanish, and Ukrainian. All of the translations are accessible in the flyout menu. These translations are not final, nor complete. Funding is being sought to allow for full, professional translations."
-msgstr ""
+msgstr "ဤသုတေသနလက်စွဲစာအုပ်ဗားရှင်းတွင် အာရဗီ၊ မြန်မာ၊ ဖိလစ်ပိုင်၊ ပြင်သစ်၊ ကိုရီးယား၊ ပေါ်တူဂီ၊ စပိန်နှင့် ယူကရိန်းဘာသာစကားများအတွက် မူကြမ်းဘာသာပြန်များပါရှိသည်။ ဘာသာပြန်ဆိုချက်အားလုံးကို flyout menu တွင် ဝင်ရောက်ကြည့်ရှုနိုင်ပါသည်။ ဤဘာသာပြန်ဆိုချက်များသည် အပြီးသတ်မဟုတ်သလို ပြီးပြည့်စုံမှုလည်း မဟုတ်ပါ။ ပြည့်စုံပြီး ပရော်ဖက်ရှင်နယ်ဆန်သော ဘာသာပြန်ဆိုချက်များ ပြုလုပ်ရန် ရန်ပုံငွေရှာဖွေနေပါသည်။"
 
 #: ../../source/index.rst:24 ../../source/index.rst:24
 msgid "Table of Contents"
