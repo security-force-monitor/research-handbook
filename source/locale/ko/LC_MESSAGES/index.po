@@ -46,7 +46,7 @@ msgstr "`Security Force Monitor <https://securityforcemonitor.org>`__ 에 대한
 
 #: ../../source/index.rst:21 ../../source/index.rst:21
 msgid "This version of the Research Handbook has draft translations for Arabic, Burmese, Filipino, French, Korean, Portuguese, Spanish, and Ukrainian. All of the translations are accessible in the flyout menu. These translations are not final, nor complete. Funding is being sought to allow for full, professional translations."
-msgstr ""
+msgstr "본 연구 핸드북의 이번 버전에는 아랍어, 버마어, 필리핀어, 프랑스어, 한국어, 포르투갈어, 스페인어, 우크라이나어 초안 번역본이 포함되어 있습니다. 모든 번역본은 플라이아웃 메뉴에서 확인하실 수 있습니다. 이 번역본들은 최종본이 아니며 내용 또한 완벽하지 않습니다. 현재 전문적인 정식 번역을 진행하기 위한 자금을 확보하는 중입니다."
 
 #: ../../source/index.rst:24 ../../source/index.rst:24
 msgid "Table of Contents"
