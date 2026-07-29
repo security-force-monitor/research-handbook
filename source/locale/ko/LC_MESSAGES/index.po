@@ -116,7 +116,7 @@ msgstr "저작권 및 라이선스"
 msgid "The Security Force Monitor Research Handbook is licensed under a `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`__. You are free to copy, share and adapt all or any part of this handbook, but you must give appropriate credit to Security Force Monitor."
 msgstr "Security Force Monitor Research Handbook은 `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`__ 에 따라 라이선스가 부여됩니다. 이 핸드북의 전부 또는 일부를 자유롭게 복사, 공유 및 수정할 수 있으나, 반드시 Security Force Monitor에 대한 적절한 출처를 명시해야 합니다."
 
-#: ../../source/index.rst:120 ../../source/index.rst:120
+#: ../../source/index.rst:122 ../../source/index.rst:122
 msgid "License: CC BY 4.0"
 msgstr "라이선스: CC BY 4.0"
 
