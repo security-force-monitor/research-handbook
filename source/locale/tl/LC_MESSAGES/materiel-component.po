@@ -1,0 +1,684 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Security Force Monitor
+# This file is distributed under the same license as the Security Force Monitor Research Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Security Force Monitor Research Handbook\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-29 14:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Filipino\n"
+"Language: fil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: rst2po.py 1.0\n"
+
+#: ../../source/materiel-component.rst:1
+msgid "Component"
+msgstr ""
+
+#: ../../source/materiel-component.rst:6
+msgid "This is a draft claim field set currently in development. The format described in this documentation is a proposed format which may change with further research and development."
+msgstr ""
+
+#: ../../source/materiel-component.rst:8
+msgid "The :ref:`component` claim type captures how :ref:`materiel` may include other :ref:`materiel`, for example the targeting system in a particular type of aircraft."
+msgstr ""
+
+#: ../../source/materiel-component.rst:11
+msgid "Component: Summary of claim attributes ***********************************"
+msgstr ""
+
+#: ../../source/materiel-component.rst:14
+msgid "The table below summarizes the following dimensions of :ref:`component` claims:"
+msgstr ""
+
+#: ../../source/materiel-component.rst:16
+msgid "Attribute label: a human readable label for the attribute"
+msgstr ""
+
+#: ../../source/materiel-component.rst:17
+msgid "Status: whether the attribute is optional or required in a claim"
+msgstr ""
+
+#: ../../source/materiel-component.rst:18
+msgid "Data type: the sort of data that can be entered into the attribute"
+msgstr ""
+
+#: ../../source/materiel-component.rst:19
+msgid "Key name: a standardized name that simplifies attribute use in SFM databases"
+msgstr ""
+
+#: ../../source/materiel-component.rst:26
+msgid "Component: Details of claim attributes ***********************************"
+msgstr ""
+
+#: ../../source/materiel-component.rst:29
+msgid "This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use."
+msgstr ""
+
+#: ../../source/materiel-component.rst:32
+msgid "type:claim"
+msgstr ""
+
+#: ../../source/materiel-component.rst:35
+#: ../../source/materiel-component.rst:69
+#: ../../source/materiel-component.rst:105
+#: ../../source/materiel-component.rst:139
+#: ../../source/materiel-component.rst:173
+#: ../../source/materiel-component.rst:208
+#: ../../source/materiel-component.rst:242
+#: ../../source/materiel-component.rst:276
+#: ../../source/materiel-component.rst:310
+#: ../../source/materiel-component.rst:344
+#: ../../source/materiel-component.rst:378
+#: ../../source/materiel-component.rst:412
+#: ../../source/materiel-component.rst:446
+#: ../../source/materiel-component.rst:480
+#: ../../source/materiel-component.rst:514
+#: ../../source/materiel-component.rst:548
+#: ../../source/materiel-component.rst:582
+#: ../../source/materiel-component.rst:616
+#: ../../source/materiel-component.rst:650
+#: ../../source/materiel-component.rst:684
+#: ../../source/materiel-component.rst:720
+#: ../../source/materiel-component.rst:754
+msgid "Description"
+msgstr ""
+
+#: ../../source/materiel-component.rst:38
+msgid "A field that defines what type of claim is being made."
+msgstr ""
+
+#: ../../source/materiel-component.rst:40
+#: ../../source/materiel-component.rst:74
+#: ../../source/materiel-component.rst:110
+#: ../../source/materiel-component.rst:144
+#: ../../source/materiel-component.rst:178
+#: ../../source/materiel-component.rst:213
+#: ../../source/materiel-component.rst:247
+#: ../../source/materiel-component.rst:281
+#: ../../source/materiel-component.rst:315
+#: ../../source/materiel-component.rst:349
+#: ../../source/materiel-component.rst:383
+#: ../../source/materiel-component.rst:417
+#: ../../source/materiel-component.rst:725
+#: ../../source/materiel-component.rst:759
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/materiel-component.rst:43
+#: ../../source/materiel-component.rst:77
+#: ../../source/materiel-component.rst:113
+#: ../../source/materiel-component.rst:147
+#: ../../source/materiel-component.rst:250
+msgid "Text string"
+msgstr ""
+
+#: ../../source/materiel-component.rst:45
+#: ../../source/materiel-component.rst:79
+#: ../../source/materiel-component.rst:115
+#: ../../source/materiel-component.rst:149
+#: ../../source/materiel-component.rst:183
+#: ../../source/materiel-component.rst:218
+#: ../../source/materiel-component.rst:252
+#: ../../source/materiel-component.rst:286
+#: ../../source/materiel-component.rst:320
+#: ../../source/materiel-component.rst:354
+#: ../../source/materiel-component.rst:388
+#: ../../source/materiel-component.rst:422
+#: ../../source/materiel-component.rst:456
+#: ../../source/materiel-component.rst:490
+#: ../../source/materiel-component.rst:524
+#: ../../source/materiel-component.rst:558
+#: ../../source/materiel-component.rst:592
+#: ../../source/materiel-component.rst:626
+#: ../../source/materiel-component.rst:660
+#: ../../source/materiel-component.rst:694
+#: ../../source/materiel-component.rst:730
+#: ../../source/materiel-component.rst:764
+msgid "Status"
+msgstr ""
+
+#: ../../source/materiel-component.rst:48
+#: ../../source/materiel-component.rst:82
+#: ../../source/materiel-component.rst:118
+#: ../../source/materiel-component.rst:186
+#: ../../source/materiel-component.rst:221
+#: ../../source/materiel-component.rst:289
+#: ../../source/materiel-component.rst:357
+#: ../../source/materiel-component.rst:391
+msgid "This attribute is required."
+msgstr ""
+
+#: ../../source/materiel-component.rst:50
+#: ../../source/materiel-component.rst:84
+#: ../../source/materiel-component.rst:120
+#: ../../source/materiel-component.rst:154
+#: ../../source/materiel-component.rst:188
+#: ../../source/materiel-component.rst:223
+#: ../../source/materiel-component.rst:257
+#: ../../source/materiel-component.rst:291
+#: ../../source/materiel-component.rst:325
+#: ../../source/materiel-component.rst:359
+#: ../../source/materiel-component.rst:393
+#: ../../source/materiel-component.rst:427
+#: ../../source/materiel-component.rst:461
+#: ../../source/materiel-component.rst:495
+#: ../../source/materiel-component.rst:529
+#: ../../source/materiel-component.rst:563
+#: ../../source/materiel-component.rst:597
+#: ../../source/materiel-component.rst:631
+#: ../../source/materiel-component.rst:665
+#: ../../source/materiel-component.rst:699
+#: ../../source/materiel-component.rst:735
+#: ../../source/materiel-component.rst:769
+msgid "Key name"
+msgstr ""
+
+#: ../../source/materiel-component.rst:53
+msgid "``:claim/type``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:55
+#: ../../source/materiel-component.rst:89
+#: ../../source/materiel-component.rst:125
+#: ../../source/materiel-component.rst:159
+#: ../../source/materiel-component.rst:193
+#: ../../source/materiel-component.rst:228
+#: ../../source/materiel-component.rst:262
+#: ../../source/materiel-component.rst:296
+#: ../../source/materiel-component.rst:330
+#: ../../source/materiel-component.rst:364
+#: ../../source/materiel-component.rst:398
+#: ../../source/materiel-component.rst:432
+#: ../../source/materiel-component.rst:466
+#: ../../source/materiel-component.rst:500
+#: ../../source/materiel-component.rst:534
+#: ../../source/materiel-component.rst:568
+#: ../../source/materiel-component.rst:602
+#: ../../source/materiel-component.rst:636
+#: ../../source/materiel-component.rst:670
+#: ../../source/materiel-component.rst:704
+#: ../../source/materiel-component.rst:740
+#: ../../source/materiel-component.rst:774
+msgid "Example of use"
+msgstr ""
+
+#: ../../source/materiel-component.rst:58
+msgid "``materiel``, ``equipment``, ``component``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:60
+#: ../../source/materiel-component.rst:94
+#: ../../source/materiel-component.rst:130
+#: ../../source/materiel-component.rst:164
+#: ../../source/materiel-component.rst:198
+#: ../../source/materiel-component.rst:233
+#: ../../source/materiel-component.rst:267
+#: ../../source/materiel-component.rst:301
+#: ../../source/materiel-component.rst:335
+#: ../../source/materiel-component.rst:369
+#: ../../source/materiel-component.rst:403
+#: ../../source/materiel-component.rst:437
+#: ../../source/materiel-component.rst:471
+#: ../../source/materiel-component.rst:505
+#: ../../source/materiel-component.rst:539
+#: ../../source/materiel-component.rst:573
+#: ../../source/materiel-component.rst:607
+#: ../../source/materiel-component.rst:641
+#: ../../source/materiel-component.rst:675
+#: ../../source/materiel-component.rst:709
+#: ../../source/materiel-component.rst:745
+#: ../../source/materiel-component.rst:779
+msgid "Guidance on use"
+msgstr ""
+
+#: ../../source/materiel-component.rst:63
+msgid "Entering ``component`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:`component`. For quality assurance purposes, entering ``component`` should create an error if there is any entry for fields tied to other claim types, such as :ref:`materiel` or :ref:`equipment`."
+msgstr ""
+
+#: ../../source/materiel-component.rst:66
+msgid "status:meta"
+msgstr ""
+
+#: ../../source/materiel-component.rst:72
+msgid "A field that classifies the data in the claim."
+msgstr ""
+
+#: ../../source/materiel-component.rst:87
+msgid "``:claim/statuses``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:92
+msgid "``accepted``, ``conflict``, ``work_needed``, ``issue``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:97
+msgid "Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim (see :ref:`Citations with both Accepted and Conflicted Information` for guidance when one claim from a citation contains both ``accepted`` and ``conflict`` information). A :ref:`public_notes:meta <component-public-notes>` should always accompany any ``conflict`` claim."
+msgstr ""
+
+#: ../../source/materiel-component.rst:99
+msgid "If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed."
+msgstr ""
+
+#: ../../source/materiel-component.rst:102
+msgid "researcher:meta"
+msgstr ""
+
+#: ../../source/materiel-component.rst:108
+msgid "Field for initials or other identifier of researcher who last entered data for the claim."
+msgstr ""
+
+#: ../../source/materiel-component.rst:123
+msgid "``:meta/researchers``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:128
+msgid "``TW``, ``Jane_Doe``, ``G1``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:133
+msgid "Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked."
+msgstr ""
+
+#: ../../source/materiel-component.rst:136
+msgid "internal_comments:meta"
+msgstr ""
+
+#: ../../source/materiel-component.rst:142
+msgid "A field for temporary comments or notes for the researcher or research team working on the claim."
+msgstr ""
+
+#: ../../source/materiel-component.rst:152
+#: ../../source/materiel-component.rst:255
+#: ../../source/materiel-component.rst:323
+#: ../../source/materiel-component.rst:425
+#: ../../source/materiel-component.rst:459
+#: ../../source/materiel-component.rst:493
+#: ../../source/materiel-component.rst:527
+#: ../../source/materiel-component.rst:561
+#: ../../source/materiel-component.rst:595
+#: ../../source/materiel-component.rst:629
+#: ../../source/materiel-component.rst:663
+#: ../../source/materiel-component.rst:697
+#: ../../source/materiel-component.rst:733
+msgid "This attribute is optional."
+msgstr ""
+
+#: ../../source/materiel-component.rst:157
+msgid "``:meta/internal-comments``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:162
+msgid "``Come back to this to determine date for claim``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:167
+msgid "Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <component-public-notes>` field."
+msgstr ""
+
+#: ../../source/materiel-component.rst:170
+msgid "citation:refs:claim"
+msgstr ""
+
+#: ../../source/materiel-component.rst:176
+msgid "Field unique 32 character code assigned to citation(s) evidencing the claim."
+msgstr ""
+
+#: ../../source/materiel-component.rst:181
+#: ../../source/materiel-component.rst:216
+msgid "String in UUID format"
+msgstr ""
+
+#: ../../source/materiel-component.rst:191
+msgid "``:claim/citation:refs``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:196
+msgid "``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:201
+msgid "Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <component-public-notes>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated."
+msgstr ""
+
+#: ../../source/materiel-component.rst:205
+msgid "about_entity:ref:claim"
+msgstr ""
+
+#: ../../source/materiel-component.rst:211
+msgid "A unique 32 character code assigned to each entity in the dataset."
+msgstr ""
+
+#: ../../source/materiel-component.rst:226
+msgid "``:claim/about-entity:ref``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:231
+msgid "``521ebf18-f161-4ac9-8c72-5a246efa0458``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:236
+msgid "Every entity has a Universally Unique Identifier (UUID) to distinguish it from any other entity. For a :ref:`component` this UUID distinguishes them from any other :ref:`component` in the dataset."
+msgstr ""
+
+#: ../../source/materiel-component.rst:239
+msgid "about_entity:name:qa"
+msgstr ""
+
+#: ../../source/materiel-component.rst:245
+msgid "Field that provides human readable name for claim."
+msgstr ""
+
+#: ../../source/materiel-component.rst:260
+#: ../../source/materiel-component.rst:430
+msgid "n/a"
+msgstr ""
+
+#: ../../source/materiel-component.rst:265
+#: ../../source/materiel-component.rst:294
+#: ../../source/materiel-component.rst:328
+#: ../../source/materiel-component.rst:362
+#: ../../source/materiel-component.rst:396
+msgid "n/a - proposed field"
+msgstr ""
+
+#: ../../source/materiel-component.rst:270
+msgid "This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <component-about-entity>` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import."
+msgstr ""
+
+#: ../../source/materiel-component.rst:273
+msgid "component:materiel:refs:assertion"
+msgstr ""
+
+#: ../../source/materiel-component.rst:279
+msgid "The unique 32 character code of the materiel which is a component of other materiel."
+msgstr ""
+
+#: ../../source/materiel-component.rst:284
+#: ../../source/materiel-component.rst:386
+msgid "String in UUID format."
+msgstr ""
+
+#: ../../source/materiel-component.rst:299
+msgid "``b00ff36f-f367-4a48-9497-897d77decb8ad``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:304
+msgid "The UUID used in :ref:`component:materiel:refs:assertion` must be for :ref:`materiel` that already exists in the dataset."
+msgstr ""
+
+#: ../../source/materiel-component.rst:307
+msgid "component:materiel:names:qa"
+msgstr ""
+
+#: ../../source/materiel-component.rst:313
+msgid "The human readable name of the materiel which is a component of other materiel."
+msgstr ""
+
+#: ../../source/materiel-component.rst:318
+#: ../../source/materiel-component.rst:420
+msgid "Text string."
+msgstr ""
+
+#: ../../source/materiel-component.rst:333
+msgid "``GBU-12``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:338
+msgid "This field provides a human readable counterpart to the :ref:`component:materiel:refs:assertion` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <materiel-name-annotation>` of the :ref:`materiel` in the :ref:`component:materiel:refs:assertion` field."
+msgstr ""
+
+#: ../../source/materiel-component.rst:341
+msgid "component:types:assertion"
+msgstr ""
+
+#: ../../source/materiel-component.rst:347
+msgid "The type of relationship that exists between the materiel."
+msgstr ""
+
+#: ../../source/materiel-component.rst:352
+msgid "String from controlled list."
+msgstr ""
+
+#: ../../source/materiel-component.rst:367
+msgid "``component-of``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:372
+msgid "We use this field to define the nature of the relationship between the :ref:`materiel` that is the subject of the claim (as described in :ref:`component:materiel:refs:assertion`) and the other :ref:`materiel` described in :ref:`component:aggregate_materiel:refs:assertion`. The only value that can be used by the researcher in this attribute is ``component-of``. As this is a draft field the number of possible entries in this field may increase. The field may also prove redundant and be removed in future updates."
+msgstr ""
+
+#: ../../source/materiel-component.rst:375
+msgid "component:aggregate_materiel:refs:assertion"
+msgstr ""
+
+#: ../../source/materiel-component.rst:381
+msgid "The unique 32 character code of the materiel which is made up of the component."
+msgstr ""
+
+#: ../../source/materiel-component.rst:401
+msgid "``ca19cc03-1180-469d-b87a-94fb54d657fb``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:406
+msgid "The UUID used in :ref:`component:aggregate_materiel:refs:assertion` must be for :ref:`materiel` which already exists in the dataset."
+msgstr ""
+
+#: ../../source/materiel-component.rst:409
+msgid "component:aggregate_materiel:names:qa"
+msgstr ""
+
+#: ../../source/materiel-component.rst:415
+msgid "The human readable name of the materiel which is made up of the component materiel."
+msgstr ""
+
+#: ../../source/materiel-component.rst:435
+msgid "``MiG-21UM``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:440
+msgid "This field provides a human readable counterpart to the :ref:`component:aggregate_materiel:refs:assertion` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <materiel-name-annotation>` of the :ref:`materiel` in the :ref:`component:aggregate_materiel:refs:assertio` field."
+msgstr ""
+
+#: ../../source/materiel-component.rst:443
+msgid "first_precise:range"
+msgstr ""
+
+#: ../../source/materiel-component.rst:449
+msgid "The first precise date in the range."
+msgstr ""
+
+#: ../../source/materiel-component.rst:451
+#: ../../source/materiel-component.rst:485
+#: ../../source/materiel-component.rst:519
+#: ../../source/materiel-component.rst:553
+#: ../../source/materiel-component.rst:587
+#: ../../source/materiel-component.rst:621
+#: ../../source/materiel-component.rst:655
+#: ../../source/materiel-component.rst:689
+msgid "Type of attribute"
+msgstr ""
+
+#: ../../source/materiel-component.rst:454
+#: ../../source/materiel-component.rst:488
+#: ../../source/materiel-component.rst:522
+#: ../../source/materiel-component.rst:556
+msgid "String-date"
+msgstr ""
+
+#: ../../source/materiel-component.rst:464
+msgid "``:range-precise/first``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:469
+#: ../../source/materiel-component.rst:503
+#: ../../source/materiel-component.rst:537
+#: ../../source/materiel-component.rst:571
+#: ../../source/materiel-component.rst:605
+#: ../../source/materiel-component.rst:639
+#: ../../source/materiel-component.rst:673
+#: ../../source/materiel-component.rst:707
+msgid "n/a - proposed"
+msgstr ""
+
+#: ../../source/materiel-component.rst:474
+#: ../../source/materiel-component.rst:508
+#: ../../source/materiel-component.rst:542
+#: ../../source/materiel-component.rst:576
+#: ../../source/materiel-component.rst:610
+#: ../../source/materiel-component.rst:644
+#: ../../source/materiel-component.rst:678
+#: ../../source/materiel-component.rst:712
+msgid "Guidance on dates can be found in the section :ref:`How Dates Work`."
+msgstr ""
+
+#: ../../source/materiel-component.rst:477
+msgid "last_precise:range"
+msgstr ""
+
+#: ../../source/materiel-component.rst:483
+msgid "The last precise date in the range."
+msgstr ""
+
+#: ../../source/materiel-component.rst:498
+msgid "``:range-precise/last``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:511
+msgid "first_imprecise:range"
+msgstr ""
+
+#: ../../source/materiel-component.rst:517
+msgid "The first imprecise date in the range."
+msgstr ""
+
+#: ../../source/materiel-component.rst:532
+msgid "``:range-imprecise/first``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:545
+msgid "last_imprecise:range"
+msgstr ""
+
+#: ../../source/materiel-component.rst:551
+msgid "The last imprecise date in the range."
+msgstr ""
+
+#: ../../source/materiel-component.rst:566
+msgid "``:range-imprecise/last``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:579
+msgid "starting:range"
+msgstr ""
+
+#: ../../source/materiel-component.rst:585
+msgid "Flag for if first date in range is the start date or not."
+msgstr ""
+
+#: ../../source/materiel-component.rst:590
+#: ../../source/materiel-component.rst:624
+msgid "Y/N boolean"
+msgstr ""
+
+#: ../../source/materiel-component.rst:600
+msgid "``:range/starting?``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:613
+msgid "ending:range"
+msgstr ""
+
+#: ../../source/materiel-component.rst:619
+msgid "Flag for if last date in range is the start date or not."
+msgstr ""
+
+#: ../../source/materiel-component.rst:634
+msgid "``:range/ending?``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:647
+msgid "starting_context:range"
+msgstr ""
+
+#: ../../source/materiel-component.rst:653
+msgid "Simple description of start date."
+msgstr ""
+
+#: ../../source/materiel-component.rst:658
+#: ../../source/materiel-component.rst:692
+#: ../../source/materiel-component.rst:728
+msgid "String"
+msgstr ""
+
+#: ../../source/materiel-component.rst:668
+msgid "``:range/starting-context``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:681
+msgid "ending_context:range"
+msgstr ""
+
+#: ../../source/materiel-component.rst:687
+msgid "Simple description of end date."
+msgstr ""
+
+#: ../../source/materiel-component.rst:702
+msgid "``:range/ending-context``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:717
+msgid "public_notes:meta"
+msgstr ""
+
+#: ../../source/materiel-component.rst:723
+msgid "Additional context or details about the claim for a public audience."
+msgstr ""
+
+#: ../../source/materiel-component.rst:738
+msgid "``:meta/public-notes``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:743
+msgid "``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred \"last week\". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:748
+msgid "This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. For the example of use above a citation published on 15 July 2019 refers to something happening \"last week\" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result, the researcher should explain how that date range was evidenced by the citation."
+msgstr ""
+
+#: ../../source/materiel-component.rst:751
+msgid "type:entity"
+msgstr ""
+
+#: ../../source/materiel-component.rst:757
+msgid "Specifies the type of entity."
+msgstr ""
+
+#: ../../source/materiel-component.rst:762
+msgid "Text, controlled vocabulary."
+msgstr ""
+
+#: ../../source/materiel-component.rst:767
+msgid "This field is required."
+msgstr ""
+
+#: ../../source/materiel-component.rst:772
+msgid "``:entity/type``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:777
+msgid "``claim``"
+msgstr ""
+
+#: ../../source/materiel-component.rst:782
+msgid "For a :ref:`component` the only allowed entry for this field is ``claim``."
+msgstr ""
