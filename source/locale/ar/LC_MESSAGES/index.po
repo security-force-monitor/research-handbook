@@ -18,19 +18,19 @@ msgstr "مرصد القوات الأمنية: دليل الأبحاث"
 
 #: ../../source/index.rst:4 ../../source/index.rst:4
 msgid "About Security Force Monitor"
-msgstr ""
+msgstr "حول مراقبة قوة الأمن"
 
 #: ../../source/index.rst:7 ../../source/index.rst:7
 msgid "The Security Force Monitor supports activists and NGOs at the frontline of documenting human rights abuses by collecting and analyzing publicly available data to map the structures and hierarchy of security forces that are deliberately shrouded in secrecy and able to commit human rights abuses with impunity."
-msgstr ""
+msgstr "يدعم "مرصد القوات الأمنية" (Security Force Monitor) النشطاء والمنظمات غير الحكومية الموجودين في الخطوط الأمامية لتوثيق انتهاكات حقوق الإنسان، وذلك من خلال جمع وتحليل البيانات المتاحة علنًا لرسم خريطة لهياكل القوات الأمنية وتسلسلها القيادي؛ وهي قوات تُحاط عمدًا بستار من السرية وتتمتع بالقدرة على ارتكاب انتهاكات حقوق الإنسان دون مساءلة."
 
 #: ../../source/index.rst:9 ../../source/index.rst:9
 msgid "There is a vast amount of public information on security forces around the world, but it is unstructured and scattered among a wide variety of sources, making it prohibitively costly for those engaged in public interest work to understand the security forces of any country. Finding and structuring this information makes it possible to see the linkages between human rights violations and security force commanders through the chain of command."
-msgstr ""
+msgstr "تتوفر كميات هائلة من المعلومات العامة حول القوات الأمنية في جميع أنحاء العالم، إلا أنها معلومات غير مُنظَّمة ومُبعثرة بين مصادر متنوعة للغاية؛ مما يجعل تكلفة فهم القوات الأمنية في أي بلد باهظة للغاية بالنسبة للمشتغلين بقضايا المصلحة العامة. غير أن العثور على هذه المعلومات وتنظيمها يتيح كشف الروابط بين انتهاكات حقوق الإنسان وقادة القوات الأمنية عبر التسلسل القيادي."
 
 #: ../../source/index.rst:11 ../../source/index.rst:11
 msgid "Through extensive analysis of public records, we map the chain of command to establish links between senior commanders and human rights abuses carried out by individuals on the ground, revealing who was in command when those abuses occurred."
-msgstr ""
+msgstr "من خلال تحليل مستفيض للسجلات العامة، نرسم خريطة التسلسل القيادي لتحديد الروابط بين كبار القادة وانتهاكات حقوق الإنسان التي ارتكبها أفراد على الأرض، مما يكشف عن هوية من كان يتولى القيادة وقت وقوع تلك الانتهاكات."
 
 #: ../../source/index.rst:13 ../../source/index.rst:13
 msgid "Translating public information into structured data is foundational to our work and creates the ability to do this analysis."
@@ -46,23 +46,23 @@ msgstr ""
 
 #: ../../source/index.rst:21 ../../source/index.rst:21
 msgid "This version of the Research Handbook has draft translations for Arabic, Burmese, Filipino, French, Korean, Portuguese, Spanish, and Ukrainian. All of the translations are accessible in the flyout menu. These translations are not final, nor complete. Funding is being sought to allow for full, professional translations."
-msgstr ""
+msgstr "تتضمن هذه النسخة من "دليل الأبحاث" مسودات ترجمة باللغات العربية والبورمية والفلبينية والفرنسية والكورية والبرتغالية والإسبانية والأوكرانية. ويمكن الوصول إلى جميع هذه الترجمات عبر القائمة المنسدلة. وتجدر الإشارة إلى أن هذه الترجمات ليست نهائية ولا مكتملة؛ إذ يجري حالياً السعي للحصول على تمويل لإنجاز ترجمات احترافية وشاملة."
 
 #: ../../source/index.rst:24 ../../source/index.rst:24
 msgid "Table of Contents"
-msgstr ""
+msgstr "جدول المحتويات"
 
 #: ../../source/index.rst:29 ../../source/index.rst:29
 msgid "Our methodology"
-msgstr ""
+msgstr "منهجيتنا"
 
 #: ../../source/index.rst:42 ../../source/index.rst:42
 msgid "Sources and citations"
-msgstr ""
+msgstr "المصادر والمراجع"
 
 #: ../../source/index.rst:51 ../../source/index.rst:51
 msgid "Locations"
-msgstr ""
+msgstr "المواقع"
 
 #: ../../source/index.rst:58 ../../source/index.rst:58
 msgid "Units"
