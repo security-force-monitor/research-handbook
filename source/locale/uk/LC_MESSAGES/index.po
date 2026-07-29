@@ -116,6 +116,6 @@ msgstr "Авторське право та ліцензія"
 msgid "The Security Force Monitor Research Handbook is licensed under a `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`__. You are free to copy, share and adapt all or any part of this handbook, but you must give appropriate credit to Security Force Monitor."
 msgstr "Дослідницький посібник Security Force Monitor ліцензовано за міжнародною ліцензією «Creative Commons Attribution 4.0 <https://creativecommons.org/licenses/by/4.0/>». Ви можете вільно копіювати, поширювати та адаптувати весь цей посібник або будь-яку його частину, але ви повинні вказати відповідне посилання на Security Force Monitor."
 
-#: ../../source/index.rst:120 ../../source/index.rst:120
+#: ../../source/index.rst:122 ../../source/index.rst:122
 msgid "License: CC BY 4.0"
 msgstr "Ліцензія: CC BY 4.0"
