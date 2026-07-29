@@ -124,6 +124,6 @@ msgid "The Security Force Monitor Research Handbook is licensed under a `Creativ
 msgstr ""
 
 #: ../../source/index.rst:118
-#: ../../source/index.rst:120
+#: ../../source/index.rst:122
 msgid "License: CC BY 4.0"
 msgstr ""
