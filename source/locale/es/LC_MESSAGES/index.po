@@ -116,7 +116,7 @@ msgstr "Derechos de autor y licencia"
 msgid "The Security Force Monitor Research Handbook is licensed under a `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`__. You are free to copy, share and adapt all or any part of this handbook, but you must give appropriate credit to Security Force Monitor."
 msgstr "El Manual de investigación de Security Force Monitor está bajo una `Licencia Internacional Creative Commons Atribución 4.0 <https://creativecommons.org/licenses/by/4.0/>`__. Usted es libre de copiar, compartir y adaptar la totalidad o cualquier parte de este manual, pero debe otorgar el crédito correspondiente a Security Force Monitor."
 
-#: ../../source/index.rst:120 ../../source/index.rst:120
+#: ../../source/index.rst:122 ../../source/index.rst:122
 msgid "License: CC BY 4.0"
 msgstr "Licencia: CC BY 4.0"
 
