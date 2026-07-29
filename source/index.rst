@@ -114,7 +114,9 @@ Copyright and license
 
 The Security Force Monitor Research Handbook is licensed under a `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`__. You are free to copy, share and adapt all or any part of this handbook, but you must give appropriate credit to Security Force Monitor.
 
-.. figure:: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
-   :alt: License: CC BY 4.0
+.. only:: html
+
+   .. image:: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+      :target: https://creativecommons.org/licenses/by/4.0/
 
    License: CC BY 4.0
