@@ -1,0 +1,802 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Security Force Monitor
+# This file is distributed under the same license as the Security Force Monitor Research Handbook package.
+# FIRST AUTHOR <info@securityforcemonitor.org>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Security Force Monitor Research Handbook\n"
+"Report-Msgid-Bugs-To: info@securityforcemonitor.org\n"
+"POT-Creation-Date: 2026-07-29 15:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Security Force Monitor <info@securityforcemonitor.org>\n"
+"Language-Team: Filipino\n"
+"Language: tl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: rst2po.py 1.0\n"
+
+#: ../../source/persons-postings.rst:1
+msgid "Posting"
+msgstr ""
+
+#: ../../source/persons-postings.rst:4
+msgid "The :ref:`posting` claim type holds information about a person's career. It first defines a relationships between a :ref:`person` and a :ref:`unit`, and can be used to further describe the role the person has in the unit (\"Commander\", \"Chief of Staff\", etc.), the rank they hold at the time of the posting, and any title they may hold at the time of a posting. Usually, a :ref:`person` has a single :ref:`posting` at any one time. However, there are cases where one :ref:`person` holds more than one :ref:posting` simultaneously."
+msgstr ""
+
+#: ../../source/persons-postings.rst:6
+msgid "In rare instances a :ref:`person` holding multiple postings simultaneously may technically be their own superior (or conversely their own subordinate). This means they hold one :ref:`posting` in a :ref:`unit` which has a :ref:`relation` with a :ref:`relation:related_unit_classes:assertion` of ``command`` to another :ref:`unit` that the :ref:`person` also has a :ref:`posting`. For example a president of a country may also serve as the minister of defense which is subordinate to the president, technically making them their own superior (or subordinate)."
+msgstr ""
+
+#: ../../source/persons-postings.rst:10
+msgid "Posting: Summary of claim attributes"
+msgstr ""
+
+#: ../../source/persons-postings.rst:13
+msgid "The table below summarizes the following dimensions of Posting claims:"
+msgstr ""
+
+#: ../../source/persons-postings.rst:15
+msgid "Attribute label: a human readable label for the attribute"
+msgstr ""
+
+#: ../../source/persons-postings.rst:16
+msgid "Status: whether the attribute is optional or required in a claim"
+msgstr ""
+
+#: ../../source/persons-postings.rst:17
+msgid "Data type: the sort of data that can be entered into the attribute"
+msgstr ""
+
+#: ../../source/persons-postings.rst:18
+msgid "Key name: a standardized name that simplifies attribute use in SFM databases"
+msgstr ""
+
+#: ../../source/persons-postings.rst:25
+msgid "Posting: Details of claim attributes"
+msgstr ""
+
+#: ../../source/persons-postings.rst:28
+msgid "This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use."
+msgstr ""
+
+#: ../../source/persons-postings.rst:30
+msgid "type:claim"
+msgstr ""
+
+#: ../../source/persons-postings.rst:33
+#: ../../source/persons-postings.rst:69
+#: ../../source/persons-postings.rst:105
+#: ../../source/persons-postings.rst:139
+#: ../../source/persons-postings.rst:173
+#: ../../source/persons-postings.rst:208
+#: ../../source/persons-postings.rst:254
+#: ../../source/persons-postings.rst:288
+#: ../../source/persons-postings.rst:322
+#: ../../source/persons-postings.rst:356
+#: ../../source/persons-postings.rst:390
+#: ../../source/persons-postings.rst:424
+#: ../../source/persons-postings.rst:468
+#: ../../source/persons-postings.rst:502
+#: ../../source/persons-postings.rst:536
+#: ../../source/persons-postings.rst:570
+#: ../../source/persons-postings.rst:604
+#: ../../source/persons-postings.rst:638
+#: ../../source/persons-postings.rst:672
+#: ../../source/persons-postings.rst:706
+#: ../../source/persons-postings.rst:740
+#: ../../source/persons-postings.rst:774
+#: ../../source/persons-postings.rst:809
+#: ../../source/persons-postings.rst:843
+msgid "Description"
+msgstr ""
+
+#: ../../source/persons-postings.rst:36
+msgid "A field that defines what type of claim is being made."
+msgstr ""
+
+#: ../../source/persons-postings.rst:38
+#: ../../source/persons-postings.rst:74
+#: ../../source/persons-postings.rst:110
+#: ../../source/persons-postings.rst:144
+#: ../../source/persons-postings.rst:178
+#: ../../source/persons-postings.rst:213
+#: ../../source/persons-postings.rst:259
+#: ../../source/persons-postings.rst:293
+#: ../../source/persons-postings.rst:327
+#: ../../source/persons-postings.rst:361
+#: ../../source/persons-postings.rst:395
+#: ../../source/persons-postings.rst:429
+#: ../../source/persons-postings.rst:473
+#: ../../source/persons-postings.rst:507
+#: ../../source/persons-postings.rst:814
+#: ../../source/persons-postings.rst:848
+msgid "Attribute type"
+msgstr ""
+
+#: ../../source/persons-postings.rst:41
+#: ../../source/persons-postings.rst:77
+#: ../../source/persons-postings.rst:113
+#: ../../source/persons-postings.rst:147
+#: ../../source/persons-postings.rst:262
+#: ../../source/persons-postings.rst:330
+#: ../../source/persons-postings.rst:398
+msgid "Text string"
+msgstr ""
+
+#: ../../source/persons-postings.rst:43
+#: ../../source/persons-postings.rst:79
+#: ../../source/persons-postings.rst:115
+#: ../../source/persons-postings.rst:149
+#: ../../source/persons-postings.rst:183
+#: ../../source/persons-postings.rst:218
+#: ../../source/persons-postings.rst:264
+#: ../../source/persons-postings.rst:298
+#: ../../source/persons-postings.rst:332
+#: ../../source/persons-postings.rst:366
+#: ../../source/persons-postings.rst:400
+#: ../../source/persons-postings.rst:434
+#: ../../source/persons-postings.rst:478
+#: ../../source/persons-postings.rst:512
+#: ../../source/persons-postings.rst:546
+#: ../../source/persons-postings.rst:580
+#: ../../source/persons-postings.rst:614
+#: ../../source/persons-postings.rst:648
+#: ../../source/persons-postings.rst:682
+#: ../../source/persons-postings.rst:716
+#: ../../source/persons-postings.rst:750
+#: ../../source/persons-postings.rst:784
+#: ../../source/persons-postings.rst:819
+#: ../../source/persons-postings.rst:853
+msgid "Status"
+msgstr ""
+
+#: ../../source/persons-postings.rst:46
+#: ../../source/persons-postings.rst:82
+#: ../../source/persons-postings.rst:118
+#: ../../source/persons-postings.rst:186
+#: ../../source/persons-postings.rst:221
+#: ../../source/persons-postings.rst:301
+#: ../../source/persons-postings.rst:369
+msgid "This attribute is required."
+msgstr ""
+
+#: ../../source/persons-postings.rst:48
+#: ../../source/persons-postings.rst:84
+#: ../../source/persons-postings.rst:120
+#: ../../source/persons-postings.rst:154
+#: ../../source/persons-postings.rst:188
+#: ../../source/persons-postings.rst:223
+#: ../../source/persons-postings.rst:269
+#: ../../source/persons-postings.rst:303
+#: ../../source/persons-postings.rst:337
+#: ../../source/persons-postings.rst:371
+#: ../../source/persons-postings.rst:405
+#: ../../source/persons-postings.rst:439
+#: ../../source/persons-postings.rst:483
+#: ../../source/persons-postings.rst:517
+#: ../../source/persons-postings.rst:551
+#: ../../source/persons-postings.rst:585
+#: ../../source/persons-postings.rst:619
+#: ../../source/persons-postings.rst:653
+#: ../../source/persons-postings.rst:687
+#: ../../source/persons-postings.rst:721
+#: ../../source/persons-postings.rst:755
+#: ../../source/persons-postings.rst:789
+#: ../../source/persons-postings.rst:824
+#: ../../source/persons-postings.rst:858
+msgid "Key name"
+msgstr ""
+
+#: ../../source/persons-postings.rst:51
+msgid "``:claim/type``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:53
+#: ../../source/persons-postings.rst:89
+#: ../../source/persons-postings.rst:125
+#: ../../source/persons-postings.rst:159
+#: ../../source/persons-postings.rst:193
+#: ../../source/persons-postings.rst:228
+#: ../../source/persons-postings.rst:274
+#: ../../source/persons-postings.rst:308
+#: ../../source/persons-postings.rst:342
+#: ../../source/persons-postings.rst:376
+#: ../../source/persons-postings.rst:410
+#: ../../source/persons-postings.rst:444
+#: ../../source/persons-postings.rst:488
+#: ../../source/persons-postings.rst:522
+#: ../../source/persons-postings.rst:556
+#: ../../source/persons-postings.rst:590
+#: ../../source/persons-postings.rst:624
+#: ../../source/persons-postings.rst:658
+#: ../../source/persons-postings.rst:692
+#: ../../source/persons-postings.rst:726
+#: ../../source/persons-postings.rst:760
+#: ../../source/persons-postings.rst:794
+#: ../../source/persons-postings.rst:829
+#: ../../source/persons-postings.rst:863
+msgid "Example of use"
+msgstr ""
+
+#: ../../source/persons-postings.rst:56
+msgid "``unit``, ``positioning``, ``relation``, ``person``, ``posting``, ``incident``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:58
+#: ../../source/persons-postings.rst:94
+#: ../../source/persons-postings.rst:130
+#: ../../source/persons-postings.rst:164
+#: ../../source/persons-postings.rst:198
+#: ../../source/persons-postings.rst:233
+#: ../../source/persons-postings.rst:279
+#: ../../source/persons-postings.rst:313
+#: ../../source/persons-postings.rst:347
+#: ../../source/persons-postings.rst:381
+#: ../../source/persons-postings.rst:415
+#: ../../source/persons-postings.rst:449
+#: ../../source/persons-postings.rst:493
+#: ../../source/persons-postings.rst:527
+#: ../../source/persons-postings.rst:561
+#: ../../source/persons-postings.rst:595
+#: ../../source/persons-postings.rst:629
+#: ../../source/persons-postings.rst:663
+#: ../../source/persons-postings.rst:697
+#: ../../source/persons-postings.rst:731
+#: ../../source/persons-postings.rst:765
+#: ../../source/persons-postings.rst:799
+#: ../../source/persons-postings.rst:834
+#: ../../source/persons-postings.rst:868
+msgid "Guidance on use"
+msgstr ""
+
+#: ../../source/persons-postings.rst:61
+msgid "Entering ``posting`` defines the claim and defines the relevant fields to be used in further data entry about a :ref:`posting`. For quality assurance purposes, entering ``posting`` should create an error if there is any entry for fields tied to other claim types, such as :ref:`person`."
+msgstr ""
+
+#: ../../source/persons-postings.rst:66
+msgid "status:meta"
+msgstr ""
+
+#: ../../source/persons-postings.rst:72
+msgid "A field that classifies the data in the claim."
+msgstr ""
+
+#: ../../source/persons-postings.rst:87
+msgid "``:claim/statuses``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:92
+msgid "``accepted``, ``conflict``, ``work_needed``, ``issue``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:97
+msgid "Claims are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever a claim conflicts with another claim (or claims) and a review of citations show it to be the incorrect or false claim (see :ref:`Citations with both Accepted and Conflicted Information` for guidance when one claim from a citation contains both ``accepted`` and ``conflict`` information). A :ref:`public_notes:meta <posting-public-notes>` should always accompany any ``conflict`` claim."
+msgstr ""
+
+#: ../../source/persons-postings.rst:99
+msgid "If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if the current citations cannot establish whether a claim should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed."
+msgstr ""
+
+#: ../../source/persons-postings.rst:102
+msgid "researcher:meta"
+msgstr ""
+
+#: ../../source/persons-postings.rst:108
+msgid "Field for initials or other identifier of researcher who last entered data for the claim."
+msgstr ""
+
+#: ../../source/persons-postings.rst:123
+msgid "``:meta/researchers``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:128
+msgid "``TW``, ``Jane_Doe``, ``G1``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:133
+msgid "Every researcher should use this field to mark the claims that they have entered. Anytime a researcher modifies any data for an existing claim they should update this field so that any questions can be directed to the right person and the flow of work can be better tracked."
+msgstr ""
+
+#: ../../source/persons-postings.rst:136
+msgid "internal_comments:meta"
+msgstr ""
+
+#: ../../source/persons-postings.rst:142
+msgid "A field for temporary comments or notes for the researcher or research team working on the claim."
+msgstr ""
+
+#: ../../source/persons-postings.rst:152
+#: ../../source/persons-postings.rst:267
+#: ../../source/persons-postings.rst:403
+#: ../../source/persons-postings.rst:437
+#: ../../source/persons-postings.rst:481
+#: ../../source/persons-postings.rst:515
+#: ../../source/persons-postings.rst:549
+#: ../../source/persons-postings.rst:583
+#: ../../source/persons-postings.rst:617
+#: ../../source/persons-postings.rst:651
+#: ../../source/persons-postings.rst:685
+#: ../../source/persons-postings.rst:719
+#: ../../source/persons-postings.rst:753
+#: ../../source/persons-postings.rst:787
+#: ../../source/persons-postings.rst:822
+msgid "This attribute is optional."
+msgstr ""
+
+#: ../../source/persons-postings.rst:157
+msgid "``:meta/internal-comments``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:162
+msgid "``Come back to this to determine date for claim``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:167
+msgid "Researchers may use this field to make temporary notes or leave temporary comments intended for others in the research team about a claim. These should eventually be addressed and the field cleared by the researcher or research team. If the claim needs an explanatory note or comment to be better understood, then that should be entered in the :ref:`public_notes:meta <posting-public-notes>` field."
+msgstr ""
+
+#: ../../source/persons-postings.rst:170
+msgid "citation:refs:claim"
+msgstr ""
+
+#: ../../source/persons-postings.rst:176
+msgid "Field unique 32 character code assigned to citation(s) evidencing the claim."
+msgstr ""
+
+#: ../../source/persons-postings.rst:181
+#: ../../source/persons-postings.rst:216
+msgid "String in UUID format"
+msgstr ""
+
+#: ../../source/persons-postings.rst:191
+msgid "``:claim/citation:refs``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:196
+msgid "``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:201
+msgid "Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <posting-public-notes>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated."
+msgstr ""
+
+#: ../../source/persons-postings.rst:205
+msgid "about_entity:ref:claim"
+msgstr ""
+
+#: ../../source/persons-postings.rst:211
+msgid "A unique 32 character code assigned to each entity in the dataset."
+msgstr ""
+
+#: ../../source/persons-postings.rst:226
+msgid "``:claim/about-entity:ref``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:231
+msgid "``a3cb9b5e-316d-4af7-ac2b-87399df067e2``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:236
+msgid "Every claim has a Universally Unique Identifier (UUID) to distinguish it from any other claim. For a :ref:`posting` this UUID distinguishes them from any other :ref:`posting` in the dataset. This allows a person to have contiguous or non-contiguous :ref:`posting` with the same :ref:`unit`."
+msgstr ""
+
+#: ../../source/persons-postings.rst:238
+msgid "For each :ref:`person` their :ref:`posting` is always treated as contiguous, meaning it has the same UUID, unless citations establish it is non-contiguous."
+msgstr ""
+
+#: ../../source/persons-postings.rst:240
+#: ../../source/persons-postings.rst:246
+#: ../../source/persons-postings.rst:458
+msgid "Example"
+msgstr ""
+
+#: ../../source/persons-postings.rst:242
+msgid "Citations establish that on ``2010-08-27`` ``Hla Min`` stopped being commander of the ``Southern Regional Military Command`` and became commander of the ``3 Bureau of Special Operations``. One citation also evidences his being commander of the ``3 Bureau of Special Operations`` on ``2011-07-05`` and another citation states he retired as commander of the ``3 Bureau of Special Operations`` on ``2015-08-10``. All three of these claims are treated as evidencing the same :ref:`posting`. In contrast, the ``2011-07-05`` citation also establishes that ``Hla Min`` once again became commander of the ``Southern Regional Military Command`` on a temporary basis as its commander was removed. This :ref:`posting` as commander of the ``Southern Regional Military Command`` is treated as a separate :ref:`posting` with a different UUID as the previous :ref:`posting` held on ``2010-08-27``."
+msgstr ""
+
+#: ../../source/persons-postings.rst:244
+msgid "Determining whether one person held multiple postings is based on some match of postings among different citations."
+msgstr ""
+
+#: ../../source/persons-postings.rst:248
+msgid "If citation stated ``John Alfred Smith`` was commander of ``Police Station 1`` and another citation stated ``J. Smith`` was commander of ``Police Station 3`` there would be no match and these should be coded as two separate people each with their own :ref:`about_entity:ref:claim <person-about-entity>`. If a third citation stated that during the career of ``John Smith`` he was commander of ``Police Station 1``, ``Police station 15`` and ``Police Station 3`` then all of these would be treated as the same person given the match of at least one :ref:`posting` across all citations and the similar names of the person in each citation."
+msgstr ""
+
+#: ../../source/persons-postings.rst:251
+msgid "about_entity:name:qa"
+msgstr ""
+
+#: ../../source/persons-postings.rst:257
+msgid "Field that provides human readable name for entity."
+msgstr ""
+
+#: ../../source/persons-postings.rst:272
+#: ../../source/persons-postings.rst:340
+#: ../../source/persons-postings.rst:408
+msgid "n/a"
+msgstr ""
+
+#: ../../source/persons-postings.rst:277
+msgid "``Ni Lin Aung Major General Triangle Regional Military Command``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:282
+msgid "This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <posting-about_entity>` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import."
+msgstr ""
+
+#: ../../source/persons-postings.rst:285
+msgid "posting:person:refs:assertion"
+msgstr ""
+
+#: ../../source/persons-postings.rst:291
+msgid "The unique 32 character code assigned to a person posted to a unit."
+msgstr ""
+
+#: ../../source/persons-postings.rst:296
+msgid "String in UUID format, selected from existing person records"
+msgstr ""
+
+#: ../../source/persons-postings.rst:306
+msgid "``:assertion/posting:person:refs``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:311
+#: ../../source/persons-postings.rst:379
+msgid "``a848de4e-ebeb-49d6-9099-7e68ca3b57fc``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:316
+msgid "This is the :ref:`about_entity:ref:claim <person-about-entity>` or Universally Unique Identifier (UUID) of the :ref:`person` who is being posted to a :ref:`unit`. A record for the :ref:`person` must already exist in the dataset."
+msgstr ""
+
+#: ../../source/persons-postings.rst:319
+msgid "posting:person:names:qa"
+msgstr ""
+
+#: ../../source/persons-postings.rst:325
+msgid "Name of person posted to a unit."
+msgstr ""
+
+#: ../../source/persons-postings.rst:335
+msgid "This attribute is optional"
+msgstr ""
+
+#: ../../source/persons-postings.rst:345
+msgid "``Hla Min``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:350
+msgid "This is a human readable name for the :ref:`person` with the :ref:`posting` to the :ref:`unit`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <person-name-annotation>` for the :ref:`person`."
+msgstr ""
+
+#: ../../source/persons-postings.rst:353
+msgid "posting:unit:refs:assertion"
+msgstr ""
+
+#: ../../source/persons-postings.rst:359
+msgid "The unique 32 character code assigned to a unit to which the person is posted."
+msgstr ""
+
+#: ../../source/persons-postings.rst:364
+msgid "String in UUID format, selected from existing unit records"
+msgstr ""
+
+#: ../../source/persons-postings.rst:374
+msgid "``:assertion/posting:unit:refs``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:384
+msgid "This is the :ref:`about_entity:ref:claim <unit-about-entity>` or Universally Unique Identifier (UUID) of the :ref:`unit` to which the :ref:`person` is posted. A record for the :ref:`unit` must already exist in the dataset."
+msgstr ""
+
+#: ../../source/persons-postings.rst:387
+msgid "posting:unit:names:qa"
+msgstr ""
+
+#: ../../source/persons-postings.rst:393
+msgid "Name of unit which has the posted person."
+msgstr ""
+
+#: ../../source/persons-postings.rst:413
+msgid "``Moriones Tondo Police Station 2``, ``Northeastern Regional Military Command``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:418
+msgid "This is a human readable name for the :ref:`unit` where the :ref:`person` has a :ref:`posting`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`."
+msgstr ""
+
+#: ../../source/persons-postings.rst:421
+msgid "posting:roles:assertion"
+msgstr ""
+
+#: ../../source/persons-postings.rst:427
+msgid "The role a person plays in the unit."
+msgstr ""
+
+#: ../../source/persons-postings.rst:432
+#: ../../source/persons-postings.rst:476
+#: ../../source/persons-postings.rst:510
+msgid "Text string."
+msgstr ""
+
+#: ../../source/persons-postings.rst:442
+msgid "``:assertion/posting:roles``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:447
+msgid "``Commander``, ``Chief of Staff``, ``Second in Command``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:452
+msgid "The most common value we record in this attribute is ``Commander``."
+msgstr ""
+
+#: ../../source/persons-postings.rst:454
+msgid "There are a variety of other roles a person can have including ``Second in Command``, ``Chief of Staff`` along with other less common entries. They will vary between countries."
+msgstr ""
+
+#: ../../source/persons-postings.rst:456
+msgid "In nearly all cases, the value entered in this field is taken verbatim from the source. ``Commander`` is coded as the person who is ultimately in charge of the unit. If a person is referred to as “the head”, “chief” or some other variation indicating that they are in charge of a :ref:`unit`, they should be regarded as the ``Commander`` for the purposes of entering a value in this attribute. Similarly, the head of government or head of state of a country should have their role recorded as ``Commander`` for their :ref:`posting`."
+msgstr ""
+
+#: ../../source/persons-postings.rst:460
+msgid "The ``Président de la transition`` of Burkina Faso is the head of state, along with the commander-in-chief of the security forces. In our data any person who has been the ``Président de la transition`` would have a posting to that :ref:`unit` with a :ref:`posting:roles:assertion` of ``Commander`` and a :ref:`posting:titles:assertion` of ``Président de la transition``."
+msgstr ""
+
+#: ../../source/persons-postings.rst:462
+msgid "Similarly, heads of academic or other security force institutions will sometimes be referred to as the ``Commandant``. In these cases, ``Commandant`` should be recorded in the :ref:`posting:titles:assertion` field, and their :ref:`posting:roles:assertion` should be recorded here as ``Commander``."
+msgstr ""
+
+#: ../../source/persons-postings.rst:465
+msgid "posting:titles:assertion"
+msgstr ""
+
+#: ../../source/persons-postings.rst:471
+msgid "A title held by a person that is separate from their rank."
+msgstr ""
+
+#: ../../source/persons-postings.rst:486
+msgid "``:assertion/posting:titles``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:491
+msgid "``General Officer Commanding``, ``Jefe Del Estado Mayor``, ``Vice Chairman``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:496
+msgid "The range of titles will vary from country to country. For example, commanders of army divisions in Nigeria, who usually hold the rank of ``Major General`` also hold the title of ``General Officer Commanding``. The value placed in this attribute is taken verbatim from the source and not edited or standardized."
+msgstr ""
+
+#: ../../source/persons-postings.rst:499
+msgid "posting:ranks:assertion"
+msgstr ""
+
+#: ../../source/persons-postings.rst:505
+msgid "The official rank of a person."
+msgstr ""
+
+#: ../../source/persons-postings.rst:520
+msgid "``:assertion/posting:ranks``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:525
+msgid "``General de División``, ``Teniente Coronel``, ``Air Vice Marshal``, ``Lieutenant Colonel``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:530
+msgid "Ranks for security forces are usually established in law or policy or listed on websites of security forces themselves. Best practice is to find this citation first and then use this contextual citation for any other citation referencing a rank with an abbreviation, such as \"Lt. Col.\" for Lieutenant Colonel. In some countries ranks are refenced with a dash \"-\" rather than a space between words. Generally, SFM aims to avoid entering dashes or other additional punctuation into data and thus would enter ``Brigadier General`` rather than ``Brigadier-General``."
+msgstr ""
+
+#: ../../source/persons-postings.rst:533
+msgid "first_precise:range"
+msgstr ""
+
+#: ../../source/persons-postings.rst:539
+msgid "The first precise date in the range."
+msgstr ""
+
+#: ../../source/persons-postings.rst:541
+#: ../../source/persons-postings.rst:575
+#: ../../source/persons-postings.rst:609
+#: ../../source/persons-postings.rst:643
+#: ../../source/persons-postings.rst:677
+#: ../../source/persons-postings.rst:711
+#: ../../source/persons-postings.rst:745
+#: ../../source/persons-postings.rst:779
+msgid "Type of attribute"
+msgstr ""
+
+#: ../../source/persons-postings.rst:544
+#: ../../source/persons-postings.rst:578
+#: ../../source/persons-postings.rst:612
+#: ../../source/persons-postings.rst:646
+msgid "String-date"
+msgstr ""
+
+#: ../../source/persons-postings.rst:554
+msgid "``:range-precise/first``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:559
+#: ../../source/persons-postings.rst:593
+msgid "``2024-07-03`` , ``2022-08-21``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:564
+#: ../../source/persons-postings.rst:598
+#: ../../source/persons-postings.rst:632
+#: ../../source/persons-postings.rst:666
+#: ../../source/persons-postings.rst:700
+#: ../../source/persons-postings.rst:734
+#: ../../source/persons-postings.rst:768
+#: ../../source/persons-postings.rst:802
+msgid "Guidance on dates can be found in the section :ref:`How Dates Work`."
+msgstr ""
+
+#: ../../source/persons-postings.rst:567
+msgid "last_precise:range"
+msgstr ""
+
+#: ../../source/persons-postings.rst:573
+msgid "The last precise date in the range."
+msgstr ""
+
+#: ../../source/persons-postings.rst:588
+msgid "``:range-precise/last``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:601
+msgid "first_imprecise:range"
+msgstr ""
+
+#: ../../source/persons-postings.rst:607
+msgid "The first imprecise date in the range."
+msgstr ""
+
+#: ../../source/persons-postings.rst:622
+msgid "``:range-imprecise/first``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:627
+msgid "``since_beginning_of_time`` , ``2024-03-25``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:635
+msgid "last_imprecise:range"
+msgstr ""
+
+#: ../../source/persons-postings.rst:641
+msgid "The last imprecise date in the range."
+msgstr ""
+
+#: ../../source/persons-postings.rst:656
+msgid "``:range-imprecise/last``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:661
+msgid "``2023-07-31`` , ``2024-01-10``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:669
+msgid "starting:range"
+msgstr ""
+
+#: ../../source/persons-postings.rst:675
+msgid "Flag for if first date in range is the start date or not."
+msgstr ""
+
+#: ../../source/persons-postings.rst:680
+#: ../../source/persons-postings.rst:714
+msgid "Y/N boolean"
+msgstr ""
+
+#: ../../source/persons-postings.rst:690
+msgid "``:range/starting?``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:695
+#: ../../source/persons-postings.rst:729
+msgid "``Y`` , ``N``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:703
+msgid "ending:range"
+msgstr ""
+
+#: ../../source/persons-postings.rst:709
+msgid "Flag for if last date in range is the start date or not."
+msgstr ""
+
+#: ../../source/persons-postings.rst:724
+msgid "``:range/ending?``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:737
+msgid "starting_context:range"
+msgstr ""
+
+#: ../../source/persons-postings.rst:743
+msgid "Simple description of start date."
+msgstr ""
+
+#: ../../source/persons-postings.rst:748
+#: ../../source/persons-postings.rst:782
+#: ../../source/persons-postings.rst:817
+msgid "String"
+msgstr ""
+
+#: ../../source/persons-postings.rst:758
+msgid "``:range/starting-context``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:763
+msgid "``Appointed`` , ``Assumed Posting`` , ``Promoted``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:771
+msgid "ending_context:range"
+msgstr ""
+
+#: ../../source/persons-postings.rst:777
+msgid "Simple description of end date."
+msgstr ""
+
+#: ../../source/persons-postings.rst:792
+msgid "``:range/ending-context``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:797
+msgid "``Removed from Posting`` , ``Transferred`` , ``Promoted`` , ``Killed``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:806
+msgid "public_notes:meta"
+msgstr ""
+
+#: ../../source/persons-postings.rst:812
+msgid "Additional context or details about the claim for a public audience."
+msgstr ""
+
+#: ../../source/persons-postings.rst:827
+msgid "``:meta/public-notes``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:832
+msgid "``Citation @3c981094-fb7b-4b78-b8f6-b525a03f72b5, published on 15 July 2019, states that numerous military appointments occurred \"last week\". This is understood to mean the week starting the previous Sunday 7 July 2019 through Saturday 13 July 2019.``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:837
+msgid "This field should be used whenever any claim requires additional explanation because for a general reader the claim is not clearly and directly stated in the citation. In the \"Example of Use\" above a citation published on 15 July 2019 refers to something happening \"last week\" and as a result a researcher has determined the previous Sunday 7 July 2019 through Saturday 13 July 2019 should be entered into the appropriate fields of ``first_imprecise:range`` and ``last_imprecise:range``. That range would not be immediately clear to a public audience since neither date is directly referenced in the text of the citation. As a result, the researcher should explain how that date range was evidenced by the citation."
+msgstr ""
+
+#: ../../source/persons-postings.rst:840
+msgid "type:entity"
+msgstr ""
+
+#: ../../source/persons-postings.rst:846
+msgid "Specifies the type of entity."
+msgstr ""
+
+#: ../../source/persons-postings.rst:851
+msgid "Text, controlled vocabulary."
+msgstr ""
+
+#: ../../source/persons-postings.rst:856
+msgid "This field is required."
+msgstr ""
+
+#: ../../source/persons-postings.rst:861
+msgid "``:entity/type``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:866
+msgid "``claim``"
+msgstr ""
+
+#: ../../source/persons-postings.rst:871
+msgid "For a :ref:`posting` the only entry allowed for this field is ``claim``."
+msgstr ""
