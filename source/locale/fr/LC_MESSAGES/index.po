@@ -22,7 +22,7 @@ msgstr "À propos de Security Force Monitor"
 
 #: ../../source/index.rst:7 ../../source/index.rst:7
 msgid "The Security Force Monitor supports activists and NGOs at the frontline of documenting human rights abuses by collecting and analyzing publicly available data to map the structures and hierarchy of security forces that are deliberately shrouded in secrecy and able to commit human rights abuses with impunity."
-msgstr ""
+msgstr "Le Security Force Monitor soutient les militants et les ONG en première ligne du recensement des violations des droits humains ; pour ce faire, il collecte et analyse des données accessibles au public afin de cartographier les structures et la hiérarchie des forces de sécurité — des entités délibérément entourées de secret et capables de commettre des violations des droits humains en toute impunité."
 
 #: ../../source/index.rst:9 ../../source/index.rst:9
 msgid "There is a vast amount of public information on security forces around the world, but it is unstructured and scattered among a wide variety of sources, making it prohibitively costly for those engaged in public interest work to understand the security forces of any country. Finding and structuring this information makes it possible to see the linkages between human rights violations and security force commanders through the chain of command."
@@ -46,11 +46,11 @@ msgstr ""
 
 #: ../../source/index.rst:21 ../../source/index.rst:21
 msgid "This version of the Research Handbook has draft translations for Arabic, Burmese, Filipino, French, Korean, Portuguese, Spanish, and Ukrainian. All of the translations are accessible in the flyout menu. These translations are not final, nor complete. Funding is being sought to allow for full, professional translations."
-msgstr ""
+msgstr "Cette version du manuel de recherche propose des projets de traduction en arabe, birman, philippin, français, coréen, portugais, espagnol et ukrainien. Toutes ces traductions sont accessibles via le menu déroulant. Elles ne sont ni définitives ni complètes. Des financements sont actuellement recherchés pour permettre la réalisation de traductions professionnelles intégrales."
 
 #: ../../source/index.rst:24 ../../source/index.rst:24
 msgid "Table of Contents"
-msgstr ""
+msgstr "Table des matières"
 
 #: ../../source/index.rst:29 ../../source/index.rst:29
 msgid "Our methodology"
