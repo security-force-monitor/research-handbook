@@ -46,7 +46,7 @@ msgstr "`Puede encontrar más información sobre Monitor de Fuerzas de Seguridad
 
 #: ../../source/index.rst:21 ../../source/index.rst:21
 msgid "This version of the Research Handbook has draft translations for Arabic, Burmese, Filipino, French, Korean, Portuguese, Spanish, and Ukrainian. All of the translations are accessible in the flyout menu. These translations are not final, nor complete. Funding is being sought to allow for full, professional translations."
-msgstr ""
+msgstr "Esta versión del Manual de investigación incluye borradores de traducciones en árabe, birmano, filipino, francés, coreano, portugués, español y ucraniano. Todas las traducciones están disponibles en el menú desplegable. Estas traducciones no son definitivas ni completas; se está buscando financiación para realizar traducciones profesionales y completas."
 
 #: ../../source/index.rst:24 ../../source/index.rst:24
 msgid "Table of Contents"
