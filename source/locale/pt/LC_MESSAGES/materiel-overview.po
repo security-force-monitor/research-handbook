@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Security Force Monitor
+# This file is distributed under the same license as the Security Force Monitor Research Handbook package.
+# FIRST AUTHOR <info@securityforcemonitor.org>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Security Force Monitor Research Handbook\n"
+"Report-Msgid-Bugs-To: info@securityforcemonitor.org\n"
+"POT-Creation-Date: 2026-07-29 16:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Security Force Monitor <info@securityforcemonitor.org>\n"
+"Language-Team: Portuguese\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: rst2po.py 1.0\n"
+
+#: ../../source/materiel-overview.rst:1
+msgid "Overview: Materiel (Draft)"
+msgstr ""
+
+#: ../../source/materiel-overview.rst:6
+msgid "Materiel is a set of interlinked claim fields currently in development. The format described in this documentation is a proposed format which may change with further research and development."
+msgstr ""
+
+#: ../../source/materiel-overview.rst:8
+msgid "What is Materiel? ***************"
+msgstr ""
+
+#: ../../source/materiel-overview.rst:11
+msgid "Materiel is defined by the United States' Department of Defense as: `\"[a]ll items necessary to equip, operate, maintain, and support military activities without distinction as to its application for administrative or combat purposes.\" <https://web.archive.org/web/20210429143435/https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/dictionary.pdf>`__"
+msgstr ""
+
+#: ../../source/materiel-overview.rst:13
+msgid "Data about materiel is described by three claim types:"
+msgstr ""
+
+#: ../../source/materiel-overview.rst:15
+msgid ":ref:`materiel`: description of the item including names, classifications and other relevant fields."
+msgstr ""
+
+#: ../../source/materiel-overview.rst:16
+msgid ":ref:`component`: description of how materiel is composed of other materiel."
+msgstr ""
+
+#: ../../source/materiel-overview.rst:17
+msgid ":ref:`equipment`: defining the link between materiel and a unit."
+msgstr ""
