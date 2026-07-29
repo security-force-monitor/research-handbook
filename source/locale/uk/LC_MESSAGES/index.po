@@ -45,7 +45,7 @@ msgid "`More information about Security Force Monitor <https://securityforcemoni
 msgstr "`Більше інформації про Security Force Monitor <https://securityforcemonitor.org>`__ можна знайти на вебсайті нашої організації."
 
 #: ../../source/index.rst:21 ../../source/index.rst:21
-msgid "This version of the Research Handbook has draft translations for Arabic, Burmese, French, Korean, Portuguese, Spanish, and Ukrainian. All of the translations are accessible in the flyout menu. These translations are not final, nor complete. Funding is being sought to allow for full, professional translations."
+msgid "This version of the Research Handbook has draft translations for Arabic, Burmese, Filipino, French, Korean, Portuguese, Spanish, and Ukrainian. All of the translations are accessible in the flyout menu. These translations are not final, nor complete. Funding is being sought to allow for full, professional translations."
 msgstr ""
 
 #: ../../source/index.rst:24 ../../source/index.rst:24
