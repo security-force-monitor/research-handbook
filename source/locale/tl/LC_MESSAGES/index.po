@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../source/index.rst:21
 msgid "This version of the Research Handbook has draft translations for Arabic, Burmese, Filipino, French, Korean, Portuguese, Spanish, and Ukrainian. All of the translations are accessible in the flyout menu. These translations are not final, nor complete. Funding is being sought to allow for full, professional translations."
-msgstr ""
+msgstr "Ang bersyong ito ng Handbook ng Pananaliksik ay may mga draft na salin para sa Arabic, Burmese, Filipino, Pranses, Koreano, Portuges, Espanyol, at Ukranyano. Lahat ng salin ay maa-access sa flyout menu. Ang mga salin na ito ay hindi pa pinal, ni hindi kumpleto. Hinahanap ang pondo upang pahintulutan ang kumpleto at propesyonal na mga salin."
 
 #: ../../source/index.rst:24
 msgid "Table of Contents"
