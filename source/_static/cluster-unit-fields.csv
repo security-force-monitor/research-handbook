@@ -4,6 +4,7 @@ Attribute label , Status , Data type , Key name
 `researcher:meta` , required , string , ``:meta/researchers``
 `internal_comments:meta` , optional , string , ``:meta/internal-comments``
 `citation:refs:claim` , required , strings<->uuids , ``:claim/citation:refs``
+`unit:external_id` , optional , string , n/a
 `about_entity:ref:claim` , required , string<->uuid , ``:claim/about-entity:ref``
 `about_entity:name:qa` , optional , string , n/a
 `name:annotation` , optional , string , ``:annotation/name``
