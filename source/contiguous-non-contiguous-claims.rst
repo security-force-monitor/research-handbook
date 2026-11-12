@@ -98,7 +98,7 @@ A :ref:`person` from one citation is never assumed to be the same :ref:`person` 
 
 .. admonition:: Example
 
-   A citation states ``John Alfred Smith`` was commander of ``Police Station 1`` and another states ``John Smith`` was the commander of ``Police Station 1``. These would be treated as the same :ref:`person` with the same :ref:`posting` since they are both posted to the same :ref:`unit` with the same ref:`posting:roles:assertion`. However, if one citation stated ``John Alfred Smith`` was the commander of ``Police Station 2`` they would not be treated as the same :ref:`person` as the ``John Alfred Smith`` who was commander of ``Police Station 1`` since the units are different.
+   A citation states ``John Alfred Smith`` was commander of ``Police Station 1`` and another states ``John Smith`` was the commander of ``Police Station 1``. These would be treated as the same :ref:`person` with the same :ref:`posting` since they are both posted to the same :ref:`unit` with the same :ref:`posting:roles:assertion`. However, if one citation stated ``John Alfred Smith`` was the commander of ``Police Station 2`` they would not be treated as the same :ref:`person` as the ``John Alfred Smith`` who was commander of ``Police Station 1`` since the units are different.
 
 Determining whether one :ref:`person` held multiple postings is based on some match of postings among different citations.
 
