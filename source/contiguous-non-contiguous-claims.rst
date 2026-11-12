@@ -6,7 +6,7 @@ Establishing Contiguous or Non-Contiguous Claims
    To learn more about the fundamentals of dates and timelines in Security Force Monitor's approach read :ref:`How Dates Work` first.
 
 
-Answering the question “who was where when?” is central for investigations into allegations of human rights abuse(s). Because of this perhaps one of the most defining, and complicating, features of the Security Force Monitor’s data is that almost everything we research is connected to time including:
+Answering the question “who was where when?” is central for investigations into allegations of human rights violations. Because of this perhaps one of the most defining, and complicating, features of the Security Force Monitor’s data is that almost everything we research is connected to time including:
 
 -  Existence of units
 -  Relationships between units
@@ -21,7 +21,7 @@ While attaching time to data points aids our mission to support human rights inv
 -  How the Monitor handles gaps in the public record
 -  Questions analysts run through while reviewing time based information
 
-In an ideal world the Monitor would have a source from every day of the year stating where a unit was located or conducting operations. Barring that, having multiple sources regularly making statements like “since X date this unit has been based in this city” would be tremendously helpful. Unfortunately, neither scenario currently occurs, or is likely to occur in the near future, making it necessary to develop a robust way of thinking through time.
+In an ideal world the Monitor would have a source from every day of the year stating where a unit was located or conducting operations. Barring that, having multiple sources regularly making statements like “since X date this unit has been based in this city” would be tremendously helpful. Unfortunately, that scenario almost never occurs, so we have to create a methodological framework for connecting (or not) claims from multiple different sources through time.
 
 Broadly speaking the Security Force Monitor uses agreement among sources to build up details on security force units and individuals. Most of the Monitor’s sources, like government press releases and newspaper articles, can be used to link a value, such as the location of a unit, to a specific date (usually the date of publication). As we collect more sources we need to determine what agreement among sources means for time based values, like the location of a unit.
 
