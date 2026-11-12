@@ -90,11 +90,11 @@ Often citations have a combination of precise and imprecise time-bound claims wh
     
     **person**
 
-    ``Xavier Johnson`` (entry for :ref:`name:annotation <person-name-annotation>` and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``.
+    ``Steven Wendell`` (entry for :ref:`name:annotation <person-name-annotation>` and :ref:`person:names:assertion`) would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` and ``ending:range`` would both have an entry of ``N``.
     
     **posting**
 
-    ``Xavier Johnson`` as part of ``9 Battalion`` with :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` would have a value of ``Y`` and ``ending:range`` a value of ``N``.
+    ``Steven Wendell`` as part of ``165 Battalion`` with :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2005-06-01`` and ``last_precise:range`` of ``2005-06-03``, as well as a ``first_imprecise:range`` of ``2005-05-01`` and ``last_imprecise:range`` of ``2005-05-31``. The ``starting:range`` would have a value of ``Y`` and ``ending:range`` a value of ``N``.
 
 
 .. note::
