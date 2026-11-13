@@ -159,7 +159,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are drawn from an external gazeeter or geographic database, and because of this they do not require a citation. However, as the location data model is updated citations may be needed to evidence the creation and disbandment of locations, and perhaps other features as well which are not generally included in gazeeters or geographic databases. When two or more citations are needed to evidence a location then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <notes-location>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`ref:source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
+Locations are drawn from an external gazetteer or geographic database, and because of this they do not require a citation. However, as the location data model is updated citations may be needed to evidence the creation and disbandment of locations, and perhaps other features as well which are not generally included in gazetteers or geographic databases. When two or more citations are needed to evidence a location then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <notes-location>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`ref:source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
 
 id:entity
@@ -374,7 +374,7 @@ This attribute used a controlled vocabulary to describe the type of geometry use
  - ``poly``: the Location is a closed area on a map, its boundary described by a sequence of geographic coordinates.
  - ``line``: the Location is a line on a map, described by a sequence of geographic coordinates. A ``line`` may also be closed.
 
-The gazeteer used as the source of geometry may used different terminology to describe the Location. For example, in OpenStreetMap the boundaries of administrative areas (such as counties or states) `are described <https://wiki.openstreetmap.org/wiki/Relation>`_ using an object called a "relation"; although this can be a complex mix of different objects, for our purposes it is a ``poly`` because it describes an area.
+The gazetteer used as the source of geometry may used different terminology to describe the Location. For example, in OpenStreetMap the boundaries of administrative areas (such as counties or states) `are described <https://wiki.openstreetmap.org/wiki/Relation>`_ using an object called a "relation"; although this can be a complex mix of different objects, for our purposes it is a ``poly`` because it describes an area.
 
 
 country:annotation
