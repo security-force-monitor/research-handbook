@@ -1,5 +1,5 @@
-Our general data model
-######################
+Linkage and Chain of Comamnd Data Model
+#######################################
 
 Security Force Monitor investigates the conduct of security and defense forces around the world. We reconstruct their organizational structure, command personnel and chain of command, geographic footprint, and allegations of their involvement in committing human rights violations and violations of international criminal law. Further, we research the training and assistance that security and defense units have received from external security actors like the United States of America, the European Union, the United Nations, and through bilateral agreements with other states. All our information is drawn from publicly available sources, nearly all of which are online.
 
@@ -7,14 +7,14 @@ Security Force Monitor investigates the conduct of security and defense forces a
    :width: 100%
    :figwidth: 100%
    :align: center
-   :alt: Chart from the Security Force Monitor Research Handbook that describes the Monitor's general data model, including the main entities it collects information about.
+   :alt: Chart from the Security Force Monitor Research Handbook that describes the Monitor's Linkage and Chain of Comamnd data model, including the main entities it collects information about.
 
    
    ..
 
 
 
-We use the general data model described in the above illustration to structure and organize the information we collect during the course of our research. It describes relationships between different "claims", which are logical groupings of data about a specific subject. For example, the :ref:`positioning` claim is where we store data about the geographic footprint of a :ref:`unit`, or the link between a :ref:`unit` and a :ref:`location` in time; cumulatively, all of the :ref:`positioning` claims describe the geographic presence of security forces across an entire country through time.
+We use the Linkage and Chain of Comamnd data model described in the above illustration to structure and organize the information we collect during the course of our research. It describes relationships between different "claims", which are logical groupings of data about a specific subject. For example, the :ref:`positioning` claim is where we store data about the geographic footprint of a :ref:`unit`, or the link between a :ref:`unit` and a :ref:`location` in time; cumulatively, all of the :ref:`positioning` claims describe the geographic presence of security forces across an entire country through time.
 
 Other sections of this Research Handbook expand on each of the claims and the relationships between these claims, including:
 
