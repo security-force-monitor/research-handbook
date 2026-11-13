@@ -80,7 +80,7 @@ This attribute is optional.
 Example of use
 ~~~~~~~~~~~~~~
 
-``Citation page range is not accurate ``
+``Citation page range is not accurate``
 
 Key name
 ~~~~~~~~
