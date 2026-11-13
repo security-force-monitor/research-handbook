@@ -12,8 +12,8 @@ Attribute label , Status , Data type , Key name
 `training:trainer_unit:refs:assertion` , optional , string<->uuid , draft
 `training:trainer_unit:names:qa` , optional , string , n/a
 `training:trainer_country:annotation` , optional , string , draft
-`training:recepient_unit:refs:assertion` , optional , string<->uuid , draft
-`training:recipent_unit:names:qa` , optional , string , n/a
+`training:recipient_unit:refs:assertion` , optional , string<->uuid , draft
+`training:recipient_unit:names:qa` , optional , string , n/a
 `training:recipient:classifications:assertion` , optional , list , draft
 `training:recipient_country:annotation` , optional , string , ``:annotation/country``
 `training:location:descriptions:assertion` , optional , strings , draft
