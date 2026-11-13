@@ -1,4 +1,5 @@
 Attribute label , Status , Data type , Key name
+``source:search_string_strategy`` , optional , string , draft
 ``source:comments:admin`` , optional , string , n/a
 ``source:status:admin`` , optional , string , n/a
 ``source:access_point_id:admin`` , required , string , ``:entity/id``
