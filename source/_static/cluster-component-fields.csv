@@ -4,12 +4,13 @@ Attribute label , Status , Data type , Key name
 `researcher:meta` , required , string , ``:meta/researchers``
 `internal_comments:meta` , optional , string , ``:meta/internal-comments``
 `citation:refs:claim` , required , strings<->uuids , ``:claim/citation:refs``
+`external_id` , optional , string , draft
 `about_entity:ref:claim` , required , string<->uuid , ``:claim/about-entity:ref``
 `about_entity:name:qa` , optional , string , n/a
-`component:materiel:refs:assertion` , required , uuid-string , proposed
+`component:materiel:refs:assertion` , required , uuid-string , draft
 `component:materiel:names:qa` , optional , string , n/a
-`component:types:assertion` , required , string , proposed
-`component:aggregate_materiel:refs:assertion` , required , string<->uuid , proposed
+`component:types:assertion` , required , string , draft
+`component:aggregate_materiel:refs:assertion` , required , string<->uuid , draft
 `component:aggregate_materiel:names:qa` , optional , string , n/a
 `first_precise:range` , optional , string-date , ``:range-precise/first``
 `last_precise:range` , optional , string-date , ``:range-precise/last``
