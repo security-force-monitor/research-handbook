@@ -34,5 +34,5 @@ In many countries a city, small administrative division, and sub national divisi
 Taking on Classifications of Positionings of Subordinate Units
 **************************************************************
 
-The classifications and positionings of subordinate units should be taken by their superior units, (units that have a :ref:`relation` to the subordinate unit). By its very nature this approach creates multiple citations for the claim. See the :ref:`Assumption of Positioning and Classifications By Superior Units` section for a fuller discussion of this issue.
+The classifications and positionings of subordinate units should be taken by their superior units, (units that have a :ref:`relation` to the subordinate unit). By its very nature this approach creates multiple citations for the claim. See the :ref:`Superior Units Taking On Positionings and Classifications of Subordinates` section for a fuller discussion of this issue.
 
