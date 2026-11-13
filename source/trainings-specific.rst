@@ -437,7 +437,7 @@ n/a - proposed field
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is human readable name for the :ref:`training:trainer_unit:refs:assertion`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
+This is a human readable name for the :ref:`training:trainer_unit:refs:assertion`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
 
 
 training:trainer_country:annotation
