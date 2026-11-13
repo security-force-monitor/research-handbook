@@ -1,7 +1,7 @@
 Claims With Multiple Citations
 ##############################
 
-Occasionally, the information in one citation can only be surfaced or made sense of with additional evidence from other citations. In these cases, the claim would have multiple citations, instead of a single citation. Whenever multiple citations are used there must be a explanatory note in the ``public_notes:meta`` field detailing what the additional citations help evidence. This process is another type of cross-referencing which information from other citations can be brought to bear on any one claim (see the section :ref:`Cross-Referencing Claims` for more details).
+Occasionally, the information in one citation can only be surfaced or made sense of with additional evidence from other citations. In these cases, the claim would have multiple citations, instead of a single citation. Whenever multiple citations are used there must be an explanatory note in the ``public_notes:meta`` field detailing what the additional citations help evidence. This process is another type of cross-referencing in which information from other citations can be brought to bear on any one claim (see the section :ref:`Cross-Referencing Claims` for more details).
 
 Citations with both Accepted and Conflicted Information
 *******************************************************
@@ -10,7 +10,7 @@ The most common use for combining citations is for instances where a citation ha
 
 .. admonition:: Example
 
-    One citation evidences a :ref:`posting` as of ``2020-06-07`` for ``John Smith`` to the ``15 Battalion`` as ``commander`` (:ref:`posting:roles:assertion`) with the :ref:`posting:ranks:assertion` of ``Major General``. Other citations before and after ``2020-06-07`` evidence that ``John Smith`` had the rank of ``Colonel``. Other citations also establish that commanders of other battalions have the rank of ``Colonel`` or ``Lieutenant Colonel``. The full :ref:`posting` claim for ``John Smith`` with the rank of ``Major General`` should be entered as a ``conflict`` claim. However, the citation does contain information that matches other citations, and this should be captured as well. An additional entry is made for a :ref:`posting` for ``John Smith`` as commander of ``15 Battalion`` as of ``2020-06-07``. Notably this second entry does not contain the ``conflict`` information of the rank of ``Major General``. The additional contextual citations for ``John Smith`` as commander of ``15 Battalion`` with rank of ``Colonel``, along with the other citations for other battalion commanders have the rank of ``Colonel`` or ``Lieutenant Colonel`` should be added to this entry with an explanatory :ref:`public_notes:meta <posting-public-notes>`.
+    One citation evidences a :ref:`posting` as of ``2020-06-07`` for ``John Smith`` to the ``15 Battalion`` as ``commander`` (:ref:`posting:roles:assertion`) with the :ref:`posting:ranks:assertion` of ``Major General``. Other citations before and after ``2020-06-07`` evidence that ``John Smith`` had the rank of ``Colonel``. Other citations also establish that commanders of other battalions have the rank of ``Colonel`` or ``Lieutenant Colonel``. The full :ref:`posting` claim for ``John Smith`` with the rank of ``Major General`` should be entered as a ``conflict`` claim. However, the citation does contain information that matches other citations, and this should be captured as well. An additional entry is made for a :ref:`posting` for ``John Smith`` as commander of ``15 Battalion`` as of ``2020-06-07``. Notably this second entry does not contain the ``conflict`` information of the rank of ``Major General``. The additional contextual citations for ``John Smith`` as commander of ``15 Battalion`` with rank of ``Colonel``, along with the other citations for other battalion commanders having the rank of ``Colonel`` or ``Lieutenant Colonel`` should be added to this entry with an explanatory :ref:`public_notes:meta <posting-public-notes>`.
 
 "Unknown" Units
 ***************
@@ -31,8 +31,8 @@ In many countries a city, small administrative division, and sub national divisi
     Bawlakhe in Myanmar is the name of a city, a township (a small administrative division) and a district (a larger administrative division that contains one or more townships). If a citation states that a :ref:`unit` is based in Bawlakhe it should be coded as Bawlakhe District as that is the largest area. However, if other citations evidence the same unit is based in the city of Bawlakhe then these could be added as contextual citations and the claim could be coded as **also** evidencing a :ref:`positioning` for the unit in the city of Bawlakhe. 
 
 
-Taking on Classifications of Positionings of Subordinate Units
-**************************************************************
+Taking on Classifications and Positionings of Subordinate Units
+***************************************************************
 
 The classifications and positionings of subordinate units should be taken by their superior units, (units that have a :ref:`relation` to the subordinate unit). By its very nature this approach creates multiple citations for the claim. See the :ref:`Superior Units Taking On Positionings and Classifications of Subordinates` section for a fuller discussion of this issue.
 
