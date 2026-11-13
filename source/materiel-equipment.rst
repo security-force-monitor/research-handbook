@@ -441,7 +441,7 @@ This field provides a human readable counterpart to the :ref:`equipment:related_
 
 
 equipment:id:assertion
-=====================
+======================
 
 Description
 ~~~~~~~~~~~
