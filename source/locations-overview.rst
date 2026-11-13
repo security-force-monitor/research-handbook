@@ -17,7 +17,7 @@ To define a :ref:`Location`, we start with information included in the sources c
  - At a very specific named place: "Based at Famous General Army Camp in Test Town".
  - At a nonspecific place in a particular settlement: "In Test Town".
  - In a named subdivision of a particular settlement: "Suburb A in Test Town".
- - In a named but nonspecific place near a particular settlement: "At the Smoth family borehole north of Test Town"
+ - In a named but nonspecific place near a particular settlement: "At the Smith family borehole north of Test Town"
  - In a nonspecific place near a particular settlement: "Around Test Town".
  - In a definable area that is not a settlement: "In Test County".
  - In an area that is difficult to define: "Somewhere in the north of the country"
