@@ -94,7 +94,6 @@ For each :ref:`person` their :ref:`posting` is always treated as contiguous, mea
     Citations establish that on ``2010-08-27`` ``Hla Min`` stopped being commander of the ``Southern Regional Military Command`` and became commander of the ``3 Bureau of Special Operations``. One citation also evidences his being commander of the ``3 Bureau of Special Operations`` on ``2011-07-05`` and another citation states he retired as commander of the ``3 Bureau of Special Operations`` on ``2015-08-10``. All three of these claims are treated as evidencing the same :ref:`posting`. In contrast, the ``2011-07-05`` citation also establishes that ``Hla Min`` once again became commander of the ``Southern Regional Military Command`` on a temporary basis as its commander was removed. This :ref:`posting` as commander of the ``Southern Regional Military Command`` is treated as a separate :ref:`posting` with a different UUID as the previous :ref:`posting` held on ``2010-08-27``.
 
 A :ref:`person` from one citation is never assumed to be the same :ref:`person` from another citation based on an exact or near match of their name. Instead the :ref:`posting` is used to determine whether two people with the same or similar names are the same :ref:`person`.
-.. admonition:: Example
 
 .. admonition:: Example
 
