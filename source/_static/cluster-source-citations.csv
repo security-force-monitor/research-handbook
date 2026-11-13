@@ -1,10 +1,10 @@
 Attribute label , Status , Data type , Key name
-``source:search_string_strategy`` , optional , string , draft
-``source:comments:admin`` , optional , string , n/a
-``source:status:admin`` , optional , string , n/a
-``source:access_point_id:admin`` , required , string , ``:entity/id``
-``source:access_point_type`` , required , string , ``:citation/type``
-``source:access_point_trigger`` , required , string , ``:citation/trigger``
-``source:accessed_timestamp`` , required , string , ``:citation/accessed-at``
-``source:archive_url`` , required , string , ``:citation/archive-url``
-``source:archive_timestamp`` , required , string , ``:citation/archived-at``
+`source:search_string_strategy` , optional , string , draft
+`source:comments:admin` , optional , string , n/a
+`source:status:admin` , optional , string , n/a
+`source:access_point_id:admin` , required , string , ``:entity/id``
+`source:access_point_type` , required , string , ``:citation/type``
+`source:access_point_trigger` , required , string , ``:citation/trigger``
+`source:accessed_timestamp` , required , string , ``:citation/accessed-at``
+`source:archive_url` , required , string , ``:citation/archive-url``
+`source:archive_timestamp` , required , string , ``:citation/archived-at``
