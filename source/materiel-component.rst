@@ -9,7 +9,7 @@ The :ref:`component` claim type captures how :ref:`materiel` may include other :
 
 
 Component: Summary of claim attributes 
-***********************************
+**************************************
 
 The table below summarizes the following dimensions of :ref:`component` claims:
 
@@ -24,7 +24,7 @@ The table below summarizes the following dimensions of :ref:`component` claims:
 
 
 Component: Details of claim attributes
-***********************************
+**************************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use.
 
