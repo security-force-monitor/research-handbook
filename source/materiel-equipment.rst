@@ -5,7 +5,7 @@ Equipment
 
    This is a draft claim field set currently in development. The format described in this documentation is a proposed format which may change with further research and development.
 
-The :ref:`equipment` claim type describes links a :ref:`unit` to the :ref:`materiel` it uses.
+The :ref:`equipment` claim type links a :ref:`unit` to the :ref:`materiel` it uses.
 
 
 Equipment: Summary of claim attributes 
