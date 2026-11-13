@@ -207,32 +207,32 @@ external_id
 Description
 ~~~~~~~~~~~
 
-Field captures any iden.
+An number, UUID or other form of identification given to the training by an external party.
 
 Attribute type
 ~~~~~~~~~~~~~~
 
-String in UUID format
+Text string.
 
 Status
 ~~~~~~
 
-This attribute is required.
+This is a draft field.
 
 Key name
 ~~~~~~~~
 
-``:claim/citation:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
 
-``69dba35b-2b70-47cf-bfda-f80225f652c6``, ``4e99308c-f9c0-49e8-b97b-14c1e7bcb99d;bedf57b2-c20b-41e3-9dcf-b7b065eaa3b7``
+n/a
 
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <training-public-notes>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
+This field is intended to capture any external id given to the training.
 
 .. _training-about-entity:
 
