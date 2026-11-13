@@ -4,7 +4,7 @@ Overview: Persons
 What are persons?
 *****************
 
-A :ref:`person`` is a human being who existed at some point in time. The Monitor structures data on persons affiliated with or holding positions (a :ref:`posting`) in any specific :ref:`unit` of security forces at a particular point in time.
+A :ref:`person` is a human being who existed at some point in time. The Monitor structures data on persons affiliated with or holding positions (a :ref:`posting`) in any specific :ref:`unit` of security forces at a particular point in time.
 
 Data about persons are captured in two claim types:
 
