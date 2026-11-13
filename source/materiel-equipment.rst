@@ -232,7 +232,7 @@ n/a
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field is intended to capture any external id given to equipment.
+This field is intended to capture any external id given to the equipment.
 
 
 .. _equipment-about-entity:
