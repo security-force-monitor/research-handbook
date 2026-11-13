@@ -374,7 +374,7 @@ This attribute used a controlled vocabulary to describe the type of geometry use
  - ``poly``: the Location is a closed area on a map, its boundary described by a sequence of geographic coordinates.
  - ``line``: the Location is a line on a map, described by a sequence of geographic coordinates. A ``line`` may also be closed.
 
-The gazetteer used as the source of geometry may used different terminology to describe the Location. For example, in OpenStreetMap the boundaries of administrative areas (such as counties or states) `are described <https://wiki.openstreetmap.org/wiki/Relation>`_ using an object called a "relation"; although this can be a complex mix of different objects, for our purposes it is a ``poly`` because it describes an area.
+The gazetteer used as the source of geometry may be used different terminology to describe the Location. For example, in OpenStreetMap the boundaries of administrative areas (such as counties or states) `are described <https://wiki.openstreetmap.org/wiki/Relation>`_ using an object called a "relation"; although this can be a complex mix of different objects, for our purposes it is a ``poly`` because it describes an area.
 
 
 country:annotation
