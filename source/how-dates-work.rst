@@ -33,7 +33,7 @@ The date of publication of the citation is always an important consideration whe
 
 .. admonition:: Example
 
-    A citation published on 2023-11-05 states "Xavier Johnson, commander of the 9 Battalion, discussed recent operations with reporters today. Since Johnson became commander on November 1st there have been a steady tempo of operations throughout Southern District." This citation would evidence the following claims:
+    A citation published on 2023-11-05 states "Xavier Johnson, commander of the 9 Battalion, discussed recent operations with reporters today. Since Johnson became commander on November 1st there has been a steady tempo of operations throughout Southern District." This citation would evidence the following claims:
     
     **unit**
 
@@ -62,7 +62,7 @@ For an imprecise range the details of the claim were true for at least one day i
 
 .. admonition:: Example
 
-    A citation published on 2024-03-24 states "The 15 Regiment quickly responded to the attack on February 15th, conducting operations in several nearby areas, including Western, Upper, Lower and Central-South Governorates." The precise dates when the regiment was conducting these operations in any of the governorates is not clearly stated, however, we can establish an imprecise range for all of these positionings. For all of these positionings the ``first_imprecise:range`` would be ``2024-02-15`` and ``last_imprecise:range`` would be ``2024-03-24`` (the date of publication of the citation).
+    A citation published on 2024-03-24 states "The 15 Regiment quickly responded to the attack on February 15th, conducting operations in several nearby areas, including Western, Upper, Lower and Central-South Governorates." The precise dates when the regiment was conducting these operations in any of the governorates are not clearly stated, however, we can establish an imprecise range for all of these positionings. For all of these positionings the ``first_imprecise:range`` would be ``2024-02-15`` and ``last_imprecise:range`` would be ``2024-03-24`` (the date of publication of the citation).
     
 The above example illustrates an important aspect of coding dates as ranges as opposed to collapsing dates into a singular value with "fuzzy dates" such as ``February 2024``. Fuzzy dates create major problems for these types of imprecise claims by "stretching" the time range of the data beyond what the underlying citation actually is claiming. Using a "fuzzy date" of ``February 2024`` would mean the regiment could have been conducting operations in the four governorates *before* the attack on February 15th - something the citation explicitly does not evidence. Similarly, a "fuzzy-date" approach would introduce errors for the last date which using "fuzzy-dates" could be entered as ``March 2024``. Taking that approach stretches the claim beyond what the citation evidences as it projects into the future, after the citation was published. To avoid either scenario Security Force Monitor enters dates as a range with full YYYY-MM-DD values.
 
@@ -99,5 +99,5 @@ Often citations have a combination of precise and imprecise time-bound claims wh
 
 .. note::
 
-   Our article :ref:`Establishing Contiguous or Non-Contiguous Claims` provides extended guidance to help researchers decisions about whether a timeline is continuous or not. 
+   Our article :ref:`Establishing Contiguous or Non-Contiguous Claims` provides extended guidance to help researchers make decisions about whether a timeline is continuous or not. 
 
