@@ -429,7 +429,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The :ref:`positioning:base_names:assertion` attribute adds unit-specific context about a Location. This field is used to record data about units that are located in a distinctively-named building or complex which is not found in the gazeteer, or otherwise cannot be represented as a geographic datapoint.
+The :ref:`positioning:base_names:assertion` attribute adds unit-specific context about a Location. This field is used to record data about units that are located in a distinctively-named building or complex which is not found in the gazetteer, or otherwise cannot be represented as a geographic datapoint.
 
 
 .. admonition:: Example
