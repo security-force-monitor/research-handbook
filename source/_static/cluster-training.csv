@@ -19,7 +19,7 @@ Attribute label , Status , Data type , Key name
 `training:location:descriptions:assertion` , optional , strings , draft
 `training:location:refs:assertion` , optional , strings<->uuids , draft
 `training:location:names:qa` , optional , strings , draft
-`training:quantity:assertion` , optional , strings , pdraft
+`training:quantity:assertion` , optional , strings , draft
 `training:cost:assertion` , optional , strings , draft
 `training:cost_currency:assertion` , optional , strings , draft
 `first_precise:range` , optional , string-date , ``:range-precise/first``
