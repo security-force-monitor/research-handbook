@@ -1040,7 +1040,7 @@ Y/N boolean
 Status
 ~~~~~~
 
-This attribute is required.
+This attribute is optional.
 
 Key name
 ~~~~~~~~
@@ -1074,7 +1074,7 @@ Y/N boolean
 Status
 ~~~~~~
 
-This attribute is required.
+This attribute is optional.
 
 Key name
 ~~~~~~~~
