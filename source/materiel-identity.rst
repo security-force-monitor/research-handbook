@@ -200,6 +200,40 @@ Guidance on use
 
 Every claim must have at least one citation to evidence the data in the claim. When two or more citations are needed to evidence a claim then a corresponding explanatory note should be entered in the :ref:`public_notes:meta <materiel-public-notes>` field. This field is for the Universally Unique Identifier (UUID) for each citation, found in the :ref:`source:access_point_id:admin` field in the Sources sheet. When multiple citations are needed every UUID should be semi-colon separated.
 
+
+external_id
+===========
+
+Description
+~~~~~~~~~~~
+
+An number, UUID or other form of identification given to the materiel by an external party.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+Text string.
+
+Status
+~~~~~~
+
+This is a draft field.
+
+Key name
+~~~~~~~~
+
+n/a
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+This field is intended to capture any external id given to the materiel.
+
 .. _materiel-about-entity:
 
 about_entity:ref:claim
