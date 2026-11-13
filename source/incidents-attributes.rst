@@ -205,7 +205,7 @@ external_id
 Description
 ~~~~~~~~~~~
 
-An number, UUID or other form of identification given to the incident by an external party.
+A number, UUID or other form of identification given to the incident by an external party.
 
 Attribute type
 ~~~~~~~~~~~~~~
