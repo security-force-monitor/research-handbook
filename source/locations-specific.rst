@@ -193,7 +193,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This value is a Universally Unique Identifier (UUID) generated using a computer program. Every location has a UUID to distinguish it from any other location. This field is used in data entry for :ref:`incidents` in :ref:`incident:location:refs:assertion` and :ref:`positionings` in :ref:`positioning:location:refs:assertion`.
+This value is a Universally Unique Identifier (UUID) generated using a computer program. Every location has a UUID to distinguish it from any other location. This field is used in data entry for :ref:`incident` in :ref:`incident:location:refs:assertion` and :ref:`positionings` in :ref:`positioning:location:refs:assertion`.
 
 
 location:humane_id:qa
