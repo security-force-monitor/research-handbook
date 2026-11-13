@@ -509,7 +509,7 @@ The Universally Unique Identifier (UUID) used must be for a :ref:`unit` which al
 
 
 training:recipient_unit:names:qa
-===============================
+================================
 
 Description
 ~~~~~~~~~~~
@@ -713,7 +713,7 @@ The best practice for this field is to use the :ref:`location:humane_id:qa` of t
 
 
 training:quantity:assertion
-==========================
+===========================
 
 Description
 ~~~~~~~~~~~~~~
