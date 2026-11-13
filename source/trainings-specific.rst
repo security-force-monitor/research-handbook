@@ -474,7 +474,7 @@ Guidance on use
 Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`_. This field is used to aid grouping trainings into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based the :ref:`citation:refs:claim <training-citation>`.
 
 
-training:recepient_unit:refs:assertion
+training:recipient_unit:refs:assertion
 ======================================
 
 Description
@@ -508,7 +508,7 @@ Guidance on use
 The Universally Unique Identifier (UUID) used must be for a :ref:`unit` which already exists in the dataset.
 
 
-training:recipent_unit:names:qa
+training:recipient_unit:names:qa
 ===============================
 
 Description
@@ -539,7 +539,7 @@ n/a - proposed field
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is human readable name for the :ref:`training:recepient_unit:refs:assertion`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
+This is human readable name for the :ref:`training:recipient_unit:refs:assertion`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
 
 
 training:recipient:classifications:assertion
@@ -607,7 +607,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`_. This field is used to aid grouping trainings into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based the target country for the :ref:`training` as specified in the citation, or any related :ref:`positioning` the :ref:`training:recepient_unit:refs:assertion` holds, or any other contextual information from citations about the :ref:`training:recepient_unit:refs:assertion`.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`_. This field is used to aid grouping trainings into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based the target country for the :ref:`training` as specified in the citation, or any related :ref:`positioning` the :ref:`training:recipient_unit:refs:assertion` holds, or any other contextual information from citations about the :ref:`training:recipient_unit:refs:assertion`.
 
 
 training:location:descriptions:assertion
@@ -712,7 +712,7 @@ Guidance on use
 The best practice for this field is to use the :ref:`location:humane_id:qa` of the :ref:`training:location:refs:assertion`.
 
 
-training:quanity:assertion
+training:quantity:assertion
 ==========================
 
 Description
