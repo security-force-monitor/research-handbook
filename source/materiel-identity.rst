@@ -652,7 +652,7 @@ ending:range
 Description
 ~~~~~~~~~~~
 
-Flag for if last date in range is the start date or not.
+Flag for if last date in range is the end date or not.
 
 Type of attribute
 ~~~~~~~~~~~~~~~~~
