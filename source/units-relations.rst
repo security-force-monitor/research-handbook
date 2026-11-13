@@ -343,7 +343,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``:assertion/relation:unit:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -454,7 +454,7 @@ This attribute is optional.
 Key name
 ~~~~~~~~
 
-``:assertion/relation:related-unit:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
