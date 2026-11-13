@@ -439,7 +439,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute is used to store a brief description of the content of external media. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the person looks or sounds like. A new row is created for each distinct media item about the materiel.
+This attribute is used to store a brief description of the content of external media. The description should be sufficient for the analyst to quickly appraise what they can expect to find in the media about what the materiel looks or sounds like. A new row is created for each distinct media item about the materiel.
 
 
 materiel:roles:assertion
