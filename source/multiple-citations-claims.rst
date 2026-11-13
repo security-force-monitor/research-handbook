@@ -28,7 +28,7 @@ In many countries a city, small administrative division, and sub national divisi
 
 .. admonition:: Example
 
-    Bawlakhe in Myanmar is the name of a city, a township (a small administrative division) and a district (a larger administrative division that contains one or more townships). If a citation states that a :ref:`unit` is based in Bawlakhe it should be coded as Bawlakhe District as that is the largest area. However, if other citations evidence the same unit is based in the city of Bawlakhe then these could be added as contextual citations and the claim could be coded as * also * evidencing a :ref:`positioning` for the unit in the city of Bawlakhe. 
+    Bawlakhe in Myanmar is the name of a city, a township (a small administrative division) and a district (a larger administrative division that contains one or more townships). If a citation states that a :ref:`unit` is based in Bawlakhe it should be coded as Bawlakhe District as that is the largest area. However, if other citations evidence the same unit is based in the city of Bawlakhe then these could be added as contextual citations and the claim could be coded as **also** evidencing a :ref:`positioning` for the unit in the city of Bawlakhe. 
 
 
 Taking on Classifications of Positionings of Subordinate Units
