@@ -10,13 +10,6 @@ Locations are the way we sketch out the geographical footprint of security units
 
 In the Security Force Monitor (SFM) data model, locations are a discrete set of datapoints that can be referenced in other parts of the dataset. 
 
-
-.. figure:: _static/location_general_concept.png
-   :width: 95%
-   :figwidth: 100%
-   :align: center
-   :alt: Chart from the Security Force Monitor Research Handbook that describes what Locations are, and how they work in the Security Force Monitor research approach.
-
 To define a :ref:`Location`, we start with information included in the sources contain the claims on which our research is based (see :ref:`What is a claim?` and :ref:`Sources`). The Location descriptions contained in sources vary greatly in their precision and accuracy:
 
  - At a precise coordinate: "Artillery Brigade deployed to latitude x, longitude y".
