@@ -13,7 +13,7 @@ The Monitor's data structure allows for a range of cross-referencing. This could
 
 .. admonition:: Example: Commander Too Senior
 
-    A common issue is when a senior commander is identified as the "commander" of a low-level unit. Usually this means that they are ultimately in charge of the unit, but not the actual commander of the low-level unit. For example, a citation states that ``Major General`` ``John Smith`` was commander of ``22 Battalion``. Cross-referencing the postings of other major generals allows us to see that other citations evidence major generals in country command divisions, which command brigades, which in turn command battalions. Claims for other postings evidence that brigades are usually commanded by brigadier generals (a lower rank than Major General), and battalions are commanded by colonels (a lower rank than brigadier general). As a result, the claim could coded as ``conflict``.
+    A common issue is when a senior commander is identified as the "commander" of a low-level unit. Usually this means that they are ultimately in charge of the unit, but not the actual commander of the low-level unit. For example, a citation states that ``Major General`` ``John Smith`` was commander of ``22 Battalion``. Cross-referencing the postings of other major generals allows us to see that other citations evidence major generals in country command divisions, which command brigades, which in turn command battalions. Claims for other postings evidence that brigades are usually commanded by brigadier generals (a lower rank than Major General), and battalions are commanded by colonels (a lower rank than brigadier general). As a result, the claim could be coded as ``conflict``.
 
 .. admonition:: Example: Typo in Unit Name
 
