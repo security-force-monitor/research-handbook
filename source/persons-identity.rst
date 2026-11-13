@@ -299,7 +299,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <person-about-entity>`` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import. For a :ref:`person` best practice is to use the :ref:`name:annotation <person-name-annotation>` in this field.
+This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <person-about-entity>` which combines the various elements of the claim into a single text field. This field can be manually added by a researcher or automatically populated by the system after import. For a :ref:`person` best practice is to use the :ref:`name:annotation <person-name-annotation>` in this field.
 
 
 .. _person-name-annotation:
