@@ -9,7 +9,7 @@ The :ref:`materiel` claim type describes basic identifying information about :re
 
 
 Materiel: Summary of claim attributes 
-***********************************
+*************************************
 
 The table below summarizes the following dimensions of :ref:`materiel` claims:
 
@@ -24,7 +24,7 @@ The table below summarizes the following dimensions of :ref:`materiel` claims:
 
 
 Materiel: Details of claim attributes
-***********************************
+*************************************
 
 This section contains further information about each attribute, including descriptions, examples of use, and Guidance on use.
 
