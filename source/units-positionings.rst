@@ -188,7 +188,7 @@ citation:refs:claim
 Description
 ~~~~~~~~~~~
 
-Field unique 32 character code assigned to citation(s) evidencing the claim.
+A unique 32 character code assigned to citation(s) evidencing the claim.
 
 Attribute type
 ~~~~~~~~~~~~~~
