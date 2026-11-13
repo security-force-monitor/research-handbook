@@ -670,7 +670,7 @@ n/a - proposed field
 Example of use
 ~~~~~~~~~~~~~~
 
-``4d7d97a6-d85e-436b-9511-81e8d55ceff3``(the identifier for the location``Baga (osm, point) 4d7d97a6-d85e-436b-9511-81e8d55ceff3``)
+``4d7d97a6-d85e-436b-9511-81e8d55ceff3`` (the identifier for the location``Baga (osm, point) 4d7d97a6-d85e-436b-9511-81e8d55ceff3``)
 
 Guidance on use
 ~~~~~~~~~~~~~~~
