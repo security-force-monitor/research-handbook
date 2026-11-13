@@ -471,7 +471,7 @@ n/a - proposed
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`_. This field is used to aid grouping trainings into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based the :ref:`citation:refs:claim <training-citation>`.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`_. This field is used to aid grouping trainings into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based on the :ref:`citation:refs:claim <training-citation>`.
 
 
 training:recipient_unit:refs:assertion
@@ -607,7 +607,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`_. This field is used to aid grouping trainings into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based the target country for the :ref:`training` as specified in the citation, or any related :ref:`positioning` the :ref:`training:recipient_unit:refs:assertion` holds, or any other contextual information from citations about the :ref:`training:recipient_unit:refs:assertion`.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found `on the ISO website <https://www.iso.org/obp/ui/#search>`_. This field is used to aid grouping trainings into datasets related to specific countries and does not denote the country of origin of a unit. The specific country code should be chosen based on the target country for the :ref:`training` as specified in the citation, or any related :ref:`positioning` the :ref:`training:recipient_unit:refs:assertion` holds, or any other contextual information from citations about the :ref:`training:recipient_unit:refs:assertion`.
 
 
 training:location:descriptions:assertion
