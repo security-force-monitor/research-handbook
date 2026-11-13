@@ -358,7 +358,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is human readable name for the :ref:`unit` with the :ref:`positioning`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
+This is a human readable name for the :ref:`unit` with the :ref:`positioning`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
 
 
 positioning:types:assertion
