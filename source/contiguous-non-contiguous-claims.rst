@@ -12,7 +12,7 @@ Answering the question “who was where when?” is central for investigations i
 -  Relationships between units
 -  Location of units
 -  Areas of operation for units
--  Membership/participation of units of in multi-unit operations
+-  Membership/participation of units in multi-unit operations
 -  Positions held by people
 
 While attaching time to data points aids our mission to support human rights investigations and advocacy, it raises methodological challenges and questions such as:
@@ -43,15 +43,15 @@ Thus, whenever the Monitor gets a new source of information we have to decide wh
 -  Are there any other mitigating sources (i.e. major restructuring of the military, constitutional changes, etc.) which may impact the basing of the unit?
 -  Is more research needed before the Monitor can make any claim?
 
-An argument could be the Monitor should always make “separate claims” as that would be more faithful to the sources. However, the result likely mean an almost incomprehensible amount of detail in the records of people and units, which would obscure when changes really did occur, for instance when a person changed positions or a unit ends operations in an area. To some extent, our claim-based system (see :ref:`How Dates Work`) allows us to manage this complexity more easily. It gives us the ability to check specific underlying dates and data points, to plot timelines that have both claimed and inferred date ranges, and to make choices about continuity as described in this article.
+An argument could be made that the Monitor should always make “separate claims” as that would be more faithful to the sources. However, the result would likely mean an almost incomprehensible amount of detail in the records of people and units, which would obscure when changes really did occur, for instance when a person changed positions or a unit ends operations in an area. To some extent, our claim-based system (see :ref:`How Dates Work`) allows us to manage this complexity more easily. It gives us the ability to check specific underlying dates and data points, to plot timelines that have both claimed and inferred date ranges, and to make choices about continuity as described in this article.
 
-Time is a constant challenge, but given that is a key element in identifying perpetrators of human rights abuses it is necessary to get it right.
+Time is a constant challenge, but given that it is a key element in identifying perpetrators of human rights abuses it is necessary to get it right.
 
 
 Positionings
 ************
 
-Each :ref:`positioning` is always treated as a contiguous, meaning it has the same UUID, unless citations establish it is non-contiguous. 
+Each :ref:`positioning` is always treated as contiguous, meaning it has the same UUID, unless citations establish it is non-contiguous. 
 
 A :ref:`positioning` should always be given the same UUID if there is an overlap or if the time-ranges of two or more citations fall within 1 day of each other. 
 
