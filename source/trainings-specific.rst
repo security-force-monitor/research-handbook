@@ -582,7 +582,7 @@ training:recipient_country:annotation
 Description
 ~~~~~~~~~~~
 
-Traget country for training, used for grouping claims.
+Target country for training, used for grouping claims.
 
 Attribute type
 ~~~~~~~~~~~~~~
