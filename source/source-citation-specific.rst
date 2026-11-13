@@ -345,6 +345,11 @@ Status
 
 This attribute is optional.
 
+Key name
+~~~~~~~~
+
+:citation/archived-at
+
 Example of use
 ~~~~~~~~~~~~~~
 
