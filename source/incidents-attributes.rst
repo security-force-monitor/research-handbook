@@ -7,7 +7,7 @@ Incidents may include extrajudicial killings, rape, torture and other forms of v
 
 The Security Force Monitor does not make allegations against security forces. Nothing in the Monitor’s work should be taken as an allegation made by the Monitor against a unit or person. In our work we treat all claims of human rights violations as “alleged” to indicate that these are claims that other organizations have made.
 
-For each incident, we include a description of the incident from the organization making the allegation, and from this structure data for the alleged type of human rights violation(s), the alleged perpetrator(s), date range and location the alleged type of human rights violation occurred. The data that we publish does not attempt to demonstrate involvement of individuals or units in human rights abuses beyond that which other organizations have alleged.
+For each incident, we include a description of the incident from the organization making the allegation, and from this description we structure data for the alleged type of human rights violation(s), the alleged perpetrator(s), date range and location the alleged type of human rights violation occurred. The data that we publish does not attempt to demonstrate involvement of individuals or units in human rights abuses beyond that which other organizations have alleged.
 
 
 Incident: Summary of claim attributes
@@ -415,7 +415,7 @@ country:annotation
 Description
 ~~~~~~~~~~~
 
-Associated country of the unit used for grouping claims.
+Associated country of the incident used for grouping claims.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -478,7 +478,7 @@ In this attribute we record a direct quotation from the civil society, governmen
 
     According to X organization, “Description of incident”. According to Y organization, “Description of incident”.
 
-Best practice is for the :ref:`incident:violation:descriptions:assertion` to contain all of the information in the :ref:`incident` claim. This would allow any reader or researcher could read the :ref:`incident:violation:descriptions:assertion` and understand the entries in any field for the :ref:`incident`.
+Best practice is for the :ref:`incident:violation:descriptions:assertion` to contain all of the information in the :ref:`incident` claim. This would allow any reader or researcher to read the :ref:`incident:violation:descriptions:assertion` and understand the entries in any field for the :ref:`incident`.
 
 
 incident:violation:types:assertion
@@ -580,7 +580,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Where a source make an allegation against a specific :ref:`unit` and/or :ref:`person`, this attribute is used to store the UUID of the :ref:`unit` (:ref:`about_entity:ref:claim <unit-about-entity>`) and/or :ref:`person` (:ref:`about_entity:ref:claim <person-about-entity>`). The :ref:`unit` or :ref:`person` must already exist in the dataset. An :ref:`incident` can have multiple units and/or persons as perpetrators.
+Where a source makes an allegation against a specific :ref:`unit` and/or :ref:`person`, this attribute is used to store the UUID of the :ref:`unit` (:ref:`about_entity:ref:claim <unit-about-entity>`) and/or :ref:`person` (:ref:`about_entity:ref:claim <person-about-entity>`). The :ref:`unit` or :ref:`person` must already exist in the dataset. An :ref:`incident` can have multiple units and/or persons as perpetrators.
 
 
 incident:perpetrator:names:qa
@@ -654,7 +654,7 @@ Sometimes a citation will report general information about the alleged perpetrat
 
     According to Amnesty International: "On 1 May 2012, around midnight, Nigerian soldiers arrested 37-year-old Dungus Ladan (not his real name), at his home in Maiduguri. Fatima, Dungus’ wife, told Amnesty International that the soldiers promised to just take him for an interrogation that should not last more than a few hours. When her husband did not return, she said, his father went on 3 May to Giwa barracks to check what had happened. Soldiers told him that Dungus had already been released. When he still did not return, the father went back again to the barracks, where soldiers told him that he should come back the next day to bail out his son. The following day, several relatives went together and gave the soldiers “what they could,” and the soldiers again promised to release Dungus that day. His wife said that the soldiers kept asking for money, and the family kept paying, but Dungus was never released. In February 2014, his father saw Dungus in the detention facility; they spoke briefly. Dungus said he had been framed by some people who owed him money and they arranged for him to be arrested and detained. Since then, his family has not seen him again; soldiers at Giwa barracks have told them he is not there."
 
-The only alleged perpetrators described in this alleged incident are "soldiers". The most appropriate term to enter in :ref:`incident:perpetrator:classifications:assertion` to match this description which would be "military" because "soldiers" could refer to personnel of the Army, Navy or other armed services of a country.
+The only alleged perpetrators described in this alleged incident are "soldiers". The most appropriate term to enter in :ref:`incident:perpetrator:classifications:assertion` to match this description would be "military" because "soldiers" could refer to personnel of the Army, Navy or other armed services of a country.
 
 An :ref:`incident` may have entries in both the :ref:`incident:perpetrator:classifications:assertion` and :ref:`incident:perpetrator:refs:assertion` fields.
 
