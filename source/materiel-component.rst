@@ -472,7 +472,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the :ref:`component:aggregate_materiel:refs:assertion` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <materiel-name-annotation>` of the :ref:`materiel` in the :ref:`component:aggregate_materiel:refs:assertio` field.
+This field provides a human readable counterpart to the :ref:`component:aggregate_materiel:refs:assertion` field. This field can be manually added by a researcher or automatically populated by the system after import. Best practice for this field is to use the :ref:`name:annotation <materiel-name-annotation>` of the :ref:`materiel` in the :ref:`component:aggregate_materiel:refs:assertion` field.
 
 
 first_precise:range
