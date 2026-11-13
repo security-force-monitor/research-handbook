@@ -55,7 +55,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Data are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever there is a conflicts with another location and a review shows it to be the incorrect or false location. A :ref:`public_notes:meta <notes-location>` should always accompany any ``conflict`` flag.
+Data are marked ``accepted`` when all of the data can be entered in accordance with the guidance of this handbook. The ``conflict`` flag is used whenever there is a conflict with another location and a review shows it to be the incorrect or false location. A :ref:`public_notes:meta <notes-location>` should always accompany any ``conflict`` flag.
 
 If the data itself cannot be brought into the SFM standard the flag ``issue`` should be used. Finally, if it cannot be established whether a location should be flagged as ``accepted`` or ``conflict`` then the flag ``work_needed`` should be used as additional research is needed.
 
@@ -334,7 +334,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-The value in :ref:`origin_id:location` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's "id" attribute and place it in the :ref:`origin_id:location` attribute. Along with :ref:`name:annotation <location-name-annotation>` and :ref:`geo_type:qa`, :ref:`origin_id:location` is needed in order for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily defined, or is derived from a data source that does not provide a ID number, the Staff Researcher can provide one.
+The value in :ref:`origin_id:location` is to be taken directly from the geospatial data source. For example, if a Location is derived from OpenStreetMap, we take the value from OSM's "id" attribute and place it in the :ref:`origin_id:location` attribute. Along with :ref:`name:annotation <location-name-annotation>` and :ref:`geo_type:qa`, :ref:`origin_id:location` is needed in order for automation tools to identify the object within the geospatial data source. Where a Location is arbitrarily defined, or is derived from a data source that does not provide an ID number, the Staff Researcher can provide one.
 
 
 geo_type:qa
@@ -368,13 +368,13 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute used a controlled vocabulary to describe the type of geometry used to represent the Location on a map. The Staff Researcher can choose from the following three options:
+This attribute uses a controlled vocabulary to describe the type of geometry used to represent the Location on a map. The Staff Researcher can choose from the following three options:
 
  - ``point``: the Location is a single distinct point on a map, represented by a single pair of geographic coordinates.
  - ``poly``: the Location is a closed area on a map, its boundary described by a sequence of geographic coordinates.
  - ``line``: the Location is a line on a map, described by a sequence of geographic coordinates. A ``line`` may also be closed.
 
-The gazetteer used as the source of geometry may be used different terminology to describe the Location. For example, in OpenStreetMap the boundaries of administrative areas (such as counties or states) `are described <https://wiki.openstreetmap.org/wiki/Relation>`_ using an object called a "relation"; although this can be a complex mix of different objects, for our purposes it is a ``poly`` because it describes an area.
+The gazetteer used as the source of geometry may use different terminology to describe the Location. For example, in OpenStreetMap the boundaries of administrative areas (such as counties or states) `are described <https://wiki.openstreetmap.org/wiki/Relation>`_ using an object called a "relation"; although this can be a complex mix of different objects, for our purposes it is a ``poly`` because it describes an area.
 
 
 country:annotation
@@ -509,7 +509,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-In every country, places are organized hierarchically based on their administrative hierarchy. This feature passes into geographical information systems. At the top of the hierarchy rests the international boundary and capital city of a country; beneath this, there are sub-national divisions like states or provinces, with their respective capitals, followed by smaller and smaller administrative divisions districts, counties, municipalities, towns, suburbs, wards and so on. Different countries have different ways of describing these political and administrative divisions, but they are largely hierarchical and can be cross-compared. Knowing the level(s) at which a Location sits in the overall hierarchy provides us with a useful way to group and understand Locations.
+In every country, places are organized hierarchically based on their administrative hierarchy. This feature passes into geographical information systems. At the top of the hierarchy rests the international boundary and capital city of a country; beneath this, there are sub-national divisions like states or provinces, with their respective capitals, followed by smaller and smaller administrative divisions: districts, counties, municipalities, towns, suburbs, wards and so on. Different countries have different ways of describing these political and administrative divisions, but they are largely hierarchical and can be cross-compared. Knowing the level(s) at which a Location sits in the overall hierarchy provides us with a useful way to group and understand Locations.
 
 The attribute :ref:`location:admin_level:qa` is drawn from the geographic source, such as the UN Office for the Coordination of Humanitarian Affairs (OCHA) schema which `can be found here <https://knowledge.base.unocha.org/wiki/spaces/imtoolbox/pages/3942121476/COD-AB+lines+layers>`__. If the source lacks its own hierarchy then we use OpenStreetMap, which has a `comprehensive table <https://wiki.openstreetmap.org/wiki/Tag:boundary=administrative>`__ that matches the divisions that exist in every country.
 
@@ -919,7 +919,7 @@ n/a - proposed
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
+Locations are treated as entities, and not claims in the data model, which means they do not require citations as the location entity is drawn from the geographic database. However, geographic databases generally do not evidence the dates a location was created, or disbanded. This information comes from other citations, which of course may have claims that are in conflict with one another. Additional work is needed to update how locations are managed to capture this complexity clearly and accurately. More background on dates can be found in the section :ref:`How Dates Work`.
 
 
 last_precise:range
