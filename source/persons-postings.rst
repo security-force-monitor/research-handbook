@@ -527,7 +527,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Ranks for security forces are usually established in law or policy or listed on websites of security forces themselves. Best practice is to find this citation first and then use this contextual citation for any other citation referencing a rank with an abbreviation, such as "Lt. Col." for Lieutenant Colonel. In some countries ranks are refenced with a dash "-" rather than a space between words. Generally, SFM aims to avoid entering dashes or other additional punctuation into data and thus would enter ``Brigadier General`` rather than ``Brigadier-General``.
+Ranks for security forces are usually established in law or policy or listed on websites of security forces themselves. Best practice is to find this citation first and then use this contextual citation for any other citation referencing a rank with an abbreviation, such as "Lt. Col." for Lieutenant Colonel. In some countries ranks are referenced with a dash "-" rather than a space between words. Generally, SFM aims to avoid entering dashes or other additional punctuation into data and thus would enter ``Brigadier General`` rather than ``Brigadier-General``.
 
 
 first_precise:range
