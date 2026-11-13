@@ -25,6 +25,40 @@ Citation: Details of attributes
 This section contains further information about each attribute, including descriptions, examples of use, and guidance on use.
 
 
+source:search_string_strategy
+=============================
+
+Description
+~~~~~~~~~~~
+
+Record of the search string or search strategy which found the citation.
+
+Attribute type
+~~~~~~~~~~~~~~
+
+String
+
+Status
+~~~~~~
+
+This is a draft field
+
+Example of use
+~~~~~~~~~~~~~~
+
+n/a
+
+Key name
+~~~~~~~~
+
+n/a
+
+Guidance on use
+~~~~~~~~~~~~~~~
+
+Staff Researchers use this field to capture the search string or search strategy which found the citation.
+
+
 source:comments:admin
 =====================
 
