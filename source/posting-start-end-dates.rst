@@ -44,7 +44,7 @@ Occasionally, citations reporting on appointments may also reference the current
 
     A citation states: "John Smith was appointed commander of the 1 Brigade on 2014-08-01, replacing Christopher Butler, the previous commander."
 
-    In this example the :ref:`posting` for ``John Smith`` still starts on ``2014-08-01`` (``starting:range`` for Smith's :ref:`posting` is ``Y``), and it also establishes the end for the :ref:`posting` of ``Christopher Butler`` on ``2014-08-01`` (in other terms the ``ending:range`` for Butler`s :ref:`posting` is ``Y``). Bulter would also have an imprecise range of ``since_beginning_of_time`` to ``2014-07-31`` (see :ref:`How Dates Work` for more guidance).
+    In this example the :ref:`posting` for ``John Smith`` still starts on ``2014-08-01`` (``starting:range`` for Smith's :ref:`posting` is ``Y``), and it also establishes the end for the :ref:`posting` of ``Christopher Butler`` on ``2014-08-01`` (in other terms the ``ending:range`` for Butler's :ref:`posting` is ``Y``). Butler would also have an imprecise range of ``since_beginning_of_time`` to ``2014-07-31`` (see :ref:`How Dates Work` for more guidance).
 
 When with Both Appointments and Ceremonies Have Issues
 ******************************************************
