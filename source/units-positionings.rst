@@ -3,7 +3,7 @@ Positioning
 
 The :ref:`positioning` claim describes the geographic footprint of a specific unit. This includes the ``site`` or base of a unit, as well as the areas of operation (``aoo``) of a :ref:`unit`.
 
-Generally, every :ref:`positioning` should be "taken on by" superior units or the :ref:`relation:related_unit:refs:assertion` units, which have a :ref:`relation` that overlaps any :ref:`positioning` claim for any subordinate :ref:`unit`. See 
+Generally, every :ref:`positioning` should be "taken on by" superior units or the :ref:`relation:related_unit:refs:assertion` units, which have a :ref:`relation` that overlaps any :ref:`positioning` claim for any subordinate :ref:`unit`. See :ref:`Superior Units Taking On Positionings and Classifications of Subordinates` for a fuller discussion of this concept.
 
 .. admonition:: Example
 
