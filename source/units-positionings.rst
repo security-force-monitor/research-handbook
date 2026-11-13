@@ -348,7 +348,7 @@ This attribute is optional
 Key name
 ~~~~~~~~
 
-``:assertion/positioning:unit:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
@@ -500,7 +500,7 @@ This attribute is optional
 Key name
 ~~~~~~~~
 
-``:assertion/positioning:location:refs``
+n/a
 
 Example of use
 ~~~~~~~~~~~~~~
