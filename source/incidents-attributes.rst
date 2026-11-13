@@ -966,7 +966,7 @@ n/a
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Generally this field is left blank for an :ref:`incident` as descriptions are available in the :ref:``incident:violation:descriptions:assertion`. Guidance on dates can be found in the section :ref:`How Dates Work`.
+Generally this field is left blank for an :ref:`incident` as descriptions are available in the :ref:`incident:violation:descriptions:assertion`. Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 ending_context:range
@@ -1000,7 +1000,7 @@ n/a
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Generally this field is left blank for an :ref:`incident` as descriptions are avaliable in the :ref:``incident:violation:descriptions:assertion`. Guidance on dates can be found in the section :ref:`How Dates Work`.
+Generally this field is left blank for an :ref:`incident` as descriptions are avaliable in the :ref:`incident:violation:descriptions:assertion`. Guidance on dates can be found in the section :ref:`How Dates Work`.
 
 
 .. _incident-public-notes:
