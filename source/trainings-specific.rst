@@ -573,7 +573,7 @@ n/a - proposed field
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Sometimes a citation will report general information about the trainee. For example, rather than state a unit or a specific person the citation might include something generic like “soldiers” or “police". In these cases we use the same methodology used assign a :ref:`training:recipient:classifications:assertion` to assign a :ref:`unit:classifications:assertion`. The list of possible entries used in :ref:`training:recipient:classifications:assertion` is the same for :ref:`unit:classifications:assertion`.
+Sometimes a citation will report general information about the trainee. For example, rather than state a unit or a specific person the citation might include something generic like “soldiers” or “police". In these cases we use the same methodology used to assign a :ref:`training:recipient:classifications:assertion` to assign a :ref:`unit:classifications:assertion`. The list of possible entries used in :ref:`training:recipient:classifications:assertion` is the same for :ref:`unit:classifications:assertion`.
 
 
 training:recipient_country:annotation
