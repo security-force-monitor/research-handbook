@@ -464,7 +464,7 @@ This attribute is required.
 Key name
 ~~~~~~~~
 
-``assertion/incident:violation:descriptions``
+``:assertion/incident:violation:descriptions``
 
 Example of use
 ~~~~~~~~~~~~~~
