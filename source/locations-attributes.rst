@@ -851,7 +851,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 1 administrative level. The UN Office for the Coordination of Humanitarian Affairs (OCHA) defines the level 1 administrative level as the highest sub national boundaries of a country (OSM generally uses level 4 for these sub national boundaries). 
+This attribute contains the human-readable identifier (:ref:`location:humane_id:qa`) of the level 1 administrative level. The UN Office for the Coordination of Humanitarian Affairs (OCHA) defines the level 1 administrative level as the highest sub-national boundaries of a country (OSM generally uses level 4 for these sub-national boundaries). 
 
 
 location:admin_level_0:qa
