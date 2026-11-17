@@ -65,7 +65,7 @@ source:source_id:admin
 Description
 ~~~~~~~~~~~
 
-A unique 32 character-code assigned to the source.
+A unique 32-character code assigned to the source.
 
 Attribute type
 ~~~~~~~~~~~~~~
