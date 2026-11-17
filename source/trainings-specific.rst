@@ -5,7 +5,7 @@ Training
 
    Draft documentation. The format described in this documentation is a proposed format which may change with further research and development.
 
-Trainings are training and assistance intervention provided bilaterally by a state or by a multilateral security actor like the European Union to the security or defense forces of another state. 
+Trainings are training and assistance interventions provided bilaterally by a state or by a multilateral security actor like the European Union to the security or defense forces of another state. 
 
 
 Training: Summary of claim attributes 
@@ -310,7 +310,7 @@ training:program:refs:assertion
 Description
 ~~~~~~~~~~~
 
-The name of program which the :ref:`training:course:refs:assertion` is part.
+The name of the program which the :ref:`training:course:refs:assertion` is part.
 
 Attribute type
 ~~~~~~~~~~~~~~
