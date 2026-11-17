@@ -177,7 +177,7 @@ Text, controlled, single entry
 Status
 ~~~~~~
 
-This attribute is optional.
+This attribute is required.
 
 Key name
 ~~~~~~~~
