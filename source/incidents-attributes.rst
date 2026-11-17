@@ -425,7 +425,7 @@ Text, controlled vocabulary.
 Status
 ~~~~~~
 
-This attribute is optional.
+This attribute is required.
 
 Key name
 ~~~~~~~~
