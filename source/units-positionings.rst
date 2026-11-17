@@ -399,8 +399,8 @@ This field defines the relationship between a unit and a :ref:`location`. The St
 
 The specifics of this "smallest/lowest level encompassing administrative area" varies country to country. Generally, the following should be used:
 
- - :ref:`location:admin_level:qa` of ``3`` or ``4`` if :ref:`location` is drawn from UN Office for the Coordination of Humanitarian Affairs (OCHA)
- - :ref:`location:admin_level:qa` of ``6`` or lower if :ref:`location` is drawn from OpenStreetMap
+ - :ref:`location:admin_level:qa` of ``3`` or ``4`` if :ref:`location` is drawn from UN Office for the Coordination of Humanitarian Affairs (OCHA), (meaning the :ref:`origin:location` would be ``ocha``).
+ - :ref:`location:admin_level:qa` of ``6`` or lower if :ref:`location` is drawn from OpenStreetMap (OSM), (meaning the :ref:`origin:location` would be ``osm``).
 
 
 
