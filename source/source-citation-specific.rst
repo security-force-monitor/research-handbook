@@ -194,7 +194,7 @@ Guidance on use
 
 A source has at least one access point, but may have many. For example, if a source is a document we may draw information from a number of different pages (or ranges of pages). For each page or range of pages, we would create a new access point to the source. The field :ref:`source:access_point_type` tells us what method we have used to create the access point - in this case ``page``. The number of the page or page range will be recorded in a related attribute called :ref:`source:access_point_trigger`.
 
-There are eight ways to "trigger" a citation of a specific source, taking in account the source's media type:
+There are eight ways to "trigger" a citation of a specific source, taking into account the source's media type:
 
 - ``archive``: an archive snapshot of the source.
 - ``page``: a page or range of page in a document source like a book or report.
@@ -321,7 +321,7 @@ A source becomes usable by Staff Researchers when it has a citation. After enter
 
 In the majority of cases, this will suffice. However, in some cases, we may need to specify more than one Internet Archive snapshot for the same source - each different snapshot creates a distinct citation. The common reason for this is that the source content changes, but the basic source level details such as the title or url of the source do not. A good example of this is this (dead) URL published by the *Secretaría de la Defensa Nacional* in Mexico: ``http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``. It lists the commanders of Mexico's military garrisons, and we have included reference to this in our data about the Mexican army. The title, initial publication date, publication and basic URL did not change: however, over time the content did. In each of 24 different snapshots made by the Internet Archive, the list of commanders is different. In this case, we have a single source with 24 citations: each citation refers to a specific version of that source containing the exact information that we relied upon to create various claims.
 
-The example above also illustrates an important point: sometimes a source is only available in an archived form, because its original source URL is no longer online. There are many reasons a link many no longer be live, and this problem is known as "linkrot". In these cases, the researcher can fill in :ref:`source:url` with a portion of the Internet Archive URL printed after the timestamp. For example:
+The example above also illustrates an important point: sometimes a source is only available in an archived form, because its original source URL is no longer online. There are many reasons a link may no longer be live, and this problem is known as "linkrot". In these cases, the researcher can fill in :ref:`source:url` with a portion of the Internet Archive URL printed after the timestamp. For example:
 
 - Archive URL: ``https://web.archive.org/web/20040208204841/http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``
 - Original URL extracted from the Archive URL: ``http://www.sedena.gob.mx:80/ejercito/comandancias/gur_mil.htm``
