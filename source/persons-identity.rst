@@ -525,7 +525,7 @@ country:annotation
 Description
 ~~~~~~~~~~~
 
-Country person is associated with for grouping claims.
+Country the person is associated with, used for grouping claims.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -535,7 +535,7 @@ Text, controlled vocabulary
 Status
 ~~~~~~
 
-This attribute is optional.
+This attribute is required.
 
 Key name
 ~~~~~~~~
