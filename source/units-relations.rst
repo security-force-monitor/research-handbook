@@ -1,7 +1,7 @@
 Relation
 ########
 
-The :ref:`relation` claim type describes how a :ref:`unit` relates to another :ref:`unit`. This can be used to model a hierarchical "tree" where one :ref:`unit` is subordinate to another, or it can also be used to model joint-task force or other multi-unit grouping where the grouping is comprised of members from multiple different units.
+The :ref:`relation` claim type describes how a :ref:`unit` relates to another :ref:`unit`. This can be used to model a hierarchical "tree" where one :ref:`unit` is subordinate to another, or it can also be used to model joint task force or other multi-unit grouping where the grouping is comprised of members from multiple different units.
 
 Relation: Summary of claim attributes
 *************************************
@@ -504,7 +504,7 @@ The ``class`` entry in this field is exclusively used for modeling the different
 
 .. admonition:: Example
 
-    The ``Philippine Military Academy`` and ``Philippine National Police Academy`` enroll students every year into a formal academic program to train them as officers. These cohorts are organized into "classes" named after the year that they will graduate, such as "Class of 1998". To model this we create a :ref:`unit` ``Class of 1998 (Philippine National Police Academy)`` which has a :ref:`relation` with ``Philippine National Police Academy`` where :ref:`relation:related_unit_classes:assertion` is ``class``. The ``Defense Services Academy`` in Myanmar enroll students every year via cohorts organized into numbered "intakes", such as "Intake 30". Similar to the example above, we create ``Intake 30 (Defense Services Academy)`` which has a :ref:`relation` with ``Defense Services Academy`` where :ref:`relation:related_unit_classes:assertion` is ``class``.
+    The ``Philippine Military Academy`` and ``Philippine National Police Academy`` enroll students every year into a formal academic program to train them as officers. These cohorts are organized into "classes" named after the year that they will graduate, such as "Class of 1998". To model this we create a :ref:`unit` ``Class of 1998 (Philippine National Police Academy)`` which has a :ref:`relation` with ``Philippine National Police Academy`` where :ref:`relation:related_unit_classes:assertion` is ``class``. The ``Defense Services Academy`` in Myanmar enrolls students every year via cohorts organized into numbered "intakes", such as "Intake 30". Similar to the example above, we create ``Intake 30 (Defense Services Academy)`` which has a :ref:`relation` with ``Defense Services Academy`` where :ref:`relation:related_unit_classes:assertion` is ``class``.
 
 ``administrative`` relationships exist where a formal, non-command relationship exists between units, or where an administrative description is more accurate of the relationship between two units.
 
