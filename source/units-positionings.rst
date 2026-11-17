@@ -377,7 +377,7 @@ String selected from controlled list
 Status
 ~~~~~~
 
-This attribute is optional
+This attribute is required.
 
 Key name
 ~~~~~~~~
@@ -420,7 +420,7 @@ String
 Status
 ~~~~~~
 
-This attribute is optional
+This attribute is optional.
 
 Key name
 ~~~~~~~~
@@ -461,7 +461,7 @@ String in UUID format for the :ref:`location` selected from :ref:`id:entity` in 
 Status
 ~~~~~~
 
-This attribute is optional.
+This attribute is required.
 
 Key name
 ~~~~~~~~
