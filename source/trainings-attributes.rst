@@ -310,7 +310,7 @@ training:program:refs:assertion
 Description
 ~~~~~~~~~~~
 
-The name of the program which the :ref:`training:course:refs:assertion` is part.
+The name of the program of which the :ref:`training:course:refs:assertion` is part.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -539,7 +539,7 @@ n/a - proposed field
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This is human readable name for the :ref:`training:recipient_unit:refs:assertion`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
+This is a human readable name for the :ref:`training:recipient_unit:refs:assertion`. The field can be manually entered or automatically populated by the system. Best practice for this field is to use the :ref:`name:annotation <unit-name-annotation>` for the :ref:`unit`.
 
 
 training:recipient:classifications:assertion
