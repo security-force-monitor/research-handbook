@@ -393,7 +393,7 @@ Text, controlled vocabulary
 Status
 ~~~~~~
 
-This attribute is required.
+This attribute is optional.
 
 Key name
 ~~~~~~~~
