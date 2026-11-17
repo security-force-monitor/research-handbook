@@ -25,7 +25,7 @@ For a precise range all of the details of the claim are true for all dates in th
     
     **posting**
     
-    ``John Smith`` as part of ``1 Brigade`` has :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
+    ``John Smith`` as part of ``1 Brigade`` with :ref:`posting:roles:assertion` of ``Commander`` would have a ``first_precise:range`` of ``2014-08-01`` and ``last_precise:range`` of ``2014-08-01``, with the ``starting:range`` of ``Y`` and ``ending:range`` of ``N``.
 
 In the example above the citation clearly states that the :ref:`posting` starts on a specific date of ``2014-08-01``. However, it does not indicate that the :ref:`person` was born on that day or that the :ref:`unit` was created on that day. Thus, the ``starting:range`` for the :ref:`person` and :ref:`unit` is ``N``.
 
