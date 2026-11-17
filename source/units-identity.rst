@@ -484,7 +484,7 @@ country:annotation
 Description
 ~~~~~~~~~~~
 
-Associated country of the unit used for grouping claims.
+Associated country of the unit, used for grouping claims.
 
 Attribute type
 ~~~~~~~~~~~~~~
@@ -494,7 +494,7 @@ Text, controlled vocabulary.
 Status
 ~~~~~~
 
-This attribute is optional.
+This attribute is required.
 
 Key name
 ~~~~~~~~
