@@ -43,16 +43,16 @@ Table of Contents
    :maxdepth: 2
 
    source-citation-publication-overview
-   source-publication-specific   
-   source-source-specific
-   source-citation-specific
+   source-publication-attributes 
+   source-source-attributes
+   source-citation-attributes
 
 .. toctree::
    :caption: Locations
    :maxdepth: 2
 
    locations-overview
-   locations-specific
+   locations-attributes
 
 .. toctree::
    :caption: Units
@@ -83,14 +83,14 @@ Table of Contents
    :maxdepth: 2
 
    trainings-overview
-   trainings-specific
+   trainings-attributes
 
 .. toctree::
    :caption: Materiel (Draft)
    :maxdepth: 2
 
    materiel-overview
-   materiel-identity
+   materiel-attributes
    materiel-component
    materiel-equipment
 
