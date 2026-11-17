@@ -134,7 +134,7 @@ citation:refs:location
 Description
 ~~~~~~~~~~~
 
-Field unique 32-character code assigned to citation(s) evidencing the location.
+A unique 32-character code assigned to citation(s) evidencing the location.
 
 Attribute type
 ~~~~~~~~~~~~~~
