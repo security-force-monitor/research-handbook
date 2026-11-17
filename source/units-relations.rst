@@ -390,7 +390,7 @@ Guidance on use
 
 We use this field to define the nature of the relationship between the :ref:`unit` that is the subject of the claim (as described in :ref:`relation:unit:refs:assertion`) and the other :ref:`unit` described in :ref:`relation:related_unit:refs:assertion`. There are only two values that can be used by the researcher in this attribute:
 
- - ``child-of`` to define a hierarchic relationship. The unit specified in :ref:`relation:unit:refs:assertion` is the parent of the unit in :ref:`relation:related_unit:refs:assertion`.
+ - ``child-of`` to define a hierarchic relationship. The unit specified in :ref:`relation:unit:refs:assertion` is the child of the unit in :ref:`relation:related_unit:refs:assertion`.
  - ``member-of`` to define a membership relationship. The unit specified in :ref:`relation:unit:refs:assertion` has some personnel who are members of the unit noted in :ref:`relation:related_unit:refs:assertion`.
 
 A ``member-of`` :ref:`relation` is used to capture instances where personnel of one unit become personnel of another unit, such as a joint task force or peacekeeping mission, that has a distinct chain of command and geographic footprint. This is important to capture in the data model as the personnel in joint task force or peacekeeping mission are no longer under the command of their "home" unit or at the minimum have an altered :ref:`relation` with their "home" chain of command.
