@@ -24,7 +24,7 @@ Unknown units are created when citations establish the hierarchy for units, but 
 Clarifying Positionings
 ***********************
 
-In many countries a city, small administrative division, and sub national division may all share similar names and be referenced with the same name. When it is unclear which location is being referenced the largest possible area should be used. Sometimes, however, citations can bring additional context to the :ref:`positioning` claim to help evidence that a smaller division, or even specific city is the appropriate claim.
+In many countries a city, small administrative division, and sub-national division may all share similar names and be referenced with the same name. When it is unclear which location is being referenced the largest possible area should be used. Sometimes, however, citations can bring additional context to the :ref:`positioning` claim to help evidence that a smaller division, or even specific city is the appropriate claim.
 
 .. admonition:: Example
 
