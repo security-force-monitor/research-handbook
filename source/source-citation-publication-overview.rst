@@ -44,7 +44,7 @@ A citation directs us to a particular part of a source that evidences the claim 
 There are seven ways to "trigger" a citation of a specific source, taking into account the source's media type:
 
 - ``archive``: an archive snapshot of the source.
-- ``page``: a page or range of page in a document source like a book or report.
+- ``page``: a page or range of pages in a document source like a book or report.
 - ``line``: a line or range of lines in a line-numbered document like an interview transcript.
 - ``clip``: a passage from a video or audio source, comprising a start time and a stop time.
 - ``frame``: a single capture point in a video.
