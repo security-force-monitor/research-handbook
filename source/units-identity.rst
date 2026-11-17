@@ -308,7 +308,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <unit-about-entity>` This field can be manually added by a researcher or automatically populated by the system after import. For a :ref:`unit` best practice is to use the :ref:`name:annotation <unit-name-annotation>` in this field.
+This field provides a human readable counterpart to the :ref:`about_entity:ref:claim <unit-about-entity>`. This field can be manually added by a researcher or automatically populated by the system after import. For a :ref:`unit` best practice is to use the :ref:`name:annotation <unit-name-annotation>` in this field.
 
 .. _unit-name-annotation:
 
@@ -347,13 +347,13 @@ The Security Force Monitor strives to create a single canonical version of a uni
 
 .. admonition:: Example
 
-    ``3 Armoured Division`` would be the entry for :ref:`name:annotation <unit-name-annotation>`, rather than the shorter ``3 Division`` (which may have more citations) would only be used in :ref:`unit:names:assertion`.
+    There are 18 citations which reference a unit's name as ``3 Division`` and only two citations which call it ``3 Armoured Division``. Even though there are many more citations for ``3 Division``, the :ref:`name:annotation <unit-name-annotation>` should be ``3 Armoured Division``. The shorter ``3 Division`` would only be used in :ref:`unit:names:assertion`.
 
 Units have several unique characteristics that require additional and unit specific methodological guidance. Units in security forces are arranged in hierarchies and share similar names with their peer units. However, while citations may establish general guidance for how units of a certain type should be named, each individual unit may not have citations evidencing the "complete" or "canonical" name of the unit.
 
 .. admonition:: Example
 
-    ``Police Divisions`` are a class of police units in Nigeria established by law. There are over 1000 units of this type nationwide. However, each individual ``Police Division`` may not have a citation for their full, formal name. For example, a citation references the ``Achall Division`` police unit in Anambra State. There is no citation for the fuller, more formal ``Achalla Police Division``. In this case, and similar cases, the Monitor would create a claim with ``Achalla Police Division`` in the :ref:`name:annotation <unit-name-annotation>` with citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``. This citation was created to specifically note the name for the unit has been created by the Monitor. Best practice is to also include any citations that provide contextual information for the standardized name, as well as a :ref:`public_notes:meta <unit-public-notes-meta>`.
+    ``Police Divisions`` are a class of police units in Nigeria established by law. There are over 1000 units of this type nationwide. However, each individual ``Police Division`` may not have a citation for their full, formal name. For example, a citation references the ``Achalla Division`` police unit in Anambra State. There is no citation for the fuller, more formal ``Achalla Police Division``. In this case, and similar cases, the Monitor would create a claim with ``Achalla Police Division`` in the :ref:`name:annotation <unit-name-annotation>` with citation ``50a65841-b429-4e77-b7e4-ac937dd2ae72``. This citation was created to specifically note the name for the unit has been created by the Monitor. Best practice is to also include any citations that provide contextual information for the standardized name, as well as a :ref:`public_notes:meta <unit-public-notes-meta>`.
 
 As many units do have standardized names, the Monitor follows several "stylistic" naming conventions for the :ref:`name:annotation <unit-name-annotation>` field:
 
@@ -386,7 +386,7 @@ As many units do have standardized names, the Monitor follows several "stylistic
 .. admonition:: Distinguishing Units with Same Name
     
     In cases where multiple units have the same name the Monitor will distinguish them by adding unique identifying text in parentheses based on the unit's location or parent unit.
-    For example, there are multiple "Central Police Station" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance ``Central Police Station (Awka, Anambra State)``. Another example is in Myanmar where there are multiple different units all called "1 Tactical Operations Command". To distinguish them the Monitor added the parent unit inside of parentheses for each tactical operations command, such as ``1 Tactical Operations Command (1 Military Operations Command)``.
+    For example, there are multiple "Central Police Station" formations across Nigeria, some based in the same state. To better distinguish that these are separate, distinct units the Monitor added information on where the units were located to the name field for instance ``Central Police Station (Awka, Anambra State)``. Another example is in Myanmar where there are multiple different units all called "1 Tactical Operations Command". To distinguish them the Monitor added the parent unit inside of parentheses for each tactical operations command, such as ``1 Tactical Operations Command (1 Military Operations Command)``.
 
 In some cases, we are aware that a unit exists because of what sources tell us about the general organizational structure. However, in some cases sources do not provide us with sufficient information to give these units a name, or to be precise about the nature of relationships between units. To resolve issues of this nature we use the concepts of "Unnamed" and "Unknown" units. We have written more about this in the Handbook page :ref:`Unknown and unnamed units`.
 
@@ -467,7 +467,7 @@ Units may have more than one classification. Usually this will be when a unit ca
 
 .. admonition:: Example
 
-    Units which are part of the army of a country may be coded as having a classification of ``Army`` as well as a classification of ``Military``, whereas units which are part of the navy of a country would have classifications of ``Navy`` and ``Military``. For both the army and navy unit their respective classifications are correct, the army and the navy are part of the military. Critically, this enables the Monitor or users of the Monitor's data to properly analyze allegations against "soldiers" and "members of the army" in the country. In the case of "soldiers" this analysis should include every unit with the classification of ``Military`` while if there is greater specificity of "members of the army" would mean excluding any unit with the classification of ``Navy`` and focusing only on those units with a classification of ``Army.``
+    Units which are part of the army of a country may be coded as having a classification of ``Army`` as well as a classification of ``Military``, whereas units which are part of the navy of a country would have classifications of ``Navy`` and ``Military``. For both the army and navy unit their respective classifications are correct, the army and the navy are part of the military. Critically, this enables the Monitor or users of the Monitor's data to properly analyze allegations against "soldiers" and "members of the army" in the country. In the case of "soldiers" this analysis should include every unit with the classification of ``Military``. In the case of "members of the army" would only on those units with a classification of ``Army``, so other units which are part of the ``Military``, such as units with classifications of ``Navy`` and ``Military`` would be excluded, since they do not have a classification of ``Army``.
 
 Every unit which has a "specific" classification should also have the "generic" classification as well.
 
