@@ -12,7 +12,7 @@ Through extensive analysis of public records, we map the chain of command to est
 
 Translating public information into structured data is foundational to our work and creates the ability to do this analysis.
 
-This Research Handbook details our Linkage Chain data model and the methodology that guides the process of finding and structuring information into the Linkage and Chain of Command data model.
+This Research Handbook details our Linkage and Chain of Command data model and the methodology that guides the process of finding and structuring information into the Linkage and Chain of Command data model.
 
 `More information about Security Force Monitor <https://securityforcemonitor.org>`__ can be found on our organizational website.
 
