@@ -261,7 +261,7 @@ Example of use
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Where available, record the date and time that the source was uploaded to the online platform or service on which it is hosted. This may differ from the date of creation or publication. Upload timestamp information may not be available for source - if this is the case, leave the field blank.
+Where available, record the date and time that the source was uploaded to the online platform or service on which it is hosted. This may differ from the date of creation or publication. Upload timestamp information may not be available for a source - if this is the case, leave the field blank.
 
 If a publication date is not available for a source, the timestamp of the snapshot of the source found in the Internet Archive should be used in this field (and the :ref:`source:published_timestamp` would be left blank).
 
