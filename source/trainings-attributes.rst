@@ -388,7 +388,7 @@ String in UUID format.
 Status
 ~~~~~~
 
-This attribute is required.
+This attribute is optional.
 
 Key name
 ~~~~~~~~
