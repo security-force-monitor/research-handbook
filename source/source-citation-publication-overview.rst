@@ -13,7 +13,7 @@ Sources which cannot be easily divided, such as web pages or news articles, only
 To reflect this important difference the data model captures information on these three interlinked, but distinct entities:
 
 - :ref:`Source`: Attributes about the source, such as its title, date of publication, URL.
-- :ref:`Citation`: Attribute about the specific part of a source, like the page number, archive version. 
+- :ref:`Citation`: Attributes about the specific part of a source, like the page number, archive version. 
 - :ref:`Publication`: Attributes about the organizations or accounts that publish the sources we use, such as their name and country, such as ``British Broadcasting Corporation`` or ``Amnesty International``.
 
 In the remainder of this article, we look at where our sources come from, and provide more detail about the logic of creating citations from sources.
@@ -29,7 +29,7 @@ When starting research on a country the Security Force Monitor first builds a sm
 - Civil society and human rights reporting on the country focused on allegations against security forces;
 - Academic and other scholarly research on security forces, which are often found via searches in WorldCat.org
 
-The information contained in these sources are structured into claims as part of the initial research process. Eventually, creating these claims informs the next stage of research.
+The information contained in these sources is structured into claims as part of the initial research process. Eventually, creating these claims informs the next stage of research.
 
 For the next stage of research, priorities are identified and defined based on gaps in the dataset. Expanded research often relies on keywords from the :ref:`unit:names:assertion` and :ref:`person:names:assertion` fields. This next stage of research will find additional sources and publications for review and extraction, further building the source list. This process can then be repeated as needed to further expand the dataset.
 
@@ -39,9 +39,9 @@ Citing a source
 
 Citations are a flexible device that enables us to reference precisely the material that we have used to support the information in a claim.
 
-A citation directs us to a particular part of a source as evidence for a information a claim - it's much like a citation in an academic paper. This could be material from a specific page in the source; it could also be a specific archive snapshot of a page, as the content of a webpage can sometimes change over time even though its basic identifying data will not. In this way, a single source can be cited in multiple ways.
+A citation directs us to a particular part of a source that evidences the claim - it's much like a citation in an academic paper. This could be material from a specific page in the source; it could also be a specific archive snapshot of a page, as the content of a webpage can sometimes change over time even though its basic identifying data will not. In this way, a single source can be cited in multiple ways.
 
-There are seven ways to "trigger" a citation of a specific source, taking in account the source's media type:
+There are seven ways to "trigger" a citation of a specific source, taking into account the source's media type:
 
 - ``archive``: an archive snapshot of the source.
 - ``page``: a page or range of page in a document source like a book or report.
