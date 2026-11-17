@@ -811,7 +811,7 @@ n/a - proposed
 Guidance on use
 ~~~~~~~~~~~~~~~
 
-Values for this field are chosen from the list of ISO 4217-1 codes, which can be found `on the ISO website <https://www.iso.org/iso-4217-currency-codes.html>`_.
+Values for this field are chosen from the list of ISO 4217 codes, which can be found `on the ISO website <https://www.iso.org/iso-4217-currency-codes.html>`_.
 
 
 first_precise:range
