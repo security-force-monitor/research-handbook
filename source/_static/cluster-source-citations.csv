@@ -6,5 +6,5 @@ Attribute label , Status , Data type , Key name
 `source:access_point_type` , required , string , ``:citation/type``
 `source:access_point_trigger` , optional , string , ``:citation/trigger``
 `source:accessed_timestamp` , required , string , ``:citation/accessed-at``
-`source:archive_url` , required , string , ``:citation/archive-url``
-`source:archive_timestamp` , required , string , ``:citation/archived-at``
+`source:archive_url` , optional , string , ``:citation/archive-url``
+`source:archive_timestamp` , optional , string , ``:citation/archived-at``
