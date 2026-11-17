@@ -42,7 +42,7 @@ Single value, from list
 Status
 ~~~~~~
 
-This attribute is optional.
+This attribute is required.
 
 Key name
 ~~~~~~~~
