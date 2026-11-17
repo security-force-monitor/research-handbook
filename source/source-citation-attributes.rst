@@ -268,7 +268,7 @@ Date formatted as``YYYY-MM-DD``
 Status
 ~~~~~~
 
-This attribute is optional.
+This attribute is required.
 
 Key name
 ~~~~~~~~
