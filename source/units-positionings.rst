@@ -395,7 +395,13 @@ Guidance on use
 This field defines the relationship between a unit and a :ref:`location`. The Staff Researcher must choose one of the two options below:
 
  - ``site``: the :ref:`location` describes a "site" at which the unit is based.
- - ``aoo``: the :ref:`location` describes a place (usually an administrative area), where the unit is known to have conducted operations or has territorial jurisdiction. When the ``aoo`` is a specific point, such as an intersection or a town (villages, towns and other populated places are usually represented as a point in most gazetteers), then the smallest/lowest level encompassing administrative area should also be entered as a separate claim using the same citation. This is done to capture that when a :ref:`unit` is reported to have conducted an operation in a specific place (represented by a point or small polygon), it was by its very nature was operating the area around the point or small polygon. If the :ref:`location` is drawn from UN Office for the Coordination of Humanitarian Affairs (OCHA) the researcher should use a :ref:`location` with a :ref:`location:admin_level:qa` of ``3`` or ``4``. OpenStreetMaps has much more variance in administrative levels for countries, so if the :ref:`location` is drawn from OpenStreetMap then the researcher would usually use a :ref:`location` with a :ref:`location:admin_level:qa` of ``6`` or lower.
+ - ``aoo``: the :ref:`location` describes a place (usually an administrative area), where the unit is known to have conducted operations or has territorial jurisdiction. When the ``aoo`` is a specific point, such as an intersection or a town (villages, towns and other populated places are usually represented as a point in most gazetteers), then the smallest/lowest level encompassing administrative area should also be entered as a separate claim using the same citation. This is done to capture that when a :ref:`unit` is reported to have conducted an operation in a specific place (represented by a point or small polygon), such an operation, by its very nature, means operating the area around the "point" of the town or village. 
+
+The specifics of this "smallest/lowest level encompassing administrative area" will vary country to country. Generally, the following should be used:
+
+ - :ref:`location:admin_level:qa` of ``3`` or ``4`` if :ref:`location` is drawn from UN Office for the Coordination of Humanitarian Affairs (OCHA)
+ - :ref:`location:admin_level:qa` of ``6`` or lower if :ref:`location` is drawn from OpenStreetMap
+
 
 
 positioning:base_names:assertion
