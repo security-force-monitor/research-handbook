@@ -274,7 +274,7 @@ If a unit undergoes a change in name, that unit should be treated as a separate,
 
 .. admonition:: Example
 
-    A citation establishes that a :ref:`unit`, named the ``Tiger Forces`` in Syria were renamed the ``25 Anti-Terrorism Division`` in 2019. The division continued to serve with the same general functions as before, and continued to be commanded by the same person. However, because a citation clearly evidenced that there had been a change in the name of the :ref:`unit`, the ``25 Anti-Terrorism Division`` should be treated as a distinct :ref:`unit` with a separate ``about_entity:ref:claim`` from the ``Tiger Forces``.
+    A citation establishes that a :ref:`unit`, named the ``Tiger Forces`` in Syria was renamed the ``25 Anti-Terrorism Division`` in 2019. The division continued to serve with the same general functions as before, and continued to be commanded by the same person. However, because a citation clearly evidenced that there had been a change in the name of the :ref:`unit`, the ``25 Anti-Terrorism Division`` should be treated as a distinct :ref:`unit` with a separate ``about_entity:ref:claim`` from the ``Tiger Forces``.
 
 
 about_entity:name:qa
