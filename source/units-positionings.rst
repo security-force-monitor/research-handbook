@@ -397,7 +397,7 @@ This field defines the relationship between a unit and a :ref:`location`. The St
  - ``site``: the :ref:`location` describes a "site" at which the unit is based.
  - ``aoo``: the :ref:`location` describes a place (usually an administrative area), where the unit is known to have conducted operations or has territorial jurisdiction. When the ``aoo`` is a specific point, such as an intersection or a town (villages, towns and other populated places are usually represented as a point in most gazetteers), then the smallest/lowest level encompassing administrative area should also be entered as a separate claim using the same citation. This is done to capture that when a :ref:`unit` is reported to have conducted an operation in a specific place (represented by a point or small polygon), such an operation, by its very nature, means operating in the area around the "point" of the town or village. 
 
-The specifics of this "smallest/lowest level encompassing administrative area" variy from country to country. Generally, the following should be used:
+The specifics of this "smallest/lowest level encompassing administrative area" vary from country to country. Generally, the following should be used:
 
  - :ref:`location:admin_level:qa` of ``3`` or ``4`` if :ref:`location` is drawn from UN Office for the Coordination of Humanitarian Affairs (OCHA). This means the :ref:`origin:location` would be ``ocha``.
  - :ref:`location:admin_level:qa` of ``6`` or lower if :ref:`location` is drawn from OpenStreetMap (OSM). This means the :ref:`origin:location` would be ``osm``.
